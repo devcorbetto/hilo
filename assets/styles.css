@@ -186,6 +186,14 @@ h3.card__heading ,
   text-align:center;
 }
 
+.banner-subtitle,
+{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align:center;
+}
+
 .richtext-legend-italic{
   font-style: italic;
   font-size: 20px;
@@ -228,13 +236,7 @@ h3.card__heading ,
 
 /* página contact*/
 
-.contact-banner-subtitle,
-{
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  text-align:center;
-}
+
 
 .contact-form-inputs{
   border-radius: 9px;
