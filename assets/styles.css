@@ -249,6 +249,15 @@ h3.card__heading ,
   text-align:left;
 }
 
+.contact-form-btn{
+  font-size: 25px;
+  line-height: 30px;
+  background: #E9C9CA;
+  text-align:center;
+  border: 3px solid #E9C9CA;
+  color: #575756;
+  border-radius: 9px;  
+}
 
 
 
