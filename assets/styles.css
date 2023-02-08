@@ -177,7 +177,7 @@ h3.card__heading ,
 
 
 
-/* Heading global de banner de páginas internas*/
+/* páginas boutique y lamarque*/
 
 .banner-heading{
   font-size: 50px;
@@ -210,14 +210,12 @@ h3.card__heading ,
 }
 
 
-
 .lateam-title{
   font-size: 30px;
   line-height: 37px;
   text-align:center;
   font-weight: 500;
 }
-
 
 .lateam-paragraph{
   font-size: 25px;
@@ -226,7 +224,30 @@ h3.card__heading ,
   font-weight: 400;
 }
 
+/* página contact*/
 
+.contact-banner-subtitle,
+{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align:center;
+}
+
+.contact-form-inputs{
+  border-radius: 9px;
+  border: solid 1px #E9C9CA;
+  background: #FFFFFF;
+  color: #575756;
+}
+
+.contact-form-checklist-font,
+{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align:left;
+}
 
 
 
