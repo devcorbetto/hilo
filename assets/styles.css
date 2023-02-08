@@ -6,7 +6,7 @@ h2.rich-text__heading.rte,
 .rich-text-titulo1 {
   text-align: center;
   font-size:40px;
-  font-weight:600;
+  font-weight:700;
 letter-spacing: 0px;
 color: #575756;
 opacity: 1;
@@ -47,7 +47,7 @@ section newsletter section-news
   font-size: 40px;
   text-align: center;
   line-height: 49px;
-  font-weight: 500;
+  font-weight: 600;
       width: 100%;
 }
 
@@ -60,13 +60,13 @@ h3.card__heading ,
 {
   font-size: 30px;
   line-height: 37px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .multicolumn-column-title {
   font-size: 25px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 
@@ -91,7 +91,7 @@ h3.card__heading ,
   font-size: 25px;
   text-align: left;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
  
 }
 
@@ -140,13 +140,13 @@ h3.card__heading ,
 {
   font-size: 35px;
   line-height: 43px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: left;
 }
 .multi-testimonials h3,
 .testimonial-name{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
   text-align: center;
 }
@@ -164,7 +164,7 @@ h3.card__heading ,
 .footer-title{
   font-size: 35px;
   line-height: 43px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 
@@ -183,7 +183,7 @@ h3.card__heading ,
 .banner-heading{
   font-size: 50px;
   line-height: 61px;
-  font-weight:500;
+  font-weight:600;
   text-align:center;
 }
 
@@ -206,7 +206,7 @@ h3.card__heading ,
 .hero-slideshow-title{
     font-size: 50px;
   line-height: 61px;
-  font-weight:500;
+  font-weight:600;
   text-align:left;
 }
 
@@ -223,7 +223,7 @@ h3.card__heading ,
   font-size: 30px;
   line-height: 37px;
   text-align:center;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .lateam-paragraph{
@@ -265,7 +265,7 @@ h3.card__heading ,
   border: 3px solid #E9C9CA;
   color: #575756;
   border-radius: 9px;  
-  font-weight: 500;
+  font-weight: 600;
 }
 
 
@@ -276,13 +276,13 @@ h3.card__heading ,
 {
   font-size: 35px;
   line-height: 43px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: left;
 }
 
 .faq-tabs-tittle{
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
  
 }
