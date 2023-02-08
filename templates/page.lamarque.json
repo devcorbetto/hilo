@@ -1,1 +1,319 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"0236d6ea-5ed1-4a13-a5e4-ef298af307e0":{"type":"slideshow","blocks":{"template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0":{"type":"slide","settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-left","show_text_box":true,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}},"template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-1":{"type":"slide","disabled":true,"settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0","template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-1"],"settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"06985fef-f561-411b-9d86-7c633b95f399":{"type":"rich-text","blocks":{"template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","heading_size":"h1"}},"template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}}},"block_order":["template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0","template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"d3243599-dd4d-4fca-8067-0a9f9fa52b95":{"type":"image-with-text","blocks":{"template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-2":{"type":"button","settings":{"button_label":"Button label","button_link":""}}},"block_order":["template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0","template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1","template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-2"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"c01e3c33-97c4-4c6d-9f30-dab971e57b49":{"type":"rich-text","blocks":{"template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-0":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","heading_size":"h1"}},"template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-2":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-0","template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-1","template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"5e1a504a-e19c-4615-9c2d-a397a47aee6b":{"type":"multicolumn","blocks":{"template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0","template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1"],"settings":{"title":"Multicolumn","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":2,"column_alignment":"left","background_style":"primary","button_label":"Button label","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"2a6bd39d-2338-4402-8e50-7d5061451bdf":{"type":"multicolumn","blocks":{"template--17779856146727__2a6bd39d-2338-4402-8e50-7d5061451bdf-1675644894e5f0b6b6-0":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--17779856146727__2a6bd39d-2338-4402-8e50-7d5061451bdf-1675644894e5f0b6b6-1":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["template--17779856146727__2a6bd39d-2338-4402-8e50-7d5061451bdf-1675644894e5f0b6b6-0","template--17779856146727__2a6bd39d-2338-4402-8e50-7d5061451bdf-1675644894e5f0b6b6-1"],"settings":{"title":"Multicolumn","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":2,"column_alignment":"left","background_style":"none","button_label":"Button label","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"1edd166c-9532-49eb-b7b3-cda674a02113":{"type":"rich-text","blocks":{"template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","heading_size":"h1"}},"template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-2":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0","template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1","template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}}},"order":["main","0236d6ea-5ed1-4a13-a5e4-ef298af307e0","06985fef-f561-411b-9d86-7c633b95f399","d3243599-dd4d-4fca-8067-0a9f9fa52b95","c01e3c33-97c4-4c6d-9f30-dab971e57b49","5e1a504a-e19c-4615-9c2d-a397a47aee6b","2a6bd39d-2338-4402-8e50-7d5061451bdf","1edd166c-9532-49eb-b7b3-cda674a02113"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "0236d6ea-5ed1-4a13-a5e4-ef298af307e0": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "L'OBJECTIF D'HILO",
+            "heading_size": "h1",
+            "subheading": "Proposer des soins personnalisés et naturels qui s'adaptent à toutes les peaux tout au long de la vie.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "06985fef-f561-411b-9d86-7c633b95f399": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HILO STORY<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Îlot [n.m] : petite île sur laquelle le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
+          }
+        },
+        "94392006-51f7-46cf-bc97-321db9fd9605": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Slogan<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0",
+        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1",
+        "94392006-51f7-46cf-bc97-321db9fd9605"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d3243599-dd4d-4fca-8067-0a9f9fa52b95": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA NAISSANCE D'HILO",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous c'est Elise et Margaux, les fondatrices d'Hilo !<\/p><p> Nous avons commencé à fabriquer nos cosmétiques maison car nous ne trouvions pas de soins adaptés à notre peau et à ses besoins. Gros hic : cela constituait un énorme gaspillage de plastique et de matières premières. <\/p><p>Alors, on a créé Hilo, la marque de cosmétiques naturels et personnalisables s’adaptant à toutes les peaux, tout au long de la vie. <\/p><p>Notre innovation, ce sont les capsules Hilo dans lesquelles vos actifs sont pré-dosées. Ces gélules végétales sont biodégradables et compostables.<\/p><p> Pas de déchet ni de gaspillage, vous ne gardez que l’essentiel, votre soin !<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0",
+        "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "53490372-be18-400d-8691-993c8353747c": {
+      "type": "image-with-text",
+      "blocks": {
+        "13895490-255d-48af-b00b-bdd84f4d1c35": {
+          "type": "heading",
+          "settings": {
+            "heading": "LES VALEURS DE LA MARQUE",
+            "heading_size": "h1"
+          }
+        },
+        "6184607f-c260-4cd0-82b3-dbe5d76be10f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L’inclusivité : Selon nous, il existe autant de types de beauté qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. <\/p><p>Le naturel : Convaincues que la nature a le meilleur à nous offrir, nous souhaitons que chacun puisse facilement créer ses soins 100% naturels et personnalisés. <\/p><p>La transparence : Persuadées que la composition devrait être plus transparente, nous voulons vous donner le contrôle sur les ingrédients des produits de beautés. <\/p><p>L’écoresponsabilité : Conscientes de notre impact environnemental, nous avons adopté des modes de vies slows et nous voulons vous offrir des cosmétiques plus responsables et durables.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "13895490-255d-48af-b00b-bdd84f4d1c35",
+        "6184607f-c260-4cd0-82b3-dbe5d76be10f"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c01e3c33-97c4-4c6d-9f30-dab971e57b49": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>AU FIL DE L'HILO<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "16806ba5-054c-4e53-8395-6af42c8519aa": {
+          "type": "image",
+          "settings": {
+            "customcss": "",
+            "image_picker": "shopify:\/\/shop_images\/image_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-0",
+        "16806ba5-054c-4e53-8395-6af42c8519aa"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5e1a504a-e19c-4615-9c2d-a397a47aee6b": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/pngegg.png",
+            "title": "Elise 🏃‍♀",
+            "text": "<p>Co-fondatrice et Directrice générale <\/p><p>Elle supervise les opérations générales d'Hilo et plus particulièrement les parties marketing, commerciales, distribution et ressources humaines. Son mantra : \"Impossible n'est pas Hilo\" Son match du moment : Onagre, Argan et Noyaux d'abricot<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/pngegg.png",
+            "title": "Margaux ✈",
+            "text": "<p>Co-Fondatrice et Présidente<\/p><p> Elle supervise les opérations générales d'Hilo et plus particulièrement les parties communication, développement produit et financières. Son mantra : \"You only live once\" Son match du moment : Carotte, onagre et amande douce<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2e3950c0-558b-4d13-aa7e-627c7da0b782": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/pngegg.png",
+            "title": "Anaëlle 🧘‍♀️",
+            "text": "<p>Chargée de Marketing <\/p><p>Elle s'occupe de la stratégie marketing digital, de l'expérience client et de la gestion du site web. Son mantra : \"Une journée sans rire est une journée de perdue !\" Son match du moment : Noisette, argan et onagre<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "414ffa1c-76df-4c14-a436-646a7cd174ab": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/pngegg.png",
+            "title": "Léo🌻",
+            "text": "<p>Chargé de communication<\/p><p> Il s'occupe de la stratégie de communication, de la création de contenu et de la gestion des réseaux sociaux. Son mantra : \"Si vous voulez que la vie vous sourie, apportez lui votre bonne humeur\" Son match du moment : Amande douce, abricot et noisette<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0",
+        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1",
+        "2e3950c0-558b-4d13-aa7e-627c7da0b782",
+        "414ffa1c-76df-4c14-a436-646a7cd174ab"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "LA TEAM",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1edd166c-9532-49eb-b7b3-cda674a02113": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>VOUS SOUHAITEZ REJOINDRE LA TEAM ?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Retrouvez toutes nos offres d'emploi par ici 😊<\/p>"
+          }
+        },
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0",
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1",
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0236d6ea-5ed1-4a13-a5e4-ef298af307e0",
+    "06985fef-f561-411b-9d86-7c633b95f399",
+    "d3243599-dd4d-4fca-8067-0a9f9fa52b95",
+    "53490372-be18-400d-8691-993c8353747c",
+    "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
+    "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
+    "1edd166c-9532-49eb-b7b3-cda674a02113"
+  ]
+}
