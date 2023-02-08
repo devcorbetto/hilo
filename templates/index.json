@@ -1,1 +1,839 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Vos cosmétiques naturels et personnalisables !","heading_size":"h0"}},"text":{"type":"text","settings":{"text":"La juste dose d'innovation... Identifiez les besoins de votre peau grâce à notre diagnostic en ligne et créez votre soin sur-mesure.","text_style":"body"}},"button":{"type":"buttons","settings":{"button_label_1":"Je réalise mon diagnostic","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","text","button"],"settings":{"image":"shopify:\/\/shop_images\/scrunchies-on-orange-portrait.jpg","image_overlay_opacity":40,"image_height":"large","adapt_height_first_image":false,"desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"multicolumn":{"type":"multicolumn","blocks":{"column1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/conejo.png","title":"Personnalisé","text":"","link_label":"","link":""}},"column2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/conejo.png","title":"Naturel","text":"","link_label":"","link":""}},"column3":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/conejo.png","title":"Vegan","text":"","link_label":"","link":""}},"561448f3-c773-48e9-b2fe-a09fc3332a6f":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/conejo.png","title":"Anti-gaspi","text":"","link_label":"","link":""}},"e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/conejo.png","title":"Unique","text":"","link_label":"","link":""}}},"block_order":["column1","column2","column3","561448f3-c773-48e9-b2fe-a09fc3332a6f","e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae"],"settings":{"customcss":"multi-testimonials","title":"","heading_size":"h1","image_width":"third","image_ratio":"adapt","columns_desktop":5,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"colors_2","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"featured_collection":{"type":"featured-collection","settings":{"title":"VOUS ALLEZ LES ADORER","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"frontpage","products_to_show":3,"columns_desktop":3,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":true,"show_vendor":false,"show_rating":true,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":28,"padding_bottom":36}},"rich_text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"<p>COMMENT CA  MARCHE?<\/p>","customcss":"","heading_size":"h1"}},"3ab296e4-b17c-480d-a46d-c3daf638807a":{"type":"image","settings":{"customcss":"","image_picker":"shopify:\/\/shop_images\/gif.png"}},"text":{"type":"text","settings":{"customcss":"","text":"<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. Et voilà, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"}}},"block_order":["heading","3ab296e4-b17c-480d-a46d-c3daf638807a","text"],"settings":{"customcss":"rich-classic","desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":0}},"0eef25c6-efe9-4ff6-8735-db6a49ccb31f":{"type":"rich-text","blocks":{"template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0":{"type":"heading","settings":{"heading":"<p>LES CAPSULES D'ACTIF<\/p>","customcss":"","heading_size":"h1"}},"template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1":{"type":"text","settings":{"customcss":"","text":"<p>Les premières petites capsules éco-conçues pour personnaliser votre base de soin. Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau.<\/p>"}},"template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2":{"type":"button","disabled":true,"settings":{"customcss":"","button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0","template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1","template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2"],"settings":{"customcss":"rich-classic","desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"373a2a2c-c9d7-41f5-811e-35c4b559b257":{"type":"multicolumn","blocks":{"template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/item1.png","title":"Macérat Huileux de carotte","text":"","link_label":"","link":""}},"template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/item1.png","title":"Huile d'argan","text":"","link_label":"","link":""}},"template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/item1.png","title":"Huile de noyaux d'abricot","text":"","link_label":"","link":""}},"b5878615-e65d-412d-bc8d-a1354dbfbaff":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/item1.png","title":"Huile de noisette","text":"","link_label":"","link":""}},"2064b35d-5bc5-408e-8cbe-0ca21bd35612":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/item1.png","title":"Huile d'amande douce","text":"","link_label":"","link":""}},"d5535821-7ade-401a-b1c5-5fd456264dca":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/item1.png","title":"Huile d'onagre","text":"","link_label":"","link":""}}},"block_order":["template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0","template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-1","template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-2","b5878615-e65d-412d-bc8d-a1354dbfbaff","2064b35d-5bc5-408e-8cbe-0ca21bd35612","d5535821-7ade-401a-b1c5-5fd456264dca"],"settings":{"customcss":"multi-classic","title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":6,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"e7f127fd-cda8-46d1-b8d5-967ecedb7c20":{"type":"rich-text","blocks":{"template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-0":{"type":"heading","disabled":true,"settings":{"heading":"<p>Talk about your brand<\/p>","customcss":"","heading_size":"h1"}},"template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1":{"type":"text","settings":{"customcss":"","text":"<p>Pour trouver votre match parfait, réalisez votre diagnostic de peau.<\/p>"}},"template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2":{"type":"button","settings":{"customcss":"","button_label":"Je fais mon diagnostic","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}},"603ee4e7-f3db-47d8-aad3-a29a1ef8adaf":{"type":"caption","settings":{"customcss":"","caption":"Alors caps ou pas caps ?","text_style":"caption-with-letter-spacing","text_size":"medium"}}},"block_order":["template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-0","template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1","template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2","603ee4e7-f3db-47d8-aad3-a29a1ef8adaf"],"settings":{"customcss":"rich-classic","desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"120cbd86-6225-4213-9b1a-eefbf7d37db9":{"type":"rich-text","blocks":{"template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0":{"type":"heading","settings":{"heading":"<p>P-HILO-SOPHIE<\/p>","customcss":"","heading_size":"h1"}},"2d835b90-5ecd-45be-a0be-4fe51ad79673":{"type":"caption","settings":{"customcss":"","caption":"[...] akuna matata","text_style":"caption-with-letter-spacing","text_size":"medium"}},"template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1":{"type":"text","settings":{"customcss":"","text":"<p>Selon nous, il existe autant de types de peau qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. Nous avons donc créé Hilo afin de vous proposer une crème à votre image grâce à un principe de personnalisation innovant et anti-gaspi. Notre objectif est de vous proposer des soins naturels et personnalisables que vous pourrez adaptez à votre peau à chaque étape de votre vie.<\/p>"}},"template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2":{"type":"button","settings":{"customcss":"","button_label":"Je veux tout savoir","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0","2d835b90-5ecd-45be-a0be-4fe51ad79673","template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1","template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"],"settings":{"customcss":"rich-classic","desktop_content_position":"center","content_alignment":"center","color_scheme":"colors_3","full_width":true,"padding_top":40,"padding_bottom":52}},"6e118b26-48b9-4c18-8f3f-bc53dd963a4a":{"type":"multicolumn-slider","blocks":{"template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-0":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/person.png","title":"Les actifs du moment de Zoé","text":"<p>Peau terne, quelques imperfections et rougeurs<\/p>","link_label":"","link":""}},"template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/person.png","title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/person.png","title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-0","template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1","template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2"],"settings":{"customcss":"multi-slider","title":"LEUR MATCH PARFAIT","heading_size":"h1","image_width":"half","image_ratio":"portrait","columns_desktop":3,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"68550990-5f0d-4268-b2b8-67d04dd382f4":{"type":"multicolumn","blocks":{"template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/stars.png","title":"Marine","text":"<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…) Le fait que je puisse adapter ma crème à ces moments de la vie est génial.” Marine<\/p>","link_label":"","link":""}},"template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/stars.png","title":"Marine","text":"<p>Pair text with an image to focu“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. Enfin un soin qui répond réellement aux besoins de toutes les peaux.” Charlottes on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/stars.png","title":"Marine","text":"<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” Laurine<\/p>","link_label":"","link":""}}},"block_order":["template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0","template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1","template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2"],"settings":{"customcss":"multi-testimonials","title":"ILS LES ADORENT AUTANT QUE NOUS","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"none","button_label":"","button_link":"","color_scheme":"colors_4","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"e7b02f91-67dd-43fa-88ba-f3043f64f586":{"type":"multicolumn","blocks":{"template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-0":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/cuadro.png","title":"","text":"","link_label":"","link":""}},"template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/cuadro.png","title":"","text":"","link_label":"","link":""}},"template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/cuadro.png","title":"","text":"","link_label":"","link":""}},"ed1abb61-f0f1-4c56-a649-7d25b3fc7af2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/cuadro.png","title":"","text":"","link_label":"","link":""}},"b338b4b0-2017-470c-9177-1fcab4a63fed":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/cuadro.png","title":"","text":"","link_label":"","link":""}},"1fed07f6-b4b2-40ba-953d-8773f4239662":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/cuadro.png","title":"","text":"","link_label":"","link":""}}},"block_order":["template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-0","template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-1","template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-2","ed1abb61-f0f1-4c56-a649-7d25b3fc7af2","b338b4b0-2017-470c-9177-1fcab4a63fed","1fed07f6-b4b2-40ba-953d-8773f4239662"],"settings":{"customcss":"","title":"REJOIGNEZ LA HILO FAMILY","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":6,"column_alignment":"left","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"f52db200-881a-4cc4-8cee-315cec0b2421":{"type":"newsletter","blocks":{"template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-0":{"type":"heading","settings":{"heading":"LES NEWS D'HILO","heading_size":"h1"}},"template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1":{"type":"paragraph","settings":{"text":"<p><strong>De la bonne humeur dans votre boite mail !<\/strong><\/p><p><\/p><p>Ne ratez aucune actualités, astuces beautés ou petits mots d'amour d'Hilo en vous abonnant à la Newsletter.<\/p>"}},"template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2":{"type":"email_form","settings":{}}},"block_order":["template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-0","template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1","template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2"],"settings":{"customcss":"","color_scheme":"colors_5","full_width":true,"padding_top":40,"padding_bottom":52}},"5158f987-865b-484c-8777-3d325ff4b90f":{"type":"multicolumn","blocks":{"template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/logos.png","title":"","text":"","link_label":"","link":""}},"template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/logos.png","title":"","text":"","link_label":"","link":""}},"template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/logos.png","title":"","text":"","link_label":"","link":""}},"53daa4fc-e022-410b-b5db-25ba27542ff8":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/logos.png","title":"","text":"","link_label":"","link":""}},"30920895-a86e-46bb-9c51-c7d52b9572b3":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/logos.png","title":"","text":"","link_label":"","link":""}}},"block_order":["template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0","template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1","template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2","53daa4fc-e022-410b-b5db-25ba27542ff8","30920895-a86e-46bb-9c51-c7d52b9572b3"],"settings":{"customcss":"multi-logos","title":"ILS PARLENT D'HILO","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":5,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"8cf76421-6fa4-42cd-a954-23ae04a049ae":{"type":"multicolumn","blocks":{"template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/circulo.png","title":"Paiement sécurisé","text":"<p> par carte bancaire et paypal<\/p>","link_label":"","link":""}},"template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-1":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/circulo.png","title":"Livraison offerte","text":"<p>à partir de 49€ d'achat<\/p>","link_label":"","link":""}},"template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-2":{"type":"column","settings":{"customcss":"","image":"shopify:\/\/shop_images\/circulo.png","title":"Expérience client","text":"<p>unique<\/p>","link_label":"","link":""}}},"block_order":["template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0","template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-1","template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-2"],"settings":{"customcss":"multi-featured","title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"colors_6","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["image_banner","multicolumn","featured_collection","rich_text","0eef25c6-efe9-4ff6-8735-db6a49ccb31f","373a2a2c-c9d7-41f5-811e-35c4b559b257","e7f127fd-cda8-46d1-b8d5-967ecedb7c20","120cbd86-6225-4213-9b1a-eefbf7d37db9","6e118b26-48b9-4c18-8f3f-bc53dd963a4a","68550990-5f0d-4268-b2b8-67d04dd382f4","e7b02f91-67dd-43fa-88ba-f3043f64f586","f52db200-881a-4cc4-8cee-315cec0b2421","5158f987-865b-484c-8777-3d325ff4b90f","8cf76421-6fa4-42cd-a954-23ae04a049ae"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vos cosmétiques naturels et personnalisables !",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "La juste dose d'innovation... Identifiez les besoins de votre peau grâce à notre diagnostic en ligne et créez votre soin sur-mesure.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Je réalise mon diagnostic",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/producto.png",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Personnalisé",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Naturel",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Vegan",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "561448f3-c773-48e9-b2fe-a09fc3332a6f": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Anti-gaspi",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Unique",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3",
+        "561448f3-c773-48e9-b2fe-a09fc3332a6f",
+        "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae"
+      ],
+      "settings": {
+        "customcss": "multi-testimonials",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "VOUS ALLEZ LES ADORER",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT CA  MARCHE?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "3ab296e4-b17c-480d-a46d-c3daf638807a": {
+          "type": "image",
+          "settings": {
+            "customcss": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. Et voilà, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "3ab296e4-b17c-480d-a46d-c3daf638807a",
+        "text"
+      ],
+      "settings": {
+        "customcss": "rich-classic",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "0eef25c6-efe9-4ff6-8735-db6a49ccb31f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LES CAPSULES D'ACTIF<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Les premières petites capsules éco-conçues pour personnaliser votre base de soin. Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau.<\/p>"
+          }
+        },
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0",
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1",
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2"
+      ],
+      "settings": {
+        "customcss": "rich-classic",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Macérat Huileux de carotte",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Huile d'argan",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Huile de noyaux d'abricot",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b5878615-e65d-412d-bc8d-a1354dbfbaff": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Huile de noisette",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2064b35d-5bc5-408e-8cbe-0ca21bd35612": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Huile d'amande douce",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d5535821-7ade-401a-b1c5-5fd456264dca": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Huile d'onagre",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0",
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-1",
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-2",
+        "b5878615-e65d-412d-bc8d-a1354dbfbaff",
+        "2064b35d-5bc5-408e-8cbe-0ca21bd35612",
+        "d5535821-7ade-401a-b1c5-5fd456264dca"
+      ],
+      "settings": {
+        "customcss": "multi-classic",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e7f127fd-cda8-46d1-b8d5-967ecedb7c20": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Pour trouver votre match parfait, réalisez votre diagnostic de peau.<\/p>"
+          }
+        },
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Je fais mon diagnostic",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf": {
+          "type": "caption",
+          "settings": {
+            "customcss": "",
+            "caption": "Alors caps ou pas caps ?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-0",
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1",
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2",
+        "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf"
+      ],
+      "settings": {
+        "customcss": "rich-classic",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "120cbd86-6225-4213-9b1a-eefbf7d37db9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>P-HILO-SOPHIE<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "2d835b90-5ecd-45be-a0be-4fe51ad79673": {
+          "type": "caption",
+          "settings": {
+            "customcss": "",
+            "caption": "[...] akuna matata",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Selon nous, il existe autant de types de peau qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. Nous avons donc créé Hilo afin de vous proposer une crème à votre image grâce à un principe de personnalisation innovant et anti-gaspi. Notre objectif est de vous proposer des soins naturels et personnalisables que vous pourrez adaptez à votre peau à chaque étape de votre vie.<\/p>"
+          }
+        },
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Je veux tout savoir",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0",
+        "2d835b90-5ecd-45be-a0be-4fe51ad79673",
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
+      ],
+      "settings": {
+        "customcss": "rich-classic",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6e118b26-48b9-4c18-8f3f-bc53dd963a4a": {
+      "type": "multicolumn-slider",
+      "blocks": {
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Les actifs du moment de Zoé",
+            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-0",
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1",
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2"
+      ],
+      "settings": {
+        "customcss": "multi-slider",
+        "title": "LEUR MATCH PARFAIT",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "68550990-5f0d-4268-b2b8-67d04dd382f4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Marine",
+            "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…) Le fait que je puisse adapter ma crème à ces moments de la vie est génial.” Marine<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Marine",
+            "text": "<p>Pair text with an image to focu“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. Enfin un soin qui répond réellement aux besoins de toutes les peaux.” Charlottes on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Marine",
+            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” Laurine<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0",
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1",
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2"
+      ],
+      "settings": {
+        "customcss": "multi-testimonials",
+        "title": "ILS LES ADORENT AUTANT QUE NOUS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e7b02f91-67dd-43fa-88ba-f3043f64f586": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ed1abb61-f0f1-4c56-a649-7d25b3fc7af2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b338b4b0-2017-470c-9177-1fcab4a63fed": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1fed07f6-b4b2-40ba-953d-8773f4239662": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-0",
+        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-1",
+        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-2",
+        "ed1abb61-f0f1-4c56-a649-7d25b3fc7af2",
+        "b338b4b0-2017-470c-9177-1fcab4a63fed",
+        "1fed07f6-b4b2-40ba-953d-8773f4239662"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "REJOIGNEZ LA HILO FAMILY",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f52db200-881a-4cc4-8cee-315cec0b2421": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LES NEWS D'HILO",
+            "heading_size": "h1"
+          }
+        },
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>De la bonne humeur dans votre boite mail !<\/strong><\/p><p><\/p><p>Ne ratez aucune actualités, astuces beautés ou petits mots d'amour d'Hilo en vous abonnant à la Newsletter.<\/p>"
+          }
+        },
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-0",
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1",
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "color_scheme": "colors_5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5158f987-865b-484c-8777-3d325ff4b90f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "53daa4fc-e022-410b-b5db-25ba27542ff8": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "30920895-a86e-46bb-9c51-c7d52b9572b3": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0",
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1",
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
+        "53daa4fc-e022-410b-b5db-25ba27542ff8",
+        "30920895-a86e-46bb-9c51-c7d52b9572b3"
+      ],
+      "settings": {
+        "customcss": "multi-logos",
+        "title": "ILS PARLENT D'HILO",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8cf76421-6fa4-42cd-a954-23ae04a049ae": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Paiement sécurisé",
+            "text": "<p> par carte bancaire et paypal<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Livraison offerte",
+            "text": "<p>à partir de 49€ d'achat<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Expérience client",
+            "text": "<p>unique<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0",
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-1",
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-2"
+      ],
+      "settings": {
+        "customcss": "multi-featured",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_6",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "multicolumn",
+    "featured_collection",
+    "rich_text",
+    "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
+    "373a2a2c-c9d7-41f5-811e-35c4b559b257",
+    "e7f127fd-cda8-46d1-b8d5-967ecedb7c20",
+    "120cbd86-6225-4213-9b1a-eefbf7d37db9",
+    "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
+    "68550990-5f0d-4268-b2b8-67d04dd382f4",
+    "e7b02f91-67dd-43fa-88ba-f3043f64f586",
+    "f52db200-881a-4cc4-8cee-315cec0b2421",
+    "5158f987-865b-484c-8777-3d325ff4b90f",
+    "8cf76421-6fa4-42cd-a954-23ae04a049ae"
+  ]
+}
