@@ -239,6 +239,9 @@ h3.card__heading ,
   border: solid 1px #E9C9CA;
   background: #FFFFFF;
   color: #575756;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
 }
 
 .contact-form-checklist-font,
