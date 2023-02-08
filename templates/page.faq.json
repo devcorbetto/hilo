@@ -1,1 +1,291 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"53851c50-8ecd-4bc1-9e9b-0b329981925b":{"type":"rich-text","blocks":{"template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","heading_size":"h1"}},"template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0","template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1","template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"accent-2","full_width":true,"padding_top":40,"padding_bottom":52}},"14c0a971-70b2-442f-ac7b-f2be54d60278":{"type":"collapsible-content","blocks":{"template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"<p>Collapsibl content<\/p>","page":""}},"template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}}},"block_order":["template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0","template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1","template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2","template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3"],"settings":{"caption":"","heading":"Collapsible content","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","open_first_collapsible_row":true,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}},"975b805c-7fb1-4c16-a406-4f8bb87bd369":{"type":"collapsible-content","blocks":{"template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-1":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}}},"block_order":["template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0","template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-1","template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2","template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3"],"settings":{"caption":"","heading":"Collapsible content","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}},"faad58b8-e34c-479b-b7ba-cd01246a49bb":{"type":"collapsible-content","blocks":{"template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2":{"type":"collapsible_row","disabled":true,"settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3":{"type":"collapsible_row","disabled":true,"settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}}},"block_order":["template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0","template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1","template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2","template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3"],"settings":{"caption":"","heading":"Collapsible content","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}}},"order":["main","53851c50-8ecd-4bc1-9e9b-0b329981925b","14c0a971-70b2-442f-ac7b-f2be54d60278","975b805c-7fb1-4c16-a406-4f8bb87bd369","faad58b8-e34c-479b-b7ba-cd01246a49bb"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "53851c50-8ecd-4bc1-9e9b-0b329981925b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FAQ<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Retrouvez ici les réponses à vos questions les plus fréquentes.<\/p>"
+          }
+        },
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1",
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "14c0a971-70b2-442f-ac7b-f2be54d60278": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment savoir quelles huiles végétales choisir pour ma peau ?",
+            "icon": "none",
+            "row_content": "<p>Chaque huile végétale est connue pour des propriétés spécifiques pour la peau. Hilo vous propose de réaliser un diagnostic en ligne pour vous aider à déterminer les besoins de votre peau et trouver les huiles adaptées.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits sont-ils adaptés aux hommes ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits sont-ils vegan ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps peuvent se conserver les produits Hilo ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits Hilo sont-ils adaptés aux femmes enceintes ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Où puis-je trouver les produits Hilo ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3",
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47",
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "LES PRODUITS",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "975b805c-7fb1-4c16-a406-4f8bb87bd369": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je être livré en dehors de la France métropolitaine ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les délais de livraison ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je modifier l'adresse de livraison ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le paiement est-il sécurisé ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "f71421b0-7f91-4efb-b4de-41fbffe71aea": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les moyens de paiement disponible sur le site ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "3849776c-a13f-4fa4-9e99-90a24137ee8b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je retourner un produit qui ne me conviendrait pas ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0",
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-1",
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2",
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3",
+        "f71421b0-7f91-4efb-b4de-41fbffe71aea",
+        "3849776c-a13f-4fa4-9e99-90a24137ee8b"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "LIVRAISON ET PAIEMENT",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faad58b8-e34c-479b-b7ba-cd01246a49bb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment contacter l'équipe Hilo ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment suivre les actualités ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0",
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1",
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2",
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "HILO",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "53851c50-8ecd-4bc1-9e9b-0b329981925b",
+    "14c0a971-70b2-442f-ac7b-f2be54d60278",
+    "975b805c-7fb1-4c16-a406-4f8bb87bd369",
+    "faad58b8-e34c-479b-b7ba-cd01246a49bb"
+  ]
+}
