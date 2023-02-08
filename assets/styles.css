@@ -1,0 +1,257 @@
+/*.title-wrapper--no-top-margin>.title ,
+h2.rich-text__heading.rte,
+
+
+.multi-columns-titulo1,
+.rich-text-titulo1 {
+  text-align: center;
+  font-size:40px;
+  font-weight:600;
+letter-spacing: 0px;
+color: #575756;
+opacity: 1;
+}
+
+.multi-columns-texto,
+.rich-text-texto {
+  font-size:25px;
+  line-height:30px;
+  text-align: center;
+}
+
+
+.multi-columns-btn,
+.rich-text-btn {
+    font-size:25px;
+  line-height:30px;
+    text-align: center;
+}
+
+*/
+/* settings.customcss 
+Estilos: 
+Multi Column Classic  multi-classic
+Rich Text Classic   rich-classic
+  Multi Column char  multi-char
+Multi Column Featured  multi-featured
+Multi Column Slider multi-slider
+Multi Column testimonials  multi-testimonials
+section newsletter section-news
+*/
+
+
+.multicolumn .title,
+.collection__title .title,
+.rich-text__heading,
+.rich-text-title {
+  font-size: 40px;
+  text-align: center;
+  line-height: 49px;
+  font-weight: 500;
+      width: 100%;
+}
+
+
+h3.card__heading ,
+.multi-featured h3,
+.multi-column-title,
+.products-row-title
+{
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 500;
+}
+
+.multicolumn-column-title {
+    font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+
+.products-legend,
+.products-reviews-count {
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.products-paragraph {
+  font-size: 20px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+  
+}
+.card-information>.price,
+.products-price
+.multicolumn-featured-title{
+  font-size: 25px;
+  text-align: left;
+  line-height: 30px;
+  font-weight: 500;
+ 
+}
+
+.products-addtocart-btn{
+  background-color: #C2C2DE;
+  border-radius: 9px;
+  border: 3px solid #C2C2DE;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+.rich-text__text p,
+.rich-text-paragraph,
+.multicolumn-featured-paragraph{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.rich-text-btn{
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  border: 3px solid #575756;
+  font-size: 25px;
+  text-align: center;
+  color: #575756;
+  line-height: 30px;
+}
+
+.multi-testimonials .rte,
+.rich-text-legend,
+.testimonial-paragraph{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.slider-title,
+.newsletter-subtitle
+{
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 500;
+  text-align: left;
+}
+.multi-testimonials h3,
+.testimonial-name{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+.multi-testimonials 
+.multicolumn-card__info {
+ display: flex;
+  row-gap:30px;
+    flex-direction: column-reverse;
+  text-align:center;
+}
+
+
+
+
+.footer-title{
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 500;
+}
+
+
+.footer-links{
+  text-decoration: underline;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: left;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Multi slider*/
+.multi-slider .multicolumn-card.content-container {
+  display:flex;
+  padding:20px 20px;
+  background:#EFD1BF;
+  column-gap:40px;
+  text-align:left;
+}
+.multi-slider .multicolumn-card.content-container  > div:first-child {
+  width:25%;
+}
+.multi-slider .multicolumn-card.content-container  > div:last-child {
+  width:75%;
+}
+
+
+
+
+/*
+Montserrat, SemiBold - 50px
+Familia de fuentes: Montserrat
+Grosor de fuente: SemiBold
+Tamaño de fuente: 50px
+Color: #575756
+Espaciado entre caracteres: 0
+Interlineado: 61
+
+Montserrat, Regular - 25px
+Regular - 25px, #575756
+
+Montserrat, Regular - 25px
+Regular - 25px, #575756
+
+Montserrat, SemiBold - 35px
+SemiBold - 35px, #575756
+
+Montserrat, Bold - 25px
+Bold - 25px, #575756
+
+Montserrat, SemiBold - 25px
+SemiBold - 25px, #575756
+
+Montserrat, SemiBold - 40px
+SemiBold - 40px, #575756
+
+Montserrat, Italic - 20px
+Italic - 20px, #575756
+
+Montserrat, Regular - 20px
+Regular - 20px, #575756
+
+Montserrat, Regular - 14px
+Regular - 14px, #575756
+
+Montserrat, SemiBold - 30px
+SemiBold - 30px, #575756
+
+Montserrat, Bold - 25px
+Bold - 25px, #FFFFFF
+
+Montserrat, SemiBold - 25px
+SemiBold - 25px, #EFD1BF
+
+*/
