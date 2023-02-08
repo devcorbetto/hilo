@@ -55,6 +55,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/conejo.png",
             "title": "Personnalisé",
             "text": "",
             "link_label": "",
@@ -65,6 +66,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/conejo.png",
             "title": "Naturel",
             "text": "",
             "link_label": "",
@@ -75,6 +77,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/conejo.png",
             "title": "Vegan",
             "text": "",
             "link_label": "",
@@ -85,6 +88,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/conejo.png",
             "title": "Anti-gaspi",
             "text": "",
             "link_label": "",
@@ -95,6 +99,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/conejo.png",
             "title": "Unique",
             "text": "",
             "link_label": "",
