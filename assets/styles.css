@@ -55,7 +55,8 @@ section newsletter section-news
 h3.card__heading ,
 .multi-featured h3,
 .multi-column-title,
-.products-row-title
+.products-row-title,
+
 {
   font-size: 30px;
   line-height: 37px;
@@ -63,7 +64,7 @@ h3.card__heading ,
 }
 
 .multicolumn-column-title {
-    font-size: 25px;
+  font-size: 25px;
   line-height: 30px;
   font-weight: 500;
 }
@@ -210,8 +211,20 @@ h3.card__heading ,
 
 
 
+.lateam-title{
+  font-size: 30px;
+  line-height: 37px;
+  text-align:center;
+  font-weight: 500;
+}
 
 
+.lateam-paragraph{
+  font-size: 25px;
+  line-height: 30px;
+  text-align:center;
+  font-weight: 400;
+}
 
 
 
