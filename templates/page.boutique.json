@@ -1,1 +1,305 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"4afd5d1d-8bfa-4ef7-9662-972ba5a2303a":{"type":"rich-text","blocks":{"template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0":{"type":"heading","settings":{"heading":"<p>SOINS VISAGES NATURELS ET SUR-MESURE<\/p>","customcss_title":"","heading_size":"h1"}},"template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1":{"type":"text","settings":{"text":"<p>Hilo vous propose des soins visage naturels et personnalisables chez vous grâce aux petites capsules d'actifs à ajouter dans votre base de soin.<\/p><p> Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"}},"template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0","template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1","template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"colors_7","full_width":true,"padding_top":40,"padding_bottom":52}},"d1729d12-e0e2-4aff-abd1-a485a8f5a0ae":{"type":"featured-collection","settings":{"title":"Featured collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"frontpage","products_to_show":3,"columns_desktop":3,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"58e3e5a0-a50f-4645-98f0-b076aa307a6a":{"type":"rich-text","blocks":{"template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","customcss_title":"","heading_size":"h1"}},"template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"64975ab8-962a-48ff-bbec-1129a17db732":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0","template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1","64975ab8-962a-48ff-bbec-1129a17db732"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"0390fa47-3651-4227-ab29-9dfcfa382c60":{"type":"rich-text","blocks":{"template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0":{"type":"heading","settings":{"heading":"<p>Talk about your brand<\/p>","customcss_title":"","heading_size":"h1"}},"15b1c2cc-9c8f-43b2-9b0f-1ff970687fca":{"type":"caption","settings":{"caption":"Add a tagline","text_style":"caption-with-letter-spacing","text_size":"medium"}},"template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0","15b1c2cc-9c8f-43b2-9b0f-1ff970687fca","template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1","template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"e442e363-5752-4e61-8ee8-ad266a5f317d":{"type":"multicolumn","blocks":{"template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-0":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-1":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-2":{"type":"column","settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"a70b6736-a6e6-4369-bc34-4b31c74e4d7a":{"type":"column","disabled":true,"settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"0dc5f398-c2ef-42b7-b8a2-6992f6ae048d":{"type":"column","disabled":true,"settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"39f1b11f-80a7-4920-b2f8-bea1b8d2056d":{"type":"column","disabled":true,"settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-0","template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-1","template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-2","a70b6736-a6e6-4369-bc34-4b31c74e4d7a","0dc5f398-c2ef-42b7-b8a2-6992f6ae048d","39f1b11f-80a7-4920-b2f8-bea1b8d2056d"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"2e3183b2-7294-4e95-92fb-939e95fe53c8":{"type":"rich-text","disabled":true,"blocks":{"template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-1":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-2":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}},"91ee8c72-0953-4424-b2d9-62d3abf4503c":{"type":"caption","settings":{"caption":"Add a tagline","text_style":"caption-with-letter-spacing","text_size":"medium"}}},"block_order":["template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-1","template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-2","91ee8c72-0953-4424-b2d9-62d3abf4503c"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":100,"padding_bottom":52}}},"order":["main","4afd5d1d-8bfa-4ef7-9662-972ba5a2303a","d1729d12-e0e2-4aff-abd1-a485a8f5a0ae","58e3e5a0-a50f-4645-98f0-b076aa307a6a","0390fa47-3651-4227-ab29-9dfcfa382c60","e442e363-5752-4e61-8ee8-ad266a5f317d","2e3183b2-7294-4e95-92fb-939e95fe53c8"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SOINS VISAGES NATURELS ET SUR-MESURE<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Hilo vous propose des soins visage naturels et personnalisables chez vous grâce aux petites capsules d'actifs à ajouter dans votre base de soin. <\/p><p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
+          }
+        },
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0",
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1",
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_7",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "58e3e5a0-a50f-4645-98f0-b076aa307a6a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CREEZ VOTRE SOIN VISAGE NATUREL SUR-MESURE<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin pour rayonner sans briller. ✨ <\/p><p>Vous pouvez réaliser votre diagnostic à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
+          }
+        },
+        "64975ab8-962a-48ff-bbec-1129a17db732": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Je réalise mon diagnostic",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0",
+        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1",
+        "64975ab8-962a-48ff-bbec-1129a17db732"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "0390fa47-3651-4227-ab29-9dfcfa382c60": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HILO MONTRE PATTE BLANCHE<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "15b1c2cc-9c8f-43b2-9b0f-1ff970687fca": {
+          "type": "caption",
+          "settings": {
+            "customcss": "",
+            "caption": "(Ou plutôt crème blanche )",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Les produits Hilo sont établis avec un cahier des charges strict afin de vous assurer des soins visages naturels et qualitatifs. Aussi, nous avons choisi de bannir de nombreux ingrédients de nos formules. <\/p><p>Afin de vous accompagner dans la compréhension de ce que vous appliquez sur votre peau et pour vous apporter une transparence la plus totale nous tenons à vous présenter la charte des recalés de l’ilot.<\/p>"
+          }
+        },
+        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Je veux tout savoir",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0",
+        "15b1c2cc-9c8f-43b2-9b0f-1ff970687fca",
+        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1",
+        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e442e363-5752-4e61-8ee8-ad266a5f317d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/circulo.png",
+            "title": "Paiement sécurisé",
+            "text": "<p>par carte bancaire et paypal<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/circulo.png",
+            "title": "Livraison offerte",
+            "text": "<p>à partir de 49€ d'achat<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/circulo.png",
+            "title": "Expérience client",
+            "text": "<p>unique<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-0",
+        "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-1",
+        "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2e3183b2-7294-4e95-92fb-939e95fe53c8": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "91ee8c72-0953-4424-b2d9-62d3abf4503c": {
+          "type": "caption",
+          "settings": {
+            "customcss": "",
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-1",
+        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-2",
+        "91ee8c72-0953-4424-b2d9-62d3abf4503c"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a",
+    "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
+    "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
+    "0390fa47-3651-4227-ab29-9dfcfa382c60",
+    "e442e363-5752-4e61-8ee8-ad266a5f317d",
+    "2e3183b2-7294-4e95-92fb-939e95fe53c8"
+  ]
+}
