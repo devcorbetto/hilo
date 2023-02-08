@@ -6,7 +6,7 @@
         "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>LE BLOG D'HILO<\/p>",
+            "heading": "<p>Talk about your brand<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -15,7 +15,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Retrouvez ici tous nos conseils, astuces beautés<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
         "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-2": {
@@ -50,9 +50,9 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "collage",
+        "layout": "grid",
         "show_image": true,
-        "image_height": "medium",
+        "image_height": "large",
         "show_date": true,
         "show_author": false,
         "padding_top": 36,
