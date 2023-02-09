@@ -280,6 +280,20 @@ h3.card__heading ,
   text-align: left;
 }
 
+.faq-tabs-closed-background{
+  background: #E9C9CAE0;
+  border-radius: 16px;
+  border: none;
+  
+}
+
+.faq-tabs-open-background{
+  background: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #E9C9CA;
+  
+}
+
 .faq-tabs-tittle{
   font-size: 25px;
   font-weight: 600;
@@ -293,6 +307,9 @@ h3.card__heading ,
   line-height: 29px;
   text-align: left;
 }
+
+
+
 
 
 
