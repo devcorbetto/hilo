@@ -5,7 +5,7 @@ h2.rich-text__heading.rte,
 .multi-columns-titulo1,
 .rich-text-titulo1 {
   text-align: center;
-  font-size:30px;
+  font-size:40px;
   font-weight:700;
 letter-spacing: 0px;
 color: #575756;
@@ -14,7 +14,7 @@ opacity: 1;
 
 .multi-columns-texto,
 .rich-text-texto {
-  font-size:25px;
+  font-size:19px;
   line-height:30px;
   text-align: center;
 }
@@ -22,7 +22,7 @@ opacity: 1;
 
 .multi-columns-btn,
 .rich-text-btn {
-    font-size:25px;
+    font-size:19px;
   line-height:30px;
     text-align: center;
 }
@@ -44,7 +44,7 @@ section newsletter section-news
 .collection__title .title,
 .rich-text__heading,
 .rich-text-title {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   line-height: 49px;
   font-weight: 600;
@@ -64,7 +64,7 @@ h3.card__heading ,
 }
 
 .multicolumn-column-title {
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
   font-weight: 600;
 }
@@ -75,20 +75,20 @@ h3.card__heading ,
   font-size: 14px;
   text-align: left;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .products-paragraph {
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   
 }
 .card-information>.price,
 .products-price
 .multicolumn-featured-title{
-  font-size: 25px;
+  font-size: 19px;
   text-align: left;
   line-height: 30px;
   font-weight: 600;
@@ -99,7 +99,7 @@ h3.card__heading ,
   background-color: #C2C2DE;
   border-radius: 9px;
   border: 3px solid #C2C2DE;
-  font-size: 25px;
+  font-size: 19px;
   text-align: center;
   color: #FFFFFF;
   line-height: 30px;
@@ -108,9 +108,9 @@ h3.card__heading ,
 .rich-text__text p,
 .rich-text-paragraph,
 .multicolumn-featured-paragraph{
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -119,7 +119,7 @@ h3.card__heading ,
   background-color: #FFFFFF;
   border-radius: 9px;
   border: 3px solid #575756;
-  font-size: 25px;
+  font-size: 19px;
   text-align: center;
   color: #575756;
   line-height: 30px;
@@ -128,8 +128,8 @@ h3.card__heading ,
 .multi-testimonials .rte,
 .rich-text-legend,
 .testimonial-paragraph{
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
   line-height: 24px;
   text-align: center;
 }
@@ -145,7 +145,7 @@ h3.card__heading ,
 }
 .multi-testimonials h3,
 .testimonial-name{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 24px;
   text-align: center;
@@ -170,10 +170,10 @@ h3.card__heading ,
 
 .footer-links{
   text-decoration: underline;
-  font-size: 25px;
+  font-size: 19px;
   line-height: 50px;
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
@@ -189,17 +189,17 @@ h3.card__heading ,
 
 .banner-subtitle,
 {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   text-align:center;
 }
 
 .richtext-legend-italic{
   font-style: italic;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
-  font-weight:300;
+  font-weight:400;
   text-align:center;
 }
 
@@ -212,9 +212,9 @@ h3.card__heading ,
 
 
 .hero-slideshow-subtitle{
-  font-size: 30px;
+  font-size: 40px;
   line-height: 49px;
-  font-weight:300;
+  font-weight:400;
   text-align:left;
 }
 
@@ -227,10 +227,10 @@ h3.card__heading ,
 }
 
 .lateam-paragraph{
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
   text-align:center;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
@@ -244,21 +244,21 @@ h3.card__heading ,
   border: solid 1px #E9C9CA;
   background: #FFFFFF;
   color: #575756;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
   text-align: left;
 }
 
 .contact-form-checklist-font,
 {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   text-align:left;
 }
 
 .contact-form-btn{
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
   background: #E9C9CA;
   text-align:center;
@@ -295,15 +295,15 @@ h3.card__heading ,
 }
 
 .faq-tabs-tittle{
-  font-size: 25px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 30px;
  
 }
 
 .faq-content-text{
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
@@ -319,13 +319,13 @@ h3.card__heading ,
 /* Multi slider*/
 .multi-slider .multicolumn-card.content-container {
   display:flex;
-  padding:20px 20px;
+  padding:15px 15px;
   background:#EFD1BF;
-  column-gap:30px;
+  column-gap:40px;
   text-align:left;
 }
 .multi-slider .multicolumn-card.content-container  > div:first-child {
-  width:25%;
+  width:19%;
 }
 .multi-slider .multicolumn-card.content-container  > div:last-child {
   width:75%;
@@ -343,29 +343,29 @@ Color: #575756
 Espaciado entre caracteres: 0
 Interlineado: 61
 
-Montserrat, Regular - 25px
-Regular - 25px, #575756
+Montserrat, Regular - 19px
+Regular - 19px, #575756
 
-Montserrat, Regular - 25px
-Regular - 25px, #575756
+Montserrat, Regular - 19px
+Regular - 19px, #575756
 
 Montserrat, SemiBold - 35px
 SemiBold - 35px, #575756
 
-Montserrat, Bold - 25px
-Bold - 25px, #575756
+Montserrat, Bold - 19px
+Bold - 19px, #575756
 
-Montserrat, SemiBold - 25px
-SemiBold - 25px, #575756
+Montserrat, SemiBold - 19px
+SemiBold - 19px, #575756
 
-Montserrat, SemiBold - 30px
-SemiBold - 30px, #575756
+Montserrat, SemiBold - 40px
+SemiBold - 40px, #575756
 
-Montserrat, Italic - 20px
-Italic - 20px, #575756
+Montserrat, Italic - 15px
+Italic - 15px, #575756
 
-Montserrat, Regular - 20px
-Regular - 20px, #575756
+Montserrat, Regular - 15px
+Regular - 15px, #575756
 
 Montserrat, Regular - 14px
 Regular - 14px, #575756
@@ -373,10 +373,10 @@ Regular - 14px, #575756
 Montserrat, SemiBold - 30px
 SemiBold - 30px, #575756
 
-Montserrat, Bold - 25px
-Bold - 25px, #FFFFFF
+Montserrat, Bold - 19px
+Bold - 19px, #FFFFFF
 
-Montserrat, SemiBold - 25px
-SemiBold - 25px, #EFD1BF
+Montserrat, SemiBold - 19px
+SemiBold - 19px, #EFD1BF
 
 */
