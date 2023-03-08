@@ -2992,7 +2992,7 @@ details-disclosure > details {
 } 
 /*btn-circle */
 .btn-circle a:after {
-  border-radius:15px;
+  border-radius:33px;
 }
 /* Waves 1*/
 .waves1::before {
