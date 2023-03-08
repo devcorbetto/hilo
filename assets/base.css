@@ -3011,11 +3011,12 @@ details-disclosure > details {
   z-index:9999;
   content: "";
   width: 100%;
-  height: 68px;
+  height: 168px;
   position: absolute;
   bottom: -0.3%;
   left: 0;
   background-size: auto;
   background-repeat: repeat no-repeat;
-  background-position: 31vw bottom;
-  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  92' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 67L50 63C100 59 200 51 300 34C400 18 500 -7 600 1C700 9 800 51 900 67C1000 84 1100 76 1150 72L1200 67V92H1150C1100 92 1000 92 900 92C800 92 700 92 600 92C500 92 400 92 300 92C200 92 100 92 50 92H0V67Z' fill='%23fbf3ef'/></svg>");}
+  background-position: 75vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  80' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 59L50 55C100 51 200 44 300 30C400 15 500 -6 600 1C700 8 800 44 900 59C1000 73 1100 66 1150 62L1200 59V80H1150C1100 80 1000 80 900 80C800 80 700 80 600 80C500 80 400 80 300 80C200 80 100 80 50 80H0V59Z' fill='%23fbf3ef'/></svg>");
+}
