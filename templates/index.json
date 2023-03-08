@@ -35,7 +35,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/producto.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -55,7 +54,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/conejo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_personnalise_u.svg",
             "title": "Personnalisé",
             "text": "",
             "link_label": "",
@@ -66,7 +65,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/conejo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_naturel.svg",
             "title": "Naturel",
             "text": "",
             "link_label": "",
@@ -77,7 +76,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/conejo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_vegan_3b0ef5f4-be4e-4fe9-9691-636f499be335.svg",
             "title": "Vegan",
             "text": "",
             "link_label": "",
@@ -88,7 +87,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/conejo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_anti-gaspi.svg",
             "title": "Anti-gaspi",
             "text": "",
             "link_label": "",
@@ -99,7 +98,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/conejo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_unique_2d4c0345-137c-40a8-97a8-aa5247b04899.svg",
             "title": "Unique",
             "text": "",
             "link_label": "",
@@ -714,7 +713,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logos.png",
+            "image": "shopify:\/\/shop_images\/logo_france_3.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -725,7 +724,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logos.png",
+            "image": "shopify:\/\/shop_images\/logo_le_re_uveil.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -736,7 +735,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logos.png",
+            "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -747,7 +746,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logos.png",
+            "image": "shopify:\/\/shop_images\/logo_che_urie.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -758,7 +757,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logos.png",
+            "image": "shopify:\/\/shop_images\/Tribune-de-lyon-logo_5f2ea903-f7f9-4bfb-8bb1-60fa5f1a36d8.png",
             "title": "",
             "text": "",
             "link_label": "",
