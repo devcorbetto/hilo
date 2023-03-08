@@ -3011,7 +3011,7 @@ details-disclosure > details {
   z-index:9999;
   content: "";
   width: 100%;
-  height: 168px;
+  height: 68px;
   position: absolute;
   bottom: -0.3%;
   left: 0;
