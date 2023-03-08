@@ -2991,8 +2991,8 @@ details-disclosure > details {
   }
 } 
 /*btn-circle */
-.btn-circle a  {
-  border-radius:5px;
+.btn-circle a:after {
+  border-radius:15px;
 }
 /* Waves 1*/
 .waves1::before {
