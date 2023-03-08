@@ -366,7 +366,7 @@
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2": {
           "type": "button",
           "settings": {
-            "customcss": "",
+            "customcss": "btn-circle",
             "button_label": "Je fais mon diagnostic",
             "button_link": "",
             "button_style_secondary": false,
