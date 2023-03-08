@@ -2991,7 +2991,7 @@ details-disclosure > details {
   }
 }
 
-.rich-classic:before {
+.rich-classic::before {
     content: "";
   width: 100%;
   height: 88px;
