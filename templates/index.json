@@ -431,10 +431,10 @@
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
           "type": "button",
           "settings": {
-            "customcss": "",
+            "customcss": "btn-circle",
             "button_label": "Je veux tout savoir",
             "button_link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
