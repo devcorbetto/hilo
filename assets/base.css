@@ -2992,6 +2992,7 @@ details-disclosure > details {
 }
 
 .rich-classic::before {
+  z-index:9999;
   content: "";
   width: 100%;
   height: 168px;
