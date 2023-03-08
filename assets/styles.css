@@ -5,7 +5,7 @@ h2.rich-text__heading.rte,
 .multi-columns-titulo1,
 .rich-text-titulo1 {
   text-align: center;
-  font-size:40px;
+  font-size:30px;
   font-weight:700;
 letter-spacing: 0px;
 color: #575756;
@@ -15,7 +15,7 @@ opacity: 1;
 .multi-columns-texto,
 .rich-text-texto {
   font-size:19px;
-  line-height:30px;
+  line-height:22px;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ opacity: 1;
 .multi-columns-btn,
 .rich-text-btn {
     font-size:19px;
-  line-height:30px;
+  line-height:22px;
     text-align: center;
 }
 
@@ -44,9 +44,9 @@ section newsletter section-news
 .collection__title .title,
 .rich-text__heading,
 .rich-text-title {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
-  line-height: 49px;
+  line-height: 36px;
   font-weight: 600;
       width: 100%;
 }
@@ -58,14 +58,14 @@ h3.card__heading ,
 .products-row-title,
 
 {
-  font-size: 30px;
+  font-size: 22px;
   line-height: 37px;
   font-weight: 600;
 }
 
 .multicolumn-column-title {
   font-size: 19px;
-  line-height: 30px;
+  line-height: 22px;
   font-weight: 600;
 }
 
@@ -75,14 +75,14 @@ h3.card__heading ,
   font-size: 14px;
   text-align: left;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .products-paragraph {
   font-size: 15px;
   text-align: left;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 18px;
+  font-weight: 300;
   
 }
 .card-information>.price,
@@ -90,7 +90,7 @@ h3.card__heading ,
 .multicolumn-featured-title{
   font-size: 19px;
   text-align: left;
-  line-height: 30px;
+  line-height: 22px;
   font-weight: 600;
  
 }
@@ -102,15 +102,15 @@ h3.card__heading ,
   font-size: 19px;
   text-align: center;
   color: #FFFFFF;
-  line-height: 30px;
+  line-height: 22px;
 }
 
 .rich-text__text p,
 .rich-text-paragraph,
 .multicolumn-featured-paragraph{
   font-size: 19px;
-  line-height: 30px;
-  font-weight: 400;
+  line-height: 22px;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -122,15 +122,15 @@ h3.card__heading ,
   font-size: 19px;
   text-align: center;
   color: #575756;
-  line-height: 30px;
+  line-height: 22px;
 }
 
 .multi-testimonials .rte,
 .rich-text-legend,
 .testimonial-paragraph{
   font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 300;
+  line-height: 18px;
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ h3.card__heading ,
 .faq-title
 {
   font-size: 35px;
-  line-height: 43px;
+  line-height: 32px;
   font-weight: 600;
   text-align: left;
 }
@@ -147,13 +147,13 @@ h3.card__heading ,
 .testimonial-name{
   font-size: 15px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 18px;
   text-align: center;
 }
 .multi-testimonials 
 .multicolumn-card__info {
  display: flex;
-  row-gap:30px;
+  row-gap:22px;
     flex-direction: column-reverse;
   text-align:center;
 }
@@ -163,7 +163,7 @@ h3.card__heading ,
 
 .footer-title{
   font-size: 35px;
-  line-height: 43px;
+  line-height: 32px;
   font-weight: 600;
 }
 
@@ -173,7 +173,7 @@ h3.card__heading ,
   font-size: 19px;
   line-height: 50px;
   text-align: left;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -190,16 +190,16 @@ h3.card__heading ,
 .banner-subtitle,
 {
   font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 18px;
+  font-weight: 300;
   text-align:center;
 }
 
 .richtext-legend-italic{
   font-style: italic;
   font-size: 15px;
-  line-height: 24px;
-  font-weight:400;
+  line-height: 18px;
+  font-weight:300;
   text-align:center;
 }
 
@@ -212,15 +212,15 @@ h3.card__heading ,
 
 
 .hero-slideshow-subtitle{
-  font-size: 40px;
-  line-height: 49px;
-  font-weight:400;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight:300;
   text-align:left;
 }
 
 
 .lateam-title{
-  font-size: 30px;
+  font-size: 22px;
   line-height: 37px;
   text-align:center;
   font-weight: 600;
@@ -228,9 +228,9 @@ h3.card__heading ,
 
 .lateam-paragraph{
   font-size: 19px;
-  line-height: 30px;
+  line-height: 22px;
   text-align:center;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -245,21 +245,21 @@ h3.card__heading ,
   background: #FFFFFF;
   color: #575756;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 18px;
   text-align: left;
 }
 
 .contact-form-checklist-font,
 {
   font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 18px;
+  font-weight: 300;
   text-align:left;
 }
 
 .contact-form-btn{
   font-size: 19px;
-  line-height: 30px;
+  line-height: 22px;
   background: #E9C9CA;
   text-align:center;
   border: 3px solid #E9C9CA;
@@ -275,7 +275,7 @@ h3.card__heading ,
 .faq-headings
 {
   font-size: 35px;
-  line-height: 43px;
+  line-height: 32px;
   font-weight: 600;
   text-align: left;
 }
@@ -297,14 +297,14 @@ h3.card__heading ,
 .faq-tabs-tittle{
   font-size: 19px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 22px;
  
 }
 
 .faq-content-text{
   font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 300;
+  line-height: 18px;
   text-align: left;
 }
 
@@ -321,7 +321,7 @@ h3.card__heading ,
   display:flex;
   padding:15px 15px;
   background:#EFD1BF;
-  column-gap:40px;
+  column-gap:30px;
   text-align:left;
 }
 .multi-slider .multicolumn-card.content-container  > div:first-child {
@@ -358,8 +358,8 @@ Bold - 19px, #575756
 Montserrat, SemiBold - 19px
 SemiBold - 19px, #575756
 
-Montserrat, SemiBold - 40px
-SemiBold - 40px, #575756
+Montserrat, SemiBold - 30px
+SemiBold - 30px, #575756
 
 Montserrat, Italic - 15px
 Italic - 15px, #575756
@@ -370,8 +370,8 @@ Regular - 15px, #575756
 Montserrat, Regular - 14px
 Regular - 14px, #575756
 
-Montserrat, SemiBold - 30px
-SemiBold - 30px, #575756
+Montserrat, SemiBold - 22px
+SemiBold - 22px, #575756
 
 Montserrat, Bold - 19px
 Bold - 19px, #FFFFFF
