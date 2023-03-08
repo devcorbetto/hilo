@@ -2991,7 +2991,7 @@ details-disclosure > details {
   }
 }
 
-.rich-classic::before {
+.waves1::before {
   z-index:9999;
   content: "";
   width: 100%;
