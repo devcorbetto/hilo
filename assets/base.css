@@ -3009,6 +3009,12 @@ details-disclosure > details {
 .a-right {
   right:-60px;
 }
+.corner-top {
+      position: absolute;
+    width: 30px;
+    left: -20px;
+    top: -20px;
+}
 
 .multi-slider  .multicolumn-card  {
   border-radius: 52px !important;
