@@ -49,13 +49,13 @@
 
       ],
       "settings": {
-        "customcss": "bg_contact waves1",
+        "customcss": "bg_contact waves3",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 100
       }
     },
     "form": {
