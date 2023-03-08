@@ -2990,6 +2990,10 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 } 
+/*btn-circle */
+.btn-circle a  {
+  border-radius:5px;
+}
 /* Waves 1*/
 .waves1::before {
   z-index:9999;
