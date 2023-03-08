@@ -36,7 +36,8 @@
       ],
       "settings": {
         "customcss": "waves2",
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/Photo_Accueil.png",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
