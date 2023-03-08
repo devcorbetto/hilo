@@ -3011,7 +3011,7 @@ details-disclosure > details {
 }
 
 .multi-slider  .multicolumn-card  {
-  border-radius: 52px;
+  border-radius: 52px !important;
 
 
 }
