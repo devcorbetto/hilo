@@ -2990,7 +2990,9 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
-
+.rich-classic {
+  padding-bottom:30px;
+}
 .rich-classic::before {
   z-index:9999;
   content: "";
