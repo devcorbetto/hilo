@@ -2993,6 +2993,7 @@ details-disclosure > details {
 /*btn-circle */
 .btn-circle a {
   background:transparent !important;
+  z-index:999999;
 }
 .btn-circle a:after {
   border-radius:33px;
