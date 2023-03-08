@@ -2990,6 +2990,13 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 } 
+@media screen and (min-width: 990px){
+.header--middle-left {
+    grid-template-areas: "heading navigation icons";
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 2rem; 
+  }
+  }
 /*btn-circle */
 .btn-circle a {
   background:transparent !important;
