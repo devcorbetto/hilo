@@ -2992,14 +2992,15 @@ details-disclosure > details {
 }
 
 .rich-classic::before {
-    content: "";
+  z-index:9999;
+  content: "";
   width: 100%;
-  height: 88px;
+  height: 68px;
   position: absolute;
   bottom: -0.3%;
   left: 0;
   background-size: auto;
   background-repeat: repeat no-repeat;
-  background-position: 21vw bottom;
-  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  124' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 91L50 85C100 80 200 69 300 46C400 24 500 -9 600 2C700 13 800 69 900 91C1000 113 1100 102 1150 97L1200 91V124H1150C1100 124 1000 124 900 124C800 124 700 124 600 124C500 124 400 124 300 124C200 124 100 124 50 124H0V91Z' fill='%23f7f7f7'/></svg>");
+  background-position: 31vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  92' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 67L50 63C100 59 200 51 300 34C400 18 500 -7 600 1C700 9 800 51 900 67C1000 84 1100 76 1150 72L1200 67V92H1150C1100 92 1000 92 900 92C800 92 700 92 600 92C500 92 400 92 300 92C200 92 100 92 50 92H0V67Z' fill='%23ffffff'/></svg>");
 }
