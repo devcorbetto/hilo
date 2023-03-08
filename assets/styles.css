@@ -350,6 +350,10 @@ h3.card__heading ,
   border: 3px solid #FFFFFF;
 border-radius: 33px;
 }
+
+.bg_contact {
+  background-image:url(https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Photo_bandeau_accueil.png);
+}
 /*
 Montserrat, SemiBold - 50px
 Familia de fuentes: Montserrat
