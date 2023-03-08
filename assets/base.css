@@ -2998,6 +2998,12 @@ details-disclosure > details {
 .btn-circle a:after {
   border-radius:33px;
 }
+
+.control-c {
+    width: 50px;
+    height:50px;
+}
+
 /* Waves 1*/
 .waves1::before {
   z-index:9999;
