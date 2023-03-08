@@ -2991,7 +2991,7 @@ details-disclosure > details {
   }
 } 
 /*btn-circle */
-.btn-circle {
+.btn-circle a {
   background:transparent !important;
 }
 .btn-circle a:after {
