@@ -3009,6 +3009,11 @@ details-disclosure > details {
 .a-right {
   right:-60px;
 }
+
+.slider__slide .slide {
+  border-radius: 52px;
+
+}
 /* Waves 1*/
 .waves1::before {
   z-index:9999;
