@@ -3010,8 +3010,15 @@ details-disclosure > details {
   right:-60px;
 }
 
+.multi-slider  .multicolumn-card  {
+  border-radius: 52px;
+
+
+}
+
 .multi-slider .multicolumn-card {
   border-radius: 52px;
+
 
 }
 .multi-slider .slick-slide img {
