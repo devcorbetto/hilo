@@ -3004,10 +3004,10 @@ details-disclosure > details {
     height:50px;
 }
 .a-left {
-  left:-30px;
+  left:-60px;
 }
 .a-right {
-  right:-30px;
+  right:-60px;
 }
 /* Waves 1*/
 .waves1::before {
