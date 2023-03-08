@@ -369,7 +369,7 @@
             "customcss": "btn-circle",
             "button_label": "Je fais mon diagnostic",
             "button_link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
