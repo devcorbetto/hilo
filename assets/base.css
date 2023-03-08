@@ -3010,11 +3010,11 @@ details-disclosure > details {
   right:-60px;
 }
 
-.slider__slide .slick-slide {
+.multi-slider .slick-slide {
   border-radius: 52px;
 
 }
-.slider__slide .slick-slide img {
+.multi-slider .slick-slide img {
   border-radius: 52px;
 
 }
