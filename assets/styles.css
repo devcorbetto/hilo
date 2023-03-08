@@ -343,7 +343,9 @@ h3.card__heading ,
   font-size:18px;
   line-height:22px;
 }
-
+.banner-home .button {
+    font-weight:bold;
+}
 .banner-home .button::after {
   border: 3px solid #FFFFFF;
 border-radius: 33px;
