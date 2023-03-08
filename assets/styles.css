@@ -338,7 +338,10 @@ h3.card__heading ,
   margin-bottom:30px;
   
 }
-
+.banner-home .banner__text.body
+{
+  font-size:18px;
+}
 /*
 Montserrat, SemiBold - 50px
 Familia de fuentes: Montserrat
