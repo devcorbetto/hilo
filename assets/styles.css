@@ -376,7 +376,7 @@ img.multicolumn-card__image-hover {
   position:absolute;
   top:0px;
 } 
-img.multicolumn-card__image:hover  ~  img.multicolumn-card__image-hover , img.multicolumn-card__image:hover  ~  img.multicolumn-card__image-hover  {
+img.multicolumn-card__image:hover  ~  img.multicolumn-card__image-hover , img.multicolumn-card__image:hover  +  img.multicolumn-card__image-hover  {
   opacity:1;
 }
 img.multicolumn-card__image:hover {
