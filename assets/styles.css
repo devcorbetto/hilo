@@ -177,7 +177,11 @@ h3.card__heading ,
 }
 
 
-
+.legend {
+font-size:10px;
+  padding:20px 0px;
+  
+}
 /* páginas boutique y lamarque*/
 
 .banner-heading{
