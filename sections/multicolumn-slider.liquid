@@ -83,7 +83,7 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
-                  <div class="rte-ingredient">    {{ block.settings.image | image_url: width: 1420 | image_tag:
+                  <div class="rte-ingredient">    {{ block.settings.imageicon | image_url: width: 1420 | image_tag:
                       loading: 'lazy',
                       sizes: sizes,
                       widths: '275, 550, 710, 1420',
