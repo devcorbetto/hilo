@@ -376,6 +376,7 @@ img.multicolumn-card__image-hover {
   position:absolute;
   top:0px;
 } 
+
 img.multicolumn-card__image:hover {
   opacity:0;
 }
