@@ -3086,3 +3086,6 @@ details-disclosure > details {
 .card .card__inner .card__media {
 border-radius:30px;  
 }
+.card .grid__item {
+  max-width:32%;
+}
