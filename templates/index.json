@@ -35,8 +35,8 @@
         "button"
       ],
       "settings": {
-        "textafter": "",
-        "imageicon": "shopify:\/\/shop_images\/Comment_c_a_marche.jpg",
+        "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
+        "imageicon": "shopify:\/\/shop_images\/Pictogramme_panier.svg",
         "customcss": "waves2 banner-home",
         "image": "shopify:\/\/shop_images\/Photo_Accueil.png",
         "image_overlay_opacity": 0,
