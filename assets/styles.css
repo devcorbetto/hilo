@@ -153,6 +153,7 @@ h3.card__heading ,
 }
 .collection .card .card__heading {
   text-align:left;
+    font-size: 22px; 
 }
 .multi-testimonials 
 .multicolumn-card__info {
