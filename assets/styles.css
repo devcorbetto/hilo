@@ -373,7 +373,7 @@ border-radius: 33px;
 
 .multicolumn-card__image-hover {
     opacity: 0;
- object-fit: contain;
+ object-fit: contain !important; 
 
 } 
 .media.media--transparent.media--adapt:hover img.multicolumn-card__image {
