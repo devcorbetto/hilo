@@ -3084,7 +3084,7 @@ details-disclosure > details {
 
 /* home collection cards*/
 .card .card__inner .card__media, .card__inner.color-background-2.gradient.ratio  {
-border-radius:30px;  
+border-radius:30px !important;   
 }
 .collection  .grid__item {
   max-width:32%;
