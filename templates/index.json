@@ -259,6 +259,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg",
+            "image-nohover": "shopify:\/\/shop_images\/Capsule_Orange.png",
             "title": "Macérat Huileux de carotte",
             "text": "",
             "link_label": "",
@@ -270,6 +271,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_argan_f7640d1c-b21c-42fd-ac0a-d60ca503bb53.svg",
+            "image-nohover": "shopify:\/\/shop_images\/Capsule_Violet.png",
             "title": "Huile d'argan",
             "text": "",
             "link_label": "",
@@ -281,6 +283,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_abricot_61fb0fab-8279-4d1b-8947-34856ebc9bf0.svg",
+            "image-nohover": "shopify:\/\/shop_images\/Capsule_Rose.png",
             "title": "Huile de noyaux d'abricot",
             "text": "",
             "link_label": "",
@@ -292,6 +295,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_noisette_0ce63b8f-330c-4fd6-97fa-da453e7095eb.svg",
+            "image-nohover": "shopify:\/\/shop_images\/Capsule_Vert.png",
             "title": "Huile de noisette",
             "text": "",
             "link_label": "",
@@ -303,6 +307,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg",
+            "image-nohover": "shopify:\/\/shop_images\/Capsule_Bleu.png",
             "title": "Huile d'amande douce",
             "text": "",
             "link_label": "",
@@ -314,6 +319,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_onagre_02bc9345-dce9-40d5-ab4f-23d240198aa5.svg",
+            "image-nohover": "shopify:\/\/shop_images\/Capsule_Jaune.png",
             "title": "Huile d'onagre",
             "text": "",
             "link_label": "",
