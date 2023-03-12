@@ -3083,7 +3083,7 @@ details-disclosure > details {
 }
 
 /* home collection cards*/
-.card .card__inner .card__media {
+.product-card-wrapper .card {
 border-radius:30px;  
 }
 .collection  .grid__item {
