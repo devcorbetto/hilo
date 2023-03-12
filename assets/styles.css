@@ -373,14 +373,15 @@ border-radius: 33px;
 
 .multicolumn-card__image-hover {
     opacity: 0;
- 
-  top:0px;
+ object-fit: contain;
+
 } 
 .media.media--transparent.media--adapt:hover img.multicolumn-card__image {
   opacity:0;
 }
 .media.media--transparent.media--adapt:hover img.multicolumn-card__image-hover {
   opacity:1;
+
 }
 /*
 Montserrat, SemiBold - 50px
