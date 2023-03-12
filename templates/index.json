@@ -53,7 +53,7 @@
       }
     },
     "multicolumn": {
-      "type": "multi-column-hover",
+      "type": "multicolumn",
       "blocks": {
         "column1": {
           "type": "column",
@@ -252,7 +252,7 @@
       }
     },
     "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
-      "type": "multicolumn",
+      "type": "multi-column-hover",
       "blocks": {
         "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0": {
           "type": "column",
