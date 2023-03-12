@@ -154,6 +154,7 @@ h3.card__heading ,
 .collection .card .card__heading {
   text-align:left;
     font-size: 22px; 
+   line-height: 27px;
 }
 .multi-testimonials 
 .multicolumn-card__info {
