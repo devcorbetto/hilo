@@ -151,6 +151,9 @@ h3.card__heading ,
   line-height: 18px;
   text-align: center;
 }
+.collection .card .card__heading {
+  text-align:left;
+}
 .multi-testimonials 
 .multicolumn-card__info {
  display: flex;
