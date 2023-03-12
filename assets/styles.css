@@ -377,7 +377,7 @@ border-radius: 33px;
   top:0px;
 } 
 img.multicolumn-card__image:hover  ~  img.multicolumn-card__image-hover , img.multicolumn-card__image:hover  +  .multicolumn-card__image  {
-  opacity:1;
+  opacity:1 !important;
 }
 img.multicolumn-card__image:hover {
   opacity:0;
