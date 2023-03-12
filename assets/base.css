@@ -3088,4 +3088,5 @@ border-radius:30px;
 }
 .card .grid__item {
   max-width:32%;
+  column-gap:1%
 }
