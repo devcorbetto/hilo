@@ -112,7 +112,9 @@
       {%- endfor -%}
     </div>
     <div>
-      <img src="{{ section.settings.image | img_url  }}"
+      <img src="{{ section.settings.image | img_url  }}">
+      <img src="{{ section.settings.icono | img_url  }}">
+      <p>{{ section.settings.text }}</p>
     </div>
   </div>
 </div>
