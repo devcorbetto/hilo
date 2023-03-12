@@ -113,7 +113,7 @@
     </div>
     <div>
       <img src="{{ section.settings.image | img_url  }}">
-      <img src="{{ section.settings.icono | img_url  }}">
+      <img src="{{ section.settings.imageicon | img_url  }}" class="imageicon">
       <p>{{ section.settings.text }}</p>
     </div>
   </div>
@@ -132,7 +132,7 @@
         },
     {
       "type": "image_picker",
-      "id": "image_icono",
+      "id": "imageicon",
       "label": "t:sections.image-banner.settings.image.label"
     },
       {
