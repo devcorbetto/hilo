@@ -115,7 +115,7 @@
       {%- endfor -%}
     </div>
     <div>
-      <img src="{{ section.settings.image | img_url  }}">
+      <img src="{{ section.settings.imageright | img_url  }}">
       <img src="{{ section.settings.imageicon | img_url  }}" class="imageicon">
       <p>{{ section.settings.text }}</p>
     </div>
@@ -136,6 +136,11 @@
     {
       "type": "image_picker",
       "id": "imageicon",
+      "label": "t:sections.image-banner.settings.image.label"
+    },
+      {
+      "type": "image_picker",
+      "id": "imageright",
       "label": "t:sections.image-banner.settings.image.label"
     },
       {
