@@ -53,7 +53,7 @@
       }
     },
     "multicolumn": {
-      "type": "multicolumn",
+      "type": "multi-column-hover",
       "blocks": {
         "column1": {
           "type": "column",
