@@ -371,7 +371,7 @@ border-radius: 33px;
 
 /*home collection card image hover*/
 
-.img.multicolumn-card__image-hover {
+img.multicolumn-card__image-hover {
     opacity: 0;
   position:absolute;
   top:0px;
