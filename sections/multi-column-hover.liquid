@@ -106,9 +106,9 @@
       {%- endif -%}
     </slider-component>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
-      {%- if section.settings.button_label != blank -%}
+      {%- if section.settings.button_label != blank -%}image_pick
         <a class="button button--primary"{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %}>
-          {{ section.settings.button_label | escape }}
+          {{ section.settings.button_label | escape }}image_pick
         </a>
       {%- endif -%}
     </div>
@@ -368,6 +368,11 @@
         {
           "type": "image_picker",
           "id": "image",
+          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+          {
+          "type": "image_picker",
+          "id": "image-nohover",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
         {
