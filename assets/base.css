@@ -3086,7 +3086,7 @@ details-disclosure > details {
 .card .card__inner .card__media {
 border-radius:30px;  
 }
-.collection  .grid__item {
+.collection  .product-grid {
   max-width:32%;
   column-gap:1%
 }
