@@ -377,7 +377,7 @@ img.multicolumn-card__image-hover {
   top:0px;
 } 
 img.multicolumn-card__image:hover {
-    opacity: 0;
+  opacity:0;
 }
 /*
 Montserrat, SemiBold - 50px
