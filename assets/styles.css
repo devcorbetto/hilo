@@ -391,8 +391,10 @@ border-radius: 33px;
 
 /* bg1 */
 .accordion summary {
-  background:#F8C8D3;
-  color:#575756;
+      background: #F8C8D3;
+    color: #575756;
+    border-radius: 30px;
+    padding: 10px 20px !important
 }
 /*
 Montserrat, SemiBold - 50px
