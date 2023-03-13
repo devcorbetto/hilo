@@ -191,8 +191,9 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/circulo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_paiement.svg",
             "title": "Paiement sécurisé",
+            "subtitle": "",
             "text": "<p>par carte bancaire et paypal<\/p>",
             "link_label": "",
             "link": ""
@@ -202,8 +203,9 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/circulo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_livraison.svg",
             "title": "Livraison offerte",
+            "subtitle": "",
             "text": "<p>à partir de 49€ d'achat<\/p>",
             "link_label": "",
             "link": ""
@@ -213,8 +215,9 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/circulo.png",
+            "image": "shopify:\/\/shop_images\/Pictogramme_Happy_CM.svg",
             "title": "Expérience client",
+            "subtitle": "",
             "text": "<p>unique<\/p>",
             "link_label": "",
             "link": ""
