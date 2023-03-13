@@ -385,6 +385,15 @@ border-radius: 33px;
   opacity:1;
 
 }
+
+
+
+
+/* bg1 */
+.accordion summary {
+  background:#F8C8D3;
+  color:#575756;
+}
 /*
 Montserrat, SemiBold - 50px
 Familia de fuentes: Montserrat
