@@ -271,6 +271,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_argan_f7640d1c-b21c-42fd-ac0a-d60ca503bb53.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Capsule_Violet.png",
             "title": "Huile d'argan",
             "text": "",
             "link_label": "",
@@ -282,6 +283,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_abricot_61fb0fab-8279-4d1b-8947-34856ebc9bf0.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Capsule_Rose.png",
             "title": "Huile de noyaux d'abricot",
             "text": "",
             "link_label": "",
@@ -293,6 +295,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_noisette_0ce63b8f-330c-4fd6-97fa-da453e7095eb.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Capsule_Bleu.png",
             "title": "Huile de noisette",
             "text": "",
             "link_label": "",
@@ -304,6 +307,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Capsule_Vert.png",
             "title": "Huile d'amande douce",
             "text": "",
             "link_label": "",
