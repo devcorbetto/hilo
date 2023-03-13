@@ -744,7 +744,7 @@
       }
     },
     "5158f987-865b-484c-8777-3d325ff4b90f": {
-      "type": "multicolumn",
+      "type": "multicolumn-carrousel",
       "blocks": {
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0": {
           "type": "column",
