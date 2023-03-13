@@ -38,7 +38,9 @@ Multi Column Slider multi-slider
 Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
-
+.margin5 {
+  gap:5px;
+}
 
 .multicolumn .title,
 .collection__title .title,
