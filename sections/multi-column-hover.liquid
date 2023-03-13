@@ -1,6 +1,33 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<style>
+		[x-cloak] {
+			display: none;
+		}
+
+		.duration-300 {
+			transition-duration: 300ms;
+		}
+
+		.ease-in {
+			transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+		}
+
+		.ease-out {
+			transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+
+		.scale-90 {
+			transform: scale(.9);
+		}
+
+		.scale-100 {
+			transform: scale(1);
+		}
+	</style>
+
+
 
 {%- style -%}
   .section-{{ section.id }}-padding {
