@@ -83,12 +83,26 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
-                  <div class="rte-ingredient">    {{ block.settings.imageicon | image_url: width: 1420 | image_tag:
+                  <div class="rte-ingredient">    {{ block.settings.imageicon | image_url: width: 24 | image_tag:
                       loading: 'lazy',
                       sizes: sizes,
                       widths: '45, 550, 710, 1420',
                       class: 'multicolumn-card__image'
-                    }} {{ block.settings.texticon }}
+                    }} {{ block.settings.texticon }}<br>
+                  {{ block.settings.imageicon2 | image_url: width: 24 | image_tag:
+                      loading: 'lazy',
+                      sizes: sizes,
+                      widths: '45, 550, 710, 1420',
+                      class: 'multicolumn-card__image'
+                    }} {{ block.settings.texticon2 }}<br>
+                    {{ block.settings.imageicon3 | image_url: width: 24 | image_tag:
+                      loading: 'lazy',
+                      sizes: sizes,
+                      widths: '45, 550, 710, 1420',
+                      class: 'multicolumn-card__image'
+                    }} {{ block.settings.texticon3 }}<br>
+                    
+                  
                   </div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
