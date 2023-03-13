@@ -54,13 +54,13 @@
         "40a05bbb-2620-4b8f-bcf3-8063645ed632"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "waves4",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 100
       }
     },
     "14c0a971-70b2-442f-ac7b-f2be54d60278": {
