@@ -3107,3 +3107,15 @@ border-radius:30px !important;
      justify-content: space-between;
   display:flex;
 }
+
+/*bg */
+.bg {
+    width: 350px;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
