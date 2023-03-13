@@ -41,6 +41,11 @@
             "show_dynamic_checkout": true
           }
         },
+        "474a192d-b0de-4595-9aa2-875c55099ec6": {
+          "type": "ingredientes",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -96,6 +101,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "474a192d-b0de-4595-9aa2-875c55099ec6",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
