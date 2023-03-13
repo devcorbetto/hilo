@@ -140,8 +140,8 @@ h3.card__heading ,
 .newsletter-subtitle,
 .faq-title
 {
-  font-size: 35px;
-  line-height: 32px;
+  font-size: 26px;
+  line-height: 24px;
   font-weight: 600;
   text-align: left;
 }
@@ -170,8 +170,8 @@ h3.card__heading ,
 
 
 .footer-title{
-  font-size: 35px;
-  line-height: 32px;
+  font-size: 26px;
+  line-height: 24px;
   font-weight: 600;
 }
 
@@ -286,8 +286,8 @@ font-size:10px;
 
 .faq-headings
 {
-  font-size: 35px;
-  line-height: 32px;
+  font-size: 26px;
+  line-height: 24px;
   font-weight: 600;
   text-align: left;
 }
@@ -417,8 +417,8 @@ Regular - 19px, #575756
 Montserrat, Regular - 19px
 Regular - 19px, #575756
 
-Montserrat, SemiBold - 35px
-SemiBold - 35px, #575756
+Montserrat, SemiBold - 26px
+SemiBold - 26px, #575756
 
 Montserrat, Bold - 19px
 Bold - 19px, #575756
