@@ -392,7 +392,7 @@ border-radius: 33px;
 
 
 /* bg1 */
-.collapsible-content .accordion[aria-expanded="true"] {
+.collapsible-content .accordion {
   border:1px solid  #F8C8D3;
     border-radius: 30px;
       padding: 10px 20px !important;
