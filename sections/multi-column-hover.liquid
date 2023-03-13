@@ -140,7 +140,7 @@
             </div>
           </li>
     
-    <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in">
+    <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
         Dropdown Contents... asdasd
     </div>
 
