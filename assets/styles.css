@@ -398,6 +398,9 @@ border-radius: 33px;
       padding: 10px 20px !important;
   margin-bottom:30px;
 }
+.collapsible-content .accordion[aria-expanded=true] summary {
+  background:none;
+}
 .accordion summary {
       background: #F8C8D3;
     color: #575756;
