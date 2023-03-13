@@ -474,6 +474,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
+            "imageicon": "shopify:\/\/shop_images\/Actif_huile_de_noisette_0ce63b8f-330c-4fd6-97fa-da453e7095eb.svg",
             "titleicon": "Column",
             "title": "Les actifs du moment de Zoé",
             "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
@@ -486,6 +487,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
+            "imageicon": "shopify:\/\/shop_images\/Actif_huile_d_argan_f7640d1c-b21c-42fd-ac0a-d60ca503bb53.svg",
             "titleicon": "Column",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -498,6 +500,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
+            "imageicon": "shopify:\/\/shop_images\/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg",
             "titleicon": "Column",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
