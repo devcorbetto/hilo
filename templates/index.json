@@ -259,6 +259,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Capsule_Orange.png",
             "title": "Macérat Huileux de carotte",
             "text": "",
             "link_label": "",
@@ -314,6 +315,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_onagre_02bc9345-dce9-40d5-ab4f-23d240198aa5.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Capsule_Jaune.png",
             "title": "Huile d'onagre",
             "text": "",
             "link_label": "",
@@ -468,6 +470,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
+            "titleicon": "Column",
             "title": "Les actifs du moment de Zoé",
             "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
             "link_label": "",
@@ -479,6 +482,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
+            "titleicon": "Column",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -490,6 +494,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
+            "titleicon": "Column",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
