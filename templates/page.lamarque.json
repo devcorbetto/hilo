@@ -108,6 +108,7 @@
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Elise_et_Margaux.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -143,6 +144,7 @@
         "6184607f-c260-4cd0-82b3-dbe5d76be10f"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Les_valeurs.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -169,7 +171,8 @@
         "16806ba5-054c-4e53-8395-6af42c8519aa": {
           "type": "image",
           "settings": {
-            "customcss": ""
+            "customcss": "",
+            "image_picker": "shopify:\/\/shop_images\/Au_fil_de_l_Hilo.svg"
           }
         }
       },
@@ -194,6 +197,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/L_e_uquipe_Elise.jpg",
             "title": "Elise 🏃‍♀",
             "subtitle": "Column",
             "text": "<p>Co-fondatrice et Directrice générale <\/p><p>Elle supervise les opérations générales d'Hilo et plus particulièrement les parties marketing, commerciales, distribution et ressources humaines. Son mantra : \"Impossible n'est pas Hilo\" Son match du moment : Onagre, Argan et Noyaux d'abricot<\/p>",
