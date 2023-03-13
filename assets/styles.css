@@ -399,7 +399,7 @@ border-radius: 33px;
   margin-bottom:30px;
 }
 .collapsible-content [aria-expanded="true"] summary {
-  background:none;
+  background:none !important;
 }
 .accordion summary {
       background: #F8C8D3;
