@@ -38,12 +38,20 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "40a05bbb-2620-4b8f-bcf3-8063645ed632": {
+          "type": "image",
+          "settings": {
+            "customcss": "bg",
+            "image_picker": "shopify:\/\/shop_images\/Photo_bandeau_accueil.png"
+          }
         }
       },
       "block_order": [
         "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
         "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2"
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2",
+        "40a05bbb-2620-4b8f-bcf3-8063645ed632"
       ],
       "settings": {
         "customcss": "",
