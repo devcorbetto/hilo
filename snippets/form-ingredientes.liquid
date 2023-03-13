@@ -1,0 +1,95 @@
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<form method="post" action="/cart/add">
+  <input name="id" value="{{ product.variants.first.id }}" type="hidden" />
+  
+
+
+  
+  <div x-data="data"
+  x-init="datainit">
+    <div class="container-ingredientes" >
+    {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
+      <div class="ingrediente-column">
+        <img src="{{ ingrediente.image }}"><br>
+        {{ ingrediente.name }}<br>   
+       <span class="ingrediente-caption">{{ ingrediente.caption }}</span>  <br>   
+        <quantity-input class="quantity ingrediente{{ forloop.index0 }}">
+        
+        <span  class='quantity__button no-js-hidden' field='quantity'
+        x-on:click="ingrediente{{ forloop.index0 }}--;if(ingrediente{{ forloop.index0 }} < 0){ingrediente{{ forloop.index0 }} = 0;} ;">.
+        {% render 'icon-minus' %}
+        
+        </span>
+        <input x-model="ingrediente{{ forloop.index0 }}"
+        class="quantity__input"
+        type="number"
+        id="ingrediente{{ forloop.index0 }}"
+        name="properties[ingrediente{{ forloop.index0 }}]"
+        value="0"
+          placeholder="0"
+        x-model.text="ingrediente{{ forloop.index0 }}">
+        
+          
+        
+        <span  class='quantity__button no-js-hidden' field='quantity'
+        x-on:click="ingrediente{{ forloop.index0 }}++;if(ingrediente{{ forloop.index0 }} > 3){ingrediente{{ forloop.index0 }} = 3;} ;">
+        .
+        {% render 'icon-plus' %}
+        </span>
+        </quantity-input>   
+       </div>
+      {% endfor %}
+     </div>  
+      <span style="display:none;" x-text="data2 = (Number(ingrediente5) + Number(ingrediente4) + Number(ingrediente3) + Number(ingrediente2) + Number(ingrediente1) + Number(ingrediente0)) "></span><br>
+      <span  style="display:none;"  x-text="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;}"></span><br>
+      
+      <input name="add" value="ORDER NOW" type="submit"   
+      :disabled="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;} ;"    
+      class="product-form__submit button button--full-width button--secondary" style="border:1px solid #000;"
+      />
+      
+      Puede comprar?: <span x-text="disable"></span><br>
+      Total:  <span x-text="data2"></span><br>
+   
+  </div>
+</form>
+<style>
+  .container-ingredientes {
+    display:flex;
+    gap:30px;
+    flex-wrap: wrap;
+    text-align:center;
+  }
+  .container-ingredientes .ingrediente-column {
+    width:40%;
+  }
+  .ingrediente-caption {
+    font-size:12px;
+  }
+</style>
+
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('data', () => ({
+           ingrediente0:'',
+          ingrediente1:'',
+          ingrediente2:'' ,
+          ingrediente3:'',
+          ingrediente4:'',
+          ingrediente5:'' ,
+          ingrediente6:'', 
+          disable:'', data2:'' 
+        }))
+
+        Alpine.data('datainit', () => ({
+           ingrediente0:'0',
+          ingrediente1:'0',
+          ingrediente2:'0' ,
+          ingrediente3:'0',
+          ingrediente4:'0',
+          ingrediente5:'0' ,
+          ingrediente6:'0', 
+          disable:'', data2:'0' 
+        }))
+    })
+</script>
