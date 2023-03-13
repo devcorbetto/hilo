@@ -306,7 +306,8 @@ font-size:10px;
   
 }
 
-.faq-tabs-tittle {
+.faq-tabs-tittle,
+.accordion__title{
   font-size: 19px;
   font-weight: 600;
   line-height: 22px;
