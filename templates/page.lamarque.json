@@ -14,6 +14,7 @@
         "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_accueil_page_La_marque.jpg",
             "heading": "L'OBJECTIF D'HILO",
             "heading_size": "h1",
             "subheading": "Proposer des soins personnalisés et naturels qui s'adaptent à toutes les peaux tout au long de la vie.",
@@ -33,6 +34,7 @@
         "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0"
       ],
       "settings": {
+        "customcss": "",
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
@@ -74,7 +76,7 @@
         "94392006-51f7-46cf-bc97-321db9fd9605"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "waves5",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_3",
@@ -167,8 +169,7 @@
         "16806ba5-054c-4e53-8395-6af42c8519aa": {
           "type": "image",
           "settings": {
-            "customcss": "",
-            "image_picker": "shopify:\/\/shop_images\/image_1.png"
+            "customcss": ""
           }
         }
       },
@@ -193,8 +194,8 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/pngegg.png",
             "title": "Elise 🏃‍♀",
+            "subtitle": "Column",
             "text": "<p>Co-fondatrice et Directrice générale <\/p><p>Elle supervise les opérations générales d'Hilo et plus particulièrement les parties marketing, commerciales, distribution et ressources humaines. Son mantra : \"Impossible n'est pas Hilo\" Son match du moment : Onagre, Argan et Noyaux d'abricot<\/p>",
             "link_label": "",
             "link": ""
@@ -204,8 +205,8 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/pngegg.png",
             "title": "Margaux ✈",
+            "subtitle": "Column",
             "text": "<p>Co-Fondatrice et Présidente<\/p><p> Elle supervise les opérations générales d'Hilo et plus particulièrement les parties communication, développement produit et financières. Son mantra : \"You only live once\" Son match du moment : Carotte, onagre et amande douce<\/p>",
             "link_label": "",
             "link": ""
@@ -215,8 +216,8 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/pngegg.png",
             "title": "Anaëlle 🧘‍♀️",
+            "subtitle": "Column",
             "text": "<p>Chargée de Marketing <\/p><p>Elle s'occupe de la stratégie marketing digital, de l'expérience client et de la gestion du site web. Son mantra : \"Une journée sans rire est une journée de perdue !\" Son match du moment : Noisette, argan et onagre<\/p>",
             "link_label": "",
             "link": ""
@@ -226,8 +227,8 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/pngegg.png",
             "title": "Léo🌻",
+            "subtitle": "Column",
             "text": "<p>Chargé de communication<\/p><p> Il s'occupe de la stratégie de communication, de la création de contenu et de la gestion des réseaux sociaux. Son mantra : \"Si vous voulez que la vie vous sourie, apportez lui votre bonne humeur\" Son match du moment : Amande douce, abricot et noisette<\/p>",
             "link_label": "",
             "link": ""
