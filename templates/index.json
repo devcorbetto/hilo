@@ -61,6 +61,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_personnalise_u.svg",
             "title": "Personnalisé",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -72,6 +73,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_naturel.svg",
             "title": "Naturel",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -83,6 +85,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_vegan_3b0ef5f4-be4e-4fe9-9691-636f499be335.svg",
             "title": "Vegan",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -94,6 +97,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_anti-gaspi.svg",
             "title": "Anti-gaspi",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -105,6 +109,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_unique_2d4c0345-137c-40a8-97a8-aa5247b04899.svg",
             "title": "Unique",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -547,6 +552,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/stars.png",
             "title": "Marine",
+            "subtitle": "Column",
             "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…) Le fait que je puisse adapter ma crème à ces moments de la vie est génial.” Marine<\/p>",
             "link_label": "",
             "link": ""
@@ -558,6 +564,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/stars.png",
             "title": "Marine",
+            "subtitle": "Column",
             "text": "<p>Pair text with an image to focu“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. Enfin un soin qui répond réellement aux besoins de toutes les peaux.” Charlottes on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -569,6 +576,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/stars.png",
             "title": "Marine",
+            "subtitle": "Column",
             "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” Laurine<\/p>",
             "link_label": "",
             "link": ""
@@ -607,6 +615,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -618,6 +627,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -629,6 +639,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -640,6 +651,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -651,6 +663,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -662,6 +675,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -677,7 +691,7 @@
         "1fed07f6-b4b2-40ba-953d-8773f4239662"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "margin5",
         "title": "REJOIGNEZ LA HILO FAMILY",
         "heading_size": "h1",
         "image_width": "full",
@@ -738,6 +752,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/logo_france_3.jpg",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -749,6 +764,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/logo_le_re_uveil.jpg",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -760,6 +776,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -771,6 +788,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/logo_che_urie.jpg",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -782,6 +800,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Tribune-de-lyon-logo_5f2ea903-f7f9-4bfb-8bb1-60fa5f1a36d8.png",
             "title": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -822,6 +841,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/circulo.png",
             "title": "Paiement sécurisé",
+            "subtitle": "Column",
             "text": "<p> par carte bancaire et paypal<\/p>",
             "link_label": "",
             "link": ""
@@ -833,6 +853,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/circulo.png",
             "title": "Livraison offerte",
+            "subtitle": "Column",
             "text": "<p>à partir de 49€ d'achat<\/p>",
             "link_label": "",
             "link": ""
@@ -844,6 +865,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/circulo.png",
             "title": "Expérience client",
+            "subtitle": "Column",
             "text": "<p>unique<\/p>",
             "link_label": "",
             "link": ""
