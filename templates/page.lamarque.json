@@ -199,8 +199,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/L_e_uquipe_Elise.jpg",
             "title": "Elise 🏃‍♀",
-            "subtitle": "Column",
-            "text": "<p>Co-fondatrice et Directrice générale <\/p><p>Elle supervise les opérations générales d'Hilo et plus particulièrement les parties marketing, commerciales, distribution et ressources humaines. Son mantra : \"Impossible n'est pas Hilo\" Son match du moment : Onagre, Argan et Noyaux d'abricot<\/p>",
+            "subtitle": "Co-fondatrice et Directrice générale",
+            "text": "<p>Elle supervise les opérations générales d'Hilo et plus particulièrement les parties marketing, commerciales, distribution et ressources humaines. Son mantra : \"Impossible n'est pas Hilo\" Son match du moment : Onagre, Argan et Noyaux d'abricot<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -209,9 +209,10 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/L_e_uquipe_Margaux.jpg",
             "title": "Margaux ✈",
-            "subtitle": "Column",
-            "text": "<p>Co-Fondatrice et Présidente<\/p><p> Elle supervise les opérations générales d'Hilo et plus particulièrement les parties communication, développement produit et financières. Son mantra : \"You only live once\" Son match du moment : Carotte, onagre et amande douce<\/p>",
+            "subtitle": "Co-Fondatrice et Présidente",
+            "text": "<p>Elle supervise les opérations générales d'Hilo et plus particulièrement les parties communication, développement produit et financières. Son mantra : \"You only live once\" Son match du moment : Carotte, onagre et amande douce<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -220,9 +221,10 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/L_e_uquipe_Anae_elle.jpg",
             "title": "Anaëlle 🧘‍♀️",
-            "subtitle": "Column",
-            "text": "<p>Chargée de Marketing <\/p><p>Elle s'occupe de la stratégie marketing digital, de l'expérience client et de la gestion du site web. Son mantra : \"Une journée sans rire est une journée de perdue !\" Son match du moment : Noisette, argan et onagre<\/p>",
+            "subtitle": "Chargée de Marketing",
+            "text": "<p>Elle s'occupe de la stratégie marketing digital, de l'expérience client et de la gestion du site web. Son mantra : \"Une journée sans rire est une journée de perdue !\" Son match du moment : Noisette, argan et onagre<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -231,9 +233,10 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/L_e_uquipe_Le_uo.jpg",
             "title": "Léo🌻",
-            "subtitle": "Column",
-            "text": "<p>Chargé de communication<\/p><p> Il s'occupe de la stratégie de communication, de la création de contenu et de la gestion des réseaux sociaux. Son mantra : \"Si vous voulez que la vie vous sourie, apportez lui votre bonne humeur\" Son match du moment : Amande douce, abricot et noisette<\/p>",
+            "subtitle": "Chargé de communication",
+            "text": "<p>Il s'occupe de la stratégie de communication, de la création de contenu et de la gestion des réseaux sociaux. Son mantra : \"Si vous voulez que la vie vous sourie, apportez lui votre bonne humeur\" Son match du moment : Amande douce, abricot et noisette<\/p>",
             "link_label": "",
             "link": ""
           }
