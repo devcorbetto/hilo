@@ -392,13 +392,13 @@ border-radius: 33px;
 
 
 /* bg1 */
- .accordion {
+details {
   border:1px solid  #F8C8D3;
     border-radius: 30px;
       padding: 10px 20px !important;
   margin-bottom:30px;
 }
-[aria-expanded="true"] summary {
+details[aria-expanded="true"] summary {
   background:none !important;
 }
 .accordion summary {
