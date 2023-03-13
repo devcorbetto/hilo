@@ -61,7 +61,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_personnalise_u.svg",
             "title": "Personnalisé",
-            "subtitle": "Column",
+            "subtitle": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -73,7 +73,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_naturel.svg",
             "title": "Naturel",
-            "subtitle": "Column",
+            "subtitle": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -85,7 +85,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_vegan_3b0ef5f4-be4e-4fe9-9691-636f499be335.svg",
             "title": "Vegan",
-            "subtitle": "Column",
+            "subtitle": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -97,7 +97,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_anti-gaspi.svg",
             "title": "Anti-gaspi",
-            "subtitle": "Column",
+            "subtitle": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -109,7 +109,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Pictogramme_unique_2d4c0345-137c-40a8-97a8-aa5247b04899.svg",
             "title": "Unique",
-            "subtitle": "Column",
+            "subtitle": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -805,6 +805,18 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "9d645b64-8577-4900-8ee6-8840c4423867": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -812,7 +824,8 @@
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1",
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
         "53daa4fc-e022-410b-b5db-25ba27542ff8",
-        "30920895-a86e-46bb-9c51-c7d52b9572b3"
+        "30920895-a86e-46bb-9c51-c7d52b9572b3",
+        "9d645b64-8577-4900-8ee6-8840c4423867"
       ],
       "settings": {
         "customcss": "multi-logos",
