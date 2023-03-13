@@ -2,14 +2,7 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <style>
-		.open{{ forloop.index }} {
-         position:absolute;
-          width: 70%;
-          margin:0 auto;
-          top:20%;
-          left:25%;
-            right:25%;
-        }
+		
 		.duration-300 {
 			transition-duration: 300ms;
 		}
@@ -133,7 +126,17 @@
               </div>
             </div>
           </li>
-    <div x-show="open{{ forloop.index }} " class="open{{ forloop.index }}">
+      <script>
+        .open{{ forloop.index }} {
+         position:absolute;
+          width: 70%;
+          margin:0 auto;
+          top:20%;
+          left:25%;
+            right:25%;
+        }
+      </script>
+    <div x-show="open{{ forloop.index }} " class="open{{ forloop.index }} duration-300">
         Dropdown Contents... asdasd
     </div>
 
