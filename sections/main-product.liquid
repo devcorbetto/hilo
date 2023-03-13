@@ -316,6 +316,8 @@
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
+            {%- when 'ingredientes' %}
+           {% render 'form-ingredientes' %}
             {%- when 'text' -%}
               <p
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -1171,6 +1173,11 @@
   "tag": "section",
   "class": "section",
   "blocks": [
+     {
+      "type": "ingredientes",
+      "name": "Form Ingredientes"
+   
+    },
     {
       "type": "@app"
     },
