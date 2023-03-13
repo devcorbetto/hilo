@@ -393,7 +393,8 @@ border-radius: 33px;
 .collapsible-content .accordion {
   border:1px solid  #F8C8D3;
     border-radius: 30px;
-      padding: 10px 20px !important
+      padding: 10px 20px !important;
+  margin-bottom:30px;
 }
 .accordion summary {
       background: #F8C8D3;
