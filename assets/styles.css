@@ -308,7 +308,7 @@ font-size:10px;
 
 .faq-tabs-tittle,
 .accordion__title{
-  font-size: 19px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 22px;
  
@@ -316,7 +316,7 @@ font-size:10px;
 
 .faq-content-text,
 .accordion p {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 18px;
   text-align: left;
