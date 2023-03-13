@@ -306,14 +306,15 @@ font-size:10px;
   
 }
 
-.faq-tabs-tittle{
+.faq-tabs-tittle {
   font-size: 19px;
   font-weight: 600;
   line-height: 22px;
  
 }
 
-.faq-content-text{
+.faq-content-text,
+.accordion p {
   font-size: 15px;
   font-weight: 300;
   line-height: 18px;
