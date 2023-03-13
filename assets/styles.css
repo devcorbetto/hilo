@@ -398,6 +398,10 @@ border-radius: 33px;
       padding: 10px 20px !important;
   margin-bottom:30px;
 }
+.accordion details {
+
+  margin-bottom:30px;
+}
 .accordion details[open] summary {
   background:none !important;
 }
