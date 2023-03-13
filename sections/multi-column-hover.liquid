@@ -117,7 +117,7 @@
  
   
                 {%- if block.settings.title != blank -%}
-                  <button x-on:click="open{{ forloop.index }} = !open">clcik</button>
+                  <button x-on:click="open{{ forloop.index }} = !open{{ forloop.index }}">clcik</button>
                   <h3 >{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
