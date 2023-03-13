@@ -404,7 +404,7 @@ border-radius: 33px;
 }
 .accordion details[open] summary {
   background:none !important;
-  padding: 0px 0px !important
+    padding: 10px 10px !important;
 }
 .accordion summary {
       background: #F8C8D3;
