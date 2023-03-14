@@ -50,6 +50,11 @@ section newsletter section-news
 .header__icons svg {
       width: 32px;
 }
+.cart-count-bubble {
+      bottom: 1.7rem;
+    left: 3rem;
+
+}
 .margin5 {
   gap:5px;
 }
