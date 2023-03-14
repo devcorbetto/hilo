@@ -373,8 +373,10 @@ font-size:10px;
 }
 .banner-home .banner__text.body span
 {
-  font-size:18px;
-  line-height:22px;
+font-size: 18px;
+    line-height: 23px;
+    display: block;
+    color: white;
 }
 .banner-home .button {
     font-weight:bold;
