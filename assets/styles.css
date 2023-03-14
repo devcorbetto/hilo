@@ -40,10 +40,15 @@ section newsletter section-news
 */
 
 /* menu */
+
 .list-menu__item {
   font-weight:600;
   
   color:#575756;
+}
+/*svg */
+.header__icons svg {
+      width: 24px;
 }
 .margin5 {
   gap:5px;
