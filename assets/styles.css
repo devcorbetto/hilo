@@ -38,6 +38,11 @@ Multi Column Slider multi-slider
 Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
+
+/* menu */
+.list-menu__item {
+  font-weight:600;
+}
 .margin5 {
   gap:5px;
 }
