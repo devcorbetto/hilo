@@ -40,7 +40,9 @@ section newsletter section-news
 */
 
 /* menu */
-
+.banner-home .container-right  p {
+  color:white;
+}
 .list-menu__item {
   font-weight:600;
   
