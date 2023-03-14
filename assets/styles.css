@@ -380,7 +380,7 @@ font-size:10px;
     font-weight:bold;
 }
 .banner-home .button::after {
-  border: 3px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
 border-radius: 33px;
 }
 
