@@ -3115,11 +3115,12 @@ border-radius:30px !important;
 .rich-text__blocks {
     max-width: 100% !important;
   width: 100%;
-} }
+}
+}
 
 /*stars */
 .multi-testimonials .media {
-  padding: 0px;
+  padding: 0px !important;
 }
 .multi-testimonials img {
   width:190px;
