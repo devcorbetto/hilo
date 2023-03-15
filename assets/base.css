@@ -3116,6 +3116,12 @@ border-radius:30px !important;
     max-width: 100% !important;
   width: 100%;
 } }
+
+/*stars */
+.stars_size img {
+  width:150px;
+  
+}
 /*bg */
 .bg img {
     
