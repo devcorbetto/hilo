@@ -141,7 +141,20 @@
           </li>
     
     <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
-        Dropdown Contents... asdasd
+       <div class="columns">
+         <div class="columns1">
+          <h3>Title</h3>
+           <p>Text</p>
+         </div>
+         <div class="columns2">
+             {{ block.settings.imagenohover | image_url: width: 1420 | image_tag:
+                      loading: 'lazy',
+                  
+                      class: 'multicolumn-card__image_modal' 
+                    }}
+
+         </div>
+       </div>
     </div>
 
         {%- endfor -%}
