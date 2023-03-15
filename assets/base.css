@@ -3118,10 +3118,10 @@ border-radius:30px !important;
 } }
 
 /*stars */
-.stars_size .media {
+.multi-testimonials .media {
   padding: 0px;
 }
-.stars_size img {
+.multi-testimonials img {
   width:190px;
   position:relative;
   margin:0 auto;
