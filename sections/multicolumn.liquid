@@ -32,7 +32,7 @@
           {{ section.settings.title | escape }}
         </h2>
      {% if section.settings.subtitle != blank %} 
-       <p style="text-align:center;"> {{ section.settings.subtitle | escape }}</p>
+       <p style="text-align:center; width: 100%;"> {{ section.settings.subtitle | escape }}</p>
        {% endif %}
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
