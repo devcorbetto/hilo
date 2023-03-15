@@ -920,6 +920,7 @@
     },
     "c359a7a8-436c-4cc5-9f9f-893830fc3c72": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
@@ -947,6 +948,7 @@
     },
     "373ff181-a833-41df-ae95-73f7e413cf47": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
