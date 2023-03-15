@@ -3107,7 +3107,14 @@ border-radius:30px !important;
      justify-content: space-between;
   display:flex;
 }
-
+/* @media screen and (min-width: 990px)
+.rich-text__blocks {
+    max-width: 78rem;
+} */
+@media screen and (min-width: 990px) {
+.rich-text__blocks {
+    max-width: 100%;
+} }
 /*bg */
 .bg img {
     
