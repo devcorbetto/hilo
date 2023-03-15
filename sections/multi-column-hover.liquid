@@ -142,11 +142,11 @@
     
     <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="flex flex-1 gap-2 justify-between">
-         <div class="columns1">
+         <div class="flex-initial w-64">
           <h3>Title</h3>
            <p>Text</p>
          </div>
-         <div class="columns2">
+         <div class="flex-initial w-64">
              {{ block.settings.image | image_url: width: 320 | image_tag:
                       loading: 'lazy',
                   
