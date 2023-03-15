@@ -486,7 +486,7 @@
             "title": "Les actifs du moment de Zoé",
             "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
             "link_label": "Je réalise mon diagnostic",
-            "link": ""
+            "link": "shopify:\/\/products\/creme"
           }
         },
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1": {
@@ -549,8 +549,8 @@
         "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0": {
           "type": "column",
           "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/stars.png",
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
             "title": "Marine",
             "subtitle": "Column",
             "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…) Le fait que je puisse adapter ma crème à ces moments de la vie est génial.” Marine<\/p>",
@@ -561,8 +561,8 @@
         "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1": {
           "type": "column",
           "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/stars.png",
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
             "title": "Marine",
             "subtitle": "Column",
             "text": "<p>Pair text with an image to focu“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. Enfin un soin qui répond réellement aux besoins de toutes les peaux.” Charlottes on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -573,8 +573,8 @@
         "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2": {
           "type": "column",
           "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/stars.png",
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
             "title": "Marine",
             "subtitle": "Column",
             "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” Laurine<\/p>",
