@@ -103,7 +103,7 @@
         "64975ab8-962a-48ff-bbec-1129a17db732": {
           "type": "button",
           "settings": {
-            "customcss": "",
+            "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
             "button_link": "",
             "button_style_secondary": false,
@@ -158,7 +158,7 @@
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2": {
           "type": "button",
           "settings": {
-            "customcss": "",
+            "customcss": "btn-circle",
             "button_label": "Je veux tout savoir",
             "button_link": "",
             "button_style_secondary": false,
