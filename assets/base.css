@@ -3113,7 +3113,8 @@ border-radius:30px !important;
 } */
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
-    max-width: 100%;
+    max-width: 100% !important;
+  width: 100%;
 } }
 /*bg */
 .bg img {
