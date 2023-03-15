@@ -31,7 +31,7 @@
         <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title | escape }}
         </h2>
-     }{% if section.settings.subtitle == blank %} 
+     {% if section.settings.subtitle == blank %} 
        <p> {{ section.settings.subtitle | escape }}</p>
        {% endif %}
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
