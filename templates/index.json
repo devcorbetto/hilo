@@ -190,7 +190,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. Et voilà, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
+            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. <br\/>Et voilà, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
           }
         }
       },
@@ -224,7 +224,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Les premières petites capsules éco-conçues pour personnaliser votre base de soin. Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau.<\/p>"
+            "text": "<p>Les premières petites capsules éco-conçues pour personnaliser votre base de soin. <br\/>Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau.<\/p>"
           }
         },
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2": {
