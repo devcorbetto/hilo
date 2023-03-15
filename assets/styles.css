@@ -435,6 +435,13 @@ border-radius: 33px;
     border-radius: 30px;
     padding: 10px 20px !important
 }
+
+
+
+/*Team*/
+.images-team img {
+  border-radius:100% 100%;
+}
 /*
 Montserrat, SemiBold - 50px
 Familia de fuentes: Montserrat
