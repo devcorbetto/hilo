@@ -36,6 +36,10 @@
               <div class="rich-text__text rte {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
+               {%- when 'liquid' -%}
+              <div class=" {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
+                {{ block.settings.codeliquid }}
+              </div>
               {%- when 'image' -%}
               <div class="rich-text__image {{ block.settings.customcss}} ">
               <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">
@@ -301,6 +305,11 @@
       "type": "liquid",
       "name": "Liquid or svg",
       "settings": [
+            {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
          {
           "type": "liquid",
           "id": "codeliquid",
