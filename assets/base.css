@@ -3123,9 +3123,9 @@ border-radius:30px !important;
   padding: 0px !important;
 }
 .multi-testimonials img {
-  width:190px;
-  position:relative;
-  margin:0 auto;
+  width:190px !important;
+  position:relative !important;
+  margin:0 auto !important;
   
 }
 /*bg */
