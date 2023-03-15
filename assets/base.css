@@ -3119,16 +3119,7 @@ border-radius:30px !important;
 }
 
 /*stars */
-.multi-featured  .media {
-  padding: 0px !important;
-  max-width:180px;
-}
-.multi-featured img {
-  width:180px !important;
-  position:relative !important;
-  margin:0 auto !important;
-  
-}
+
 .multi-testimonials .media {
   padding: 0px !important;
 }
