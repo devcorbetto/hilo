@@ -830,6 +830,9 @@
         "30920895-a86e-46bb-9c51-c7d52b9572b3",
         "9d645b64-8577-4900-8ee6-8840c4423867"
       ],
+      "custom_css": [
+        "img {max-height:80px;}"
+      ],
       "settings": {
         "customcss": "multi-logos",
         "title": "ILS PARLENT D'HILO",
