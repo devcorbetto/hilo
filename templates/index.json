@@ -852,7 +852,7 @@
       }
     },
     "8cf76421-6fa4-42cd-a954-23ae04a049ae": {
-      "type": "multicolumn",
+      "type": "multicolumn-svg",
       "blocks": {
         "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0": {
           "type": "column",
