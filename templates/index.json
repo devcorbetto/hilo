@@ -900,7 +900,7 @@
 
       ],
       "settings": {
-        "customcss": "multi-featured multi-icons",
+        "customcss": "multi-featured multi-icons color-black",
         "title": "",
         "subtitle": "",
         "heading_size": "h1",
