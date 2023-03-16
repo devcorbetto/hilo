@@ -4,7 +4,7 @@
 <style>
 		   .modal  {
          position:absolute;
-          width: 70%;
+          width: 70%;s
           margin:0 auto;
           top:20%;
           left:25%;
@@ -145,11 +145,11 @@
     
     <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="flex flex-1 gap-2 justify-between">
-         <div class=" w-64">
-          <h3>Title</h3>
-           <p>Text</p>
+         <div class=" ">
+          <h3>Information Produit:</h3>
+           {{ product.metafields.custom.modal_text }}
          </div>
-         <div class="w-64">
+         <div class="">
              {{ block.settings.image | image_url: width: 320 | image_tag:
                       loading: 'lazy',
                   
