@@ -148,9 +148,8 @@
          <div class=" ">
           <h3>Information Produit:</h3>
            
-           {%for block in collections['boutique'].metafields.custom.ingredient1.value %}
-             {{ block }}
-             {% endfor %}
+           {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
+        
          </div>
          <div class="">
              {{ block.settings.image | image_url: width: 320 | image_tag:
