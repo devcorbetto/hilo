@@ -275,6 +275,7 @@ font-size:10px;
 }
 .color-black fill, .color-black path, .color-black stroke {
   color:black;
+      fill: black;
 }
 
 /* página contact*/
