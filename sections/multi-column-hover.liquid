@@ -147,8 +147,8 @@
        <div class="flex flex-1 gap-2 justify-between">
          <div class="text-left ">
           <h3>Information Produit:</h3>
-           
-           {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
+           {% assign collection_id = "collections['boutique'].metafields.custom.ingredient" | append:  forloop.index   %} }}
+           {{ collection_id  |  metafield_tag  }} 
         
          </div>
          <div class="">
