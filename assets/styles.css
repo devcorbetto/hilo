@@ -273,6 +273,9 @@ font-size:10px;
     display: block;
     margin: 20px auto;
 }
+.color-black fill, .color-black path, .color-black stroke {
+  color:black;
+}
 
 /* página contact*/
 
