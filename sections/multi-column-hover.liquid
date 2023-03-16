@@ -147,7 +147,7 @@
        <div class="flex flex-1 gap-2 justify-between">
          <div class=" ">
           <h3>Information Produit:</h3>
-           {{ collection.metafields.custom.ingredient1 }}
+           {{ collection.metafields.custom.ingredient.forloop.index  }}
          </div>
          <div class="">
              {{ block.settings.image | image_url: width: 320 | image_tag:
