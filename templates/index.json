@@ -53,7 +53,7 @@
       }
     },
     "multicolumn": {
-      "type": "multicolumn",
+      "type": "multicolumn-svg",
       "blocks": {
         "column1": {
           "type": "column",
