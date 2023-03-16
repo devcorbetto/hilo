@@ -147,19 +147,9 @@
        <div class="flex flex-1 gap-2 justify-between">
          <div class="text-left ">
           <h3>Information Produit:</h3>
-           {% case forloop.index %}
-{% when '1' %}
+      {% if forloop.index == 1 %}
 {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
-{% when '2' %}
-{{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
-           {% when '3' %}
-{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }} 
-           {% when '4' %}
-{{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
-           {% when '5' %}
-{{ collections['boutique'].metafields.custom.ingredient5 |  metafield_tag  }} 
-           
-{% endcase %}
+{% endif %}
           
         
          </div>
