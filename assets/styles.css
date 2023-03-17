@@ -209,6 +209,14 @@ font-size:10px;
 
   
 }
+/* products */
+@media screen and (min-width: 990px) {
+.grid--3-col-desktop .grid__item {
+    width: calc(33.33% - 40px * 2 / 3);
+    max-width: calc(33.33% - 40px * 2 / 3);
+}
+}
+
 /* páginas boutique y lamarque*/
 
 .banner-heading{
