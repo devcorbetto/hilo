@@ -441,14 +441,21 @@
             "customcss": "",
             "caption": "[...] akuna matata",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "small"
           }
         },
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Selon nous, il existe autant de <strong>types de peau<\/strong> qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. Nous avons donc créé Hilo afin de vous proposer une <strong>crème à votre image<\/strong> grâce à un <strong>principe de personnalisation innovant et anti-gaspi. <\/strong><\/p><p>Notre objectif est de vous proposer des <strong>soins naturels et personnalisables <\/strong>que vous pourrez <strong>adaptez à votre peau <\/strong>à chaque étape de votre vie.<\/p>"
+            "text": "<p>Selon nous, il existe autant de <strong>types de peau<\/strong> qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. Nous avons donc créé Hilo afin de vous proposer une <strong>crème à votre image<\/strong> grâce à un <strong>principe de personnalisation innovant et anti-gaspi. <\/strong><\/p><p><\/p>"
+          }
+        },
+        "ac185d4f-43fb-42b1-a75e-f45c179fdd3a": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Notre objectif est de vous proposer des <strong>soins naturels et personnalisables <\/strong>que vous pourrez <strong>adaptez à votre peau <\/strong>à chaque étape de votre vie.<\/p>"
           }
         },
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
@@ -468,6 +475,7 @@
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0",
         "2d835b90-5ecd-45be-a0be-4fe51ad79673",
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
+        "ac185d4f-43fb-42b1-a75e-f45c179fdd3a",
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
       ],
       "settings": {
