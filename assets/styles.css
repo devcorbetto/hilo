@@ -443,10 +443,10 @@ font-size:10px;
   text-align:left;
 }
 .multi-slider .multicolumn-card.content-container  > div:first-child {
-  width:19%;
+  width:30%;
 }
 .multi-slider .multicolumn-card.content-container  > div:last-child {
-  width:75%;
+  width:65%;
 }
 
 
