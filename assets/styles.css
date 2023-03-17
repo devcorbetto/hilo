@@ -249,7 +249,15 @@ font-size:10px;
 .collection ul img, .collection .card__media , .collection .card .card__inner .card__media, .collection .card--standard .card__inner {
   border-radius:30px !important;
 }
-
+/* comment */
+@media screen and (min-width: 990px) {
+.comment .rich-text__blocks {
+    max-width: 100%;
+}
+  }
+.comment img {
+  width:100%;
+}
 /* páginas boutique y lamarque*/
 
 .banner-heading{
