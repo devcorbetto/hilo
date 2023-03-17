@@ -217,6 +217,9 @@ font-size:10px;
   
   
 }
+.collection ul img {
+  border-radius:50px;
+}
 
 /* páginas boutique y lamarque*/
 
