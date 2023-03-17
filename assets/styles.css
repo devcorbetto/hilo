@@ -387,7 +387,7 @@ font-size:10px;
 }
 .banner-home .media > img {
    object-position:bottom; }
-@media screen and (min-width: 750px)
+@media screen and (min-width: 750px) {
 .banner-home .banner--desktop-transparent .banner__box  {
   padding-top:0px;
 }
