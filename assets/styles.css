@@ -216,6 +216,11 @@ font-size:10px;
     line-height: 22px;
   
 }
+.quick-add__submit {
+ background:#D0C4E2;
+  border-radius:30px;
+  color:white;
+}
 #Slide-template--17804308381991__featured_collection-2 .card__heading   {
   padding-right:20px;
   
