@@ -385,6 +385,8 @@ font-size:10px;
   margin-bottom:30px;
   
 }
+.banner-home .media > img {
+    object-fit: cover; }
 .banner-home .banner__content.banner__content--middle-left {
   padding-top:0px;
 }
