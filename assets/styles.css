@@ -210,8 +210,8 @@ font-size:10px;
   
 }
 /* products */
-.collection {
-  margin-top:30px;
+.collection  h2 {
+  margin-bottom:60px;
 }
 .collection .price__regular {
   text-align: left;
