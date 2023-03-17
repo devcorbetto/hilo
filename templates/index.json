@@ -382,7 +382,7 @@
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1": {
           "type": "text",
           "settings": {
-            "customcss": "pm-30",
+            "customcss": "",
             "text": "<p>Pour trouver votre match parfait, réalisez votre diagnostic de peau.<\/p>"
           }
         },
