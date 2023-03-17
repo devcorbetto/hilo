@@ -3039,6 +3039,7 @@ details-disclosure > details {
   border:2px solid #575756;
   border-radius:30px;
   color:#575756;
+  font-weight:600;
 }
 .multi-slider .slick-slide .rte-ingredient {
   margin-top:40px;
