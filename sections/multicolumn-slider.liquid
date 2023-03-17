@@ -84,14 +84,14 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                   <div class="rte-ingredient"
-                    <p>
-                  {{ block.settings.imageicon | image_url: width: 24 | image_tag:
+                 
+                          <p> {{ block.settings.imageicon | image_url: width: 24 | image_tag:
                       loading: 'lazy',
                       sizes: sizes,
                       widths: '45, 550, 710, 1420',
                       class: 'multicolumn-card__image'
-                    }} {{ block.settings.titleicon }}
-                  </p>
+                    }} {{ block.settings.titleicon }}</p>
+                 
                  <p> {{ block.settings.imageicon | image_url: width: 24 | image_tag:
                       loading: 'lazy',
                       sizes: sizes,
