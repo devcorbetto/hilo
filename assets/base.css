@@ -3034,6 +3034,12 @@ details-disclosure > details {
 
 
 }
+.multi-slider .slick-slide .rte-ingredient {
+  margin-top:40px;
+}
+.multi-slider .slick-slide .rte-ingredient  p {
+  margin-bottom:20px;
+}
 .multi-slider .slick-slide .rte-ingredient img {
   border-radius: 52px;
   margin-right:30px;
