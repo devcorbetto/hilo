@@ -108,6 +108,7 @@
                   
                   </div>
                 {%- endif -%}
+          <p> {{ block.settings.text_below }}</p>
                 {%- if block.settings.link_label != blank -%}
                   <a class="link animate-arrow button " {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}> {{ block.settings.link_label | escape }}</a>
                 {%- endif -%}
@@ -261,6 +262,12 @@
       ],
       "default": "primary",
       "label": "t:sections.multicolumn.settings.background_style.label"
+    },
+      {
+      "type": "text",
+      "id": "text_below",
+      "default": "Vous aussi, trouvez votre match parfait !",
+      "label": "Text below ingredients"
     },
     {
       "type": "text",
