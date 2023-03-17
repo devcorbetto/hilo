@@ -3036,7 +3036,8 @@ details-disclosure > details {
 }
 .multi-slider .slick-slide .rte-ingredient .button {
   background:transparent;
-  border:2px solid #000;
+  border:2px solid #575756;
+  color:#575756;
 }
 .multi-slider .slick-slide .rte-ingredient {
   margin-top:40px;
