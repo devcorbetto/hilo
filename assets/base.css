@@ -3034,9 +3034,10 @@ details-disclosure > details {
 
 
 }
-.multi-slider .slick-slide .rte-ingredient .button  {
+.multi-slider .slick-slide  .button  {
   background:transparent !important;
   border:2px solid #575756;
+  border-radius:30px;
   color:#575756;
 }
 .multi-slider .slick-slide .rte-ingredient {
