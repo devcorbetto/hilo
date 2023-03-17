@@ -216,7 +216,10 @@ font-size:10px;
     line-height: 22px;
   
 }
-.quick-add__submit {
+.collection  .button--secondary:after {
+  content:none;
+}
+.collection  .quick-add__submit {
  background:#D0C4E2;
   border-radius:30px;
   color:white;
