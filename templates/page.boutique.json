@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Hilo vous propose des soins visage naturels et personnalisables chez vous grâce aux petites capsules d'actifs à ajouter dans votre base de soin. <\/p><p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
+            "text": "<p>Hilo vous propose des soins visage naturels et personnalisables chez vous grâce aux petites capsules d'actifs à ajouter dans votre base de soin. <\/p>"
           }
         },
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2": {
@@ -38,12 +38,20 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "d79e4868-7e5c-4937-883c-e698df8d27f6": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
+          }
         }
       },
       "block_order": [
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0",
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1",
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2"
+        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2",
+        "d79e4868-7e5c-4937-883c-e698df8d27f6"
       ],
       "settings": {
         "customcss": "waves5b",
