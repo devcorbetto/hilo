@@ -191,7 +191,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. <br\/>Et voilà, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
+            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. Et hop, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
           }
         }
       },
@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>LES CAPSULES D'ACTIF<\/p>",
-            "customcss": "",
+            "customcss": "mb-5",
             "heading_size": "h1"
           }
         },
@@ -225,7 +225,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Les premières petites capsules éco-conçues pour personnaliser votre base de soin. <br\/>Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau.<\/p>"
+            "text": "<p>Découvrez les premières capsules éco-conçues pour personnaliser votre base de soin. Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau. <\/p>"
           }
         },
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2": {
@@ -240,12 +240,20 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "12d5c4a7-78d2-410a-8f94-4d282a2ca70c": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Chaque actif est reconnu pour les propriétés suivantes :<\/p>"
+          }
         }
       },
       "block_order": [
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0",
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1",
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2"
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2",
+        "12d5c4a7-78d2-410a-8f94-4d282a2ca70c"
       ],
       "settings": {
         "customcss": "rich-classic",
