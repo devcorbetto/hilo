@@ -3039,6 +3039,8 @@ details-disclosure > details {
 }
 .multi-slider .slick-slide .rte-ingredient  p {
   margin-bottom:20px;
+  font-size:14px;
+  font-weight:bold;
 }
 .multi-slider .slick-slide .rte-ingredient img {
   border-radius: 52px;
