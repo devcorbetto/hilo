@@ -382,7 +382,7 @@
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "pm-30",
             "text": "<p>Pour trouver votre match parfait, réalisez votre diagnostic de peau.<\/p>"
           }
         },
@@ -404,7 +404,7 @@
             "customcss": "",
             "caption": "Alors caps ou pas caps ?",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "small"
           }
         }
       },
