@@ -386,7 +386,7 @@ font-size:10px;
   
 }
 .banner-home .media > img {
-    object-fit: cover; }
+   object-position:bottom; }
 .banner-home .banner__content.banner__content--middle-left {
   padding-top:0px;
 }
