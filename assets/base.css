@@ -3041,6 +3041,9 @@ details-disclosure > details {
   color:#575756;
   font-weight:600;
 }
+.multi-slider .slick-slide  .button::after , .multi-slider .slick-slide  .button::before {
+  content:none !important; 
+}
 .multi-slider .slick-slide .rte-ingredient {
   margin-top:40px;
 }
