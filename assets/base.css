@@ -3041,6 +3041,8 @@ details-disclosure > details {
   margin-bottom:20px;
   font-size:14px;
   font-weight:bold;
+      display: flex;
+    align-items: center;
 }
 .multi-slider .slick-slide img {
   border-radius: 52px;
