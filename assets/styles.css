@@ -387,7 +387,11 @@ font-size:10px;
 }
 .banner-home .media > img {
    object-position:bottom; }
-.banner-home .banner--desktop-transparent .banner__box ,
+@media screen and (min-width: 750px)
+.banner-home .banner--desktop-transparent .banner__box  {
+  padding-top:0px;
+}
+}
 .banner-home .banner__content.banner__content--middle-left {
   padding-top:0px !important;
 }
