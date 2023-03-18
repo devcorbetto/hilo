@@ -268,11 +268,13 @@ font-size:10px;
 .text-black h2.banner__heading  {
   color:#575756;
   font-weight:bold;
+  margin-bottom:50px;
 }
 
 .text-black .banner__text  {
   color:#575756;
   font-size:18px;
+    font-weight:bold;
 }
 
 .banner-heading{
