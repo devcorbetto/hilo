@@ -558,12 +558,12 @@ border-radius: 33px;
 .images-team   h4 {
   color:#575756;
   font-weight:600;
-  margin-top:15px;
+  margin-top:35px;
   margin-bottom:15px;
 }
 .images-team    p {
-  font-size:15px !important;
-   font-size:18px !important;
+  font-size:15px ;
+   line-height:18px ;
 }
 .images-team  .multicolumn-card__image-wrapper{
     width: 150px;
