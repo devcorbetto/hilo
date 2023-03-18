@@ -562,8 +562,8 @@ border-radius: 33px;
   margin-bottom:15px;
 }
 .images-team    p {
-  font-size:15px;
-   font-size:18px;
+  font-size:15px !important;
+   font-size:18px !important;
 }
 .images-team  .multicolumn-card__image-wrapper{
     width: 150px;
