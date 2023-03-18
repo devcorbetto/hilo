@@ -107,6 +107,9 @@
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0",
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1"
       ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Elise_et_Margaux.jpg",
         "height": "adapt",
@@ -142,6 +145,9 @@
       "block_order": [
         "13895490-255d-48af-b00b-bdd84f4d1c35",
         "6184607f-c260-4cd0-82b3-dbe5d76be10f"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Les_valeurs.png",
