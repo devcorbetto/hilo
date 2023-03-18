@@ -550,16 +550,16 @@ border-radius: 33px;
 .images-team img {
 
 }
-.border-color1 img {
+.border-color1 .media--circle {
   border:2px solid #FBD1AD;
 }
-.border-color2  img{
+.border-color2  .media--circle{
   border:2px solid #B7DAF3;
 }
-.border-color3 img{
+.border-color3 .media--circle{
   border:2px solid #F5DEA3;
 }
-.border-color4 img{
+.border-color4 .media--circle {
   border:2px solid #CDE4CA;
 }
 /*
