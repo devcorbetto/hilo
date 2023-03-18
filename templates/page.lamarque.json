@@ -211,7 +211,7 @@
         "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0": {
           "type": "column",
           "settings": {
-            "customcss": "",
+            "customcss": "border-color1",
             "image": "shopify:\/\/shop_images\/L_e_uquipe_Elise.jpg",
             "title": "Elise 🏃‍♀",
             "subtitle": "Co-fondatrice",
@@ -223,7 +223,7 @@
         "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1": {
           "type": "column",
           "settings": {
-            "customcss": "",
+            "customcss": "border-color2",
             "image": "shopify:\/\/shop_images\/L_e_uquipe_Margaux.jpg",
             "title": "Margaux ✈",
             "subtitle": "Co-Fondatrice",
@@ -235,7 +235,7 @@
         "414ffa1c-76df-4c14-a436-646a7cd174ab": {
           "type": "column",
           "settings": {
-            "customcss": "",
+            "customcss": "border-color3",
             "image": "shopify:\/\/shop_images\/L_e_uquipe_Le_uo.jpg",
             "title": "Léo🌻",
             "subtitle": "Communication",
@@ -247,7 +247,7 @@
         "2e3950c0-558b-4d13-aa7e-627c7da0b782": {
           "type": "column",
           "settings": {
-            "customcss": "",
+            "customcss": "border-color4",
             "image": "shopify:\/\/shop_images\/L_e_uquipe_Anae_elle.jpg",
             "title": "Anaëlle 🧘‍♀️",
             "subtitle": "Marketing",
