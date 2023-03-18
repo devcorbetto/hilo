@@ -263,16 +263,19 @@
         "2e3950c0-558b-4d13-aa7e-627c7da0b782",
         "414ffa1c-76df-4c14-a436-646a7cd174ab"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "customcss": "images-team",
         "title": "LA TEAM",
         "subtitle": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "image_ratio": "circle",
+        "columns_desktop": 4,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
