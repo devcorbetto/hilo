@@ -548,7 +548,19 @@ border-radius: 33px;
 
 /*Team*/
 .images-team img {
-  border-radius:100% 100%;
+
+}
+.border-color1 {
+  border:2px solid #FBD1AD;
+}
+.border-color2 {
+  border:2px solid #B7DAF3;
+}
+.border-color3 {
+  border:2px solid #F5DEA3;
+}
+.border-color4 {
+  border:2px solid #CDE4CA;
 }
 /*
 Montserrat, SemiBold - 50px
