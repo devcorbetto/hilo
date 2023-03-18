@@ -550,6 +550,10 @@ border-radius: 33px;
 .images-team img {
 
 }
+.images-team  .multicolumn-card__image-wrapper{
+    width: 150px;
+    margin: 0 auto;
+}
 .border-color1 .media--circle {
   border:5px solid #FBD1AD;
 }
