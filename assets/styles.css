@@ -558,8 +558,8 @@ border-radius: 33px;
 .images-team   h4 {
   color:#575756;
   font-weight:600;
-  margin-top:35px;
-  margin-bottom:15px;
+  margin-top:20px !important;
+  margin-bottom:20px;
 }
 .images-team    p {
   font-size:15px ;
