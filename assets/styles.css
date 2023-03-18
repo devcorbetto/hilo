@@ -555,6 +555,11 @@ border-radius: 33px;
   color:#575756;
   font-weight:500;
 }
+.images-team   h4 {
+  color:#575756;
+  font-weight:500;
+  margin-bottom:30px;
+}
 .images-team  .multicolumn-card__image-wrapper{
     width: 150px;
     margin: 0 auto !important;
