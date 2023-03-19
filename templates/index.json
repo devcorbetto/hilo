@@ -573,7 +573,7 @@
             "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
             "title": "Marine",
             "subtitle": "",
-            "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…) Le fait que je puisse adapter ma crème à ces moments de la vie est génial.” Marine<\/p>",
+            "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…) Le fait que je puisse adapter ma crème à ces moments de la vie est génial.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -583,9 +583,9 @@
           "settings": {
             "customcss": "stars_size",
             "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
-            "title": "Marine",
+            "title": "Charlotte",
             "subtitle": "",
-            "text": "<p>Pair text with an image to focu“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. Enfin un soin qui répond réellement aux besoins de toutes les peaux.” Charlottes on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. Enfin un soin qui répond réellement aux besoins de toutes les peaux.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -595,9 +595,9 @@
           "settings": {
             "customcss": "stars_size",
             "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
-            "title": "Marine",
+            "title": "Laurine",
             "subtitle": "",
-            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” Laurine<\/p>",
+            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -613,7 +613,7 @@
         "title": "ILS LES ADORENT AUTANT QUE NOUS",
         "subtitle": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
