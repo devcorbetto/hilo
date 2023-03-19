@@ -526,7 +526,9 @@ border-radius: 33px;
   margin:0px auto !important;
   
 }
-
+.stars_size .multicolumn-card__image-wrapper img:hover {
+  opacity:1;
+}
 
 
 /* bg1 */
