@@ -3029,7 +3029,7 @@ position: absolute;
 }
 .@media screen and (min-width: 990px) {
 .svg-fullwidth .rich-text__blocks {
-    max-width: 105rem;
+    max-width: 105rem !important;
 } 
   
 }
