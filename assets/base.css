@@ -3021,10 +3021,11 @@ details-disclosure > details {
   right:-60px;
 }
 .corner-top {
-      position: absolute;
+position: absolute;
     width: 30px;
-    left: -20px;
+    right: -20px;
     top: -20px;
+    transform: rotate(90deg);
 }
 
 .multi-slider  .multicolumn-card  {
