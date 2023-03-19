@@ -196,7 +196,7 @@
         "e184a498-6e22-413b-96d7-8fbc9da62041"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "svg-fullwidth",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_4",
