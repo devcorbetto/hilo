@@ -193,7 +193,7 @@
             "type": "text",
             "settings": {
               "heading": "REJOIGNEZ NOUS",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Contactez-nous<\/a><\/p>"
             }
           }
         },
