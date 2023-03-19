@@ -523,7 +523,7 @@ border-radius: 33px;
 
 /*stars_size */
 .stars_size .multicolumn-card__image-wrapper {
-  margin:20px auto;
+  margin:0px auto !important;
   
 }
 
