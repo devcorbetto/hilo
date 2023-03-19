@@ -3027,6 +3027,12 @@ position: absolute;
     top: -20px;
     transform: rotate(90deg);
 }
+.@media screen and (min-width: 990px) {
+.svg-fullwidth .rich-text__blocks {
+    max-width: 105rem;
+} 
+  
+}
 
 .multi-slider  .multicolumn-card  {
   border-radius: 52px !important;
