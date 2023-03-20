@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>FAQ<\/p>",
-            "customcss": "",
+            "customcss": "mb-10",
             "heading_size": "h1"
           }
         },
