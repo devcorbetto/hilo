@@ -70,9 +70,9 @@
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Comment savoir quelles huiles végétales choisir pour ma peau ?",
+            "heading": "Comment savoir quels actifs choisir pour personnaliser mes soins ?",
             "icon": "none",
-            "row_content": "<p>Chaque huile végétale est connue pour des propriétés spécifiques pour la peau. Hilo vous propose de réaliser un diagnostic en ligne pour vous aider à déterminer les besoins de votre peau et trouver les huiles adaptées.<\/p>",
+            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un diagnostic en ligne pour vous aider à<br\/>déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
             "page": ""
           }
         },
@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Les produits sont-ils adaptés aux hommes ?",
             "icon": "none",
-            "row_content": "<p>Chaque huile végétale est connue pour des propriétés spécifiques pour la peau. Hilo vous propose de réaliser un diagnostic en ligne pour vous aider à déterminer les besoins de votre peau et trouver les huiles adaptées.<\/p>",
+            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont<br\/>adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète !<\/p>",
             "page": ""
           }
         },
@@ -90,7 +90,16 @@
           "settings": {
             "heading": "Les produits sont-ils vegan ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Oui, nos cosmétiques sont 100% vegan et aucun de nos ingrédients ne contient de matières<br\/>d’origine animale. Nos produits ne sont également jamais testés sur les animaux comme<br\/>l’exige la réglementation européenne.<\/p>",
+            "page": ""
+          }
+        },
+        "69d6f757-265c-4d87-b248-23f38062aad6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits sont-ils naturels ?",
+            "icon": "none",
+            "row_content": "<p>Oui nos produits sont formulés avec des ingrédients d’origine naturelle. Les bases de soins<br\/>sont neutres et naturels à plus de 99%. Les actifs étant des huiles végétales, ils sont 100%<br\/>naturels.<br\/><\/p>",
             "page": ""
           }
         },
@@ -99,16 +108,7 @@
           "settings": {
             "heading": "Combien de temps peuvent se conserver les produits Hilo ?",
             "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "779f50ff-a44b-474b-bcc2-5adacaf8fe47": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Les produits Hilo sont-ils adaptés aux femmes enceintes ?",
-            "icon": "none",
-            "row_content": "",
+            "row_content": "<p>La base de crème Hilo se conserve 6 mois après ouverture de l’opercule et 3 ans avant<br\/>ouverture.<br\/>Les capsules d’actifs non ouvertes se conservent 3 ans.<\/p><p><br\/>Votre base de crème et vos capsules sont à conserver dans un endroit sec, tempéré (entre<br\/>15 et 20°C) et à l’abri de la lumière.<br\/><\/p>",
             "page": ""
           }
         },
@@ -117,7 +117,34 @@
           "settings": {
             "heading": "Où puis-je trouver les produits Hilo ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne.<\/p><p>La Team Hilo travaille dur pour créer de nouveaux partenariats et vous proposer très bientôt<br\/>des points de ventes près de chez vous !<\/p>",
+            "page": ""
+          }
+        },
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le prochain produit Hilo à sortir ?",
+            "icon": "none",
+            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous<br\/>nos prochaines pépites.<\/p><p><br\/>Pour être informé de toutes nos campagnes ambassadeur, nous vous invitons à vous<br\/>abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
+            "page": ""
+          }
+        },
+        "6de2310f-edf1-4b1a-8677-b84a47505642": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le principe de la recharge ?",
+            "icon": "none",
+            "row_content": "<p>Hilo limite son impact environnemental en vous proposant des produits rechargeables pour<br\/>permettre de réaliser une économie de plus de 95% de plastique.<\/p><p>Une fois votre soin terminé, vous ne recommandez uniquement la recharge correspondante<br\/>que vous aurez simplement à clipser dans votre pot.<\/p>",
+            "page": ""
+          }
+        },
+        "6f267826-78b5-464f-9e11-42b9c69f948a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Je souhaite offrir un soin personnalisé Hilo, comment faire ?",
+            "icon": "none",
+            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une carte cadeau Hilo.<\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin<br\/>directement sur notre site internet.<br\/><\/p>",
             "page": ""
           }
         }
@@ -126,9 +153,12 @@
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0",
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1",
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2",
+        "69d6f757-265c-4d87-b248-23f38062aad6",
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3",
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880",
         "779f50ff-a44b-474b-bcc2-5adacaf8fe47",
-        "7ad787b5-685b-4bf4-84dd-c28fe27f7880"
+        "6de2310f-edf1-4b1a-8677-b84a47505642",
+        "6f267826-78b5-464f-9e11-42b9c69f948a"
       ],
       "settings": {
         "caption": "",
