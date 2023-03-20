@@ -500,7 +500,8 @@ border-radius: 33px;
 
 .bg_contact {
   background-image:url(https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Photo_bandeau_accueil_100e7a3b-8b88-431f-991a-da3104999a70.png?v=1679352497);
-  background-position:left;
+background-position: left center;
+    background-size: 100%;
 }
 .bg_contact  > div {
   background: transparent !important;
