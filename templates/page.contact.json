@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>CONTACT<\/p>",
-            "customcss": "",
+            "customcss": "mb-10b",
             "heading_size": "h1"
           }
         },
