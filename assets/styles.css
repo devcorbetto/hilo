@@ -508,6 +508,10 @@ background-position: left bottom;
 .bg_contact  > div {
   background: transparent !important;
 }
+.bg_subtitle {
+  font-size:16px;
+  
+}
 
 /*home collection card image hover*/
 
