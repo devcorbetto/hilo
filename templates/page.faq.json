@@ -41,6 +41,7 @@
         },
         "40a05bbb-2620-4b8f-bcf3-8063645ed632": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "customcss": "bg",
             "image_picker": "shopify:\/\/shop_images\/Photo_bandeau_accueil.png"
@@ -54,7 +55,7 @@
         "40a05bbb-2620-4b8f-bcf3-8063645ed632"
       ],
       "settings": {
-        "customcss": "waves4",
+        "customcss": "waves4 bg_contact",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_2",
