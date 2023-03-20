@@ -508,7 +508,7 @@ background-position: left bottom;
 .bg_contact  > div {
   background: transparent !important;
 }
-.bg_subtitle {
+.bg_contact  .bg_subtitle p {
   font-size:14px;
   
 }
