@@ -22,7 +22,7 @@
         "template--17746291753255__8f4ee6d8-3bca-4323-af47-292cba7a998a-1675644880a725a637-1": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "bg_subtitle",
             "text": "<p>Vous avez une question, un avis à nous partager ? L’envie de nous envoyer une dose d'amour ?<\/p>"
           }
         },
@@ -49,13 +49,13 @@
 
       ],
       "settings": {
-        "customcss": "bg_contact waves3",
+        "customcss": "bg_contact waves5b",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_6",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 100
+        "padding_top": 60,
+        "padding_bottom": 120
       }
     },
     "form": {
