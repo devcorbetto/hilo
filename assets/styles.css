@@ -656,5 +656,9 @@ SemiBold - 19px, #EFD1BF
         flex-direction: column;
     
   }
-  
+  .collection ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0px !important;
+}
 }
