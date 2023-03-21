@@ -680,7 +680,13 @@ footer .footer-block__heading {
   margin-top:0px !important;
     text-align:left;
 }
-
+.footer__list-social  {
+  margin-bottom:20px;
+}
+.footer__list-social  svg {
+  height:3rem;
+  width:3rem;
+}
 .footer-block  .list-social {
     display: flex;
     flex-wrap: wrap;
