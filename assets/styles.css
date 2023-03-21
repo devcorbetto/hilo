@@ -658,7 +658,7 @@ SemiBold - 19px, #EFD1BF
 
 /*footer*/
 footer .footer-block__details-content .list-menu__item--link, footer p {
-  font-size:12px;
+  font-size:14px;
   font-weight:400;
 text-align:left;
   padding-bottom:0px;
@@ -708,7 +708,7 @@ footer .newsletter-form {
   margin-top:15px;
 }
 footer .field label { top: 20px; }
-
+footer .newsletter-form__button {  top: 5px;  }
 
 /* mobile */
 @media (max-width:749px) {
