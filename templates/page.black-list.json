@@ -103,13 +103,13 @@
         "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-2"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "bg_subtitle",
         "desktop_content_position": "left",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 16
       }
     },
     "14c0a971-70b2-442f-ac7b-f2be54d60278": {
@@ -210,7 +210,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "LES PRODUITS",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
@@ -219,7 +219,7 @@
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
