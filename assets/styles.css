@@ -679,7 +679,7 @@ footer .footer-block__heading {
     justify-content: flex-start;
 }
 footer .footer-block {
-  position:absolute;
+  position:relative;
 }
 footer .footer__copyright {
     text-align: left;
