@@ -651,6 +651,7 @@ SemiBold - 19px, #EFD1BF
 /*footer*/
 footer .footer-block__details-content .list-menu__item--link, footer p {
   font-size:12px;
+  font-weight:400;
 }
 footer .footer-block__heading {
   text-align:left;
