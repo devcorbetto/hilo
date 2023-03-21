@@ -655,7 +655,7 @@ SemiBold - 19px, #EFD1BF
   font-size:18px;
 }
 .footer-block--newsletter {
-  margin-top:0px;
+  margin-top:0px !important;
     text-align:left;
 }
 
