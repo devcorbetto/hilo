@@ -705,7 +705,9 @@ footer .field:after {
 footer .newsletter-form {
   max-width:250px;
   margin-left:0px;
+  margin-top:15px;
 }
+footer .field label { top: 20px; }
 
 
 /* mobile */
