@@ -663,6 +663,11 @@ SemiBold - 19px, #EFD1BF
     line-height: 18px;
     text-align: center;
 }
+.paiment p
+
+{
+  font-size:14px;
+}
 footer .footer-block__details-content .list-menu__item--link, footer p {
   font-size:14px;
   font-weight:400;
