@@ -218,7 +218,7 @@ font-size:10px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .collection li {
-  width: 100%; max-width: 100%;
+  width: 100% !important; max-width: 100% !important;
 }
 .collection  h2 {
   margin-bottom:60px;
