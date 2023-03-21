@@ -660,6 +660,9 @@ SemiBold - 19px, #EFD1BF
     font-size:20px;
     line-height:24px;
   }
+  .banner-home .banner__text.body span {
+    font-size:14px;
+  }
   .collection ul {
     display: flex;
     flex-wrap: wrap;
