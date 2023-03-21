@@ -653,6 +653,7 @@ footer .footer-block__details-content .list-menu__item--link, footer p {
   font-size:12px;
   font-weight:400;
 text-align:left;
+  padding-bottom:0px;
 }
 .footer a[href="/pages/nous-rejoindre"] {
   margin-bottom:30px;
