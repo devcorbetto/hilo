@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>SOINS VISAGES NATURELS ET SUR-MESURE<\/p>",
-            "customcss": "",
+            "customcss": "mb-10b",
             "heading_size": "h1"
           }
         },
