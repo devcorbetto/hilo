@@ -707,7 +707,8 @@ footer .newsletter-form {
   margin-left:0px;
   margin-top:15px;
 }
-footer .field label { top: 20px; }
+footer .field label { top: 20px; 
+                    font-size:14px;}
 footer .newsletter-form__button {  top: 5px;  }
 
 /* mobile */
