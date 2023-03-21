@@ -683,9 +683,10 @@ SemiBold - 19px, #EFD1BF
 }
 footer .footer-block__details-content .list-menu__item--link, footer p {
   font-size:14px;
-  font-weight:400;
+  font-weight:500;
 text-align:left;
   padding-bottom:0px;
+
 }
 .footer a[href="/pages/nous-rejoindre"] {
   margin-bottom:30px;
