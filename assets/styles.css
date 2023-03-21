@@ -678,7 +678,11 @@ footer .footer-block__heading {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
+footer .footer__copyright {
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+}
 
 /* mobile */
 @media (max-width:749px) {
