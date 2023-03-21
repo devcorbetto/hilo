@@ -187,8 +187,8 @@
           "settings": {
             "customcss": "",
             "caption": "(Ou plutôt crème blanche )",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_style": "subtitle",
+            "text_size": "small"
           }
         },
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1": {
@@ -201,7 +201,7 @@
         "477266ca-c02c-45f2-ac3f-ecd1163f0e9d": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "mb-10b",
             "text": "<p>Afin de vous accompagner dans la compréhension de ce que vous appliquez sur votre peau et pour vous apporter une transparence la plus totale nous tenons à vous présenter la charte des recalés de l’ilot.<\/p>"
           }
         },
