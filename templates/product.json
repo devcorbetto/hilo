@@ -108,6 +108,19 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "20ee684c-faee-4ab8-b476-a7b8f8f3d06f": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
+        "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "✔️ Livraison offerte dés 49€ d'achats"
+          }
         }
       },
       "block_order": [
@@ -124,7 +137,9 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "20ee684c-faee-4ab8-b476-a7b8f8f3d06f",
+        "0fa8d211-b8c2-4b19-ac4e-44172d9c9241"
       ],
       "settings": {
         "enable_sticky_info": true,
