@@ -42,7 +42,7 @@
         "d79e4868-7e5c-4937-883c-e698df8d27f6": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "bg_subtitle",
             "text": "<p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
           }
         }
@@ -132,7 +132,14 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin pour rayonner sans briller. ✨ <\/p><p>Vous pouvez réaliser votre diagnostic à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
+            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin pour rayonner sans briller. ✨ <\/p>"
+          }
+        },
+        "a82a55a9-1c7b-45ef-8983-c7289128aab2": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p><\/p><p>Vous pouvez réaliser votre diagnostic à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
           }
         },
         "64975ab8-962a-48ff-bbec-1129a17db732": {
@@ -151,6 +158,7 @@
       "block_order": [
         "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0",
         "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1",
+        "a82a55a9-1c7b-45ef-8983-c7289128aab2",
         "64975ab8-962a-48ff-bbec-1129a17db732"
       ],
       "settings": {
@@ -187,7 +195,14 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Les produits Hilo sont établis avec un cahier des charges strict afin de vous assurer des soins visages naturels et qualitatifs. Aussi, nous avons choisi de bannir de nombreux ingrédients de nos formules. <\/p><p>Afin de vous accompagner dans la compréhension de ce que vous appliquez sur votre peau et pour vous apporter une transparence la plus totale nous tenons à vous présenter la charte des recalés de l’ilot.<\/p>"
+            "text": "<p>Les produits Hilo sont établis avec un cahier des charges strict afin de vous assurer des soins visages naturels et qualitatifs. Aussi, nous avons choisi de bannir de nombreux ingrédients de nos formules. <\/p>"
+          }
+        },
+        "477266ca-c02c-45f2-ac3f-ecd1163f0e9d": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Afin de vous accompagner dans la compréhension de ce que vous appliquez sur votre peau et pour vous apporter une transparence la plus totale nous tenons à vous présenter la charte des recalés de l’ilot.<\/p>"
           }
         },
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2": {
@@ -207,6 +222,7 @@
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0",
         "15b1c2cc-9c8f-43b2-9b0f-1ff970687fca",
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1",
+        "477266ca-c02c-45f2-ac3f-ecd1163f0e9d",
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
       ],
       "settings": {
