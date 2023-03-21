@@ -104,7 +104,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/L_e_uquipe_Margaux.jpg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
             "title": "Contribuer",
             "subtitle": "",
             "text": "<p>à la création de produits qui vous ressemblent.<\/p>",
@@ -116,7 +116,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/L_e_uquipe_Le_uo.jpg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
             "title": "Partager",
             "subtitle": "",
             "text": "<p> votre avis et votre expérience en toute transparence.<\/p>",
@@ -128,7 +128,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/L_e_uquipe_Anae_elle.jpg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
             "title": "Booster",
             "subtitle": "",
             "text": "<p> le succès des produits et être garant de leur qualité.<\/p>",
