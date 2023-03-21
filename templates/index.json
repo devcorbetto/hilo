@@ -850,7 +850,7 @@
         "9d645b64-8577-4900-8ee6-8840c4423867"
       ],
       "custom_css": [
-        "img {max-height: 80px;}"
+
       ],
       "settings": {
         "customcss": "multi-logos",
@@ -867,7 +867,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 60,
-        "padding_bottom": 20
+        "padding_bottom": 24
       }
     },
     "8cf76421-6fa4-42cd-a954-23ae04a049ae": {
