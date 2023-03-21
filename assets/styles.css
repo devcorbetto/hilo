@@ -647,3 +647,14 @@ Montserrat, SemiBold - 19px
 SemiBold - 19px, #EFD1BF
 
 */
+
+/* mobile */
+@media (max-width:749px) {
+/* Home */
+  .banner-home  .banner__content {
+    display:flex;
+        flex-direction: column;
+    
+  }
+  
+}
