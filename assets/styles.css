@@ -532,10 +532,10 @@ background-position: left bottom;
  object-fit: contain !important; 
 
 } 
-.media.media--transparent.media--adapt:hover img.multicolumn-card__image {
+.multi-capsules .media.media--transparent.media--adapt:hover img.multicolumn-card__image {
   opacity:0;
 }
-.media.media--transparent.media--adapt:hover img.multicolumn-card__image-hover {
+.multi-capsules .media.media--transparent.media--adapt:hover img.multicolumn-card__image-hover {
   opacity:1;
 
 }
