@@ -62,32 +62,12 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
             "content": "",
             "page": ""
           }
@@ -109,17 +89,10 @@
             "share_label": "Share"
           }
         },
-        "20ee684c-faee-4ab8-b476-a7b8f8f3d06f": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "✔️ Livraison offerte dés 49€ d'achats"
+            "custom_liquid": "✔️ Livraison offerte dés 49€ d'achats\n\n✔️ Paiement sécurisé"
           }
         }
       },
@@ -133,12 +106,9 @@
         "quantity_selector",
         "buy_buttons",
         "474a192d-b0de-4595-9aa2-875c55099ec6",
-        "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "20ee684c-faee-4ab8-b476-a7b8f8f3d06f",
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241"
       ],
       "settings": {
