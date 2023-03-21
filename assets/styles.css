@@ -668,6 +668,10 @@ font-size: 10px;
     font-size:12px !important;
     
   }
+.banner-home .imagenproduct {
+  padding-bottom:90px;
+  margin-bottom:20px;
+}
   .collection ul {
     display: flex;
     flex-wrap: wrap;
