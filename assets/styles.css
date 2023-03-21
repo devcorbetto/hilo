@@ -212,6 +212,11 @@ font-size:10px;
   
 }
 /* products */
+
+.collection {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .collection  h2 {
   margin-bottom:60px;
 }
