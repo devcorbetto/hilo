@@ -686,6 +686,9 @@ footer .footer__copyright, footer .imagen-footerlogo {
     position: absolute;
     bottom: 0px;
 }
+footer .newsletter-form__field-wrapper .field__input {
+  margin-top:10px;
+}
 
 /* mobile */
 @media (max-width:749px) {
