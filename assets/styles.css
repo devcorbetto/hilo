@@ -654,6 +654,9 @@ SemiBold - 19px, #EFD1BF
   font-weight:bold;
   font-size:18px;
 }
+.footer-block--newsletter {
+  margin-top:0px;
+}
 
 /* mobile */
 @media (max-width:749px) {
