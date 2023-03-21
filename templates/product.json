@@ -3,15 +3,30 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "484aed82-dbbb-4772-b1c4-06c773178bdd": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.card.text_legend.value }}",
+            "text_style": "body"
+          }
+        },
+        "12b4082c-27de-4d93-9afc-e871343acd4f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -43,11 +58,7 @@
         },
         "474a192d-b0de-4595-9aa2-875c55099ec6": {
           "type": "ingredientes",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -100,14 +111,15 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "484aed82-dbbb-4772-b1c4-06c773178bdd",
+        "12b4082c-27de-4d93-9afc-e871343acd4f",
+        "description",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "474a192d-b0de-4595-9aa2-875c55099ec6",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -117,8 +129,8 @@
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
-        "gallery_layout": "stacked",
-        "media_size": "large",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -169,6 +181,7 @@
           "settings": {
             "customcss": "",
             "title": "Free Shipping",
+            "subtitle": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -179,6 +192,7 @@
           "settings": {
             "customcss": "",
             "title": "Hassle-Free Exchanges",
+            "subtitle": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -192,6 +206,7 @@
       "settings": {
         "customcss": "",
         "title": "",
+        "subtitle": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
