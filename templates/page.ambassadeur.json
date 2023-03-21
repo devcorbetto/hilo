@@ -92,7 +92,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/L_e_uquipe_Elise.jpg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
             "title": "Découvrir",
             "subtitle": "",
             "text": "<p>et tester en exclusivité les soins Hilo.<\/p>",
@@ -152,7 +152,7 @@
         "subtitle": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "circle",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
