@@ -702,6 +702,9 @@ footer .field:after {
   content:none;
 }
 
+footer .newsletter-form {
+  max-width:100%;
+}
 /* mobile */
 @media (max-width:749px) {
 /* Home */
