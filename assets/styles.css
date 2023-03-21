@@ -681,7 +681,7 @@ footer .footer-block__heading {
 footer .footer-block {
   position:relative;
 }
-footer .footer__copyright {
+footer .footer__copyright, footer .imagen-footerlogo {
     text-align: left;
     position: absolute;
     bottom: 0px;
