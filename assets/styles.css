@@ -653,6 +653,9 @@ footer .footer-block__details-content .list-menu__item--link, footer p {
   font-size:12px;
   font-weight:400;
 }
+.footer a {
+  text-decoration:underline;
+}
 footer .footer-block__heading {
   text-align:left;
   font-weight:bold;
