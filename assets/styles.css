@@ -656,6 +656,10 @@ SemiBold - 19px, #EFD1BF
         flex-direction: column;
     
   }
+  .banner-home .h0 {
+    font-size:20px;
+    line-height:24px;
+  }
   .collection ul {
     display: flex;
     flex-wrap: wrap;
