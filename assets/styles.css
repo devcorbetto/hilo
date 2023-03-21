@@ -657,8 +657,8 @@ SemiBold - 19px, #EFD1BF
 */
 
 /*footer*/
-.multi-logos h3{
-  margin-bottom:60px !important;
+.multi-logos h2{
+  margin-bottom:60px;
 }
 .paiment svg {
   margin-bottom:40px;
