@@ -659,6 +659,11 @@ SemiBold - 19px, #EFD1BF
     text-align:left;
 }
 
+.list-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 
 
 /* mobile */
