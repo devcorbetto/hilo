@@ -139,7 +139,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 8,
-        "padding_bottom": 20
+        "padding_bottom": 32
       }
     },
     "featured_collection": {
