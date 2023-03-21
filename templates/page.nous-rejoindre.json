@@ -1,0 +1,380 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "53851c50-8ecd-4bc1-9e9b-0b329981925b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FAQ<\/p>",
+            "customcss": "mb-10b",
+            "heading_size": "h1"
+          }
+        },
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>Retrouvez ici les réponses à vos questions les plus fréquentes.<\/p>"
+          }
+        },
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "40a05bbb-2620-4b8f-bcf3-8063645ed632": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "customcss": "bg",
+            "image_picker": "shopify:\/\/shop_images\/Photo_bandeau_accueil.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1",
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2",
+        "40a05bbb-2620-4b8f-bcf3-8063645ed632"
+      ],
+      "settings": {
+        "customcss": "waves5b bg_contact",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 120
+      }
+    },
+    "14c0a971-70b2-442f-ac7b-f2be54d60278": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment savoir quels actifs choisir pour personnaliser mes soins ?",
+            "icon": "none",
+            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un diagnostic en ligne pour vous aider à<br\/>déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits sont-ils adaptés aux hommes ?",
+            "icon": "none",
+            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont<br\/>adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète !<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits sont-ils vegan ?",
+            "icon": "none",
+            "row_content": "<p>Oui, nos cosmétiques sont 100% vegan et aucun de nos ingrédients ne contient de matières<br\/>d’origine animale. Nos produits ne sont également jamais testés sur les animaux comme<br\/>l’exige la réglementation européenne.<\/p>",
+            "page": ""
+          }
+        },
+        "69d6f757-265c-4d87-b248-23f38062aad6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les produits sont-ils naturels ?",
+            "icon": "none",
+            "row_content": "<p>Oui nos produits sont formulés avec des ingrédients d’origine naturelle. Les bases de soins<br\/>sont neutres et naturels à plus de 99%. Les actifs étant des huiles végétales, ils sont 100%<br\/>naturels.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps peuvent se conserver les produits Hilo ?",
+            "icon": "none",
+            "row_content": "<p>La base de crème Hilo se conserve 6 mois après ouverture de l’opercule et 3 ans avant<br\/>ouverture.<br\/>Les capsules d’actifs non ouvertes se conservent 3 ans.<\/p><p><br\/>Votre base de crème et vos capsules sont à conserver dans un endroit sec, tempéré (entre<br\/>15 et 20°C) et à l’abri de la lumière.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Où puis-je trouver les produits Hilo ?",
+            "icon": "none",
+            "row_content": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne.<\/p><p>La Team Hilo travaille dur pour créer de nouveaux partenariats et vous proposer très bientôt<br\/>des points de ventes près de chez vous !<\/p>",
+            "page": ""
+          }
+        },
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le prochain produit Hilo à sortir ?",
+            "icon": "none",
+            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous<br\/>nos prochaines pépites.<\/p><p><br\/>Pour être informé de toutes nos campagnes ambassadeur, nous vous invitons à vous<br\/>abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
+            "page": ""
+          }
+        },
+        "6de2310f-edf1-4b1a-8677-b84a47505642": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le principe de la recharge ?",
+            "icon": "none",
+            "row_content": "<p>Hilo limite son impact environnemental en vous proposant des produits rechargeables pour<br\/>permettre de réaliser une économie de plus de 95% de plastique.<\/p><p>Une fois votre soin terminé, vous ne recommandez uniquement la recharge correspondante<br\/>que vous aurez simplement à clipser dans votre pot.<\/p>",
+            "page": ""
+          }
+        },
+        "6f267826-78b5-464f-9e11-42b9c69f948a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Je souhaite offrir un soin personnalisé Hilo, comment faire ?",
+            "icon": "none",
+            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une carte cadeau Hilo.<\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin<br\/>directement sur notre site internet.<br\/><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2",
+        "69d6f757-265c-4d87-b248-23f38062aad6",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3",
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880",
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47",
+        "6de2310f-edf1-4b1a-8677-b84a47505642",
+        "6f267826-78b5-464f-9e11-42b9c69f948a"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "LES PRODUITS",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "975b805c-7fb1-4c16-a406-4f8bb87bd369": {
+      "type": "collapsible-content",
+      "blocks": {
+        "8ef7a419-eedd-4b81-a632-f812aa6961c7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les délais de livraison ?",
+            "icon": "none",
+            "row_content": "<p>Les commandes sont livrées en 5 à 7 jours ouvrés en France métropolitaine.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je être livré en dehors de la France métropolitaine ?",
+            "icon": "none",
+            "row_content": "<p>Nous livrons actuellement en France (métropole et DOM TOM), Belgique et Suisse. Les frais<br\/>de port varient selon votre emplacement.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je modifier l'adresse de livraison ?",
+            "icon": "none",
+            "row_content": "<p>Si vous avez fait une erreur lors de votre commande, il est peut-être encore temps de la<br\/>modifier. Envoyez-nous un mail à contact@hilocosmetiques.fr afin de nous en informer au<br\/>plus vite. En revanche, si la commande a déjà été traitée, nous ne pourrons plus la modifier.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le paiement est-il sécurisé ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "f71421b0-7f91-4efb-b4de-41fbffe71aea": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les moyens de paiement disponible sur le site ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "3849776c-a13f-4fa4-9e99-90a24137ee8b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je retourner un produit qui ne me conviendrait pas ?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "689d6537-3437-4425-a49f-2aa802bbb35f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je modifier le contenu de ma commande",
+            "icon": "none",
+            "row_content": "<p>Malheureusement, une fois la commande validée et payée, vous ne pourrez plus la modifier.<\/p>",
+            "page": ""
+          }
+        },
+        "b97fdf9d-5707-4e7e-821c-76a3f8034105": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment puis-je suivre mon colis ?",
+            "icon": "none",
+            "row_content": "<p>Une fois la commande préparée par nos soins, vous recevrez un e-mail de confirmation<br\/>d’expédition. Vous trouverez dans cet e-mail, un numéro de suivi qui vous permettra de<br\/>suivre votre colis sur le site du transporteur.<\/p>",
+            "page": ""
+          }
+        },
+        "814fb159-338f-4dde-a025-1e4d60e1cdb2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le paiement est-il sécurisé ?",
+            "icon": "none",
+            "row_content": "<p>Bien sûr ! Toutes vos coordonnées bancaires sont cryptées et les transactions sont donc<br\/>sécurisées.<\/p>",
+            "page": ""
+          }
+        },
+        "94a640d5-ec3d-41fb-9fd7-e2255365b701": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les moyens de paiement disponibles ?",
+            "icon": "none",
+            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire, via Paypal ou Apple Pay\/Google<br\/>Pay.<\/p>",
+            "page": ""
+          }
+        },
+        "34f1fc58-b56d-42fc-a0e2-4bc2ed8b68c7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelles sont les modalités de retour ?",
+            "icon": "none",
+            "row_content": "<p>Vous avez 14 jours à compter de la réception de votre commande pour nous retourner des<br\/>produits. Contactez votre Hapiness Customer manager en indiquant votre numéro de<br\/>commande pour savoir comment procéder. Vous pouvez également envoyer votre demande<br\/>à contact@hilocosmetiques.fr. Les produits doivent être intacts, non-ouverts et non-utilisés<br\/>pour être remboursés. Ces derniers seront remboursés sur la carte utilisée pour le paiement.<br\/>Les retours sont à la charge du client.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "8ef7a419-eedd-4b81-a632-f812aa6961c7",
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0",
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2",
+        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3",
+        "f71421b0-7f91-4efb-b4de-41fbffe71aea",
+        "3849776c-a13f-4fa4-9e99-90a24137ee8b",
+        "689d6537-3437-4425-a49f-2aa802bbb35f",
+        "b97fdf9d-5707-4e7e-821c-76a3f8034105",
+        "814fb159-338f-4dde-a025-1e4d60e1cdb2",
+        "94a640d5-ec3d-41fb-9fd7-e2255365b701",
+        "34f1fc58-b56d-42fc-a0e2-4bc2ed8b68c7"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "LIVRAISON ET PAIEMENT",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faad58b8-e34c-479b-b7ba-cd01246a49bb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment puis-je vous contacter ?",
+            "icon": "none",
+            "row_content": "<p>Un formulaire de contact en ligne est à votre disposition pour toutes vos questions, avis,<br\/>suggestions ou petits mots d’amour. Vous pouvez également nous écrire directement à<br\/>l’adresse contact@hilocosmetiques.fr. La team vous répondra le plus vite possible !<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment puis-je suivre les actualités d’Hilo?",
+            "icon": "none",
+            "row_content": "<p>Pour rejoindre l’aventure et ne rien louper des actualités d’Hilo, vous pouvez vous inscrire à<br\/>notre newsletter directement sur la page d’accueil du site. Suivez-nous également sur nos<br\/>réseaux sociaux : instagram, facebook, pinterest et linkedIn<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0",
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1",
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2",
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "HILO",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "53851c50-8ecd-4bc1-9e9b-0b329981925b",
+    "14c0a971-70b2-442f-ac7b-f2be54d60278",
+    "975b805c-7fb1-4c16-a406-4f8bb87bd369",
+    "faad58b8-e34c-479b-b7ba-cd01246a49bb"
+  ]
+}
