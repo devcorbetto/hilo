@@ -655,6 +655,7 @@ footer .footer-block__details-content .list-menu__item--link, footer p {
 }
 .footer a {
   text-decoration:underline;
+  color:#575756;
 }
 footer .footer-block__heading {
   text-align:left;
