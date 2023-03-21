@@ -676,6 +676,9 @@ font-size: 10px;
     padding-bottom:30px;
       margin-bottom:0px;
   }
+  .banner-home svg {
+    bottom:-40px !important;
+  }
   .collection ul {
     display: flex;
     flex-wrap: wrap;
