@@ -661,7 +661,7 @@ SemiBold - 19px, #EFD1BF
 
 }
 .multi-logos .media img {
-    width: 120px;
+    width: 120px !important;
     object-fit: contain;
 }
 .multi-logos h2{
