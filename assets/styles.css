@@ -666,6 +666,7 @@ footer .footer-block__heading {
   text-align:left;
   font-weight:bold;
   font-size:18px;
+      margin-bottom: 3.5rem;
 }
 .footer-block--newsletter {
   margin-top:0px !important;
