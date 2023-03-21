@@ -656,7 +656,10 @@ SemiBold - 19px, #EFD1BF
 }
 .footer-block--newsletter {
   margin-top:0px;
+    text-align:left;
 }
+
+
 
 /* mobile */
 @media (max-width:749px) {
