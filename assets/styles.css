@@ -683,7 +683,7 @@ footer .footer-block__heading {
 .footer__list-social  {
   margin-bottom:20px;
 }
-.footer__list-social  svg {
+footer .list-social__item .icon{
   height:3rem;
   width:3rem;
 }
