@@ -654,6 +654,9 @@ footer .footer-block__details-content .list-menu__item--link, footer p {
   font-weight:400;
 text-align:left;
 }
+.footer a[href="/pages/nous-rejoindre"] {
+  margin-bottom:30px;
+}
 .footer a {
   text-decoration:underline;
   color:#575756;
