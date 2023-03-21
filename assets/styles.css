@@ -660,6 +660,10 @@ SemiBold - 19px, #EFD1BF
 .multi-logos .slick-prev, .multi-logos .slick-next {
   top:20%;
 }
+.multi-logos .media img {
+    width: 120px;
+    object-fit: contain;
+}
 .multi-logos h2{
   margin-bottom:60px !important;
 }
