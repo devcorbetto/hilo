@@ -698,6 +698,9 @@ footer .newsletter-form__field-wrapper .field__input {
   margin-top:10px;
   border-radius:30px;
 }
+footer .field:after {
+  content:none;
+}
 
 /* mobile */
 @media (max-width:749px) {
