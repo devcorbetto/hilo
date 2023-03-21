@@ -678,6 +678,9 @@ footer .footer-block__heading {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+footer .footer-block {
+  position:absolute;
+}
 footer .footer__copyright {
     text-align: left;
     position: absolute;
