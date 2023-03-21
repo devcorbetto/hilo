@@ -657,6 +657,9 @@ SemiBold - 19px, #EFD1BF
 */
 
 /*footer*/
+.paiment svg {
+  margin-bottom:20px;
+}  
 .paiment h3  {
     font-size: 15px;
     font-weight: 600;
