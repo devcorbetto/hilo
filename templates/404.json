@@ -56,7 +56,7 @@
         "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-2": {
           "type": "button",
           "settings": {
-            "customcss": "btn-circle",
+            "customcss": "btn-circle btn-circle-404",
             "button_label": "Retour sur Hilo",
             "button_link": "shopify:\/\/pages\/boutique",
             "button_style_secondary": false,
