@@ -672,6 +672,8 @@ SemiBold - 19px, #EFD1BF
 .icon-404 {
   color:#575756;
   font-size:50px;
+    color: transparent;  
+  text-shadow: 0 0 0 black;
 }
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
