@@ -246,6 +246,10 @@ font-size:10px;
     font-size: 21px;
     line-height: 27px;
 }
+.collection .card_description {
+  font-size:14px;
+     line-height: 18px;
+}
 .collection .card--standard>.card__content .card__information {
     padding-left: 0;
     padding-right: 0;
