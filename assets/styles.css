@@ -846,4 +846,7 @@ font-size: 10px;
   .multi-slider .multicolumn-card.content-container {
     flex-direction: column;
   }
+  .multi-slider .multicolumn-card.content-container > div:first-child {
+    width:80%;
+  }
 }
