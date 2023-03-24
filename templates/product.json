@@ -229,27 +229,48 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/person.png",
+            "imageicon": "shopify:\/\/shop_images\/Capsule_Orange.webp",
+            "titleicon": "Huile d'amande douce",
+            "titleicon2": "Huile d'amande douce",
+            "titleicon3": "Huile d'amande douce",
+            "title": "Les actifs du moment de Zoé",
+            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/products\/creme"
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/person.png",
+            "imageicon": "shopify:\/\/shop_images\/Capsule_Orange.webp",
+            "titleicon": "Huile d'amande douce",
+            "titleicon2": "Huile d'amande douce",
+            "titleicon3": "Huile d'amande douce",
+            "title": "Les actifs du moment de Zoé",
+            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/products\/creme"
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2": {
           "type": "column",
           "settings": {
-            "customcss": "multi-slider",
-            "title": "LEUR MATCH PARFAIT"
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/person.png",
+            "imageicon": "shopify:\/\/shop_images\/Capsule_Orange.webp",
+            "titleicon": "Huile d'amande douce",
+            "titleicon2": "Huile d'amande douce",
+            "titleicon3": "Huile d'amande douce",
+            "title": "Les actifs du moment de Zoé",
+            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/products\/creme"
           }
         }
       },
