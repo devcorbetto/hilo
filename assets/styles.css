@@ -879,7 +879,7 @@ line-height:14px;
  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title {
    font-size:22px;
  }
-  .collection li {
-        margin-right: 30px;
+.collection li {
+        margin-right: 30px !important;
   }
 }
