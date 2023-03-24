@@ -852,4 +852,11 @@ font-size: 10px;
   .multi-slider .multicolumn-card.content-container > div:last-child {
     width:100%;
   }
+  .multi-slider .slick-slide .button {
+    padding: 12px 14px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    
+  }
 }
