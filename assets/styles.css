@@ -250,6 +250,10 @@ font-size:10px;
   font-size:12px;
      line-height: 14px;
 }
+.collection .price  {
+  float:left; 
+  margin-right:10px;
+}
 .collection .card--standard>.card__content .card__information {
     padding-left: 0;
     padding-right: 0;
