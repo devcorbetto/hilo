@@ -678,6 +678,10 @@ SemiBold - 19px, #EFD1BF
      background: #FBD1AD !important;
     color: #575756 !important;
     border-radius: 30px;
+  border:0px;
+}
+.btn-circle-404 a:before, .btn-circle-404 a:after {
+  content:none;
 }
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
