@@ -903,4 +903,7 @@ line-height:14px;
   footer .footer-block__details-content .list-menu__item--link, footer p {
     font-size:12px;
   }
+  .footer__list-social.list-social {
+    justify-content: start;
+}
 }
