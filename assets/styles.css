@@ -872,5 +872,7 @@ line-height:14px;
   .menu-drawer .list-social__link {
     padding: 1.3rem 0.25rem;
 }
- 
+ .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title {
+   font-size:22px;
+ }
 }
