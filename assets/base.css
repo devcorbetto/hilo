@@ -3200,3 +3200,17 @@ border-radius:30px !important;
     top: 0px;
     z-index: -1;
 }
+
+/* 404 */
+.custom404 {
+  font-size:50px;
+}
+.custom404 .4 {
+  color:red;
+}
+.custom404 .40 {
+  color:blue;
+}
+.custom404 .404 {
+  color:red;
+}
