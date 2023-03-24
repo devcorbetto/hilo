@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-404",
+      "disabled": true,
       "settings": {
       }
     },
@@ -50,9 +51,9 @@
         "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-2": {
           "type": "button",
           "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
+            "customcss": "btn-circle",
+            "button_label": "Retour sur Hilo",
+            "button_link": "shopify:\/\/pages\/boutique",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
