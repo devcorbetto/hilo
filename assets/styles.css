@@ -894,8 +894,9 @@ line-height:14px;
   .no-desktop {
     display:block;
   }
-  .imagen-footerlogo {
+  footer .footer__copyright, footer .imagen-footerlogo {
     position:relative !important;
   }
+  
   
 }
