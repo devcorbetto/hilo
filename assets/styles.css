@@ -801,7 +801,11 @@ footer .field label { top: 20px;
                     font-size:14px;}
 footer .newsletter-form__button {  top: 5px;  }
 
+ .no-desktop {
+    display:none;
+  }
 /* mobile */
+
 @media (max-width:749px) {
 /* Home */
   .banner-home  .banner__content {
@@ -884,8 +888,14 @@ line-height:14px;
   }
 
 /* .imagen-footerlogo */
+  .no-mobile {
+    display:none;
+  }
+  .no-desktop {
+    display:block;
+  }
   .imagen-footerlogo {
-    position:relative;
+    position:relative !important;
   }
   
 }
