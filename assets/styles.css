@@ -658,18 +658,21 @@ SemiBold - 19px, #EFD1BF
 
 /* 404 */
 .custom404 {
-  font-size:50px;
+  font-size:60px;
 }
 .custom404 .custom4 {
-  color:red;
+  color:#CDE4CA;
 }
 .custom404 .custom40 {
-  color:blue;
+  color:#F5DEA3;
 }
 .custom404 .custom404 {
-  color:red;
+  color:#B7DAF3;
 }
-
+.icon-404 {
+  color:#575756;
+  font-size:50px;
+}
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
     max-width: 98rem !important;
