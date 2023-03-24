@@ -859,4 +859,10 @@ font-size: 10px;
     width: 100%;
     
   }
+  .multi-slider .slick-slide .rte-ingredient {
+    margin-top:10px;
+  }
+    .multi-slider .slick-slide .rte p {
+   font-size:12px;
+  }
 }
