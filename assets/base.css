@@ -3201,22 +3201,3 @@ border-radius:30px !important;
     z-index: -1;
 }
 
-/* 404 */
-.custom404 {
-  font-size:50px;
-}
-.custom404 .custom4 {
-  color:red;
-}
-.custom404 .custom40 {
-  color:blue;
-}
-.custom404 .custom404 {
-  color:red;
-}
-
-@media screen and (min-width: 990px) {
-.rich-text__blocks {
-    max-width: 98rem !important;
-}
-  }
