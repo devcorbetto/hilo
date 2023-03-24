@@ -261,9 +261,8 @@ font-size:10px;
 }
 .rating-star:before {
 
-    background: linear-gradient(90deg,#EFD1BF var(--percent),rgba(var(--color-foreground),.15) var(--percent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#EFD1BF var(--percent),rgba(var(--color-foreground),.15) var(--percent)) !important;
+
 }
 .collection .price  {
 
