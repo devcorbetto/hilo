@@ -675,8 +675,9 @@ SemiBold - 19px, #EFD1BF
 
 }
 .btn-circle-404 a {
-  background:#FBD1AD !important;
-  color:#575756 !important;
+     background: #FBD1AD !important;
+    color: #575756 !important;
+    border-radius: 30px;
 }
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
