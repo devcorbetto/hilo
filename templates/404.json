@@ -42,7 +42,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>😬<\/p>",
-            "customcss": "",
+            "customcss": "icon-404",
             "heading_size": "h1"
           }
         },
