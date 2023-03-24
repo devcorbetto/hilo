@@ -869,5 +869,8 @@ line-height:14px;
   header-drawer .list-social__item svg {
     height:30px;
   }
+  .menu-drawer .list-social__link {
+    padding: 1.3rem 0.25rem;
+}
  
 }
