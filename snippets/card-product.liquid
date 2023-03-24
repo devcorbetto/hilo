@@ -99,7 +99,7 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-  <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
+          <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
              <p class="card_description">{{  card_product.metafields.custom.card_description }}</p>
             <h3
               class="card__heading"
@@ -367,7 +367,9 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
+  <div class="price-container">
             {% render 'price' %}
+  </div>
           </div>
         </div>
       </div>
