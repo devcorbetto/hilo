@@ -60,6 +60,9 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        "input {border-radius:30px;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
