@@ -260,7 +260,10 @@ font-size:10px;
   display:none;
 }
 .rating-star:before {
- 
+
+    background: linear-gradient(90deg,#fca5a5 var(--percent),rgba(var(--color-foreground),.15) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .collection .price  {
 
