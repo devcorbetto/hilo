@@ -3217,6 +3217,6 @@ border-radius:30px !important;
 
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
-    max-width: 98rem;
+    max-width: 98rem !important;
 }
   }
