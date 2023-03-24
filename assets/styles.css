@@ -237,6 +237,12 @@ font-size:10px;
   border-radius:30px;
   color:white;
 }
+.collection .card-information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
 #Slide-template--17804308381991__featured_collection-2 .card__heading   {
   padding-right:26px;
   
