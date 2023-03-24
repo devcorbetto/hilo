@@ -54,9 +54,9 @@
         <span>
           <s class="price-item price-item--regular">
             {% if settings.currency_code_enabled %}
-              {{ compare_at_price | money_with_currency | replace: "du", "" }}
+              {{ compare_at_price | money_with_currency }}
             {% else %}
-              {{ compare_at_price | remove: "Du" }}
+              {{ compare_at_price  | money }}
             {% endif %}
           </s>
         </span>
