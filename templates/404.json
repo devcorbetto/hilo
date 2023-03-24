@@ -13,7 +13,7 @@
           "type": "liquid",
           "settings": {
             "customcss": "",
-            "codeliquid": "<h1>\n<span class=\"4\">4<\/span><span class=\"40\">0<\/span><span class=\"404\">4<\/span>\n<\/h1>"
+            "codeliquid": "<h1 class=\"custom404\">\n<span class=\"4\">4<\/span><span class=\"40\">0<\/span><span class=\"404\">4<\/span>\n<\/h1>"
           }
         },
         "534c4809-30bb-4b1a-9f30-c4e864eaeee2": {
