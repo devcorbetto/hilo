@@ -904,6 +904,6 @@ line-height:14px;
     font-size:12px;
   }
   .footer__list-social.list-social {
-    justify-content: start;
+    justify-content: start !important;
 }
 }
