@@ -674,6 +674,10 @@ SemiBold - 19px, #EFD1BF
   font-size:50px;
 
 }
+.btn-circle-404 a {
+  background:#FBD1AD !important;
+  color:#575756 !important;
+}
 @media screen and (min-width: 990px) {
 .rich-text__blocks {
     max-width: 98rem !important;
