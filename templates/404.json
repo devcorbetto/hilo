@@ -16,6 +16,13 @@
             "codeliquid": "<h1>\n<span class=\"4\">4<\/span><span class=\"40\">0<\/span><span class=\"404\">4<\/span>\n<\/h1>"
           }
         },
+        "534c4809-30bb-4b1a-9f30-c4e864eaeee2": {
+          "type": "liquid",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<br>"
+          }
+        },
         "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-0": {
           "type": "heading",
           "settings": {
@@ -24,20 +31,11 @@
             "heading_size": "h1"
           }
         },
-        "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-1": {
-          "type": "text",
-          "disabled": true,
+        "8dd40f13-9055-419e-b1c7-a85620c50628": {
+          "type": "liquid",
           "settings": {
             "customcss": "",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "5fb9ce91-a63d-4b03-874b-57c32ec5676e": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "text": ""
+            "codeliquid": "<br>"
           }
         },
         "7e4c023f-aaea-4708-950a-6a0ba6b69da5": {
@@ -46,6 +44,13 @@
             "heading": "<p>😬<\/p>",
             "customcss": "",
             "heading_size": "h1"
+          }
+        },
+        "b69b2eb2-075e-450f-b54c-2a37adc1da36": {
+          "type": "liquid",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<br>"
           }
         },
         "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-2": {
@@ -63,10 +68,11 @@
       },
       "block_order": [
         "ae947d1f-27bb-49ea-ae8f-1f3230cdc817",
+        "534c4809-30bb-4b1a-9f30-c4e864eaeee2",
         "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-0",
-        "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-1",
-        "5fb9ce91-a63d-4b03-874b-57c32ec5676e",
+        "8dd40f13-9055-419e-b1c7-a85620c50628",
         "7e4c023f-aaea-4708-950a-6a0ba6b69da5",
+        "b69b2eb2-075e-450f-b54c-2a37adc1da36",
         "template--17804308283687__fdf49e34-7cb5-44bf-b049-df316186f51d-1679670602bfd09603-2"
       ],
       "settings": {
