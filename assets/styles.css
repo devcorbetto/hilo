@@ -897,6 +897,10 @@ line-height:14px;
   footer .footer__copyright, footer .imagen-footerlogo {
     position:relative !important;
   }
-  
-  
+  footer .footer-block__heading {
+    font-size:16px;
+  }
+  footer .footer-block__details-content .list-menu__item--link, footer p {
+    font-size:12px;
+  }
 }
