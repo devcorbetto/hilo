@@ -212,7 +212,7 @@ font-size:10px;
   
 }
 /* products */
-@media  (max-width:750px){ 
+@media  (min-width:750px){ 
 .collection ul {
   display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
