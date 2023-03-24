@@ -281,7 +281,7 @@
         "template--17779790053671__e442e363-5752-4e61-8ee8-ad266a5f317d-1675644894e5f0b6b6-2"
       ],
       "settings": {
-        "customcss": "multi-featured",
+        "customcss": "multi-featured multi-icons paiment",
         "title": "",
         "subtitle": "",
         "heading_size": "h1",
@@ -292,10 +292,10 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "colors_2",
+        "color_scheme": "colors_6",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
+        "padding_top": 60,
         "padding_bottom": 100
       }
     },
