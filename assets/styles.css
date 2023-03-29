@@ -842,7 +842,7 @@ footer .newsletter-form__button {  top: 5px;  }
         display: flex !important;
     flex-direction: row-reverse !important;
   }
-  .slider-component {
+  slider-component {
     width:100% !important;
   }
   }
