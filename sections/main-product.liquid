@@ -325,14 +325,14 @@
     <div class="overlay-container">
      <div class="overlay">
       <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false">
-          <div class="container-columns flex gap-4">
-            <div class="column1">
+          <div class="container-columns flex gap-4 p-4">
+            <div class="column1 p-2">
             <h3 class="text-center">Produit selectionné</h3>
             <img src="{{  product.featured_image | image_url }}" style="width:100px;">
             <h3  class="text-center">Ma crème visage naturelle personnalisable rechargeable</h3>
             </div>
           
-                 <div class="column2">
+                 <div class="column2 p-2">
                       <div class="container-modal-container ">
                         <h3>Sélectionnez 3 huiles végétales pour personnaliser votre base de crème :</h3>
                         <p>Elles sont reconnues pour les propriétés suivantes* :</p>
@@ -353,17 +353,16 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
-                padding:2%;
+              
                 text-align:center;
 }
 .overlay:target {
  
 }
 .column1 {
-  width: 25%;
 }
               .column1, .column2 {
-                padding:20px;
+               
                 border-radius:20px;
                 border:1px solid #D0C4E2;
               }
