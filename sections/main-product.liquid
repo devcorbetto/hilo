@@ -584,7 +584,7 @@
             {%- when 'buy_buttons' -%}
             <div class="container-modal"  x-data="{ open: false   }">
             <h2>test</h2>
-            <button x-on:click="open = !open">Je personnalise ma crème - {{ variant.price | money | strip_html }}
+            <button  class="button"  x-on:click="open = !open">Je personnalise ma crème - {{ variant.price | money | strip_html }}
             </button>
             <div class="modal">
                 <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false">
