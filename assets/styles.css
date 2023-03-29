@@ -810,7 +810,7 @@ footer .newsletter-form__button {  top: 5px;  }
   font-size:26px;
     font-weight:bold;
 }
-.ft, .product__description p {
+.ft, .product__description p, .product__text {
   font-size:14px;
 }
 .ft2  {
@@ -826,7 +826,7 @@ footer .newsletter-form__button {  top: 5px;  }
 .product__description ul {
   display:grid;
     font-size:14px;
-  padding:0px;
+  padding-left:0px;
   margin:20px 0px;
   grid-template-columns:1fr 1fr;
 }
