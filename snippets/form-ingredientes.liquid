@@ -11,7 +11,7 @@
     {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
       <div class="ingrediente-column  basis-1/3 p-10" >
             
-    <div x-show="open-i{{ forloop.index }} " class="modal  modal2 open-i{{ forloop.index }} duration-300 ease-in" @click.away="open-i{{ forloop.index }} = false">
+    <div x-show="openi{{ forloop.index }} " class="modal  modal2 openi{{ forloop.index }} duration-300 ease-in" @click.away="openi{{ forloop.index }} = false">
        <div class="flex flex-1 gap-2 justify-between">
          <div class="text-left  w-9/12 ">
           <h3>Information Produit:</h3>
@@ -48,7 +48,7 @@
          </div>
        </div>
     </div>
-        <img src="{{ ingrediente.image }}"  x-on:click="open-i{{ forloop.index }} = !open-i{{ forloop.index }}"   style="    height: 50px;
+        <img src="{{ ingrediente.image }}"  x-on:click="openi{{ forloop.index }} = !openi{{ forloop.index }}"   style="    height: 50px;
     /* width: 25px; */
     margin: 0 auto;">
        <h5 class="pt-10"> {{ ingrediente.name }}</h5>  
@@ -131,7 +131,7 @@
           ingrediente5:'' ,
           ingrediente6:'', 
           disable:'', data2:'' ,
-          open-i1: false , open-i2: false ,open-i3: false ,open-i4: false,open-i5: false ,open-i6: false
+          openi1: false , openi2: false ,openi3: false ,openi4: false,openi5: false ,openi6: false
         }))
 
         Alpine.data('datainit', () => ({
@@ -143,7 +143,7 @@
           ingrediente5:'0' ,
           ingrediente6:'0', 
           disable:'', data2:'0' ,
-          open-i1: false , open-i2: false ,open-i3: false ,open-i4: false,open-i5: false ,open-i6: false
+          openi1: false , openi2: false ,openi3: false ,openi4: false,openi5: false ,openi6: false
         }))
     })
 </script>
