@@ -848,6 +848,17 @@ footer .newsletter-form__button {  top: 5px;  }
   .thumbnail-slider  {
      width:25% !important;
   }
+  .thumbnail-slider .thumbnail-list.slider--tablet-up {
+    display: flex;
+    padding: 0.5rem;
+    flex: 1;
+    scroll-padding-left: 0.5rem;
+    flex-direction: column;
+}
+  .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
+    height: calc(20% - 0.8rem);
+    width: 50px;
+}
   }
 /* mobile */
 
