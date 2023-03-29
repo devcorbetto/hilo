@@ -811,6 +811,7 @@ footer .newsletter-form__button {  top: 5px;  }
 }
 .product__description ul {
   display:grid;
+  padding:0px;
   margin:20px 0px;
   grid-template-columns:1fr 1fr;
 }
