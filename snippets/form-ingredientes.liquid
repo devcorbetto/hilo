@@ -11,7 +11,7 @@
     {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
       <div class="ingrediente-column  basis-1/3 p-10">
             
-    <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
+    <div x-show="open-i{{ forloop.index }} " class="modal open-i{{ forloop.index }} duration-300 ease-in" @click.away="open-i{{ forloop.index }} = false">
        <div class="flex flex-1 gap-2 justify-between">
          <div class="text-left  w-9/12 ">
           <h3>Information Produit:</h3>
@@ -50,7 +50,7 @@
          </div>
        </div>
     </div>
-        <img src="{{ ingrediente.image }}"  x-on:click="open-image = !open{{ forloop.index }}"   style="    height: 50px;
+        <img src="{{ ingrediente.image }}"  x-on:click="open-i{{ forloop.index }} = !open-i{{ forloop.index }}"   style="    height: 50px;
     /* width: 25px; */
     margin: 0 auto;">
        <h5 class="pt-10"> {{ ingrediente.name }}</h5>  
