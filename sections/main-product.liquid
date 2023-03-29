@@ -324,7 +324,7 @@
   
     <div class="overlay">
     
-      <div x-show="open" class="modal open " @click.away="open= false">
+      <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false">
         <h3>Sélectionnez 3 huiles végétales pour personnaliser votre base de crème :</h3>
         <p>Elles sont reconnues pour les propriétés suivantes* :</p>
         {% render 'form-ingredientes' %}
@@ -335,19 +335,10 @@
 </div>
             {%- style -%}
               .overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
+
 }
 .overlay:target {
-  visibility: visible;
-  opacity: 1;
+ 
 }
 
 .modal {
