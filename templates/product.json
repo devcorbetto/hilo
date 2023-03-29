@@ -49,13 +49,6 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "474a192d-b0de-4595-9aa2-875c55099ec6": {
           "type": "ingredientes",
           "disabled": true,
@@ -89,6 +82,12 @@
             "share_label": "Share"
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
           "type": "custom_liquid",
           "settings": {
@@ -104,11 +103,11 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "474a192d-b0de-4595-9aa2-875c55099ec6",
         "collapsible-row-1",
         "collapsible-row-3",
         "share",
+        "buy_buttons",
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241"
       ],
       "settings": {
