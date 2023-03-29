@@ -845,6 +845,9 @@ footer .newsletter-form__button {  top: 5px;  }
   slider-component {
     width:100% !important;
   }
+  .thumbnail-slider  {
+     width:25% !important;
+  }
   }
 /* mobile */
 
