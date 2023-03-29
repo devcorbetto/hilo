@@ -813,8 +813,12 @@ footer .newsletter-form__button {  top: 5px;  }
 .ft {
   font-size:14px;
 }
-.ft2 {
-  font-size:12px;
+.ft2  {
+    display:grid;
+  grid-template-columns:1fr 1fr;
+}
+.ft2 div {
+  font-size:10px;
 }
 .spr-stars span {
   display:flex;
