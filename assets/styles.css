@@ -838,8 +838,7 @@ footer .newsletter-form__button {  top: 5px;  }
     align-items: center;
     flex-direction: column; 
 }
-  .product--thumbnail_slider .product__media-gallery
-  {
+.product--thumbnail_slider .product__media-gallery   {
         display: flex;
     flex-direction: row-reverse !important;
   }
