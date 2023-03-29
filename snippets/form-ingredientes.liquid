@@ -41,11 +41,9 @@
 {% endif %}
          </div>
          <div class="w-3/12">
-             {{ block.settings.image | image_url: width: 320 | image_tag:
-                      loading: 'lazy',
-                  
-                      class: 'multicolumn-card__image_modal' 
-                    }}
+               <img src="{{ ingrediente.image }}"  x-on:click="open-i{{ forloop.index }} = !open-i{{ forloop.index }}"   style="    height: 50px;
+    /* width: 25px; */
+    margin: 0 auto;">
 
          </div>
        </div>
