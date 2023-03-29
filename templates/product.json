@@ -91,7 +91,7 @@
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "✔️ Livraison offerte dés 49€ d'achats\n\n✔️ Paiement sécurisé"
+            "custom_liquid": "{{ product.metafields.custom.extra_details | split: \",\"}}"
           }
         }
       },
