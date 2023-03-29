@@ -810,7 +810,7 @@ footer .newsletter-form__button {  top: 5px;  }
   font-size:26px;
     font-weight:bold;
 }
-.ft {
+.ft, .product__description p {
   font-size:14px;
 }
 .ft2  {
