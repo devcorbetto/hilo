@@ -9,7 +9,7 @@
   x-init="datainit">
     <div class="container-ingredientes flex flex-row" >
     {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
-      <div class="ingrediente-column  basis-1/3 p-10" x-data="{ open-i1: false , open-i2: false ,open-i3: false ,open-i4: false,open-i5: false ,open-i6: false ,open7: false ,open8: false  }">
+      <div class="ingrediente-column  basis-1/3 p-10" >
             
     <div x-show="open-i{{ forloop.index }} " class="modal open-i{{ forloop.index }} duration-300 ease-in" @click.away="open-i{{ forloop.index }} = false">
        <div class="flex flex-1 gap-2 justify-between">
@@ -130,7 +130,8 @@
           ingrediente4:'',
           ingrediente5:'' ,
           ingrediente6:'', 
-          disable:'', data2:'' 
+          disable:'', data2:'' ,
+          open-i1: false , open-i2: false ,open-i3: false ,open-i4: false,open-i5: false ,open-i6: false
         }))
 
         Alpine.data('datainit', () => ({
@@ -141,7 +142,8 @@
           ingrediente4:'0',
           ingrediente5:'0' ,
           ingrediente6:'0', 
-          disable:'', data2:'0' 
+          disable:'', data2:'0' ,
+          open-i1: false , open-i2: false ,open-i3: false ,open-i4: false,open-i5: false ,open-i6: false
         }))
     })
 </script>
