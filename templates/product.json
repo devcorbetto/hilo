@@ -51,7 +51,6 @@
         },
         "474a192d-b0de-4595-9aa2-875c55099ec6": {
           "type": "ingredientes",
-          "disabled": true,
           "settings": {
           }
         },
@@ -84,6 +83,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
