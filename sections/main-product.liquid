@@ -322,8 +322,8 @@
   <button  class="button"  x-on:click="open = !open">Je personnalise ma crème - {{ variant.price | money | strip_html }}
   </button>
   
-    <div class="overlay">
-    
+    <div class="overlay-container">
+     <div class="overlay">
       <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false">
           <div class="container-columns flex">
             <div class="column1">
@@ -343,13 +343,19 @@
           </div>
         </div>
     </div>
+    </div>
   
  
 </div>
             {%- style -%}
               .overlay {
-                position:relative;
+                position:absolute;
 width:80%;
+                margin:0 auto;
+}
+              .overlay {
+                position:relative;
+width:100%;
                 margin:0 auto;
 }
 .overlay:target {
