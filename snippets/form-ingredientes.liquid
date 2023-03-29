@@ -50,7 +50,7 @@
          </div>
        </div>
     </div>
-        <img src="{{ ingrediente.image }}"  x-on:click="open-image = !open{{ forloop.index }}" ><br>
+        <img src="{{ ingrediente.image }}"  x-on:click="open-image = !open{{ forloop.index }}"  style="width:25px;"><br>
         {{ ingrediente.name }}<br>   
        <span class="ingrediente-caption">{{ ingrediente.caption }}</span>  <br>   
         <quantity-input class="quantity ingrediente{{ forloop.index0 }}">
