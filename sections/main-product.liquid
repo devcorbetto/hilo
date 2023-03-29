@@ -68,6 +68,16 @@
             class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
             role="list"
           >
+           <button
+                type="button"
+                class="slider-button slider-button--prev{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}"
+                name="previous"
+                aria-label="{{ 'general.slider.previous_slide' | t }}"
+                aria-controls="GalleryThumbnails-{{ section.id }}-right"
+                data-step="3"
+              >
+                {% render 'icon-caret' %}
+              </button>
             {%- liquid
               assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
               if section.settings.hide_variants and variant_images.size == product.media.size
