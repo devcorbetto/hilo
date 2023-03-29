@@ -804,6 +804,11 @@ footer .newsletter-form__button {  top: 5px;  }
  .no-desktop {
     display:none;
   }
+
+/* pdp */
+.spr-stars span {
+  display:flex;
+}
 /* mobile */
 
 @media (max-width:749px) {
