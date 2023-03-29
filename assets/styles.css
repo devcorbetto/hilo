@@ -806,6 +806,10 @@ footer .newsletter-form__button {  top: 5px;  }
   }
 
 /* pdp */
+.product__title h1 {
+  font-size:26px;
+    font-weight:bold;
+}
 .spr-stars span {
   display:flex;
 }
