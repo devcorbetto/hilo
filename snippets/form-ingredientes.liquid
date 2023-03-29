@@ -9,7 +9,7 @@
   x-init="datainit">
     <div class="container-ingredientes" >
     {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
-      <div class="ingrediente-column">
+      <div class="ingrediente-column basis-2/3">
             
     <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="flex flex-1 gap-2 justify-between">
@@ -103,7 +103,7 @@
     text-align:center;
   }
   .container-ingredientes .ingrediente-column {
-    width:30%;
+
   }
   .ingrediente-caption {
     font-size:12px;
