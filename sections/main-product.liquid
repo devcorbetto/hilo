@@ -900,11 +900,22 @@
         >
           <div id="GalleryStatus-{{ section.id }}-right" class="visually-hidden" role="status"></div>
           <slider-component id="GalleryViewer-{{ section.id }}-right" class="slider-mobile-gutter">
+       <button
+                type="button"
+                class="slider-button slider-button--prev{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}"
+                name="previous"
+                aria-label="{{ 'general.slider.previous_slide' | t }}"
+                aria-controls="GalleryThumbnails-{{ section.id }}-right"
+                data-step="3"
+              >
+                {% render 'icon-caret' %}
+              </button>
             <ul
               id="Slider-Gallery-{{ section.id }}-right"
               class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
               role="list"
             >
+      
               {%- assign media_position = 0 -%}
               {%- if product.selected_or_first_available_variant.featured_media != null -%}
                 {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
