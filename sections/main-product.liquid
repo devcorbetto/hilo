@@ -582,8 +582,10 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
+            <button x-on:click="open = !open">
+            </button>
             <div class="modal">
-                <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
+                <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false">
        <div class="flex flex-1 gap-2 justify-between">
          <div class="text-left ">
       
