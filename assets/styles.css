@@ -839,7 +839,7 @@ footer .newsletter-form__button {  top: 5px;  }
     flex-direction: column; 
 }
 .product--thumbnail_slider .product__media-gallery   {
-        display: flex;
+        display: flex !important;
     flex-direction: row-reverse !important;
   }
   .slider-component {
