@@ -582,6 +582,7 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
+            <div  x-data="{ open: false   }">
             <h2>test</h2>
             <button x-on:click="open = !open">Je personnalise ma crème - {{ variant.price | money | strip_html }}
             </button>
@@ -591,7 +592,7 @@
          <div class="text-left ">
       
          {% render 'form-ingredientes' %}
-       
+         </div>
        </div>
     </div>
             
