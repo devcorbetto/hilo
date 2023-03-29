@@ -809,6 +809,10 @@ footer .newsletter-form__button {  top: 5px;  }
 .spr-stars span {
   display:flex;
 }
+.product__description ul {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
 /* mobile */
 
 @media (max-width:749px) {
