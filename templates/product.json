@@ -123,7 +123,7 @@
       }
     },
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa": {
-      "type": "collapsible-content",
+      "type": "collapsible-content-product",
       "blocks": {
         "template--17804308939047__2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa-1679359602bf820eec-0": {
           "type": "collapsible_row",
