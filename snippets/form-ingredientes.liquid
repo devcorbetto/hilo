@@ -81,7 +81,7 @@
       {% endfor %}
      </div>  
       <span style="display:none;" x-text="data2 = (Number(ingrediente5) + Number(ingrediente4) + Number(ingrediente3) + Number(ingrediente2) + Number(ingrediente1) + Number(ingrediente0)) "></span><br>
-      <span  style="display:none;"  x-text="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;}"></span><br>
+      <span  style="display:none;"  x-text="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;}"></span>
       
       <input name="add" value="'ajoute au panier - {{ product.price | money }} €" type="submit"   
       :disabled="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;} ;"    
