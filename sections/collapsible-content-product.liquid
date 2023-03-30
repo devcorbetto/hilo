@@ -63,6 +63,7 @@
               </div>
             {%- endfor -%}
           </div>
+          <div class="image-faq"><img src="{{  section.settings.image2 | image_url }}" class="image-faq-image"></div>
         </div>
       </div>
     </div>
@@ -75,6 +76,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "t:sections.collapsible_content.settings.image.label"
+    },
     {
       "type": "text",
       "id": "caption",
