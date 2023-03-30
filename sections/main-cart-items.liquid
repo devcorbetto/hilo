@@ -24,7 +24,9 @@
 {%- endunless -%}
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
-     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+    <div class="container-title"> 
+      <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+    </div>
 
   <div class="cart__warnings">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
