@@ -56,7 +56,7 @@
   <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 {%- endunless -%}
 <div class="container-cart">
-<cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
+<cart-items class="page-width{% if cart == empty %} is-empty{% else %} {% endif %}">
     <div class="container-title"> 
       <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
     </div>
