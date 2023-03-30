@@ -193,7 +193,7 @@
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
-                            <div class="product-option">
+                            <span class="product-option">
                              {{ property.first }} 
                              {% comment %} <dd>
                                 {%- if property.last contains '/uploads/' -%}
@@ -204,7 +204,7 @@
                                   {{ property.last }}
                                 {%- endif -%}
                               </dd> {% endcomment %}
-                            </div>
+                            </span>
                           {%- endif -%}
                         {%- endfor -%}
                       </dl>
