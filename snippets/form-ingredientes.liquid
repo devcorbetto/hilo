@@ -87,9 +87,10 @@
       :disabled="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;} ;"    
       class="product-form__submit button button--full-width button--secondary" style="border:1px solid #000;"
       />
-      
+      {% comment %}
       Puede comprar?: <span x-text="disable"></span><br>
       Total:  <span x-text="data2"></span><br>
+      {% endcomment %}
    
   </div>
 </form>
