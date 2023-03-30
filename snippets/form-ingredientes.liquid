@@ -85,7 +85,7 @@
       
       <input name="add" value="'ajoute au panier - {{ product.price | money }} €" type="submit"   
       :disabled="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;} ;"    
-      class="product-form__submit button button--full-width button--secondary" style="border:1px solid #000;"
+      class="product-form__submit button button--full-width button--secondary" 
       />
       {% comment %}
       Puede comprar?: <span x-text="disable"></span><br>
