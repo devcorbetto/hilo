@@ -189,12 +189,12 @@
                             </div>
                           {%- endfor -%}
                         {%- endif -%}
- <dt class="description-cart">Huiles: </dt>
+ <span class="description-cart">Huiles: </span>
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
                             <div class="product-option">
-                              <dt>{{ property.first }} </dt>
+                             {{ property.first }} 
                              {% comment %} <dd>
                                 {%- if property.last contains '/uploads/' -%}
                                   <a href="{{ property.last }}" class="link" target="_blank">
