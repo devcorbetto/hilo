@@ -344,8 +344,8 @@
           
                  <div class="column2 py-20 px-8 basis-2/3">
                       <div class="container-modal-container ">
-                        <h3>Sélectionnez 3 huiles végétales pour personnaliser votre base de crème :</h3>
-                        <p >Elles sont reconnues pour les propriétés suivantes* :</p>
+                        <h3 >Sélectionnez 3 huiles végétales pour personnaliser votre base de crème :</h3>
+                        <p class="p" >Elles sont reconnues pour les propriétés suivantes* :</p>
                         {% render 'form-ingredientes' %}
                       </div>
                    
@@ -363,6 +363,15 @@
  
 </div>
             {%- style -%}
+              .container-modal-container  h3 {
+                font-weight:600;
+                color:#575756;
+              }
+              .container-modal-container p.p {
+                      color:#575756;
+                font-size:14px;
+                
+              }
               .container-columns.flex {
         background:#fff;
     width: 90%;
