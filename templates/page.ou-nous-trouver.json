@@ -67,11 +67,18 @@
     "e7256211-cbc3-4270-a670-df8dc8bd7910": {
       "type": "rich-text",
       "blocks": {
+        "f5986e7c-af64-4edb-b3a0-9ed24d8f5b97": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne. <\/p>"
+          }
+        },
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1": {
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Retrouvez ici toutes nos boutiques partenaires dans lesquelles (re)découvrir vos produits personnalisés préférés ! ✨<\/p>"
+            "text": "<p>La Team Hilo travaille dure pour créer de nouveaux partenariats et vous proposer très bientôt des points de ventes près de chez vous !<\/p>"
           }
         },
         "5561a73b-878f-4292-b1c4-9fcf7cbd69e8": {
@@ -98,6 +105,7 @@
         }
       },
       "block_order": [
+        "f5986e7c-af64-4edb-b3a0-9ed24d8f5b97",
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
         "5561a73b-878f-4292-b1c4-9fcf7cbd69e8",
         "be529fe2-2159-4c48-ae6e-74998f474140",
