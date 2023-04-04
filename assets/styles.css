@@ -399,6 +399,9 @@ font-size:10px;
 .multi-capsules ul {
   margin-top:20px;
 }
+.multi-capsules br {
+  margin-bottom:20px;
+}
 .multi-capsules ul li {
   margin-bottom:20px;
 }
