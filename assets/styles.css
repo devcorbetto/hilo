@@ -397,13 +397,13 @@ font-size:10px;
   padding:0px !important;
 }
 .multi-capsules ul {
-  margin-top:15px;
+  margin-top:10px;
 }
 .multi-capsules br {
-  margin-bottom:20px;
+  margin-bottom:15px;
 }
 .multi-capsules ul li {
-  margin-bottom:15px;
+  margin-bottom:10px;
 }
 .multi-capsules ul li, 
 .multi-capsules p {
@@ -413,7 +413,7 @@ font-size:10px;
 }
 .multi-capsules h3 {
  text-align:center;
-  margin-bottom:20px !important;
+  margin-bottom:15px !important;
 }
 /* página contact*/
 
