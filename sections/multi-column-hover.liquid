@@ -144,8 +144,8 @@
           </li>
     
     <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
-       <div class="flex flex-1 gap-2 justify-between">
-           <div class="w-12/12">
+       <div class="">
+           <div class="w-4/12">
              {{ block.settings.image | image_url: width: 320 | image_tag:
                       loading: 'lazy',
                   
