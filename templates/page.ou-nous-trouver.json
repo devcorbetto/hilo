@@ -85,7 +85,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Une boutique à nous suggérer dans laquelle vous souhaiteriez retrouver vos soins Hilo ?<\/p>",
-            "customcss": "",
+            "customcss": "title_small",
             "heading_size": "h2"
           }
         },
