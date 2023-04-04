@@ -145,7 +145,7 @@
     
     <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="">
-             <div class="flex h-screen w-full bg-blue-400 justify-center items-center">
+             <div class="flex  w-full justify-center items-center">
              {{ block.settings.image | image_url: height: 150 | image_tag:
                       loading: 'lazy',
                   
