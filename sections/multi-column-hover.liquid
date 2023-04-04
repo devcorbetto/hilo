@@ -195,48 +195,6 @@
             </div>
           </li>
     
-<div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
-       <div class="container-modal">
-             <div class="flex  w-full justify-center items-center mb-10">
-             {{ block.settings.image | image_url: height: 90 | image_tag:
-                      loading: 'lazy',
-                  
-                      class: 'multicolumn-card__image_modal' 
-                    }}
-
-         </div>
-         <div class="text-left   ">
-       
-          
-      {% if forloop.index == 1 %}
-{{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
-{% endif %}
-             {% if forloop.index == 2 %}
-{{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
-{% endif %}  
-             {% if forloop.index == 3 %}
-{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }} 
-{% endif %}
-               {% if forloop.index == 4 %}
-{{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
-{% endif %}
-                {% if forloop.index == 5 %}
-{{ collections['boutique'].metafields.custom.ingredient5 |  metafield_tag  }} 
-{% endif %}
-             {% if forloop.index == 6 %}
-{{ collections['boutique'].metafields.custom.ingredient6 |  metafield_tag  }} 
-{% endif %}  
-             {% if forloop.index == 7 %}
-{{ collections['boutique'].metafields.custom.ingredient7 |  metafield_tag  }} 
-{% endif %}
-               {% if forloop.index == 8 %}
-{{ collections['boutique'].metafields.custom.ingredient8 |  metafield_tag  }} 
-{% endif %}
-         </div>
-        
-       </div>
-    </div>
-
     
         {%- endfor -%}
       </ul>
