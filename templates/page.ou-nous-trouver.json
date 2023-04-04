@@ -14,7 +14,7 @@
         "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>HILO RECRUTE<\/p>",
+            "heading": "<p>OU NOUS TROUVER ?<\/p>",
             "customcss": "mb-10b",
             "heading_size": "h1"
           }
@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Retrouvez ici toutes nos offres d'emploi.<\/p>"
+            "text": "<p>Retrouvez ici toutes nos boutiques partenaires dans lesquelles (re)découvrir vos produits personnalisés préférés ! ✨<\/p>"
           }
         },
         "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2": {
@@ -71,12 +71,29 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Il n’y a pas d’offres pour l’instant mais vous pouvez nous transmettre votre candidature spontanée à l’adresse suivante : contact@hilocosmetiques.fr<\/p>"
+            "text": "<p>Retrouvez ici toutes nos boutiques partenaires dans lesquelles (re)découvrir vos produits personnalisés préférés ! ✨<\/p>"
+          }
+        },
+        "5561a73b-878f-4292-b1c4-9fcf7cbd69e8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Une boutique à nous suggérer dans laquelle vous souhaiteriez retrouver vos soins Hilo ?<\/p>",
+            "customcss": "",
+            "heading_size": "h2"
+          }
+        },
+        "be529fe2-2159-4c48-ae6e-74998f474140": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>N'hésitez pas à nous contactez pour nous envoyer toutes vos idées. 💡<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1"
+        "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
+        "5561a73b-878f-4292-b1c4-9fcf7cbd69e8",
+        "be529fe2-2159-4c48-ae6e-74998f474140"
       ],
       "settings": {
         "customcss": "",
