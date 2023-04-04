@@ -88,12 +88,20 @@
             "customcss": "bg_subtitle",
             "text": "<p>N'hésitez pas à nous contactez pour nous envoyer toutes vos idées. 💡<\/p>"
           }
+        },
+        "762428dd-e119-4fc7-a4f7-c03b0b152f6c": {
+          "type": "liquid",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "F E I"
+          }
         }
       },
       "block_order": [
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
         "5561a73b-878f-4292-b1c4-9fcf7cbd69e8",
-        "be529fe2-2159-4c48-ae6e-74998f474140"
+        "be529fe2-2159-4c48-ae6e-74998f474140",
+        "762428dd-e119-4fc7-a4f7-c03b0b152f6c"
       ],
       "settings": {
         "customcss": "",
