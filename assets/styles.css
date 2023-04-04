@@ -396,6 +396,9 @@ font-size:10px;
 .multi-capsules .info5 h3 {
   padding:0px !important;
 }
+.multi-capsules ul {
+  margin-top:20px;
+}
 .multi-capsules ul li, 
 .multi-capsules p {
    font-size:12px;
