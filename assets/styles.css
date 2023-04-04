@@ -71,7 +71,10 @@ section newsletter section-news
   font-weight: 600;
       width: 100%;
 }
-
+.rich-text__heading.h2 {
+  font-size:20px;
+  line-height:26px;
+}
 
 h3.card__heading ,
 .multi-featured h3,
