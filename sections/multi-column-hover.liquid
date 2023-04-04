@@ -71,7 +71,51 @@
 -%}
 
 <div x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false ,open7: false ,open8: false  }" class="{{ section.settings.customcss }} multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+    {%- for block in section.blocks -%}
+    <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
+       <div class="container-modal">
+             <div class="flex  w-full justify-center items-center mb-10">
+             {{ block.settings.image | image_url: height: 90 | image_tag:
+                      loading: 'lazy',
+                  
+                      class: 'multicolumn-card__image_modal' 
+                    }}
+
+         </div>
+         <div class="text-left   ">
+       
+          
+      {% if forloop.index == 1 %}
+{{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
+{% endif %}
+             {% if forloop.index == 2 %}
+{{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
+{% endif %}  
+             {% if forloop.index == 3 %}
+{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }} 
+{% endif %}
+               {% if forloop.index == 4 %}
+{{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
+{% endif %}
+                {% if forloop.index == 5 %}
+{{ collections['boutique'].metafields.custom.ingredient5 |  metafield_tag  }} 
+{% endif %}
+             {% if forloop.index == 6 %}
+{{ collections['boutique'].metafields.custom.ingredient6 |  metafield_tag  }} 
+{% endif %}  
+             {% if forloop.index == 7 %}
+{{ collections['boutique'].metafields.custom.ingredient7 |  metafield_tag  }} 
+{% endif %}
+               {% if forloop.index == 8 %}
+{{ collections['boutique'].metafields.custom.ingredient8 |  metafield_tag  }} 
+{% endif %}
+         </div>
+        
+       </div>
+    </div>
+
     
+        {%- endfor -%}
    
   <div class="page-width section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
