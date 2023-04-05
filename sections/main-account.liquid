@@ -30,7 +30,7 @@
 
             <h3>MON ADRESSE DE LIVRAISON</h3>
              Nom: {{ customer.name }}             <br> 
-            Adresse :             {{ customer.default_address }}    <br> 
+            Adresse :             {{ customer.default_address | format_address }}    <br> 
 
       <a href="{{ routes.account_addresses_url }}">
        Modifier
