@@ -51,7 +51,7 @@
     "main": {
       "type": "main-account",
       "settings": {
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 100
       }
     }
