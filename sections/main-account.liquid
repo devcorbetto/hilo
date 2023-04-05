@@ -51,12 +51,13 @@
             Prénom :  {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
 
             <h3>MON ADRESSE DE LIVRAISON</h3>
+                <a href="{{ routes.account_addresses_url }}" style="float:right;">
+       Modifier
+      </a>
              Nom: {{ customer.name }}             <br> 
             Adresse :  {{ customer.default_address.address1 }} ,           {{ customer.default_address.city }}, {{ customer.default_address.country }}     <br> 
 
-      <a href="{{ routes.account_addresses_url }}">
-       Modifier
-      </a>
+  
           </div>
 </div>
 
