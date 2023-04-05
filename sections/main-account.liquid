@@ -12,7 +12,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  .container-options {
+  .container-options, .container-content {
     border-radius:20px;
     border:2px solid #FBDAE2;
   }
@@ -36,7 +36,7 @@
                        </a></div>
   </div>
 
-          <div class="container-content w-4/6">
+          <div class="container-content w-4/6 p-20">
            <h3> MES INFORMATIONS</h3>
             Prénom :  {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
 
