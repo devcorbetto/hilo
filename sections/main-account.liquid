@@ -25,9 +25,9 @@
   }
 {%- endstyle -%}
 
-<div class="container row  mx-auto my-40 flex-1 flex page-width" style="padding-top:50px;
+<div class="container row  mx-auto my-40 flex-1 flex page-width gap-10" style="padding-top:50px;
   padding-bottom:50px;">
-  <div class="container-options  w-2/5">
+  <div class="container-options  w-2/6">
    <div class="option"><a href="#">Mon profil</a></div>
    <div class="option"><a href="#">Mon diagnostic</a></div>
    <div class="option"><a href="#">Mes commandes</a></div>
@@ -36,7 +36,7 @@
                        </a></div>
   </div>
 
-          <div class="container-content w-3/5">
+          <div class="container-content w-4/6">
            <h3> MES INFORMATIONS</h3>
             Prénom :  {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
 
