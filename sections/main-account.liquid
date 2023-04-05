@@ -26,7 +26,7 @@
 
           <div class="container-content">
            <h3> MES INFORMATIONS</h3>
-            Prénom :<br> Nom<br> : E-mail : <br>Téléphone :<br><br>
+            Prénom :  {{ customer.last_name }}<br> Nom : {{ customer.first_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
 
             <h3>MON ADRESSE DE LIVRAISON</h3>
              {{ customer.default_address | format_address }}
