@@ -26,10 +26,10 @@
 
           <div class="container-content">
            <h3> MES INFORMATIONS</h3>
-            Prénom :  {{ customer.last_name }}<br> Nom : {{ customer.first_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
+            Prénom :  {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
 
             <h3>MON ADRESSE DE LIVRAISON</h3>
-             {{ customer.default_address | format_address }}
+             Nom: {{ customer.name }} {{ customer.default_address | format_address }}
 
       <a href="{{ routes.account_addresses_url }}">
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
