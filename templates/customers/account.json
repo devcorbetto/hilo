@@ -6,13 +6,14 @@
         "template--17804309004583__8ed86ba8-4294-4db1-b333-63780ee0d7b7-16806584010e05065b-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>BIENVENUE ANA !<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
         },
         "template--17804309004583__8ed86ba8-4294-4db1-b333-63780ee0d7b7-16806584010e05065b-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
@@ -20,6 +21,7 @@
         },
         "template--17804309004583__8ed86ba8-4294-4db1-b333-63780ee0d7b7-16806584010e05065b-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "button_label": "Button label",
