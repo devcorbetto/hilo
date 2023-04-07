@@ -274,7 +274,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg",
             "imagenohover": "shopify:\/\/shop_images\/Capsule_Orange.png",
-            "title": "Huile de carotte",
+            "title": "Huile de<br> carotte",
             "text": "<p>Bonne mine<\/p>",
             "link_label": "",
             "link": ""
@@ -286,7 +286,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_argan_f7640d1c-b21c-42fd-ac0a-d60ca503bb53.svg",
             "imagenohover": "shopify:\/\/shop_images\/Capsule_Violet.png",
-            "title": "Huile d'argan",
+            "title": "Huile <br>d'argan",
             "text": "<p>Anti-âge<\/p>",
             "link_label": "",
             "link": ""
@@ -298,7 +298,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_abricot_61fb0fab-8279-4d1b-8947-34856ebc9bf0.svg",
             "imagenohover": "shopify:\/\/shop_images\/Capsule_Rose.png",
-            "title": "Huile d'abricot",
+            "title": "Huile <br>d'abricot",
             "text": "<p>Illuminante<\/p>",
             "link_label": "",
             "link": ""
@@ -310,7 +310,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg",
             "imagenohover": "shopify:\/\/shop_images\/Capsule_Vert.png",
-            "title": "Huile de noisette",
+            "title": "Huile de<br> noisette",
             "text": "<p>Anti-imperfections<\/p>",
             "link_label": "",
             "link": ""
@@ -322,7 +322,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_noisette_0ce63b8f-330c-4fd6-97fa-da453e7095eb.svg",
             "imagenohover": "shopify:\/\/shop_images\/Capsule_Bleu.png",
-            "title": "Huile d'amande douce",
+            "title": "Huile d'amande<br> douce",
             "text": "<p>Apaisante<\/p>",
             "link_label": "",
             "link": ""
@@ -334,7 +334,7 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_onagre_02bc9345-dce9-40d5-ab4f-23d240198aa5.svg",
             "imagenohover": "shopify:\/\/shop_images\/Capsule_Jaune.png",
-            "title": "Huile d'onagre",
+            "title": "Huile <br>d'onagre",
             "text": "<p>Hydratante<\/p>",
             "link_label": "",
             "link": ""
