@@ -80,7 +80,9 @@ transform: translate(-50%, -50%);
     {%- for block in section.blocks -%}
     <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="container-modal" style="position:relative;">
-      <span style="position:absolute; top:5px; right:15px;"  @click="open{{ forloop.index }} = false">x</span>
+      <span style="position:absolute; top:5px; right:15px;"  @click="open{{ forloop.index }} = false">
+      {% include 'icon-x' %}
+      </span>
              <div class="flex  w-full justify-center items-center mb-10">
              {{ block.settings.image | image_url: height: 90 | image_tag:
                       loading: 'lazy',
