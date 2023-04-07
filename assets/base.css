@@ -3022,9 +3022,9 @@ details-disclosure > details {
 }
 .corner-top {
 position: absolute;
-    width: 30px;
-    right: -20px;
-    top: -20px;
+width: 60px;
+    right: -40px;
+    top: -40px;
     transform: rotate(90deg);
 }
 @media screen and (min-width: 990px) {
