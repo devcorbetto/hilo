@@ -438,9 +438,9 @@
         "2d835b90-5ecd-45be-a0be-4fe51ad79673": {
           "type": "caption",
           "settings": {
-            "customcss": "",
+            "customcss": "segoe",
             "caption": "[...] akuna matata",
-            "text_style": "caption-with-letter-spacing",
+            "text_style": "subtitle",
             "text_size": "small"
           }
         },
