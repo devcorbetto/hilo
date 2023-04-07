@@ -78,7 +78,7 @@ transform: translate(-50%, -50%);
     justify-content: center;
     align-items: center;"  x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false ,open7: false ,open8: false  }" class="{{ section.settings.customcss }} multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
     {%- for block in section.blocks -%}
-    <div x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
+    <div class="open{{ forloop.index }}" x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="container-modal" style="position:relative;">
       <span style="position:absolute; top:5px; right:15px;"  @click="open{{ forloop.index }} = false">x</span>
              <div class="flex  w-full justify-center items-center mb-10">
@@ -96,7 +96,7 @@ transform: translate(-50%, -50%);
        
 {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
  <style>
-   .container-modal {
+   .open1 {
      border:1px solid    {{ colors[0].color1 }};
    }
  </style>
@@ -105,7 +105,7 @@ transform: translate(-50%, -50%);
 {{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
                  
                 <style>
-   .container-modal {
+   .open2 {
      border:1px solid    {{ colors[0].color2 }};
    }
  </style>
@@ -114,7 +114,7 @@ transform: translate(-50%, -50%);
 {{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }}  
            {{ collections['boutique'].metafields.custom.color[3] }} 
                 <style>
-   .container-modal {
+   .open3 {
      border:1px solid    {{ colors[0].color3 }};
    }
  </style>
@@ -122,7 +122,7 @@ transform: translate(-50%, -50%);
                {% if forloop.index == 4 %}
 {{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
                     <style>
-   .container-modal {
+   .open4 {
      border:1px solid    {{ colors[0].color4 }};
    }
  </style>
@@ -130,7 +130,7 @@ transform: translate(-50%, -50%);
                 {% if forloop.index == 5 %}
 {{ collections['boutique'].metafields.custom.ingredient5 |  metafield_tag  }} 
                      <style>
-   .container-modal {
+   .open5 {
      border:1px solid    {{ colors[0].color5 }};
    }
  </style>
@@ -138,7 +138,7 @@ transform: translate(-50%, -50%);
              {% if forloop.index == 6 %}
 {{ collections['boutique'].metafields.custom.ingredient6 |  metafield_tag  }} 
                   <style>
-   .container-modal {
+   .open6 {
      border:1px solid    {{ colors[0].color6 }};
    }
  </style>
