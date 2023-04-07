@@ -747,7 +747,9 @@ SemiBold - 19px, #EFD1BF
   }
 
 /*footer*/
-
+.newsletter-form__field-wrapper .field {
+  flex-direction: column;
+}
 .footer__content-top {
   padding:0px 5rem;
 }
