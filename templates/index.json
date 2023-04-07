@@ -401,9 +401,9 @@
         "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf": {
           "type": "caption",
           "settings": {
-            "customcss": "",
+            "customcss": "segoe",
             "caption": "Alors caps ou pas caps ?",
-            "text_style": "caption-with-letter-spacing",
+            "text_style": "subtitle",
             "text_size": "small"
           }
         }
