@@ -747,6 +747,10 @@ SemiBold - 19px, #EFD1BF
   }
 
 /*footer*/
+
+.footer__content-top {
+  padding:0px 5rem;
+}
 .multi-logos .slick-prev, .multi-logos .slick-next {
 
 }
