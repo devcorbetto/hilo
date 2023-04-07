@@ -81,8 +81,10 @@ transform: translate(-50%, -50%);
     <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="container-modal" style="position:relative;">
       <span style="position:absolute; top:5px; right:15px;"  @click="open{{ forloop.index }} = false">
-  
-<?xml version="1.0" encoding="UTF-8"?><svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43"><defs><style>.cls-1{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs><g id="Calque_1-2"><g><line class="cls-1" x1="2.09" y1="1.5" x2="40.91" y2="41.5"/><line class="cls-1" x1="1.5" y1="40.91" x2="41.5" y2="2.09"/></g></g></svg>
+  <svg id="Calque_22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" style="height:20px;">
+  <defs>
+  <style>.cls-122{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs>
+  <g id="Calque_1-22"><g><line class="cls-122" x1="2.09" y1="1.5" x2="40.91" y2="41.5"/><line class="cls-1" x1="1.5" y1="40.91" x2="41.5" y2="2.09"/></g></g></svg>
       </span>
              <div class="flex  w-full justify-center items-center mb-10">
              {{ block.settings.image | image_url: height: 90 | image_tag:
@@ -102,6 +104,9 @@ transform: translate(-50%, -50%);
    .open1 .container-modal {
      border:1px solid    {{ colors[0].color1 }};
    }
+      .open1    .cls-122 {
+        stroke:{{ colors[0].color1 }};
+        }
  </style>
 {% endif %}
              {% if forloop.index == 2 %}
@@ -111,6 +116,9 @@ transform: translate(-50%, -50%);
    .open2 .container-modal {
      border:1px solid    {{ colors[0].color2 }};
    }
+                     .open2    .cls-122 {
+        stroke:{{ colors[0].color2 }};
+        }
  </style>
 {% endif %}  
              {% if forloop.index == 3 %}
@@ -120,6 +128,9 @@ transform: translate(-50%, -50%);
    .open3 .container-modal {
      border:1px solid    {{ colors[0].color3 }};
    }
+                     .open3   .cls-122 {
+        stroke:{{ colors[0].color3 }};
+        }
  </style>
 {% endif %}
                {% if forloop.index == 4 %}
@@ -128,6 +139,9 @@ transform: translate(-50%, -50%);
    .open4 .container-modal {
      border:1px solid    {{ colors[0].color4 }};
    }
+                       .open4    .cls-122 {
+        stroke:{{ colors[0].color4 }};
+        }
  </style>
 {% endif %}
                 {% if forloop.index == 5 %}
@@ -136,6 +150,9 @@ transform: translate(-50%, -50%);
    .open5 .container-modal {
      border:1px solid    {{ colors[0].color5 }};
    }
+                        .open5    .cls-122 {
+        stroke:{{ colors[0].color5 }};
+        }
  </style>
 {% endif %}
              {% if forloop.index == 6 %}
@@ -144,6 +161,9 @@ transform: translate(-50%, -50%);
    .open6 .container-modal {
      border:1px solid    {{ colors[0].color6 }};
    }
+                          .open6    .cls-122 {
+        stroke:{{ colors[0].color6 }};
+        }
  </style>
 {% endif %}  
            
