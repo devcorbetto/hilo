@@ -241,7 +241,7 @@ transform: translate(-50%, -50%);
   
                 {%- if block.settings.title != blank -%}
                  
-                  <h3 >{{ block.settings.title | escape }}</h3>
+                  <h3 >{{ block.settings.title  }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -292,7 +292,7 @@ transform: translate(-50%, -50%);
             "label": "Custom Css"
         },
     {
-      "type": "html",
+      "type": "text",
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
