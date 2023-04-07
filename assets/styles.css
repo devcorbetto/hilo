@@ -243,6 +243,7 @@ font-size:10px;
  background:#D0C4E2;
   border-radius:30px;
   color:white;
+  font-weight:bold;
 }
 .collection .card-information {
     width: 100%;
