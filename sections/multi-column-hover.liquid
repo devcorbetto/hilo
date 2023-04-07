@@ -91,11 +91,11 @@ transform: translate(-50%, -50%);
          </div>
          <div class="text-left   ">
        
-          
+          {% assign colors =   collections['boutique'].metafields.custom.colors.value   %}
       {% if forloop.index == 1 %}
        
 {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
-        {{ collections['boutique'].metafields.custom.colors.color1 }} 
+     {{ colors[0] }}
 {% endif %}
              {% if forloop.index == 2 %}
 {{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
