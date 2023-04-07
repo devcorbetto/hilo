@@ -519,10 +519,10 @@ font-size:10px;
   text-align:left;
 }
 .multi-slider .multicolumn-card.content-container  > div:first-child {
-  width:30%;
+  width:40%;
 }
 .multi-slider .multicolumn-card.content-container  > div:last-child {
-  width:65%;
+  width:55%;
 }
 .multi-slider .multicolumn-card.content-container h3 {
   font-size:23px;
