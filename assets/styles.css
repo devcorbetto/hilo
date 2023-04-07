@@ -859,6 +859,10 @@ footer .newsletter-form__button {  top: 5px;  }
     max-width:100%;
     padding:0px 2rem;
   }
+  .header__inline-menu {
+    display: flex;
+    justify-content: center;
+}
 .product--thumbnail_slider .thumbnail-slider {
   display: flex;
     align-items: center;
