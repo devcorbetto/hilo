@@ -166,14 +166,14 @@ h3.card__heading ,
 {
   font-size: 26px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
 }
 .multi-testimonials h3,
 .testimonial-name,
 .collection .card .card__heading {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 18px;
   text-align: center;
 }
