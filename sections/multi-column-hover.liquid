@@ -99,9 +99,11 @@ transform: translate(-50%, -50%);
 {% endif %}
              {% if forloop.index == 2 %}
 {{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
+                   {{ collections['boutique'].metafields.custom.colors }} 
 {% endif %}  
              {% if forloop.index == 3 %}
-{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }} 
+{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }} }     
+           {{ collections['boutique'].metafields.custom.color[3] }} 
 {% endif %}
                {% if forloop.index == 4 %}
 {{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
