@@ -225,7 +225,9 @@ font-size:10px;
 } 
 
 }
-
+.segoe {
+  font-family:"";
+}
 
 .collection  h2 {
   margin-bottom:60px;
