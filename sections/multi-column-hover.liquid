@@ -80,7 +80,7 @@ transform: translate(-50%, -50%);
     {%- for block in section.blocks -%}
     <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false">
        <div class="container-modal" style="position:relative;">
-      <span style="position:absolute; top:15px; right:25px;"  @click="open{{ forloop.index }} = false">
+      <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="open{{ forloop.index }} = false">
   <svg id="Calque_22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" style="height:25px;">
   <defs>
   <style>.cls-122{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs>
