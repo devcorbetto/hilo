@@ -502,6 +502,10 @@ font-size:10px;
 
 
 /* Multi slider*/
+.multi-slider .slider-mobile-gutter {
+   max-width: 900px;
+    margin: 0 auto;
+}
 .multi-slider .multicolumn-card {
   border-radius:52px;
   max-width: 900px;
