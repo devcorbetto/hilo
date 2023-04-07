@@ -191,7 +191,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. Et hop, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
+            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. <br\/>Et hop, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
           }
         }
       },
