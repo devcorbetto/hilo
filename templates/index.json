@@ -225,7 +225,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Découvrez les premières capsules éco-conçues pour personnaliser votre base de soin. Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau. <\/p>"
+            "text": "<p>Découvrez les premières capsules éco-conçues pour personnaliser votre base de soin. <br\/>Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau. <\/p>"
           }
         },
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2": {
