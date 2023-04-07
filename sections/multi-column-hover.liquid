@@ -93,7 +93,9 @@ transform: translate(-50%, -50%);
        
           
       {% if forloop.index == 1 %}
+       
 {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
+        {{ collections['boutique'].metafields.custom.colors[0] |  metafield_tag  }} 
 {% endif %}
              {% if forloop.index == 2 %}
 {{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
