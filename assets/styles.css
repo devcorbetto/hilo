@@ -865,7 +865,7 @@ footer .newsletter-form__button {  top: 5px;  }
     flex-direction: row-reverse !important;
   }
   slider-component {
-    width:100% !important;
+    width:1200px !important;
   }
   .thumbnail-slider  {
      width:20% !important;
