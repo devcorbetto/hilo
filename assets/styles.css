@@ -750,6 +750,13 @@ SemiBold - 19px, #EFD1BF
 .newsletter-form__field-wrapper .field {
   flex-direction: column;
 }
+.button {
+  border:1px solid #575756;
+  border-radius:20px;
+  margin-top:10px;
+  color:#575756;
+  font-weight:bold;
+}
 .footer__content-top {
   padding:0px 5rem;
 }
