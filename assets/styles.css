@@ -751,9 +751,11 @@ SemiBold - 19px, #EFD1BF
   flex-direction: column;
 }
 footer .newsletter-form__button {
-  border:1px solid #575756;
+  border:2px solid #575756;
   border-radius:20px;
   margin-top:10px;
+  padding:8px 12px;
+  width:150px;
   color:#575756;
   font-weight:bold;
   position: relative;
