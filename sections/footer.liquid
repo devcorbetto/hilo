@@ -66,6 +66,7 @@
 
               {%- case block.type -%}
                 {%- when 'text' -%}
+                <div class="text_container">
                   {%- if block.settings.heading != blank -%}
                 <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
               {%- endif -%}
@@ -164,6 +165,7 @@
    
         </div>
         {%- endif -%}
+                  </div>
                 {%- when 'link_list' -%}
                 <div class="link_list_container">
                    {%- if block.settings.heading != blank -%}
