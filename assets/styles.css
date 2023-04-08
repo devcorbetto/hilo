@@ -763,7 +763,7 @@ SemiBold - 19px, #EFD1BF
 .newsletter  p {
       font-size: 16px;
     line-height: 19px;
-    font-weight: 300;
+    font-weight:400;
     text-align: center;
 }
 .newsletter  .newsletter-form__field-wrapper .field {
