@@ -148,7 +148,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/diagnostic",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -211,7 +211,7 @@
           "settings": {
             "customcss": "btn-circle btn-circle-black",
             "button_label": "Je veux tout savoir",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/la-marque",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
