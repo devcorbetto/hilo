@@ -648,8 +648,10 @@ background-position: left bottom;
   margin-bottom:20px;
 }
 .images-team    p {
-  font-size:15px ;
+
    line-height:18px ;
+      font-size: 14px;
+    padding: 0px 60px;
 }
 .images-team  .multicolumn-card__image-wrapper{
     width: 150px;
