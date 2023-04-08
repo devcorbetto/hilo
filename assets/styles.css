@@ -893,6 +893,9 @@ footer .newsletter-form__field-wrapper .field__input {
   border-radius:30px;
   height:4rem;
 }
+.footer__content-bottom {
+  display:none;
+}
 footer .field:after {
   content:none;
 }
