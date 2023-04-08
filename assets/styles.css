@@ -896,6 +896,10 @@ footer .newsletter-form__field-wrapper .field__input {
 .footer__content-bottom {
   display:none;
 }
+.link_list_container {
+  width:300px;
+  margin:0 auto;
+}
 footer .field:after {
   content:none;
 }
