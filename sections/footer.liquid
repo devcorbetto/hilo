@@ -165,6 +165,7 @@
         </div>
         {%- endif -%}
                 {%- when 'link_list' -%}
+                <div class="link_list_container">
                    {%- if block.settings.heading != blank -%}
                 <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
               {%- endif -%}
@@ -179,7 +180,9 @@
                       {%- endfor -%}
                     </ul>
                   {%- endif -%}
+                </div>
                 {%- when 'newsletter' -%}
+                
                    {%- if block.settings.heading != blank -%}
                 <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
               {%- endif -%}
