@@ -747,6 +747,13 @@ SemiBold - 19px, #EFD1BF
   }
 
 /*news*/
+.newsletter  h2.h1 {
+      font-size: 30px;
+ 
+    line-height: 36px;
+    font-weight: 600;
+
+}
 .newsletter  .newsletter-form__field-wrapper .field {
   flex-direction: column;
   border:none;
