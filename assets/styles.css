@@ -753,8 +753,8 @@ SemiBold - 19px, #EFD1BF
   box-shadow:none;
    
 }
-.newsletter  .newsletter-form__field-wrapper .field  input:before,
-.newsletter  .newsletter-form__field-wrapper .field  input:after {
+.newsletter  .newsletter-form__field-wrapper .field:before,
+.newsletter  .newsletter-form__field-wrapper .field:after {
   content:none;
 }
 .newsletter  .newsletter-form__field-wrapper .field  input {
@@ -764,9 +764,9 @@ SemiBold - 19px, #EFD1BF
   border:2px solid #575756;
   border-radius:30px;
   margin:0 auto;
-  margin-top:10px;
+  margin-top:30px;
   padding:4px 8px;
-  width:150px;
+  width:200px;
   color:#575756;
   font-weight:bold;
   position: relative;
