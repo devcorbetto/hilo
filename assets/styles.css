@@ -749,7 +749,14 @@ SemiBold - 19px, #EFD1BF
 /*news*/
 .newsletter  .newsletter-form__field-wrapper .field {
   flex-direction: column;
-    border-radius:30px;
+   
+}
+.newsletter  .newsletter-form__field-wrapper .field  input:before,
+.newsletter  .newsletter-form__field-wrapper .field  input:after {
+  content:none;
+}
+.newsletter  .newsletter-form__field-wrapper .field  input {
+   border-radius:30px;
 }
 .newsletter  .newsletter-form__button {
   border:2px solid #575756;
