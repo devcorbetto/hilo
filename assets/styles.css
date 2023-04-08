@@ -756,7 +756,7 @@ SemiBold - 19px, #EFD1BF
 }
 .newsletter h3 {
     font-size: 22px;
- 
+   margin-bottom:20px;
     line-height: 26px;
     font-weight: 600;
 }
