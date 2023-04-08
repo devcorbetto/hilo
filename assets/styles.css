@@ -749,6 +749,8 @@ SemiBold - 19px, #EFD1BF
 /*news*/
 .newsletter  .newsletter-form__field-wrapper .field {
   flex-direction: column;
+  border:none;
+  box-shadow:none;
    
 }
 .newsletter  .newsletter-form__field-wrapper .field  input:before,
