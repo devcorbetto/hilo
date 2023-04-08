@@ -891,6 +891,7 @@ footer .footer__copyright, footer .imagen-footerlogo {
 footer .newsletter-form__field-wrapper .field__input {
   margin-top:10px;
   border-radius:30px;
+  height:4rem;
 }
 footer .field:after {
   content:none;
