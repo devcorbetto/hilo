@@ -631,7 +631,17 @@ background-position: left bottom;
 }
 
 
+/*lamarque_text1*/
+.lamarque_text1 p, .lamarque_text2 p {
+  
+}
 
+.lamarque_text1 h2, .lamarque_text2 h2 {
+      font-size: 30px;
+  
+    line-height: 36px;
+    font-weight: 600;
+}
 /*Team*/
 .svg-fullwidth h2 {
    margin-bottom:30px;
