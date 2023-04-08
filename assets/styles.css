@@ -896,6 +896,9 @@ footer .newsletter-form__field-wrapper .field__input {
 footer .field:after {
   content:none;
 }
+.copyright__content a {
+  font-size:16px;
+}
 
 footer .newsletter-form {
   max-width:250px;
