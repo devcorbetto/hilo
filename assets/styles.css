@@ -635,7 +635,7 @@ background-position: left bottom;
 @media (min-width:750px) {
   .image-with-text__grid--reverse .image-with-text__content {
     padding-left:0px;
-     padding-right:80px;
+     padding-right:120px;
   }
 }
 .lamarque_text1 p, .lamarque_text2 p {
