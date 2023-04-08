@@ -657,15 +657,23 @@ background-position: left bottom;
 }
 .border-color1 .media--circle {
   border:5px solid #FBD1AD;
+  width:170px;
+  height:170px;
 }
 .border-color2  .media--circle{
   border:5px solid #B7DAF3;
+    width:170px;
+  height:170px;
 }
 .border-color3 .media--circle{
   border:5px solid #F5DEA3;
+    width:170px;
+  height:170px;
 }
 .border-color4 .media--circle {
   border:5px solid #CDE4CA;
+    width:170px;
+  height:170px;
 }
 /*
 Montserrat, SemiBold - 50px
