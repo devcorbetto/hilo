@@ -633,6 +633,9 @@ background-position: left bottom;
 
 
 /*Team*/
+.svg-fullwidth h2 {
+   margin-bottom:30px;
+}
 .images-team img {
 
 }
