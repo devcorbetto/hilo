@@ -848,6 +848,9 @@ text-align:left;
   padding-bottom:0px;
 
 }
+.field__input input {
+      height: 4rem;
+}
 .footer a[href="/pages/nous-rejoindre"] {
   margin-bottom:30px;
 }
