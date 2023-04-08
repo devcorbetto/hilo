@@ -760,6 +760,9 @@ SemiBold - 19px, #EFD1BF
     line-height: 26px;
     font-weight: 600;
 }
+.newsletter .newsletter__subheading {
+  width:100%;
+}
 .newsletter  p {
       font-size: 16px;
     line-height: 19px;
