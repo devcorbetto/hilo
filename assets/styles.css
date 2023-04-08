@@ -900,6 +900,10 @@ footer .newsletter-form__field-wrapper .field__input {
   width:300px;
   margin:0 auto;
 }
+.text_container {
+  width:300px;
+ margin-right:0px;
+}
 footer .field:after {
   content:none;
 }
