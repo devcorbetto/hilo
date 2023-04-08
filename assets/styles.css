@@ -636,7 +636,9 @@ background-position: left bottom;
 .images-team img {
 
 }
-
+.images-team h2.title {
+  margin-bottom:30px;
+}
 .images-team   h3 {
   color:#575756;
   font-weight:600;
@@ -653,6 +655,7 @@ background-position: left bottom;
       font-size: 14px;
     padding: 0px 60px;
 }
+
 .images-team  .multicolumn-card__image-wrapper{
     width: 150px;
     margin: 0 auto !important;
