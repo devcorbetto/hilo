@@ -633,7 +633,7 @@ background-position: left bottom;
 
 /*lamarque_text1*/
 .lamarque_text1 p, .lamarque_text2 p {
-  
+  font-size:16px;
 }
 
 .lamarque_text1 h2, .lamarque_text2 h2 {
