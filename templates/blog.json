@@ -49,6 +49,9 @@
     },
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        ".article-card__info span {text-decoration:underline;}"
+      ],
       "settings": {
         "layout": "grid",
         "show_image": true,
