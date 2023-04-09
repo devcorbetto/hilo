@@ -121,6 +121,7 @@
                   {{ article.content | strip_html | truncatewords: 20 }}
                 {%- endif -%}
               </p>
+            <a href="{{ article.url }}" class="lireplus">lire plus </a>
             {%- endif -%}
             <div class="article-card__footer">
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
@@ -134,7 +135,7 @@
             <span class="badge color-background-1">{{ 'blogs.article.blog' | t }}</span>
           </div>
         {%- endif -%}  
-        <a href="{{ article.url }}" class="lireplus">lire plus </a>
+      
       </div>
     </div>
   </div>
