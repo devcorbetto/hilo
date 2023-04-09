@@ -85,7 +85,7 @@
       padding: 0px 25px !important;
  
 }
-.article-card .card__heading  h3 {
+.article-card .card__heading   {
   font-weight: 600;
   font-size: 18px;
   min-height: 2em;
