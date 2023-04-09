@@ -58,7 +58,7 @@
 
 .article-card__info {
   padding-top: 0.4rem;
-   font-weight:600;
+   font-weight:500;
 }
 
 .article-card__footer {
@@ -78,7 +78,7 @@
   width: 100%;
   margin-top: 1.2rem;
   font-size:12px;
-  font-weight:600;
+  font-weight:500;
 }
 .lireplus {
   color:#F5DEA3;
