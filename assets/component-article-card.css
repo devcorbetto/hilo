@@ -81,8 +81,9 @@
   font-weight:600;
 }
 .card__content {
- 
+
       padding: 0px 25px !important;
+   padding-top:10px;
 }
 .article-card .card__heading  h3 {
   font-weight: 600;
