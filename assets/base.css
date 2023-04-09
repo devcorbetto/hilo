@@ -556,7 +556,8 @@ blockquote {
 
 @media screen and (min-width: 750px) {
   .caption {
-    font-size: 1.2rem;
+    font-size: 1rem;
+        vertical-align: top;
   }
 }
 
