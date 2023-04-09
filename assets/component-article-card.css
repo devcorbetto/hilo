@@ -79,7 +79,9 @@
   font-size:12px;
   font-weight:600;
 }
-
+.lireplus {
+  color:#F5DEA3;
+}
 .article-card__link:not(:only-child) {
   margin-right: 3rem;
 }
