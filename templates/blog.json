@@ -50,8 +50,7 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        "h3 {font-weight: 600; font-size: 18px; min-height: 2em; margin-bottom: 20px;}",
-        ".article-card__info {margin-bottom: 20px;}"
+
       ],
       "settings": {
         "layout": "grid",
