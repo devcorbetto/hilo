@@ -116,9 +116,9 @@
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width">
                 {%- if article.excerpt.size > 0 -%}
-                  {{ article.excerpt | strip_html | truncatewords: 20 }}
+                  {{ article.excerpt | strip_html | truncatewords: 18 }}
                 {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 20 }}
+                  {{ article.content | strip_html | truncatewords: 18 }}
                 {%- endif -%}
               </p>
             <a href="{{ article.url }}" class="lireplus">lire plus </a>
