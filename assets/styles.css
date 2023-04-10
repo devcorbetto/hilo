@@ -881,6 +881,11 @@ footer .newsletter-form__button {
 .paiment svg {
   margin-bottom:40px;
 }  
+
+.paiment:last-child svg  {
+  margin-bottom:20px;
+  height:86px;
+}
 .paiment h3  {
     font-size: 15px;
     font-weight: 600;
