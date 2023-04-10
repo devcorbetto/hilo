@@ -196,14 +196,14 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Les produits Hilo sont établis avec un cahier des charges strict afin de vous assurer des soins visages naturels et qualitatifs. Aussi, nous avons choisi de bannir de nombreux ingrédients de nos formules. <\/p>"
+            "text": "<p>Les produits Hilo sont établis avec un <strong>cahier des charges strict<\/strong> afin de vous assurer des <strong>soins visages naturels et qualitatifs<\/strong>. Aussi, nous avons choisi de <strong>bannir de nombreux ingrédients de nos formules. <\/strong><\/p>"
           }
         },
         "477266ca-c02c-45f2-ac3f-ecd1163f0e9d": {
           "type": "text",
           "settings": {
             "customcss": "mb-10b",
-            "text": "<p>Afin de vous accompagner dans la compréhension de ce que vous appliquez sur votre peau et pour vous apporter une transparence la plus totale nous tenons à vous présenter la charte des recalés de l’ilot.<\/p>"
+            "text": "<p>Afin de vous <strong>accompagner <\/strong>dans la compréhension de ce que <strong>vous appliquez sur votre peau<\/strong> et pour vous apporter une <strong>transparence la plus <\/strong>totale nous tenons à vous présenter la <strong>charte des recalés de l’ilot.<\/strong><\/p>"
           }
         },
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2": {
