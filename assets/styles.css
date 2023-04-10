@@ -995,6 +995,10 @@ footer .newsletter-form__button {  top: 5px;  }
 }
 .spr-stars span {
   display:flex;
+  
+}
+.spr-stars path {
+    fill: #EFD1BF !important;
 }
 .product__description ul {
   display:grid;
