@@ -294,7 +294,7 @@
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-2"
       ],
       "custom_css": [
-        "img {border-radius:30px;}"
+        "img {border-radius: 30px;}"
       ],
       "settings": {
         "customcss": "",
@@ -310,6 +310,155 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
+    },
+    "e03fe02e-93a8-4450-a06d-4d3c9eb5e800": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-0",
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1",
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "19489bf3-7aa9-4364-aa76-ca3603fe218d": {
+      "type": "multicolumn-slider",
+      "blocks": {
+        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16dd79ab-a3d7-43e1-936f-b576ddc58691": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6c8039a6-1efa-4de8-a664-4b04dd3d3ffe": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8bf8cf06-d164-4c80-a9cc-37516bb6877c": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-0",
+        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-1",
+        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-2",
+        "16dd79ab-a3d7-43e1-936f-b576ddc58691",
+        "6c8039a6-1efa-4de8-a664-4b04dd3d3ffe",
+        "8bf8cf06-d164-4c80-a9cc-37516bb6877c"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -319,6 +468,8 @@
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
     "1edd166c-9532-49eb-b7b3-cda674a02113",
-    "00c32b12-4372-4263-9b83-5f1f40366b12"
+    "00c32b12-4372-4263-9b83-5f1f40366b12",
+    "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
+    "19489bf3-7aa9-4364-aa76-ca3603fe218d"
   ]
 }
