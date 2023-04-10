@@ -92,7 +92,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_de_ucouvrir.svg",
             "title": "Découvrir",
             "subtitle": "",
             "text": "<p>et tester en exclusivité les soins Hilo.<\/p>",
@@ -104,7 +104,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_cocre_uer.svg",
             "title": "Contribuer",
             "subtitle": "",
             "text": "<p>à la création de produits qui vous ressemblent.<\/p>",
@@ -116,7 +116,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_avis.svg",
             "title": "Partager",
             "subtitle": "",
             "text": "<p> votre avis et votre expérience en toute transparence.<\/p>",
@@ -128,7 +128,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Pictogramme_livraison-svg.svg",
+            "image": "shopify:\/\/shop_images\/Pictogramme_booster.svg",
             "title": "Booster",
             "subtitle": "",
             "text": "<p> le succès des produits et être garant de leur qualité.<\/p>",
