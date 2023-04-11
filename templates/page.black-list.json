@@ -79,7 +79,7 @@
         "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-1": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "bg_subtitle",
             "text": "<p>Hilo montre patte blanche (ou plutôt crème blanche), et blackliste les ingrédients suivants : ☠️<\/p>"
           }
         },
@@ -103,7 +103,7 @@
         "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-2"
       ],
       "settings": {
-        "customcss": "bg_subtitle",
+        "customcss": "full-width-faqs",
         "desktop_content_position": "left",
         "content_alignment": "center",
         "color_scheme": "background-1",
