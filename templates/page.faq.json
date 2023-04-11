@@ -144,7 +144,7 @@
           "settings": {
             "heading": "Je souhaite offrir un soin personnalisé Hilo, comment faire ?",
             "icon": "none",
-            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une carte cadeau Hilo.<\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin<br\/>directement sur notre site internet.<br\/><\/p>",
+            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une <a href=\"#\" title=\"#\">carte cadeau Hilo.<\/a><\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin<br\/>directement sur notre site internet.<br\/><\/p>",
             "page": ""
           }
         }
@@ -207,24 +207,27 @@
         },
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Le paiement est-il sécurisé ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Bien sûr ! Toutes vos coordonnées bancaires sont cryptées et les transactions sont donc<br\/>sécurisées.<\/p>",
             "page": ""
           }
         },
         "f71421b0-7f91-4efb-b4de-41fbffe71aea": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Quels sont les moyens de paiement disponible sur le site ?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire, via Paypal ou Apple Pay\/Google<br\/>Pay.<\/p>",
             "page": ""
           }
         },
         "3849776c-a13f-4fa4-9e99-90a24137ee8b": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Puis-je retourner un produit qui ne me conviendrait pas ?",
             "icon": "none",
