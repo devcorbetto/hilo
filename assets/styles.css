@@ -489,6 +489,7 @@ right: 0px;
 } 
 .collapsible-content .accordion, .accordion  {
   border-top:0px !important;
+  border-bottom:0px !important;
 }
 summary .icon-carret2 {
     position: absolute;
