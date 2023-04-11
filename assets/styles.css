@@ -658,16 +658,15 @@ background-position: left bottom;
   margin-bottom:30px;
 }
 
-.accordion details summary {
-  border-top:0px;
+.accordion details[open] summary {
   background:none !important;
-    padding: 10px 10px !important;
+
 }
 .accordion summary {
       background: #F8C8D3;
     color: #575756;
     border-radius: 30px;
-    padding: 10px 20px !important
+    padding: 10px 10px !important;
 }
 
 
