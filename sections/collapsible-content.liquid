@@ -57,8 +57,8 @@
                     <h3 class="accordion__title h4">
                       {{ block.settings.heading | default: block.settings.page.title }}
                     </h3>
-                 <?xml version="1.0" encoding="UTF-8"?><svg style="width:20px; height:20px;" id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43"><defs><style>.clsfaq1{stroke-miterlimit:10;}.clsfaq1,.clsfaq2{fill:none;stroke:#575756;stroke-width:3px;}.clsfaq2{stroke-linecap:round;stroke-linejoin:round;}</style></defs><g id="Calque_1-2"><g><circle class="clsfaq1" cx="21.5" cy="21.5" r="20"/><line class="clsfaq2" x1="10.8" y1="21.5" x2="32.2" y2="21.5"/><line class="clsfaq2" x1="21.5" y1="32.2" x2="21.5" y2="10.8"/></g></g></svg>
-                  </summary>
+                  {% render 'icon-caret2' %}
+              </summary>
                   <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
