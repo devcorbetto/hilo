@@ -660,7 +660,7 @@ background-position: left bottom;
 
 .accordion details[open] summary {
   background:none !important;
-   padding:10px 10px !important;
+   padding:10px 0px !important;
 }
 .accordion details summary {
       background: #F8C8D3;
