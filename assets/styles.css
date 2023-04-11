@@ -662,6 +662,9 @@ background-position: left bottom;
   background:none !important;
    padding:10px 0px !important;
 }
+.accordion__content {
+  padding-left:0px;
+}
 .accordion details summary {
       background: #F8C8D3;
     color: #575756;
