@@ -654,13 +654,13 @@ background-position: left bottom;
   margin-bottom:30px;
 }
 .accordion details {
-padding:0px 10px;
+
   margin-bottom:30px;
 }
 
 .accordion details[open] summary {
   background:none !important;
-   
+   padding:0px 10px;
 }
 .accordion summary {
       background: #F8C8D3;
