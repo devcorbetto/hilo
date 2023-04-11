@@ -657,7 +657,9 @@ background-position: left bottom;
 
   margin-bottom:30px;
 }
-.accordion details[open] summary {
+
+.accordion details summary {
+  border-top:0px;
   background:none !important;
     padding: 10px 10px !important;
 }
