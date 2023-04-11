@@ -474,6 +474,26 @@ font-size:10px;
 
 /* página FAQ*/
 
+.accordion details[open]>summary .icon-carret2 {
+   opacity:0;
+}
+.accordion details[open]>summary .icon-carret3 {
+   opacity:1;
+}
+summary .icon-carret3 {
+    position: absolute;
+    height: 0.6rem;
+    right: 1.5rem;
+    top: calc(50% - 0.2rem);
+     opacity:0;
+} 
+summary .icon-carret2 {
+    position: absolute;
+    height: 0.6rem;
+    right: 1.5rem;
+    top: calc(50% - 0.2rem);
+} 
+
 .faq-headings
 {
   font-size: 26px;
