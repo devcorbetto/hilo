@@ -71,7 +71,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Comment savoir quels actifs choisir pour personnaliser mes soins ?",
-            "icon": "lightning_bolt",
+            "icon": "none",
             "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un diagnostic en ligne pour vous aider à<br\/>déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
             "page": ""
           }
