@@ -140,7 +140,7 @@
             "heading": "COMMENT CA MARCHE ?",
             "icon": "none",
             "row_content": "{{ product.metafields.custom.comment_ca_marche | metafield_tag }}",
-            "page": "black-list"
+            "page": ""
           }
         },
         "template--17804308939047__2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa-1679359602bf820eec-2": {
