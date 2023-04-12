@@ -3031,10 +3031,10 @@ details-disclosure > details {
     height:50px;
 }
 .a-left {
-  left:-90px;
+  left:-20%;
 }
 .a-right {
-  right:-90px;
+  right:-20%;
 }
 .corner-top {
 position: absolute;
