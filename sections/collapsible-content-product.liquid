@@ -124,7 +124,9 @@
                {% render 'icon-carret3' %}
                   </summary>
                   <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
-                    {{ block.settings.row_content }}
+                    {{ product.metafields.custom.description |  metafield_tag  }} 
+              
+              {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
                   </div>
                 </details>
