@@ -480,6 +480,10 @@ font-size:10px;
 .accordion details[open]>summary .icon-carret3 {
    opacity:1;
 }
+.semibold {
+  font-width:600;}
+
+}
 summary .icon-carret3 {
     position: absolute;
 
