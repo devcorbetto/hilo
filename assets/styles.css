@@ -150,6 +150,9 @@ h3.card__heading ,
   color: #575756;
   line-height: 22px;
 }
+.multi-testimonials-reviews .rte {
+  padding:0px 20px;
+}
 
 .multi-testimonials .rte,
 .rich-text-legend,
