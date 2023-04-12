@@ -1090,8 +1090,10 @@ footer .newsletter-form__button {  top: 5px;  }
     display: flex;
     justify-content: center;
 }
-
-
+.product__media-wrapper  .product__media img {
+    border-radius:30px;
+  }
+/*
 .product--thumbnail_slider .thumbnail-slider {
   display: flex;
     align-items: center;
@@ -1101,9 +1103,7 @@ footer .newsletter-form__button {  top: 5px;  }
         display: flex !important;
     flex-direction: row-reverse !important;
   }
-.product__media-wrapper  .product__media img {
-    border-radius:30px;
-  }
+
   slider-component {
     width:1200px !important;
     max-width:100%;
@@ -1122,7 +1122,7 @@ footer .newsletter-form__button {  top: 5px;  }
     height: calc(20% - 0.8rem) !important; 
     width: 75px !important; 
 }
-
+*/
   }
 /* mobile */
 
