@@ -544,11 +544,10 @@ summary .icon-carret2 {
   text-align: left;
 }
 
-.accordion ul li {
-   font-size: 12px;
-  font-weight: 300;
-  line-height: 18px;
-  text-align: left;
+.accordion p strong,  .accordion p b, {
+ 
+  font-weight: 600;
+
 }
 
 
