@@ -546,7 +546,7 @@ summary .icon-carret2 {
 
 .accordion p strong,  .accordion p b, {
  
-  font-weight: 600;
+  font-weight: 600 !important;
 
 }
 
