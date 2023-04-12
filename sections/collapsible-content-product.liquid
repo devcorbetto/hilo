@@ -126,6 +126,8 @@
                   <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
                  {% if block.settings.row_content == blank %}
                    Hello :)
+                    <br>
+                      {{ block.settings.row_content }}
                    {% else %}
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
