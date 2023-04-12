@@ -3066,7 +3066,7 @@ width: 60px;
   border:2px solid #575756;
   border-radius:30px;
   color:#575756;
-  font-weight:600;
+  font-weight:700;
 }
 .multi-slider .slick-slide  .button::after , .multi-slider .slick-slide  .button::before {
   content:none !important; 
