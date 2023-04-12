@@ -139,7 +139,7 @@
           "settings": {
             "heading": "COMMENT CA MARCHE ?",
             "icon": "none",
-            "row_content": "{{ product.metafields.custom.comment_ca_marche | metafield_tag }}",
+            "row_content": "",
             "page": ""
           }
         },
