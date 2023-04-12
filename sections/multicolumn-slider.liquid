@@ -108,7 +108,7 @@
                   
                   </div>
                 {%- endif -%}
-          <p style="text-below" {{ block.settings.text_below }}</p> 
+          <p style="text-below"> {{ block.settings.text_below }}</p> 
                 {%- if block.settings.link_label != blank -%}
                   <a class="link animate-arrow button " {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}> {{ block.settings.link_label | escape }}</a>
                 {%- endif -%}
