@@ -139,7 +139,7 @@
           "settings": {
             "heading": "COMMENT CA MARCHE ?",
             "icon": "none",
-            "row_content": "<p>comment<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
