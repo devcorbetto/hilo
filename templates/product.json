@@ -350,7 +350,7 @@
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-2"
       ],
       "settings": {
-        "customcss": "multi-testimonials",
+        "customcss": "multi-testimonials multi-testimonials-reviews",
         "title": "ILS LES ADORENT AUTANT QUE NOUS",
         "subtitle": "",
         "heading_size": "h1",
