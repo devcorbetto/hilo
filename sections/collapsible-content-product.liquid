@@ -127,7 +127,7 @@
                  {% if block.settings.row_content == blank %}
                    Hello :)
                     <br>
-                      {{ product.metafields.custom.comment_ca_marche | metafield_text }}
+                      {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
                    {% else %}
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
