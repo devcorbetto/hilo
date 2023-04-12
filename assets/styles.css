@@ -1090,7 +1090,7 @@ footer .newsletter-form__button {  top: 5px;  }
     display: flex;
     justify-content: center;
 }
-
+/* 
 
 .product--thumbnail_slider .thumbnail-slider {
   display: flex;
@@ -1122,7 +1122,7 @@ footer .newsletter-form__button {  top: 5px;  }
     height: calc(20% - 0.8rem) !important; 
     width: 75px !important; 
 }
- 
+ */
   }
 /* mobile */
 
