@@ -126,7 +126,7 @@
                   <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
                  {% if block.settings.row_content == blank %}
                  {% for value in product.metafields.custom.photos-comment-ca-marche.value  %}
-                  {{  value.name }}  - {{ value.url }}
+                  <b style="font-weight:600 !important;">{{  value.name }}</b> <br> <img src="{{ value.url }}">
                    {% endfor %}
                     <br>
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
