@@ -127,7 +127,7 @@
                  {% if block.settings.row_content == blank %}
                    <div class="container-comment">
                  {% for value in product.metafields.custom.photos-comment-ca-marche.value  %}
-                  <b style="font-weight:600 !important;">{{  value.name }}</b> <br> <img src="{{ value.url }}">
+               <div>   <img src="{{ value.url }}">  <br> <b style="font-weight:600 !important;">{{  value.name }}</b></div>
                    {% endfor %}
                    </div>
                     <style>
