@@ -49,11 +49,6 @@
           "settings": {
           }
         },
-        "474a192d-b0de-4595-9aa2-875c55099ec6": {
-          "type": "ingredientes",
-          "settings": {
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -85,7 +80,8 @@
           "type": "buy_buttons",
           "disabled": true,
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
@@ -103,7 +99,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "474a192d-b0de-4595-9aa2-875c55099ec6",
         "collapsible-row-1",
         "collapsible-row-3",
         "share",
@@ -112,9 +107,12 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_position": "left",
-        "gallery_layout": "thumbnail_slider",
         "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
