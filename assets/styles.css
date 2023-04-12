@@ -552,6 +552,10 @@ summary .icon-carret2 {
 
 
 /* Multi slider*/
+.newsletter-page h2.h1 {
+  font-weight:bold;
+  
+}
 .multi-slider .slider-mobile-gutter {
    max-width: 1000px;
     margin: 0 auto;
