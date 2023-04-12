@@ -130,7 +130,7 @@
           "settings": {
             "heading": "DESCRIPTION",
             "icon": "none",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.description | metafield_tag }}",
             "page": ""
           }
         },
