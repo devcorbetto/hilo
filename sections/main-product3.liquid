@@ -23,6 +23,16 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    @media only screen and (min-width: 600px) {
+.product--thumbnail_slider .product__media-gallery{display: flex; flex-direction: row-reverse; flex-wrap: wrap;align-items: flex-start;}
+.product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider{width:15%}
+.product--thumbnail_slider .slider-mobile-gutter .slider-button{display:none;}
+.product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider .thumbnail-list.slider--tablet-up{display: flex; padding: 0 0.7rem; flex: 1; scroll-padding-left: 0.5rem; flex-direction: column;}
+.product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail-list__item{width: 100%;}
+}
+
+    
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -368,7 +378,7 @@
                           {% render 'icon-caret' %}
                         </summary>
                       {%- endif -%}
-                      <slideshow-component class="slider-mobile-gutter">
+                      <slideshow-component class="slider-mobile-gutter" style=" flex: 1;">
                         {%- assign number_of_slides = recommendations.products_count | plus: 0.0 | divided_by: block.settings.products_per_page | ceil -%}
                         <div id="Slider-{{ block.id }}" class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere" role="list"{% if number_of_slides > 1 %} aria-label="{{ 'general.slider.name' | t }}"{% endif %}>
                           {%- for i in (1..number_of_slides) -%}
