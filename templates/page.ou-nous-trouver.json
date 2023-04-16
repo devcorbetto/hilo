@@ -71,7 +71,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne. <\/p>"
+            "text": "<p>Nos produits sont actuellement disponibles uniquement sur notre <a href=\"\/pages\/boutique\" title=\"Boutique\">boutique en ligne. <\/a><\/p>"
           }
         },
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1": {
