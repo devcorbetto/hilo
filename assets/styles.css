@@ -647,7 +647,7 @@ border-radius: 33px;
 }
 .bg_contact {
   background-image:url(https://cdn.shopify.com/s/files/1/0716/5509/6615/files/hilo-bg-pages.jpg?v=1681688515);
-background-position: left bottom;
+background-position: left top;
     background-size: 100%;
 }
 .bg_contact  > div {
