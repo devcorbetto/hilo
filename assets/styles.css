@@ -1106,7 +1106,6 @@ footer .newsletter-form__button {  top: 5px;  }
   .header {
     max-width:100%;
     padding:0px 4rem;
-    padding-top:5px;
   }
   .header__inline-menu {
     display: flex;
