@@ -1082,6 +1082,20 @@ footer .newsletter-form__button {  top: 5px;  }
 .rte ul {
   padding-left:0px !important;
 }
+
+.titlesbold h2,  .titlesbold h2 span {
+  font-weight:500;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 750px) {
   .header {
     max-width:100%;
@@ -1127,6 +1141,14 @@ footer .newsletter-form__button {  top: 5px;  }
 
   
   }
+
+
+
+
+
+
+
+
 /* mobile */
 
 @media (max-width:749px) {
