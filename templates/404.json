@@ -36,7 +36,7 @@
           "type": "liquid",
           "settings": {
             "customcss": "",
-            "codeliquid": "<br>"
+            "codeliquid": "<br><br>"
           }
         },
         "7e4c023f-aaea-4708-950a-6a0ba6b69da5": {
