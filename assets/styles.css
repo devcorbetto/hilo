@@ -1086,6 +1086,9 @@ footer .newsletter-form__button {  top: 5px;  }
 .titlesbold h2,  .titlesbold h2 span {
   font-weight:500;
 }
+.titlesbold a {
+  text-decoration:underline ;
+}
 
 
 
