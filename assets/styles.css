@@ -1083,8 +1083,9 @@ footer .newsletter-form__button {  top: 5px;  }
   padding-left:0px !important;
 }
 
-.titlesbold h2,  .titlesbold h2 span {
+.titlesbold h2 {
   font-weight:500;
+  margin-top:3rem;
 }
 .titlesbold a {
   text-decoration:underline !important ;
