@@ -1087,7 +1087,7 @@ footer .newsletter-form__button {  top: 5px;  }
   font-weight:500;
 }
 .titlesbold a {
-  text-decoration:underline ;
+  text-decoration:underline !important ;
 }
 
 
