@@ -13,11 +13,12 @@
           "type": "liquid",
           "settings": {
             "customcss": "",
-            "codeliquid": "<h1 class=\"custom404\">\n<span class=\"custom4\">4<\/span><span class=\"custom40\">0<\/span><span class=\"custom404\">4<\/span>\n<\/h1>"
+            "codeliquid": "<h1 class=\"custom404\">\n<span class=\"custom4\">4<\/span><span class=\"custom40\">0<\/span><span class=\"custom404\">4<\/span><br>\n<\/h1>"
           }
         },
         "534c4809-30bb-4b1a-9f30-c4e864eaeee2": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "codeliquid": "<br>"
