@@ -112,7 +112,7 @@
         "762428dd-e119-4fc7-a4f7-c03b0b152f6c"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "titlesbold",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
