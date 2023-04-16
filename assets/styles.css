@@ -1091,7 +1091,9 @@ footer .newsletter-form__button {  top: 5px;  }
   text-decoration:underline !important ;
 }
 
-
+.header__menu-item {
+      padding: 1.2rem 2rem;
+}
 
 
 
