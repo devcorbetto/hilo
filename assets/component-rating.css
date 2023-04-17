@@ -39,6 +39,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.rating-star:before {
+  font-size:23px;
+}
 
 .rating-text {
   display: none;
