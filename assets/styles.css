@@ -497,7 +497,7 @@ font-size:10px;
 summary .icon-carret3 {
     position: absolute;
 
-right: 0px;
+right: -2px;
     top: 0px;
      opacity:0;
 } 
@@ -711,6 +711,7 @@ background-position: left top;
     color: #575756;
     border-radius: 30px;
   padding: 10px 20px!important;
+  transition:1s all;
 }
 
 
