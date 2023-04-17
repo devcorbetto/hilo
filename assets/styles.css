@@ -905,6 +905,8 @@ SemiBold - 19px, #EFD1BF
 
 }
 .newsletter h3 {
+  padding-top:1rem;
+   padding-bottom:1rem;
     font-size: 22px;
     margin-top:30px;
    margin-bottom:30px;
