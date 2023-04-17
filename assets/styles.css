@@ -1191,7 +1191,7 @@ footer .newsletter-form__button {  top: 5px;  }
 .product--thumbnail_slider .thumbnail-slider  img {
 width: 100px !important;
     height: 100px;
-
+    transform:rotate(-90deg);
 
 }
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
