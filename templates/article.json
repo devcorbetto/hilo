@@ -15,7 +15,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>{{ shop.brand.short_description }}<\/p>"
+            "text": "<p>Retrouvez ici tous nos conseils, astuces beautésRetrouvez ici tous nos conseils, astuces beautésRetrouvez ici tous nos conseils, astuces beautésRetrouvez ici tous nos conseils, astuces beautés<\/p>"
           }
         },
         "template--17804308873511__fbe05c74-eff1-4d54-ad19-05139e062d10-1681689793ce417075-2": {
@@ -44,7 +44,7 @@
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 68,
-        "padding_bottom": 112
+        "padding_bottom": 120
       }
     },
     "main": {
