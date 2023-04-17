@@ -1185,6 +1185,7 @@ footer .newsletter-form__button {  top: 5px;  }
     transform:rotate(90deg);
         align-items: stretch !important;
     height:120px;
+        width: 500px !important;
   }
 
 .product--thumbnail_slider .thumbnail-slider  img {
