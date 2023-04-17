@@ -294,7 +294,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>VOUS SOUHAITEZ REJOINDRE LA TEAM ?<\/p>",
-            "customcss": "",
+            "customcss": "mb-10b",
             "heading_size": "h1"
           }
         },
