@@ -1209,11 +1209,10 @@ footer .newsletter-form__button {  top: 5px;  }
   transform: rotate(90deg) translate(30px, -100%);
   transform-origin: left top;
   
-  @media screen and (max-width: 1200px) {
-    transform: rotate(90deg) translate(30px, -50%);
+
   }
 
-  .carousel-cell {
+.thumbnail-slider li button {
     transform: rotate(-90deg);
     width: 80px;
     height: 80px;
