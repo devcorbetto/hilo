@@ -454,8 +454,8 @@
         "ac185d4f-43fb-42b1-a75e-f45c179fdd3a": {
           "type": "text",
           "settings": {
-            "customcss": "",
-            "text": "<p>Notre objectif est de vous proposer des <strong>soins naturels et personnalisables <\/strong>que vous pourrez <strong>adaptez à votre peau <\/strong>à chaque étape de votre vie.<\/p>"
+            "customcss": "mb-5m",
+            "text": "<p>Notre objectif est de vous proposer des <strong>soins naturels et personnalisables <\/strong>que vous pourrez <strong>adaptez à votre peau <\/strong>à chaque étape de votre vie.<\/p><p><\/p>"
           }
         },
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
