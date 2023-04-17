@@ -1140,8 +1140,8 @@ footer .newsletter-form__button {  top: 5px;  }
   content:" avis";
   
 }
-.link.underlined-link {
-  font-size:10px;
+.link.underlined-link, .spr-starrating {
+  font-size:10px !important;
 }
 .ft2  {
     display:grid;
