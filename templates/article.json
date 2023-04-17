@@ -63,30 +63,49 @@
             "image_height": "medium"
           }
         },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
         },
-        "content": {
-          "type": "content",
+        "084c47d6-6421-43b1-8e52-2d8c79ac8e38": {
+          "type": "share",
+          "disabled": true,
           "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
         "title",
         "featured_image",
+        "content",
         "share",
-        "content"
+        "084c47d6-6421-43b1-8e52-2d8c79ac8e38"
       ],
       "settings": {
+      }
+    },
+    "52adbe00-22eb-4a2b-a046-ee8f5d521625": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<br>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "fbe05c74-eff1-4d54-ad19-05139e062d10",
-    "main"
+    "main",
+    "52adbe00-22eb-4a2b-a046-ee8f5d521625"
   ]
 }
