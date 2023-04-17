@@ -277,7 +277,7 @@
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>On a besoin de vous pour co-créer les prochains produits naturels et personnalisables d'Hilo. Remplissez le formulaire d'inscription pour devenir ambassadeur Hilo et tester nos prochains soins sur-mesure en exclusivité. Nous étudierons soigneusement chaque candidature. En fonction du produit, nous contacterons les profils sélectionnés dans les plus brefs délais. Alors, prêt(e) à tester notre prochaine pépite ? ✨<\/p>",
+            "text": "<p>On a besoin de vous pour co-créer les prochains produits naturels et personnalisables d'Hilo.<\/p><p> Remplissez le formulaire d'inscription pour devenir ambassadeur Hilo et tester nos prochains soins sur-mesure en exclusivité. <\/p><p>Nous étudierons soigneusement chaque candidature. En fonction du produit, nous contacterons les profils sélectionnés dans les plus brefs délais. <\/p><p>Alors, prêt(e) à tester notre prochaine pépite ? ✨<\/p>",
             "text_style": "body"
           }
         },
@@ -298,7 +298,7 @@
         "img {border-radius: 30px;}"
       ],
       "settings": {
-        "customcss": "programme_text2",
+        "customcss": "programme_text2 btn-circle",
         "image": "shopify:\/\/shop_images\/Campagne_en_cours.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
