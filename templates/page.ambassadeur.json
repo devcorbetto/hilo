@@ -96,7 +96,7 @@
             "image": "shopify:\/\/shop_images\/Pictogramme_de_ucouvrir.svg",
             "title": "Découvrir",
             "subtitle": "",
-            "text": "<p>et tester en exclusivité les soins Hilo.<\/p>",
+            "text": "<p>et tester en<\/p><p> exclusivité <\/p><p>les soins Hilo.<\/p>",
             "link_label": "",
             "link": ""
           }
