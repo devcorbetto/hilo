@@ -1195,6 +1195,9 @@ footer .newsletter-form__button {  top: 5px;  }
     height: 75px;
 
 }
+  .thumbnail-slider .thumbnail-list.slider--tablet-up  {
+        transform:rotate(-90deg);
+  }
   .thumbnail-list__item:before {
     content:none;
   }
