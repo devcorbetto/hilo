@@ -1180,7 +1180,9 @@ footer .newsletter-form__button {  top: 5px;  }
   }
 
   /* new*/
-
+.thumbnail-slider-container  {
+      width: 20%;
+}
   .product--thumbnail_slider .thumbnail-slider {
     transform:rotate(90deg);
         align-items: stretch !important;
