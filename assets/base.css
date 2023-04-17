@@ -306,6 +306,10 @@ html.no-js .no-js-hidden {
     width:35%;
     
   }
+     .lamarque_text1 .image-with-text__content {
+    padding: 6rem 10rem 7rem;
+}
+  }
   .page-width {
     padding: 0 5rem;
   }
