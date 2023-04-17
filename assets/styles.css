@@ -223,6 +223,9 @@ font-size:10px;
   
 }
 /* products */
+.aunderline a {
+  text-decoration:underline;
+}
 
 .metafield-rich_text_field p {
   margin-bottom:10px;
