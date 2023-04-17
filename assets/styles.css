@@ -1124,6 +1124,7 @@ footer .newsletter-form__button {  top: 5px;  }
 .spr-stars svg {
   width:20px !important;
   height:20px !important;
+  padding-right:5px;
 }
 .rte li {
   margin-bottom: 15px;
@@ -1149,6 +1150,9 @@ footer .newsletter-form__button {  top: 5px;  }
   display:flex;
   font-size:10px;
   
+}
+.spr-starrating {
+   font-size:10px;
 }
 .spr-stars path {
     fill: #EFD1BF !important;
