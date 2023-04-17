@@ -1121,7 +1121,7 @@ footer .newsletter-form__button {  top: 5px;  }
   font-size:13px;
 }
 .link.underlined-link:after  {
-  content:"avis";
+  content:" avis";
   
 }
 .ft2  {
