@@ -1132,6 +1132,9 @@ footer .newsletter-form__button {  top: 5px;  }
 .product__text {
   font-size:13px;
 }
+.link.underlined-link {
+    text-decoration:none !important;
+}
 .link.underlined-link:after  {
   content:" avis";
   
