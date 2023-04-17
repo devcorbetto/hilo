@@ -631,8 +631,9 @@ summary .icon-carret2 {
    object-position:bottom; }
 @media screen and (min-width: 750px) {
 
-  .multi-capsules {
-max-width:1200px;
+  .multi-capsules .page-width {
+width: 100%;
+    max-width: 100%;
     
   }
 
