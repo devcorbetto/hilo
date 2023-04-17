@@ -176,7 +176,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>COMMENT CA  MARCHE?<\/p>",
-            "customcss": "",
+            "customcss": "mb-10m",
             "heading_size": "h1"
           }
         },
