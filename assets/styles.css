@@ -1213,7 +1213,7 @@ footer .newsletter-form__button {  top: 5px;  }
     transform: rotate(90deg) translate(30px, -50%);
   }
 
- .product--thumbnail_slider .thumbnail-slider button {
+ .product--thumbnail_slider .thumbnail-slider img {
     transform: rotate(-90deg);
     width: 80px;
     height: 80px;
