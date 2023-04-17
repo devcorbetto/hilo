@@ -311,7 +311,18 @@ html.no-js .no-js-hidden {
 }
   .lamarque_text1 .image-with-text__heading {
     font-weight:bold;
+  
   }
+   .lamarque_text2  .grid--3-col-tablet .grid__item {
+    width:35%;
+    
+  }
+     .lamarque_text2 .image-with-text__content {
+    padding: 6rem 10rem 7rem;
+}
+  .lamarque_text2 .image-with-text__heading {
+    font-weight:bold;
+  
   }
   .page-width {
     padding: 0 5rem;
