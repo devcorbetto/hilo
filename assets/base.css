@@ -319,6 +319,9 @@ html.no-js .no-js-hidden {
   
     
   }
+ .lamarque_text2 .image-with-text__grid {
+    padding-right:12rem;
+ }
      .lamarque_text2 .image-with-text__content {
     padding: 6rem 12rem 7rem;
        padding-right:22rem !important;
