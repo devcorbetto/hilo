@@ -1147,6 +1147,7 @@ footer .newsletter-form__button {  top: 5px;  }
 }
 .spr-stars span {
   display:flex;
+  font-size:10px;
   
 }
 .spr-stars path {
