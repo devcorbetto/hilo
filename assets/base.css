@@ -307,7 +307,8 @@ html.no-js .no-js-hidden {
     
   }
      .lamarque_text1 .image-with-text__content {
-    padding: 6rem 10rem 7rem;
+    padding: 6rem 12rem 7rem;
+       padding-right:6rem;
 }
   .lamarque_text1 .image-with-text__heading {
     font-weight:bold;
