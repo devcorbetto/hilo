@@ -1120,6 +1120,10 @@ footer .newsletter-form__button {  top: 5px;  }
 .product__text {
   font-size:13px;
 }
+.link.underlined-link:after  {
+  content:"avis";
+  
+}
 .ft2  {
     display:grid;
   grid-template-columns:1fr 1fr;
