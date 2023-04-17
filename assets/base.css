@@ -316,7 +316,8 @@ html.no-js .no-js-hidden {
   
   }
    .lamarque_text2  .grid--3-col-tablet .grid__item.image-with-text__media-ite {
-    width:40%;
+    width:50%;
+       padding-left:6rem;
   
     
   }
