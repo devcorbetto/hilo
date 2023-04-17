@@ -148,8 +148,8 @@
 
       ],
       "settings": {
-        "customcss": "images-team",
-        "title": "LA TEAM",
+        "customcss": "programmeicons",
+        "title": "",
         "subtitle": "",
         "heading_size": "h1",
         "image_width": "third",
