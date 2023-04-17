@@ -317,7 +317,7 @@ font-size:10px;
 
 @media screen and (min-width: 990px) {
   .mb-10m {
-  margin-bottom:4rem;
+  margin-bottom:4rem !important;
 }
 .comment .rich-text__blocks {
     max-width: 100%;
