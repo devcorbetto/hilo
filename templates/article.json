@@ -38,13 +38,13 @@
         "template--17804308873511__fbe05c74-eff1-4d54-ad19-05139e062d10-1681689793ce417075-2"
       ],
       "settings": {
-        "customcss": "waves4b bg_contact",
+        "customcss": "bg_contact waves5b",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 68,
-        "padding_bottom": 96
+        "padding_bottom": 112
       }
     },
     "main": {
