@@ -1183,11 +1183,11 @@ footer .newsletter-form__button {  top: 5px;  }
 
   .product--thumbnail_slider .thumbnail-slider {
     transform:rotate(90deg);
-        align-items: stretch;
+        align-items: stretch !important;
   }
 
 .product--thumbnail_slider .thumbnail-slider  img {
-   height:100px;
+
 
 
 }
