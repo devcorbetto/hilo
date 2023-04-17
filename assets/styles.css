@@ -1116,6 +1116,7 @@ footer .newsletter-form__button {  top: 5px;  }
 }
 .ft, .product__description p  {
   font-size:16px;
+  line-height:20px;
 }
 
 .rte li {
