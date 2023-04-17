@@ -602,7 +602,7 @@ summary .icon-carret2 {
   margin-top:30px;
 }
 .container-comment img {
-  border-radius:30px;
+  border-radius:30px !important;
 }
 
 .accordion p > strong,  .accordion p b, {
