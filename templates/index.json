@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>LES CAPSULES D'ACTIF<\/p>",
-            "customcss": "mb-10",
+            "customcss": "mb-10m",
             "heading_size": "h1"
           }
         },
