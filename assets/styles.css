@@ -420,6 +420,7 @@ font-size:10px;
   color:#575756;
  
 }
+
 .multi-capsules .info5 h3 {
   padding:0px !important;
 }
@@ -629,6 +630,13 @@ summary .icon-carret2 {
 .banner-home .media > img {
    object-position:bottom; }
 @media screen and (min-width: 750px) {
+
+  .multi-capsules {
+max-width:1200px;
+    
+  }
+
+  
 .banner-home .banner--desktop-transparent .banner__box  {
   padding-top:0px;
 }
