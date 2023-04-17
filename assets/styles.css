@@ -1126,7 +1126,7 @@ footer .newsletter-form__button {  top: 5px;  }
 .spr-stars svg {
   width:20px !important;
   height:20px !important;
-  margin-right:5px;
+  margin-right:3px;
 }
 .spr-stars svg:last-child {
  margin-right:20px;
