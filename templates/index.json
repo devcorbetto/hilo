@@ -183,7 +183,7 @@
         "3ab296e4-b17c-480d-a46d-c3daf638807a": {
           "type": "image",
           "settings": {
-            "customcss": "",
+            "customcss": "mb-10m",
             "image_picker": "shopify:\/\/shop_images\/GIF_page_accueil.gif"
           }
         },
