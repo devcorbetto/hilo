@@ -1114,8 +1114,11 @@ footer .newsletter-form__button {  top: 5px;  }
   font-size:26px;
     font-weight:bold;
 }
-.ft, .product__description p, .product__text {
-  font-size:14px;
+.ft, .product__description p  {
+  font-size:16px;
+}
+.product__text {
+  font-size:13px;
 }
 .ft2  {
     display:grid;
