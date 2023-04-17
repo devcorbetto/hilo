@@ -598,6 +598,13 @@ summary .icon-carret2 {
   text-align: left;
 }
 
+.container-comment {
+  margin-top:30px;
+}
+.container-comment img {
+  border-radius:30px;
+}
+
 .accordion p > strong,  .accordion p b, {
  
   font-weight: 500 !important;
