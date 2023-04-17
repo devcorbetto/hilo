@@ -1118,7 +1118,9 @@ footer .newsletter-form__button {  top: 5px;  }
   font-size:16px;
   line-height:20px;
 }
-
+ .product__description .shopify-app-block {
+   margin-top:0px;
+ }
 .rte li {
   margin-bottom: 15px;
 }
