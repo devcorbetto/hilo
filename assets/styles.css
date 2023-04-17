@@ -1185,8 +1185,8 @@ footer .newsletter-form__button {  top: 5px;  }
     transform:rotate(90deg);
   }
 
-.product--thumbnail_slider .thumbnail-slider {
-
+.product--thumbnail_slider .thumbnail-slider  img {
+   height:100px;
 
 
 }
@@ -1197,6 +1197,8 @@ footer .newsletter-form__button {  top: 5px;  }
 }
   .thumbnail-slider .thumbnail-list.slider--tablet-up button {
       transform:rotate(-90deg);
+    height:100px;
+   height:100px;
   }
   .thumbnail-list__item:before {
     content:none;
