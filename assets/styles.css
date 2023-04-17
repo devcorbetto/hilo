@@ -1213,7 +1213,7 @@ footer .newsletter-form__button {  top: 5px;  }
   }
 .thumbnail-slider {
       position: absolute;
-    top: 0px;
+    top: -20px;
   left: -120px;
   width: 600px;
   }
