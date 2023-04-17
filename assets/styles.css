@@ -1121,6 +1121,10 @@ footer .newsletter-form__button {  top: 5px;  }
  .product__description .shopify-app-block {
    margin-top:0px;
  }
+.spr-stars svg {
+  width:25px !important;
+  height:25px !important;
+}
 .rte li {
   margin-bottom: 15px;
 }
