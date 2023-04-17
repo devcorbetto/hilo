@@ -1190,6 +1190,10 @@ footer .newsletter-form__button {  top: 5px;  }
 
 
 }
+  .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
+    width: 100%;
+    height: 75px;
+}
 .product--thumbnail_slider .product__media-gallery   {
         display: flex !important;
     flex-direction: row-reverse !important;
