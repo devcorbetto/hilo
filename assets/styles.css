@@ -1178,6 +1178,12 @@ footer .newsletter-form__button {  top: 5px;  }
 .product__media-wrapper  .product__media img {
     border-radius:30px;
   }
+
+  /* new*/
+
+  .product--thumbnail_slider .thumbnail-slider {
+    transform:rotate(90deg);
+  }
 /*
 .product--thumbnail_slider .thumbnail-slider {
   display: flex;
