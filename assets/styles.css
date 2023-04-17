@@ -1133,7 +1133,7 @@ footer .newsletter-form__button {  top: 5px;  }
 
 }
 .product__description  {
-  margin-top:50px;
+  margin-top:50px !important;
 }
 .container-modal > button.button:before, .container-modal > button.button:after {
   content:none !important;
