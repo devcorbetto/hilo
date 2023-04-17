@@ -1132,9 +1132,13 @@ footer .newsletter-form__button {  top: 5px;  }
  margin-right:13px;
 
 }
+.container-modal > button.button:before, .container-modal > button.button:after {
+  content:none !important;
+}
 .container-modal > button.button {
   background:#D0C4E2;
   border-radius:30px;
+      width: 100%;
 }
 .rte li {
   margin-bottom: 15px;
