@@ -1201,7 +1201,7 @@ footer .newsletter-form__button {  top: 5px;  }
    height:100px;
   }
   .thumbnail-list__item:before {
-    content:none;
+    content:none !important;
   }
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide img {
     width: 100%;
