@@ -71,7 +71,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Il n’y a pas d’offres pour l’instant mais vous pouvez nous transmettre votre candidature spontanée à l’adresse suivante : contact@hilocosmetiques.fr<\/p>"
+            "text": "<p>Il n’y a pas d’offres pour l’instant mais vous pouvez nous transmettre votre candidature spontanée à l’adresse suivante: <\/p><p>contact@hilocosmetiques.fr<\/p>"
           }
         }
       },
