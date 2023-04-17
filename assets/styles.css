@@ -1118,8 +1118,9 @@ footer .newsletter-form__button {  top: 5px;  }
   font-size:16px;
   line-height:20px;
 }
- .product__description .shopify-app-block {
+.product__info-container .shopify-app-block {
    margin-top:0px;
+  margin-bottom:5px;
  }
 
 .spr-stars svg {
