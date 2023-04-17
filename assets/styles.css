@@ -1124,6 +1124,9 @@ footer .newsletter-form__button {  top: 5px;  }
   content:" avis";
   
 }
+.link.underlined-lin {
+  font-size:10px;
+}
 .ft2  {
     display:grid;
   grid-template-columns:1fr 1fr;
