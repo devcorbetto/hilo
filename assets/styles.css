@@ -904,6 +904,9 @@ SemiBold - 19px, #EFD1BF
     font-weight: 700;
 
 }
+.newsletter   p {
+     padding-bottom:1rem;
+}
 .newsletter h3 {
   padding-top:1rem;
    padding-bottom:1rem;
