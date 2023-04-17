@@ -1146,7 +1146,8 @@ footer .newsletter-form__button {  top: 5px;  }
   
 }
 .link.underlined-link, .spr-starrating {
-  font-size:8px !important;
+  font-size:10px !important;
+  color:#575756;
 }
 .ft2  {
     display:grid;
