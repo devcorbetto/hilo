@@ -1186,9 +1186,8 @@ footer .newsletter-form__button {  top: 5px;  }
   }
 
 .product--thumbnail_slider .thumbnail-slider {
-  display: flex;
-    align-items: center;
-    flex-direction: column; 
+
+
 }
 .product--thumbnail_slider .product__media-gallery   {
         display: flex !important;
