@@ -3031,6 +3031,15 @@ details-disclosure > details {
     width: 50px;
     height:50px;
 }
+
+.multi-logos .a-left {
+  left:-5%;
+}
+.multi-logos  .a-right {
+  right:-5%;
+}
+
+
 .a-left {
   left:-15%;
 }
