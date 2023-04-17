@@ -1199,7 +1199,7 @@ footer .newsletter-form__button {  top: 5px;  }
     max-width:100%;
   }
   .thumbnail-slider  {
-     width:20% !important;
+     width:100% !important;
   }
 
   .thumbnail-slider .thumbnail-list.slider--tablet-up {
