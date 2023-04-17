@@ -1214,7 +1214,7 @@ footer .newsletter-form__button {  top: 5px;  }
 .thumbnail-slider {
       position: absolute;
     top: -50px;
-  left: -120px;
+  left: 0px;
   width: 600px;
   }
 .thumbnail-slider button {
