@@ -41,6 +41,7 @@
 }
 .rating-star:before {
   font-size:23px;
+  color:#FBD1AD;
 }
 
 .rating-text {
