@@ -155,7 +155,8 @@ summary .icon-carret2 {
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
                 {% elsif block.settings.row_content == '<p>CONSIGNES DE RECYCLAGE</p>'  %}
                    {% for value in product.metafields.custom.photos_recyclage.value  %}
-               <div style="display:grid; grid-template-columns:1fr 2fr; width:400px; margin-bottom:20px;">  {{  value.name }}  <img src="{{ value.url }}">  </div>
+               <div style="display:grid; grid-template-columns:1fr 2fr; width:400px; margin-bottom:20px;">  {{  value.name }}  <img src="{{ value.url }}" style="
+    border: 0px;">  </div>
                     
                    {% endfor %}
                           {{ product.metafields.custom.consignes_de_recyclage | metafield_tag }}
