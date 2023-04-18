@@ -29,31 +29,93 @@
          </div>
          <div class="text-left   ">
      {% assign colors =   collections['boutique'].metafields.custom.colors.value   %}
-      {% if forloop.index == 1 %}
+    {% if forloop.index == 1 %}
+       
 {{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
-
+ <style>
+   .open1 .container-modal {
+     border:2px solid    {{ colors[0].color1 }};
+   }
+        .open1 h3 {
+        color: {{ colors[0].color1 }};
+        }
+      .open1    .cls-122 {
+        stroke:{{ colors[0].color1 }};
+        }
+ </style>
 {% endif %}
              {% if forloop.index == 2 %}
 {{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
+                 
+                <style>
+                  .open2 h3 {
+        color: {{ colors[0].color2 }};
+        }
+   .open2 .container-modal {
+     border:2px solid    {{ colors[0].color2 }};
+   }
+                     .open2    .cls-122 {
+        stroke:{{ colors[0].color2 }};
+        }
+ </style>
 {% endif %}  
              {% if forloop.index == 3 %}
-{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }} 
+{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }}  
+           {{ collections['boutique'].metafields.custom.color[3] }} 
+                <style>
+                  .open3 h3 {
+        color: {{ colors[0].color3 }};
+        }
+   .open3 .container-modal {
+     border:2px solid    {{ colors[0].color3 }};
+   }
+                     .open3   .cls-122 {
+        stroke:{{ colors[0].color3 }};
+        }
+ </style>
 {% endif %}
                {% if forloop.index == 4 %}
 {{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
+                    <style>
+                    .open4 h3 {
+        color: {{ colors[0].color4 }};
+        }
+   .open4 .container-modal {
+     border:2px solid    {{ colors[0].color4 }};
+   }
+                       .open4    .cls-122 {
+        stroke:{{ colors[0].color4 }};
+        }
+ </style>
 {% endif %}
                 {% if forloop.index == 5 %}
 {{ collections['boutique'].metafields.custom.ingredient5 |  metafield_tag  }} 
+                     <style>
+                     .open5 h3 {
+        color: {{ colors[0].color5 }};
+        }
+   .open5 .container-modal {
+     border:2px solid    {{ colors[0].color5 }};
+   }
+                        .open5    .cls-122 {
+        stroke:{{ colors[0].color5 }};
+        }
+ </style>
 {% endif %}
              {% if forloop.index == 6 %}
 {{ collections['boutique'].metafields.custom.ingredient6 |  metafield_tag  }} 
+                  <style>
+                  .open6 h3 {
+        color: {{ colors[0].color6 }};
+        }
+   .open6 .container-modal {
+     border:2px solid    {{ colors[0].color6 }};
+   }
+                          .open6    .cls-122 {
+        stroke:{{ colors[0].color6 }};
+        }
+ </style>
 {% endif %}  
-             {% if forloop.index == 7 %}
-{{ collections['boutique'].metafields.custom.ingredient7 |  metafield_tag  }} 
-{% endif %}
-               {% if forloop.index == 8 %}
-{{ collections['boutique'].metafields.custom.ingredient8 |  metafield_tag  }} 
-{% endif %}
          </div>
          <div class="w-3/12">
                <img src="{{ ingrediente.image }}"   style="    height: 250px;
