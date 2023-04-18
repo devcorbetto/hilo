@@ -166,7 +166,7 @@
           "settings": {
             "heading": "CONSIGNES DE RECYCLAGE",
             "icon": "none",
-            "row_content": "{{ product.metafields.custom.consignes_de_recyclage | metafield_tag }}",
+            "row_content": "<p>CONSIGNES DE RECYCLAGE<\/p>",
             "page": ""
           }
         },
