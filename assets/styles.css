@@ -608,7 +608,9 @@ summary .icon-carret2 {
   font-weight: 500 !important;
 
 }
-
+ .accordion p  a {
+   text-decoration:underline;
+ }
 .accordion p {
    font-size: 16px;
   font-weight: 400;
