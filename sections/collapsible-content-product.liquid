@@ -153,6 +153,7 @@ summary .icon-carret2 {
                     </style>
                     <br>
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
+                {% elsif block.settings.row_content == '<p>CONSIGNES DE RECYCLAGE</p>'  %}
                    {% else %}
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
