@@ -40,16 +40,16 @@
   x-data="{ open1: false , open2: false ,open3: false }">
   <div class="  w-1/4">
   <div class="container-options">
-   <div class="option active"><a href="#"  x-show="open1 " >Mon profil</a></div>
-   <div class="option"><a href="#"  x-show="open2 " >Mon diagnostic</a></div>
-   <div class="option"><a href="#"  x-show="open3 " >Mes commandes</a></div>
+   <div class="option active"><a href="#"  >Mon profil</a></div>
+   <div class="option"><a href="#"   >Mon diagnostic</a></div>
+   <div class="option"><a href="#"  >Mes commandes</a></div>
    <div class="option"><a href="https://hilo-cosmetiques.myshopify.com/pages/contact">Service client</a></div>
    <div class="option"><a href="{{ routes.account_logout_url }}">  {{ 'customer.log_out' | t }}   
                        </a></div>
   </div>
     </div>
 
-          <div class="container-content w-3/4 p-20">
+          <div class="container-content w-3/4 p-20"  x-show="open1 ">
            <h3> MES INFORMATIONS</h3>
             Prénom :  {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br>  E-mail : {{ customer.email }}<br>Téléphone : {{ customer.phone }}<br><br>
 
@@ -63,7 +63,7 @@
   
           </div>
 
-  <div class="container-content w-3/4 p-20">
+  <div class="container-content w-3/4 p-20" x-show="open2 ">
      {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
           <table role="table" class="order-history">
