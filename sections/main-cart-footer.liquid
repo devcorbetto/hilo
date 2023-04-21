@@ -14,8 +14,9 @@
        <div class="items" style="width:100%;">
        {%- for item in cart.items -%}
        {{ item.product.title | escape }} -    {{- item.original_price | money -}}
-       </div>
+     
          {%- endfor -%}
+           </div>
          <br><br>
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
