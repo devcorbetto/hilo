@@ -37,12 +37,12 @@
 
 <div class="container row  mx-auto my-40 flex-1 flex page-width gap-x-10" style="padding-top:50px;
   padding-bottom:150px;"
-  x-data="{ open1: false , open2: false ,open3: false }">
+  x-data="{ open1: true , open2: false ,open3: false }">
   <div class="  w-1/4">
   <div class="container-options">
-   <div class="option active"><a href="#" @click="open1 = true" >Mon profil</a></div>
-   <div class="option"><a href="#"   >Mon diagnostic</a></div>
-   <div class="option"><a href="#"  >Mes commandes</a></div>
+   <div class="option active"><a href="#" @click="open1 = true, open2 = false, open3 = false" >Mon profil</a></div>
+   <div class="option"><a href="#"  @click="open2 = true, open1 = false, open3 = false"  >Mon diagnostic</a></div>
+   <div class="option"><a href="#"  @click="open3 = true, open2 = false, open1 = false" >Mes commandes</a></div>
    <div class="option"><a href="https://hilo-cosmetiques.myshopify.com/pages/contact">Service client</a></div>
    <div class="option"><a href="{{ routes.account_logout_url }}">  {{ 'customer.log_out' | t }}   
                        </a></div>
@@ -152,6 +152,10 @@
         {%- endif -%}
       {% endpaginate %}
                         </div>
+
+                            <div class="container-content w-3/4 p-20" x-show="open2 ">
+                              <h2>Diagnostic</h2>
+                            </div>
 </div>
 
       {% comment %}
