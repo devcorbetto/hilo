@@ -201,6 +201,8 @@
                             height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
                           >
 
+                      
+                        </div>
                       {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
@@ -218,7 +220,6 @@
                             </span>
                           {%- endif -%}
                         {%- endfor -%}
-                        </div>
                     {% endif %}
                   </td>
 
