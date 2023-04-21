@@ -40,7 +40,7 @@
   x-data="{ open1: true , open2: false ,open3: false }">
   <div class="  w-1/4">
   <div class="container-options">
-   <div class="option active" :class="open1 = true : 'active2'"><a href="#" @click="open1 = true, open2 = false, open3 = false" >Mon profil</a></div>
+   <div class="option active" :class="{ 'open1': !active }" ><a href="#" @click="open1 = true, open2 = false, open3 = false" >Mon profil</a></div>
    <div class="option"><a href="#"  @click="open2 = true, open1 = false, open3 = false"  >Mon diagnostic</a></div>
    <div class="option"><a href="#"  @click="open3 = true, open2 = false, open1 = false" >Mes commandes</a></div>
    <div class="option"><a href="https://hilo-cosmetiques.myshopify.com/pages/contact">Service client</a></div>
