@@ -12,6 +12,44 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+    .container-options, .container-content {
+    border-radius:20px;
+    border:2px solid #FBDAE2;
+    position:Relative;
+    overflow:hidden;
+  }
+  .container-content h3 {
+    font-weight:bold;
+    margin-bottom:20px;
+  }
+    .container-content h2 {
+    font-weight:bold;
+      text-align:center;
+    margin-bottom:40px;
+  }
+   .container-options > div.active {
+     background:#FBDAE2;
+     color:#575756;
+   } 
+   .container-options > div {
+     padding:10px 14px;
+     border-bottom:1px solid #FBDAE2;
+   }
+  .container-options > div:last-child {
+    border:none;
+  }
+  thead, tbody tr {
+    border-bottom:1px solid #FBDAE2;
+  }
+ tbody tr:last-child {
+    border-bottom:0px;
+  }
+  table {
+    width: 100%;
+  }
+  thead th, tbody th,  tbody {
+    text-align:center;
+  }
 {%- endstyle -%}
 
 <div class="container row  mx-auto my-40 flex-1 flex page-width gap-x-10" style="padding-top:50px;
