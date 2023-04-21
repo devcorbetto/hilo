@@ -76,6 +76,8 @@
           </div>
 
   <div class="container-content w-3/4 p-20" x-show="open3 ">
+
+              <h3> MES COMMANDES</h3>
      {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
           <table role="table" class="order-history">
@@ -168,7 +170,7 @@
                         </div>
 
                             <div class="container-content w-3/4 p-20" x-show="open2 ">
-                              <h2>Diagnostic</h2>
+                              <h3>Diagnostic</h3>
                             </div>
 </div>
 
