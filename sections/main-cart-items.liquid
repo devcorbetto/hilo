@@ -207,7 +207,7 @@
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
                             <span class="product-option">
-                             <img src="{{ property.first  | remove: "Huile de" | remove: "Huile" | remove:"'" | remove: "'" | remove: "'" | downcase | append: '.png'  | asset_url }}"> 
+                             <img style="width:18px" src="{{ property.first  | remove: "Huile de" | remove: "Huile" | remove:"'" | remove: "'" | remove: "'" | downcase | append: '.png'  | asset_url }}"> 
                             <br>
                
                              {% comment %} <dd>
