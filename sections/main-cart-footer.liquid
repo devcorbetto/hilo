@@ -13,7 +13,7 @@
     <div class="cart__footer">
        <div class="items-cart" style="width:100%;">
        {%- for item in cart.items -%}
-       {{ item.product.title | escape }} -    {{- item.original_price | money -}}
+       <div class="">{{ item.product.title | escape }} </div><div class="">   {{- item.original_price | money -}} </div>
      
          {%- endfor -%}
            </div>
