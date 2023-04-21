@@ -244,9 +244,10 @@
                           {%- for option in item.options_with_values -%}
                             <div class="product-option">
                               <dt> </dt>
-                              <dd class="button">{{ option.value }}</dd>
+                              <dd class="button">{{ option.value }}</dd> or     <dd class="button">{{ option.value }}</dd> 
                             </div>
                           {%- endfor -%}
+                         
                         {%- endif -%}
  <span class="description-cart">Huiles: </span>
                         {%- for property in item.properties -%}
