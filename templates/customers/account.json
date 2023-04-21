@@ -1,7 +1,7 @@
 {
   "sections": {
     "8ed86ba8-4294-4db1-b333-63780ee0d7b7": {
-      "type": "rich-text",
+      "type": "rich-text-account",
       "blocks": {
         "template--17804309004583__8ed86ba8-4294-4db1-b333-63780ee0d7b7-16806584010e05065b-0": {
           "type": "heading",
@@ -44,8 +44,8 @@
         "content_alignment": "center",
         "color_scheme": "colors_7",
         "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 64
+        "padding_top": 56,
+        "padding_bottom": 84
       }
     },
     "main": {
