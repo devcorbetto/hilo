@@ -217,8 +217,8 @@
                           {%- if property.last != blank and property_first_char != '_' -%}
                             <span class="product-option">
                             {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile" | remove: "'"  |  downcase  %}
-                               {% assign item2 =  item1 | remove: "&amp;#39;"  %}
-                              {{ item2  | escape | remove: "&amp;#39;" }}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;"  %}
+                              {{ item2  }}
                              <img style="width:18px" src="{{ item2  | append: '.png'  | asset_url }}">
                      
                             
