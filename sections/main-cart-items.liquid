@@ -218,7 +218,7 @@
                             <span class="product-option">
                             {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile" | remove: "'" | remove: " "  | replace: "'", "" |  downcase  %}
                              <img style="width:18px" src="{{ item1 | remove:"'" | append: '.png'  | asset_url }}">
-                        
+                        {{ item1 | remove:"'" | append: '.png'  | asset_url }}
                             
                
                              {% comment %} <dd>
