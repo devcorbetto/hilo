@@ -12,10 +12,7 @@
       <div class="ingrediente-column  basis-1/3 p-10" >
             
     <div x-show="openi{{ forloop.index }} " class="modal  modal2 openi{{ forloop.index }} duration-300 ease-in" @click.away="openi{{ forloop.index }} = false" style="display:none;">
-         <div class=""><h2>CHOISISSEZ VOS HUILES VEGETALES</h2>
-      <p>Indécis ? N'hésitez pas à réaliser votre diagnostic de peau afin de trouver les huiles parfaites pour personnaliser votre base de crème.</p>
-      <a href="button">Je réalise mon diagnostic</a>
-      </div>    
+     
       
       <div class="container-modal" style="position:relative;">
       <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="openi{{ forloop.index }} = false">
