@@ -216,7 +216,8 @@
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
                             <span class="product-option">
-                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile" | remove: "'" | remove: " "  | replace: "'", "" |  downcase  %}
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile" | remove: "'"  |  downcase  %}
+                               {% assign item2 =  item1  | remove: "Huile de" | remove: " "  | replace: "&%", "_" %}
                              <img style="width:18px" src="{{ item1 | remove:"'" | append: '.png'  | asset_url }}">
                      
                             
