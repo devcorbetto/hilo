@@ -17,6 +17,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .item-ingredientes {
+    display:flex;
+        justify-content: center;
+  }
   @media screen and (min-width: 990px) {
 .title--primary {
     margin: 1rem 0;
@@ -203,6 +208,7 @@
 
                       
                         </div>
+                      <div class="item-ingredientes">
                       {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
@@ -224,6 +230,7 @@
                             </span>
                           {%- endif -%}
                         {%- endfor -%}
+                      </div>
                     {% endif %}
                   </td>
 
