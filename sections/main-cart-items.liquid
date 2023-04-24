@@ -218,7 +218,7 @@
                             <span class="product-option">
                             {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
                                {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
-                              {{ item2  }}
+                            
                              <img style="width:18px" src="{{ item2  | append: '.png'  | asset_url }}">
                      
                             
