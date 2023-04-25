@@ -522,82 +522,16 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
   var variantId = variantid;
         var old_variantid = old_variantid; 
   var  productId = productid;
-  var properties = properties;
+
      
   var forloopindex = forloopindex;
+
+    var properties = properties;
   console.log(variantid);
-
-  function getCart(callback) {
-  $.ajax({
-    type: 'GET',
-    url: '/cart.js',
-    dataType: 'json',
-    success: function(cart) {
-      callback(cart);
-    },
-    error: function(XMLHttpRequest, textStatus) {
-      console.log('Error getting cart: ' + textStatus);
-    }
-  });
-}
-
-
-function removeProduct(productId) {
-  getCart(function(cart) {
-    var lineItem = findLineItem(cart, productId);
-    if (lineItem) {
-      var updates = {};
-      updates[lineItem.id] = 0;
-      $.ajax({
-        type: 'POST',
-        url: '/cart/update.js',
-        data: {
-          updates: updates
-        },
-        dataType: 'json',
-        success: function(cart) {
-          // Product removed successfully
-        },
-        error: function(XMLHttpRequest, textStatus) {
-          console.log('Error removing product: ' + textStatus);
-        }
-      });
-    }
-  });
-}
-
-  function getProduct(productId, callback) {
-  $.ajax({
-    type: 'GET',
-    url: '/products/' + productId + '.js',
-    dataType: 'json',
-    success: function(product) {
-      callback(product);
-    },
-    error: function(XMLHttpRequest, textStatus) {
-      console.log('Error getting product: ' + textStatus);
-    }
-  });
-}
-
-function addProduct(productId) {
-  getProduct(productId, function(product) {
-    var variantId = product.variants[0].id;
-    var properties = {};
-    for (var i = 0; i < product.options.length; i++) {
-      var option = product.options[i];
-      properties['option' + (i + 1)] = option.name;
-    }
-    var item = {
-      quantity: 1,
-      id: variantId,
-      properties: properties
-    };
-    Shopify.addItem(item, function(cart) {
-      // Product added successfully
-    });
-  });
-}
+    console.log(old_variantid);
+      console.log(productId);
+      console.log(forloopindex);
+        console.log(properties);
 
   
 }
