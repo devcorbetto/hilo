@@ -305,7 +305,7 @@
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
                               {% endfor %}, {% for variant in  item.product.variants  %}
                              {% if option.value == variant.title %} {{ variant.id }} {% endif %}
-                              {% endfor %}, {{ item.url_to_remove }}
+                              {% endfor %}, "https://hilo-cosmetiques.myshopify.com/{{ item.url_to_remove }}"
                            );">
            
                             
@@ -537,7 +537,7 @@ document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
 
-window.location =   "https://hilo-cosmetiques.myshopify.com/{{ itemremove }}" ;   
+window.location =  itemremove ;   
   
  
   
