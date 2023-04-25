@@ -513,21 +513,6 @@ function addtocart(productid,variantid){
 
   
      var items = [{ quantity: 1, id: variant }];
-
-     var items2 = [{ quantity: 0, id: variant }];
-$.ajax({
-    type: "POST",
-     url: '/cart/change.js',
-    data: { items2: items },
-    success: function(data) {
-              console.log('success');
-              document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
-              document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true }));
-           },
-     dataType: 'application/json'
-});
-
-  
 $.ajax({
     type: "POST",
      url: '/cart/add.js',
@@ -550,7 +535,18 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
 
 
 }
-    
+       var items2 = [{ quantity: 0, id: variant }];
+$.ajax({
+    type: "POST",
+     url: '/cart/change.js',
+    data: { items: items2 },
+    success: function(data) {
+              console.log('success');
+              document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
+              document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true }));
+           },
+     dataType: 'application/json'
+});
   /* remove */
   
 
