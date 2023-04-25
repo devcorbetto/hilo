@@ -534,11 +534,8 @@ document.addEventListener('cart:updated', function() {
 document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
-  
 
-
-}
-       var items2 = [{ quantity: 0, id: variant2 }];
+   var items2 = [{ quantity: 0, id: variant2 }];
 $.ajax({
     type: "POST",
      url: '/cart/change.js',
@@ -550,6 +547,10 @@ $.ajax({
            },
      dataType: 'application/json'
 });
+
+
+}
+      
   /* remove */
   
 
