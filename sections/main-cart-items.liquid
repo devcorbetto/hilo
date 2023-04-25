@@ -526,39 +526,86 @@ function addtocart(productid,variantid,old_variantid,forloopindex){
   var forloopindex = forloopindex;
   
 
-  // Crear un objeto de datos que contiene el nuevo variant
-var newData = {
-  id: variantId,
-  quantity: 1,
-  properties: {
-    // Agrega aquí las propiedades del nuevo variant
-  }
-};
-
-// Enviar la solicitud AJAX para reemplazar el variant
-jQuery.ajax({
-  type: 'POST',
-  url: '/cart/change.js',
-  data: {
-    quantity: 0,
-    line: forloopindex,
-    id: variantId,
-    data: JSON.stringify(newData),
-    properties: {
-      '_': Date.now() // Asegúrate de agregar una propiedad única para forzar la actualización del carrito
+  function getCart(callback) {
+  $.ajax({
+    type: 'GET',
+    url: '/cart.js',
+    dataType: 'json',
+    success: function(cart) {
+      callback(cart);
+    },
+    error: function(XMLHttpRequest, textStatus) {
+      console.log('Error getting cart: ' + textStatus);
     }
-  },
-  dataType: 'json',
-  success: function(cart) {
-    // El carrito se ha actualizado con éxito
-    console.log(cart);
-  },
-  error: function(XMLHttpRequest, textStatus) {
-    // Hubo un error al actualizar el carrito
-    console.log("Error al actualizar el carrito: " + textStatus);
-  }
-});
+  });
+}
 
+  function findLineItem(cart, productId) {
+  for (var i = 0; i < cart.items.length; i++) {
+    var item = cart.items[i];
+    if (item.product_id == productId) {
+      return item;
+    }
+  }
+  return null;
+}
+
+function removeProduct(productId) {
+  getCart(function(cart) {
+    var lineItem = findLineItem(cart, productId);
+    if (lineItem) {
+      var updates = {};
+      updates[lineItem.id] = 0;
+      $.ajax({
+        type: 'POST',
+        url: '/cart/update.js',
+        data: {
+          updates: updates
+        },
+        dataType: 'json',
+        success: function(cart) {
+          // Product removed successfully
+        },
+        error: function(XMLHttpRequest, textStatus) {
+          console.log('Error removing product: ' + textStatus);
+        }
+      });
+    }
+  });
+}
+
+  function getProduct(productId, callback) {
+  $.ajax({
+    type: 'GET',
+    url: '/products/' + productId + '.js',
+    dataType: 'json',
+    success: function(product) {
+      callback(product);
+    },
+    error: function(XMLHttpRequest, textStatus) {
+      console.log('Error getting product: ' + textStatus);
+    }
+  });
+}
+
+function addProduct(productId) {
+  getProduct(productId, function(product) {
+    var variantId = product.variants[0].id;
+    var properties = {};
+    for (var i = 0; i < product.options.length; i++) {
+      var option = product.options[i];
+      properties['option' + (i + 1)] = option.name;
+    }
+    var item = {
+      quantity: 1,
+      id: variantId,
+      properties: properties
+    };
+    Shopify.addItem(item, function(cart) {
+      // Product added successfully
+    });
+  });
+}
 
   
 }
