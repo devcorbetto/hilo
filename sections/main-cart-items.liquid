@@ -508,28 +508,42 @@
 
 
 <script>
-function addtocart(productid,variantid,variantid2,itemremove){
+function addtocart(productid,variantid,variantid2,forloopindex){
   var variantid = variantid;
         var variant2 = variantid2; 
   var  productid = productid;
      
-  var lineId = itemremove;
+  var oldLineId = forloopindex;
 
   
+// obtén el objeto de línea del producto original del carrito
+var originalLineItem = Shopify.cart.line_item[oldLineId];
+
+// crea un objeto de propiedades que contenga las propiedades del producto original
+var propertiesObject = {};
+for (var i = 0; i < originalLineItem.properties.length; i++) {
+  var property = originalLineItem.properties[i];
+  propertiesObject[property.name] = property.value;
+}
+
+// agrega las propiedades del producto original a los datos de la solicitud AJAX
+var requestData = {
+  quantity: 1, // la cantidad del nuevo producto que deseas agregar al carrito
+  id: newVariantId, // el ID de variante del nuevo producto que deseas agregar al carrito
+  line: oldLineId, // el ID de línea del producto que deseas reemplazar en el carrito de compras
+  properties: propertiesObject // las propiedades del producto original
+};
+
+// envía la solicitud AJAX
 $.ajax({
   type: 'POST',
   url: '/cart/change.js',
-  data: {
-    quantity: 1,
-    id: variantid2,
-    line: lineId
-  },
+  data: requestData,
   dataType: 'json',
   success: function() {
-      location.reload();
+    location.reload(); // recarga la página del carrito de compras después de que se complete la solicitud AJAX
   }
 });
-
 
 
   
