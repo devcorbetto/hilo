@@ -291,7 +291,7 @@
                               <dt> </dt>
                               <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou    <dd class="button nobutton" onclick="addtocartSuggestion_1({{ item.id }},{% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
-                              {% endfor %});">
+                              {% endfor %},       {%- for property in item.properties -%} property {% endfor %}});">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -490,7 +490,7 @@
 
 
 <script>
-function addtocartSuggestion_1(productid,variantid){
+function addtocartSuggestion_1(productid,variantid, ){
       var variant = variantid; 
       console.log(variant);
      var items = [{ quantity: 1, id: variant }];
