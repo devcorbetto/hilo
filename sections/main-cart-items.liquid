@@ -526,14 +526,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex){
   var forloopindex = forloopindex;
   
 
-// Crear un objeto de datos que contiene el nuevo variant
-var newData = {
-  id: variantId,
-  quantity: 1,
-  properties: {
-    // Agrega aquí las propiedades del nuevo variant
-  }
-};
+
 
 // Enviar la solicitud AJAX para reemplazar el variant
 jQuery.ajax({
@@ -558,6 +551,15 @@ jQuery.ajax({
     console.log("Error al actualizar el carrito: " + textStatus);
   }
 });
+
+  // Crear un objeto de datos que contiene el nuevo variant
+var newData = {
+  id: variantId,
+  quantity: 1,
+  properties: {
+    // Agrega aquí las propiedades del nuevo variant
+  }
+};
   
 }
   
