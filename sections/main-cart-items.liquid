@@ -513,16 +513,7 @@ function addtocart(productid,variantid,variantid2){
         console.log(variant);
       console.log(variant2);
   
- $.ajax({
-      type: 'POST',
-      url: '/cart/change.js',
-      dataType: 'json',
-     data: {
-  'id': variant2,
-  'quantity': 0
-},
-     dataType: 'application/json'
-});
+
   
      var items = [{ quantity: 1, id: variant }];
 $.ajax({
@@ -544,7 +535,7 @@ document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
 
-  
+windows.location = {{ item.url_to_remove }} ;   
   
  
   
