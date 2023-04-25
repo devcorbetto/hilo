@@ -531,7 +531,19 @@ document.addEventListener('cart:updated', function() {
 document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
- Cart.removeItemById(product);
+  
+$.ajax({
+
+url: 'http://localhost/shopify/cart',
+
+data: {'id': product},
+
+type: 'GET',
+
+success: function(data) { // Success callback executed when the request is completed }
+
+
+});
 
 }
 
