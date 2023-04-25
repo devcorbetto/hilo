@@ -513,17 +513,14 @@ function addtocart(productid,variantid,variantid2,itemremove){
         var variant2 = variantid2; 
        var product = productid; 
   var lineId = itemremove;
-  console.log(itemremove);
-  
-        console.log(variant);
-      console.log(variant2);
+
   
 $.ajax({
   type: 'POST',
   url: '/cart/change.js',
   data: {
     quantity: 0,
-    id: variantId,
+    id: variantid2,
     line: lineId
   },
   dataType: 'json',
