@@ -542,6 +542,16 @@ jQuery.post('/cart/add.js', newItem, function(data) {
 jQuery.post('/cart/change.js', oldItem, function(data) {
   // Actualiza el carrito en la página
 });
+
+  function findCartItemIndex(newVariantId) {
+  var cartItems = Shopify.cart.items;
+  for (var i = 0; i < cartItems.length; i++) {
+    if (cartItems[i].id === newVariantId) {
+      return i;
+    }
+  }
+  return null;
+}
   
 }
   
