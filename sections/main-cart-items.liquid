@@ -525,7 +525,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
 
 
   var forloopindex = forloopindex;
-  {{ cart.items[0] | json }}
+  {{ cart.items[0].properties.value }}
   
     var properties = properties;
   console.log(variantid);
