@@ -544,7 +544,15 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
 
   
   
-
+ $.ajax({
+      type: 'POST',
+      url: '/cart/change.js',
+      dataType: 'json',
+     data: {
+  'id': variant2,
+  'quantity': 0
+}
+   })
   
 }
       
