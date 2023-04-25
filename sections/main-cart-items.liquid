@@ -525,7 +525,15 @@ $.ajax({
      dataType: 'application/json'
 });
   
-
+ $.ajax({
+      type: 'POST',
+      url: '/cart/change.js',
+      dataType: 'json',
+     data: {
+  'id': parseFloat(variant),
+  'quantity': 0
+}
+   })
 
 }
 
