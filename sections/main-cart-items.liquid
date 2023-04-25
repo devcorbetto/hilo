@@ -169,8 +169,9 @@
   <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 {%- endunless -%}
 
-{{ cart | json }} <hr>
-{{ cart.items | json }}
+  {%- for item in cart.items -%}
+                {{ line }}
+    {% endfor %}
 <div class="container-cart">
 <cart-items class="{% if cart == empty %} is-empty{% else %} {% endif %}">
     <div class="container-title"> 
