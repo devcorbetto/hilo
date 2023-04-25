@@ -289,7 +289,12 @@
                             <div class="product-option">
                               <dt> </dt>
                               <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou    <dd class="button nobutton" onclick="addtocartSuggestion_1();">
-                            <script>
+           
+                            
+                            {% for variant in  item.product.variants  %}
+                             {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
+                              {% endfor %}</dd> 
+                                             <script>
 function addtocartSuggestion_1(){
       var variant = $("#variants_1").val(); 
       console.log(variant);
@@ -315,10 +320,6 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
 }
 </script>
 
-                            
-                            {% for variant in  item.product.variants  %}
-                             {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
-                              {% endfor %}</dd> 
                             </div>
                           {%- endfor -%}
                          
