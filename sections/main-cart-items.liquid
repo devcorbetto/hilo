@@ -535,7 +535,7 @@ document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
 
-window.location =   "https://hilo-cosmetiques.myshopify.com/{%- for item in cart.items -%} {{ item.url_to_remove }} {% endfor %}" ;   
+window.location =   "https://hilo-cosmetiques.myshopify.com/{%- for item in cart.items -%} {% if variantid2  == item.id %}{{ item.url_to_remove }} {% endif %} {% endfor %}" ;   
   
  
   
