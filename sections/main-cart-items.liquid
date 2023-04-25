@@ -524,11 +524,11 @@ $.ajax({
            },
      dataType: 'application/json'
 });
-  
+       var items2 = [{ quantity: 0, id: variant }];
 $.ajax({
     type: "POST",
      url: '/cart/change.js',
-    data: { items: items },
+    data: { items: items2 },
     success: function(data) {
               console.log('success');
               document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
