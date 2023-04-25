@@ -518,7 +518,7 @@ function addtocart(productid,variantid){
 $.ajax({
     type: "POST",
      url: '/cart/change.js',
-    data: { items: items2 },
+    data: { items2: items },
     success: function(data) {
               console.log('success');
               document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
