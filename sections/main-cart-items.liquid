@@ -535,7 +535,7 @@ document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
 
-windows.location = {{ item.url_to_remove }} ;   
+windows.location =   {%- for item in cart.items -%} {{ item.url_to_remove }} {% endfor %}} ;   
   
  
   
