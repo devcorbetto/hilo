@@ -288,7 +288,38 @@
                           {%- for option in item.options_with_values -%}
                             <div class="product-option">
                               <dt> </dt>
-                              <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou    <dd class="button nobutton" onclick="alert('change?');">
+                              <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou    <dd class="button nobutton" onclick="addtocartSuggestion_1(
+                              {% for variant in  item.product.variants  %}
+                             {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
+                              {% endfor %}
+                              );">
+                            <script>
+function addtocartSuggestion_1(){
+      var variant = $("#variants_1").val(); 
+      console.log(variant);
+     var items = [{ quantity: 1, id: variant }];
+$.ajax({
+    type: "POST",
+     url: '/cart/add.js',
+    data: { items: items },
+    success: function(data) {
+              console.log('success');
+              document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
+              document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true }));
+           },
+     dataType: 'application/json'
+});
+$("#CartBubble").addClass("cart-link__bubble--visible");
+document.addEventListener('cart:updated', function() {
+  console.log("teste");
+});
+document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
+document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
+document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
+}
+</script>
+
+                            
                             {% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
                               {% endfor %}</dd> 
