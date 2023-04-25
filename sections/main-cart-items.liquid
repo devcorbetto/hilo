@@ -168,6 +168,9 @@
 {%- unless settings.cart_type == 'drawer' -%}
   <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 {%- endunless -%}
+
+{{ cart  }} <hr>
+{{ cart.items }}
 <div class="container-cart">
 <cart-items class="{% if cart == empty %} is-empty{% else %} {% endif %}">
     <div class="container-title"> 
