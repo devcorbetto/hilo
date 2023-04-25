@@ -301,7 +301,7 @@
 
                               {% endcapture %}
                             <dd class="button nobutton"
-                            onclick="addtocartSuggestion_1({{ item.id }},{% for variant in  item.product.variants  %}
+                            onclick="addtocart({{ item.id }},{% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
                               {% endfor %}
                            );">
@@ -503,13 +503,13 @@
 
 
 <script>
-function addtocartSuggestion_1(productid,variantid, ingredientes ){
+function addtocart(productid,variantid){
       var variant = variantid; 
        var product = productid; 
-  var ingredientes = ingredientes;
+
         console.log(variant);
       console.log(productid);
-        console.log(ingredientes);
+       
 
   
      var items = [{ quantity: 1, id: variant }];
