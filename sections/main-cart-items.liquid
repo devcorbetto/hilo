@@ -523,9 +523,10 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
         var old_variantid = old_variantid; 
   var  productId = productid;
 
-     
-  var forloopindex = forloopindex;
 
+  var forloopindex = forloopindex;
+  {{ cart.items[forloopindex]}}
+  
     var properties = properties;
   console.log(variantid);
     console.log(old_variantid);
