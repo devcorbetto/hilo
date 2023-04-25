@@ -5,6 +5,7 @@
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -294,32 +295,7 @@
                             {% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
                               {% endfor %}</dd> 
-                                             <script>
-function addtocartSuggestion_1(){
-      var variant = $("#variants_1").val(); 
-      console.log(variant);
-     var items = [{ quantity: 1, id: variant }];
-$.ajax({
-    type: "POST",
-     url: '/cart/add.js',
-    data: { items: items },
-    success: function(data) {
-              console.log('success');
-              document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
-              document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true }));
-           },
-     dataType: 'application/json'
-});
-$("#CartBubble").addClass("cart-link__bubble--visible");
-document.addEventListener('cart:updated', function() {
-  console.log("teste");
-});
-document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
-document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
-document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
-}
-</script>
-
+                            
                             </div>
                           {%- endfor -%}
                          
@@ -510,6 +486,35 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
   </form>
 </cart-items>
 
+
+<script>
+function addtocartSuggestion_1(){
+      var variant = $("#variants_1").val(); 
+      console.log(variant);
+     var items = [{ quantity: 1, id: variant }];
+$.ajax({
+    type: "POST",
+     url: '/cart/add.js',
+    data: { items: items },
+    success: function(data) {
+              console.log('success');
+              document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
+              document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true }));
+           },
+     dataType: 'application/json'
+});
+$("#CartBubble").addClass("cart-link__bubble--visible");
+document.addEventListener('cart:updated', function() {
+  console.log("teste");
+});
+document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
+document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
+document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
+}
+</script>
+
+
+      
 {% schema %}
 {
   "name": "t:sections.main-cart-items.name",
