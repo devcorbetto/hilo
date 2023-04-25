@@ -540,16 +540,6 @@ function addtocart(productid,variantid,old_variantid,forloopindex){
   });
 }
 
-  function findLineItem(cart, productId) {
-    console.log(productId);
-  for (var i = 0; i < cart.items.length; i++) {
-    var item = cart.items[i];
-    if (item.product_id == productId) {
-      return item;
-    }
-  }
-  return null;
-}
 
 function removeProduct(productId) {
   getCart(function(cart) {
