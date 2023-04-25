@@ -293,7 +293,8 @@
                             <dd class="button nobutton"
                             onclick="addtocartSuggestion_1({{ item.id }},{% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
-                              {% endfor %},        "{%- for property in item.properties -%}
+                              {% endfor %},        
+                            "{%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
                            {{ property.first }}, 
