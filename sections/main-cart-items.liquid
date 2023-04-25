@@ -303,7 +303,7 @@
                             <dd class="button nobutton"
                             onclick="addtocartSuggestion_1({{ item.id }},{% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
-                              {% endfor %},  {{ ingre }}     
+                              {% endfor %},  "{{ ingre }} "    
                             );">
            
                             
