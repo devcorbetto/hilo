@@ -531,24 +531,6 @@ document.addEventListener('cart:updated', function() {
 document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
-
-  function removeItem() {
-  let variantId = cartBtn.getAttribute(variant);
-  $.ajax({
-    type: "POST",
-    url: "/cart/change.js",
-    dataType: "json",
-    data: {
-      id: parseFloat(variantId),
-      quantity: 0,
-    },
-  }).then((data) => {
- 
-    cartBtn.removeAttribute(variant);
-  });
-}
- function removeItem()
-  
 }
 
   /* remove */
