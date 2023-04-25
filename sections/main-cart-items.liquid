@@ -509,9 +509,9 @@
 
 <script>
 function addtocart(productid,variantid,variantid2,itemremove){
-      var variant = variantid; 
+  
         var variant2 = variantid2; 
-       var product = productid; 
+     
   var lineId = itemremove;
 
   
@@ -528,6 +528,9 @@ $.ajax({
       location.reload();
   }
 });
+
+
+  
   /*
      var items = [{ quantity: 1, id: variant }];
 $.ajax({
