@@ -541,6 +541,7 @@ jQuery.ajax({
   url: '/cart/change.js',
   data: {
     quantity: 0,
+    line: forloopindex,
     id: variantId,
     data: JSON.stringify(newData),
     properties: {
