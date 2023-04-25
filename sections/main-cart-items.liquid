@@ -515,26 +515,37 @@ function addtocart(productid,variantid,variantid2,itemremove){
      
   var lineId = itemremove;
 
-var newVariantId = variantid; // ID de la variante del nuevo producto
-var oldVariantId = variantid2; // ID de la variante del producto a reemplazar
-
-var cartUrl = '/cart/change.js'; // URL de la API de Shopify para cambiar un producto en la bolsa de compras
-var data = 'id=' + oldVariantId + '&quantity=0&replace=' + newVariantId; // Datos a enviar en la solicitud AJAX
-
-var xhr = new XMLHttpRequest(); // Crea una instancia del objeto XMLHttpRequest
-xhr.open('POST', cartUrl, true); // Configura la solicitud AJAX
-xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); // Configura la cabecera de la solicitud AJAX
-xhr.onreadystatechange = function() { // Define una función que se ejecutará cuando se reciba una respuesta de la API de Shopify
-  if (xhr.readyState === 4) { // Comprueba que se ha recibido una respuesta completa
-    if (xhr.status === 200) { // Comprueba que la respuesta es exitosa
-      var response = JSON.parse(xhr.responseText); // Analiza la respuesta JSON de la API de Shopify
-      // Aquí puedes hacer algo con la respuesta, como actualizar la bolsa de compras en la página
-    } else {
-      console.error('Error changing product in cart:', xhr.statusText); // Muestra un mensaje de error en la consola del navegador
-    }
+  
+$.ajax({
+  type: 'POST',
+  url: '/cart/change.js',
+  data: {
+    quantity: 1,
+    id: variantid,
+    line: lineId
+  },
+  dataType: 'json',
+  success: function() {
+      location.reload();
   }
-};
-xhr.send(data); // Envía la solicitud AJAX con los datos especificados
+});
+
+
+  $.ajax({
+    type: 'POST',
+    url: '/cart/add.js', // URL de la API de Shopify para agregar un producto al carrito
+    data: {
+          quantity: 1,
+                id: productId
+    }
+    dataType: 'json',
+    success: function(data) {
+      alert('Product added to cart!'); // Muestra un mensaje de éxito
+    },
+    error: function(xhr, status, error) {
+      alert('Error adding product to cart: ' + error); // Muestra un mensaje de error
+    }
+  });
 
   
 }
