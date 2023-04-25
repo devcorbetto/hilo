@@ -319,7 +319,7 @@
 
                             
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }}, {{ forloop.index }}, '{{ item.properties.value }}');">
+                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }}, {{ forloop.index }}, '{{ item.properties | json }}');">
            
                             
                             {% for variant in  item.product.variants  %}
