@@ -539,7 +539,7 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
 $.ajax({
     type: "POST",
      url: '/cart/change.js',
-    data: { items2: items2 },
+    data: { items: items2 },
     success: function(data) {
               console.log('success');
               document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
