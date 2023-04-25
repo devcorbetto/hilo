@@ -526,7 +526,7 @@ $.ajax({
     data: { items: items },
     success: function(data) {
               console.log('success');
-         window.location =  itemremove ;   
+ 
            },
      dataType: 'application/json'
 });
@@ -534,9 +534,7 @@ $("#CartBubble").addClass("cart-link__bubble--visible");
 document.addEventListener('cart:updated', function() {
   console.log("teste");
 });
-document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
-document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
-document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
+        window.location =  itemremove ;   
 
 
   
