@@ -294,7 +294,7 @@
                               {% endfor %},        {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
-                               {{ item }}
+                           {{ property.first }}, 
                           {%- endif -%}
                         {%- endfor -%});">
            
