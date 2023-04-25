@@ -515,8 +515,8 @@ function addtocart(productid,variantid,variantid2,itemremove){
      
   var lineId = itemremove;
 
-var newVariantId = variantid2; // ID de la variante del nuevo producto
-var oldVariantId = variantid; // ID de la variante del producto a reemplazar
+var newVariantId = variantid; // ID de la variante del nuevo producto
+var oldVariantId = variantid2; // ID de la variante del producto a reemplazar
 
 var cartUrl = '/cart/change.js'; // URL de la API de Shopify para cambiar un producto en la bolsa de compras
 var data = 'id=' + oldVariantId + '&quantity=0&replace=' + newVariantId; // Datos a enviar en la solicitud AJAX
