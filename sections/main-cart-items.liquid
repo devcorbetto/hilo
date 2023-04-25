@@ -304,12 +304,22 @@
                         {%- endfor -%}"
 
                               {% endcapture %}
-                            <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }},{% for variant in  item.product.variants  %}
-                             {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
-                              {% endfor %}, {% for variant in  item.product.variants  %}
+                            {% capture  variant1 %}
+                          {% for variant in  item.product.variants  %}
                              {% if option.value == variant.title %} {{ variant.id }} {% endif %}
-                              {% endfor %}, {{ forloop.index }});">
+                              {% endfor %}
+
+                              {% endcapture %}
+                               {% capture  variant2 %}
+                          {% for variant in  item.product.variants  %}
+                             {% if option.value != variant.title %} {{ variant.id }} {% endif %}
+                              {% endfor %}
+
+                              {% endcapture %}
+
+                            
+                            <dd class="button nobutton"
+                            onclick="addtocart({{ item.id }}, {{ variant1 }}, {{ variant2  }}, {{ forloop.index }});">
            
                             
                             {% for variant in  item.product.variants  %}
