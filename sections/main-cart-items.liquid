@@ -509,8 +509,9 @@
 
 <script>
 function addtocart(productid,variantid,variantid2,itemremove){
-  
+  var variantid = variantid;
         var variant2 = variantid2; 
+  var  productid = productid;
      
   var lineId = itemremove;
 
@@ -529,6 +530,24 @@ $.ajax({
   }
 });
 
+
+  $.ajax({
+    type: 'POST',
+    url: '/cart/add.js', // URL de la API de Shopify para agregar un producto al carrito
+    data: {
+          quantity: 1,
+                id: productId
+    }
+    dataType: 'json',
+    success: function(data) {
+      alert('Product added to cart!'); // Muestra un mensaje de éxito
+    },
+    error: function(xhr, status, error) {
+      alert('Error adding product to cart: ' + error); // Muestra un mensaje de error
+    }
+  });
+
+  
 }
   
   /*
