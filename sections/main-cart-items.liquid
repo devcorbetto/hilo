@@ -509,7 +509,7 @@ function addtocart(productid,variantid,variantid2,itemremove){
       var variant = variantid; 
         var variant2 = variantid2; 
        var product = productid; 
-
+      var itemremove = itemremove; 
         console.log(variant);
       console.log(variant2);
   
@@ -535,7 +535,7 @@ document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
 
-window.location =   "https://hilo-cosmetiques.myshopify.com/" + itemremove ;   
+window.location =   itemremove ;   
   
  
   
