@@ -305,7 +305,7 @@
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
                               {% endfor %}, {% for variant in  item.product.variants  %}
                              {% if option.value == variant.title %} {{ variant.id }} {% endif %}
-                              {% endfor %}
+                              {% endfor %}, {{ item.url_to_remove }}
                            );">
            
                             
@@ -505,7 +505,7 @@
 
 
 <script>
-function addtocart(productid,variantid,variantid2){
+function addtocart(productid,variantid,variantid2,itemremove){
       var variant = variantid; 
         var variant2 = variantid2; 
        var product = productid; 
@@ -535,8 +535,7 @@ document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
 
-window.location =   "https://hilo-cosmetiques.myshopify.com/{%- for item in cart.items -%} 
-  {% if variantid2  == item.variant.id %}{{ item.url_to_remove }} {% endif %} {% endfor %}" ;   
+window.location =   "https://hilo-cosmetiques.myshopify.com/" + itemremove ;   
   
  
   
