@@ -305,8 +305,7 @@
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
                               {% endfor %}, {% for variant in  item.product.variants  %}
                              {% if option.value == variant.title %} {{ variant.id }} {% endif %}
-                              {% endfor %}, 'https://hilo-cosmetiques.myshopify.com/{{ item.url_to_remove }}'
-                           );">
+                              {% endfor %}, 'https://hilo-cosmetiques.myshopify.com/{{ item.url_to_remove }}');">
            
                             
                             {% for variant in  item.product.variants  %}
