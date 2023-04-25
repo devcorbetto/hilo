@@ -531,6 +531,8 @@ document.addEventListener('cart:updated', function() {
 document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
 document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
 document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
+ Cart.removeItemById(product);
+
 }
 
   /* remove */
