@@ -169,9 +169,7 @@
   <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 {%- endunless -%}
 
-  {%- for item in cart.items -%}
-                {{ line }}
-    {% endfor %}
+ 
 <div class="container-cart">
 <cart-items class="{% if cart == empty %} is-empty{% else %} {% endif %}">
     <div class="container-title"> 
@@ -310,7 +308,7 @@
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
                               {% endfor %}, {% for variant in  item.product.variants  %}
                              {% if option.value == variant.title %} {{ variant.id }} {% endif %}
-                              {% endfor %}, 'https://hilo-cosmetiques.myshopify.com/{{ item.url_to_remove }}');">
+                              {% endfor %}, 'https://hilo-cosmetiques.myshopify.com/cart/change?line={{ forloop.index }}&amp;quantity=0');">
            
                             
                             {% for variant in  item.product.variants  %}
