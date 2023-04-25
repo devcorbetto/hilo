@@ -515,6 +515,8 @@ function addtocart(productid,variantid,variantid2,forloopindex){
      
   var oldLineId = forloopindex;
 
+  console.log('oldLineId');
+
   
 // obtén el objeto de línea del producto original del carrito
 var originalLineItem = Shopify.cart.line_item[oldLineId];
