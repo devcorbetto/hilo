@@ -513,7 +513,15 @@ function addtocart(productid,variantid,variantid2){
         console.log(variant);
       console.log(productid);
       console.log(variant2);
-
+ $.ajax({
+      type: 'POST',
+      url: '/cart/change.js',
+      dataType: 'json',
+     data: {
+  'id': variant2,
+  'quantity': 0
+}
+   })
   
      var items = [{ quantity: 1, id: variant }];
 $.ajax({
@@ -537,15 +545,7 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
 
   
   
- $.ajax({
-      type: 'POST',
-      url: '/cart/change.js',
-      dataType: 'json',
-     data: {
-  'id': variant2,
-  'quantity': 0
-}
-   })
+
   
 }
       
