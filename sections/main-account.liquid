@@ -194,6 +194,37 @@
                               <p class="text-center">Selon mon diagnostic favori pour Ana réalisé le 24/10/2022</p>
                               {{ customer.metafields.custom.diagnosticos }}
 
+    <script>
+      var customer_data = {
+            "customer": { 
+              "id":customer_id, 
+              "first_name":firstName,
+              "last_name":lastName, 
+              "phone":phone 
+            } 
+          }
+
+
+          $.cookie("session", null);
+
+          $.ajax({
+            url:'https://API:PASSWORD@creamyrad.myshopify.com/admin/api/2021-07/customers/'+customer_id+'.json',
+            type: 'PUT',
+            cache: false,
+            data: customer_data,
+            dataType: "json",
+            crossDomain: true,
+            success: function(response) {
+              console.log(response);
+            },
+            error: function(response) {
+              console.log("-------------------------------- <ERROR> --------------------------------");
+              console.log(response);
+              console.log("-------------------------------- </ERROR> --------------------------------");
+            }
+          });
+    </script>
+
     url:'hilo-cosmetiques.myshopify.com/admin/api/2021-07/customers/{{ customer.id }}.json',
                             
 
