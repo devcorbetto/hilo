@@ -519,15 +519,12 @@
 
 <script>
 function addtocart(productid,variantid,old_variantid,forloopindex){
-  var variantid = variantid;
+  var variantId = variantid;
         var old_variantid = variantid2; 
-  var  productid = productid;
+  var  productId = productid;
      
   var forloopindex = forloopindex;
   
- // Obtener el ID del producto y el ID del variant que deseas reemplazar
-var productId = {{ product.id }};
-var variantId = {{ variant.id }};
 
 // Crear un objeto de datos que contiene el nuevo variant
 var newData = {
