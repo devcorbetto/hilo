@@ -525,17 +525,17 @@ $.ajax({
      dataType: 'application/json'
 });
   
-$("#CartBubble").addClass("cart-link__bubble--visible");
-document.addEventListener('cart:updated', function() {
-  console.log("teste");
+$.ajax({
+    type: "POST",
+     url: '/cart/change.js',
+    data: { items: items },
+    success: function(data) {
+              console.log('success');
+              document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
+              document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true }));
+           },
+     dataType: 'application/json'
 });
-document.dispatchEvent(new CustomEvent('cart:build' , {bubbles: true }));
-document.dispatchEvent(new CustomEvent('cart:refresh', {bubbles: true })); 
-document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true })); 
-  
-
-
-}
 
   /* remove */
   
