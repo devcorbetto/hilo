@@ -523,7 +523,7 @@ function addtocart(productid,variantid,variantid2,forloopindex){
         var variant2 = variantid2; 
   var  productid = productid;
      
-  var oldLineId = forloopindex;
+  var forloopindex = forloopindex;
 
  var newItem = {
   id: variant2,
@@ -533,7 +533,15 @@ function addtocart(productid,variantid,variantid2,forloopindex){
 jQuery.post('/cart/add.js', newItem, function(data) {
   // Actualiza el carrito en la página
 });
-  
+
+  var oldItem = {
+  index: forloopindex,
+  quantity: 0
+};
+
+jQuery.post('/cart/change.js', oldItem, function(data) {
+  // Actualiza el carrito en la página
+});
   
 }
   
