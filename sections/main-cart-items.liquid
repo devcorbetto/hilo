@@ -495,9 +495,15 @@
 
 
 <script>
-function addtocartSuggestion_1(productid,variantid, ){
+function addtocartSuggestion_1(productid,variantid, ingredientes ){
       var variant = variantid; 
-      console.log(variant);
+       var product = productid; 
+  var ingredientes = ingredientes;
+        console.log(variant);
+      console.log(productid);
+        console.log(ingredientes);
+
+  
      var items = [{ quantity: 1, id: variant }];
 $.ajax({
     type: "POST",
