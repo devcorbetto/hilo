@@ -518,46 +518,47 @@
 
 
 <script>
-function addtocart(productid,variantid,variantid2,forloopindex){
-  var newVariantId = variantid;
-        var variant2 = variantid2; 
+function addtocart(productid,variantid,old_variantid,forloopindex){
+  var variantid = variantid;
+        var old_variantid = variantid2; 
   var  productid = productid;
      
   var forloopindex = forloopindex;
- var oldItem = {
-   id:variantid,
-  index: forloopindex,
-  quantity: 0
-};
-
-jQuery.post('/cart/change.js', oldItem, function(data) {
-  // Actualiza el carrito en la página
-});
   
- var newItem = {
-  id: variant2,
-  quantity: 1
+ // Obtener el ID del producto y el ID del variant que deseas reemplazar
+var productId = {{ product.id }};
+var variantId = {{ variant.id }};
+
+// Crear un objeto de datos que contiene el nuevo variant
+var newData = {
+  id: variantId,
+  quantity: 1,
+  properties: {
+    // Agrega aquí las propiedades del nuevo variant
+  }
 };
 
-jQuery.post('/cart/add.js', newItem, function(data) {
-  // Actualiza el carrito en la página
-});
-
- 
-
-  function findCartItemIndex(newVariantId) {
-  var cartItems = Shopify.cart.items;
-  for (var i = 0; i < cartItems.length; i++) {
-    if (cartItems[i].id === newVariantId) {
-      return i;
+// Enviar la solicitud AJAX para reemplazar el variant
+jQuery.ajax({
+  type: 'POST',
+  url: '/cart/change.js',
+  data: {
+    quantity: 0,
+    id: variantId,
+    data: JSON.stringify(newData),
+    properties: {
+      '_': Date.now() // Asegúrate de agregar una propiedad única para forzar la actualización del carrito
     }
+  },
+  dataType: 'json',
+  success: function(cart) {
+    // El carrito se ha actualizado con éxito
+    console.log(cart);
+  },
+  error: function(XMLHttpRequest, textStatus) {
+    // Hubo un error al actualizar el carrito
+    console.log("Error al actualizar el carrito: " + textStatus);
   }
-  return null;
-}
-  findCartItemIndex();
-
-  jQuery.get('/cart.js', function(cart) {
-  // Actualiza el carrito en la página
 });
   
 }
