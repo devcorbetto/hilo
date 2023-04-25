@@ -537,24 +537,15 @@ document.dispatchEvent(new CustomEvent('cart:update ', {bubbles: true }));
 
    var items2 = [{ quantity: 0, id: variant2 }];
   
-function removeItem() {
-
-   $.ajax({
+ $.ajax({
       type: 'POST',
       url: '/cart/change.js',
       dataType: 'json',
      data: {
-  'id': parseFloat(variant2),
+  'id': variant2,
   'quantity': 0
 }
    })
-   .then(data => {
-    cartBtn.textContent = "Add to cart"
-    cartBtn.removeAttribute("data-variant-id");
-})
-  }
-
-function removeItem() 
   
 }
       
