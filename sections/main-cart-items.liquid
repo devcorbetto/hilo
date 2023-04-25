@@ -282,7 +282,7 @@
                               <dt> </dt>
                               <dd class="button">{{ option.value }}</dd> or     <dd class="button">
                             {% for variant in  item.product.variants  %}
-                              {{ variant.title }}
+                             {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
                               {% endfor %}</dd> 
                             </div>
                           {%- endfor -%}
