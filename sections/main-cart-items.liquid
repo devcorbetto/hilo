@@ -319,7 +319,7 @@
 
                             
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }}, {{ forloop.index }});">
+                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }}, {{ forloop.index }}, {{ item.properties }});">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -518,13 +518,14 @@
 
 
 <script>
-function addtocart(productid,variantid,old_variantid,forloopindex){
+function addtocart(productid,variantid,old_variantid,forloopindex, properties){
   var variantId = variantid;
         var old_variantid = old_variantid; 
   var  productId = productid;
+  var properties = properties;
      
   var forloopindex = forloopindex;
-  
+  console.log(variantid + old_variantid + productId + properties);
 
   function getCart(callback) {
   $.ajax({
