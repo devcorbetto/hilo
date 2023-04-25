@@ -289,14 +289,16 @@
                           {%- for option in item.options_with_values -%}
                             <div class="product-option">
                               <dt> </dt>
-                              <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou    <dd class="button nobutton" onclick="addtocartSuggestion_1({{ item.id }},{% for variant in  item.product.variants  %}
+                              <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou   
+                            <dd class="button nobutton"
+                            onclick="addtocartSuggestion_1({{ item.id }},{% for variant in  item.product.variants  %}
                              {% unless option.value == variant.title %} {{ variant.id }} {% endunless %}
-                              {% endfor %},        {%- for property in item.properties -%}
+                              {% endfor %},        "{%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
                            {{ property.first }}, 
                           {%- endif -%}
-                        {%- endfor -%});">
+                        {%- endfor -%}");">
            
                             
                             {% for variant in  item.product.variants  %}
