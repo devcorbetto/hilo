@@ -518,7 +518,18 @@ function addtocart(productid,variantid,variantid2,itemremove){
         console.log(variant);
       console.log(variant2);
   
+$.ajax({
+  type: 'POST',
+  url: '/cart/change.js',
+  data: {
+    quantity: 0,
+    id: variant
+  },
+  dataType: 'json',
+  success: function() {
 
+  }
+});
   
      var items = [{ quantity: 1, id: variant }];
 $.ajax({
@@ -532,8 +543,6 @@ $.ajax({
      dataType: 'application/json'
 });
 
-   /* remove */
-        window.location =  itemremove ;   
 
 
   
