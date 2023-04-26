@@ -525,7 +525,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
   var remove = remove;
 
   {% for item in cart.items %}
-  {% if item.id == variantid %}
+  {% if item.id == old_variantid %}
     alert('hi');
   {% else %}
        alert('hi2');
