@@ -207,7 +207,7 @@
 {% endcomment %}
             <tbody>
               {%- for item in cart.items -%}
-          {{ item.index }}
+       
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
                     {% if item.image %}
@@ -319,7 +319,7 @@
 
                             
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }}, {{ forloop.index }});">
+                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }});">
            
                             
                             {% for variant in  item.product.variants  %}
