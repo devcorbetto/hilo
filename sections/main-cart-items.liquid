@@ -575,7 +575,7 @@ fetch('/cart.js')
       .then(response => response.json())
       .then(updatedCart => {
         console.log('Carrito actualizado:', updatedCart);
-  cart.items.splice(productIndex, 1);
+  
       })
       .catch(error => {
         console.error('Error al actualizar el carrito:', error);
