@@ -539,9 +539,9 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
 $.ajax({
     type: "POST",
      url: '/cart/add.js',
-    data2: { quantity: 1, id: variantId  },
-    success: function(data2) {
-                location.reload();
+    data: { quantity: 1, id: variantId  },
+    success: function(data) {
+      
  
            },
      dataType: 'application/json'
@@ -570,15 +570,6 @@ $.ajax({
   
   
 
-    
-
-
-
-  
- 
-  
-
-      */
  
   
 
