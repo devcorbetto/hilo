@@ -525,10 +525,9 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
   var remove = remove;
 
   {% assign forloopindex2 = window.forloopindex %}
-{{ forloopindex2 }}
-    alert({{ cart.items[forloopindex2] | json }});
+
   {% for item in cart.items %}
-  {% if item.id == old_variantid %}
+  {% if forloop.index ==  forloopindex2 %}
     alert('si');
   {% else %}
       alert('no');
