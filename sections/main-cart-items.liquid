@@ -207,7 +207,7 @@
 {% endcomment %}
             <tbody>
               {%- for item in cart.items -%}
-          
+          {{ item.index }}
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
                     {% if item.image %}
@@ -552,6 +552,16 @@ $.ajax({
   }
 });
 
+$.ajax({
+    type: "POST",
+     url: '/cart/add.js',
+    data: { quantity: 1, id: variantId  },
+    success: function(data) {
+      
+   
+           },
+     dataType: 'application/json'
+});
 
     window.location.href = '/cart';
 
