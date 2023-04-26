@@ -544,12 +544,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
     success: function(data) {
       
     alert('agrego');
-           },
-     dataType: 'application/json'
-});
-
-  
-// Obtén el ID de línea del producto que deseas eliminar
+      // Obtén el ID de línea del producto que deseas eliminar
 var line_item_id = forloopindex;
 
 // Realiza una solicitud Ajax para eliminar el producto del carrito
@@ -565,6 +560,12 @@ $.ajax({
    alert('cambio');
   }
 });
+           },
+     dataType: 'application/json'
+});
+
+  
+
 
 
 
