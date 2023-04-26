@@ -547,26 +547,27 @@ jQuery.ajax({
   },
   dataType: 'json',
   success: function() {
-    // Actualiza la página del carrito para reflejar los cambios
-    window.location.href = '/cart';
-  }
-});
-  
-}
-  
-  
-  /*
-     var items = [{ quantity: 1, id: variant }];
+         var items = [{ quantity: 1, id: variantId }];
 $.ajax({
     type: "POST",
      url: '/cart/add.js',
     data: { items: items },
     success: function(data) {
-                location.reload();
+                window.location.href = '/cart';
  
            },
      dataType: 'application/json'
 });
+
+    // Actualiza la página del carrito para reflejar los cambios
+
+  }
+});
+  
+
+  
+  
+
 
 
 
