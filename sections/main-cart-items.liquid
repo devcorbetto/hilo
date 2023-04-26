@@ -523,7 +523,11 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
         var old_variantid = old_variantid; 
   var  productId = old_variantid;
   var remove = remove;
-
+  {% for item in cart.items %}
+  {% if item.id == old_variantid %}
+    var properties = item.properties.value;
+  {% endif %}}
+  {% endfor %}
 
   var forloopindex = forloopindex;
 
@@ -553,7 +557,7 @@ $.ajax({
     // Esperar a que se complete la solicitud de eliminación
     setTimeout(function() {
       // Obtener las propiedades del producto que se desea mantener
-      var properties = cart.line_item_properties[0];
+      var properties = Shopify.cart.line_item_properties[0];
       
       // Crear una nueva variante del producto
       var newVariant = {
