@@ -524,6 +524,9 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
   var  productId = old_variantid;
   var remove = remove;
 
+  {% assign saludo = window.forloopindex %}
+{{ forloopindex }}
+  {{ cart.items[forloopindex].properties.value }}
   {% for item in cart.items %}
   {% if item.id == old_variantid %}
     alert('si');
