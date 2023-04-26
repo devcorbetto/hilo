@@ -549,7 +549,7 @@ fetch('/cart.js')
   .then(cart => {
     // Buscar el objeto del producto que deseas reemplazar
     const productIndex = cart.items.findIndex(item => item.variant_id === originalProductId);
-
+ 
     // Crear un nuevo objeto de producto con las mismas propiedades que el producto original, pero con los cambios necesarios
     const newProduct = {
       ...cart.items[productIndex],
