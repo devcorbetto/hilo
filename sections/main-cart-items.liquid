@@ -526,14 +526,6 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
 
   {% assign myindex = window.forloopindex %}
 
-  {% for item in cart.items %}
-  {% if forloop.index ==  myindex %}
-    alert('si');
-  {% else %}
-      alert('{{ myindex }}');
-  {% endif %}
-  {% endfor %}
-
   var forloopindex = forloopindex;
 
   
