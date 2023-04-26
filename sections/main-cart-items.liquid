@@ -319,7 +319,7 @@
 
                             
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }});">
+                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, {{ item.url_to_remove }});">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -544,22 +544,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
     success: function(data) {
       
     alert('agrego');
-      // Obtén el ID de línea del producto que deseas eliminar
-var line_item_id = forloopindex;
-
-// Realiza una solicitud Ajax para eliminar el producto del carrito
-$.ajax({
-  type: 'POST',
-  url: '/cart/change.js',
-  data: {
-    quantity: 0,
-    line: line_item_id
-  },
-  dataType: 'json',
-  success: function() {
-   alert('cambio');
-  }
-});
+      
            },
      dataType: 'application/json'
 });
