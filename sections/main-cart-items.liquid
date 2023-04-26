@@ -518,11 +518,11 @@
 
 
 <script>
-function addtocart(productid,variantid,old_variantid,forloopindex, properties){
+function addtocart(productid,variantid,old_variantid,forloopindex, properties, remove){
   var variantId = variantid;
         var old_variantid = old_variantid; 
   var  productId = productid;
-
+  var  remove = remove;
 
   var forloopindex = forloopindex;
 
@@ -534,6 +534,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
       console.log(forloopindex);
         console.log(properties);
 
+window.location.href = 'https://hilo-cosmetiques.myshopify.com/cart' + remove ;
 
   
 
