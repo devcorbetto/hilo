@@ -525,7 +525,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
 
 
   var forloopindex = forloopindex;
-  {{ cart.items[0].properties | json }}
+
   
     var properties = properties;
   console.log(variantid);
@@ -533,6 +533,24 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
       console.log(productId);
       console.log(forloopindex);
         console.log(properties);
+
+// Obtén el ID de línea del producto que deseas eliminar
+var line_item_id = forloopindex;
+
+// Realiza una solicitud Ajax para eliminar el producto del carrito
+jQuery.ajax({
+  type: 'POST',
+  url: '/cart/change.js',
+  data: {
+    quantity: 0,
+    line: line_item_id
+  },
+  dataType: 'json',
+  success: function() {
+    // Actualiza la página del carrito para reflejar los cambios
+    window.location.href = '/cart';
+  }
+});
   
 }
   
