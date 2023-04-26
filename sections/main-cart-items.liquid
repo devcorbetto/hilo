@@ -319,7 +319,7 @@
 
                             
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, {{ item.url_to_remove }});">
+                            onclick="addtocart({{ item.id }}, {{ variantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -522,7 +522,8 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
   var variantId = variantid;
         var old_variantid = old_variantid; 
   var  productId = productid;
-  var  remove = remove;
+  var remove = remove;
+
 
   var forloopindex = forloopindex;
 
@@ -534,8 +535,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
       console.log(forloopindex);
         console.log(properties);
 
-
-
+        console.log(remove);
   
 
   $.ajax({
@@ -545,7 +545,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
     success: function(data) {
       
     alert('agrego');
-   
+      
            },
      dataType: 'application/json'
 });
