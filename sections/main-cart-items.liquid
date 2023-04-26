@@ -521,7 +521,7 @@
 function addtocart(productid,variantid,old_variantid,forloopindex, properties, remove){
   var variantId = variantid;
         var old_variantid = old_variantid; 
-  var  productId = productid;
+  var  productId = old_variantid;
   var remove = remove;
 
 
@@ -538,20 +538,47 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
         console.log(remove);
        window.location.href = remove ;
 
-  $.ajax({
-    type: "POST",
-     url: '/cart/add.js',
-    data: { quantity: 1, id: variantId  },
-    success: function(data) {
+ // Obtener el identificador del producto a eliminar
+
+
+// Eliminar el producto del carrito de compras
+$.ajax({
+  type: 'POST',
+  url: '/cart/change.js',
+  data: {
+    id: old_variantid,
+    quantity: 0
+  },
+  dataType: 'json',
+  success: function() {
+    // Esperar a que se complete la solicitud de eliminación
+    setTimeout(function() {
+      // Obtener las propiedades del producto que se desea mantener
+      var properties = Shopify.cart.line_item_properties[0];
       
-    alert('agrego');
-   
-
-           },
-     dataType: 'application/json'
+      // Crear una nueva variante del producto
+      var newVariant = {
+        id: variantid,
+        properties: properties,
+        quantity: 1
+      };
+      
+      // Agregar la nueva variante al carrito de compras
+      $.ajax({
+        type: 'POST',
+        url: '/cart/add.js',
+        data: newVariant,
+        dataType: 'json',
+        success: function() {
+          // Actualizar el carrito de compras en la página web
+          Shopify.getCart(function(cart) {
+            // Aquí puedes actualizar la vista del carrito de compras con los datos del objeto "cart"
+          });
+        }
+      });
+    }, 1000);
+  }
 });
-
-
 
 
 
