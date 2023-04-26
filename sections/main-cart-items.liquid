@@ -539,45 +539,50 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
         console.log(remove);
       
 // Obtener IDs de productos
-const nuevoProductoId = variantId;
-const antiguoProductoId = old_variantid;
+const newProductId = variantId;
+const originalProductId = old_variantid;
 
-// Obtener información del carrito
-fetch("/cart.json")
+  
+// Obtener la información del carrito actual
+fetch('/cart.js')
   .then(response => response.json())
-  .then(data => {
-    // Analizar respuesta JSON para obtener detalles del producto antiguo
-    const productoAntiguo = data.items.find(item => item.product_id === antiguoProductoId);
+  .then(cart => {
+    // Buscar el objeto del producto que deseas reemplazar
+    const productIndex = cart.items.findIndex(item => item.variant_id === originalProductId);
 
-    // Agregar nuevo producto al carrito
-    fetch("/cart/add.js", {
-      method: "POST",
+    // Crear un nuevo objeto de producto con las mismas propiedades que el producto original, pero con los cambios necesarios
+    const newProduct = {
+      ...cart.items[productIndex],
+      variant_id: newProductId, // Reemplazar el ID del producto
+      quantity: 1 // Reemplazar la cantidad del producto
+    };
+
+    // Eliminar el objeto de producto original de la lista de productos del carrito
+    cart.items.splice(productIndex, 1);
+
+    // Agregar el nuevo objeto de producto a la lista de productos del carrito
+    fetch('/cart/add.js', {
+      method: 'POST',
       body: JSON.stringify({
-        id: nuevoProductoId,
-        quantity: 1,
-        // Incluir variantes u otras opciones si es necesario
+        id: newProduct.variant_id,
+        quantity: newProduct.quantity,
+        properties: newProduct.properties // Mantener las propiedades del producto original
       }),
       headers: {
-        "Content-Type": "application/json"
+        'Content-Type': 'application/json'
       }
     })
-    .then(response => response.json())
-    .then(data => {
-      // Eliminar producto antiguo del carrito
-      fetch(`/cart/change.js?line=${forloopindex}&quantity=0`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        }
-      })
       .then(response => response.json())
-      .then(data => {
-        // Actualizar vista del carrito o hacer cualquier otra acción necesaria
+      .then(updatedCart => {
+        console.log('Carrito actualizado:', updatedCart);
+      })
+      .catch(error => {
+        console.error('Error al actualizar el carrito:', error);
       });
-    });
+  })
+  .catch(error => {
+    console.error('Error al obtener el carrito:', error);
   });
-
-
 
 
   
