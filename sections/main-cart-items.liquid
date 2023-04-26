@@ -587,28 +587,18 @@ fetch('/cart.js')
 
 
   fetch('/cart/change.js', {
-      method: 'POST',
-      body: JSON.stringify({
-        id: originalProductId,
-        quantity: 0,
-        properties: newProduct.properties // Mantener las propiedades del producto original
-      }),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-      .then(response => response.json())
-      .then(updatedCart => {
-        console.log('Carrito actualizado:', updatedCart);
-  
-      })
-      .catch(error => {
-        console.error('Error al actualizar el carrito:', error);
-      });
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    id: originalProductId,
+    quantity: 0,
   })
-  .catch(error => {
-    console.error('Error al obtener el carrito:', error);
-  });
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error(error));
 
   
 }
