@@ -575,10 +575,7 @@ fetch('/cart.js')
       .then(response => response.json())
       .then(updatedCart => {
         console.log('Carrito actualizado:', updatedCart);
- 
-
-// Redirigir a la página utilizando la variable de la URL
-window.location.href = "https://hilo-cosmetiques.myshopify.com/cart/change?id=44925681205543:40f6d525594a15dccd4d3377eac9429f&quantity=0";
+  cart.items.splice(productIndex, 1);
       })
       .catch(error => {
         console.error('Error al actualizar el carrito:', error);
