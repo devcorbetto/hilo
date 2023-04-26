@@ -526,7 +526,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
 
   {% for item in cart.items %}
   {% if item.id == old_variantid %}
-    alert('hi');
+    alert('{{cart.items[forloopindex] }}');
   {% else %}
        alert('hi2');
   {% endif %}
