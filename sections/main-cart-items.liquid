@@ -564,7 +564,7 @@ fetch("/cart.json")
     .then(response => response.json())
     .then(data => {
       // Eliminar producto antiguo del carrito
-      fetch(`/cart/change.js?line=${productoAntiguo.key}&quantity=0`, {
+      fetch(`/cart/change.js?line=${forloopindex}&quantity=0`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
