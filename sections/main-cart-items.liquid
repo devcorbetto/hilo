@@ -586,20 +586,17 @@ fetch('/cart.js')
   });
 
 
-  fetch('/cart/change.js', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({
-    id: originalProductId,
-    quantity: 0,
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
-.catch(error => console.error(error));
 
+
+
+  jQuery.post('/cart/change.js', {
+  quantity: 0,
+  id: originalProductId
+}, function(data) {
+  console.log(data);
+}, 'json');
+
+  
   
 }
   
