@@ -546,49 +546,44 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties, r
 
         console.log(remove);
       
- // Obtener el identificador del producto a eliminar
+// Obtener IDs de productos
+const nuevoProductoId = variantId;
+const antiguoProductoId = old_variantid;
 
+// Obtener información del carrito
+fetch("/cart.json")
+  .then(response => response.json())
+  .then(data => {
+    // Analizar respuesta JSON para obtener detalles del producto antiguo
+    const productoAntiguo = data.items.find(item => item.product_id === antiguoProductoId);
 
-// Eliminar el producto del carrito de compras
-$.ajax({
-  type: 'POST',
-  url: '/cart/change.js',
-  data: {
-    id: old_variantid,
-    quantity: 0
-  },
-  dataType: 'json',
-  success: function() {
-    // Esperar a que se complete la solicitud de eliminación
-    setTimeout(function() {
-      // Obtener las propiedades del producto que se desea mantener
-     
-      
-      // Crear una nueva variante del producto
-      var newVariant = {
-        id: 44390995853607 ,
- 
-        quantity: 1
-      };
-      
-      // Agregar la nueva variante al carrito de compras
-      $.ajax({
-        type: 'POST',
-        url: '/cart/add.js',
-        data: newVariant,
-        dataType: 'json',
-        success: function() {
-          // Actualizar el carrito de compras en la página web
-          Shopify.getCart(function(cart) {
-            // Aquí puedes actualizar la vista del carrito de compras con los datos del objeto "cart"
-          });
+    // Agregar nuevo producto al carrito
+    fetch("/cart/add.js", {
+      method: "POST",
+      body: JSON.stringify({
+        id: nuevoProductoId,
+        quantity: productoAntiguo.quantity,
+        // Incluir variantes u otras opciones si es necesario
+      }),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Eliminar producto antiguo del carrito
+      fetch(`/cart/change.js?line=${productoAntiguo.key}&quantity=0`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
         }
+      })
+      .then(response => response.json())
+      .then(data => {
+        // Actualizar vista del carrito o hacer cualquier otra acción necesaria
       });
-    }, 500);
-  }
-});
-
-
+    });
+  });
 
 
 
