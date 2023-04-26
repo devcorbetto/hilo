@@ -595,7 +595,9 @@ fetch('/cart.js')
 }, function(data) {
   console.log(data);
 }, 'json');
- location.reload();
+ setTimeout(function() {
+  location.reload();
+}, 500); 
   
   
 }
