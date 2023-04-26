@@ -535,11 +535,11 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
         console.log(properties);
 
 
-   var items = [{ quantity: 1, id: variantId }];
+
 $.ajax({
     type: "POST",
      url: '/cart/add.js',
-    data: { items: items },
+    data: {  [{ quantity: 1, id: variantId }] },
     success: function(data) {
                 location.reload();
  
