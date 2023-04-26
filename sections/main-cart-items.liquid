@@ -319,7 +319,7 @@
 
                             
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ item.product.metafields.custom.changevariantid.id }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
+                            onclick="addtocart({{ item.id }}, {{ item.metafields.custom.changevariantid.id }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
            
                             
                             {% for variant in  item.product.variants  %}
