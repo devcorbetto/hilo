@@ -543,7 +543,7 @@ function addtocart(productid,variantid,old_variantid,forloopindex, properties){
     data: { quantity: 1, id: variantId  },
     success: function(data) {
       
-   
+    alert('agrego');
            },
      dataType: 'application/json'
 });
@@ -562,8 +562,7 @@ $.ajax({
   },
   dataType: 'json',
   success: function() {
-    // Actualiza la página del carrito para reflejar los cambios
-    window.location.href = '/cart';
+   alert('cambio');
   }
 });
 
