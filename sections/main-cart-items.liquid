@@ -322,16 +322,11 @@
 {% endcapture %}
                             
 
-{% capture  changevariantid %}
-{% assign texto = item.product.metafields.custom.changevariantid.name  %}
-{% assign numeros = texto | remove: '/[^0-9]/' %}
-{{ numeros }}
-{% endcapture %}
-----{{ numeros | remove: '/[^0-9]/'  }}---
+
 
                             {{ item.product.metafields.custom.changevariantid.name   }}
                             <dd class="button nobutton"
-                            onclick="addtocart( {{ variantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
+                            onclick="addtocart( {{ variantid }}, {{ oldvariant  }}');">
            
                             
                             {% for variant in  item.product.variants  %}
