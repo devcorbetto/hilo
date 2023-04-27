@@ -305,9 +305,9 @@
 {% for variant in  item.product.variants  %}
 {% if option.value != variant.title %} {{ variant.id }} {% endif %}
 {% endfor %}
-
 {% endcapture %}
-{% capture  oldvariant %}
+                            
+{% capture  originalProductId %}
 {% for variant in  item.product.variants  %}
 {% if option.value == variant.title %} {{ variant.id }} {% endif %}
 {% endfor %}
@@ -318,7 +318,7 @@
 
                       
                             <dd class="button nobutton"
-                            onclick="addtocart( {{ variantid }});">
+                            onclick="addtocart( {{ originalProductId }});">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -517,7 +517,7 @@
 
 
 <script>
-function addtocart(newProductId, originalProductId = 44390995886375 ) {
+function addtocart(newProductId = 44390995886375, originalProductId   ) {
   // Obtener la información del carrito actual
   fetch("/cart.js")
     .then((response) => response.json())
