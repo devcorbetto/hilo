@@ -294,7 +294,11 @@
                             <div class="product-option">
                               <dt> </dt>
                               <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou   
+{{ cart }}
+{{ cart.items }}
 
+
+                            
 {% capture ingre %}
 {%- for property in item.properties -%}
 {%- assign property_first_char = property.first | slice: 0 -%}
@@ -528,24 +532,8 @@
 <script>
 function addtocart(productid,variantid,old_variantid,forloopindex, properties, remove){
   var variantId = variantid;
-        var old_variantid = old_variantid; 
-  var  productId = old_variantid;
-  var remove = remove;
+  var old_variantid = old_variantid; 
 
-  {% assign myindex = window.forloopindex %}
-
-  var forloopindex = forloopindex;
-
-  
-    var properties = properties;
-  console.log(variantid);
-    console.log(old_variantid);
-      console.log(productId);
-      console.log(forloopindex);
-        console.log(properties);
-
-        console.log(remove);
-      
 // Obtener IDs de productos
 const newProductId = variantId;
 const originalProductId = old_variantid;
@@ -594,8 +582,9 @@ fetch('/cart.js')
   });
 
 
+/* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
-
+/* en esta funcion elimina el producto anterior.*/
 
   jQuery.post('/cart/change.js', {
   quantity: 0,
