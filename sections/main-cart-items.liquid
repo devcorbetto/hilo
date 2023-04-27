@@ -344,7 +344,7 @@
                         {%- endif -%}
 
                       
- <span class="description-cart">Huiles: </span>
+               <span class="description-cart">Huiles: </span>
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
@@ -530,73 +530,64 @@
 
 
 <script>
-function addtocart(variantid,old_variantid,){
-  var variantId = variantid;
-  var old_variantid = old_variantid; 
+function addtocart(newProductId, originalProductId) {
+  // Obtener la información del carrito actual
+  fetch("/cart.js")
+    .then((response) => response.json())
+    .then((cart) => {
+      // Buscar el objeto del producto que deseas reemplazar
+      const productIndex = cart.items.findIndex(
+        (item) => item.variant_id === originalProductId
+      );
 
-// Obtener IDs de productos
-const newProductId = variantId;
-const originalProductId = old_variantid;
+      // Crear un nuevo objeto de producto con las mismas propiedades que el producto original, pero con los cambios necesarios
+      const newProduct = {
+        ...cart.items[productIndex],
+        variant_id: newProductId, // Reemplazar el ID del producto
+        quantity: 1, // Reemplazar la cantidad del producto
+      };
 
-  
-// Obtener la información del carrito actual
-fetch('/cart.js')
-  .then(response => response.json())
-  .then(cart => {
-    // Buscar el objeto del producto que deseas reemplazar
-    const productIndex = cart.items.findIndex(item => item.variant_id === originalProductId);
- 
-    // Crear un nuevo objeto de producto con las mismas propiedades que el producto original, pero con los cambios necesarios
-    const newProduct = {
-      ...cart.items[productIndex],
-      variant_id: newProductId, // Reemplazar el ID del producto
-      quantity: 1 // Reemplazar la cantidad del producto
-    };
-
-    // Eliminar el objeto de producto original de la lista de productos del carrito
-    cart.items.splice(productIndex, 1);
-
-    // Agregar el nuevo objeto de producto a la lista de productos del carrito
-    fetch('/cart/add.js', {
-      method: 'POST',
-      body: JSON.stringify({
-        id: newProduct.variant_id,
-        quantity: newProduct.quantity,
-        properties: newProduct.properties // Mantener las propiedades del producto original
-      }),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-      .then(response => response.json())
-      .then(updatedCart => {
-        console.log('Carrito actualizado:', updatedCart);
-  
-      })
-      .catch(error => {
-        console.error('Error al actualizar el carrito:', error);
+      fetch("/cart/change.js", {
+        method: "POST",
+        body: JSON.stringify({
+          quantity: 0,
+          id: originalProductId,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
       });
-  })
-  .catch(error => {
-    console.error('Error al obtener el carrito:', error);
-  });
+      // Eliminar el objeto de producto original de la lista de productos del carrito
+      //cart.items.splice(productIndex, 1);
 
+      // Agregar el nuevo objeto de producto a la lista de productos del carrito
+      fetch("/cart/add.js", {
+        method: "POST",
+        body: JSON.stringify({
+          id: newProduct.variant_id,
+          quantity: newProduct.quantity,
+          properties: newProduct.properties, // Mantener las propiedades del producto original
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then((updatedCart) => {
+          console.log("Carrito actualizado:", updatedCart);
+          location.reload();
+        })
+        .catch((error) => {
+          console.error("Error al actualizar el carrito:", error);
+        });
+    })
+    .catch((error) => {
+      console.error("Error al obtener el carrito:", error);
+    });
 
-/* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
+  /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
-/* en esta funcion elimina el producto anterior.*/
-
-  jQuery.post('/cart/change.js', {
-  quantity: 0,
-  id: originalProductId
-}, function(data) {
-  console.log(data);
-}, 'json');
- setTimeout(function() {
-  location.reload();
-}, 500); 
-  
-  
+  /* en esta funcion elimina el producto anterior.*/
 }
   
   
