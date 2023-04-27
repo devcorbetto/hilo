@@ -318,9 +318,9 @@
                             
 
 {% capture  changevariantid %}
-{{ item.product.metafields.custom.changevariantid.value }}
+{{ item.product.metafields.custom.changevariantid | json }}
 {% endcapture %}
-
+{{ item.product.metafields.custom.changevariantid | json }}
                             
                             <dd class="button nobutton"
                             onclick="addtocart({{ item.id }}, {{ changevariantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
