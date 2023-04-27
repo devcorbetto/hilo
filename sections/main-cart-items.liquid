@@ -295,7 +295,7 @@
                               <dt> </dt>
                               <dd class="button" style="text-align:Center;" >{{ option.value }}</dd> ou   
 
-                            {% capture ingre %}
+{% capture ingre %}
 {%- for property in item.properties -%}
 {%- assign property_first_char = property.first | slice: 0 -%}
 {%- if property.last != blank and property_first_char != '_' -%}
@@ -326,7 +326,7 @@
 
                             {{ item.product.metafields.custom.changevariantid.name   }}
                             <dd class="button nobutton"
-                            onclick="addtocart({{ item.id }}, {{ changevariantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
+                            onclick="addtocart( {{ changevariantid }}, {{ oldvariant  }},    {{ item.index | plus: 1 }}, '{{ item.url_to_remove }}');">
            
                             
                             {% for variant in  item.product.variants  %}
