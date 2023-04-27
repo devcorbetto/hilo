@@ -322,7 +322,7 @@
 {% assign numeros = texto | remove: '/[^0-9]/' %}
 {{ numeros }}
 {% endcapture %}
-{{ numeros }}
+{{ numeros | remove: '/[^0-9]/'  }}
 
                             {{ item.product.metafields.custom.changevariantid.name  }}
                             <dd class="button nobutton"
