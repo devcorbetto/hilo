@@ -666,6 +666,14 @@ summary .icon-carret2 {
 .multi-slider .multicolumn-card.content-container  > div:last-child {
   width:60%;
 }
+@media screen and (max-width: 749px) {
+  .multi-slider .multicolumn-card.content-container  > div:last-child {
+    width:100%;
+  }
+  .multi-slider .multicolumn-card.content-container{
+    flex-wrap: wrap;
+  }
+}
 .multi-slider .multicolumn-card.content-container h3 {
   font-size:23px;
   font-weight:600;
@@ -1085,6 +1093,14 @@ footer .footer__copyright, footer .imagen-footerlogo {
     text-align: left;
     position: absolute;
     bottom: 0px;
+}
+footer .text_container, footer .link_list_container{
+  margin-left: 0;
+}
+@media screen and (max-width: 749px) {
+  footer .footer__copyright, footer .imagen-footerlogo{
+  position: relative;
+}
 }
 footer .newsletter-form__field-wrapper .field__input {
   margin-top:10px;

@@ -2,7 +2,11 @@
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
 }
-
+@media screen and (max-width: 749px){
+  .waves4b-newsletter{
+    top:-60px !important
+  }
+}
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     padding-right: 9rem;
