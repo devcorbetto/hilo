@@ -106,37 +106,48 @@
 
     <fieldset>
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
-            <div>
-      <input type="checkbox" id="Imperfections" name="Imperfections" checked>
-      <label for="Imperfections">Imperfections</label>
+ <div>
+        <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
+        x-model="selected"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Imperfections">Imperfections</label>
     </div>
 
     <div>
-      <input type="checkbox" id="Signes de l'âge" name="Signes de l'âge">
-      <label for="Signes de l'âge">Signes de l'âge</label>
-    </div>
-         <div>
-      <input type="checkbox" id="Déshydratation" name="Déshydratation">
-      <label for="Déshydratation">Déshydratation</label>
-    </div>
-      
-              <div>
-      <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" checked>
-      <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
-    </div>
-            <div>
-      <input type="checkbox" id="Eclat" name="Eclat" checked>
-      <label for="Eclat">Eclat</label>
-    </div>
-             <div>
-      <input type="checkbox" id="Brillance" name="Brillance" checked>
-      <label for="Brillance">Brillance</label>
+        <input type="checkbox" id="Signes de l'âge" name="Signes de l'âge" value="Signes de l'âge"
+        x-model="selected"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Signes de l'âge">Signes de l'âge</label>
     </div>
 
+    <div>
+        <input type="checkbox" id="Déshydratation" name="Déshydratation" value="Déshydratation"
+        x-model="selected"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Déshydratation">Déshydratation</label>
+    </div>
 
+    <div>
+        <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées"
+        x-model="selected"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+    </div>
 
-      
-        </fieldset>
+    <div>
+        <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
+        x-model="selected"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Eclat">Eclat</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
+        x-model="selected"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Brillance">Brillance</label>
+    </div>
+</fieldset>
 
   
    
