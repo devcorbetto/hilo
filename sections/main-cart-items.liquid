@@ -309,11 +309,14 @@
                             
 {% capture  newProductId %}
 {% for variant in  item.product.variants  %}
-{% if  variant.id  == 44390995886375 %}
+  {% if option.value == variant.title %} 
+    {% if  variant.id  == 44390995886375 %}
   es 44390995886375 
   {% elsif  variant.id != 44925681205543  %}
   es 44925681205543 
   {% endif %}
+    {% endif %}
+
 {% endfor %}
 {% endcapture %}
                             
