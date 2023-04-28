@@ -320,11 +320,11 @@
 {% endfor %}
 {% endcapture %}
                             
-{{  item.quantity  }}
+{{  item.quantity  }} -item-id: {{ item.id }} - product.id {{ item.product.id }} - variant {{ item.variant.id }}  -  {{ item.index | plus: 1 }}
 
                       
                             <dd class="button nobutton"
-                            onclick="addtocart({{ originalProductId }}, {{  newProductId }},     {{item.index   }} );">
+                            onclick="addtocart({{ originalProductId }}, {{  newProductId }},     {{ item.index | plus: 1 }} );">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -521,51 +521,100 @@
   </form>
 </cart-items>
 
-  <script>
-    const addtocart = async (originalProductId, newProductId, indexItem) => {
-      // Obtener la información del carrito actual
-      const response = await fetch('/cart.js');
-      let { items } = await response.json();
-      console.log('response: ', items);
-      const newProduct = items.find((item) => item.variant_id === originalProductId);
-      newProduct.variant_id = newProductId
-      newProduct.quantity = 1
-      try {
-        const response = await fetch('/cart/add.js', {
-          method: 'POST',
-          body: JSON.stringify({
-            id: parseInt(newProduct.variant_id),
-            quantity: parseInt(newProduct.quantity),
-            properties: newProduct.properties,
-          }),
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
-        const updatedCart = await response.json();
-        console.log('Carrito actualizado: ', updatedCart);
-      } catch (error) {
-        console.error('Error al actualizar el carrito:', error);
-      }
-      try {
-        const response = await fetch('/cart/change.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            quantity: 0,
-            line: parseInt(indexItem),
-          })
-        });
-        const data = await response.json();
-        console.log('Carrito delete: ', data);
-      } catch (error) {
-        console.error('Error al eliminar el carrito:', error);
-      }
-    }
-  </script>
 
+<script>
+function addtocart(originalProductId, newProductId, forloopindexId   ) {
+  const productIndex = forloopindexId -1;
+  // Obtener la información del carrito actual
+  fetch("/cart.js")
+    .then((response) => response.json())
+    .then((cart) => {
+      // Buscar el objeto del producto que deseas reemplazar
+      const productIndex = cart.items.findIndex(
+        (item, index) => item.variant_id === originalProductId & index === forloopindexId -1
+      );
+      console.log(productIndex);
+        console.log(forloopindexId);
+      
+    
+
+      // Crear un nuevo objeto de producto con las mismas propiedades que el producto original, pero con los cambios necesarios
+      const newProduct = {
+        ...cart.items[productIndex],
+        variant_id: newProductId, // Reemplazar el ID del producto
+        quantity: 1, // Reemplazar la cantidad del producto
+      };
+
+     
+    
+
+      // Agregar el nuevo objeto de producto a la lista de productos del carrito
+      fetch("/cart/add.js", {
+        method: "POST",
+        body: JSON.stringify({
+          id: newProduct.variant_id,
+          quantity: newProduct.quantity,
+          properties: newProduct.properties, // Mantener las propiedades del producto original
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then((updatedCart) => {
+          console.log("Carrito actualizado:", updatedCart);
+        
+        })
+        .catch((error) => {
+          console.error("Error al actualizar el carrito:", error);
+        });
+    })
+    .catch((error) => {
+      console.error("Error al obtener el carrito:", error);
+    });
+
+  /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
+
+   // Eliminar el objeto de producto original de la lista de productos del carrito
+    fetch("/cart/change.js", {
+            method: "POST",
+            body: JSON.stringify({
+          
+              
+              
+                  line: forloopindexId,
+              quantity:0
+          
+            }),
+            credentials: "same-origin",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
+            })
+            .catch((error) => {
+              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
+            });
+
+
+
+
+  
+ 
+  
+
+  
+}
+  
+  
+
+ 
+  
+
+</script>
 
 
       
