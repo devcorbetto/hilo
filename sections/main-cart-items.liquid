@@ -527,7 +527,7 @@ content:none !important;
     // Obtener la información del carrito actual
     const response = await fetch('/cart.js');
 
-    console.log('response: ' + response, json());
+    console.log('response: ' + response.json());
 
     /*.then((response) => response.json())
       .then((cart) => {
