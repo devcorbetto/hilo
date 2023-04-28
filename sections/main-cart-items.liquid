@@ -527,7 +527,7 @@ NewproductId: {{ newProductId }}
 
 
 <script>
-function addtocart(originalProductId, newProductId    ) {
+function addtocart(originalProductId, newProductId, forloopindexId = 1    ) {
   // Obtener la información del carrito actual
   fetch("/cart.js")
     .then((response) => response.json())
@@ -579,7 +579,7 @@ function addtocart(originalProductId, newProductId    ) {
             method: "POST",
             body: JSON.stringify({
           
-              
+              line:forloopindexId
                 id: originalProductId,
                   quantity: 0
           
