@@ -242,6 +242,7 @@ content:none !important;
                       {% assign item2 = item1 | escape | remove: "&amp;#39;" | remove: " " %}
 
                       <img style="height:36px" src="{{ item2  | append: '.png'  | asset_url }}">
+                      {{ item.line }}
 
 
 
@@ -334,7 +335,7 @@ content:none !important;
 
 
                       <dd class="button nobutton"
-                        onclick="addtocart({{ originalProductId }}, {{  newProductId }}, {{ line_item.key }} );">
+                        onclick="addtocart({{ originalProductId }}, {{  newProductId }}, {{ item.line }} );">
 
 
                         {% for variant in item.product.variants %}
@@ -551,11 +552,11 @@ content:none !important;
       try {
         const response = await fetch('/cart/add.js', {
           method: 'POST',
-          body: JSON.stringify({
-            id: parseInt(newProduct.variant_id),
-            quantity: parseInt(newProduct.quantity),
+          body: {
+            id: newProduct.variant_id,
+            quantity: newProduct.quantity,
             properties: newProduct.properties,
-          }),
+          },
           headers: {
             'Content-Type': 'application/json',
           },
@@ -574,7 +575,7 @@ content:none !important;
           },
           body: JSON.stringify({
             quantity: 0,
-            id: parseInt(originalProductId),
+            id: originalProductId,
           })
         });
         const data = await response.json();
