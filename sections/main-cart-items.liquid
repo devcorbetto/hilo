@@ -320,7 +320,7 @@
 {% endfor %}
 {% endcapture %}
                             
-
+{{ item.product.id }}<br>
 NewproductId: {{ newProductId }}
           <br>    Cantidad  :         
 
@@ -546,7 +546,7 @@ function addtocart(originalProductId, newProductId    ) {
 
      
       // Eliminar el objeto de producto original de la lista de productos del carrito
-        fetch(`/cart/change.js`, {
+        fetch(`/cart/update.js`, {
             method: "POST",
             body: JSON.stringify({
               updates: {
