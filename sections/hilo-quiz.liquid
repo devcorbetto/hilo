@@ -1,4 +1,4 @@
-<div class="page-width">
+<div class="page-width" x-data="{step: 1}">
   <div class="etapas grid grid-cols-4 text-center justify-center">
   <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
   1
@@ -17,7 +17,7 @@
 <div class="form-quiz">
 
 
-   <div class="step1 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20">
+   <div class="step1 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 1">
       <div class="faq1">
          <input id="prenom" type="text" placeholder="Prenom;">
       </div>
@@ -50,9 +50,10 @@
             </label>
         </fieldset>
       </div>
+      <button @click="step++;">Siguiente</button>
   </div>
 
-   <div class="step2 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20">
+   <div class="step2 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 2">
       <div class="faq1">
           <fieldset>
             <legend>Sex</legend>
@@ -96,9 +97,11 @@
             </label>
         </fieldset>
       </div>
+     <button @click="step--;">Anterior</button>
+      <button @click="step++;">Siguiente</button>
   </div>
 
-   <div class="step3 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20">
+   <div class="step3 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 3">
     <fieldset>
             <legend>Sex</legend>
             <label>
@@ -140,8 +143,10 @@
             </label>
         </fieldset>
       </div>
+     <button @click="step--;">Anterior</button>
+      <button @click="step++;">Siguiente</button>
    </div>
-     <div class="step4 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20">
+     <div class="step4 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 4">
      <fieldset>
             <legend>Sex</legend>
             <label>
@@ -184,7 +189,8 @@
         </fieldset>
       </div>
 
-
+ <button @click="step--;">Anterior</button>
+      <button @click="alert('Proceso completado')">Finalizar</button>
 
        
   </div>
