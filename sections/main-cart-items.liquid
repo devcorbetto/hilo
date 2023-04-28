@@ -546,7 +546,7 @@ function addtocart(originalProductId, newProductId    ) {
 
      
       // Eliminar el objeto de producto original de la lista de productos del carrito
-  fetch(`/cart/update.js`, {
+        fetch(`/cart/update.js`, {
             method: "POST",
             body: JSON.stringify({
               updates: {
@@ -594,17 +594,7 @@ function addtocart(originalProductId, newProductId    ) {
 
   /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
-  /* en esta funcion elimina el producto anterior.*/
-  jQuery.post('/cart/change.js', {
-  quantity: 0,
-  id: originalProductId
-}, function(data) {
-  console.log(data);
-}, 'json');
- setTimeout(function() {
-  location.reload();
-}, 500); 
-  
+ 
   
 
   
