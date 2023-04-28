@@ -546,11 +546,11 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
       })
          .then((response) => response.json())
         .then((updatedCart) => {
-          console.log("Carrito actualizado:", updatedCart);
+          console.log("producto removido:", updatedCart);
        
         })
         .catch((error) => {
-          console.error("Error al actualizar el carrito:", error);
+          console.error("Error al producto removido:", error);
         });;
       // Eliminar el objeto de producto original de la lista de productos del carrito
       //cart.items.splice(productIndex, 1);
