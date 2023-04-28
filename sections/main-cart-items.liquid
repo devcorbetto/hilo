@@ -527,7 +527,7 @@ NewproductId: {{ newProductId }}
 
 
 <script>
-function addtocart(originalProductId, newProductId, forloopindexId = 1    ) {
+function addtocart(originalProductId, newProductId, forloopindexId = 0    ) {
   // Obtener la información del carrito actual
   fetch("/cart.js")
     .then((response) => response.json())
