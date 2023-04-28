@@ -2,78 +2,6 @@
 
 
 <div class="page-width " x-data="{step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
-
-
-  <fieldset>
-    <div>
-      <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
-        x-model="selected"
-        x-on:change="handleSelection('Imperfections')">
-      <label for="Imperfections">Imperfections</label>
-    </div>
-
-    <div>
-      <input type="checkbox" id="Signes de l'âge" name="Signes de l'âge" value="Signes de l'âge"
-        x-model="selected"
-        x-on:change="handleSelection('Signes de l\'âge')">
-      <label for="Signes de l'âge">Signes de l'âge</label>
-    </div>
-
-    <div>
-      <input type="checkbox" id="Déshydratation" name="Déshydratation" value="Déshydratation"
-        x-model="selected"
-        x-on:change="handleSelection('Déshydratation')">
-      <label for="Déshydratation">Déshydratation</label>
-    </div>
-
-    <div>
-      <input type="checkbox" id="Rougeurs" name="Rougeurs" value="Rougeurs"
-        x-model="selected"
-        x-on:change="handleSelection('Rougeurs')">
-      <label for="Rougeurs">Rougeurs</label>
-    </div>
-
-    <div>
-      <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
-        x-model="selected"
-        x-on:change="handleSelection('Eclat')">
-      <label for="Eclat">Eclat</label>
-    </div>
-
-    <div>
-      <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
-        x-model="selected"
-        x-on:change="handleSelection('Brillance')">
-      <label for="Brillance">Brillance</label>
-    </div>
-
-    <p>Selected: {{ selected }}</p>
-  </fieldset>
-
-
-<script>
-  export default {
-    data() {
-      return {
-        selected: [],
-      }
-    },
-    methods: {
-      handleSelection(option) {
-        // Add option to selected array
-        this.selected.push(option)
-
-        // Remove oldest option if array length is greater than 3
-        if (this.selected.length > 3) {
-          this.selected.shift()
-        }
-      },
-    },
-  }
-</script>
-
-
-  
   <div class="etapas grid grid-cols-4 text-center justify-center">
   <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " :class="{ 'active-step': step === 1 }">
   1
@@ -100,15 +28,14 @@
     <div class="faq2">
          <fieldset>
             <legend>Sex</legend>
-            <label>
-                <input type="radio" name="color" value="azul"> Azul
-            </label>
-            <label>
-                <input type="radio" name="color" value="negro"> Negro
-            </label>
-            <label>
-                <input type="radio" name="color" value="amarillo"> Amarillo
-            </label>
+              <label>
+      <input type="radio" name="gender" value="male" x-bind:checked="formData.gender === 'male'" x-on:click="formData.gender = 'male'">
+      Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female" x-bind:checked="formData.gender === 'female'" x-on:click="formData.gender = 'female'">
+      Female
+    </label>
         </fieldset>
       </div>
       <div class="faq3">
