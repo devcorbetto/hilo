@@ -311,15 +311,15 @@
 {% for variant in  item.product.variants  %}
 {% if  variant.id  == 44390995886375 %}
   es 44390995886375 
-  {% else  variant.id != 44925681205543  %}
+  {% elsif  variant.id != 44925681205543  %}
   es 44925681205543 
   {% endif %}
 {% endfor %}
 {% endcapture %}
                             
 
-                            {{ newProductId }}
-                            
+NewproductId: {{ newProductId }}
+          <br>    Cantidad  :         
 
 {{  item.quantity  }}
 
