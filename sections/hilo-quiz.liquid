@@ -44,16 +44,16 @@
          <fieldset>
             <legend>Age</legend>
             <label>
-                <input type="radio" name="color" value="25"> -25
+                <input type="radio" name="color" value="25" x-bind:checked="formData.age === '25'" x-on:click="formData.age = '25'"> -25
             </label>
             <label>
-                <input type="radio" name="color" value="2540"> 25 a 40
+                <input type="radio" name="color" value="2540" x-bind:checked="formData.age === '2540'" x-on:click="formData.age = '2540'"> 25 a 40
             </label>
             <label>
-                <input type="radio" name="color" value="4165"> 41 a 65
+                <input type="radio" name="color" value="4165" x-bind:checked="formData.age === '4165'" x-on:click="formData.age = 4165'"> 41 a 65
             </label>
              <label>
-                <input type="radio" name="color" value="65">  +65
+                <input type="radio" name="color" value="65" x-bind:checked="formData.age === '65'" x-on:click="formData.age = '65'">  +65
             </label>
         </fieldset>
       </div>
@@ -66,13 +66,13 @@
           <fieldset>
             <legend>En général, j'observe que ma peau tiraille...</legend>
             <label>
-                <input type="radio" name="color" value="21a"> Toute la journée ou souvent
+                <input type="radio" name="color" value="21a" x-bind:checked="formData.22 === '21a'" x-on:click="formData.21 = 21a'"> Toute la journée ou souvent
             </label>
             <label>
-                <input type="radio" name="color" value="21b"> Rarement ou immédiatement après m'être nettoyé la peau
+                <input type="radio" name="color" value="21b" x-bind:checked="formData.22 === '21b'" x-on:click="formData.21 = 21c'"> Rarement ou immédiatement après m'être nettoyé la peau
             </label>
             <label>
-                <input type="radio" name="color" value="21c"> Jamais
+                <input type="radio" name="color" value="21c" x-bind:checked="formData.22 === '21c'" x-on:click="formData.21 = 21c'"> Jamais
             </label>
         </fieldset>
       </div>
@@ -81,13 +81,13 @@
          <fieldset>
             <legend>En général, j'observe que ma peau brille...</legend>
             <label>
-                <input type="radio" name="color" value="22a"> Souvent dés le matin
+                <input type="radio" name="color" value="22a" x-bind:checked="formData.22 === '22b'" x-on:click="formData.22 = 22c'"> Souvent dés le matin
             </label>
             <label>
-                <input type="radio" name="color" value="22b"> Sur la zone T en fin de journée
+                <input type="radio" name="color" value="22b" x-bind:checked="formData.22 === '22b'" x-on:click="formData.22 = 22c'"> Sur la zone T en fin de journée
             </label>
             <label>
-                <input type="radio" name="color" value="22c"> Jamais
+                <input type="radio" name="color" value="22c" x-bind:checked="formData.22 === '22c'" x-on:click="formData.22 = 22c'"> Jamais
             </label>
         </fieldset>
       </div>
@@ -95,13 +95,13 @@
          <fieldset>
             <legend>En général, j'observe que mon maquillage...</legend>
             <label>
-                <input type="radio" name="color" value="23a"> Marque des zones de sécheresse, peluche
+                <input type="radio" name="color" value="23a"  x-bind:checked="formData.23 === '23a'" x-on:click="formData.23 = 23a'"> Marque des zones de sécheresse, peluche
             </label>
             <label>
-                <input type="radio" name="color" value="23b"> Ne tient pas dans le temps
+                <input type="radio" name="color" value="23b"  x-bind:checked="formData.23 === '23b'" x-on:click="formData.23 = 23b'"> Ne tient pas dans le temps
             </label>
             <label>
-                <input type="radio" name="color" value="23c"> Rien à signaler, tout va bien
+                <input type="radio" name="color" value="23c"  x-bind:checked="formData.23 === '23c'" x-on:click="formData.23 = 23c'"> Rien à signaler, tout va bien
             </label>
             <label>
                 <input type="radio" name="color" value="23d">Je n'applique pas de maquillage
@@ -168,27 +168,27 @@
      <fieldset>
             <legend>Je n'applique pas de maquillage</legend>
             <label>
-                <input type="radio" name="color" value="41a"> Oui
+                <input type="radio" name="color" value="41a"  x-bind:checked="formData.41 === '41a'" x-on:click="formData.41 = 41a'"> Oui
             </label>
             <label>
-                <input type="radio" name="color" value="41b"> Noun
+                <input type="radio" name="color" value="41b" x-bind:checked="formData.41 === '41b'" x-on:click="formData.41 = 41b'"> Noun
             </label>
             <label>
-                <input type="radio" name="color" value="41c"> Je ne sais pas
+                <input type="radio" name="color" value="41c" x-bind:checked="formData.41 === '41c'" x-on:click="formData.41 = 41c'"> Je ne sais pas
             </label>
         </fieldset>
 
     <div class="faq2">
          <fieldset>
             <legend>Sex</legend>
-            <label>
-                <input type="radio" name="color" value="42a"> Oui
+             <label>
+                <input type="radio" name="color" value="42a"  x-bind:checked="formData.42 === '42a'" x-on:click="formData.42 = 42a'"> Oui
             </label>
             <label>
-                <input type="radio" name="color" value="42b"> Noun
+                <input type="radio" name="color" value="42b" x-bind:checked="formData.42 === '42b'" x-on:click="formData.42 = 42b'"> Noun
             </label>
             <label>
-                <input type="radio" name="color" value="42c"> Je ne sais pas
+                <input type="radio" name="color" value="42c" x-bind:checked="formData.41 === '41c'" x-on:click="formData.42 = 42c'"> Je ne sais pas
             </label>
         </fieldset>
       </div>
