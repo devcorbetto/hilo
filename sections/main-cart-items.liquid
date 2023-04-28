@@ -593,41 +593,27 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
               console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
             });
 */
-// Define el ID del producto que deseas eliminar
-const product_id = originalProductId;
 
-// Encuentra el line_item correspondiente al producto que deseas eliminar
-const findLineItem = async (product_id) => {
-  const cart = await fetch('/cart.js').then(response => response.json());
-  const lineItem = cart.items.find(item => item.product_id === product_id);
-  return lineItem;
-};
-
-// Elimina el line_item utilizando el line_item.key
-const removeLineItem = async (line_item_key) => {
-  const response = await fetch('/cart/change.js', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      id: line_item_key,
-      quantity: 0
-    })
+  fetch('/cart.js', {
+  method: 'GET',
+})
+  .then(response => response.json())
+  .then(data => {
+    const lineItems = data.items;
+    const lineItemKeys = lineItems.map(item => item.key);
+    // Use lineItemKeys to identify the item you want to remove
   });
-  return response.json();
-};
-
-// Ejecuta las funciones
-findLineItem(product_id)
-  .then(lineItem => {
-    removeLineItem(lineItem.key)
-      .then(response => console.log(response))
-      .catch(error => console.error(error));
-  })
-  .catch(error => console.error(error));
 
   
+    jQuery.post('/cart/change.js', {
+  quantity: 0,
+  line: forloopindexId
+}, function(data) {
+  console.log(data);
+}, 'json');
+ setTimeout(function() {
+  location.reload();
+}, 1500); 
   
 
   
