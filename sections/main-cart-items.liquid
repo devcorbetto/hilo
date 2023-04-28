@@ -550,8 +550,9 @@ function addtocart(originalProductId, newProductId    ) {
             method: "POST",
             body: JSON.stringify({
               updates: {
-                quantity: 0,
-                id: originalProductId
+              
+                id: originalProductId,
+                  quantity: 0
               }
             }),
             credentials: "same-origin",
