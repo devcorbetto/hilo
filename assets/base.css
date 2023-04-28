@@ -1419,6 +1419,14 @@ button.shopify-payment-button__button--unbranded {
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
+@media screen and (max-width: 649px) {
+  .button,
+.shopify-challenge__button,
+.customer button {
+  font-size: 1.3rem;
+}
+}
+
 .button:before,
 .shopify-challenge__button:before,
 .customer button:before,
@@ -3061,6 +3069,15 @@ details-disclosure > details {
     width: 50px;
     height:50px;
 }
+@media screen and (max-width: 649px) {
+  .control-c {
+    width: 15px;
+    height:15px;
+}
+.footer-svg-top{
+  top: -52px !important
+}
+}
 
 .multi-logos .a-left {
   left:-5%;
@@ -3076,12 +3093,23 @@ details-disclosure > details {
 .a-right {
   right:-15%;
 }
+@media screen and (max-width: 649px) {
+  .a-right {
+    right:25px !important;
+  }
+}
 .corner-top {
 position: absolute;
 width: 60px;
     right: -40px;
     top: -40px;
     transform: rotate(90deg);
+}
+@media screen and (max-width: 649px) {
+  .corner-top {
+        right: 40px;
+        top: -40px;
+    }
 }
 @media screen and (min-width: 990px) {
 .svg-fullwidth .rich-text__blocks {
