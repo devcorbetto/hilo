@@ -323,7 +323,7 @@
 
                       
                             <dd class="button nobutton"
-                            onclick="addtocart({{ originalProductId }} );">
+                            onclick="addtocart({{ originalProductId }}, {{  newProductId }} );">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -522,7 +522,7 @@
 
 
 <script>
-function addtocart(originalProductId, newProductId = 44390995886375    ) {
+function addtocart(originalProductId, newProductId    ) {
   // Obtener la información del carrito actual
   fetch("/cart.js")
     .then((response) => response.json())
