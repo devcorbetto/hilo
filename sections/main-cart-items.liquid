@@ -544,7 +544,7 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
           "Content-Type": "application/json",
         },
       })
-          .then((response) => response.json())
+           .then((response) => response.json())
         .then((updatedCart) => {
           console.log("Carrito actualizado:", updatedCart);
           location.reload();
@@ -552,8 +552,7 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
         .catch((error) => {
           console.error("Error al actualizar el carrito:", error);
         });
-    })
-        ;
+    });
       // Eliminar el objeto de producto original de la lista de productos del carrito
       //cart.items.splice(productIndex, 1);
 
