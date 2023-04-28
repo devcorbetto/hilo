@@ -571,7 +571,7 @@ function addtocart(originalProductId, newProductId, forloopindexId = 1   ) {
   /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
    // Eliminar el objeto de producto original de la lista de productos del carrito
-        fetch("/cart/change.js", {
+    /*    fetch("/cart/change.js", {
             method: "POST",
             body: JSON.stringify({
           
@@ -592,7 +592,16 @@ function addtocart(originalProductId, newProductId, forloopindexId = 1   ) {
             .catch((error) => {
               console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
             });
-
+*/
+    jQuery.post('/cart/change.js', {
+  quantity: 0,
+  id: originalProductId
+}, function(data) {
+  console.log(data);
+}, 'json');
+ setTimeout(function() {
+  location.reload();
+}, 500); 
   
 
   
