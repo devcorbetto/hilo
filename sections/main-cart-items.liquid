@@ -333,8 +333,7 @@ content:none !important;
                       {{ item.quantity }}
 
 
-                      <dd class="button nobutton"
-                        onclick="addtocart({{ originalProductId }}, {{  newProductId }}, {{ line_item.key }} );">
+                      <dd class="button nobutton" onclick="addtocart({{ originalProductId }}, {{  newProductId }} );">
 
 
                         {% for variant in item.product.variants %}
@@ -539,7 +538,7 @@ content:none !important;
 
 
   <script>
-    const addtocart = async (originalProductId, newProductId, forloopindexId) => {
+    const addtocart = async (originalProductId, newProductId) => {
       // Obtener la información del carrito actual
       const response = await fetch('/cart.js');
       let { items } = await response.json();
@@ -582,50 +581,6 @@ content:none !important;
       } catch (error) {
         console.error('Error al eliminar el carrito:', error);
       }
-
-      /*fetch('/cart/add.js', {
-        method: 'POST',
-        body: JSON.stringify({
-          id: newProduct.variant_id,
-          quantity: newProduct.quantity,
-          properties: newProduct.properties, // Mantener las propiedades del producto original
-        }),
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      })
-        .then((response) => response.json())
-        .then((updatedCart) => {
-          console.log('Carrito actualizado:', updatedCart);
-        })
-        .catch((error) => {
-          console.error('Error al actualizar el carrito:', error);
-        });*/
-      /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
-
-      // Eliminar el objeto de producto original de la lista de productos del carrito
-      /*    fetch("/cart/change.js", {
-              method: "POST",
-              body: JSON.stringify({
-            
-                
-                  id: 44390995886375,
-                    quantity: 0
-            
-              }),
-              credentials: "same-origin",
-              headers: {
-                "Content-Type": "application/json",
-              },
-            })
-              .then((response) => response.json())
-              .then((data) => {
-                console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
-              })
-              .catch((error) => {
-                console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
-              });
-  */
     }
   </script>
 
