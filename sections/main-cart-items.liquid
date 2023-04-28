@@ -595,7 +595,7 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
 */
     jQuery.post('/cart/change.js', {
   quantity: 0,
-  id: forloopindexId
+  line: forloopindexId
 }, function(data) {
   console.log(data);
 }, 'json');
