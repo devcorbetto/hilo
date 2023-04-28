@@ -593,21 +593,10 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
               console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
             });
 */
-
-  fetch('/cart.js', {
-  method: 'GET',
-})
-  .then(response => response.json())
-  .then(data => {
-    const lineItems = data.items;
-    const lineItemKeys = lineItems.map(item => item.key);
-    // Use lineItemKeys to identify the item you want to remove
-  });
-
-  
     jQuery.post('/cart/change.js', {
   quantity: 0,
-  line: forloopindexId
+  id: originalProductId
+      
 }, function(data) {
   console.log(data);
 }, 'json');
