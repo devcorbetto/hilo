@@ -548,9 +548,11 @@ function addtocart(originalProductId, newProductId    ) {
       // Eliminar el objeto de producto original de la lista de productos del carrito
         fetch(`/cart/change.js`, {
             method: "POST",
-            body: JSON.stringify({
-              updates: {
-                originalProductId: 0,
+     
+              body: JSON.stringify({
+          id: originalProductId,
+          quantity: 0,
+      
               }
             }),
             credentials: "same-origin",
