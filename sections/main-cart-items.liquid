@@ -534,7 +534,7 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
         quantity: 1, // Reemplazar la cantidad del producto
       };
 
-      fetch("/cart/change.js", {
+      fetch("/cart/update.js", {
         method: "POST",
         body: JSON.stringify({
           quantity: 0,
