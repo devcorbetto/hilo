@@ -232,7 +232,7 @@ content:none !important;
 
 
                   </div>
-      {{ forloop.index }}
+  
                   <div class="item-ingredientes">
                     {%- for property in item.properties -%}
                     {%- assign property_first_char = property.first | slice: 0 -%}
@@ -335,7 +335,7 @@ content:none !important;
 
 
                       <dd class="button nobutton"
-                        onclick="addtocart({{ originalProductId }}, {{  newProductId }}, {{ item.line }} );">
+                        onclick="addtocart({{ originalProductId }}, {{  newProductId }}, {{ forloop.index }} );">
 
 
                         {% for variant in item.product.variants %}
