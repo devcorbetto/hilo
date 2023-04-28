@@ -545,7 +545,8 @@ const options = {
   },
   body: JSON.stringify({
     quantity: 0,
-    id: originalProductId
+    id: originalProductId,
+    
   })
 };
 
@@ -587,7 +588,18 @@ fetch(endpoint, options)
   /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
   /* en esta funcion elimina el producto anterior.*/
-
+  jQuery.post('/cart/change.js', {
+  quantity: 0,
+  id: originalProductId
+}, function(data) {
+  console.log(data);
+}, 'json');
+ setTimeout(function() {
+  location.reload();
+}, 500); 
+  
+  
+}
   
 }
   
