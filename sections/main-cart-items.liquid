@@ -542,20 +542,22 @@ content:none !important;
     const addtocart = async (originalProductId, newProductId, forloopindexId) => {
       // Obtener la información del carrito actual
       const response = await fetch('/cart.js');
-      const { items } = await response.json();
+      let { items } = await response.json();
       console.log('response: ', items);
-      const newProduct = cart.items.find((item) => item.variant_id === originalProductId);
+      const newProduct = items.find((item) => item.variant_id === originalProductId);
       newProduct.variant_id = newProductId
       newProduct.quantity = 1
 
       try {
         const response = await fetch('/cart/add.js', {
           method: 'POST',
-          body: items: [{
-            id: newProduct.variant_id,
-            quantity: newProduct.quantity,
-            properties: newProduct.properties,
-          }],
+          body: {
+            items: [{
+              id: newProduct.variant_id,
+              quantity: newProduct.quantity,
+              properties: newProduct.properties,
+            }]
+          },
           headers: {
             'Content-Type': 'application/json',
           },
