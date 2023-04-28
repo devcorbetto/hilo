@@ -86,7 +86,7 @@
       </div>
       <div class="faq3">
          <fieldset>
-            <legend>Sex</legend>
+            <legend>En général, j'observe que mon maquillage...</legend>
             <label>
                 <input type="radio" name="color" value="azul"> Azul
             </label>
@@ -103,48 +103,42 @@
   </div>
 
    <div class="step3 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 3" style="border-color:#b7daf3; background:#eef6fc;">
-      <h2>Preocupaciones</h2>
+
     <fieldset>
-            <legend>Sex</legend>
-            <label>
-                <input type="radio" name="color" value="azul"> Azul
-            </label>
-            <label>
-                <input type="radio" name="color" value="negro"> Negro
-            </label>
-            <label>
-                <input type="radio" name="color" value="amarillo"> Amarillo
-            </label>
+            <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
+            <div>
+      <input type="checkbox" id="Imperfections" name="Imperfections" checked>
+      <label for="Imperfections">Imperfections</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="Signes de l'âge" name="Signes de l'âge">
+      <label for="Signes de l'âge">Signes de l'âge</label>
+    </div>
+         <div>
+      <input type="checkbox" id="Déshydratation" name="Déshydratation">
+      <label for="Déshydratation">Déshydratation</label>
+    </div>
+      
+              <div>
+      <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" checked>
+      <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+    </div>
+            <div>
+      <input type="checkbox" id="Imperfections" name="Imperfections" checked>
+      <label for="Imperfections">Imperfections</label>
+    </div>
+             <div>
+      <input type="checkbox" id="Imperfections" name="Imperfections" checked>
+      <label for="Imperfections">Imperfections</label>
+    </div>
+
+
+
+      
         </fieldset>
 
-    <div class="faq2">
-         <fieldset>
-            <legend>Sex</legend>
-            <label>
-                <input type="radio" name="color" value="azul"> Azul
-            </label>
-            <label>
-                <input type="radio" name="color" value="negro"> Negro
-            </label>
-            <label>
-                <input type="radio" name="color" value="amarillo"> Amarillo
-            </label>
-        </fieldset>
-      </div>
-      <div class="faq3">
-         <fieldset>
-            <legend>Sex</legend>
-            <label>
-                <input type="radio" name="color" value="azul"> Azul
-            </label>
-            <label>
-                <input type="radio" name="color" value="negro"> Negro
-            </label>
-            <label>
-                <input type="radio" name="color" value="amarillo"> Amarillo
-            </label>
-        </fieldset>
-      </div>
+  
    
       <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
    </div>
