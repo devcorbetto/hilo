@@ -551,11 +551,11 @@ content:none !important;
       try {
         const response = await fetch('/cart/add.js', {
           method: 'POST',
-          body: {
-            id: newProduct.variant_id,
-            quantity: newProduct.quantity,
+          body: JSON.stringify({
+            id: parseInt(newProduct.variant_id),
+            quantity: parseInt(newProduct.quantity),
             properties: newProduct.properties,
-          },
+          }),
           headers: {
             'Content-Type': 'application/json',
           },
@@ -574,7 +574,7 @@ content:none !important;
           },
           body: JSON.stringify({
             quantity: 0,
-            id: originalProductId,
+            id: parseInt(originalProductId),
           })
         });
         const data = await response.json();
