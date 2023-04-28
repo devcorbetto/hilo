@@ -545,29 +545,7 @@ function addtocart(originalProductId, newProductId    ) {
       };
 
      
-      // Eliminar el objeto de producto original de la lista de productos del carrito
-        fetch(`/cart/update.js`, {
-            method: "POST",
-            body: JSON.stringify({
-          
-              
-                id: originalProductId,
-                  quantity: 0
-          
-            }),
-            credentials: "same-origin",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          })
-            .then((response) => response.json())
-            .then((data) => {
-              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
-            })
-            .catch((error) => {
-              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
-            });
-
+    
 
       // Agregar el nuevo objeto de producto a la lista de productos del carrito
       fetch("/cart/add.js", {
@@ -596,7 +574,29 @@ function addtocart(originalProductId, newProductId    ) {
 
   /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
- 
+   // Eliminar el objeto de producto original de la lista de productos del carrito
+        fetch(`/cart/update.js`, {
+            method: "POST",
+            body: JSON.stringify({
+          
+              
+                id: originalProductId,
+                  quantity: 0
+          
+            }),
+            credentials: "same-origin",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
+            })
+            .catch((error) => {
+              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
+            });
+
   
 
   
