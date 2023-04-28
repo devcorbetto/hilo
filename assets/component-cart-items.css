@@ -115,6 +115,18 @@
   display: flex;
   margin-left: 1rem;
 }
+@media screen and (max-width: 649px){
+  .cart-item cart-remove-button{
+    order:1;
+    justify-content: flex-end;
+  }
+  .cart-item__details{
+    grid-column: 2 / 5 !important;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+}
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .cart-item cart-remove-button {
@@ -225,6 +237,7 @@ cart-remove-button .icon-remove {
     grid-template: repeat(2, auto) / repeat(4, 1fr);
     gap: 1.5rem;
     margin-bottom: 3.5rem;
+    align-items: center;
   }
 
   .cart-item:last-child {

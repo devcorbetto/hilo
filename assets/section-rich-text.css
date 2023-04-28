@@ -84,8 +84,14 @@
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 649px) {
   .waves4a-rich-text-account, .waves5a-rich-text-account{
     bottom: -60px !important
+  }
+  .waves5b-rich-text{
+    bottom: -37px !important;
+  }
+  .waves5c-rich-text-account{
+    top: -61px !important
   }
 }
