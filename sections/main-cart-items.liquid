@@ -536,23 +536,28 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
 
      
       // Eliminar el objeto de producto original de la lista de productos del carrito
-    
-const endpoint = `/cart/change.js?line=0&quantity=0`;
+    const endpoint = '/cart/change.js';
 
-fetch(endpoint, {
-  method: 'DELETE',
+const options = {
+  method: 'POST',
   credentials: 'same-origin',
   headers: {
     'Content-Type': 'application/json'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  console.log(data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
-})
-.catch(error => {
-  console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
-});
+  },
+  body: JSON.stringify({
+    quantity: 0,
+    id: originalProductId
+  })
+};
+
+fetch(endpoint, options)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el producto
+  })
+  .catch(error => {
+    console.error(error); // Maneja cualquier error que ocurra durante la eliminación del producto
+  });
 
 
       // Agregar el nuevo objeto de producto a la lista de productos del carrito
@@ -583,6 +588,8 @@ fetch(endpoint, {
   /* hasta aca se agrego el producto nuevo , y aca se va a borrar el producto anterior*/
 
   /* en esta funcion elimina el producto anterior.*/
+
+  
 }
   
   
