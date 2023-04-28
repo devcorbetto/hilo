@@ -232,7 +232,7 @@ content:none !important;
 
 
                   </div>
-
+      {{ forloop.index }}
                   <div class="item-ingredientes">
                     {%- for property in item.properties -%}
                     {%- assign property_first_char = property.first | slice: 0 -%}
@@ -242,7 +242,7 @@ content:none !important;
                       {% assign item2 = item1 | escape | remove: "&amp;#39;" | remove: " " %}
 
                       <img style="height:36px" src="{{ item2  | append: '.png'  | asset_url }}">
-                      {{ item.line }}
+                
 
 
 
