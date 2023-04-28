@@ -299,7 +299,13 @@
 
 
 
+{% capture  originalProductId %}
+{% for variant in  item.product.variants  %}
+{% if option.value == variant.title %} {{ variant.id }} {% endif %}
+{% endfor %}
+{% endcapture %}
 
+                            
                             
 {% capture  newProductId %}
 {% for variant in  item.product.variants  %}
@@ -311,11 +317,7 @@
 {% endfor %}
 {% endcapture %}
                             
-{% capture  originalProductId %}
-{% for variant in  item.product.variants  %}
-{% if option.value == variant.title %} {{ variant.id }} {% endif %}
-{% endfor %}
-{% endcapture %}
+
                             {{ newProductId }}
                             
 
