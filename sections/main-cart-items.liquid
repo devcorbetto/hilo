@@ -541,28 +541,25 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
 
      
       // Eliminar el objeto de producto original de la lista de productos del carrito
-    const endpoint = '/cart/change.js';
-
-const options = {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-    quantity: 0,
-    id: originalProductId,
-    
-  })
-};
-
-fetch(endpoint, options)
-  .then(response => response.json())
-  .then(data => {
-    console.log(data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el producto
-  })
-  .catch(error => {
-    console.error(error); // Maneja cualquier error que ocurra durante la eliminación del producto
-  });
+  fetch(`/cart/update.js?`, {
+            method: "POST",
+            body: JSON.stringify({
+              updates: {
+                originalProductId: 0,
+              }
+            }),
+            credentials: "same-origin",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
+            })
+            .catch((error) => {
+              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
+            });
 
 
       // Agregar el nuevo objeto de producto a la lista de productos del carrito
