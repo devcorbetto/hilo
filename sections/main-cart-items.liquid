@@ -579,7 +579,7 @@ function addtocart(originalProductId, newProductId, forloopindexId = 1    ) {
             method: "POST",
             body: JSON.stringify({
           
-              line:forloopindexId
+              line:forloopindexId,
                 id: originalProductId,
                   quantity: 0
           
