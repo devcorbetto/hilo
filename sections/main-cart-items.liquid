@@ -324,7 +324,7 @@
 
                       
                             <dd class="button nobutton"
-                            onclick="addtocart({{ originalProductId }}, {{  newProductId }} );">
+                            onclick="addtocart({{ originalProductId }}, {{  newProductId }}, {{ line_item.key }} );">
            
                             
                             {% for variant in  item.product.variants  %}
@@ -523,7 +523,7 @@
 
 
 <script>
-function addtocart(originalProductId, newProductId, forloopindexId = 1   ) {
+function addtocart(originalProductId, newProductId, forloopindexId   ) {
   // Obtener la información del carrito actual
   fetch("/cart.js")
     .then((response) => response.json())
@@ -595,7 +595,7 @@ function addtocart(originalProductId, newProductId, forloopindexId = 1   ) {
 */
     jQuery.post('/cart/change.js', {
   quantity: 0,
-  id: originalProductId
+  id: forloopindexId
 }, function(data) {
   console.log(data);
 }, 'json');
