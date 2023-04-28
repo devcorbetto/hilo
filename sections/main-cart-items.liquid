@@ -207,7 +207,7 @@
 {% endcomment %}
             <tbody>
               {%- for item in cart.items -%}
-       
+       {% assign index1 = forloop.index %}
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
                     {% if item.image %}
