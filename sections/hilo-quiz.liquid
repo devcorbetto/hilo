@@ -1,7 +1,7 @@
 
 
 
-<div class="page-width " x-data="{ formData: {name: '', gender: '', age: '', 21: '', 22: '', 23: '', 31: '', 41: '', 42: '', 43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
+<div class="page-width " x-data="{ formData: {name: '', gender: '', age: '', f21: '',f 22: '', f23: '', f31: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
   <div class="etapas grid grid-cols-4 text-center justify-center">
   <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " :class="{ 'active-step': step === 1 }">
   1
@@ -208,7 +208,7 @@
       </div>
 
 
-      <button @click="alert(formData.name + formData.gender + formData.age + formData.21 + formData.22 +  formData.23 + formData.41 + formData.42 + formData.43 +  )" class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
+      <button @click="alert(formData.name + formData.gender + formData.age + formData.21 + formData.22 +  formData.23 + formData.41 + formData.42 + formData.43   )" class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
     
        
   </div>
