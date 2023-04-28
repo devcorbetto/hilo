@@ -537,7 +537,7 @@ function addtocart(originalProductId, newProductId = 44390995886375    ) {
      
       // Eliminar el objeto de producto original de la lista de productos del carrito
     
-const endpoint = `/cart/change.js?line=${originalProductId}&quantity=0`;
+const endpoint = `/cart/change.js?line=0&quantity=0`;
 
 fetch(endpoint, {
   method: 'DELETE',
