@@ -525,9 +525,9 @@ content:none !important;
 <script>
   const addtocart = async (originalProductId, newProductId, forloopindexId) => {
     // Obtener la información del carrito actual
-    const { items } = await fetch('/cart.js');
+    const response = await fetch('/cart.js');
 
-    console.log('response: ' + items);
+    console.log('response: ' + response, json());
 
     /*.then((response) => response.json())
       .then((cart) => {
