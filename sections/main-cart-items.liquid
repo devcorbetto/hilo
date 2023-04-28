@@ -612,7 +612,7 @@ fetch('/cart/change.js', {
     'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    line: [line_item_key],
+    line: lineItems,
     quantity: 0
   })
 })
