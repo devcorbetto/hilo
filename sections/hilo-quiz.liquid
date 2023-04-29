@@ -237,38 +237,30 @@ const password = '6f04900711c6aa165a698db5814395d5';
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
 const firstName = 'gabriel';
-  
-    const lastName = 'gabriel';
-        const phone = '123123';
-    
-var customer_data = {
-            "customer": { 
-              "id":customerId, 
-              "first_name":firstName,
-              "last_name":lastName, 
-              "phone":phone 
-            } 
-          }
+ const lastName = 'gabriel';
+const phone = '123123';
+// Obtener el ID del cliente que deseas actualizar
+const customerId = '123456789';
 
+// Crear un objeto con los campos que deseas actualizar
+const customerData = {
+  customer: {
+    id: customerId,
+    first_name: firstName,
+    last_name: lastName,
+    accepts_marketing: true
+  }
+};
 
-    
+// Enviar una solicitud PUT a la API de Shopify para actualizar el cliente
+ShopifyApp.client.put(`/admin/api/2023-04/customers/${customerId}.json`, customerData)
+  .then((response) => {
+    console.log('Cliente actualizado exitosamente:', response);
+  })
+  .catch((error) => {
+    console.error('Error al actualizar el cliente:', error);
+  });
 
-          $.ajax({
-            url:'https://f658fbcdbc8b9dfbd0538748a494c24e:6f04900711c6aa165a698db5814395d5@hilo-cosmetiques.myshopify.com/admin/api/2023-04/customers/'+customerId+'.json',
-            type: 'PUT',
-            cache: false,
-            data: customer_data,
-            dataType: "json",
-            crossDomain: true,
-            success: function(response) {
-              console.log(response);
-            },
-            error: function(response) {
-              console.log("-------------------------------- <ERROR> --------------------------------");
-              console.log(response);
-              console.log("-------------------------------- </ERROR> --------------------------------");
-            }
-          });
 </script>
 
 
