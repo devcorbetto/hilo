@@ -218,6 +218,8 @@
     <button        @click="result =  formData.gender + formData.age +  formData.preoccupations + formData.f21 + formData.f22 +  formData.f23 + formData.f41 + formData.f42 + formData.f43"
       class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
       <span x-text="formData.name"></span>
+
+       
   
 
   <span x-text="result"></span>
@@ -226,6 +228,18 @@
 </div>
 
   </div>
+  <script>
+const apiKey = 'f658fbcdbc8b9dfbd0538748a494c24e';
+const password = '6f04900711c6aa165a698db5814395d5';
+const storeName = 'hilo-cosmetiques.myshopify.com';
+const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
+
+fetch(`https://${apiKey}:${password}@${storeName}/admin/api/2021-09/customers/${customerId}.json`)
+  .then(response => response.json())
+  .then(customer => console.log(customer))
+  .catch(error => console.error(error));
+</script>
+
 
 <style> label {
   display:block;
