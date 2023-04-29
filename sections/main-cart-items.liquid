@@ -523,13 +523,13 @@
 
 
 <script>
-    const addtocart = async (originalProductId, newProductId, forloopindexId) => {
+    const addtocart = async (originalProductId, newProductId, indexItem) => {
       // Obtener la información del carrito actual
       const response = await fetch('/cart.js');
       let { items } = await response.json();
       console.log('response: ', items);
       const newProduct = {
-        ...cart.items[forloopindexId - 1],
+        ...cart.items[indexItem - 1],
         variant_id: newProductId, // Reemplazar el ID del producto
         quantity: 1, // Reemplazar la cantidad del producto
       };
