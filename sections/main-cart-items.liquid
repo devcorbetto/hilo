@@ -524,91 +524,85 @@ content:none !important;
         </div>
 
 
-        <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
-        <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true"
-          role="status">{{ 'accessibility.loading' | t }}</p>
-    </form>
-  </cart-items>
+        <script>
+          const addtocart = async (originalProductId, newProductId, indexItem) => {
+            console.log(typeof originalProductId, typeof newProduct, typeof indexItem)
+            // Obtener la información del carrito actual
+            const response = await fetch('/cart.js');
+            let { items } = await response.json();
+            console.log('response: ', items);
+            const newProduct = {
+              ...cart.items[indexItem - 1],
+              variant_id: newProductId, // Reemplazar el ID del producto
+              quantity: 1, // Reemplazar la cantidad del producto
+            };
+            try {
+              const response = await fetch('/cart/add.js', {
+                method: 'POST',
+                body: JSON.stringify({
+                  id: newProduct.variant_id,
+                  quantity: newProduct.quantity,
+                  properties: newProduct.properties,
+                }),
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+              });
+              const updatedCart = await response.json();
+              console.log('Carrito actualizado: ', updatedCart);
+            } catch (error) {
+              console.error('Error al actualizar el carrito:', error);
+            }
 
-
-  <script>
-    const addtocart = async (originalProductId, newProductId, indexItem) => {
-      // Obtener la información del carrito actual
-      const response = await fetch('/cart.js');
-      let { items } = await response.json();
-      console.log('response: ', items);
-      const newProduct = {
-        ...cart.items[forloopindexId - 1],
-        variant_id: newProductId, // Reemplazar el ID del producto
-        quantity: 1, // Reemplazar la cantidad del producto
-      };
-      try {
-        const response = await fetch('/cart/add.js', {
-          method: 'POST',
-          body: JSON.stringify({
-            id: newProduct.variant_id,
-            quantity: newProduct.quantity,
-            properties: newProduct.properties,
-          }),
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
-        const updatedCart = await response.json();
-        console.log('Carrito actualizado: ', updatedCart);
-      } catch (error) {
-        console.error('Error al actualizar el carrito:', error);
-      }
-
-      try {
-        const response = await fetch('/cart/change.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            quantity: 0,
-            line: indexItem,
-          })
-        });
-        const data = await response.json();
-        console.log('Carrito delete: ', data);
-      } catch (error) {
-        console.error('Error al eliminar el carrito:', error);
-      }
-    }
-  </script>
+            try {
+              const response = await fetch('/cart/change.js', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                  quantity: 0,
+                  line: indexItem,
+                })
+              });
+              const data = await response.json();
+              console.log('Carrito delete: ', data);
+            } catch (error) {
+              console.error('Error al eliminar el carrito:', error);
+            }
+          }
+        </script>
 
 
 
-  {% schema %}
-  {
-  "name": "t:sections.main-cart-items.name",
-  "settings": [
-  {
-  "type": "header",
-  "content": "t:sections.all.padding.section_padding_heading"
-  },
-  {
-  "type": "range",
-  "id": "padding_top",
-  "min": 0,
-  "max": 100,
-  "step": 4,
-  "unit": "px",
-  "label": "t:sections.all.padding.padding_top",
-  "default": 36
-  },
-  {
-  "type": "range",
-  "id": "padding_bottom",
-  "min": 0,
-  "max": 100,
-  "step": 4,
-  "unit": "px",
-  "label": "t:sections.all.padding.padding_bottom",
-  "default": 36
-  }
-  ]
-  }
-  {% endschema %}
+        {% schema %}
+        {
+        "name": "t:sections.main-cart-items.name",
+        "settings": [
+        {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+        },
+        {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+        }
+        ]
+        }
+        {% endschema %}
