@@ -526,7 +526,7 @@ content:none !important;
 
         <script>
           const addtocart = async (originalProductId, newProductId, indexItem) => {
-            console.log(typeof originalProductId, typeof newProductId, typeof indexItem)
+            console.log(typeof originalProductId, originalProductId, typeof newProductId, newProductId, typeof indexItem, indexItem)
             // Obtener la información del carrito actual
             const response = await fetch('/cart.js');
             let { items } = await response.json();
