@@ -237,17 +237,34 @@ const password = '6f04900711c6aa165a698db5814395d5';
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
 
-const headers = new Headers();
-headers.set('Authorization', `Basic ${btoa(`${apiKey}:${password}`)}`);
+var customer_data = {
+            "customer": { 
+              "id":customer_id, 
+              "first_name":firstName,
+              "last_name":lastName, 
+              "phone":phone 
+            } 
+          }
 
-fetch(`https://${storeName}/admin/api/2023-04/customers/${customerId}.json`, {
-  headers: headers
-})
-  .then(response => response.json())
-  .then(customer => console.log(customer))
-  .catch(error => console.error(error));
 
-  
+          $.cookie("session", null);
+
+          $.ajax({
+            url:'https://f658fbcdbc8b9dfbd0538748a494c24e:6f04900711c6aa165a698db5814395d5@hilo-cosmetiques.myshopify.com/admin/api/2023-04/customers/'+customer_id+'.json',
+            type: 'PUT',
+            cache: false,
+            data: customer_data,
+            dataType: "json",
+            crossDomain: true,
+            success: function(response) {
+              console.log(response);
+            },
+            error: function(response) {
+              console.log("-------------------------------- <ERROR> --------------------------------");
+              console.log(response);
+              console.log("-------------------------------- </ERROR> --------------------------------");
+            }
+          });
 </script>
 
 
