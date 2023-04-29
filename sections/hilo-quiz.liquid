@@ -229,16 +229,25 @@
 
   </div>
   <script>
+
+
+
 const apiKey = 'f658fbcdbc8b9dfbd0538748a494c24e';
 const password = '6f04900711c6aa165a698db5814395d5';
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
 
-fetch(`https://${apiKey}:${password}@${storeName}/admin/api/2023-04/customers/${customerId}.json`)
+const headers = new Headers();
+headers.set('Authorization', `Basic ${btoa(`${apiKey}:${password}`)}`);
+
+fetch(`https://${storeName}/admin/api/2023-04/customers/${customerId}.json`, {
+  headers: headers
+})
   .then(response => response.json())
   .then(customer => console.log(customer))
   .catch(error => console.error(error));
-   
+
+  
 </script>
 
 
