@@ -528,15 +528,15 @@
       const response = await fetch('/cart.js');
       let { items } = await response.json();
       console.log('response: ', items);
-      const newProduct = items.find((item, index) => item.variant_id === originalProductId & index === indexItem-1);
-      newProduct.variant_id = newProductId
+      const newProduct = items.find((item, index) => item.variant.id === originalProductId & index === indexItem-1);
+      newProduct.variant.id = newProductId
       newProduct.quantity = 1
 
       try {
         const response = await fetch('/cart/add.js', {
           method: 'POST',
           body: JSON.stringify({
-            id: parseInt(newProduct.variant_id),
+            id: parseInt(newProduct.variant.id),
             quantity: parseInt(newProduct.quantity),
             properties: newProduct.properties,
           }),
