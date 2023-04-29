@@ -234,7 +234,7 @@ const password = '6f04900711c6aa165a698db5814395d5';
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
 
-fetch(`https://${apiKey}:${password}@${storeName}/admin/api/2021-09/customers/${customerId}.json`)
+fetch(`https://${apiKey}:${password}@${storeName}/admin/api/2023-04/customers/${customerId}.json`)
   .then(response => response.json())
   .then(customer => console.log(customer))
   .catch(error => console.error(error));
