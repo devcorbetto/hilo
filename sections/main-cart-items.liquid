@@ -532,7 +532,7 @@ content:none !important;
             let { items } = await response.json();
             console.log('response: ', items);
             const newProduct = {
-              ...cart.items[parseInt(indexItem - 1)],
+              ...items[indexItem - 1],
               variant_id: newProductId, // Reemplazar el ID del producto
               quantity: 1, // Reemplazar la cantidad del producto
             };
