@@ -231,7 +231,7 @@
   <script>
 
 
-function customerupdate(formData) {
+function customerupdate(formData2) {
 
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '{{ customer.id }}'; // replace with the ID of the customer you want to fetch
@@ -255,7 +255,7 @@ const options = {
   },
   body: JSON.stringify({
     metafield: {
-      value: '{"data":"formData"}',
+      value: '{"data":formData2}',
     },
   }),
 };
