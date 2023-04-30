@@ -231,7 +231,10 @@
     <template x-if="formData.age == 25">
         <div>    Piel no madura<br></div>
     </template>
-    Piel Madura<br>
+          <template x-if="formData.age != 25">
+        <div>      Piel Madura<br></div>
+    </template>
+  
 
       </p>
   </div>
