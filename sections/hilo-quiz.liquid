@@ -215,49 +215,7 @@
         </fieldset>
       </div>
 
-    <button        @click="const storeName = 'hilo-cosmetiques.myshopify.com';
-const customerId = '{{ customer.id }}'; // replace with the ID of the customer you want to fetch
-const metafieldId = '29093746475303'; // replace with the ID of the customer you want to fetch
-
-var accessToken = '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';
-
-
-
-// Construir la URL de la API de Shopify para actualizar el cliente
-const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
-
-
-
-// Construct the request options, including the new value of the metafield
-const options = {
-  method: 'PUT',
-  headers: {
-    'Content-Type': 'application/json',
-    'X-Shopify-Access-Token': accessToken,
-  },
-  body: JSON.stringify({
-    metafield: {
-      value: '{"data":"formData"}',
-    },
-  }),
-};
-
-// Send the PUT request to update the customer metafield
-fetch(url, options)
-  .then((response) => {
-    if (response.ok) {
-      return response.json();
-    }
-    throw new Error('Error updating customer metafield');
-  })
-  .then((data) => {
-    console.log('Customer metafield updated successfully:', data);
-  })
-  .catch((error) => {
-    console.error('Error updating customer metafield:', error);
-  });
-
-"
+    <button        @click="customerupdate(formData)"
       class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
    <span x-text="formData.gender + formData.age +  formData.preoccupations + formData.f21 + formData.f22 +  formData.f23 + formData.f41 + formData.f42 + formData.f43"> 
    {% capture formdata %}  
@@ -276,7 +234,7 @@ fetch(url, options)
   <script>
 
 
-function customerupdate() {
+function customerupdate(formData) {
 
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '{{ customer.id }}'; // replace with the ID of the customer you want to fetch
@@ -300,7 +258,7 @@ const options = {
   },
   body: JSON.stringify({
     metafield: {
-      value: '{"data":"2"}',
+      value: '{"data":"formData"}',
     },
   }),
 };
