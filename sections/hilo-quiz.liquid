@@ -264,8 +264,7 @@ const customerData = {
 // Construir la URL de la API de Shopify para actualizar el cliente
 const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
 
-// Construct the URL of the Shopify API endpoint for the customer metafield
-const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
+
 
 // Construct the request options, including the new value of the metafield
 const options = {
@@ -295,8 +294,6 @@ fetch(url, options)
   .catch((error) => {
     console.error('Error updating customer metafield:', error);
   });
-En este ejemplo, se utiliza la misma estructura de solicitud que en el ejemplo anterior, pero en el cuerpo de la solicitud se incluye solo el valor actualizado del metafield. Además, se especifica el ID del metafield en la URL de la solicitud.
-
 
 
 
