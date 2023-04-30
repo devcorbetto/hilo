@@ -2,16 +2,17 @@
 
 {% for step in steps %}
     <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
-<div class="faq{{ forloop.index }} mb-10">
- <fieldset>
+    <div class="faq{{ forloop.index }}  mb-10">
+         <fieldset>
         
         
   
 {% for field in step.fields %}
-<legend>{{ field.label }}</legend>
+
 
 
 {% for option in field.options %}
+  <legend>{{ field.label }}</legend>
 {% if field.type == "radio" %}
 <label>
   <input type="radio" name="age" value="{{ option.value }}"
@@ -22,10 +23,12 @@
   {% else %}
   <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
 {% endif %}
+   </fieldset>
+      </div>
   {% endfor %}
 
-        </fieldset>
- </div>
+ </fieldset>
+      </div>
 {% endfor %}
 
         
