@@ -238,37 +238,50 @@ const customerId = '6953631580455'; // replace with the ID of the customer you w
 const firstName = 'corbetto';
  const lastName = 'test';
 const phone = '123123';
-var accessToken = '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';
+var apiKey2 = '{{ settings.token  }}';
 
+
+// Crear un objeto con los campos que deseas actualizar
 const customerData = {
   customer: {
-    metafields: [
+ 
+      metafields: [
       {
-        key: 'my-key',
-        value: 'my-value',
+        key: 'diagnosticos',
+        value: 'INFORMACION_DE_DIAGNOSTICOS_DEL_CLIENTE',
         value_type: 'string',
-        namespace: 'my-namespace'
+        namespace: 'custom'
       }
     ]
   }
 };
+// Construir la URL de la API de Shopify para actualizar el cliente
+const url = `/admin/api/2023-04/customers/${customerId}.json`;
 
-fetch(apiUrl, {
+// Construir la configuración de la solicitud para actualizar el cliente
+const options = {
   method: 'PUT',
   headers: {
     'Content-Type': 'application/json',
-    'X-Shopify-Access-Token': accessToken
+    'X-Shopify-Access-Token': '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'
   },
   body: JSON.stringify(customerData)
-})
-.then(response => {
-  if (response.ok) {
-    console.log('Metacampos actualizados exitosamente');
-  } else {
-    console.error('Error al actualizar los metacampos del cliente');
-  }
-})
-.catch(error => console.error(error));
+};
+
+// Enviar una solicitud PUT a la API de Shopify para actualizar el cliente
+fetch(url, options)
+  .then((response) => {
+    if (response.ok) {
+      return response.json();
+    }
+    throw new Error('Error al actualizar el cliente');
+  })
+  .then((data) => {
+    console.log('Cliente actualizado exitosamente:', data);
+  })
+  .catch((error) => {
+    console.error('Error al actualizar el cliente:', error);
+  });
 
 </script>
 
