@@ -7,6 +7,9 @@
   
    {% for field in step.fields%}
 {{ field.label }}<br>
+   {% for option in step.fields.option %}
+     {{ option }}<br>
+     {% endfor %}
    
      {% endfor %}
        
