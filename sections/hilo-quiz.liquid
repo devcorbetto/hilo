@@ -214,8 +214,7 @@
             </label>
         </fieldset>
       </div>
-<span x-model="formData2 = formData.gender + formData.age + formData.preoccupations + formData.f21 + formData.f22 + formData.f23 + formData.f41 + formData.f42 + formData.f43"
-  x-text="formData2"></span>
+<span x-model="formData2 = formData.gender + formData.age + formData.preoccupations + formData.f21 + formData.f22 + formData.f23 + formData.f41 + formData.f42 + formData.f43" x-text="formData2"></span>
 
        
     <button        @click="customerupdate(formData2)"
@@ -256,7 +255,7 @@ const options = {
   },
   body: JSON.stringify({
     metafield: {
-      value: {'resultado': 1}
+      value: ´'{"data":formData2}'´,
     },
   }),
 };
