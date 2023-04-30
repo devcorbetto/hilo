@@ -4,7 +4,7 @@
  <fieldset>
             <legend>{{ step.title }}</legend>
            <p>{{ step.label }}</p>
- 
+   <p>{{ step.fields[0].label }}</p>
    {% for field in step.fields%}
 {{ field }}
      {% endfor %}
