@@ -4,8 +4,9 @@
  <fieldset>
             <legend>{{ step.title }}</legend>
            <p>{{ step.label }}</p>
+     {{ step.field.label }}
    {% for field in step.fields%}
-     {{ field.label }}
+   
 <label>
 <input type="radio" name="gender" value="male" x-bind:checked="formData.gender === 'male'" x-on:click="formData.gender = 'male'">
 {{ field.options.label }}
