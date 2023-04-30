@@ -242,25 +242,7 @@ const phone = '123123';
 var accessToken = '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';
 
 
-// Crear un objeto con los campos que deseas actualizar
-const customerData = {
-  customer: {
-    id: customerId,
-    first_name: firstName,
-    last_name: lastName,
-    accepts_marketing: true,
-    metafields: [
-      {
-        id:'3186983207',
-        key: 'diagnosticos',
-        value: '1',
-        value_type: 'string',
-        namespace: 'custom'
-      }
-    ]
-  
-  }
-};
+
 // Construir la URL de la API de Shopify para actualizar el cliente
 const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
 
