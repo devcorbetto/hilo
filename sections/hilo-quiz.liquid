@@ -248,9 +248,16 @@ const customerData = {
     first_name: firstName,
     last_name: lastName,
     accepts_marketing: true,
-      note: {
-    body: 'This is a test note added via the Shopify API'
-  }
+    note_attributes: [
+      {
+        name: 'note1',
+        value: 'This is the first note'
+      },
+      {
+        name: 'note2',
+        value: 'This is the second note'
+      }
+    ]
       
   }
 };
