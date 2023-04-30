@@ -6,7 +6,7 @@
            <p>{{ step.label }}</p>
   
    {% for field in step.fields %}
-
+{{ field.label }}<br>
    {% for option in step.field.option %}
      {{ option }}<br>
      {% endfor %}
