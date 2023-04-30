@@ -7,9 +7,7 @@
   
    {% for field in step.fields %}
          <legend>{{ step.label }}</legend>
-      <label>
-            <input type="radio" name="age" value="25" x-bind:checked="formData.age === 'f25'" x-on:click="formData.age = 'f25'"> -25
-        </label>
+     
 {{ field.label }}<br>
    {% for option in field.options %}
      {{ option.label }}
