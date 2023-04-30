@@ -1,8 +1,19 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
 {% for step in steps %}
-  {{ step }}<br>
-    {{ step.title }}
+ <fieldset>
+            <legend>{{ step.title }}</legend>
+           <p>{{ step.label }}</p>
+              <label>
+      <input type="radio" name="gender" value="male" x-bind:checked="formData.gender === 'male'" x-on:click="formData.gender = 'male'">
+      Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female" x-bind:checked="formData.gender === 'female'" x-on:click="formData.gender = 'female'">
+      Female
+    </label>
+        </fieldset>
+   
   
 {% endfor %}
 
