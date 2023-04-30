@@ -5,9 +5,9 @@
             <legend>{{ step.title }}</legend>
            <p>{{ step.label }}</p>
   
-   {% for field in step.fields%}
-{{ field.label }}<br>
-   {% for option in step.fields.option %}
+   {% for field in step.fields %}
+
+   {% for option in step.field.option %}
      {{ option }}<br>
      {% endfor %}
    
