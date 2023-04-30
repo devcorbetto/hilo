@@ -1,4 +1,4 @@
-{% assign steps = page.metafields.quiz.quiz.steps.value  | json %}
+{% assign steps = page.metafields.quiz.quiz.steps.value  %}
 {% for step in steps %}
   {{ step }}
     {{ step.title }}
