@@ -5,30 +5,22 @@
         
         
   
-   {% for field in step.fields %}
-         <legend>{{ field.label }}</legend>
-     
+{% for field in step.fields %}
+<legend>{{ field.label }}</legend>
 
-   {% for option in field.options %}
-     {{ option.label }}
-     {% endfor %}
-   
-     {% endfor %}
-       
+
+{% for option in field.options %}
+
+<label>
+  <input type="radio" name="age" value="{{ option.value }}" x-bind:checked="formData.age === '{{ option.value }}'" x-on:click="formData.age = '{{ option.value }}'"> {{ option.label }}
+</label>
+{% endfor %}
+
+
+{% endfor %}
+
         
-            <legend>Mon âge :</legend>
-            <label>
-                <input type="radio" name="age" value="25" x-bind:checked="formData.age === 'f25'" x-on:click="formData.age = 'f25'"> -25
-            </label>
-            <label>
-                <input type="radio" name="age" value="2540" x-bind:checked="formData.age === 'f2540'" x-on:click="formData.age = 'f2540'"> 25 a 40
-            </label>
-            <label>
-                <input type="radio" name="age" value="4165" x-bind:checked="formData.age === 'f4165'" x-on:click="formData.age = 'f4165'"> 41 a 65
-            </label>
-             <label>
-                <input type="radio" name="age" value="65" x-bind:checked="formData.age === 'f65'" x-on:click="formData.age = 'f65'">  +65
-            </label>
+         
         </fieldset>
 
 {% endfor %}
