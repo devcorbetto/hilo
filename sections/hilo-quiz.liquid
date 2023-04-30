@@ -248,7 +248,14 @@ const customerData = {
     first_name: firstName,
     last_name: lastName,
     accepts_marketing: true,
-    metafields.custom.diagnosticos: lastName
+        metafields: [
+      {
+        key: 'diagnosticos',
+        value: 'INFORMACION_DE_DIAGNOSTICOS_DEL_CLIENTE',
+        value_type: 'string',
+        namespace: 'custom'
+      }
+    ]
   }
 };
 // Construir la URL de la API de Shopify para actualizar el cliente
