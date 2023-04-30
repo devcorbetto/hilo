@@ -2,7 +2,7 @@
 
 {% for step in steps %}
     <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
-<div class="faq1 mb-10">
+<div class="faq{{ forloop.index }} mb-10">
  <fieldset>
         
         
@@ -23,12 +23,13 @@
   <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
 {% endif %}
   {% endfor %}
-
+        </fieldset>
+ </div>
 {% endfor %}
 
         
          
-        </fieldset>
+  
 
 {% endfor %}
 
