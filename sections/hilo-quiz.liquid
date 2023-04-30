@@ -217,7 +217,8 @@
 
     <button        @click="customerupdate()"
       class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
-   {% capture formdata %}   <span x-text="formData.gender + formData.age +  formData.preoccupations + formData.f21 + formData.f22 +  formData.f23 + formData.f41 + formData.f42 + formData.f43"></span>
+   {% capture formdata %}  
+       <span x-text="formData.gender + formData.age +  formData.preoccupations + formData.f21 + formData.f22 +  formData.f23 + formData.f41 + formData.f42 + formData.f43"></span>
      {% endcapture %}
 
        
