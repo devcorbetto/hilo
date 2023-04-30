@@ -264,33 +264,45 @@ const customerData = {
 // Construir la URL de la API de Shopify para actualizar el cliente
 const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
 
-// Construir la configuración de la solicitud para actualizar el cliente
+// Construct the URL of the Shopify API endpoint for the customer metafield
+const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
+
+// Construct the request options, including the new value of the metafield
 const options = {
   method: 'PUT',
   headers: {
     'Content-Type': 'application/json',
-    'X-Shopify-Access-Token': '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'
+    'X-Shopify-Access-Token': accessToken,
   },
- body: JSON.stringify({
+  body: JSON.stringify({
     metafield: {
       value: 'new-value-for-metafield',
-    })
+    },
+  }),
 };
 
-// Enviar una solicitud PUT a la API de Shopify para actualizar el cliente
+// Send the PUT request to update the customer metafield
 fetch(url, options)
   .then((response) => {
     if (response.ok) {
       return response.json();
     }
-    throw new Error('Error al actualizar el cliente');
+    throw new Error('Error updating customer metafield');
   })
   .then((data) => {
-    console.log('Cliente actualizado exitosamente:', data);
+    console.log('Customer metafield updated successfully:', data);
   })
   .catch((error) => {
-    console.error('Error al actualizar el cliente:', error);
+    console.error('Error updating customer metafield:', error);
   });
+En este ejemplo, se utiliza la misma estructura de solicitud que en el ejemplo anterior, pero en el cuerpo de la solicitud se incluye solo el valor actualizado del metafield. Además, se especifica el ID del metafield en la URL de la solicitud.
+
+
+
+
+
+
+
 
 </script>
 
