@@ -6,7 +6,7 @@
         
   
    {% for field in step.fields %}
-         <legend>{{ field.title }}</legend>
+         <legend>{{ step.label }}</legend>
       <label>
             <input type="radio" name="age" value="25" x-bind:checked="formData.age === 'f25'" x-on:click="formData.age = 'f25'"> -25
         </label>
