@@ -236,7 +236,11 @@ function customerupdate(formData2) {
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '{{ customer.id }}'; // replace with the ID of the customer you want to fetch
 const metafieldId = '29093746475303'; // replace with the ID of the customer you want to fetch
-
+const data = {
+  data: {
+    formData2: formData2
+  }
+};
 var accessToken = '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';
 
 
@@ -255,7 +259,7 @@ const options = {
   },
   body: JSON.stringify({
     metafield: {
-      value: '{"data":formData2}',
+      value: data,
     },
   }),
 };
