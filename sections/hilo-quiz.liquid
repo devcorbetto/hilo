@@ -145,8 +145,8 @@
     <template x-if="['Deshydratation'].some(val => formData.preoccupations.includes(val))">
         <p>Elegiste solo Deshydratation</p>
       </template>
-<span x-modal:formData.preoccupations;
-     
+
+       <span x-text="formData.preoccupations"></span>
 
   </div>
   <script>
