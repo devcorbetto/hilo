@@ -1,12 +1,204 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+         
 
-{% stylesheet %}
-{% endstylesheet %}
+{% comment %}
+   <div class="step1 border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="">
+      <div class="faq1 mb-10">
+         <input id="prenom" type="text" placeholder="Prenom *"  x-model="formData.name">
+      </div>
 
-{% javascript %}
-{% endjavascript %}
+    <div class="faq2 mb-10">
+         <fieldset>
+            <legend>Mon sexe biologique</legend>
+           <p>Biologiquement, les peaux des hommes et les peaux des femmes possèdent certaines différences. Par exemple, les hommes produisent généralement deux fois plus de sébum que les femmes et sont moins sujets à l’état de peau sèche. Nous vous posons cette question afin de vous proposer la meilleure recommandation pour votre soin Hilo.</p>
+              <label>
+      <input type="radio" name="gender" value="male" x-bind:checked="formData.gender === 'male'" x-on:click="formData.gender = 'male'">
+      Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female" x-bind:checked="formData.gender === 'female'" x-on:click="formData.gender = 'female'">
+      Female
+    </label>
+        </fieldset>
+      
+      </div>
+     
+      <div class="faq3 mb-10">
+         <fieldset>
+            <legend>Mon âge :</legend>
+            <label>
+                <input type="radio" name="age" value="25" x-bind:checked="formData.age === 'f25'" x-on:click="formData.age = 'f25'"> -25
+            </label>
+            <label>
+                <input type="radio" name="age" value="2540" x-bind:checked="formData.age === 'f2540'" x-on:click="formData.age = 'f2540'"> 25 a 40
+            </label>
+            <label>
+                <input type="radio" name="age" value="4165" x-bind:checked="formData.age === 'f4165'" x-on:click="formData.age = 'f4165'"> 41 a 65
+            </label>
+             <label>
+                <input type="radio" name="age" value="65" x-bind:checked="formData.age === 'f65'" x-on:click="formData.age = 'f65'">  +65
+            </label>
+        </fieldset>
+      </div>
+      <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
+  </div>
+
+   <div class="step2 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 2" style="background:#f2f8f1; border-color:#cde4ca;">
+
+      <div class="faq1 mb-10">
+          <fieldset>
+            <legend>En général, j'observe que ma peau tiraille...</legend>
+            <label>
+                <input type="radio" name="21" value="21a" x-bind:checked="formData.f21 === 'f21a'" x-on:click="formData.f21 = 'f21a'"> Toute la journée ou souvent
+            </label>
+            <label>
+                <input type="radio" name="21" value="21b" x-bind:checked="formData.f21 === 'f21b'" x-on:click="formData.f21 = 'f21c'"> Rarement ou immédiatement après m'être nettoyé la peau
+            </label>
+            <label>
+                <input type="radio" name="21" value="21c" x-bind:checked="formData.f21 === 'f21c'" x-on:click="formData.f21 = 'f21c'"> Jamais
+            </label>
+        </fieldset>
+      </div>
+
+    <div class="faq2 mb-10 ">
+         <fieldset>
+            <legend>En général, j'observe que ma peau brille...</legend>
+            <label>
+                <input type="radio" name="22" value="22a" x-bind:checked="formData.f22 === 'f22b'" x-on:click="formData.f22 = 'f22c'"> Souvent dés le matin
+            </label>
+            <label>
+                <input type="radio" name="22" value="22b" x-bind:checked="formData.f22 === 'f22b'" x-on:click="formData.f22 = 'f22c'"> Sur la zone T en fin de journée
+            </label>
+            <label>
+                <input type="radio" name="22" value="22c" x-bind:checked="formData.f22 === 'f22c'" x-on:click="formData.f22 = 'f22c'"> Jamais
+            </label>
+        </fieldset>
+      </div>
+      <div class="faq3 mb-10">
+         <fieldset>
+            <legend>En général, j'observe que mon maquillage...</legend>
+            <label>
+                <input type="radio" name="23" value="23a"  x-bind:checked="formData.f23 === 'f23a'" x-on:click="formData.f23 = 'f23a'"> Marque des zones de sécheresse, peluche
+            </label>
+            <label>
+                <input type="radio" name="23" value="23b"  x-bind:checked="formData.f23 === 'f23b'" x-on:click="formData.f23 = 'f23b'"> Ne tient pas dans le temps
+            </label>
+            <label>
+                <input type="radio" name="23" value="23c"  x-bind:checked="formData.f23 === '23c'" x-on:click="formData.f23 = 'f23c'"> Rien à signaler, tout va bien
+            </label>
+            <label>
+                <input type="radio" name="23" value="23d"  x-bind:checked="formData.f23 === '23d'" x-on:click="formData.f23 = 'f23d'">Je n'applique pas de maquillage
+            </label>
+        </fieldset>
+      </div>
+   
+      <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
+  </div>
+
+   <div class="step3 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 3" style="">
+
+    <fieldset class="mb-10">
+            <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
+ <div>
+        <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Imperfections'" x-on:click="formData.preoccupations = 'Imperfections'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Imperfections">Imperfections</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
+        x-model="selected"
+           x-bind:checked="formData.preoccupations === 'Signes de lage'" x-on:click="formData.preoccupations = 'Signes de lage'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Signes de lage">Signes de l'âge</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Déshydratation" name="Déshydratation" value="Déshydratation"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Déshydratation'" x-on:click="formData.preoccupations = 'Déshydratation'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Déshydratation">Déshydratation</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Rougeurs'" x-on:click="formData.preoccupations = 'Rougeurs'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Eclat">Eclat</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
+        x-model="selected"
+
+          x-bind:checked="formData.preoccupations === 'Brillancee'" x-on:click="formData.preoccupations = 'Brillance'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Brillance">Brillance</label>
+    </div>
+</fieldset>
+
+  
+   
+      <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
+   </div>
+     <div class="step4 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 4" style=""> 
+     <div class="faq1 mb-10">
+     <fieldset>
+            <legend>Je n'applique pas de maquillage</legend>
+            <label>
+                <input type="radio" name="41 value="41a"  x-bind:checked="formData.f41 === 'f41a'" x-on:click="formData.f41 = 'f41a'"> Oui
+            </label>
+            <label>
+                <input type="radio" name="41" value="41b" x-bind:checked="formData.f41 === '41b'" x-on:click="formData.f41 = 'f41b'"> Noun
+            </label>
+            <label>
+                <input type="radio" name="41" value="41c" x-bind:checked="formData.f41 === '41c'" x-on:click="formData.f41 = 'f41c'"> Je ne sais pas
+            </label>
+        </fieldset>
+     </div>
+    <div class="faq2 mb-10">
+         <fieldset>
+            <legend>En ce moment, j’observe des ridules de déshydratation autours de mes yeux et sur mon front (qui s’atténuent une fois la peau bien hydratée)</legend>
+             <label>
+                <input type="radio" name="42" value="42a"  x-bind:checked="formData.f42 === 'f42a'" x-on:click="formData.f42 = 'f42a'"> Oui
+            </label>
+            <label>
+                <input type="radio" name="42" value="42b" x-bind:checked="formData.f42 === 'f42b'" x-on:click="formData.f42 = 'f42b'"> Noun
+            </label>
+            <label>
+                <input type="radio" name="42" value="42c" x-bind:checked="formData.f42 === 'f42c'" x-on:click="formData.f42 = 'f42c'"> Je ne sais pas
+            </label>
+        </fieldset>
+      </div>
+      <div class="faq3 mb-10">
+         <fieldset>
+            <legend>En ce moment, je constate des zones de sécheresse au niveau des sourcils et des ailes du nez :</legend>
+             <label>
+                <input type="radio" name="43" value="43a"  x-bind:checked="formData.f43 === 'f43a'" x-on:click="formData.f43 = 'f43a'"> Oui
+            </label>
+            <label>
+                <input type="radio" name="43" value="43b" x-bind:checked="formData.f43 === 'f432b'" x-on:click="formData.f43 = 'f42b'"> Noun
+            </label>
+            <label>
+                <input type="radio" name="43" value="43c" x-bind:checked="formData.f43 === 'f43c'" x-on:click="formData.f43 = 'f43c'"> Je ne sais pas
+            </label>
+        </fieldset>
+      </div>
+<span x-model="formData2 = formData.gender + formData.age + formData.preoccupations + formData.f21 + formData.f22 + formData.f23 + formData.f41 + formData.f42 + formData.f43" x-text="formData2"></span>
+
+       
+    <button  @click="customerupdate(formData2)"
+      class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
+ 
+  {% endcomment %}
