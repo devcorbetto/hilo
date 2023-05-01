@@ -228,7 +228,11 @@ details[open].menu-opening > .menu-drawer__submenu {
   font-size: 1.4rem;
   color: rgb(var(--color-foreground));
 }
-
+@media screen and (max-width: 649px) {
+  .menu-drawer__account svg{
+    height: 35px;
+  }
+}
 .menu-drawer__account .icon-account {
   height: 2rem;
   width: 2rem;

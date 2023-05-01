@@ -21,7 +21,12 @@
   padding-right: 2.6rem;
   color: rgb(var(--color-foreground));
 }
-
+@media screen and (max-width: 649px) {
+  .list-social__link svg{
+    width: 30px;
+    height: 30px;
+  }
+}
 .list-social__link:hover .icon {
   transform: scale(1.07);
 }
