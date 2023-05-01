@@ -21,7 +21,7 @@
 
         {% for step in steps %}
         <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === {{ forloop.index }}">
-          {% if step == 3  %}
+          {% if forloop.index == 3  %}
 
     <fieldset class="mb-10">
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
