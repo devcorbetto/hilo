@@ -112,6 +112,20 @@
     <p>Primeros Casos:<br> </p>
     <template x-if="formData.age == 'f25'">
         <div>    Piel no madura<br></div>
+      <p>tipo de piel</p>
+        <template x-if="formData.age == 'f25'">
+          <p>piel seca</p>
+        </template>
+        <template x-if="formData.age == 'f25'">
+          <p>piel mixta</p>
+        </template>
+        <template x-if="formData.age == 'f25' &&  formData.f21 == 'f21c'  && formData.f22 == 'f22c'&&  formData.f23 == 'f23ac'">
+          <p>piel normale</p>
+        </template>
+       <template x-if="formData.age == 'f25'">
+          <p>grasa</p>
+        </template>
+      
     </template>
           <template x-if="formData.age != 'f25'">
         <div>      Piel Madura<br></div>
