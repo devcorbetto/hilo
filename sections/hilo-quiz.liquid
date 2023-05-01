@@ -138,11 +138,11 @@
           <p>es brillance o Déshydratation</p>
         </template>
       
-      <template x-if="['Brillance'].some(val => formData.preoccupations.includes(val))">
+      <template x-if="['Brillance'].some(val => selected.includes(val))">
         <p>Elegiste solo Brillance</p>
       </template>
 
-    <template x-if="['Deshydratation'].some(val => formData.preoccupations.includes(val))">
+    <template x-if="['Deshydratation'].some(val => selected.includes(val))">
         <p>Elegiste solo Deshydratation</p>
       </template>
 
