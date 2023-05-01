@@ -1,5 +1,25 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
-{% for step in steps %}
+
+
+<div class="page-width " x-data="{ formData2 : '' , result: '', formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
+  <div class="etapas grid grid-cols-4 text-center justify-center">
+  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " @click="step = 1;" :class="{ 'active-step': step === 1 }">
+  1
+  </div>
+  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10" @click="step = 2;" :class="{ 'active-step': step === 2 }">
+  2
+  </div>
+  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10" @click="step = 3;" :class="{ 'active-step': step === 3 }">
+  3
+  </div>
+  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10" @click="step = 4;" :class="{ 'active-step': step === 4}">
+  4
+  </div>
+</div>
+
+<div class="form-quiz">
+
+  {% for step in steps %}
 <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
 {% for field in step.fields %}
     <div class="faq{{ forloop.index }}  mb-10">
@@ -29,25 +49,9 @@
 </div>
 {% endfor %}
 
-<div class="page-width " x-data="{ formData2 : '' , result: '', formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
-  <div class="etapas grid grid-cols-4 text-center justify-center">
-  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " @click="step = 1;" :class="{ 'active-step': step === 1 }">
-  1
-  </div>
-  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10" @click="step = 2;" :class="{ 'active-step': step === 2 }">
-  2
-  </div>
-  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10" @click="step = 3;" :class="{ 'active-step': step === 3 }">
-  3
-  </div>
-  <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10" @click="step = 4;" :class="{ 'active-step': step === 4}">
-  4
-  </div>
-</div>
+         
 
-<div class="form-quiz">
-
-
+{% comment %}
    <div class="step1 border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
       <div class="faq1 mb-10">
          <input id="prenom" type="text" placeholder="Prenom *"  x-model="formData.name">
@@ -248,7 +252,7 @@
     <button  @click="customerupdate(formData2)"
       class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
  
-  
+  {% endcomment %}
 
   <span x-text="result"></span>
   </div>
