@@ -146,7 +146,7 @@
       <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
   </div>
 
-   <div class="step3 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 3" style="border-color:#b7daf3; background:#eef6fc;">
+   <div class="step3 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 3" style="">
 
     <fieldset class="mb-10">
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
@@ -204,7 +204,7 @@
    
       <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
    </div>
-     <div class="step4 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 4" style="border-color:#F8C8D3; background:#FDEDF1;"> 
+     <div class="step4 border-2  rounded-sm border-teal-600 bg-teal-300 p-20 m-20" x-show="step === 4" style=""> 
      <div class="faq1 mb-10">
      <fieldset>
             <legend>Je n'applique pas de maquillage</legend>
@@ -335,12 +335,14 @@ customerupdate()
  background:#fdf8ed; border-color:#f5dfa5;
   }
   .step2 {
-    
+    background:#f2f8f1; border-color:#cde4ca;
   }
   .step3 {
+    border-color:#b7daf3; background:#eef6fc;
     
   }
   .step4 {
+    border-color:#F8C8D3; background:#FDEDF1;
   }
   
   label {
