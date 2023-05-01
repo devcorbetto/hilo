@@ -139,9 +139,12 @@
         </template>
       
       <template x-if="['Brillance'].some(val => formData.preoccupations.includes(val))">
-        <p>Elegiste Brillance</p>
+        <p>Elegiste solo Brillance</p>
       </template>
 
+    <template x-if="['Deshydratation'].some(val => formData.preoccupations.includes(val))">
+        <p>Elegiste solo Deshydratation</p>
+      </template>
 
      
 
