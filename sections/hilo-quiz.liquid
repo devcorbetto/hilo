@@ -1,7 +1,7 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
 
-<div class="page-width " x-data="{ formData2 : '' , result: '', formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
+<div class="page-width " x-data="{ formData2 : '' , result: { ing1: '', ing2: '', ing3: ''}, formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
   <div class="etapas grid grid-cols-4 text-center justify-center">
   <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " @click="step = 1;" :class="{ 'active-step': step === 1 }">
   1
