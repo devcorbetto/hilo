@@ -62,8 +62,14 @@
           <template x-if="formData.age != 'f25'">
         <div>      Piel Madura<br></div>
     </template>
-  <template x-if="formData.age == '25' && formData.f21 == 'f21c'">
+  <template x-if="formData.age == '25' && formData.f21 == 'f21a'">
         <div>    Piel no madura y la respuesta f21 es c<br></div>
+    </template>
+      <template x-if="formData.age == '25' && formData.f21 == 'f21b'">
+        <div>    Piel no madura y la respuesta f21 es a<br></div>
+    </template>
+        <template x-if="formData.age == '25' && formData.f21 == 'f21c'">
+        <div>    Piel no madura y la respuesta f21 es a<br></div>
     </template>
 
   </div>
