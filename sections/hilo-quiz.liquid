@@ -19,7 +19,10 @@
        <fieldset>
        </div>
    {% endfor %}
-     <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
+     {% if forloop.index == 3  %}
+       <button  @click="customerupdate(formData2)"
+      class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
+    {% endif %}
 </div>
 {% endfor %}
 
