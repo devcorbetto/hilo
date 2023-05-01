@@ -42,11 +42,11 @@
     </div>
 
     <div>
-        <input type="checkbox" id="Déshydratation" name="Déshydratation" value="Déshydratation"
+        <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation"
         x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Déshydratation'" x-on:click="formData.preoccupations = 'Déshydratation'"
+          x-bind:checked="formData.preoccupations === 'Deshydratation'" x-on:click="formData.preoccupations = 'Deshydratation'"
         x-on:change="if (selected.length > 3) { selected.pop(); }">
-        <label for="Déshydratation">Déshydratation</label>
+        <label for="Deshydratation">Déshydratation</label>
     </div>
 
     <div>
@@ -133,7 +133,7 @@
         </template>
 
        
-         <template  x-if="formData.preoccupations.includes == 'brillance' || formData.preoccupations.includes == 'Déshydratation' ">
+         <template  x-if="formData.preoccupations.includes == 'Brillancee' || formData.preoccupations.includes == 'Deshydratation' ">
           <p>es brillance o Déshydratation</p>
         </template>
       
