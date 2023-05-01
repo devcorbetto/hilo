@@ -120,10 +120,11 @@
       
      <template x-if="formData.f21 == 'f21c'  && formData.f22 == 'f22c' &&  formData.f23 == 'f23c'">
           <p>piel normale</p>
-      
+          </template>
         <template  x-if="formData.f21 == 'f21a'  && formData.f22 == 'f22a' &&  formData.f23 == 'f23b'">
           <p>piel seca</p>
         </template>
+       
         <template  x-if="formData.f21 == 'f21b'  && formData.f22 == 'f22b' &&  formData.f23 == 'f23b'">
           <p>piel mixta</p>
         </template>
@@ -132,7 +133,7 @@
           <p>grasa</p>
         </template>
 
-
+   
          <template  x-if="formData.preoccupations.includes == 'Brillancee' || formData.preoccupations.includes == 'Deshydratation' ">
           <p>es brillance o Déshydratation</p>
         </template>
