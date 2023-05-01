@@ -139,11 +139,11 @@
         </template>
       
       <template x-if="['Brillance'].some(val => selected.includes(val))">
-        <p>Elegiste solo Brillance</p>
+    
       </template>
 
-    <template x-if="['Deshydratation'].some(val => selected.includes(val))">
-        <p>Elegiste solo Deshydratation</p>
+    <template x-if="['Deshydratation'].some(val => selected.includes(val)) || ['Brillance'].some(val => selected.includes(val))">
+        <p>Elegiste Deshydratation o Brillance</p>
       </template>
 
      <div x-text="selected"></div>
