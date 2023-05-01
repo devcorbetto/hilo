@@ -53,7 +53,7 @@
          
 
 {% comment %}
-   <div class="step1 border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
+   <div class="step1 border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="">
       <div class="faq1 mb-10">
          <input id="prenom" type="text" placeholder="Prenom *"  x-model="formData.name">
       </div>
@@ -330,7 +330,20 @@ customerupdate()
 </script>
 
 
-<style> label {
+<style>
+  .step1 {
+ background:#fdf8ed; border-color:#f5dfa5;
+  }
+  .step2 {
+    
+  }
+  .step3 {
+    
+  }
+  .step4 {
+  }
+  
+  label {
   display:block;
 }
   legend {
