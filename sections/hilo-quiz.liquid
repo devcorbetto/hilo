@@ -2,8 +2,9 @@
 
 {% for step in steps %}
     <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
-            <div class="faq{{ forloop.index }}  mb-10">
+  
             {% for field in step.fields %}
+                        <div class="faq{{ forloop.index }}  mb-10">
                 <fieldset>
                 <legend>{{ field.label }}</legend>
 
@@ -24,7 +25,7 @@
                
             {% endfor %}
    <fieldset>
-               </div>
+            
     </div>
 {% endfor %}
 
