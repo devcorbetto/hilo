@@ -1,25 +1,40 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
+
 {% for step in steps %}
-<div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
-{% for field in step.fields %}
+    <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
     <div class="faq{{ forloop.index }}  mb-10">
-     <fieldset>
-     <legend>{{ field.label }}</legend>
-     {% for option in field.options %}
-     {% if field.type == "radio" %}
-     <label>
-     <input type="radio" name="age" value="{{ option.value }}"
-        x-bind:checked="formData.age === '{{ option.value }}'" 
-        x-on:click="formData.age = '{{ option.value }}'"> {{ option.label }}
-     </label>
-     {% else %}
-     <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
-     {% endif %}
-     {% endfor %}
-       <fieldset>
-       </div>
-   {% endfor %}
-</div>
+     
+        
+        
+  
+{% for field in step.fields %}
+    <fieldset>
+  <legend>{{ field.label }}</legend>
+
+{% for option in field.options %}
+
+{% if field.type == "radio" %}
+<label>
+  <input type="radio" name="age" value="{{ option.value }}"
+         x-bind:checked="formData.age === '{{ option.value }}'" 
+         x-on:click="formData.age = '{{ option.value }}'"> {{ option.label }}
+</label>
+
+  {% else %}
+  <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
+{% endif %}
+   </fieldset>
+      </div>
+  {% endfor %}
+
+
+      </div>
+{% endfor %}
+
+        
+         
+  
+
 {% endfor %}
 
 <div class="page-width " x-data="{ formData2 : '' , result: '', formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
