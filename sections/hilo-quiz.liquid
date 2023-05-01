@@ -69,7 +69,7 @@
         <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
         x-model="selected"
 
-          x-bind:checked="formData.preoccupations === 'Brillancee'" x-on:click="formData.preoccupations = 'Brillance'"
+          x-bind:checked="formData.preoccupations === 'Brillance'" x-on:click="formData.preoccupations = 'Brillance'"
         x-on:change="if (selected.length > 3) { selected.pop(); }">
         <label for="Brillance">Brillance</label>
     </div>
@@ -138,8 +138,8 @@
           <p>es brillance o Déshydratation</p>
         </template>
       
-      <template x-if="['Brillancee'].some(val => formData.preoccupations.includes(val))">
-        <p>Elegiste Brillancee</p>
+      <template x-if="['Brillance'].some(val => formData.preoccupations.includes(val))">
+        <p>Elegiste Brillance</p>
       </template>
 
 
