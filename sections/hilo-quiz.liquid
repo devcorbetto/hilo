@@ -1,43 +1,7 @@
-{% assign steps = page.metafields.quiz.quiz.value  %}
-
-{% for step in steps %}
-    <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === 1" style="background:#fdf8ed; border-color:#f5dfa5;">
-    <div class="faq{{ forloop.index }}  mb-10">
-     
-        
-        
-  
-{% for field in step.fields %}
-    <fieldset>
-  <legend>{{ field.label }}</legend>
-
-{% for option in field.options %}
-
-{% if field.type == "radio" %}
-<label>
-  <input type="radio" name="age" value="{{ option.value }}"
-         x-bind:checked="formData.age === '{{ option.value }}'" 
-         x-on:click="formData.age = '{{ option.value }}'"> {{ option.label }}
-</label>
-
-  {% else %}
-  <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
-{% endif %}
-   </fieldset>
-      </div>
-  {% endfor %}
 
 
-      </div>
-{% endfor %}
 
-        
-         
-  
-
-{% endfor %}
-
-<div class="page-width " x-data="{ formData2 : '' , result: '', formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
+<div class="page-width " x-data="{ formData2 : '' , result: '', formData: {  name: '', gender: '', age: '', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
   <div class="etapas grid grid-cols-4 text-center justify-center">
   <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " @click="step = 1;" :class="{ 'active-step': step === 1 }">
   1
@@ -253,7 +217,7 @@
 <span x-model="formData2 = formData.gender + formData.age + formData.preoccupations + formData.f21 + formData.f22 + formData.f23 + formData.f41 + formData.f42 + formData.f43" x-text="formData2"></span>
 
        
-    <button  @click="customerupdate(formData2)"
+    <button        @click="customerupdate(formData2)"
       class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
  
   
@@ -262,19 +226,6 @@
   </div>
 
 </div>
-  <div style="margin-bottom:500px;">
-    <p>Primeros Casos:<br>
-    <template x-if="formData.age == 'f25'">
-        <div>    Piel no madura<br></div>
-    </template>
-          <template x-if="formData.age != 'f25'">
-        <div>      Piel Madura<br></div>
-    </template>
-
-  
-
-      </p>
-  </div>
 
   </div>
   <script>
@@ -304,7 +255,7 @@ const options = {
   },
   body: JSON.stringify({
     metafield: {
-      value: 'valor enviado y registrado en metafield',
+      value: '{"data":"$formData2"}',
     },
   }),
 };
@@ -327,7 +278,7 @@ fetch(url, options)
 
 };
 
-customerupdate()
+
 
 
 </script>
