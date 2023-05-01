@@ -21,6 +21,60 @@
 
         {% for step in steps %}
         <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20" x-show="step === {{ forloop.index }}">
+          {% if step == 3  %}
+
+    <fieldset class="mb-10">
+            <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
+ <div>
+        <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Imperfections'" x-on:click="formData.preoccupations = 'Imperfections'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Imperfections">Imperfections</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
+        x-model="selected"
+           x-bind:checked="formData.preoccupations === 'Signes de lage'" x-on:click="formData.preoccupations = 'Signes de lage'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Signes de lage">Signes de l'âge</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Déshydratation" name="Déshydratation" value="Déshydratation"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Déshydratation'" x-on:click="formData.preoccupations = 'Déshydratation'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Déshydratation">Déshydratation</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Rougeurs'" x-on:click="formData.preoccupations = 'Rougeurs'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
+        x-model="selected"
+          x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Eclat">Eclat</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
+        x-model="selected"
+
+          x-bind:checked="formData.preoccupations === 'Brillancee'" x-on:click="formData.preoccupations = 'Brillance'"
+        x-on:change="if (selected.length > 3) { selected.pop(); }">
+        <label for="Brillance">Brillance</label>
+    </div>
+</fieldset>
+            {% else %}
         {% for field in step.fields %}
             <div class="faq{{ forloop.index }}  mb-10">
              <fieldset>
@@ -45,7 +99,7 @@
                 <button  @click="customerupdate(formData2)"
               class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
             {% endif %}
-            
+              {% endif %}
         </div>
         {% endfor %}
 </div>
