@@ -152,17 +152,16 @@
 
   </div>
   <script>
+  {% comment %} 
 
 
-2° data, id customer -> via api aws.
-3° APP -> conectar a la api con put.
 
 function customerupdate(formData2) {
 
 const storeName = 'hilo-cosmetiques.myshopify.com';
 const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
 const metafieldId = '29093746475303'; // replace with the ID of the customer you want to fetch
-var accessToken = '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';
+var accessToken = '';
 
 // Construir la URL de la API de Shopify para actualizar el cliente
 const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
@@ -198,7 +197,7 @@ fetch(url, options)
 
 
 };
-
+{% endcomment %}
 
 
 </script>
