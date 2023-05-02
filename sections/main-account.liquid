@@ -195,7 +195,7 @@
                              
                               
                               {% for diagnostic in diagnostics %}
-                                 <p class="text-center">Selon mon diagnostic favori pour    {{ diagnostic.options.name }} réalisé le 24/10/2022</p>
+                                 <p class="text-center">Selon mon diagnostic favori pour    {{ diagnostic.name }} réalisé le {{ diagnostic.date }}</p>
                                 {{ diagnostic }}
                                 {% endfor %}
 
