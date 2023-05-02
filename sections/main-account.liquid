@@ -193,7 +193,7 @@
 
                               <p class="text-center">Selon mon diagnostic favori pour Ana réalisé le 24/10/2022</p>
                               {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
-                              {% for diagnostic in diagnostic %}
+                              {% for diagnostic in diagnostics %}
                                 {{ diagnostic }}
                                 {% endfor %}
 
