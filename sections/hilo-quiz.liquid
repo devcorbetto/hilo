@@ -10,7 +10,7 @@
   "ingrediente3":"Amande"
   }  }]
   {% endcapture %}
-  {% assign resultado = resultadoj | json  %}
+  {% assign resultado = resultadoj  %}
 
 {{ resultado.options.ingrediente1 }}
 <div class="page-width " x-data="{ formData2 : '' , result: { ing1: '', ing2: '', ing3: ''}, formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
