@@ -1,5 +1,12 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
-
+<script>
+var object = {}
+{% for variant in product.variants %}
+  object['{{ variant.id }}'] = "{{ variant.title }}"
+{% endfor %}
+console.log(object)
+</script>
+{{ object }}
 {% capture resultado_json %}
   {
     "diagnostic": "1",
