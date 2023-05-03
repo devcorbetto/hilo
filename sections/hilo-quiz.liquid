@@ -13,7 +13,10 @@
     }
   }
 {% endcapture %}
-
+{% assign array = '["Steve", "Bill", "Larry"]' | json_parse %}
+{{ array[0] }} // Steve
+{% assign object = '{"name": "Steve", "age": 60}' | json_parse %}
+{{ object.name }} // Steve
 {% assign resultado = resultado_json | parse_json %}
 {{ resultado[0].name }}
 {% for resultad in resultado.value %}
