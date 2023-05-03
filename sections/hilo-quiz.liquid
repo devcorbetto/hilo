@@ -12,7 +12,7 @@
     }
   }
 {% endcapture %}
-
+{{ resultado_json.value}}
 {% assign resultado = resultado_json | parse_json  %}
 {{ resultado.value }}
 {{ resultado.name }}
