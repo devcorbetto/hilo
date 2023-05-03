@@ -1,5 +1,5 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
-{% assign resultadoos = ' {
+{% assign resultadoos = ' [{
     "diagnostic": "1",
     "date": "02/05/2023",
     "name": "Ana",
@@ -8,7 +8,7 @@
       "ingrediente2": "Argan",
       "ingrediente3": "Amande"
     }
-  }' %} 
+  }]' %} 
 {% assign resultadoo = resultadoos | json_string %}
 n: {{ resultadoo.name }}<br>
 {{ resultadoo }}
