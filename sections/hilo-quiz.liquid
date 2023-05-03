@@ -1,8 +1,9 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
-{% assign resultadoos = ' [{    "diagnostic": "1",    "date": "02/05/2023",    "name": "Ana",    "options": {      "ingrediente1": "Onagre",      "ingrediente2": "Argan",      "ingrediente3": "Amande"    }  }]' %}
-{% assign resultadoo = resultadoos | json_string %}
-n: {{ resultadoo[0].name }}<br>
-{{ resultadoo }}
+{% assign json_string = '{"name": "John", "age": 30, "email": "john@example.com"}' %}
+{% assign json_object = json_string | json %}
+{{ json_object.name }}
+{{ json_object.age }}
+{{ json_object.email }}
 <hr>
 {% capture resultado_json %}
  
