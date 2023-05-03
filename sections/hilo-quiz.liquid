@@ -14,7 +14,8 @@
 {% endcapture %}
 
 {% assign resultado = resultado_json | parse_json  %}
-{% for resultad in resultado.value %}
+{{ resultado[0].name }}
+{% for resultad in resultado %}
  name: {{ resultad.name }} 
   {% endfor %}<br>
 resultado :{{ resultado }}<br>
