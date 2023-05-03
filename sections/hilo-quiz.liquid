@@ -76,6 +76,7 @@
         x-on:change="if (selected.length > 3) { selected.pop(); }">
         <label for="Brillance">Brillance</label>
     </div>
+        <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
 </fieldset>
             {% else %}
         {% for field in step.fields %}
