@@ -1,14 +1,14 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
 {% capture  resultadoj %}
-  {"diagnostic":"1",
+  [{"diagnostic":"1",
   "date":"02/05/2023",
   "name":"Ana",
   "options":{
   "ingrediente1":"Onagre",
   "ingrediente2":"Argan",
   "ingrediente3":"Amande"
-  }  }
+  }  }]
   {% endcapture %}
   {% assign resultado = resultadoj | json  %}
 
