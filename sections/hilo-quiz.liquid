@@ -96,9 +96,9 @@
                <fieldset>
                </div>
            {% endfor %}
-           {% if forloop.index != 4  %}
+           {% if forloop.index != 5  %}
          <button @click="step++;"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Siguiente</button>
-                 {% else == 4 %}
+                 {% else == 5 %}
                 <button  @click="customerupdate(formData2)"
               class="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded">Finalizar</button>
             {% endif %}
@@ -218,6 +218,9 @@ fetch(url, options)
     
   }
   .step4 {
+    border-color:#F8C8D3; background:#FDEDF1;
+  }
+   .step5 {
     border-color:#F8C8D3; background:#FDEDF1;
   }
   
