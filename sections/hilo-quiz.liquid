@@ -117,7 +117,7 @@
       <template  x-if="formData.f31 == 'f31a'  && formData.f32 == 'f32a' &&  formData.f33 == 'f33a'">
           <p>Piel Deshidratada</p>
         </template>
-      <template  x-if="formData.f31 != 'f31a'  && formData.f32 != 'f32a' &&  formData.f33 != 'f33a'">
+      <template  x-if="formData.f31 != 'f31a' || formData.f32 != 'f32a' ||  formData.f33 != 'f33a'">
           <p>Piel No Deshidratada</p>
         </template>
 
