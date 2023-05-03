@@ -2,7 +2,7 @@
 {% assign my_json = '[{"diagnostic":"1","date":"02/05/2023","name":"Ana","options":{"ingrediente1":"Onagre","ingrediente2":"Argan","ingrediente3":"Amande"}},{"diagnostic":"1","date":"02/05/2023","name":"Ana","options":{"ingrediente1":"Onagre","ingrediente2":"Argan","ingrediente3":"Amande"}}]' | json %}
 
 
-{{ my_json.name }}
+{{ my_json[0].name }}
 {{ my_json.age }}
 {{ my_json.email }}
 <hr>
