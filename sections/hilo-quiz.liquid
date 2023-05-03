@@ -1,10 +1,17 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
 {% capture  resultado %}
-  {"diagnostic":"1","date":"02/05/2023","name":"Ana","options":{"ingrediente1":"Onagre","ingrediente2":"Argan","ingrediente3":"Amande"}}
+  "diagnostic":"1",
+  "date":"02/05/2023",
+  "name":"Ana",
+  "options":{
+  "ingrediente1":"Onagre",
+  "ingrediente2":"Argan",
+  "ingrediente3":"Amande"
+  }
   {% endcapture %}
-{{ resultado.value }}
-{{ resultado.name }}
+{{ resultado | json }}
+{{ resultado.name | json }}
 {{ resultado.options.ingrediente1 }}
 <div class="page-width " x-data="{ formData2 : '' , result: { ing1: '', ing2: '', ing3: ''}, formData: {  name: '', gender: '', age: 'f25', f21: '', f22: '', f23: '', preoccupations: '', f41: '', f42: '', f43: ''}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
   <div class="etapas grid grid-cols-4 text-center justify-center">
