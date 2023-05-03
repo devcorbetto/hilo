@@ -9,9 +9,9 @@
       "ingrediente3": "Amande"
     }
   }' %} 
-{% assign resultadoo = resultadoos | parse_json %}
-n: {{ resultadoo.name }}<br>
-{{ resultadoo}}
+{% assign resultadoo = resultadoos | json %}
+n: {{ resultadoo.value.name }}<br>
+{{ resultadoo }}
 <hr>
 {% capture resultado_json %}
  
