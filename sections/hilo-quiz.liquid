@@ -109,8 +109,8 @@
 
   <div class="step6 " x-show="step === 6">
     {% if customer %}
-    <div class="div-with-svg"> <h2>{{ customer.first_name }}, VOICI VOS RESULTATS :</h2>
-      <p>Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
+    <div class="div-with-svg"> <h2 class="text-left">{{ customer.first_name }}, VOICI VOS RESULTATS :</h2>
+      <p class="text-left">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
     </div>
     <div class="two-columns flex gap-x-5">
       <div class="one-column border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
@@ -146,13 +146,14 @@
 
       </div>
             </div>
+            <div class="container-routine mt-20">
       <h2 class="text-center">VOTRE ROUTINE PERSONNALISEE</h2>
       <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
       <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
         Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
       <a href="#" class="button btn">J'ajoute ma routine au panier</a>
     </div>
-      
+        </div>
       {% else %}
       Registrarse
       {% endif %}
