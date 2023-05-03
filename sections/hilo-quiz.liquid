@@ -1,6 +1,12 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
 {% assign my_json = '[{"diagnostic":"1","date":"02/05/2023","name":"Ana","options":{"ingrediente1":"Onagre","ingrediente2":"Argan","ingrediente3":"Amande"}},{"diagnostic":"1","date":"02/05/2023","name":"Ana","options":{"ingrediente1":"Onagre","ingrediente2":"Argan","ingrediente3":"Amande"}}]' | json %}
-
+{% for obj in my_json.value %}
+  <p>Name: {{ obj.name }}</p>
+  <p>Date: {{ obj.date }}</p>
+  <p>Ingredient 1: {{ obj.options.ingrediente1 }}</p>
+  <p>Ingredient 2: {{ obj.options.ingrediente2 }}</p>
+  <p>Ingredient 3: {{ obj.options.ingrediente3 }}</p>
+{% endfor %}
 
 {{ my_json[0].name }}
 {{ my_json.age }}
