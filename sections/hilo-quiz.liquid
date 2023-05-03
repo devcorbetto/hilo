@@ -107,13 +107,13 @@
         </div>
         {% endfor %}
 
-  <div class="step6 border-2  rounded-sm  p-20 m-20" x-show="step === 6">
+  <div class="step6 " x-show="step === 6">
     {% if customer %}
     <div class="div-with-svg"> <h2>{{ customer.first_name }}, VOICI VOS RESULTATS :</h2>
       <p>Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
     </div>
     <div class="two-columns">
-      <div class="one-column ">
+      <div class="one-column border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
         <h3>          VOS TENDANCES DE PEAU DU MOMENT        </h3>
         <p>✨ Vous avez une peau à tendance mixte. Ce type de peau est complexe car c’est un mélange de différentes caractéristiques de peau en fonction des zones du visage. La peau est généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des imperfections.
         </p>
@@ -121,9 +121,9 @@
         <p>✨ Votre peau est déshydratée. Elle manque d’eau, ce qui altère le film hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.</p>
         
       </div>
-      <div class="one-column result">
-        <h3>VOTRE MATCH PARFAIT DU MOMENT</h3>
-        <p>Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
+      <div class="one-column result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
+        <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
+        <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
         <div class="container-result">
           <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
           </div>
@@ -140,9 +140,9 @@
           
         </div>
       </div>
-      <h2>VOTRE ROUTINE PERSONNALISEE</h2>
-      <p>Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
-      <p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
+      <h2 class="text-center">VOTRE ROUTINE PERSONNALISEE</h2>
+      <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
+      <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
         Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
       <a href="#" class="button btn">J'ajoute ma routine au panier</a>
     </div>
