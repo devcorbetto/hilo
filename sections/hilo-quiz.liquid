@@ -1,8 +1,5 @@
 {% assign steps = page.metafields.quiz.quiz.value  %}
-
-
-{% capture resultado_json %}
-  {
+{% assign resultadoos = ' {
     "diagnostic": "1",
     "date": "02/05/2023",
     "name": "Ana",
@@ -11,12 +8,12 @@
       "ingrediente2": "Argan",
       "ingrediente3": "Amande"
     }
-  }
+  }' %} 
+
+{% capture resultado_json %}
+ 
 {% endcapture %}
-{% assign array = '["Steve", "Bill", "Larry"]' | json_parse %}
-{{ array[0] }} // Steve
-{% assign object = '{"name": "Steve", "age": 60}' | json_parse %}
-{{ object.name }} // Steve
+
 {% assign resultado = resultado_json | parse_json %}
 {{ resultado[0].name }}
 {% for resultad in resultado.value %}
