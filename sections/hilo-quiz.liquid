@@ -137,7 +137,16 @@
        <template  x-if="formData.f21 == 'f21a'  && formData.f22 == 'f22a' &&  formData.f23 == 'f23a'">
           <p>grasa</p>
         </template>
+<hr>
     
+       <template  x-if="formData.f31 == 'f31a'  && formData.f32 == 'f32a' &&  formData.f33 == 'f33a'">
+          <p>Piel Deshidratada</p>
+        </template>
+      <template  x-if="formData.f31 != 'f31a'  && formData.f32 != 'f32a' &&  formData.f33 != 'f33a'">
+          <p>Piel No Deshidratada</p>
+        </template>
+    
+    <hr>
 
    
          <template  x-if="formData.preoccupations.includes == 'Brillancee' || formData.preoccupations.includes == 'Deshydratation' ">
