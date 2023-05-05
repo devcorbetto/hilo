@@ -5,7 +5,6 @@
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
-{% comment %} Es importante entender que item y item.product  item.variant {% endcomment %}
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -207,7 +206,7 @@
 {% endcomment %}
             <tbody>
               {%- for item in cart.items -%}
-   {{ item.index | plus: 1 }}
+
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
                     {% if item.image %}
@@ -320,7 +319,6 @@
 {% endfor %}
 {% endcapture %}
                             
-{{  item.quantity  }} -item-id: {{ item.id }} - product.id {{ item.product.id }} - variant {{ item.variant.id }}  -  {{ item.index | plus: 1 }}
 
                       
                             <dd id="changeitemcart" class="button nobutton"
