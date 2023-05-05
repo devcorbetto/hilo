@@ -1,4 +1,4 @@
-   <div class="container-content w-3/4 " x-show="open2 ">
+{% if customer %}   <div class="container-content w-3/4 " x-show="open2 ">
                               <h2>MON MATCH PARFAIT DU MOMENT</h2>
                               {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
 
@@ -44,7 +44,7 @@
 
                              
                             </div>
-
+{% endif %}
 {% schema %}
    {
     "name": "Result",
