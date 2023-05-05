@@ -1,7 +1,62 @@
+   <div class="container-content w-3/4 " x-show="open2 ">
+                              <h2>MON MATCH PARFAIT DU MOMENT</h2>
+                              {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
+
+                             
+                              
+                              {% for diagnostic in diagnostics %}
+                                 <p class="text-center pt-20">Selon mon diagnostic favori pour    {{ diagnostic.name }} réalisé le {{ diagnostic.date }}</p>
+                             <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
+                                <div class="column1">
+                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
+                               <div class="container-color"> 
+                                 <h4>Huile de {{ diagnostic.options.ingrediente1 }}</h4>
+                                  <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
+                                    - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
+                                    - Cicatric<br><br> 100% naturelle Origine : <br>blablabla<br> Odeur : blablabla<br> Couleur :<br>blablabla<br> Toucher : blablabla</p>
+                                </div>
+                               </div>
+                              <div class="column1">
+                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
+                                <div class="container-color">
+                                  <h4>Huile de {{ diagnostic.options.ingrediente2 }}</h4>
+                                  <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
+                                    - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
+                                    - Cicatric<br><br> 100% naturelle Origine : <br>blablabla<br> Odeur : blablabla<br> Couleur :<br>blablabla<br> Toucher : blablabla</p>
+                                   </div>
+                                </div>
+                                   <div class="column1">
+                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
+                                 <div class="container-color">
+                                   <h4>Huile de {{ diagnostic.options.ingrediente3 }}</h4>
+                                  <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
+                                    - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
+                                    - Cicatric<br><br> 100% naturelle Origine : <br>blablabla<br> Odeur : blablabla<br> Couleur :<br>blablabla<br> Toucher : blablabla</p>
+                                     </div>
+                                 </div>
+                              </div>
+                                {% endfor %}
+
+
+
+
+                            
+
+                             
+                            </div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+   {
+    "name": "Result",
+    "settings": [],
+   "presets": [
+    {
+      "name": "Result Quiz",
+      "category": "Result ",
+      "blocks": [
+      ]
+    }
+  ]
   }
 {% endschema %}
 
