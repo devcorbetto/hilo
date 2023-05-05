@@ -1,50 +1,53 @@
-{% if customer %}   <div class="container-content w-3/4 " x-show="open2 ">
-                              <h2>MON MATCH PARFAIT DU MOMENT</h2>
+
                               {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
 
-                             
-                              
-                              {% for diagnostic in diagnostics %}
-                                 <p class="text-center pt-20">Selon mon diagnostic favori pour    {{ diagnostic.name }} réalisé le {{ diagnostic.date }}</p>
-                             <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
-                                <div class="column1">
-                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                               <div class="container-color"> 
-                                 <h4>Huile de {{ diagnostic.options.ingrediente1 }}</h4>
-                                  <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
-                                    - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
-                                    - Cicatric<br><br> 100% naturelle Origine : <br>blablabla<br> Odeur : blablabla<br> Couleur :<br>blablabla<br> Toucher : blablabla</p>
-                                </div>
-                               </div>
-                              <div class="column1">
-                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                                <div class="container-color">
-                                  <h4>Huile de {{ diagnostic.options.ingrediente2 }}</h4>
-                                  <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
-                                    - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
-                                    - Cicatric<br><br> 100% naturelle Origine : <br>blablabla<br> Odeur : blablabla<br> Couleur :<br>blablabla<br> Toucher : blablabla</p>
-                                   </div>
-                                </div>
-                                   <div class="column1">
-                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                                 <div class="container-color">
-                                   <h4>Huile de {{ diagnostic.options.ingrediente3 }}</h4>
-                                  <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
-                                    - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
-                                    - Cicatric<br><br> 100% naturelle Origine : <br>blablabla<br> Odeur : blablabla<br> Couleur :<br>blablabla<br> Toucher : blablabla</p>
-                                     </div>
-                                 </div>
-                              </div>
-                                {% endfor %}
+                                {% if customer %}
+    <div class="div-with-svg"> <h2 class="text-center">{{ customer.first_name }}, VOICI VOS RESULTATS :</h2>
+      <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
+    </div>
+    <div class="two-columns flex gap-x-40 mt-20">
+      <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
+        <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
+        <p>✨ Vous avez une peau à tendance mixte. Ce type de peau est complexe car c’est un mélange de différentes caractéristiques de peau en fonction des zones du visage. La peau est généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des imperfections.
+        </p>
+        <p>✨ Votre peau commence à se relâcher et la production naturelle de collagène de votre corps diminue. On conseille de commencer à traiter le vieillissement cutané aux alentours de 25 ans afin de prévenir l’apparition de rides et ridules.</p>
+        <p>✨ Votre peau est déshydratée. Elle manque d’eau, ce qui altère le film hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.</p>
+        
+      </div>
+      <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
+        <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
+        <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
+        <div class="container-result flex" >
+          <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+          </div>
+          <div class="container-result-p"><p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          </div>
+        </div>
+        <div class="container-result flex" >
+          <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+          </div>
+          <div class="container-result-p"><p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          </div>
+        </div>
+        <div class="container-result flex" >
+          <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+          </div>
+          <div class="container-result-p"><p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          </div>
+        </div>
+          
 
-
-
-
-                            
-
-                             
-                            </div>
-{% endif %}
+      </div>
+            </div>
+            <div class="container-routine mt-20">
+      <h2 class="text-center">VOTRE ROUTINE PERSONNALISEE</h2>
+      <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
+      <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
+        Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
+      <a href="#" class="button btn">J'ajoute ma routine au panier</a>
+    </div>
+        </div>
+      {% endif %}
 {% schema %}
    {
     "name": "Result",
