@@ -7,9 +7,15 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "00c7237d-e390-4237-88ad-0a959dfc1a6b": {
+      "type": "create-customer-loading-result",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "00c7237d-e390-4237-88ad-0a959dfc1a6b"
   ]
 }
