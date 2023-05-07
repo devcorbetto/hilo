@@ -377,7 +377,14 @@
           <p>J’ai la peau mature / sèche / déshydratée</p>
         </template>
 
-         <div x-modal="formData.f21"></div>
+  <div>
+  <h2>Resultados:</h2>
+  <ul>
+    <template x-for="(value, key) in formData">
+      <li><strong>{{ key }}:</strong> {{ value }}</li>
+    </template>
+  </ul>
+</div>
   </div>
   <script>
   {% comment %} 
