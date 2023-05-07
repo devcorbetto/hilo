@@ -320,7 +320,7 @@
 
  
   <div style="margin-bottom:500px;">
-
+{% comment %}
       <template  x-if="(formData.f31 == 'f31a' || formData.f31 == 'f31b')  && (formData.f32 == 'f32a' || formData.f31 == 'f32b' ) && ( formData.f33 == 'f33a' || formData.f33 == 'f33b' )">
           <p>Piel Deshidratada</p>
         </template>
@@ -373,7 +373,11 @@
       </template>
 
      <div x-text="selected"></div>
-
+  {% endcomment %} 
+      
+       <template  x-if="formData.age != 'f25' && formData.f21 == 'f21a'  && formData.f22 == 'f22c' &&  formData.f23 == 'f23a' && formData.f31 == 'f31a'  && formData.f32 == 'f32a' && formData.f33 == 'f33a'">
+          <p>J’ai la peau mature / sèche / déshydratée</p>
+        </template>
   </div>
   <script>
   {% comment %} 
