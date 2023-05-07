@@ -229,7 +229,7 @@
         </template>
 <h2>Resultados:</h2>
   <ul>
-    <template x-for="(value, key) in formData">
+    <template x-modal="formData">
       <li><strong>{{ key }}:</strong> {{ value }}</li>
     </template>
   </ul>
