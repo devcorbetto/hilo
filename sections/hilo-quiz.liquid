@@ -229,15 +229,13 @@
         </template>
 <h2>Resultados:</h2>
 
-<span x-text="formData.name"></span>
-<span x-text="formData.age"></span>
-<span x-text="formData.f21"></span>
+
    
-  <ul>
-    <template x-for="(value, key) in formData">
-      <li  x-text="formData.key"><strong>{ key }:</strong> { value }</li>
-    </template>
-  </ul>
+<ul>
+  <template x-for="(value, key) in formData" :key="key">
+    <li><strong x-text="key"></strong>: <span x-text="value"></span></li>
+  </template>
+</ul>
 
     
   <div>
