@@ -235,7 +235,7 @@
    
   <ul>
     <template x-for="(value, key) in formData">
-      <li x-model="formData.name"><strong>{ key }:</strong> { value }</li>
+      <li  x-text="formData.key"><strong>{ key }:</strong> { value }</li>
     </template>
   </ul>
 
