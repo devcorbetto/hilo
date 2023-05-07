@@ -2,7 +2,7 @@
 <form action="https://apiv2.shopflex.io/auth/trigger/boksbfk5yw?customerid={{ customer.id }}" method="post" enctype="multipart/form-data">
   <button class="form__submit-btn" type="submit">submit</button>
 </form>
-<div class="page-width " x-data="formData: {}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
+<div class="page-width " x-data="{formData: {}, step: 1, activeStepColor: '#fbbf24',  selected: []}" style="margin-bottom:100px;" >
   <div class="etapas grid grid-cols-4 text-center justify-center">
   <div class="etapa1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 " @click="step = 1;" :class="{ 'active-step': step === 1 }">
   1
