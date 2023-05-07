@@ -228,9 +228,11 @@
           <p>J’ai la peau mature / sèche / déshydratée</p>
         </template>
 <h2>Resultados:</h2>
+       <template>
     <span x-model="formData.name"></span>
      <span x-model="formData.age"></span>
      <span x-model="formData.f21"></span>
+         </template>
   <ul>
     <template x-for="(value, key) in formData">
       <li x-model="formData.name"><strong>{ key }:</strong> { value }</li>
