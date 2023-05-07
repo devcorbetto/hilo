@@ -227,15 +227,20 @@
        <template  x-if="formData.age !== 'f25' && formData.f21 == 'f21a'  && formData.f22 == 'f22c' &&  formData.f23 == 'f23a' && formData.f31 == 'f31a'  && formData.f32 == 'f32a' && formData.f33 == 'f33a'">
           <p>J’ai la peau mature / sèche / déshydratée</p>
         </template>
-
-  <div>
-    
-  <h2>Resultados:</h2>
+<h2>Resultados:</h2>
   <ul>
-    <template x-for="data in formData">
-      <li><strong>{{ data }}:</strong> {{ value }}</li>
+    <template x-for="(value, key) in formData">
+      <li><strong>{{ key }}:</strong> {{ value }}</li>
     </template>
   </ul>
+
+
+    
+  <div>
+    
+  
+
+    
 </div>
   </div>
   <script>
