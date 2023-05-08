@@ -102,7 +102,7 @@
                 x-on:click="formData.{{ field.name }} = '{{ option.value }}'"> {{ option.label }}
              </label>
              {% else %}
-             <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
+            Je réalise ce diagnostic pour : <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
              {% endif %}
              {% endfor %}
                <fieldset>
