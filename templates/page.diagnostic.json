@@ -2,12 +2,11 @@
   "sections": {
     "2469f2c2-6afc-4360-828c-eff83925cf93": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>VOTRE DIAGNOSTIC DE PEAU<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -16,7 +15,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p><a href=\"\/pages\/diagnostic\" title=\"Diagnostic\">&lt; Quitter<\/a><\/p>"
           }
         },
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2": {
@@ -50,6 +49,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
