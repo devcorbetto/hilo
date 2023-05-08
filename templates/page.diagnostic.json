@@ -7,14 +7,14 @@
           "type": "heading",
           "settings": {
             "heading": "<p>VOTRE DIAGNOSTIC DE PEAU<\/p>",
-            "customcss": "",
+            "customcss": "mb-10b",
             "heading_size": "h1"
           }
         },
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-1": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "bg_subtitle",
             "text": "<p><a href=\"\/pages\/diagnostic\" title=\"Diagnostic\">&lt; Quitter<\/a><\/p>"
           }
         },
@@ -38,13 +38,13 @@
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "waves5b",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "colors_6",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 60,
+        "padding_bottom": 120
       }
     },
     "main": {
