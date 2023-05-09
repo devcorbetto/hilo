@@ -316,7 +316,9 @@ method="post" enctype="multipart/form-data">
           <p>J’ai la peau mature / sèche / déshydratée</p>
         </template>
 
-
+<template x-if="result">
+    <h2 x-text="'Your skin type is: ' + result"></h2>
+  </template>
 <h2>Resultados:</h2>
    
 <ul>
