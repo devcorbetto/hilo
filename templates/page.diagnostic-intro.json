@@ -259,10 +259,18 @@
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-2"
       ],
       "settings": {
-        "customcss": "multi-featured multi-icons paiment",
-        "color_scheme": "colors_6",
-        "padding_top": 40,
-        "padding_bottom": 60
+        "customcss": "lamarque_text1",
+        "image": "shopify:\/\/shop_images\/Elise_et_Margaux.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "834a1603-2f96-4f26-8328-293d39b53636": {
