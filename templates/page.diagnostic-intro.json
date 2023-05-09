@@ -387,16 +387,16 @@
       }
     },
     "1945a68f-12c2-456e-a45a-5be59ad30e27": {
-      "type": "multicolumn-svg",
+      "type": "multicolumn",
       "blocks": {
         "template--18888716550439__1945a68f-12c2-456e-a45a-5be59ad30e27-1683660528f0c1ac28-0": {
           "type": "column",
           "settings": {
-            "customcss": "",
-            "codeliquid": "",
-            "title": "Column",
-            "subtitle": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
+            "title": "Marine",
+            "subtitle": "",
+            "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…)<br\/> Le fait que je puisse adapter ma crème à ces moments de la vie est génial.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -404,11 +404,11 @@
         "template--18888716550439__1945a68f-12c2-456e-a45a-5be59ad30e27-1683660528f0c1ac28-1": {
           "type": "column",
           "settings": {
-            "customcss": "",
-            "codeliquid": "",
-            "title": "Column",
-            "subtitle": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
+            "title": "Charlotte",
+            "subtitle": "",
+            "text": "<p>“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. <br\/>Enfin un soin qui répond réellement aux besoins de toutes les peaux.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -416,11 +416,11 @@
         "template--18888716550439__1945a68f-12c2-456e-a45a-5be59ad30e27-1683660528f0c1ac28-2": {
           "type": "column",
           "settings": {
-            "customcss": "",
-            "codeliquid": "",
-            "title": "Column",
-            "subtitle": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
+            "title": "Laurine",
+            "subtitle": "",
+            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.”<\/p>",
             "link_label": "",
             "link": ""
           }
