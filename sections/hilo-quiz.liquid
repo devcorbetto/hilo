@@ -84,11 +84,11 @@ en pleine santé.
     <fieldset class="mb-10">
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
  <div>
-        <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
+      
+        <label for="Imperfections">Imperfections   <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
         x-model="selected"
           x-bind:checked="formData.preoccupations === 'Imperfections'" x-on:click="formData.preoccupations = 'Imperfections'"
-        x-on:change="if (selected.length > 3) { selected.pop(); }">
-        <label for="Imperfections">Imperfections</label>
+        x-on:change="if (selected.length > 3) { selected.pop(); }"></label>
     </div>
 
     <div>
