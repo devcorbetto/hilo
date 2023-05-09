@@ -6,7 +6,7 @@
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>VOTRE DIAGNOSTIC DE PEAU<\/p>",
+            "heading": "<p>VOTRE DIAGNOSTIC DE PEAU HILO<\/p>",
             "customcss": "mb-10b",
             "heading_size": "h1"
           }
@@ -15,15 +15,28 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p><a href=\"\/pages\/diagnostic\" title=\"Diagnostic\">&lt; Quitter<\/a><\/p>"
+            "text": "<p>Réalisez votre diagnostic de peau en 2 minutes seulement, pour découvrir la combinaison d'actif adaptée à votre peau et à ajouter dans votre base de soin Hilo.<\/p>"
+          }
+        },
+        "77ea338e-f067-4918-a440-205e32a69dc0": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>Votre peau est unique, votre crème Hilo l'est aussi ! <\/p>"
+          }
+        },
+        "25a26645-5a5e-4fa7-8b6b-d449a60f5eb0": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>Veillez à répondre aux questions du diagnostic en fonction de vos ressentis face à votre peau au naturel en ce moment. Vous pouvez vous fier, par exemple, à votre ressenti à la sortie de la douche ou lorsque vous n'avez pas encore appliqué de produits cosmétiques.<\/p>"
           }
         },
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "customcss": "",
-            "button_label": "Button label",
+            "customcss": "btn-circle",
+            "button_label": "Je réalise mon diagnostic",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -35,6 +48,8 @@
       "block_order": [
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-0",
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-1",
+        "77ea338e-f067-4918-a440-205e32a69dc0",
+        "25a26645-5a5e-4fa7-8b6b-d449a60f5eb0",
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2"
       ],
       "settings": {
@@ -209,6 +224,7 @@
     },
     "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0": {
       "type": "hilo-quiz",
+      "disabled": true,
       "settings": {
       }
     }
