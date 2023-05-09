@@ -258,6 +258,9 @@
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1",
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-2"
       ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
       "settings": {
         "customcss": "lamarque_text1",
         "image": "shopify:\/\/shop_images\/Elise_et_Margaux.jpg",
