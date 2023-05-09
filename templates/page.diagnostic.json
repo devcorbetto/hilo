@@ -47,6 +47,11 @@
         "padding_bottom": 120
       }
     },
+    "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0": {
+      "type": "hilo-quiz",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -54,170 +59,11 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "1b27a9b6-d71a-430b-aedc-b27352662515": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "template--17779890553127__1b27a9b6-d71a-430b-aedc-b27352662515-1675644894e5f0b6b6-0": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "Column",
-            "subtitle": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17779890553127__1b27a9b6-d71a-430b-aedc-b27352662515-1675644894e5f0b6b6-1": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "Column",
-            "subtitle": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17779890553127__1b27a9b6-d71a-430b-aedc-b27352662515-1675644894e5f0b6b6-2": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "Column",
-            "subtitle": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17779890553127__1b27a9b6-d71a-430b-aedc-b27352662515-1675644894e5f0b6b6-0",
-        "template--17779890553127__1b27a9b6-d71a-430b-aedc-b27352662515-1675644894e5f0b6b6-1",
-        "template--17779890553127__1b27a9b6-d71a-430b-aedc-b27352662515-1675644894e5f0b6b6-2"
-      ],
-      "settings": {
-        "customcss": "",
-        "title": "Multicolumn",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "b2398fca-bf1c-402c-b109-edb5987282bd": {
-      "type": "quiz",
-      "disabled": true,
-      "blocks": {
-        "62ea41e4-fbb6-4324-8599-d3b42dbceeab": {
-          "type": "Question_1",
-          "settings": {
-            "question_title": "Question 1",
-            "subtitle": "Question 1",
-            "background": "",
-            "image": "shopify:\/\/shop_images\/hilo-logo.png"
-          }
-        },
-        "0dbaaddc-426c-4707-927b-71ceeb1b1b59": {
-          "type": "Answer",
-          "settings": {
-            "title": "Answer for question 1",
-            "answer": "Answer 1",
-            "image": "shopify:\/\/shop_images\/hilo-logo.png",
-            "type_filter": "crema",
-            "tags_filter": "crema",
-            "vendor_filter": "crema",
-            "price_filter_operator": ">",
-            "price_filter": "5",
-            "option_filter": "crema",
-            "option_filter_values": "crema"
-          }
-        },
-        "fd7637e9-18ca-4ed7-8492-93e9a223980a": {
-          "type": "Answer",
-          "settings": {
-            "title": "Answer for question 1",
-            "answer": "Answer 2",
-            "image": "shopify:\/\/shop_images\/hilo-logo.png",
-            "type_filter": "",
-            "tags_filter": "",
-            "vendor_filter": "",
-            "price_filter_operator": ">",
-            "price_filter": "",
-            "option_filter": "",
-            "option_filter_values": ""
-          }
-        },
-        "e132637c-571f-4ed6-8d28-cbb139d1181c": {
-          "type": "Question_2",
-          "settings": {
-            "question_title": "Question 2",
-            "subtitle": "Question 2",
-            "background": "",
-            "image": "shopify:\/\/shop_images\/hilo-logo.png"
-          }
-        },
-        "49b6be64-a509-4ba0-a3e9-51932148f6dd": {
-          "type": "Question_3",
-          "settings": {
-            "question_title": "Question 3",
-            "subtitle": "Question 3",
-            "background": ""
-          }
-        },
-        "46d721b2-02ad-4c01-93df-42ecafd6dd3c": {
-          "type": "Question_4",
-          "settings": {
-            "question_title": "Question 4",
-            "subtitle": "Question 4",
-            "background": ""
-          }
-        },
-        "a384ba69-4db6-4c16-a470-3eeb6eb4d32f": {
-          "type": "Question_5",
-          "settings": {
-            "question_title": "",
-            "subtitle": "",
-            "background": ""
-          }
-        }
-      },
-      "block_order": [
-        "62ea41e4-fbb6-4324-8599-d3b42dbceeab",
-        "0dbaaddc-426c-4707-927b-71ceeb1b1b59",
-        "fd7637e9-18ca-4ed7-8492-93e9a223980a",
-        "e132637c-571f-4ed6-8d28-cbb139d1181c",
-        "49b6be64-a509-4ba0-a3e9-51932148f6dd",
-        "46d721b2-02ad-4c01-93df-42ecafd6dd3c",
-        "a384ba69-4db6-4c16-a470-3eeb6eb4d32f"
-      ],
-      "settings": {
-        "filter_collection": ""
-      }
-    },
-    "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0": {
-      "type": "hilo-quiz",
-      "settings": {
-      }
     }
   },
   "order": [
     "2469f2c2-6afc-4360-828c-eff83925cf93",
-    "main",
-    "1b27a9b6-d71a-430b-aedc-b27352662515",
-    "b2398fca-bf1c-402c-b109-edb5987282bd",
-    "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0"
+    "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0",
+    "main"
   ]
 }
