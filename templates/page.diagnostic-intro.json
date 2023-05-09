@@ -227,6 +227,51 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "da5285e2-1ad4-4cf6-9167-dfb75cdc5196": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "POURQUOI REALISER VOTRE DIAGNOSTIC DE PEAU ?",
+            "heading_size": "h2"
+          }
+        },
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🧖‍♀️ Connaître vos caractéristiques et vos tendances de peau du moment <\/p><p>✨ Obtenir votre match parfait pour personnaliser vos bases de soins Hilo <\/p><p>🌱 Connaître les bienfaits des actifs de votre match parfait <\/p><p>🧴 Découvrir votre routine de soins personnalisés en fonction des besoins de votre peau <\/p><p>💆‍♀️ Obtenir des conseils personnalisés en fonction de votre type de peau pour une peau saine au quotidien<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-0",
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1",
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "image": "shopify:\/\/shop_images\/PHoto1-Spatule.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -234,6 +279,7 @@
     "main",
     "1b27a9b6-d71a-430b-aedc-b27352662515",
     "b2398fca-bf1c-402c-b109-edb5987282bd",
-    "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0"
+    "6c5c0d8d-5f7a-4c86-971c-eef791d8bbe0",
+    "da5285e2-1ad4-4cf6-9167-dfb75cdc5196"
   ]
 }
