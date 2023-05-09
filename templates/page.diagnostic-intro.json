@@ -432,22 +432,22 @@
         "template--18888716550439__1945a68f-12c2-456e-a45a-5be59ad30e27-1683660528f0c1ac28-2"
       ],
       "settings": {
-        "customcss": "",
-        "title": "Multicolumn",
+        "customcss": "multi-featured multi-icons paiment",
+        "title": "",
         "subtitle": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "colors_6",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 60
       }
     }
   },
