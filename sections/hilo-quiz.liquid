@@ -115,7 +115,7 @@ en pleine santé.
         <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
     </div>
 
-    <div>
+    <div class="container-label">
         <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
         x-model="selected"
           x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
@@ -123,7 +123,7 @@ en pleine santé.
         <label for="Eclat">Eclat</label>
     </div>
 
-    <div>
+    <div class="container-label">
         <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
         x-model="selected"
 
@@ -476,7 +476,7 @@ fetch(url, options)
      position:relative;
      width:fit-content;
    }
-  .container-label input {
+  .container-label input ,  .container-label input{
     position:absolute;
   opacity:0;
     width:100%;
