@@ -92,7 +92,7 @@ en pleine santé.
         x-model="selected"
           x-bind:checked="formData.preoccupations === 'Imperfections'" 
             x-on:click="formData.preoccupations = 'Imperfections'" 
-            x-on:change="if (selected.length > 3) { selected.pop(); }">
+            x-on:change="if (selected.length >= 3) { selected.pop(); }">
       <label for="Imperfections">Imperfections  </label>
     </div>
 
