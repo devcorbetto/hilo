@@ -81,20 +81,26 @@ en pleine santé.
         <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20 border-radius" x-show="step === {{ forloop.index }}">
           {% if forloop.index == 4  %}
 
+
+            
     <fieldset class="mb-10">
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
+   
+            
     <div class="container-label">
-             <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
+        <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
         x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Imperfections'" x-on:click="formData.preoccupations = 'Imperfections'"
-        x-on:change="if (selected.length >= 3) { selected.pop(); }">
+          x-bind:checked="formData.preoccupations === 'Imperfections'" 
+            x-on:click="formData.preoccupations = 'Imperfections'" 
+            x-on:change="if (selected.length > 3) { selected.pop(); }">
       <label for="Imperfections">Imperfections  </label>
     </div>
 
     <div class="container-label">
         <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
         x-model="selected"
-           x-bind:checked="formData.preoccupations === 'Signes de lage'" x-on:click="formData.preoccupations = 'Signes de lage'"
+           x-bind:checked="formData.preoccupations === 'Signes de lage'"
+            x-on:click="formData.preoccupations = 'Signes de lage'"
         x-on:change="if (selected.length >= 3) { selected.pop(); }">
         <label for="Signes de lage">Signes de l'âge</label>
     </div>
@@ -133,6 +139,9 @@ en pleine santé.
     </div>
         <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
 </fieldset>
+
+
+            
             {% else %}
         {% for field in step.fields %}
             <div class="faq{{ forloop.index }}  mb-10">
