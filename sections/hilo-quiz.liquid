@@ -255,44 +255,6 @@ method="post" enctype="multipart/form-data">
  {{ nondeshydratee }}
 </div>
 
-     <div x-show="
-  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
-  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
-  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
-  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33a') ||
-  (formData.f31 === 'f31a' && formData.f32 === 'f32c' && formData.f33 === 'f33a') ||
-  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33a') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32c' && formData.f33 === 'f33a')"
->
-  Contenido para piel seca
-</div>
-      <div x-show="
-  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33c') ||
-  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
-  (formData.f31 === 'f31b' && formData.f32 === 'f32b' && formData.f33 === 'f33c') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33c')"
->
-Mixta
-      </div>
-      <div x-show="
-  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33b') ||
-  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
-  (formData.f31 === 'f31b' && formData.f32 === 'f32b' && formData.f33 === 'f33b') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
-  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33b')"
->Piel Grasa:
-
-
-
-      </div>
-
-  <div x-show="
-  (formData.f31 === 'f31c' && formData.f32 === 'f32c' && formData.f33 === 'f33da')"> 
-      Contenido para normal
-  </div>
 
 
         
@@ -341,31 +303,45 @@ Mixta
        
 
 
-<div x-show="
-  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
-  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
-  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
-  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
-  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
-  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+     <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32c' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32c' && formData.f33 === 'f33a')"
 >
- {{  deshydratee }}
+  Contenido para piel seca
 </div>
-<div x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
-  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
-  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
-  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
-  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
-  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
-  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
-  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
-  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+      <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32b' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33c')"
 >
- {{ nondeshydratee }}
-</div>
+Mixta
+      </div>
+      <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32b' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33b')"
+>Piel Grasa:
+
+
+
+      </div>
+
+  <div x-show="
+  (formData.f31 === 'f31c' && formData.f32 === 'f32c' && formData.f33 === 'f33da')"> 
+      Contenido para normal
+  </div>
+
 
 
 
