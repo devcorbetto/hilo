@@ -46,263 +46,230 @@ method="post" enctype="multipart/form-data">
   <button class="form__submit-btn" type="submit">submit</button>
 </form>
 <div class="page-width "
-     x-data="{ 
-         formData: {  
-             name: '', 
-             gender: '', 
-             age: '', 
-             f21: '', 
-             f22: '', 
-             f23: '', 
-             f31: '', 
-             f32: '', 
-             f33: '', 
-              selected: [],
-             f41: '', 
-             f42: '', 
-             f43: ''
-         }, 
-         step: 1, 
-         activeStepColor: '#fbbf24', 
-         selected: []
-     }"
-     style="margin-bottom:100px;" >
-
-  <div class="etapas grid grid-cols-4 text-center justify-center" 
-  :class="{ 'active-step1': step === 1 , 'active-step2': step === 2 , 'active-step3': step === 3 ,  'active-step4': step === 4 }">
-  <div class="container-step container-step1" >
-    <div class="etapa1  etapas5 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 1;" :class="{ 'active-step': step === 1 }">
-  1
-  </div>
-   Profil
-  </div>
+   x-data="{ 
+   formData: {  
+   name: '', 
+   gender: '', 
+   age: '', 
+   f21: '', 
+   f22: '', 
+   f23: '', 
+   f31: '', 
+   f32: '', 
+   f33: '', 
+   selected: [],
+   f41: '', 
+   f42: '', 
+   f43: ''
+   }, 
+   step: 1, 
+   activeStepColor: '#fbbf24', 
+   selected: []
+   }"
+   style="margin-bottom:100px;" >
+   <div class="etapas grid grid-cols-4 text-center justify-center" 
+      :class="{ 'active-step1': step === 1 , 'active-step2': step === 2 , 'active-step3': step === 3 ,  'active-step4': step === 4 }">
+      <div class="container-step container-step1" >
+         <div class="etapa1  etapas5 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 1;" :class="{ 'active-step': step === 1 }">
+            1
+         </div>
+         Profil
+      </div>
       <div class="container-step container-step2" >
-  <div class="etapa2 etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 2;" :class="{ 'active-step': step === 2 }">
-  2
-  </div>
-        Tendances de peau
+         <div class="etapa2 etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 2;" :class="{ 'active-step': step === 2 }">
+            2
+         </div>
+         Tendances de peau
       </div>
       <div class="container-step container-step3">
-  <div class="etapa3 etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10 "   @click="step = 3;":class="{ 'active-step': step === 3 }">
-  3
-  </div>
-     Etat temporaire
+         <div class="etapa3 etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10 "   @click="step = 3;":class="{ 'active-step': step === 3 }">
+            3
+         </div>
+         Etat temporaire
       </div>
-    
-          <div class="container-step container-step4 ">
-  <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 4;" :class="{ 'active-step': step === 4}">
-  4
-  </div>
-            Préoccupations
-          </div>
-    
-</div>
-
-<div class="form-quiz">
-
-        {% for step in steps %}
-        <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20 border-radius" x-show="step === {{ forloop.index }}">
-     {% if forloop.index != 1  %}
-       <div class="back-container mb-20"  @click="step--;" >
-         <span>   < Précédent</span>
-              </div>
-            {% endif %}
-          {% if forloop.index == 4  %}
-
-
-            
-    <fieldset class="mb-10">
+      <div class="container-step container-step4 ">
+         <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 4;" :class="{ 'active-step': step === 4}">
+            4
+         </div>
+         Préoccupations
+      </div>
+   </div>
+   <div class="form-quiz">
+      {% for step in steps %}
+      <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20 border-radius" x-show="step === {{ forloop.index }}">
+         {% if forloop.index != 1  %}
+         <div class="back-container mb-20"  @click="step--;" >
+            <span>   < Précédent</span>
+         </div>
+         {% endif %}
+         {% if forloop.index == 4  %}
+         <fieldset class="mb-10">
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
-   
-            
-    <div class="container-label">
-        <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
-        x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Imperfections'" 
-            x-on:click="formData.preoccupations = 'Imperfections'" 
-            x-on:change="if (selected.length >= 3) { selected.pop(); }">
-      <label for="Imperfections">Imperfections  </label>
-    </div>
-
-    <div class="container-label">
-        <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
-        x-model="selected"
-           x-bind:checked="formData.preoccupations === 'Signes de lage'"
-            x-on:click="formData.preoccupations = 'Signes de lage'"
-        x-on:change="if (selected.length >= 3) { selected.pop(); }">
-        <label for="Signes de lage">Signes de l'âge</label>
-    </div>
-
-     <div class="container-label">
-        <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation"
-        x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Deshydratation'" 
-            x-on:click="formData.preoccupations = 'Deshydratation'"
-        x-on:change="if (selected.length >= 3) { selected.pop(); }">
-
-            
-        <label for="Deshydratation">Déshydratation</label>
-    </div>
-
-        <div class="container-label">
-        <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées"
-        x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Rougeurs'" x-on:click="formData.preoccupations = 'Rougeurs'"
-        x-on:change="if (selected.length >= 3) { selected.pop(); }">
-        <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
-    </div>
-
-    <div class="container-label">
-        <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
-        x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
-        x-on:change="if (selected.length >= 3 { selected.pop(); }">
-        <label for="Eclat">Eclat</label>
-    </div>
-
-    <div class="container-label">
-        <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
-        x-model="selected"
-
-          x-bind:checked="formData.preoccupations === 'Brillance'" x-on:click="formData.preoccupations = 'Brillance'"
-        x-on:change="if (selected.length >= 4 { selected.pop(); }">
-        <label for="Brillance">Brillance</label>
-    </div>
-        <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
-</fieldset>
-
-
-            
-            {% else %}
-        {% for field in step.fields %}
-            <div class="faq{{ forloop.index }}  mb-10">
-             <fieldset>
-             <legend>{{ field.label }}</legend>
-             {% for option in field.options %}
-             {% if field.type == "radio" %}
             <div class="container-label">
-             <input type="radio" name="{{ field.name }}" value="{{ option.value }}"
-                x-bind:checked="formData.{{ field.name }} === '{{ option.value }}'" 
-                x-on:click="formData.{{ field.name }} = '{{ option.value }}'"> 
-             <label>{{ option.label }} </label>
+               <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
+                  x-model="selected"
+                  x-bind:checked="formData.preoccupations === 'Imperfections'" 
+                  x-on:click="formData.preoccupations = 'Imperfections'" 
+                  x-on:change="if (selected.length >= 3) { selected.pop(); }">
+               <label for="Imperfections">Imperfections  </label>
             </div>
-             {% else %}
-               <div class="flex">
-           <legend>Je réalise ce diagnostic pour :</legend> 
+            <div class="container-label">
+               <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
+                  x-model="selected"
+                  x-bind:checked="formData.preoccupations === 'Signes de lage'"
+                  x-on:click="formData.preoccupations = 'Signes de lage'"
+                  x-on:change="if (selected.length >= 3) { selected.pop(); }">
+               <label for="Signes de lage">Signes de l'âge</label>
+            </div>
+            <div class="container-label">
+               <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation"
+                  x-model="selected"
+                  x-bind:checked="formData.preoccupations === 'Deshydratation'" 
+                  x-on:click="formData.preoccupations = 'Deshydratation'"
+                  x-on:change="if (selected.length >= 3) { selected.pop(); }">
+               <label for="Deshydratation">Déshydratation</label>
+            </div>
+            <div class="container-label">
+               <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées"
+                  x-model="selected"
+                  x-bind:checked="formData.preoccupations === 'Rougeurs'" x-on:click="formData.preoccupations = 'Rougeurs'"
+                  x-on:change="if (selected.length >= 3) { selected.pop(); }">
+               <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+            </div>
+            <div class="container-label">
+               <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
+                  x-model="selected"
+                  x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
+                  x-on:change="if (selected.length >= 3 { selected.pop(); }">
+               <label for="Eclat">Eclat</label>
+            </div>
+            <div class="container-label">
+               <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
+                  x-model="selected"
+                  x-bind:checked="formData.preoccupations === 'Brillance'" x-on:click="formData.preoccupations = 'Brillance'"
+                  x-on:change="if (selected.length >= 4 { selected.pop(); }">
+               <label for="Brillance">Brillance</label>
+            </div>
+            <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+         </fieldset>
+         {% else %}
+         {% for field in step.fields %}
+         <div class="faq{{ forloop.index }}  mb-10">
+            <fieldset>
+            <legend>{{ field.label }}</legend>
+            {% for option in field.options %}
+            {% if field.type == "radio" %}
+            <div class="container-label">
+               <input type="radio" name="{{ field.name }}" value="{{ option.value }}"
+                  x-bind:checked="formData.{{ field.name }} === '{{ option.value }}'" 
+                  x-on:click="formData.{{ field.name }} = '{{ option.value }}'"> 
+               <label>{{ option.label }} </label>
+            </div>
+            {% else %}
+            <div class="flex">
+               <legend>Je réalise ce diagnostic pour :</legend>
                <input id="prenom" class="ml-20 px-2 py-1   w-200 pl-10" type="text" placeholder="Prénom"  x-model="formData.name" 
-                 style="border-radius:30px; max-width:300px; width:80%;     height: 40px; ">
-           </div>
-                 {% endif %}
-             {% endfor %}
-               <fieldset>
-               </div>
-           {% endfor %}
-           {% if forloop.index != 5  %}
-         <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
-                 {% else == 5 %}
-             <button @click="step++;" 
-              class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+                  style="border-radius:30px; max-width:300px; width:80%;     height: 40px; ">
+            </div>
             {% endif %}
-              {% endif %}
-        </div>
-        {% endfor %}
-
-  <div class="step6 " x-show="step === 6">
-    {% if customer %}
-    <div class="div-with-svg"> 
-      <h2 class="text-center">{{ customer.first_name }}, VOICI VOS RESULTATS :
-      </h2>
-      <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
-    </div>
-      
-    <div class="two-columns flex gap-x-40 mt-20">
-      <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
-        <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
-
-
-   
-<p x-show="formData.age === 'nomadure'">
-{{ nomadure }}
-</p>
-<p x-show="formData.age !== 'nomadure'">
- {{ madure }}
-</p>
-<div x-show="
-  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
-  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
-  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
-  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
-  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
-  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
->
- {{  deshydratee }}
-</div>
-<div x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
-  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
-  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
-  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
-  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
-  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
-  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
-  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
-  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
->
- {{ nondeshydratee }}
-</div>
-
-
-
-        
+            {% endfor %}
+            <fieldset>
+         </div>
+         {% endfor %}
+         {% if forloop.index != 5  %}
+         <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+         {% else == 5 %}
+         <button @click="step++;" 
+            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+         {% endif %}
+         {% endif %}
       </div>
-      <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
-        <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
-        <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
-        <div class="container-result flex" >
-          <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-          </div>
-          <div class="container-result-p"><p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
-          </div>
-        </div>
-        <div class="container-result flex" >
-          <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-          </div>
-          <div class="container-result-p"><p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
-          </div>
-        </div>
-        <div class="container-result flex" >
-          <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-          </div>
-          <div class="container-result-p"><p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
-          </div>
-        </div>
-          
-
+      {% endfor %}
+      <div class="step6 " x-show="step === 6">
+         {% if customer %}
+         <div class="div-with-svg">
+            <h2 class="text-center">{{ customer.first_name }}, VOICI VOS RESULTATS :
+            </h2>
+            <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
+         </div>
+         <div class="two-columns flex gap-x-40 mt-20">
+            <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
+               <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
+               <p x-show="formData.age === 'nomadure'">
+                  {{ nomadure }}
+               </p>
+               <p x-show="formData.age !== 'nomadure'">
+                  {{ madure }}
+               </p>
+               <div x-show="
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
+                  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
+                  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                  >
+                  {{  deshydratee }}
+               </div>
+               <div x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                  >
+                  {{ nondeshydratee }}
+               </div>
+            </div>
+            <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
+               <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
+               <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
+               <div class="container-result flex" >
+                  <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+                  </div>
+                  <div class="container-result-p">
+                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+                  </div>
+               </div>
+               <div class="container-result flex" >
+                  <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+                  </div>
+                  <div class="container-result-p">
+                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+                  </div>
+               </div>
+               <div class="container-result flex" >
+                  <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+                  </div>
+                  <div class="container-result-p">
+                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-routine mt-20">
+            <h2 class="text-center">VOTRE ROUTINE PERSONNALISEE</h2>
+            <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
+            <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
+               Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.
+            </p>
+            <a href="#" class="button btn">J'ajoute ma routine au panier</a>
+         </div>
       </div>
-     </div>
-     <div class="container-routine mt-20">
-      <h2 class="text-center">VOTRE ROUTINE PERSONNALISEE</h2>
-      <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
-      <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
-        Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
-      <a href="#" class="button btn">J'ajoute ma routine au panier</a>
-    </div>
-        </div>
       {% else %}
- {% include 'register-quiz' %}
-
-
+      {% include 'register-quiz' %}
       {% endif %}
-  </div>
-  
-  
+   </div>
 </div>
-    
 </div>
-  </div>
-               </form>
+</div>
+          
   <script>
   {% comment %} 
 
