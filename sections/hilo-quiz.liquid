@@ -203,12 +203,15 @@ method="post" enctype="multipart/form-data">
 
            
 <p x-show="
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')
-">
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
+         x-bind:class="{ 'hidden': !showResult }"
+        x-init="showResult = $el.offsetHeight > 0"
+                 >
 {{ seche }}
 </p>
+           <input type="hidden" x-model="showResult">
   
 <p x-show="
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
