@@ -335,10 +335,9 @@ TEst age:
   
 <ul>
 <template x-for="(value, key) in formData" :key="key">
-  <li x-if="key === 'age' && value === 'nomadure'">
-      <span >No Madure</span>
+  <li>
     <strong x-text="key"></strong>: 
-
+    <span x-if="key === 'age' && value === 'nomadure'">No Madure</span>
   
   </li>
 </template>
