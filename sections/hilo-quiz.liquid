@@ -206,12 +206,14 @@ method="post" enctype="multipart/form-data">
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
-         x-bind:class="{ 'hidden': !showResult }"
-        x-init="showResult = $el.offsetHeight > 0"
+        x-bind:class="{ 'hidden': !showResult }"
+  x-data="{ showResult: false }"
+  x-init="showResult = $el.offsetHeight > 0; formData.peau = showResult ? 'seche' : ''"
+
                  >
 {{ seche }}
 </p>
-           <input type="hidden" x-model="showResult">
+           <input type="" x-model="formData.peau">
   
 <p x-show="
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
