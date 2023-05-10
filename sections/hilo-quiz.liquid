@@ -187,7 +187,7 @@ method="post" enctype="multipart/form-data">
             </div>
              {% else %}
            <legend>Je réalise ce diagnostic pour :</legend> 
-               <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name">
+               <input id="prenom" type="text" placeholder="{{ option.value }}"  x-model="formData.name" style="border-radius:30px;">
              {% endif %}
              {% endfor %}
                <fieldset>
