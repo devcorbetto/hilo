@@ -189,7 +189,7 @@ method="post" enctype="multipart/form-data">
                class=" text-white font-bold py-2 px-4 rounded">
                Valider</button>
          {% elsif  forloop.index == 5 %}
-        <button @click="if(formData.f51 && formData.f52) step++;" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+        <button @click="if(formData.f51 && formData.f52) { step++ }  else alert('Veuillez sélectionner au moins une option.');"  " class="text-white font-bold py-2 px-4 rounded">Valider</button>
 
            {% elsif  forloop.index == 1 %}
          <button @click="if(formData.name && formData.gender && formData.age) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
