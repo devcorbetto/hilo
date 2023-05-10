@@ -362,6 +362,110 @@ method="post" enctype="multipart/form-data">
    </div>
 </div>
 </div>
+        
+<p x-if="
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
+            x-init="formData.peau ='seche'">
+{{ seche }}
+</p>
+     
+  
+<p x-if="
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23d')"
+             x-init="formData.peau ='mixte'">
+
+{{ mixte }}
+      </p>
+  
+<p x-if="
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')"
+ x-init="formData.peau ='grasse'">
+           {{ grasse }}
+
+
+
+      </p>
+
+ <!-- Para piel normal -->
+<p x-if="
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23d')"
+ x-init="formData.peau ='normal'">
+  {{ normal }}
+  </p>
+
+
+           
+               <p x-if=formData.age === 'nomadure'"
+            x-init="formData.madure ='nomadure'">
+                  {{ nomadure }}
+               </p>
+               <p x-if="formData.age !== 'nomadure'"
+            x-init="formData.madure ='madure'">
+                  {{ madure }}
+               </p>
+           
+                <p  x-if="
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
+                  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
+                  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                        x-init="'formData.deshy = 'deshydratee'"
+                  >
+                  {{  deshydratee }}
+               </p>
+           
+               <p x-if="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                 x-init="formData.deshy ='nondeshydratee'"
+                  >
+                  {{ nondeshydratee }}
+               </p>
+
+              
 </div>
           
   
