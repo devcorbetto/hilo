@@ -311,9 +311,12 @@ method="post" enctype="multipart/form-data">
                <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
                <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
  
-          
+             <span x-text="formData.peau"></span>
+     <span x-text="formData.madure"></span>
+       <span x-text="formData.deshy"></span>
   <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nondeshydratee')"
            >
+ 
          Amande - Carotte - Argan
   </p>
 
