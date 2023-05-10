@@ -45,7 +45,7 @@ en pleine santé.
 method="post" enctype="multipart/form-data">
   <button class="form__submit-btn" type="submit">submit</button>
 </form>
-<div class="page-width "
+<div class="page-width"
    x-data="{ 
    formData: {  
    name: '', 
@@ -94,6 +94,7 @@ method="post" enctype="multipart/form-data">
          Préoccupations
       </div>
    </div>
+   
    <div class="form-quiz">
       {% for step in steps %}
       <div class="step{{ forloop.index }} border-2  rounded-sm  p-20 m-20 border-radius" x-show="step === {{ forloop.index }}">
