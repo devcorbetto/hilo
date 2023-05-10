@@ -190,8 +190,9 @@ method="post" enctype="multipart/form-data">
          <button @click="if(formData.name && formData.gender && formData.age) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
             class=" text-white font-bold py-2 px-4 rounded">Valider</button>
               {% elsif  forloop.index == 2 %}
-              <button @click="if(formData.f21 && formData.f22 && formData.f23 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
-            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+           <h2>2</h2>
+            <button @click="if(formData.f21 && formData.f22 && formData.f23) { step++ } else { alert('Por favor complete todos los campos requeridos'); }" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+
               {% elsif  forloop.index == 3 %}
                <button @click="if(formData.f31 && formData.f32 && formData.f33 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
             class=" text-white font-bold py-2 px-4 rounded">Valider</button>
