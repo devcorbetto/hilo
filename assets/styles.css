@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.product-option .nobutton{
+  padding: 12px 25px;
+}
+
 /* menu */
 .banner-home .container-right  p {
   color:white;
