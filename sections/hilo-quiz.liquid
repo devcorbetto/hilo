@@ -377,6 +377,12 @@ method="post" enctype="multipart/form-data">
       <input type="text" x-bind:value="formData.madure" x-on:load="formData.madure = 'madure'">
     </div>
   </template>
+               <template x-if="formData.age === 'nomadure'">
+    <p x-text="formData.age"></p>
+    <div>
+      <input type="text" x-bind:value="formData.madure" x-on:load="formData.madure = 'nomadure'">
+    </div>
+  </template>
 <br>
     <div x-text="formData.madure"></div>
 
