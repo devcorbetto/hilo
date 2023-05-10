@@ -267,11 +267,11 @@ method="post" enctype="multipart/form-data">
 
            
                <p x-show="formData.age === 'nomadure'"
-              x-init="if (formData.age === 'nomadure') { formData.peau = 'nomadure' }">
+              x-init="if(formData.age === 'nomadure') { formData.peau = 'nomadure' }">
                   {{ nomadure }}
                </p>
                <p x-show="formData.age !== 'nomadure'"
-            x-init="if (formData.age !== 'nomadure') { formData.peau = 'madure' }">
+            x-init="if(formData.age !== 'nomadure') { formData.peau = 'madure' }">
                   {{ madure }}
                </p>
            
@@ -314,6 +314,9 @@ method="post" enctype="multipart/form-data">
              <span x-text="formData.peau"></span>
      <span x-text="formData.madure"></span>
        <span x-text="formData.deshy"></span>
+
+
+           
   <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nondeshydratee')"
            >
  
