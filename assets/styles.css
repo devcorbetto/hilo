@@ -40,7 +40,7 @@ section newsletter section-news
 */
 
 .product-option .nobutton{
-  padding: 12px 25px;
+  padding: 12px 25px!important;
 }
 
 /* menu */
