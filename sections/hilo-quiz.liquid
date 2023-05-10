@@ -267,11 +267,11 @@ method="post" enctype="multipart/form-data">
 
            
                <p x-show="formData.age === 'nomadure'"
-            if (formData.age === 'nomadure') { formData.peau = 'nomadure' }>
+              x-init="if (formData.age === 'nomadure') { formData.peau = 'nomadure' }">
                   {{ nomadure }}
                </p>
                <p x-show="formData.age !== 'nomadure'"
-            if (formData.age === 'madure') { formData.peau = 'madure' }>
+            x-init="if (formData.age !== 'nomadure') { formData.peau = 'madure' }">
                   {{ madure }}
                </p>
            
