@@ -266,6 +266,7 @@ method="post" enctype="multipart/form-data">
                <p x-show="formData.age !== 'nomadure'">
                   {{ madure }}
                </p>
+           
                 <p  x-show="
                   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
                   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
@@ -279,6 +280,7 @@ method="post" enctype="multipart/form-data">
                   >
                   {{  deshydratee }}
                </p>
+           
                <p x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
                   !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
                   !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
@@ -291,7 +293,9 @@ method="post" enctype="multipart/form-data">
                   >
                   {{ nondeshydratee }}
                </p>
+           
             </div>
+           
             <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
                <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
                <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
