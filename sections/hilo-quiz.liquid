@@ -274,10 +274,14 @@ method="post" enctype="multipart/form-data">
 
  
   <div style="margin-bottom:500px;">
-
+<br>
+    <template x-if="formData.age === 'nomadure' || formData.age.startsWith('madure')">
+  <span x-text="formData.age === 'nomadure' ? 'No Madure' : 'Madure'">{{ nomadure }}</span>
+</template>
+  <hr>
     
 <template x-if="formData.age === 'nomadure' || formData.age.startsWith('madure')">
-  <span x-text="formData.age === 'nomadure' ? 'No Madure' : 'Madure'"></span>
+  <span x-text="formData.age === 'nomadure' ? 'No Madure' : 'Madure'">{{ nomadure }}</span>
 </template>
 
 <h2>Resultados:</h2>
