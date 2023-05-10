@@ -221,13 +221,12 @@ method="post" enctype="multipart/form-data">
       <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
         <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
         <p>{{ mixte }} </p>
-        <p><div x-show="formData.age === 'nomadure'">
- no es  madure {{ nomadure }}
-</div>
-<div x-show="formData.age !== 'nomadure'">
- es madure {{ madure }}
-</div>
- </p>
+<p x-show="formData.age === 'nomadure'">
+no es  madure {{ nomadure }}
+</p>
+<p x-show="formData.age !== 'nomadure'">
+es madure {{ madure }}
+</p>
        <p>{{ deshydratee }} </p>
       </div>
       <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
