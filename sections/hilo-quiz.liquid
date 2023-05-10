@@ -197,6 +197,69 @@ method="post" enctype="multipart/form-data">
          <div class="two-columns flex gap-x-40 mt-20">
             <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
                <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
+
+           
+<p x-show="
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')
+">
+{{ seche }}
+</p>
+  
+<p x-show="
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23d')"
+>
+{{ mixte }}
+      </p>
+  
+<p x-show="
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')"
+>{{ grasse }}
+
+
+
+      </p>
+
+ <!-- Para piel normal -->
+<p x-show="
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23d')"
+>
+  {{ normal }}
+  </p>
+
+
+           
                <p x-show="formData.age === 'nomadure'">
                   {{ nomadure }}
                </p>
