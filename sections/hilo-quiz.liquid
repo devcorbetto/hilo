@@ -339,7 +339,7 @@ method="post" enctype="multipart/form-data">
 </template>
 <ul>
   <template x-for="(value, key) in formData" :key="key">
-   <span x-text="value"></span></li>
+    <li><strong x-text="key"></strong>: <span x-text="value"></span></li>
   </template>
 </ul>
 
