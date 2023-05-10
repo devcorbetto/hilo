@@ -220,9 +220,10 @@ method="post" enctype="multipart/form-data">
     <div class="two-columns flex gap-x-40 mt-20">
       <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
         <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
-<p x-show="formData.age === 'mixte'">
-{{ mixte }}
+<p x-show="formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O'">
+   {{ deshydratee }}
 </p>
+
    
 <p x-show="formData.age === 'nomadure'">
 {{ nomadure }}
