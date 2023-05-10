@@ -270,7 +270,10 @@ method="post" enctype="multipart/form-data">
 
        
 <div x-show="formData.age === 'nomadure'">
-  nomadure
+ no es  madure {{ nomadure }}
+</div>
+<div x-show="formData.age !== 'nomadure'">
+ es madure {{ madure }}
 </div>
 
 {{ madure }} <br>
