@@ -155,7 +155,7 @@ method="post" enctype="multipart/form-data">
         <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
         x-model="selected"
           x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
-        x-on:change="if (selected.length >= 3) { selected.pop(); }">
+        x-on:change="if (selected.length >= 3 { selected.pop(); }">
         <label for="Eclat">Eclat</label>
     </div>
 
@@ -164,7 +164,7 @@ method="post" enctype="multipart/form-data">
         x-model="selected"
 
           x-bind:checked="formData.preoccupations === 'Brillance'" x-on:click="formData.preoccupations = 'Brillance'"
-        x-on:change="if (selected.length >= 3) { selected.pop(); }">
+        x-on:change="if (selected.length >= 4 { selected.pop(); }">
         <label for="Brillance">Brillance</label>
     </div>
         <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
