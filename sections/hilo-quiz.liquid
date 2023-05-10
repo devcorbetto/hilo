@@ -255,7 +255,46 @@ method="post" enctype="multipart/form-data">
  {{ nondeshydratee }}
 </div>
 
-  
+     <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31a' && formData.f32 === 'f32c' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33a') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32c' && formData.f33 === 'f33a')"
+>
+  Contenido para piel seca
+</div>
+      <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32b' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33c') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33c')"
+>
+Mixta
+      </div>
+      <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32b' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32b' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33b') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32b' && formData.f33 === 'f33b')"
+>Piel Grasa:
+
+
+
+      </div>
+
+  <div x-show="
+  (formData.f31 === 'f31a' && formData.f32 === 'f32a' && formData.f33 === 'f33d') ||
+  (formData.f31 === 'f31b' && formData.f32 === 'f32a' && formData.f33 === 'f33d') ||
+  (formData.f31 === 'f31c' && formData.f32 === 'f32a' && formData.f33 === 'f33d')"
+>  Contenido para normal
+  </div>
 
 
         
