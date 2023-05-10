@@ -372,6 +372,10 @@ method="post" enctype="multipart/form-data">
   <p x-text="formData.age"></p>
   <div x-text="formData.madure = 'madure'"></div>
 </template>
+  <template x-if="formData.age === 'nomadure'">
+  <p x-text="formData.age"></p>
+  <div x-text="formData.madure = 'nomadure'"></div>
+</template>
  <div x-text="formData.madure"></div>
 
 </div>
