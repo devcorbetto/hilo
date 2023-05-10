@@ -368,19 +368,13 @@ method="post" enctype="multipart/form-data">
       {% endif %}
    </div>
 <h2>result madure:</h2>
-  <template x-if="formData.age === 'nomadure'">
+ <template x-if="formData.age === 'nomadure'" x-init="formData.madure = 'nomadure'">
   <p x-text="nomadure"></p>
-  <script>
-    formData.madure = 'nomadure';
-  </script>
+</template>
+<template x-if="formData.age !== 'nomadure'" x-init="formData.madure = 'madure'">
+  <p x-text="madure"></p>
 </template>
 
-<template x-if="formData.age !== 'nomadure'">
-  <p x-text="madure"></p>
-  <script>
-    formData.madure = 'madure';
-  </script>
-</template>
 
 </div>
   
