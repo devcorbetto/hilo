@@ -332,17 +332,12 @@ method="post" enctype="multipart/form-data">
 
 <template x-if="formData.age == 'madure'">
   Madure
-  <ul>
-    <template x-for="(value, key) in formData" :key="key">
-      <li x-text="key + ': ' + value"></li>
-    </template>
-  </ul>
+
 </template>
 
 <template x-if="formData.age != 'madure'">
   No madure
 </template>
-
   
 <ul>
   <template x-for="(value, key) in formData" :key="key">
