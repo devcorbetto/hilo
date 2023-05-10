@@ -266,10 +266,12 @@ method="post" enctype="multipart/form-data">
 
 
            
-               <p x-show="formData.age === 'nomadure'">
+               <p x-show="formData.age === 'nomadure'"
+            x-init="formData.madure ='nomadure'">
                   {{ nomadure }}
                </p>
-               <p x-show="formData.age !== 'nomadure'">
+               <p x-show="formData.age !== 'nomadure'"
+            x-init="formData.madure ='madure'">>
                   {{ madure }}
                </p>
            
@@ -283,6 +285,7 @@ method="post" enctype="multipart/form-data">
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                     x-init="deshy ='deshydratee'"
                   >
                   {{  deshydratee }}
                </p>
@@ -296,6 +299,7 @@ method="post" enctype="multipart/form-data">
                   !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
                   !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
                   !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+              x-init="deshy ='nondeshydratee'"
                   >
                   {{ nondeshydratee }}
                </p>
@@ -306,7 +310,12 @@ method="post" enctype="multipart/form-data">
             <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
                <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
                <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
-
+ 
+           
+  <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nondeshydratee')"
+           >
+           Amande
+  </p>
 
         
          
