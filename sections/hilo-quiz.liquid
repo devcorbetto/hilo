@@ -327,11 +327,14 @@ method="post" enctype="multipart/form-data">
   {% endcomment %} 
     
 
-<template x-if="formData.age.startsWith('nomadure')">
-  <span x-text="formData.age"></span>
+<template x-if="formData.age === 'nomadure'">
+  <span>No Madure</span>
 </template>
-  
-  
+
+<template x-show="formData.age.startsWith('madure')">
+  <span>Madure</span>
+</template>
+
 <h2>Resultados:</h2>
 
   
