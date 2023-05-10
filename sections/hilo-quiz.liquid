@@ -277,11 +277,13 @@ method="post" enctype="multipart/form-data">
 <br>
    <template x-if="formData.age === 'nomadure'">
   {{ nomadure }}
-  <span x-text="formData.age === 'nomadure' ? '{{ madure }}' : ''"></span>
+  <span x-text="formData.age === 'nomadure' ? {{ madure }} : ''"></span>
 </template>
 
   <hr>
-    
+    <template x-if="formData.age === 'nomadure'">
+  <span x-text="formData.age === 'nomadure' ? {{ nomadure }} : ''"></span>
+</template>
 
 
 <h2>Resultados:</h2>
