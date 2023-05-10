@@ -271,7 +271,212 @@ method="post" enctype="multipart/form-data">
 </div>
 </div>
           
-  <script>
+  
+
+
+<style>
+.border-radius {
+  border-radius: 52px;
+}
+.etapas {
+column-gap:8rem !important;
+position: relative;
+overflow:hidden;
+}
+.etapas .etapas5 {
+background:#CDCDCD;
+position: relative;
+border-radius:100%;
+font-size:30px;
+width:64px;
+height:64px;
+line-height:64px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container-step {
+font-weight:600;
+color:#575756;
+}
+.container-step::after {
+position:absolute;
+content:"";
+width:250px;
+left:50px;
+top:35px;
+height:4px;  z-index:-1;
+background:#F5DEA3;
+
+}
+.active-step1 .container-step::after
+background:#F5DEA3;
+
+}
+.active-step2 .container-step::after {
+
+background:#F5DEA3;
+
+}
+.active-step3 .container-step::after  {
+
+background:#B7DAF3;
+
+}
+.active-step4 .container-step::after  {
+
+background:#F8C8D3;
+
+}
+
+
+.container-step4::after  {
+
+content:none;
+
+}
+.container-step {
+
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.step1 {
+
+background:#fdf8ed; border-color:#f5dfa5;
+}
+.step2 {
+
+background:#f2f8f1; border-color:#cde4ca;
+}
+.step3 {
+border-color:#b7daf3; background:#eef6fc;
+
+}
+.step4 {
+border-color:#F8C8D3; background:#FDEDF1;
+}
+.step5 {
+border-color:#F8C8D3; background:#FDEDF1;
+}
+
+
+.step1 input[type="radio"]:checked + label {
+background-color: #F5DEA3; /* Cambiar a tu color preferido */
+}
+.form-quiz button {
+
+border-radius:26px;
+padding:5px 60px;
+}
+.step1 button {
+background-color: #F5DEA3;
+
+}
+.form-quiz  .step1 label {
+border: 1px solid #F5DEA3;
+}
+
+.step2 input[type="radio"]:checked + label {
+background-color: #cde4ca; /* Cambiar a tu color preferido */
+}
+.form-quiz  .step2   label {
+border: 1px solid #cde4ca;
+}
+.step2 button {
+background-color: #cde4ca;
+
+}
+.step3 input[type="radio"]:checked + label {
+background-color: #b7daf3; /* Cambiar a tu color preferido */
+}
+.form-quiz     .step3   label {
+border: 1px solid #b7daf3;
+}
+.step3 button {
+background-color: #b7daf3;
+
+}
+.step4 input[type="checkbox"]:checked + label , .step4 input[type="radio"]:checked + label {
+background-color: #F8C8D3; /* Cambiar a tu color preferido */
+}
+.step4 button,  .step5 button {
+background-color: #F8C8D3;
+
+}
+.form-quiz   .step4 label {
+border: 1px solid #F8C8D3;
+}
+
+.step5 input[type="radio"]:checked + label {
+background-color: #F8C8D3; /* Cambiar a tu color preferido */
+}
+.form-quiz  .step5  label {
+border: 1px solid #F8C8D3;
+}
+
+.container-label  {
+position:relative;
+width:fit-content;
+}
+.container-label input ,  .container-label input{
+position:absolute;
+opacity:0;
+width:100%;
+height:100%;
+}
+.form-quiz label {
+width: fit-content;
+border: 1px solid #F5DEA3;
+border-radius: 26px;
+background: transparent;
+padding: 2px 15px;
+margin-bottom:10px;
+}
+
+
+label {
+display:block;
+}
+.step1  .legend {
+color: #575756;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+legend {
+color: #575756;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+
+}
+.etapa1.active-step {
+background-color: #F5DEA3;
+}
+.etapa2.active-step {
+background-color:    #CDE4CA;
+}
+.etapa3.active-step {
+background-color:    #B7DAF3;
+}
+.etapa4.active-step {
+background-color:    #F8C8D3;
+}
+.etapa5.active-step {
+background-color:    #F8C8D3;
+}
+/* .active-step {
+background-color: #fbbf24;
+}
+*/
+</style>
+
+
+              <script>
   {% comment %} 
 
 
@@ -321,209 +526,6 @@ fetch(url, options)
 
 
 </script>
-
-
-<style>
-  .border-radius {
-    border-radius: 52px;
-
-  }
-  .etapas {
-    column-gap:8rem !important;
-    position: relative;
-    overflow:hidden;
-  }
-    .etapas .etapas5 {
-          background:#CDCDCD;
-      position: relative;
-      border-radius:100%;
-      font-size:30px;
-      width:64px;
-      height:64px;
-      line-height:64px;
-          display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  .container-step {
-    font-weight:600;
-    color:#575756;
-  }
-.container-step::after {
-  position:absolute;
-  content:"";
-  width:250px;
-  left:50px;
-  top:35px;
-  height:4px;  z-index:-1;
-  background:#F5DEA3;
-
-}
-.active-step1 .container-step::after
-  background:#F5DEA3;
- 
-}
-.active-step2 .container-step::after {
- 
-  background:#F5DEA3;
- 
-}
-  .active-step3 .container-step::after  {
- 
-  background:#B7DAF3;
- 
-}
-   .active-step4 .container-step::after  {
- 
-  background:#F8C8D3;
- 
-}
-  
-  
-  .container-step4::after  {
-
-  content:none;
-
-}
-    .container-step {
-  
-      text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-      position: relative;
-    }
-  .step1 {
-    
- background:#fdf8ed; border-color:#f5dfa5;
-  }
-  .step2 {
-     
-    background:#f2f8f1; border-color:#cde4ca;
-  }
-  .step3 {
-    border-color:#b7daf3; background:#eef6fc;
-    
-  }
-  .step4 {
-    border-color:#F8C8D3; background:#FDEDF1;
-  }
-   .step5 {
-    border-color:#F8C8D3; background:#FDEDF1;
-  }
-
-
- .step1 input[type="radio"]:checked + label {
-  background-color: #F5DEA3; /* Cambiar a tu color preferido */
-}
-   .form-quiz button {
-       
-     border-radius:26px;
-  padding:5px 60px;
-   }
-   .step1 button {
-        background-color: #F5DEA3;
-   
-   }
-    .form-quiz  .step1 label {
-     border: 1px solid #F5DEA3;
-    }
-  
-   .step2 input[type="radio"]:checked + label {
-  background-color: #cde4ca; /* Cambiar a tu color preferido */
-}
-  .form-quiz  .step2   label {
-     border: 1px solid #cde4ca;
-    }
-   .step2 button {
-        background-color: #cde4ca;
-   
-   }
-   .step3 input[type="radio"]:checked + label {
-  background-color: #b7daf3; /* Cambiar a tu color preferido */
-}
-  .form-quiz     .step3   label {
-     border: 1px solid #b7daf3;
-    }
-   .step3 button {
-        background-color: #b7daf3;
-   
-   }
-  .step4 input[type="checkbox"]:checked + label , .step4 input[type="radio"]:checked + label {
-  background-color: #F8C8D3; /* Cambiar a tu color preferido */
-}
-    .step4 button,  .step5 button {
-        background-color: #F8C8D3;
-   
-   }
-    .form-quiz   .step4 label {
-     border: 1px solid #F8C8D3;
-    }
-
-   .step5 input[type="radio"]:checked + label {
-  background-color: #F8C8D3; /* Cambiar a tu color preferido */
-}
-.form-quiz  .step5  label {
-     border: 1px solid #F8C8D3;
-    }
-  
-   .container-label  {
-     position:relative;
-     width:fit-content;
-   }
-  .container-label input ,  .container-label input{
-    position:absolute;
-  opacity:0;
-    width:100%;
-    height:100%;
-  }
-  .form-quiz label {
-        width: fit-content;
-    border: 1px solid #F5DEA3;
-    border-radius: 26px;
-    background: transparent;
-    padding: 2px 15px;
-    margin-bottom:10px;
-  }
-  
- 
-  label {
-  display:block;
-}
-.step1  .legend {
-    color: #575756;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-  legend {
-    color: #575756;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-
-  }
-.etapa1.active-step {
-    background-color: #F5DEA3;
-  }
-  .etapa2.active-step {
-   background-color:    #CDE4CA;
-  }
-    .etapa3.active-step {
-   background-color:    #B7DAF3;
-  }
-    .etapa4.active-step {
-   background-color:    #F8C8D3;
-  }
-   .etapa5.active-step {
-   background-color:    #F8C8D3;
-  }
- /* .active-step {
-  background-color: #fbbf24;
-}
-*/
-</style>
 {% schema %}
   {
     "name": "Section name",
