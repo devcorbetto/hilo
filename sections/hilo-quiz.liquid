@@ -327,12 +327,6 @@ method="post" enctype="multipart/form-data">
   {% endcomment %} 
     
 TEst age:
-<span x-if="formData.age.startsWith('madure')">
-  <span>Madure</span>
-</span>
-<span x-if="!formData.age.startsWith('madure')">
-  <span>No Madure</span>
-</span>
 
 
 <br>
@@ -341,9 +335,12 @@ TEst age:
   
 <ul>
 <template x-for="(value, key) in formData" :key="key">
- 
- 
-  <li><strong x-text="key"></strong>: <span x-text="value"></span></li>
+  <li>
+    <strong x-text="key"></strong>: 
+    <span x-if="key === 'age' && value === 'nomadure'">No Madure</span>
+    <span x-if="key === 'age' && value.startsWith('madure')">Madure</span>
+    <span x-if="key !== 'age'" x-text="value"></span>
+  </li>
 </template>
 
 </ul>
