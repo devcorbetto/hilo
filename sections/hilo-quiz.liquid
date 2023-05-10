@@ -306,41 +306,32 @@ method="post" enctype="multipart/form-data">
        
 
 
-<p x-show="formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
+<div x-show="
+  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
+  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
+  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
+  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
+  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
+  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
+  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
+  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
+  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+>
+ {{  deshydratee }}
+</div>
+<div x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
+  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
+  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
+  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
+  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
+  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
+  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
+  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+>
+ {{ nondeshydratee }}
+</div>
 
-<p x-show="formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
-
-<p x-show="formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O'">
-    es Désydratée 
-</p>
 
 
 <h2>Resultados:</h2>
