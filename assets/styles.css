@@ -46,7 +46,7 @@ section newsletter section-news
     padding: 14px 25px!important;
 }
 .cart__footer>*+* {
-    margin: auto;
+    margin: auto!important;
 }
 .w20 {
     line-height: 1.4;
