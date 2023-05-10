@@ -62,7 +62,7 @@ method="post" enctype="multipart/form-data">
    f42: '', 
    f43: '',
     peau: '',
-  madure: '',
+  madure: 'nomaduro',
   deshy: ''
    }, 
    step: 1, 
@@ -368,6 +368,7 @@ method="post" enctype="multipart/form-data">
       {% endif %}
    </div>
 <h2>result madure:</h2>
+               <div x-text="formData.madure"></div>
 <template x-if="formData.age !== 'nomadure'">
   <p x-text="formData.age"></p>
   <div x-text="formData.madure = 'madure'"></div>
