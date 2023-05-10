@@ -222,9 +222,14 @@ method="post" enctype="multipart/form-data">
         <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
         <p>{{ mixte }} </p>
         <p>
-    <template x-if="formData.age === 'nomadure'">
+   <template x-if="formData.age === 'nomadure'">
   <span>{{ nomadure }}</span>
 </template>
+
+<template x-if="formData.age.startsWith('madure')">
+  <span>{{ madure }}</span>
+</template>
+
  </p>
        <p>{{ deshydratee }} </p>
       </div>
