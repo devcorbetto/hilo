@@ -214,13 +214,16 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” <\/p><p><strong>Laurine<\/strong><\/p>"
+            "text": "<p><em>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” <\/em><\/p><p><strong>Laurine<\/strong><\/p>"
           }
         }
       },
       "block_order": [
         "b4b14ae2-ca55-49de-a2cd-ca5676a1752d",
         "template--18888716550439__378d158d-0dbf-43d6-baea-0c5cd5e474fe-1683660489e114e828-1"
+      ],
+      "custom_css": [
+        ".image_rich-text {width: 136px;}"
       ],
       "settings": {
         "customcss": "",
