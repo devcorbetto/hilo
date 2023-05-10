@@ -209,7 +209,9 @@ method="post" enctype="multipart/form-data">
             x-init="formData.peau ='seche'">
 {{ seche }}
 </p>
-          
+        <p x-show=" formData.peau ='seche'>
+           secheee
+           </p>
   
 <p x-show="
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
