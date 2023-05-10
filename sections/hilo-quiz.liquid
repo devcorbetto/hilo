@@ -202,7 +202,7 @@ method="post" enctype="multipart/form-data">
                <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
 
            
-<p x-show="
+<p x-if="
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
@@ -211,7 +211,7 @@ method="post" enctype="multipart/form-data">
 </p>
      
   
-<p x-show="
+<p x-if="
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
@@ -236,7 +236,7 @@ method="post" enctype="multipart/form-data">
 {{ mixte }}
       </p>
   
-<p x-show="
+<p x-if="
   (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
   (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
   (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
@@ -253,7 +253,7 @@ method="post" enctype="multipart/form-data">
       </p>
 
  <!-- Para piel normal -->
-<p x-show="
+<p x-if="
   (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
   (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23d') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
@@ -266,16 +266,16 @@ method="post" enctype="multipart/form-data">
 
 
            
-          <p x-if="formData.age === 'nomadure'"
-   x-init="formData.madure = 'nomadure'">
-   {{ nomadure }}
-</p>
-         <p x-if="formData.age !== 'madure'"
-   x-init="formData.madure = 'madure'">
-   {{ madure }}
-</p>
+               <p x-if=formData.age === 'nomadure'"
+            x-init="formData.madure ='nomadure'">
+                  {{ nomadure }}
+               </p>
+               <p x-if="formData.age !== 'nomadure'"
+            x-init="formData.madure ='madure'">
+                  {{ madure }}
+               </p>
            
-                <p  x-show="
+                <p  x-if="
                   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
                   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
                   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
@@ -290,7 +290,7 @@ method="post" enctype="multipart/form-data">
                   {{  deshydratee }}
                </p>
            
-               <p x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+               <p x-if="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
                   !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
                   !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
                   !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
