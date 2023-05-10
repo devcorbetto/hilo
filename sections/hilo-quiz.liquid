@@ -285,7 +285,7 @@ method="post" enctype="multipart/form-data">
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
-                     x-init="deshy ='deshydratee'"
+                     x-init="formData.deshy ='deshydratee'"
                   >
                   {{  deshydratee }}
                </p>
@@ -299,7 +299,7 @@ method="post" enctype="multipart/form-data">
                   !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
                   !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
                   !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
-              x-init="deshy ='nondeshydratee'"
+              x-init="deshy ='formData.nondeshydratee'"
                   >
                   {{ nondeshydratee }}
                </p>
