@@ -229,7 +229,21 @@ method="post" enctype="multipart/form-data">
 <p x-show="formData.age !== 'nomadure'">
  {{ madure }}
 </p>
-       <p>{{ deshydratee }} </p>
+     <p x-show="
+  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
+  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
+  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
+  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
+  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
+  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
+  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
+  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
+  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')
+">
+ {{  deshydratee }}
+</p>
+
+        
       </div>
       <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
         <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
