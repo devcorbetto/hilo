@@ -161,7 +161,7 @@ method="post" enctype="multipart/form-data">
   <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
     x-model="selected"
     x-bind:checked="selected.includes('Eclat')"
-    x-on:click="if (selected.length >= 4 && !selected.includes('Eclat')) { return false; } 
+    x-on:click="if (selected.length >= 3 && !selected.includes('Eclat')) { return false; } 
                else if (selected.includes('Eclat')) { selected.splice(selected.indexOf('Eclat'), 1); }
                else { selected.push('Eclat'); }">
   Eclat</label>
@@ -171,7 +171,7 @@ method="post" enctype="multipart/form-data">
   <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
     x-model="selected"
     x-bind:checked="selected.includes('Brillance')"
-    x-on:click="if (selected.length >= 4 && !selected.includes('Brillance')) { return false; } 
+    x-on:click="if (selected.length >= 3 && !selected.includes('Brillance')) { return false; } 
                else if (selected.includes('Brillance')) { selected.splice(selected.indexOf('Brillance'), 1); }
                else { selected.push('Brillance'); }">
   <label for="Brillance">Brillance</label>
