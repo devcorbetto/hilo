@@ -205,15 +205,10 @@ method="post" enctype="multipart/form-data">
 <p x-show="
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
-        x-bind:class="{ 'hidden': !showResult }"
-  x-data="{ showResult: false }"
-  x-init="showResult = $el.offsetHeight > 0; formData.peau = showResult ? 'seche' : ''"
-
-                 >
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      ">
 {{ seche }}
 </p>
-           <span x-model="formData.peau"></span>
+          
   
 <p x-show="
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
@@ -310,54 +305,7 @@ method="post" enctype="multipart/form-data">
                <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
 
 
-          <p x-show="
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')
-">
-{{ seche }}
-</p>
-  
-<p x-show="
-  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23d')"
->
-{{ mixte }}
-      </p>
-  
-<p x-show="
-  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
-  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')"
->{{ grasse }}
-
-
-
-      </p>
-
-
+        
          
 Peau sèche / mature / non déshydratée - Amande - Carotte - Argan
 Peau sèche / non mature / déshydratée - Onagre - Abricot - Amande
