@@ -132,8 +132,6 @@
     "show_vendor": false,
     "show_cart_note": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo_orange.svg",
-    "checkout_heading_font": "Open Sans",
-    "checkout_body_font": "Open Sans",
     "checkout_accent_color": "#d0c4e2",
     "checkout_button_color": "#d0c4e2",
     "sections": {

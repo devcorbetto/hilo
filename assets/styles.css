@@ -45,6 +45,9 @@ section newsletter section-news
 .product-option .button {
     padding: 14px 25px!important;
 }
+.w20 {
+    line-height: 1;
+}
 
 /* menu */
 .banner-home .container-right  p {
