@@ -326,20 +326,18 @@ method="post" enctype="multipart/form-data">
      <div x-text="selected"></div>
   {% endcomment %} 
     
-TEst age:
 
 
-<br>
 <h2>Resultados:</h2>
 
+  <template  x-if="(formData.f31 == 'f31a' || formData.f31 == 'f31b')  && (formData.f32 == 'f32a' || formData.f31 == 'f32b' ) && ( formData.f33 == 'f33a' || formData.f33 == 'f33b' )">
+          <p>Piel Deshidratada</p>
+        </template>
   
 <ul>
 <template x-for="(value, key) in formData" :key="key">
-  <li>
-    <strong x-text="key"></strong>: 
-    <span x-if="key === 'age' && value === 'nomadure'">No Madure</span>
   
-  </li>
+  <li><strong x-text="key"></strong>: <span x-text="value"></span></li>
 </template>
 
 </ul>
