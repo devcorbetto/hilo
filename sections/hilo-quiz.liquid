@@ -206,7 +206,7 @@ method="post" enctype="multipart/form-data">
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
-           x-on:shown="formData.peau ='seche'">
+            x-init="formData.peau ='seche'">
 {{ seche }}
 </p>
      
@@ -231,7 +231,7 @@ method="post" enctype="multipart/form-data">
   (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23d')"
-          x-on:shown="formData.peau ='mixte'">
+             x-init="formData.peau ='mixte'">
 
 {{ mixte }}
       </p>
@@ -245,7 +245,7 @@ method="post" enctype="multipart/form-data">
   (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')"
-  x-on:shown="formData.peau ='grasse'">
+ x-init="formData.peau ='grasse'">
            {{ grasse }}
 
 
@@ -260,18 +260,18 @@ method="post" enctype="multipart/form-data">
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23d')"
- x-on:shown="formData.peau ='normal'">
+ x-init="formData.peau ='normal'">
   {{ normal }}
   </p>
 
 
            
                <p x-show="formData.age === 'nomadure'"
-           x-on:shown="formData.madure ='nomadure'">
+            if (formData.age === 'nomadure') { formData.peau = 'nomadure' }>
                   {{ nomadure }}
                </p>
                <p x-show="formData.age !== 'nomadure'"
-          x-on:shown="formData.madure ='madure'">
+            if (formData.age === 'madure') { formData.peau = 'madure' }>
                   {{ madure }}
                </p>
            
@@ -285,7 +285,7 @@ method="post" enctype="multipart/form-data">
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
-                       x-on:shown="'formData.deshy = 'deshydratee'"
+                        x-init="'formData.deshy = 'deshydratee'"
                   >
                   {{  deshydratee }}
                </p>
@@ -299,7 +299,7 @@ method="post" enctype="multipart/form-data">
                   !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
                   !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
                   !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
-                x-on:shown="formData.deshy ='nondeshydratee'"
+                 x-init="formData.deshy ='nondeshydratee'"
                   >
                   {{ nondeshydratee }}
                </p>
