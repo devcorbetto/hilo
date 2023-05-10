@@ -117,7 +117,7 @@ method="post" enctype="multipart/form-data">
             <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
    
             
-  <div class="container-label">
+<div class="container-label">
   <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
     x-model="selected"
     x-bind:checked="selected.includes('Imperfections')"
@@ -156,6 +156,7 @@ method="post" enctype="multipart/form-data">
                else { selected.push('Rougeurs'); }">
   <label for="Rougeurs">Rougeurs, irritations cutanées</label>
 </div>
+
 
 <div class="container-label">
   <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
