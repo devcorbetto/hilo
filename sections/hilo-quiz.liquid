@@ -191,7 +191,7 @@ method="post" enctype="multipart/form-data">
       </div>
       {% endfor %}
       <div class="step6 " x-show="step === 6">
-         {% if customer %}
+       
          <div class="div-with-svg">
             <h2 class="text-center">{{ customer.first_name }}, VOICI VOS RESULTATS :
             </h2>
@@ -363,9 +363,7 @@ method="post" enctype="multipart/form-data">
             <a href="#" class="button btn">J'ajoute ma routine au panier</a>
          </div>
       </div>
-      {% else %}
-      {% include 'register-quiz' %}
-      {% endif %}
+     
    </div>
 
 
