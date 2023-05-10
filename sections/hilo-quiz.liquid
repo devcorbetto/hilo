@@ -330,9 +330,15 @@ method="post" enctype="multipart/form-data">
 
 <h2>Resultados:</h2>
 
-  <template  x-if="(formData.f31 == 'f31a' || formData.f31 == 'f31b')  && (formData.f32 == 'f32a' || formData.f31 == 'f32b' ) && ( formData.f33 == 'f33a' || formData.f33 == 'f33b' )">
-          <p>Piel Deshidratada</p>
-        </template>
+  <template  x-if="(formData.f31a == 'f31a' && formData.f32 == 'f32a') ">
+    f31a<br>
+   f32a<br>
+Oui<br>	Toute la journée ou souvent	<br>La peau qui ne brille<br> jamais	<br>Mon maquillage marque des zone de sécheresse / peluche	<br>Oui	<br>Oui	<br>Oui<br>
+ 
+   
+  Peau mature / sèche / déshydratée
+  
+  </template>
   
 <ul>
 <template x-for="(value, key) in formData" :key="key">
