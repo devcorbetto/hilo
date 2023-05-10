@@ -40,7 +40,7 @@ permet d’avoir une peau saine. Il est important de conserver cette hydratation
 en pleine santé.
 {% endcapture %}
 {% assign steps = page.metafields.quiz.quiz.value  %}
-
+<h2>test1</h2>
 <form action="https://apiv2.shopflex.io/auth/trigFger/boksbfk5yw?customerid={{ customer.id }}" 
 method="post" enctype="multipart/form-data">
   <button class="form__submit-btn" type="submit">submit</button>
@@ -188,6 +188,12 @@ method="post" enctype="multipart/form-data">
             class=" text-white font-bold py-2 px-4 rounded">Valider</button>
            {% elsif  forloop.index == 1 %}
          <button @click="if(formData.name && formData.gender && formData.age) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
+            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+              {% elsif  forloop.index == 2 %}
+              <button @click="if(formData.f21 && formData.f22 && formData.f23 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
+            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+              {% elsif  forloop.index == 3 %}
+               <button @click="if(formData.f21 && formData.f22 && formData.f23 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
             class=" text-white font-bold py-2 px-4 rounded">Valider</button>
          {% endif %}
          {% endif %}
