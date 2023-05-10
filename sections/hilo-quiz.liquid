@@ -229,7 +229,7 @@ method="post" enctype="multipart/form-data">
 <p x-show="formData.age !== 'nomadure'">
  {{ madure }}
 </p>
-     <p x-show="
+<div x-show="
   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
@@ -238,13 +238,26 @@ method="post" enctype="multipart/form-data">
   (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
   (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
-  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')
-">
+  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+>
  {{  deshydratee }}
-</p>
-        <p x-show="!/(OOO|OON|OOJ|ONO|OJO|NOO|JOO|JNO|JOJ)/.test(formData.f31 + formData.f32 + formData.f33)">
-    {{  nondeshydratee }}
-</p>
+</div>
+
+<div x-if="
+  (formData.f31 !== 'O' || formData.f32 !== 'O' || formData.f33 !== 'O') &&
+  (formData.f31 !== 'O' || formData.f32 !== 'O' || formData.f33 !== 'N') &&
+  (formData.f31 !== 'O' || formData.f32 !== 'O' || formData.f33 !== 'J') &&
+  (formData.f31 !== 'O' || formData.f32 !== 'N' || formData.f33 !== 'O') &&
+  (formData.f31 !== 'O' || formData.f32 !== 'J' || formData.f33 !== 'O') &&
+  (formData.f31 !== 'N' || formData.f32 !== 'O' || formData.f33 !== 'O') &&
+  (formData.f31 !== 'J' || formData.f32 !== 'O' || formData.f33 !== 'O') &&
+  (formData.f31 !== 'J' || formData.f32 !== 'N' || formData.f33 !== 'O') &&
+  (formData.f31 !== 'J' || formData.f32 !== 'O' || formData.f33 !== 'O')"
+>
+  {{ nondeshydratee }}
+</div>
+
+  
 
 
         
