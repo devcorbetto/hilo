@@ -41,7 +41,7 @@ en pleine santé.
 {% endcapture %}
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
-<form action="https://apiv2.shopflex.io/auth/trigger/boksbfk5yw?customerid={{ customer.id }}" 
+<form action="https://apiv2.shopflex.io/auth/trigFger/boksbfk5yw?customerid={{ customer.id }}" 
 method="post" enctype="multipart/form-data">
   <button class="form__submit-btn" type="submit">submit</button>
 </form>
@@ -370,8 +370,9 @@ method="post" enctype="multipart/form-data">
 
 
 </div>
-</div>
-   <template x-if="formData.age === 'nomadure'">
+  resultado madure:
+
+     <template x-if="formData.age === 'nomadure'">
   <p x-text="nomadure"></p>
   <script>
     formData.madure = 'nomadure';
@@ -384,6 +385,8 @@ method="post" enctype="multipart/form-data">
     formData.madure = 'madure';
   </script>
 </template>
+</div>
+
 </div>
           
   
