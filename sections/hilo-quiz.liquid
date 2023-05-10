@@ -164,7 +164,18 @@ method="post" enctype="multipart/form-data">
     x-on:click="if (selected.length >= 4 && !selected.includes('Eclat')) { return false; } 
                else if (selected.includes('Eclat')) { selected.splice(selected.indexOf('Eclat'), 1); }
                else { selected.push('Eclat'); }">
-  <label for="Eclat">E
+  Eclat</label>
+    </div>
+
+     <div class="container-label">
+  <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
+    x-model="selected"
+    x-bind:checked="selected.includes('Brillance')"
+    x-on:click="if (selected.length >= 4 && !selected.includes('Brillance')) { return false; } 
+               else if (selected.includes('Brillance')) { selected.splice(selected.indexOf('Brillance'), 1); }
+               else { selected.push('Brillance'); }">
+  <label for="Brillance">Brillance</label>
+</div>
 
         <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
 </fieldset>
