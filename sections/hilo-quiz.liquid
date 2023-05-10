@@ -181,29 +181,29 @@ method="post" enctype="multipart/form-data">
             <fieldset>
          </div>
          {% endfor %}
-         {% if forloop.index != 5 and    forloop.index != 1   and    forloop.index != 2 and    forloop.index != 3 and    forloop.index != 4   %}
-         <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
-               {% elsif  forloop.index == 4 %}
-           <h2>asd</h2>
-             <button @click="if(selected.length > 0) step++; else alert('Veuillez sélectionner au moins une option.');" 
+           {% case forloop.index %}
+   {% when 1 %}
+      <button @click="if(formData.name && formData.gender && formData.age) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
+            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+   {% when 2 %}
+    <button @click="if(formData.f21 && formData.f22 && formData.f23) { step++ } else { alert('Por favor complete todos los campos requeridos'); }" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+
+   {% when 3 %}
+     <button @click="if(formData.f31 && formData.f32 && formData.f33 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
+            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+   {% when 4 %}
+    <button @click="if(selected.length > 0) step++; else alert('Veuillez sélectionner au moins une option.');" 
                class=" text-white font-bold py-2 px-4 rounded">
                Valider</button>
-         {% elsif  forloop.index == 5 %}
-        <button @click="if(formData.f51 && formData.f52) { step++ }  else alert('Veuillez sélectionner au moins une option.');"  " class="text-white font-bold py-2 px-4 rounded">Valider</button>
+   {% when 5 %}
+     <button @click="if(formData.f51 && formData.f52) { step++ }  else alert('Veuillez sélectionner au moins une option.');"  " class="text-white font-bold py-2 px-4 rounded">Valider</button>
 
-           {% elsif  forloop.index == 1 %}
-         <button @click="if(formData.name && formData.gender && formData.age) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
-            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
-              {% elsif  forloop.index == 2 %}
+   {% else %}
+      <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
+{% endcase %}
+
+              
         
-            <button @click="if(formData.f21 && formData.f22 && formData.f23) { step++ } else { alert('Por favor complete todos los campos requeridos'); }" class="text-white font-bold py-2 px-4 rounded">Valider</button>
-
-              {% elsif  forloop.index == 3 %}
-               <button @click="if(formData.f31 && formData.f32 && formData.f33 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
-            class=" text-white font-bold py-2 px-4 rounded">Valider</button>
-          
-
-         {% endif %}
          {% endif %}
       </div>
       {% endfor %}
