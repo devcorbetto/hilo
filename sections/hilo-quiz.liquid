@@ -242,6 +242,10 @@ method="post" enctype="multipart/form-data">
 ">
  {{  deshydratee }}
 </p>
+        <p x-show="!/(OOO|OON|OOJ|ONO|OJO|NOO|JOO|JNO|JOJ)/.test(formData.f31 + formData.f32 + formData.f33)">
+    {{  nondeshydratee }}
+</p>
+
 
         
       </div>
