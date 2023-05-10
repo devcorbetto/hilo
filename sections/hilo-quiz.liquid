@@ -327,18 +327,17 @@ method="post" enctype="multipart/form-data">
   {% endcomment %} 
     
 
-
-<h2>Resultados:</h2>
-
-  <template  x-if="formData.age === 'nomadure' ">
+ <template  x-if="formData.age === 'nomadure' ">
     f31a<br>
    f32a<br>
-Oui<br>	Toute la journée ou souvent	<br>La peau qui ne brille<br> jamais	<br>Mon maquillage marque des zone de sécheresse / peluche	<br>Oui	<br>Oui	<br>Oui<br>
+Oui<br>	Toute la journée ou souvent	<br>La peau qui ne brille<br> jamais	<br>Mon maquillage marque des zone de sécheresse / peluche	<br>Oui	<br>Oui	<br>Oui
  
    
   Peau mature / sèche / déshydratée
   
   </template>
+<h2>Resultados:</h2>
+
   
 <ul>
 <template x-for="(value, key) in formData" :key="key">
