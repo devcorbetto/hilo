@@ -327,22 +327,11 @@ method="post" enctype="multipart/form-data">
   {% endcomment %} 
     
 
- <template  x-if="formData.age === 'nomadure' ">
-<span x-text="formData.age"></span>
+<template x-if="formData.age.startsWith('nomadure')">
+  <span x-text="formData.age"></span>
+</template>
   
-  </template>
-   <template  x-if="formData.age === 'nomadure1' ">
-<span x-text="formData.age"></span>
   
-  </template>
-     <template  x-if="formData.age === 'nomadure2' ">
-<span x-text="formData.age"></span>
-  
-  </template>
-     <template  x-if="formData.age === 'nomadure3' ">
-<span x-text="formData.age"></span>
-  
-  </template>
 <h2>Resultados:</h2>
 
   
