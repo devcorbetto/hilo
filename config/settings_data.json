@@ -131,6 +131,7 @@
     "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_orange.svg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
