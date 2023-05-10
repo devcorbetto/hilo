@@ -274,6 +274,20 @@ method="post" enctype="multipart/form-data">
             x-init="if(formData.age !== 'nomadure') { formData.madure = 'madure' }">
                   {{ madure }}
                </p>
+
+             <p x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                 x-init="formData.deshy ='nondeshydratee'"
+                  >
+                  {{ nondeshydratee }}
+               </p>
            
                 <p  x-show="
                   (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
@@ -290,19 +304,7 @@ method="post" enctype="multipart/form-data">
                   {{  deshydratee }}
                </p>
            
-               <p x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
-                 x-init="formData.deshy ='nondeshydratee'"
-                  >
-                  {{ nondeshydratee }}
-               </p>
+             
               
            
             </div>
