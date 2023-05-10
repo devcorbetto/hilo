@@ -60,7 +60,10 @@ method="post" enctype="multipart/form-data">
    selected: [],
    f41: '', 
    f42: '', 
-   f43: ''
+   f43: '',
+    peau: '',
+  madure: '',
+  deshy: ''
    }, 
    step: 1, 
    activeStepColor: '#fbbf24', 
@@ -293,12 +296,82 @@ method="post" enctype="multipart/form-data">
                   >
                   {{ nondeshydratee }}
                </p>
+              
            
             </div>
            
             <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
                <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
                <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
+
+
+          <p x-show="
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')
+">
+{{ seche }}
+</p>
+  
+<p x-show="
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23d')"
+>
+{{ mixte }}
+      </p>
+  
+<p x-show="
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')"
+>{{ grasse }}
+
+
+
+      </p>
+
+
+         
+Peau sèche / mature / non déshydratée - Amande - Carotte - Argan
+Peau sèche / non mature / déshydratée - Onagre - Abricot - Amande
+Peau sèche / non mature / non déshydratée - Amande - Abricot -Abricot
+Peau mixte / mature / déshydratée - Argan - Onagre - Carotte
+Peau mixte / mature / non déshydratée - Abricot - Argan - Carotte
+Peau mixte / non mature / déshydratée - Onagre - Amande - Noisette
+Peau mixte / non mature / non déshydratée - Noisette - Abricot - Abricot
+Peau normale / mature / déshydratée - Carotte - Argan - Onagre
+Peau normale / mature / non déshydratée - Argan - Carotte - Amande
+Peau normale / non mature / déshydratée - Carotte - Amande - onagre
+Peau normale / non mature / non déshydratée - Carotte - Amande - Abricot
+Peau grasse / mature / déshydratée - Noisette - Onagre - Argan
+Peau grasse / mature / non déshydratée - Argan - Noisette - Carotte
+Peau grasse / non mature / déshydratée - Noisette - Onagre - Noisette
+Peau grasse / non mature / non déshydratée - Abricot - Noisette - Noisette
+
+
+              
                <div class="container-result flex" >
                   <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
                   </div>
