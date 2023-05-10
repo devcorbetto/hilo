@@ -308,8 +308,8 @@ method="post" enctype="multipart/form-data">
   (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')
 ">
 
-
-  Contenido para piel seca
+seca:<br>
+{{ seche }}
 </div>
   
 <div x-show="
@@ -336,8 +336,8 @@ method="post" enctype="multipart/form-data">
   <!-- Contenido que se muestra si se cumple alguna de las condiciones -->
 </div>
 
-
-Mixta
+mixta:<br>
+{{ mixta }}
       </div>
   
 <div x-show="
@@ -350,7 +350,8 @@ Mixta
   (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')"
 >
-Piel Grasa:
+
+Piel Grasa:<br> {{ grasse }}
 
 
 
@@ -368,7 +369,8 @@ Piel Grasa:
   <!-- Contenido que quieres mostrar si se cumple alguna de las condiciones -->
 
 
-      Contenido para normal
+      Contenido para normal <br>
+  {{ normal }}
   </div>
 
 
