@@ -202,7 +202,7 @@ method="post" enctype="multipart/form-data">
            {% if forloop.index != 5  %}
          <button @click="step++;"  class=" text-white font-bold py-2 px-4 rounded">Valider</button>
                  {% else == 5 %}
-             <button @click="step++; getSkinType(formData)" 
+             <button @click="step++;" 
               class=" text-white font-bold py-2 px-4 rounded">Valider</button>
             {% endif %}
               {% endif %}
