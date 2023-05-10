@@ -368,13 +368,12 @@ method="post" enctype="multipart/form-data">
       {% endif %}
    </div>
 <h2>result madure:</h2>
- <template x-if="formData.age === 'nomadure'" x-init="formData.madure = 'nomadure'">
-  <p x-text="nomadure"></p>
-</template>
-<template x-if="formData.age !== 'nomadure'" x-init="formData.madure = 'madure'">
-  <p x-text="madure"></p>
-</template>
-
+<template x-bind="{
+      'x-init': () => {
+        formData.madure = formData.age === 'nomadure' ? 'nomadure' : 'madure';
+      }
+    }"
+  ></template>
 
 </div>
   
