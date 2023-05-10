@@ -270,7 +270,7 @@ method="post" enctype="multipart/form-data">
    x-init="formData.madure = 'nomadure'">
    {{ nomadure }}
 </p>
-         <p x-if="formData.age === 'madure'"
+         <p x-if="formData.age !== 'madure'"
    x-init="formData.madure = 'madure'">
    {{ madure }}
 </p>
