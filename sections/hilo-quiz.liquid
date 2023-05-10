@@ -138,8 +138,11 @@ method="post" enctype="multipart/form-data">
      <div class="container-label">
         <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation"
         x-model="selected"
-          x-bind:checked="formData.preoccupations === 'Deshydratation'" x-on:click="formData.preoccupations = 'Deshydratation'"
+          x-bind:checked="formData.preoccupations === 'Deshydratation'" 
+            x-on:click="formData.preoccupations = 'Deshydratation'"
         x-on:change="if (selected.length >= 4) { selected.pop(); }">
+
+            
         <label for="Deshydratation">Déshydratation</label>
     </div>
 
