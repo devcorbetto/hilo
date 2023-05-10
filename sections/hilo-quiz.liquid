@@ -274,6 +274,20 @@ method="post" enctype="multipart/form-data">
             >
                   {{ madure }}
                </p>
+           <template x-if="formData.age === 'nomadure'">
+  <p x-text="nomadure"></p>
+  <script>
+    formData.madure = 'nomadure';
+  </script>
+</template>
+
+<template x-if="formData.age !== 'nomadure'">
+  <p x-text="madure"></p>
+  <script>
+    formData.madure = 'madure';
+  </script>
+</template>
+           
 
              <p x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
                   !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
