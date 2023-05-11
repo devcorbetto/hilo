@@ -233,11 +233,11 @@ method="post" enctype="multipart/form-data">
                <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
 
          
-            {% assign seche = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+            {% assign seche2 = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d') " %}
 <p x-show="
-       {{ seche }}     "
+       {{ seche2 }}     "
      >
  
 {{ seche }}
