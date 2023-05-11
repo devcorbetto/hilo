@@ -388,12 +388,90 @@ method="post" enctype="multipart/form-data">
 
 
            
-  <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nodeshy')"
-           >
- 
-         Amande - Carotte - Argan
-  </p>
 
+<!-- Peau sèche / mature / déshydratée -->
+<p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+    Onagre - Argan - Amande
+</p>
+
+<!-- Peau sèche / mature / non déshydratée -->
+<p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
+    Amande - Carotte - Argan
+</p>
+
+<!-- Peau sèche / non mature / déshydratée -->
+<p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
+    Onagre - Abricot - Amande
+</p>
+
+<!-- Peau sèche / non mature / non déshydratée -->
+<p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
+    Amande - Abricot - Abricot
+</p>
+
+<!-- Peau mixte / mature / déshydratée -->
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+    Argan - Onagre - Carotte
+</p>
+
+<!-- Peau mixte / mature / non déshydratée -->
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
+    Abricot - Argan - Carotte
+</p>
+
+<!-- Peau mixte / non mature / déshydratée -->
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
+    Onagre - Amande - Noisette
+</p>
+
+<!-- Peau mixte / non mature / non déshydratée -->
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
+    Noisette - Abricot - Abricot
+</p>
+
+<!-- Peau normale / mature / déshydratée -->
+<p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+    Carotte - Argan - Onagre
+</p>
+
+<!-- Peau normale / mature / non déshydratée -->
+<p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
+    Argan - Carotte - Amande
+</p>
+
+<!-- Peau normale / non mature / déshydratée -->
+<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
+    Carotte - Amande - Onagre
+</p>
+
+
+<!-- Peau normale / non mature / non déshydratée -->
+<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
+  Carotte - Amande - Abricot
+</p>
+
+<!-- Peau grasse / mature / déshydratée -->
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+  Noisette - Onagre - Argan
+</p>
+
+<!-- Peau grasse / mature / non déshydratée -->
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
+  Argan - Noisette - Carotte
+</p>
+
+<!-- Peau grasse / non mature / déshydratée -->
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
+  Noisette - Onagre - Noisette
+</p>
+
+<!-- Peau grasse / non mature / non déshydratée -->
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
+  Abricot - Noisette - Noisette
+</p>
+
+
+              
         
 
 
