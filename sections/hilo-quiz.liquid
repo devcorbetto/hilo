@@ -204,7 +204,8 @@ method="post" enctype="multipart/form-data">
          <label for="Deshydratation">Déshydratation</label>
       </div>
       <div class="container-label">
-         <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs" value="Rougeurs" x-model="selected">
+         <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" 
+           value="Rougeurs" x-model="selected">
          <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
       </div>
       <div class="container-label">
@@ -219,7 +220,14 @@ method="post" enctype="multipart/form-data">
    Valider
 </button>
 
-
+<div x-show="selectedOptions && selectedOptions.length > 0">
+   <h3>Selección guardada:</h3>
+   <ul>
+      <template x-for="option in selectedOptions">
+         <li x-text="option"></li>
+      </template>
+   </ul>
+</div>
 
  
     
