@@ -189,7 +189,7 @@ method="post" enctype="multipart/form-data">
                   x-model="selected"
                   x-bind:checked="formData.preoccupations === 'Imperfections'" 
                   x-on:click="formData.preoccupations = 'Imperfections'" 
-                       x-on:change="if (selected.length >= 3) { selected.pop(); }">
+                        x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Imperfections">Imperfections  </label>
             </div>
             <div class="container-label">
@@ -197,7 +197,7 @@ method="post" enctype="multipart/form-data">
                   x-model="selected"
                   x-bind:checked="formData.preoccupations === 'Signes de lage'"
                   x-on:click="formData.preoccupations = 'Signes de lage'"
-                      x-on:change="if (selected.length >= 3) { selected.pop(); }">
+             x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Signes de lage">Signes de l'âge</label>
             </div>
             <div class="container-label">
@@ -205,7 +205,7 @@ method="post" enctype="multipart/form-data">
                   x-model="selected"
                   x-bind:checked="formData.preoccupations === 'Deshydratation'" 
                   x-on:click="formData.preoccupations = 'Deshydratation'"
-                     x-on:change="if (selected.length >= 3) { selected.pop(); }">
+                     x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Deshydratation">Déshydratation</label>
             </div>
             <div class="container-label">
@@ -219,14 +219,14 @@ method="post" enctype="multipart/form-data">
                <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
                   x-model="selected"
                   x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
-                  x-on:change="if (selected.length >= 3) { selected.pop(); }">
+             x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Eclat">Eclat</label>
             </div>
             <div class="container-label">
                <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
                   x-model="selected"
                   x-bind:checked="formData.preoccupations === 'Brillance'" x-on:click="formData.preoccupations = 'Brillance'"
-                           x-on:change="if (selected.length >= 3) { selected.pop(); }">
+                  x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Brillance">Brillance</label>
             </div>
             <button @click="if(selected.length > 0) step++; else alert('Veuillez sélectionner au moins une option.');" 
