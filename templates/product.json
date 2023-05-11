@@ -137,7 +137,7 @@
         "template--17804308939047__2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa-1679359602bf820eec-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "COMMENT CA MARCHE ?",
+            "heading": "COMMENT ÇA MARCHE ?",
             "icon": "none",
             "row_content": "<p>comment<\/p>",
             "page": ""
@@ -155,9 +155,9 @@
         "template--17804308939047__2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa-1679359602bf820eec-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "INGREDIENTS",
+            "heading": "INGRÉDIENTS",
             "icon": "none",
-            "row_content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "row_content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
             "page": ""
           }
         },
