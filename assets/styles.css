@@ -295,6 +295,10 @@ font-size:10px;
 
 }
 
+.header__active-menu-item {
+    color: #F7B378!important;
+    text-decoration: none!important;
+}
 
 .collection  h2 {
   margin-bottom:60px;
