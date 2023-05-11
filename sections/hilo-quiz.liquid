@@ -215,9 +215,36 @@ method="post" enctype="multipart/form-data">
                     x-model="selected" x-on:change="updateSelected('Imperfections6')">
                <label for="Brillance">Brillance</label>
             </div>
-             <button @click="if(selected.length >= 1 && selected.length <= 3) step++; else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
+             <button @click="if(selected.length >= 1 && selected.length <= 3) step++;  saveSelection(); else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
          Valider
       </button>
+
+           <script>
+   // Resto de tu código Alpine.js
+
+   function updateSelected(option) {
+      if (selected.includes(option)) {
+         selected = selected.filter(item => item !== option);
+      } else {
+         if (selected.length < 3) {
+            selected.push(option);
+         } else {
+            alert("Vous ne pouvez sélectionner que jusqu'à 3 options.");
+         }
+      }
+   }
+
+   function saveSelection() {
+      if (selected.length >= 1 && selected.length <= 3) {
+         // Aquí puedes agregar la lógica para guardar la selección
+         console.log("Selección guardada:", selected);
+         // Puedes reemplazar el console.log() con tu código personalizado para guardar la selección
+         step++;
+      } else {
+         alert("Veuillez sélectionner de 1 à 3 options.");
+      }
+   }
+</script>
          </fieldset>
          {% else %}
          {% for field in step.fields %}
