@@ -60,6 +60,11 @@ padding: 11px 16px!important;
   font-size:17px;
 }
 
+body{
+  letter-spacing:0;
+  line-height:1.5;
+}
+
 .rating-count.caption {
     vertical-align: text-top;
 }

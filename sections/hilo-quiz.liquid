@@ -213,14 +213,16 @@ method="post" enctype="multipart/form-data">
          <input type="checkbox" id="Brillance" name="Brillance" value="Brillance" x-model="selected">
          <label for="Brillance">Brillance</label>
       </div>
-<button @click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = selected.slice(); } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" class="text-white font-bold py-2 px-4 rounded">
+<button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" class="text-white font-bold py-2 px-4 rounded">
    Valider
 </button>
 
-<div x-show="selectedOptions.length > 0">
+<div x-show="selectedOptions && selectedOptions.length > 0">
    <h3>Selección guardada:</h3>
    <ul>
-      <li x-for="option in selectedOptions">{{ option }}</li>
+      <template x-for="option in selectedOptions">
+         <li x-text="option"></li>
+      </template>
    </ul>
 </div>
 
