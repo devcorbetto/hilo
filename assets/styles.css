@@ -39,6 +39,16 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+
+.shopify-policy__title{
+  margin-bottom:50px;
+}
+
+.shopify-policy__container {
+    max-width: 99ch;
+    margin-bottom: 150px;
+}
+
 .product-option .nobutton{
   padding: 12px 25px!important;
 }
