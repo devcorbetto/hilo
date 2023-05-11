@@ -220,23 +220,19 @@ method="post" enctype="multipart/form-data">
             <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
                <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
 
-           <script>
-            const seche = 'seche'; // reemplaza 'seche' con el valor que quieras asignar a formData.peau
-
-  // Actualiza formData.peau cuando se cumpla la condición que especificaste
-  if ((formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
-      (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-      (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')) {
-    formData.peau = seche;
-  }</script>
+         
               Tipo de piel:
               <p x-show="formData.peau === 'seche'">{{ seche }}</p>
-              <br><hr>
+             <hr>
 <p x-show="
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
-          >
+       x-init="if ((formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') || 
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')) 
+  { console.log('condición verdadera'); formData.peau = 'seche'; }">
+  {{ seche }}   >
 {{ seche }}
 </p>
      
