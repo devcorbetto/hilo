@@ -390,7 +390,7 @@ method="post" enctype="multipart/form-data">
            
 
 <!-- Peau sèche / mature / déshydratée -->
-<p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+<p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'deshy')  x-init="setIngredients('Onagre', 'Argan', 'Amande')">
     Onagre - Argan - Amande
 </p>
 
