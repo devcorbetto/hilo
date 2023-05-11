@@ -60,6 +60,10 @@ padding: 11px 16px!important;
   font-size:17px;
 }
 
+.rating-count.caption {
+    vertical-align: text-top;
+}
+
 /* menu */
 .banner-home .container-right  p {
   color:white;
