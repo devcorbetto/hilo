@@ -139,7 +139,7 @@ summary .icon-carret2 {
               {% if block.settings.row_content == '<p>comment</p>' %}
                    <div class="container-comment">
                  {% for value in product.metafields.custom.photos-comment-ca-marche.value  %}
-               <div>   <img src="{{ value.url }}">  <br> <b style="font-weight:600 !important;">{{  value.name }}</b></div>
+               <div>   <img src="{{ value.url }}">  <b style="font-weight:600 !important;">{{  value.name }}</b></div>
                    {% endfor %}
                    </div>
                     <style>
@@ -159,7 +159,7 @@ summary .icon-carret2 {
                           object-fit: cover;
                       }
                     </style>
-
+                    <br>
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
                 {% elsif block.settings.row_content == '<p>CONSIGNES DE RECYCLAGE</p>'  %}
                    {% for value in product.metafields.custom.photos_recyclage.value  %}
