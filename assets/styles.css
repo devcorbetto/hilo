@@ -69,6 +69,11 @@ body{
   font-weight:600;
 }
 
+.button, .shopify-challenge__button, .customer button {
+  letter-spacing:0!important;
+    padding: 0px 4rem;
+}
+
 .rating-count.caption {
     vertical-align: text-top;
 }
