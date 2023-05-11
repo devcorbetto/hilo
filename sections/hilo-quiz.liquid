@@ -188,72 +188,43 @@ method="post" enctype="multipart/form-data">
          {% endif %}
          {% if forloop.index == 4  %}
          <fieldset class="mb-10">
-            <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
-            <div class="container-label">
-               <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections"
-                 x-model="selected" x-on:change="updateSelected('Imperfections')">
-               <label for="Imperfections">Imperfections  </label>
-            </div>
-            <div class="container-label">
-               <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
-               x-model="selected" x-on:change="updateSelected('Imperfections2')">
-               <label for="Signes de lage">Signes de l'âge</label>
-            </div>
-            <div class="container-label">
-               <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation"
-                 x-model="selected" x-on:change="updateSelected('Imperfections3')">
-               <label for="Deshydratation">Déshydratation</label>
-            </div>
-            <div class="container-label">
-               <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées"
-           value="Rougeurs, irritations cutanées"
-                   x-model="selected" x-on:change="updateSelected('Imperfections4')">
-               <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
-            </div>
-            <div class="container-label">
-               <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
-            x-model="selected" x-on:change="updateSelected('Imperfections5')">
-               <label for="Eclat">Eclat</label>
-            </div>
-            <div class="container-label">
-               <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
-                    x-model="selected" x-on:change="updateSelected('Imperfections6')">
-               <label for="Brillance">Brillance</label>
-            </div>
-             <button @click="if(selected.length >= 1 && selected.length <= 3) step++; saveSelection(); else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
+      <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? (sélectionnez 1 à 3 réponses)</legend>
+      <div class="container-label">
+         <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections" x-model="selected">
+         <label for="Imperfections">Imperfections</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage" x-model="selected">
+         <label for="Signes de lage">Signes de l'âge</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation" x-model="selected">
+         <label for="Deshydratation">Déshydratation</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées" x-model="selected">
+         <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Eclat" name="Eclat" value="Eclat" x-model="selected">
+         <label for="Eclat">Eclat</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Brillance" name="Brillance" value="Brillance" x-model="selected">
+         <label for="Brillance">Brillance</label>
+      </div>
+      <button @click="if (selected.length >= 1 && selected.length <= 3) step++; else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
          Valider
       </button>
-           <h2>test</h2>
- <div x-show="formData.selected.length > 0">
+   </fieldset>
+
+   <div x-show="selected.length > 0">
       <h3>Selección guardada:</h3>
       <ul>
-         <li x-for="option in formData.selected">{{ option }}</li>
+         <li x-for="option in selected">{{ option }}</li>
       </ul>
    </div>
-        <script>
-   function updateSelected(option) {
-      if (formData.selected.includes(option)) {
-         formData.selected = formData.selected.filter(item => item !== option);
-      } else {
-         if (formData.selected.length < 3) {
-            formData.selected.push(option);
-         } else {
-            alert("Vous ne pouvez sélectionner que jusqu'à 3 options.");
-         }
-      }
-   }
-
-   function saveSelection() {
-      if (formData.selected.length >= 1 && formData.selected.length <= 3) {
-         console.log("Selección guardada:", formData.selected);
-         // Aquí puedes agregar tu código personalizado para guardar la selección
-         step++;
-      } else {
-         alert("Veuillez sélectionner de 1 à 3 options.");
-      }
-   }
-</script>
-         </fieldset>
+    
          {% else %}
          {% for field in step.fields %}
          <div class="faq{{ forloop.index }}  mb-10">
