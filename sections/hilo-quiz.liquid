@@ -395,91 +395,115 @@ method="post" enctype="multipart/form-data">
        <span x-text="formData.deshy"></span>
 
 
-           
+             <p>Ingredientes: <span x-text="ing1"></span>, <span x-text="ing2"></span>, <span x-text="ing3"></span></p>
 
 <!-- Peau sèche / mature / déshydratée -->
 <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'deshy')" 
   x-init="setIngredients('Onagre', 'Argan', 'Amande')">
     Onagre - Argan - Amande
 </p>
-              <p>Ingredientes: <span x-text="ing1"></span>, <span x-text="ing2"></span>, <span x-text="ing3"></span></p>
+            
 
 
 <!-- Peau sèche / mature / non déshydratée -->
-<p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
+<p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Amande', 'Carotte', 'Argan')">
     Amande - Carotte - Argan
 </p>
 
 <!-- Peau sèche / non mature / déshydratée -->
-<p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
+<p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'deshy')"
+      x-init="setIngredients('Onagre', 'Abricot', Amande')">
     Onagre - Abricot - Amande
 </p>
 
 <!-- Peau sèche / non mature / non déshydratée -->
-<p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
+<p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Amande', 'Abricot', Abricot')">
     Amande - Abricot - Abricot
 </p>
 
 <!-- Peau mixte / mature / déshydratée -->
-<p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'deshy')"
+    x-init="setIngredients('Argan', 'Onagre', Carotte')">
     Argan - Onagre - Carotte
 </p>
 
-<!-- Peau mixte / mature / non déshydratée -->
-<p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
-    Abricot - Argan - Carotte
+
+
+              <!-- Peau mixte / mature / non déshydratée -->
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'nodeshy')" 
+  x-init="setIngredients('Abricot', 'Argan', Carotte')">
+  Abricot - Argan - Carotte
 </p>
 
 <!-- Peau mixte / non mature / déshydratée -->
-<p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
-    Onagre - Amande - Noisette
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'deshy')" 
+  x-init="setIngredients('Onagre', 'Amande', Noisette')">
+  Onagre - Amande - Noisette
 </p>
 
 <!-- Peau mixte / non mature / non déshydratée -->
-<p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
-    Noisette - Abricot - Abricot
+<p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')" 
+  x-init="setIngredients('Noisette', 'Abricot', Abricot')">
+  Noisette - Abricot - Abricot
 </p>
 
-<!-- Peau normale / mature / déshydratée -->
-<p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'deshy')">
+
+
+
+  <!-- Peau normale / mature / déshydratée -->
+<p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'deshy')"
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
     Carotte - Argan - Onagre
 </p>
 
 <!-- Peau normale / mature / non déshydratée -->
-<p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
+<p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
     Argan - Carotte - Amande
 </p>
 
 <!-- Peau normale / non mature / déshydratée -->
-<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
+<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'deshy')"
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
     Carotte - Amande - Onagre
 </p>
 
-
 <!-- Peau normale / non mature / non déshydratée -->
-<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
-  Carotte - Amande - Abricot
+<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
+    Carotte - Amande - Abricot
+</p>
+
+
+
+              
+<!-- Peau normale / non mature / non déshydratée -->
+<p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Carotte', 'Amande', 'Abricot')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau grasse / mature / déshydratée -->
-<p x-show="(formData.peau === 'grasse' && formData.madure === 'madure' && formData.deshy === 'deshy')">
-  Noisette - Onagre - Argan
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'madure' && formData.deshy === 'deshy')"
+    x-init="setIngredients('Noisette', 'Onagre', 'Argan')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau grasse / mature / non déshydratée -->
-<p x-show="(formData.peau === 'grasse' && formData.madure === 'madure' && formData.deshy === 'nodeshy')">
-  Argan - Noisette - Carotte
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'madure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Argan', 'Noisette', 'Carotte')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau grasse / non mature / déshydratée -->
-<p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'deshy')">
-  Noisette - Onagre - Noisette
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'deshy')"
+    x-init="setIngredients('Noisette', 'Onagre', 'Noisette')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau grasse / non mature / non déshydratée -->
-<p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')">
-  Abricot - Noisette - Noisette
+<p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
+    x-init="setIngredients('Abricot', 'Noisette', 'Noisette')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
+
 
 
               
