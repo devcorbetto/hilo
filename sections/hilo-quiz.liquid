@@ -557,6 +557,8 @@ method="post" enctype="multipart/form-data">
 </p>
 {% endcomment %}
 
+              <p class="result" x-text="setIngredients"></p>
+
 <img x-bind:src="(ing1 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
                   (ing1 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
                   (ing1 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
