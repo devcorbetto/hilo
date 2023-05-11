@@ -235,21 +235,29 @@ method="post" enctype="multipart/form-data">
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
               
    {% when 2 %}
-   <button @click="
+  <button @click="
   if(formData.f21 && formData.f22 && formData.f23) {
     if({{ seche2 }}) {
-      formData.peau = (formData.peau === 'seche' ? 'nomadure' : 'noseche');
-      step++;
+      formData.peau = 'seche';
+    } else if({{ mixte2 }}) {
+      formData.peau = 'mixte';
+    } else if({{ grasse2 }}) {
+      formData.peau = 'grasse';
+    } else if({{ normal2 }}) {
+      formData.peau = 'normal';
     } else {
       alert('Por favor complete todos los campos requeridos');
+      return;
     }
+    step++;
   } else {
     alert('Por favor complete todos los campos requeridos');
   }
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
+<br>
               test2
             <span x-text="formData.peau"></span>
-
+<br>
               <p x-show="
        {{ seche2 }}     "
      >
