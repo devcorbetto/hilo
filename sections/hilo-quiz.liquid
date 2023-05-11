@@ -399,54 +399,46 @@ method="post" enctype="multipart/form-data">
 
 <!-- Peau sèche / mature / déshydratée -->
 <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'deshy')" 
-  x-init="setIngredients('Onagre', 'Argan', 'Amande')">
-    Onagre - Argan - Amande
+  x-init="setIngredients('Onagre', 'Argan', 'Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
             
 
 
 <!-- Peau sèche / mature / non déshydratée -->
 <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'nodeshy')"
-    x-init="setIngredients('Amande', 'Carotte', 'Argan')">
-    Amande - Carotte - Argan
+    x-init="setIngredients('Amande', 'Carotte', 'Argan')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau sèche / non mature / déshydratée -->
 <p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'deshy')"
-      x-init="setIngredients('Onagre', 'Abricot', Amande')">
-    Onagre - Abricot - Amande
+      x-init="setIngredients('Onagre', 'Abricot', Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau sèche / non mature / non déshydratée -->
 <p x-show="(formData.peau === 'seche' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
-    x-init="setIngredients('Amande', 'Abricot', Abricot')">
-    Amande - Abricot - Abricot
+    x-init="setIngredients('Amande', 'Abricot', Abricot')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau mixte / mature / déshydratée -->
 <p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'deshy')"
-    x-init="setIngredients('Argan', 'Onagre', Carotte')">
-    Argan - Onagre - Carotte
+    x-init="setIngredients('Argan', 'Onagre', Carotte')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 
 
               <!-- Peau mixte / mature / non déshydratée -->
 <p x-show="(formData.peau === 'mixte' && formData.madure === 'madure' && formData.deshy === 'nodeshy')" 
-  x-init="setIngredients('Abricot', 'Argan', Carotte')">
-  Abricot - Argan - Carotte
+  x-init="setIngredients('Abricot', 'Argan', Carotte')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau mixte / non mature / déshydratée -->
 <p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'deshy')" 
-  x-init="setIngredients('Onagre', 'Amande', Noisette')">
-  Onagre - Amande - Noisette
+  x-init="setIngredients('Onagre', 'Amande', Noisette')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau mixte / non mature / non déshydratée -->
 <p x-show="(formData.peau === 'mixte' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')" 
-  x-init="setIngredients('Noisette', 'Abricot', Abricot')">
-  Noisette - Abricot - Abricot
+  x-init="setIngredients('Noisette', 'Abricot', Abricot')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 
@@ -454,27 +446,23 @@ method="post" enctype="multipart/form-data">
 
   <!-- Peau normale / mature / déshydratée -->
 <p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'deshy')"
-    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
-    Carotte - Argan - Onagre
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
+   
 </p>
 
 <!-- Peau normale / mature / non déshydratée -->
 <p x-show="(formData.peau === 'normale' && formData.madure === 'madure' && formData.deshy === 'nodeshy')"
-    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
-    Argan - Carotte - Amande
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau normale / non mature / déshydratée -->
 <p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'deshy')"
-    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
-    Carotte - Amande - Onagre
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
 <!-- Peau normale / non mature / non déshydratée -->
 <p x-show="(formData.peau === 'normale' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
-    x-init="setIngredients('Onagre', 'Abricot', 'Amande')">
-    Carotte - Amande - Abricot
-</p>
+    x-init="setIngredients('Onagre', 'Abricot', 'Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 
 
 
@@ -512,7 +500,9 @@ method="post" enctype="multipart/form-data">
 
               
                <div class="container-result flex" >
-                  <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
+                  <div class="container-image">
+                    <img style="width:32px;" 
+                      src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
                   </div>
                   <div class="container-result-p">
                      <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
