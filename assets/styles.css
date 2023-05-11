@@ -43,9 +43,9 @@ section newsletter section-news
   padding: 12px 25px!important;
 }
 .product-option .button {
-    padding: 11px 16px!important;
+padding: 11px 16px!important;
     min-height: 0px;
-    height: 38px;
+    height: 36px;
     font-weight: 600;
 }
 .cart__footer>*+* {
