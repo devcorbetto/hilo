@@ -38,7 +38,32 @@
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
   (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23d')" %}
-        
+
+{% assign deshy = "
+    !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')
+
+                " %}
+{% assign nodeshy = "
+   
+
+                  
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
+                  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
+                  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')" %}
 {% capture seche %}
 ✨ Vous avez une peau à tendance sèche : Vous avez une peau à tendance sèche. Elle ne produit pas beaucoup de
 sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau
@@ -324,30 +349,14 @@ method="post" enctype="multipart/form-data">
            
            
 
-             <p x-show="!(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
-                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+             <p x-show="{{ nodeshy }}"
                
                   >
                   {{ nondeshydratee }}
                </p>
            
-                <p  x-show="
-                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
-                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
-                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
-                  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
-                  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
-                  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
-                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
-                  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
-                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')"
+                <p  x-show="{{ deshy }}
+                "
                    
                   >
                   {{  deshydratee }}
