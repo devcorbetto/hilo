@@ -498,8 +498,22 @@ method="post" enctype="multipart/form-data">
                   (ing1 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
                   (ing1 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
                   '{{ 'carotte.png' | asset_url }}'"
-     alt="Imagen del ingrediente 1">
+     alt="Imagen del ingrediente 1"  style="width:32px;">
 
+              <img x-bind:src="(ing2 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  (ing2 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
+                  (ing2 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
+                  (ing2 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
+                  (ing2 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
+                  '{{ 'carotte.png' | asset_url }}'"
+     alt="Imagen del ingrediente 2"  style="width:32px;">
+              <img x-bind:src="(ing3 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  (ing3 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
+                  (ing3 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
+                  (ing3 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
+                  (ing3 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
+                  '{{ 'carotte.png' | asset_url }}'"
+     alt="Imagen del ingrediente 3" style="width:32px;">
               
         
 
