@@ -153,8 +153,11 @@ summary .icon-carret2 {
                     }
                        .container-comment img {
                          border-radius:30px;
-                         
-                       }
+                          margin: auto;
+                          width: 100px;
+                          height: 100px;
+                          object-fit: cover;
+                      }
                     </style>
                     <br>
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
