@@ -1,4 +1,8 @@
+   {% assign seche2 = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d') " %}
 
+        
 {% capture seche %}
 ✨ Vous avez une peau à tendance sèche : Vous avez une peau à tendance sèche. Elle ne produit pas beaucoup de
 sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau
@@ -195,13 +199,18 @@ method="post" enctype="multipart/form-data">
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
               
    {% when 2 %}
-    <button @click="if(formData.f21 && formData.f22 && formData.f23) 
-     { 
-          formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
-          step++; 
-        }
-      else { alert('Por favor complete todos los campos requeridos'); }" class="text-white font-bold py-2 px-4 rounded">Valider</button>
-
+   <button @click="
+  if(formData.f21 && formData.f22 && formData.f23) {
+    if({{ seche2 }}) {
+      formData.peau = (formData.peau === 'seche' ? 'nomadure' : 'noseche');
+      step++;
+    } else {
+      alert('Por favor complete todos los campos requeridos');
+    }
+  } else {
+    alert('Por favor complete todos los campos requeridos');
+  }
+" class="text-white font-bold py-2 px-4 rounded">Valider</button>
    {% when 3 %}
      <button @click="if(formData.f31 && formData.f32 && formData.f33 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
             class=" text-white font-bold py-2 px-4 rounded">Valider</button>
@@ -233,9 +242,7 @@ method="post" enctype="multipart/form-data">
                <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
 
          
-            {% assign seche2 = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
-        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d') " %}
+         
 <p x-show="
        {{ seche2 }}     "
      >
