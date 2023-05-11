@@ -492,7 +492,13 @@ method="post" enctype="multipart/form-data">
     x-init="setIngredients('Abricot', 'Noisette', 'Noisette')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
 
-
+<img x-bind:src="(ing1 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  (ing1 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
+                  (ing1 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
+                  (ing1 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
+                  (ing1 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
+                  '{{ 'carotte.png' | asset_url }}'"
+     alt="Imagen del ingrediente 1">
 
               
         
