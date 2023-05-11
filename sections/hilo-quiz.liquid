@@ -557,17 +557,28 @@ method="post" enctype="multipart/form-data">
 </p>
 {% endcomment %}
 
-              <p class="result" x-text="setIngredients"></p>
+             
+        
 
-<img x-bind:src="(ing1 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+
+              
+               <div class="container-result flex" >
+                  <div class="container-image">
+                    <img x-bind:src="(ing1 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
                   (ing1 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
                   (ing1 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
                   (ing1 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
                   (ing1 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
                   '{{ 'carotte.png' | asset_url }}'"
      alt="Imagen del ingrediente 1"  style="width:32px;">
-
-              <img x-bind:src="(ing2 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+        </div>
+                  <div class="container-result-p">
+                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+                  </div>
+               </div>
+               <div class="container-result flex" >
+                  <div class="container-image">
+                      <img x-bind:src="(ing2 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
                   (ing2 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
                   (ing2 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
                   (ing2 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
@@ -575,36 +586,20 @@ method="post" enctype="multipart/form-data">
                   '{{ 'carotte.png' | asset_url }}'"
      alt="Imagen del ingrediente 2"  style="width:32px;">
               
-              <img x-bind:src="(ing3 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  </div>
+                  <div class="container-result-p">
+                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
+                  </div>
+               </div>
+               <div class="container-result flex" >
+                  <div class="container-image">
+                     <img x-bind:src="(ing3 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
                   (ing3 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
                   (ing3 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
                   (ing3 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
                   (ing3 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
                   '{{ 'carotte.png' | asset_url }}'"
      alt="Imagen del ingrediente 3" style="width:32px;">
-              
-        
-
-
-              
-               <div class="container-result flex" >
-                  <div class="container-image">
-                    <img style="width:32px;" 
-                      src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-                  </div>
-                  <div class="container-result-p">
-                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
-                  </div>
-               </div>
-               <div class="container-result flex" >
-                  <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-                  </div>
-                  <div class="container-result-p">
-                     <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
-                  </div>
-               </div>
-               <div class="container-result flex" >
-                  <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
                   </div>
                   <div class="container-result-p">
                      <p>Huile de noisette : anti-imperfections, régulatrice de sébum et réparatrice</p>
