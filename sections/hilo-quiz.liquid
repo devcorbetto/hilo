@@ -368,6 +368,7 @@ method="post" enctype="multipart/form-data">
         }
       }
     }
+          
  if (formData.f51 && formData.f52 && formData.f53 && formData.f54) {
   if (formData.f51 === 'f51a' || formData.f51 === 'f51b') {
     ing3 = 'noisette';
@@ -379,11 +380,10 @@ method="post" enctype="multipart/form-data">
     ing3 = 'Abricot';
   } else if (formData.f54 === 'f54a' || formData.f54 === 'f54b') {
     ing3 = 'Argan';
-  } else if (formData.f54 === 'f54c') {
-    ing3 = 'noisette';
   } else {
     ing3 = 'onagre';
   }
+  setIngredients('Abricot', 'Noisette', ing3);
   step++;
 } else {
   alert('Veuillez sélectionner au moins une option.');
