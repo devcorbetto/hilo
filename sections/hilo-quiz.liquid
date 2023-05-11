@@ -310,7 +310,70 @@ method="post" enctype="multipart/form-data">
                class=" text-white font-bold py-2 px-4 rounded">
                Valider</button>
    {% when 5 %}
-     <button @click="if(formData.f51 && formData.f52) { step++ }  else alert('Veuillez sélectionner au moins une option.');"  " class="text-white font-bold py-2 px-4 rounded">Valider</button>
+        <button @click="
+  if(formData.peau && formData.madure && formData.deshy) {
+    if(formData.peau === 'seche') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Argan', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Amande', 'Carotte', 'Argan');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Amande', 'Abricot', 'Abricot');
+        }
+      }
+    } else if(formData.peau === 'mixte') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Argan', 'Onagre', 'Carotte');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Abricot', 'Argan', 'Carotte');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Amande', 'Noisette');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Noisette', 'Abricot', 'Abricot');
+        }
+      }
+    } else if(formData.peau === 'normale') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Carotte', 'Amande', 'Abricot');
+        }
+      }
+    } else if(formData.peau === 'grasse') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Noisette', 'Onagre', 'Argan');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Argan', 'Noisette', 'Carotte');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Noisette', 'Onagre', 'Noisette');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Abricot', 'Noisette', 'Noisette');
+        }
+      }
+    }
+   if(formData.f51 && formData.f52) { step++ }  else alert('Veuillez sélectionner au moins une option.');
+  } else {
+    alert('Por favor complete todos los campos requeridos');
+  }
+" class="text-white font-bold py-2 px-4 rounded">Valider</button>
 
    {% else %}
     <button @click="
@@ -372,7 +435,7 @@ method="post" enctype="multipart/form-data">
         }
       }
     }
-    step++;
+   if(formData.f51 && formData.f52) { step++ }  else alert('Veuillez sélectionner au moins une option.');
   } else {
     alert('Por favor complete todos los campos requeridos');
   }
