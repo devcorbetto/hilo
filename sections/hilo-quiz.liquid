@@ -224,8 +224,7 @@ method="post" enctype="multipart/form-data">
             </div>
             <div class="container-label">
                <input type="checkbox" id="Brillance" name="Brillance" value="Brillance"
-                  x-model="selected"
-                  x-bind:checked="formData.preoccupations === 'Brillance'" x-on:click="formData.preoccupations = 'Brillance'"
+                
                   x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Brillance">Brillance</label>
             </div>
