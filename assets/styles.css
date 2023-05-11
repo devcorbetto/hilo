@@ -74,6 +74,10 @@ body{
     padding: 0px 4rem;
 }
 
+.rich-text__caption.subtitle.subtitle--small{
+  font-style:italic;
+}
+
 .rating-count.caption {
     vertical-align: text-top;
 }
