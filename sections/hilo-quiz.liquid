@@ -368,28 +368,10 @@ method="post" enctype="multipart/form-data">
         }
       }
     }
-  if (formData.f51 && formData.f52) {
-  if (formData.f51 === 'f51a' || formData.f51 === 'f51b') {
-    setIngredients(getIngredientOne('noisette'), getIngredientTwo(), getIngredientThree());
-  } else if (formData.f51 === 'f51c' || formData.f51 === 'f51d') {
-    setIngredients(getIngredientOne('amande douce'), getIngredientTwo(), getIngredientThree());
-  } else if (formData.f52 === 'f52a') {
-    setIngredients(getIngredientOne('carotte'), getIngredientTwo(), getIngredientThree());
-  } else if (formData.f52 === 'f52b') {
-    setIngredients(getIngredientOne('abricot'), getIngredientTwo(), getIngredientThree());
-  } else if (formData.f53 === 'f53a' || formData.f53 === 'f53b') {
-    setIngredients(getIngredientOne('argan'), getIngredientTwo(), getIngredientThree());
-  } else if (formData.f53 === 'f53c') {
-    setIngredients(getIngredientOne('noisette'), getIngredientTwo(), getIngredientThree());
-  } else if (formData.f53 === 'f53d') {
-    setIngredients(getIngredientOne('onagre'), getIngredientTwo(), getIngredientThree());
+   if(formData.f51 && formData.f52) alert('hi'); { step++ }  else alert('Veuillez sélectionner au moins une option.');
+  } else {
+    alert('Por favor complete todos los campos requeridos');
   }
-
-  step++;
-} else {
-  alert('Veuillez sélectionner au moins une option.');
-}
-
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
 
    {% else %}
