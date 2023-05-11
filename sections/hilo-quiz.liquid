@@ -226,30 +226,42 @@ method="post" enctype="multipart/form-data">
    </div>
 
 
-        <script>
-   function updateSelected(option) {
-      if (formData.selected.includes(option)) {
-         formData.selected = formData.selected.filter(item => item !== option);
-      } else {
-         if (formData.selected.length < 3) {
-            formData.selected.push(option);
+<script>
+      function updateSelected(option) {
+         if (formData.selected.includes(option)) {
+            formData.selected = formData.selected.filter(item => item !== option);
          } else {
-            alert("Vous ne pouvez sélectionner que jusqu'à 3 options.");
+            if (formData.selected.length < 3) {
+               formData.selected.push(option);
+            } else {
+               alert("Vous ne pouvez sélectionner que jusqu'à 3 options.");
+            }
          }
       }
-   }
 
-   function saveSelection() {
-      if (formData.selected.length >= 1 && formData.selected.length <= 3) {
-         console.log("Selección guardada:", formData.selected);
-         // Aquí puedes agregar tu código personalizado para guardar la selección
-         step++;
-      } else {
-         alert("Veuillez sélectionner de 1 à 3 options.");
+      function saveSelection() {
+         if (formData.selected.length >= 1 && formData.selected.length <= 3) {
+            console.log("Selección guardada:", formData.selected);
+            // Aquí puedes agregar tu código personalizado para guardar la selección
+
+            // Incrementar el paso (step)
+            step++;
+         } else {
+            alert("Veuillez sélectionner de 1 à 3 options.");
+         }
       }
-   }
-</script>
-         </fieldset>
+   </script>
+
+
+
+
+
+
+
+
+
+           
+      
          {% else %}
          {% for field in step.fields %}
          <div class="faq{{ forloop.index }}  mb-10">
