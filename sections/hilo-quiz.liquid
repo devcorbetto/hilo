@@ -460,7 +460,7 @@ method="post" enctype="multipart/form-data">
 
 
              <p>Ingredientes: <span x-text="ing1"></span>, <span x-text="ing2"></span>, <span x-text="ing3"></span></p>
-
+{% comment %}
 <!-- Peau sèche / mature / déshydratée -->
 <p x-show="(formData.peau === 'seche' && formData.madure === 'madure' && formData.deshy === 'deshy')" 
   x-init="setIngredients('Onagre', 'Argan', 'Amande')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
@@ -555,6 +555,7 @@ method="post" enctype="multipart/form-data">
 <p x-show="(formData.peau === 'grasse' && formData.madure === 'nomadure' && formData.deshy === 'nodeshy')"
     x-init="setIngredients('Abricot', 'Noisette', 'Noisette')" x-text="ing1 + ' - ' + ing2 + ' - ' + ing3">
 </p>
+{% endcomment %}
 
 <img x-bind:src="(ing1 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
                   (ing1 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
