@@ -223,7 +223,13 @@ method="post" enctype="multipart/form-data">
              <button @click="if(selected.length >= 1 && selected.length <= 3) step++;   else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
          Valider
       </button>
-<span x-text="formData.selected"></span>
+           <h2>test</h2>
+ <div x-show="formData.selected.length > 0">
+      <h3>Selección guardada:</h3>
+      <ul>
+         <li x-for="option in formData.selected">{{ option }}</li>
+      </ul>
+   </div>
            <script>
   
 
