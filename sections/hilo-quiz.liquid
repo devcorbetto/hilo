@@ -194,31 +194,25 @@ method="post" enctype="multipart/form-data">
             </div>
             <div class="container-label">
                <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes de lage"
-                  x-model="selected"
-                  x-bind:checked="formData.preoccupations === 'Signes de lage'"
-                  x-on:click="formData.preoccupations = 'Signes de lage'"
+                  
              x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Signes de lage">Signes de l'âge</label>
             </div>
             <div class="container-label">
                <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation"
-                  x-model="selected"
-                  x-bind:checked="formData.preoccupations === 'Deshydratation'" 
-                  x-on:click="formData.preoccupations = 'Deshydratation'"
+                 
                      x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Deshydratation">Déshydratation</label>
             </div>
             <div class="container-label">
                <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" value="Rougeurs, irritations cutanées"
-                  x-model="selected"
-                  x-bind:checked="formData.preoccupations === 'Rougeurs'" x-on:click="formData.preoccupations = 'Rougeurs'"
+                 
                       x-on:change="if (selected.length >= 3) { selected.pop(); }">
                <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
             </div>
             <div class="container-label">
                <input type="checkbox" id="Eclat" name="Eclat" value="Eclat"
-                  x-model="selected"
-                  x-bind:checked="formData.preoccupations === 'Eclat'" x-on:click="formData.preoccupations = 'Eclat'"
+                 
              x-on:change="if (selected.length > 3) { selected.splice(3); }">
                <label for="Eclat">Eclat</label>
             </div>
