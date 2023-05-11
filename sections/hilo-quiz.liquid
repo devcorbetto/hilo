@@ -240,9 +240,9 @@ method="post" enctype="multipart/form-data">
    }
 
    function saveSelection() {
-      if (selected.length >= 1 && selected.length <= 3) {
+      if (formData.selected.length >= 1 && formData.selected.length <= 3) {
          // Aquí puedes agregar la lógica para guardar la selección
-         console.log("Selección guardada:", selected);
+         console.log("Selección guardada:", formData.selected);
          // Puedes reemplazar el console.log() con tu código personalizado para guardar la selección
          step++;
       } else {
