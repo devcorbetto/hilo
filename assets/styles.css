@@ -74,6 +74,10 @@ body{
     padding: 0px 4rem;
 }
 
+.rich-text__caption.subtitle.subtitle--small{
+  font-style:italic;
+}
+
 .rating-count.caption {
     vertical-align: text-top;
 }
@@ -1255,6 +1259,7 @@ footer .newsletter-form__button {  top: 5px;  }
   background:#D0C4E2;
   border-radius:30px;
       width: 100%;
+  font-weight:600;
 }
 .rte li {
   margin-bottom: 15px;
