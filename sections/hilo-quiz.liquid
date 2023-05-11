@@ -220,7 +220,7 @@ method="post" enctype="multipart/form-data">
                     x-model="selected" x-on:change="updateSelected('Imperfections6')">
                <label for="Brillance">Brillance</label>
             </div>
-             <button @click="if(selected.length >= 1 && selected.length <= 3) step++;   else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
+             <button @click="if(selected.length >= 1 && selected.length <= 3) step++; saveSelection(); else alert('Veuillez sélectionner de 1 à 3 options.');" class="text-white font-bold py-2 px-4 rounded">
          Valider
       </button>
            <h2>test</h2>
