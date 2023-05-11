@@ -195,7 +195,12 @@ method="post" enctype="multipart/form-data">
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
               
    {% when 2 %}
-    <button @click="if(formData.f21 && formData.f22 && formData.f23) { step++ } else { alert('Por favor complete todos los campos requeridos'); }" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+    <button @click="if(formData.f21 && formData.f22 && formData.f23) 
+     { 
+          formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
+          step++; 
+        }
+      else { alert('Por favor complete todos los campos requeridos'); }" class="text-white font-bold py-2 px-4 rounded">Valider</button>
 
    {% when 3 %}
      <button @click="if(formData.f31 && formData.f32 && formData.f33 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
@@ -228,18 +233,13 @@ method="post" enctype="multipart/form-data">
                <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
 
          
-              Tipo de piel:
-              <p x-show="formData.peau === 'seche'">{{ seche }}</p>
-             <hr>
+            
 <p x-show="
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')      "
-       x-init="if ((formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') || 
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')) 
-  { console.log('condición verdadera'); formData.peau = 'seche'; }">
-  {{ seche }}   >
+     >
+ 
 {{ seche }}
 </p>
      
