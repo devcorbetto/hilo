@@ -249,6 +249,38 @@ method="post" enctype="multipart/form-data">
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
               test2
             <span x-text="formData.peau"></span>
+
+              <p x-show="
+       {{ seche2 }}     "
+     >
+ 
+{{ seche }}
+</p>
+     
+  
+<p x-show=" {{ mixte2 }}
+ "
+            >
+
+{{ mixte }}
+      </p>
+  
+<p x-show=" {{ grasse2 }}
+"
+ >
+           {{ grasse }}
+
+
+
+      </p>
+
+ <!-- Para piel normal -->
+<p x-show="
+{{ normal2 }}"
+>
+  {{ normal }}
+  </p>
+
    {% when 3 %}
      <button @click="if(formData.f31 && formData.f32 && formData.f33 ) { step++ } else { alert('Por favor complete todos los campos requeridos'); };" 
             class=" text-white font-bold py-2 px-4 rounded">Valider</button>
@@ -281,36 +313,6 @@ method="post" enctype="multipart/form-data">
 
          
          
-<p x-show="
-       {{ seche2 }}     "
-     >
- 
-{{ seche }}
-</p>
-     
-  
-<p x-show=" {{ mixte2 }}
- "
-            >
-
-{{ mixte }}
-      </p>
-  
-<p x-show=" {{ grasse2 }}
-"
- >
-           {{ grasse }}
-
-
-
-      </p>
-
- <!-- Para piel normal -->
-<p x-show="
-{{ normal2 }}"
->
-  {{ normal }}
-  </p>
 
 
            
