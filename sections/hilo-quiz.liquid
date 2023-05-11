@@ -221,7 +221,7 @@ method="post" enctype="multipart/form-data">
    <div x-show="selected.length > 0">
       <h3>Selección guardada:</h3>
       <ul>
-         <li x-for="option in selected">{{ option }}</li>
+         <li x-for="option in formData.selected">{{ option }}</li>
       </ul>
    </div>
     
