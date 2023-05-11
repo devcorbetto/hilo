@@ -69,6 +69,29 @@ method="post" enctype="multipart/form-data">
    activeStepColor: '#fbbf24', 
    selected: []
    }"
+  x-init="{ 
+   formData: {  
+   name: '', 
+   gender: '', 
+   age: '', 
+   f21: '', 
+   f22: '', 
+   f23: '', 
+   f31: '', 
+   f32: '', 
+   f33: '', 
+   selected: [],
+   f41: '', 
+   f42: '', 
+   f43: '',
+   peau: '',
+  madure: 'nomaduro',
+  deshy: ''
+   }, 
+   step: 1, 
+   activeStepColor: '#fbbf24', 
+   selected: []
+   }"
    style="margin-bottom:100px;" >
    <div class="etapas grid grid-cols-4 text-center justify-center" 
       :class="{ 'active-step1': step === 1 , 'active-step2': step === 2 , 'active-step3': step === 3 ,  'active-step4': step === 4 }">
