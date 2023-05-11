@@ -118,18 +118,18 @@
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Comment savoir quels actifs choisir pour personnaliser mes soins ?",
+            "heading": "Tous les ingrédients d'origine animal",
             "icon": "none",
-            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un diagnostic en ligne pour vous aider à<br\/>déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Les produits sont-ils adaptés aux hommes ?",
+            "heading": "Les BHA\/BHT",
             "icon": "none",
-            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont<br\/>adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète !<\/p>",
+            "row_content": "",
             "page": ""
           }
         },
