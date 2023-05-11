@@ -368,11 +368,27 @@ method="post" enctype="multipart/form-data">
         }
       }
     }
-   if(formData.f51 && formData.f52 && formData.f53 && formData.f54)
-          { step++ }  else alert('Veuillez sélectionner au moins une option.');
+ if (formData.f51 && formData.f52 && formData.f53 && formData.f54) {
+  if (formData.f51 === 'f51a' || formData.f51 === 'f51b') {
+    ing3 = 'noisette';
+  } else if (formData.f52 === 'f52a' || formData.f52 === 'f52b') {
+    ing3 = 'douce';
+  } else if (formData.f53 === 'f53a') {
+    ing3 = 'Carotte';
+  } else if (formData.f53 === 'f53b') {
+    ing3 = 'Abricot';
+  } else if (formData.f54 === 'f54a' || formData.f54 === 'f54b') {
+    ing3 = 'Argan';
+  } else if (formData.f54 === 'f54c') {
+    ing3 = 'noisette';
   } else {
-    alert('Por favor complete todos los campos requeridos');
+    ing3 = 'onagre';
   }
+  step++;
+} else {
+  alert('Veuillez sélectionner au moins une option.');
+}
+
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
 
    {% else %}
