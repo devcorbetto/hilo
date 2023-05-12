@@ -141,7 +141,7 @@ method="post" enctype="multipart/form-data">
         const { name, gender, age, peau, deshy, madure, ing1, ing2, ing3, f51, f52, f53 } = this.jsonData;
 
         // Construir la URL del trigger con los parámetros deseados
-        const triggerURL = `https://tu-triger-https-url?customerId=${customerId}&name=${name}&gender=${gender}&age=${age}&peau=${peau}&deshy=${deshy}&madure=${madure}&ing1=${ing1}&ing2=${ing2}&ing3=${ing3}&f51=${f51}&f52=${f52}&f53=${f53}`;
+        const triggerURL = `https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa?customerId=${customerId}&name=${name}&gender=${gender}&age=${age}&peau=${peau}&deshy=${deshy}&madure=${madure}&ing1=${ing1}&ing2=${ing2}&ing3=${ing3}&f51=${f51}&f52=${f52}&f53=${f53}`;
 
         // Realizar la solicitud HTTP al trigger
         fetch(triggerURL)
