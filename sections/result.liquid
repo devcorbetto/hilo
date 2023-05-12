@@ -211,7 +211,11 @@ en pleine santé.
                                   
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
              </div>
-          <div class="container-result-p"><p>{{ diagnostics.ing2 }}: anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"><p> {% if diagnostics_ing2 == '' %}
+                                    {{ diagnostics.ing2 }} 
+                                    {% else %}
+                                    {{ diagnostics_ing2 }}
+                                    {% endif %}: anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
         <div class="container-result flex" >
