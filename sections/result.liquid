@@ -94,31 +94,31 @@ en pleine santé.
 
                                   {% if diagnostics.preocupa1 == 'Imperfections' %}
   {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign ing3 = 'Noisette' %}
+    {% assign diagnostics_ing3  = 'Noisette' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Rougeurs' %}
   {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign ing3 = 'Douce' %}
+    {% assign diagnostics_ing3  = 'Douce' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53a' %}
-  {% assign ing3 = 'Carotte' %}
+  {% assign diagnostics_ing3  = 'Carotte' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53b' %}
-  {% assign ing3 = 'Abricot' %}
+  {% assign diagnostics_ing3  = 'Abricot' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Signes' %}
   {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign ing3 = 'Argan' %}
+    {% assign diagnostics_ing3  = 'Argan' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
