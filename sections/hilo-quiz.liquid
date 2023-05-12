@@ -588,11 +588,9 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
     
         <div class="birthday">
 
-          <template >
-  <input id="birthday" type="text" x-model="jsonData" :value="jsonData" x-bind:value="jsonData">
-</template>
-   <input id="birthday" type="text" name="customer[note]"  x-model="jsonData" x-init="$watch('jsonData', value => jsonDataString = JSON.stringify(value))" x-bind:value="jsonDataString" x-data="{ jsonDataString: JSON.stringify(jsonData) }">
-<textarea id="birthday" name="customer[note]" x-model="jsonData"></textarea>
+       
+
+ <input id="birthday" type="text" x-text="JSON.stringify(jsonData)">
         </div>
      
     </div>
