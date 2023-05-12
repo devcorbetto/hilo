@@ -570,12 +570,29 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
     {%- endif -%}
      <div class="field">     
      
-       
+        <h2>Resultado JSON</h2>
+  <pre>
+    <code x-text="JSON.stringify(jsonData)"></code>
+  </pre>
+     <h2>Results</h2>
+     <ul>
+      <li><span x-text="formData.name"></span></li>
+     <li><span x-text="formData.deshy"></span></li>
+     <li><span x-text="formData.peau"></span></li>
+          <li><span x-text="formData.age"></span></li>
+          <li><span x-text="ing1"></span></li>
+          <li><span x-text="ing2"></span></li>
+          <li><span x-text="ing3"></span></li>
+
+     </ul>
     
         <div class="birthday">
-   
-   <input id="birthday" type="text" name="customer[note]" hidden x-model="jsonData" x-init="$watch('jsonData', value => jsonDataString = JSON.stringify(value))" x-bind:value="jsonDataString" x-data="{ jsonDataString: JSON.stringify(jsonData) }">
- 
+
+          <template >
+  <input id="birthday" type="text" x-model="jsonData" :value="jsonData" x-bind:value="jsonData">
+</template>
+   <input id="birthday" type="text" name="customer[note]"  x-model="jsonData" x-init="$watch('jsonData', value => jsonDataString = JSON.stringify(value))" x-bind:value="jsonDataString" x-data="{ jsonDataString: JSON.stringify(jsonData) }">
+<textarea id="birthday" name="customer[note]" x-model="jsonData"></textarea>
         </div>
      
     </div>
