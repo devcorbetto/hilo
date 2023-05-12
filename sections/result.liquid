@@ -84,26 +84,49 @@ en pleine santé.
                                   {% if diagnostics.preocupa1 == 'Brillance' %}
   {% assign diagnostics_ing3 = 'Noisette' %}
 {% endif %}
-                                  {% if diagnostics.preocupa1 == 'Brillance' %}
-  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign diagnostics_ing3 = 'Noisette' %}
-  {% elsif diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign diagnostics_ing3 = 'Douce' %}
-  {% elsif diagnostics.f53 == 'f53a' %}
-    {% assign diagnostics_ing3 = 'Carotte' %}
-  {% elsif diagnostics.f53 == 'f53b' %}
-    {% assign diagnostics_ing3 = 'Abricot' %}
-  {% elsif diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign diagnostics_ing3 = 'Argan' %}
-  {% endif %}
-{% endif %}
 
-        
-                                  
-                                  {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
+                                     {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
                               
                                      {% assign diagnostics_ing3 = 'Onagre' %}
                                     {% endif %}
+
+                                  
+
+                                  {% if diagnostics.preocupa1 == 'Imperfections' %}
+  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+    {% assign ing3 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% endif %}
+
+{% if diagnostics.preocupa1 == 'Rougeurs' %}
+  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
+    {% assign ing3 = 'Douce' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% endif %}
+
+{% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53a' %}
+  {% assign ing3 = 'Carotte' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+{% endif %}
+
+{% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53b' %}
+  {% assign ing3 = 'Abricot' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+{% endif %}
+
+{% if diagnostics.preocupa1 == 'Signes' %}
+  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
+    {% assign ing3 = 'Argan' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% endif %}
+
+                                  
+        
+                                  
+                               
         <div class="container-result flex" >
           <div class="container-image">
                         
