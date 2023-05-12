@@ -84,6 +84,19 @@ en pleine santé.
                                   {% if diagnostics.preocupa1 == 'Brillance' %}
   {% assign diagnostics_ing3 = 'Noisette' %}
 {% endif %}
+                                  {% if diagnostics.preocupa1 == 'Brillance' %}
+  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+    {% assign diagnostics_ing3 = 'Noisette' %}
+  {% elsif diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
+    {% assign diagnostics_ing3 = 'Douce' %}
+  {% elsif diagnostics.f53 == 'f53a' %}
+    {% assign diagnostics_ing3 = 'Carotte' %}
+  {% elsif diagnostics.f53 == 'f53b' %}
+    {% assign diagnostics_ing3 = 'Abricot' %}
+  {% elsif diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
+    {% assign diagnostics_ing3 = 'Argan' %}
+  {% endif %}
+{% endif %}
 
         
                                   
