@@ -83,7 +83,14 @@ en pleine santé.
         <div class="container-result flex" >
           <div class="container-image">
                         
-
+{% if  diagnostics.preocupa1 == 'Brillance'   %}
+  es verdad :)
+            {% assign ing1 = 'Noisette' %}
+  
+  {% endif %}
+                                  {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
+                                    {% assign ing1 = 'Onagre' %}
+                                    {% endif %}
 {% assign ing1_image = '' %}
 
 {% if diagnostics.ing1 == 'Amande' %}
