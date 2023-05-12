@@ -85,11 +85,11 @@ en pleine santé.
                         
 {% if  diagnostics.preocupa1 == 'Brillance'   %}
 
-            {% assign ing3 = 'Noisette' %}
+            {% assign diagnostics.ing3 = 'Noisette' %}
   
   {% endif %}
                                   {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
-                                    {% assign ing3 = 'Onagre' %}
+                                    {% assign diagnostics.ing3 = 'Onagre' %}
                                     {% endif %}
                                   
 {% assign ing1_image = '' %}
