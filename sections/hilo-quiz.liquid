@@ -574,9 +574,8 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
     
         <div class="birthday">
    
-    <input id="birthday" type="text" name="customer[note]" 
-    hidden x-model="jsonData"
-    />
+ <input id="birthday" type="text" name="customer[note]" hidden x-model="jsonData"
+    x-init="$watch('jsonData', value => $refs.birthday.value = JSON.stringify(value))" x-ref="birthday">
   </div>
      
     </div>
