@@ -154,7 +154,43 @@ en pleine santé.
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
                                 
-        
+
+{% if diagnostics.preocupa1 == 'Imperfections' %}
+  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+    {% assign diagnostics_preocupa1 = 'Noisette' %}
+    {% assign diagnostics_ing1 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% elsif diagnostics.preocupa1 == 'Rougeurs' %}
+  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
+    {% assign diagnostics_preocupa1 = 'Amande douce' %}
+    {% assign diagnostics_ing1 = 'Amande douce' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% elsif diagnostics.preocupa1 == 'Teint' %}
+  {% if diagnostics.f53 == 'f53a' %}
+    {% assign diagnostics_preocupa1 = 'Carotte' %}
+    {% assign diagnostics_ing1 = 'Carotte' %}
+  {% elsif diagnostics.f53 == 'f53b' %}
+    {% assign diagnostics_preocupa1 = 'Abricot' %}
+    {% assign diagnostics_ing1 = 'Abricot' %}
+  {% endif %}
+{% elsif diagnostics.preocupa1 == 'Age' %}
+  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
+    {% assign diagnostics_preocupa1 = 'Argan' %}
+    {% assign diagnostics_ing1 = 'Argan' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% elsif diagnostics.preocupa1 == 'Brillance' %}
+  {% assign diagnostics_preocupa1 = 'Noisette' %}
+  {% assign diagnostics_ing1 = 'Noisette' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+{% elsif diagnostics.preocupa1 == 'Déshydratation' %}
+  {% assign diagnostics_preocupa1 = 'Onagre' %}
+  {% assign diagnostics_ing1 = 'Onagre' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+{% endif %}
+
                                   
                                
         <div class="container-result flex" >
@@ -162,7 +198,9 @@ en pleine santé.
                         
 
                                   
-{% assign ing1_image = '' %}
+      {% assign ing1_image = '' %}
+
+ {% if diagnostics_ing1 == '' %}  
 
 {% if diagnostics.ing1 == 'Amande' %}
   {% assign ing1_image = 'damandedouce.png' %}
@@ -177,6 +215,10 @@ en pleine santé.
 {% else %}
   {% assign ing1_image = 'carotte.png' %}
 {% endif %}
+   
+     {% else %}   
+        {% assign ing1_image = diagnostics_ing1 | append: '.png' %}  
+{% endif %}
 
 <img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
 
@@ -184,7 +226,11 @@ en pleine santé.
 
 
 </div>
-          <div class="container-result-p"><p>{{ diagnostics.ing1 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"><p>{% if diagnostics_ing1 == '' %}
+                                    {{ diagnostics.ing1 }} 
+                                    {% else %}
+                                    {{ diagnostics_ing1 }}
+                                    {% endif %}} : anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
         <div class="container-result flex" >
