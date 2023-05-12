@@ -49,10 +49,33 @@ en pleine santé.
         <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
         <p>  {% if diagnostics.peau == 'seche' %}
           {{ seche }}
-          {% endif %}</p>
-        <p>✨ Votre peau commence à se relâcher et la production naturelle de collagène de votre corps diminue. On conseille de commencer à traiter le vieillissement cutané aux alentours de 25 ans afin de prévenir l’apparition de rides et ridules.</p>
-        <p>✨ Votre peau est déshydratée. Elle manque d’eau, ce qui altère le film hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.</p>
-        
+          {% endif %}
+                                  {% if diagnostics.peau == 'mixte' %}
+          {{ mixte }}
+          {% endif %}
+                                  {% if diagnostics.peau == 'grasse' %}
+          {{ grasse }}
+          {% endif %}
+                                  {% if diagnostics.peau == 'normale' %}
+          {{ normale }}
+          {% endif %}
+                                  </p>
+        <p>
+           {% if diagnostics.age == 'madure' %}
+          {{ madure }}
+          {% endif %}
+            {% if diagnostics.peau == 'npomadure' %}
+          {{ nomadure }}
+          {% endif %}
+        </p>
+           <p>
+                {% if diagnostics.deshy == 'deshy' %}
+          {{ deshydratee }}
+          {% endif %}
+            {% if diagnostics.deshy == 'nodeshy' %}
+          {{ nondeshydratee }}
+          {% endif %}
+           </p>
       </div>
       <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
         <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
