@@ -80,17 +80,21 @@ en pleine santé.
       <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
         <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
         <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
-        <div class="container-result flex" >
-          <div class="container-image">
-                        
-{% if diagnostics.preocupa1 == 'Brillance' %}
+
+                                  {% if diagnostics.preocupa1 == 'Brillance' %}
   {% assign diagnostics.ing3 = 'Noisette' %}
 {% endif %}
 
-{{ diagnostics.ing3 }}                  {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
+{{ diagnostics.ing3 }}        
+                                  
+                                  {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
                                     es verdad deberia cambiar a onagre el h3
                                     {% assign diagnostics.ing3 = 'Onagre' %}
                                     {% endif %}
+        <div class="container-result flex" >
+          <div class="container-image">
+                        
+
                                   
 {% assign ing1_image = '' %}
 
