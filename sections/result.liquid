@@ -106,7 +106,7 @@ en pleine santé.
 
 
 </div>
-          <div class="container-result-p"><p>{{ diagnostics[0].options.ingrediente1 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"><p>{{ diagnostics.ing1 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
         <div class="container-result flex" >
@@ -127,13 +127,27 @@ en pleine santé.
 {% endif %}
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
              </div>
-          <div class="container-result-p"><p>{{ diagnostics[0].options.ingrediente2 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"><p>{{ diagnostics.ing2 }}: anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
         <div class="container-result flex" >
-          <div class="container-image"><img style="width:32px;"  src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-          </div>
-          <div class="container-result-p"><p>{{ diagnostics[0].options.ingrediente3 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-image">
+            {% if diagnostics.ing3 == 'Amande' %}
+  {% assign ing3_image = 'damandedouce.png' %}
+{% elsif diagnostics.ing3 == 'Onagre' %}
+  {% assign ing3_image = 'donagre.png' %}
+{% elsif diagnostics.ing3 == 'Argan' %}
+  {% assign ing3_image = 'dargan.png' %}
+{% elsif diagnostics.ing3 == 'Abricot' %}
+  {% assign ing3_image = 'dabricot.png' %}
+{% elsif diagnostics.ing3 == 'Noisette' %}
+  {% assign ing3_image = 'noisette.png' %}
+{% else %}
+  {% assign ing3_image = 'carotte.png' %}
+{% endif %}
+                                  <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
+            </div>
+          <div class="container-result-p"><p>{{ diagnostics.ing3 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
           
