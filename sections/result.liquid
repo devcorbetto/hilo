@@ -83,11 +83,32 @@ en pleine santé.
         <div class="container-result flex" >
           <div class="container-image">{% assign ing1_image = '' %}
 
-{% if ing1 == 'Amande' %}
+{% assign ing1_image = '' %}
+
+{% if diagnostics.ing1 == 'Amande' %}
   {% assign ing1_image = 'damandedouce.png' %}
-{% elsif ing1 == 'Onagre' %}
+{% elsif diagnostics.ing1 == 'Onagre' %}
   {% assign ing1_image = 'donagre.png' %}
-{% elsif ing1 == 'Argan' %}
+{% elsif diagnostics.ing1 == 'Argan' %}
+  {% assign ing1_image = 'dargan.png' %}
+{% elsif diagnostics.ing1 == 'Abricot' %}
+  {% assign ing1_image = 'dabricot.png' %}
+{% elsif diagnostics.ing1 == 'Noisette' %}
+  {% assign ing1_image = 'noisette.png' %}
+{% else %}
+  {% assign ing1_image = 'carotte.png' %}
+{% endif %}
+
+<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
+
+
+<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
+            
+{% if ing2 == 'Amande' %}
+  {% assign ing2_image = 'damandedouce.png' %}
+{% elsif ing2 == 'Onagre' %}
+  {% assign ing2_image = 'donagre.png' %}
+{% elsif ing2 == 'Argan' %}
   {% assign ing1_image = 'dargan.png' %}
 {% elsif ing1 == 'Abricot' %}
   {% assign ing1_image = 'dabricot.png' %}
@@ -98,6 +119,7 @@ en pleine santé.
 {% endif %}
 
 <img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
+
 </div>
           <div class="container-result-p"><p>{{ diagnostics[0].options.ingrediente1 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
