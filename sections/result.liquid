@@ -123,7 +123,35 @@ en pleine santé.
   {% endif %}
 {% endif %}
 
-                                  
+ {% if diagnostics.preocupa2 == 'Imperfections' %}
+  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+    {% assign diagnostics_ing2 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% elsif diagnostics.preocupa2 == 'Rougeurs' %}
+  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
+    {% assign diagnostics_ing2 = 'Amande' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% elsif diagnostics.preocupa2 == 'Teint' %}
+  {% if diagnostics.f53 == 'f53a' %}
+    {% assign diagnostics_ing2 = 'Carotte' %}
+  {% elsif diagnostics.f53 == 'f53b' %}
+    {% assign diagnostics_ing2 = 'Abricot' %}
+  {% endif %}
+{% elsif diagnostics.preocupa2 == 'Age' %}
+  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
+    {% assign diagnostics_ing2 = 'Argan' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+{% elsif diagnostics.preocupa2 == 'Brillance' %}
+  {% assign diagnostics_ing2 = 'Noisette' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+{% elsif diagnostics.preocupa2 == 'Deshydratation' %}
+  {% assign diagnostics_ing2 = 'Onagre' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+{% endif %}
+                                
         
                                   
                                
@@ -159,8 +187,11 @@ en pleine santé.
         </div>
         <div class="container-result flex" >
           <div class="container-image">
+                                  
             {% assign ing2_image = '' %}
-                                  {% if diagnostics.ing2 == 'Amande' %}
+
+ {% if diagnostics_ing2 == '' %}                                        
+     {% if diagnostics.ing2 == 'Amande' %}
   {% assign ing2_image = 'damandedouce.png' %}
 {% elsif diagnostics.ing2 == 'Onagre' %}
   {% assign ing2_image = 'donagre.png' %}
@@ -173,6 +204,11 @@ en pleine santé.
 {% else %}
   {% assign ing2_image = 'carotte.png' %}
 {% endif %}
+   
+     {% else %}   
+        {% assign ing2_image = diagnostics_ing2 | append: '.png' %}  
+{% endif %}
+                                  
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
              </div>
           <div class="container-result-p"><p>{{ diagnostics.ing2 }}: anti-imperfections, régulatrice de sébum et réparatrice</p>
