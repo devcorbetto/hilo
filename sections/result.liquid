@@ -81,8 +81,24 @@ en pleine santé.
         <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
         <p class="text-left">Ces huiles végétales sont connues pour les propriétés suivantes* :</p>
         <div class="container-result flex" >
-          <div class="container-image"><img style="width:32px;" src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg?v=1678245001&width=70">
-          </div>
+          <div class="container-image">{% assign ing1_image = '' %}
+
+{% if ing1 == 'Amande' %}
+  {% assign ing1_image = 'damandedouce.png' %}
+{% elsif ing1 == 'Onagre' %}
+  {% assign ing1_image = 'donagre.png' %}
+{% elsif ing1 == 'Argan' %}
+  {% assign ing1_image = 'dargan.png' %}
+{% elsif ing1 == 'Abricot' %}
+  {% assign ing1_image = 'dabricot.png' %}
+{% elsif ing1 == 'Noisette' %}
+  {% assign ing1_image = 'noisette.png' %}
+{% else %}
+  {% assign ing1_image = 'carotte.png' %}
+{% endif %}
+
+<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
+</div>
           <div class="container-result-p"><p>{{ diagnostics[0].options.ingrediente1 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
