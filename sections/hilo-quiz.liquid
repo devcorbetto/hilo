@@ -574,9 +574,9 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
     
         <div class="birthday">
    
-    <input id="birthday" type="text" name="customer[note]" hidden value='[
- <code x-text="JSON.stringify(jsonData)"></code>
-]'/>
+    <input id="birthday" type="text" name="customer[note]" 
+    hidden :value='JSON.stringify(jsonData)'
+    />
   </div>
      
     </div>
