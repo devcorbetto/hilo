@@ -168,7 +168,12 @@ en pleine santé.
                                   
                                   <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
             </div>
-          <div class="container-result-p"><p>{{ diagnostics.ing3 }} : anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"><p>
+                                  {% if diagnostics_ing3 == '' %}
+                                    {{ diagnostics.ing3 }} 
+                                    {% else %}
+                                    {{ diagnostics_ing3 }}
+                                    {% endif %}: anti-imperfections, régulatrice de sébum et réparatrice</p>
           </div>
         </div>
           
