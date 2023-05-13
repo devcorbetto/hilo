@@ -479,7 +479,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing3: ing3
             }
       
-  step++
+ fetchData()
 } else {
   alert('Por favor complete todos los campos requeridos');
 }
@@ -501,28 +501,9 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
       {% endfor %}
       <div class="step6 " x-show="step === 6">
        {% if customer %}
-         
-      <button x-on:click="sendTrigger()">Enviar Trigger</button>
 
-  <script>
-    const app = Alpine.create({
-      sendTrigger() {
-        // Construir la URL del trigger con los parámetros deseados
-        const triggerURL = `https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa?param1=${this.jsonData.name}&param2=${this.jsonData.gender}&param3=${this.jsonData.age}`;
+         Es customer y vamos a guardar el resultado y redirigir al customer al resultado page.
 
-        // Realizar la solicitud HTTP al trigger
-        fetch(triggerURL)
-          .then(response => {
-            // Manejar la respuesta del trigger si es necesario
-            console.log('Trigger enviado con éxito');
-          })
-          .catch(error => {
-            // Manejar cualquier error en la solicitud
-            console.error('Error al enviar el trigger', error);
-          });
-      }
-    });
-  </script>
 
          
        {% else %}
