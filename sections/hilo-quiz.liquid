@@ -118,7 +118,7 @@ method="post" enctype="multipart/form-data">
   <button x-on:click="sendTrigger()">Enviar Trigger</button>
 
   <script>
-    const app = Alpine.create({
+   
       sendTrigger() {
         // Obtener el customerId y los campos deseados de jsonData
         const customerId = this.customerId;
@@ -138,7 +138,7 @@ method="post" enctype="multipart/form-data">
             console.error('Error al enviar el trigger', error);
           });
       }
-    });
+  
   </script>
 </div>
 </form>
