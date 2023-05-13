@@ -184,11 +184,14 @@ en pleine santé.
       const url = `${baseUrl}?${urlParams.toString()}`;
 
       fetch(url)
-        .then(response => response.json())
+   .then(response => response.json())
         .then(data => {
           // Procesar la respuesta del servidor
           console.log(data);
-          step++
+          // Verificar si la respuesta es correcta y aumentar el paso (step)
+          if (data && data.status === 'success') {
+            this.step++;
+          }
         })
         .catch(error => {
           // Manejar cualquier error ocurrido durante la solicitud
