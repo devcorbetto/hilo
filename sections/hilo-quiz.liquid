@@ -108,40 +108,50 @@ en pleine santé.
 {% endcapture %}
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
-<form action="https://apiv2.shopflex.io/auth/trigFger/boksbfk5yw?customerid={{ customer.id }}" 
-method="post" enctype="multipart/form-data">
-  <button class="form__submit-btn" type="submit">submit</button>
+  <div x-data="{
+    customerId: '6971133821223',
+    jsonData: {
+      name: 'gabseb123',
+      gender: 'male123',
+      age: 'nomadure',
+      peau: 'mixte',
+      deshy: 'nodeshy',
+      madure: 'nomadure',
+      preocupa1: 'Brillance',
+      preocupa2: 'Deshydratation',
+      preocupa3: 'Imperfections',
+      f51: 'f51e',
+      f52: 'f52a',
+      f53: 'f53d',
+      f54: 'f54c',
+      ing1: 'Noisette',
+      ing2: 'Abricot',
+      ing3: 'Onagre'
+    },
+    fetchData() {
+      const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
+      const urlParams = new URLSearchParams({
+        customerId: this.customerId,
+        ...this.jsonData
+      });
+      const url = `${baseUrl}?${urlParams.toString()}`;
 
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // Procesar la respuesta del servidor
+          console.log(data);
+        })
+        .catch(error => {
+          // Manejar cualquier error ocurrido durante la solicitud
+          console.error(error);
+        });
+    }
+  }">
+    <button x-on:click="fetchData()">Realizar Fetch</button>
+  </div>
 
-  <!-- Resto del contenido -->
-
-  <button x-on:click="sendTrigger()">Enviar Trigger</button>
-
-  <script>
-   
-      sendTrigger() {
-        // Obtener el customerId y los campos deseados de jsonData
-        const customerId = this.customerId;
-        const { name, gender, age, peau, deshy, madure, ing1, ing2, ing3, f51, f52, f53 } = this.jsonData;
-
-        // Construir la URL del trigger con los parámetros deseados
-        const triggerURL = `https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa?customerId={{ customer.id }}&name=${name}&gender=${gender}&age=${age}&peau=${peau}&deshy=${deshy}&madure=${madure}&ing1=${ing1}&ing2=${ing2}&ing3=${ing3}&f51=${f51}&f52=${f52}&f53=${f53}`;
-
-        // Realizar la solicitud HTTP al trigger
-        fetch(triggerURL)
-          .then(response => {
-            // Manejar la respuesta del trigger si es necesario
-            console.log('Trigger enviado con éxito');
-          })
-          .catch(error => {
-            // Manejar cualquier error en la solicitud
-            console.error('Error al enviar el trigger', error);
-          });
-      }
   
-  </script>
-</div>
-</form>
 <div class="page-width"
    x-data="{ 
    formData: {  
