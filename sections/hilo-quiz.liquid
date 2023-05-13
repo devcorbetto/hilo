@@ -188,6 +188,7 @@ en pleine santé.
         .then(data => {
           // Procesar la respuesta del servidor
           console.log(data);
+          step++
         })
         .catch(error => {
           // Manejar cualquier error ocurrido durante la solicitud
@@ -418,44 +419,6 @@ en pleine santé.
       }
     }
     
-console.log('test');
-    console.log(selected);
-    if (selected.includes('Imperfections')) {
-  ing3 = 'Noisette';
-  console.log('Cambiado a Noisette2');
-  
-}
-if (selected.includes('Brillance')) {
-   ing3 = 'Noisette';
-  console.log('Cambiado a Noisette porque elegiste brillance');
-}
-if (selected.includes('Deshydratation')) {
-  ing3 = 'Onagre';
-  console.log('Cambiado a Onagre pirque elgiste Deshydratation');
-}
-
-
-   // Resto de las condiciones para cambiar ing3 basado en las respuestas
-if (selected.includes('Imperfections') && (formData.f51 === 'f51a' || formData.f51 === 'f51b')) {
-  ing3 = 'Noisette';
-  console.log('Cambiado a Noisette');
-}
-if (selected.includes('Rougeurs') && (formData.f52 === 'f52a' || formData.f52 === 'f52b')) {
-    ing3 = 'Douce';
-  console.log('Cambiado a Douce');
-}
-if (selected.includes('Teint') && formData.f53 === 'f53a') {
- ing3 = 'Carotte';
-  console.log('Cambiado a Carotte');
-}
-if (selected.includes('Teint') && formData.f53 === 'f53b') {
- ing3 = 'Abricot';
-  console.log('Cambiado a Abricot');
-}
-if (selected.includes('Signes') && (formData.f54 === 'f54a' || formData.f54 === 'f54b')) {
-  ing3 = 'Argan';
-  console.log('Cambiado a Argan');
-}
 
 
  if(formData.f51 && formData.f52 && formData.f53  && formData.f54) { 
