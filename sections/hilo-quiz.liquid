@@ -150,10 +150,7 @@
           // Procesar la respuesta del servidor
           console.log(data);
              this.step++;
-              setTimeout(function() {
-  window.location.href = 'https://hilo-cosmetiques.myshopify.com/pages/result-diagnostic';
-}, 5000);
-  
+         
         })
         .catch(error => {
           // Manejar cualquier error ocurrido durante la solicitud
@@ -396,7 +393,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
 
 
   // Resto del código
-      jsonData = [{ name: formData.name, gender: formData.gender, age: formData.age , peau: formData.peau, 
+      jsonData = { name: formData.name, gender: formData.gender, age: formData.age , peau: formData.peau, 
       deshy: formData.deshy, madure: formData.madure,
        preocupa1: selectedOptions[0],
            preocupa2: selectedOptions[1],
@@ -405,7 +402,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing1: ing1
              , ing2: ing2
              , ing3: ing3
-            }]
+            }
            {% if customer %} 
  fetchData()
 } else {
