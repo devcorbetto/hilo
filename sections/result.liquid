@@ -40,7 +40,7 @@ en pleine santé.
 {% endcapture %}
    
            
-                              {% assign diagnostics = customer.metafields.custom.diagnostico.value %}
+                              {% assign diagnostics = customer.metafields.custom.diagnostico[0].value %}
 Diagnostico: {{ diagnostics }}
                                 {% if customer %}
     <div class="div-with-svg"> <h2 class="text-center" style="text-transform:uppercase;">{{ diagnostics.name }}, VOICI VOS RESULTATS :</h2>
