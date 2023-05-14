@@ -94,6 +94,9 @@
     <button x-on:click="fetchData()">Realizar Fetch</button>
   </div>
 
+     {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
+                                {% assign diagnostics = diagnosticos[0] %}
+Diagnostico: {{ diagnostics }}
   
 <div class="page-width"
    x-data="{ 
@@ -137,6 +140,7 @@
    selected: [],
    jsonData: null,
    fetchData() {
+      
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
       const urlParams = new URLSearchParams({
         customerId: this.customerId,
