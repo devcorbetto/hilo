@@ -442,11 +442,12 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing2: ing2
              , ing3: ing3
             }
-      
+           {% if customer %} 
  fetchData()
 } else {
   alert('Por favor complete todos los campos requeridos');
 }
+             {% endif %}
 
     
 
@@ -466,12 +467,12 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
       <div class="step6 " x-show="step === 6">
        {% if customer %}
 
-         Es customer y vamos a guardar el resultado y redirigir al customer al resultado page.
+       Aplicar Reload
 
 
          
        {% else %}
-       registrarse:
+     
    <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
