@@ -66,46 +66,7 @@
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')" %}
-{% capture seche %}
-✨ Vous avez une peau à tendance sèche : Vous avez une peau à tendance sèche. Elle ne produit pas beaucoup de
-sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau
-sèche est plus sensible que les autres et manque de souplesse.
-{% endcapture %}
-{% capture normal %}
-✨ Vous avez une peau à tendance normale : Vous avez une peau à tendance normale. C’est la peau considérée comme
-parfaite. Elle est très bien équilibrée, douce, lisse et son grain est régulier.
-{% endcapture %}
-{% capture mixte %}
-✨ Vous avez une peau à tendance mixte : Vous avez une peau à tendance mixte. Ce type de peau est un mélange de
-différentes caractéristiques de peau en fonction des zones du visage. La peau est
-généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste
-du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des
-imperfections.
-{% endcapture %}
-{% capture grasse %}
-✨ Vous avez une peau à tendance grasse : Vous avez une peau à tendance grasse. Elle produit beaucoup de sébum ce
-qui peut lui donner un aspect brillant. Le grain de peau est irrégulier, les pores sont dilatés
-ce qui peut favoriser l’apparition d’imperfections. Elle se déshydrate et s’irrite facilement, il
-ne faut donc pas négliger l’hydratation.
-{% endcapture %}
-{% capture madure %}
-✨ La production naturelle de collagène de votre corps diminue et votre peau
-peut commencer à se relâcher. On conseille de commencer à traiter le vieillissement cutané
-aux alentours de 25 ans afin de prévenir l’apparition de rides et ridules.
-{% endcapture %}
-{% capture nomadure %}
-✨ Votre peau est tonique et possède encore toute son élasticité.
-{% endcapture %}
-{% capture deshydratee %}
-✨ Votre peau est déshydratée. Elle manque d’eau, ce qui altère le film
-hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer
-des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.
-{% endcapture %}
-{% capture nondeshydratee %}
-✨ Votre peau est bien hydratée. L’hydratation est primordiale et
-permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau
-en pleine santé.
-{% endcapture %}
+
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
   <div x-data="{
@@ -587,18 +548,10 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.
       </span>
     {%- endif -%}
-     <div class="field">     
-     
-     
-    
-    
-        <div class="jsondata">
-
-       
-
- <textarea id="jsondata" name="customer[note]" x-text="JSON.stringify(jsonData)"></textarea>
-        </div>
-     
+    <div class="field">     
+      <div class="jsondata">
+        <textarea id="jsondata" name="customer[note]" x-text="JSON.stringify(jsonData)"></textarea>
+      </div>
     </div>
         
     <button>
@@ -1025,6 +978,46 @@ fetch(url, options)
 {% endcomment %}
 
 
+                {% capture seche %}
+✨ Vous avez une peau à tendance sèche : Vous avez une peau à tendance sèche. Elle ne produit pas beaucoup de
+sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau
+sèche est plus sensible que les autres et manque de souplesse.
+{% endcapture %}
+{% capture normal %}
+✨ Vous avez une peau à tendance normale : Vous avez une peau à tendance normale. C’est la peau considérée comme
+parfaite. Elle est très bien équilibrée, douce, lisse et son grain est régulier.
+{% endcapture %}
+{% capture mixte %}
+✨ Vous avez une peau à tendance mixte : Vous avez une peau à tendance mixte. Ce type de peau est un mélange de
+différentes caractéristiques de peau en fonction des zones du visage. La peau est
+généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste
+du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des
+imperfections.
+{% endcapture %}
+{% capture grasse %}
+✨ Vous avez une peau à tendance grasse : Vous avez une peau à tendance grasse. Elle produit beaucoup de sébum ce
+qui peut lui donner un aspect brillant. Le grain de peau est irrégulier, les pores sont dilatés
+ce qui peut favoriser l’apparition d’imperfections. Elle se déshydrate et s’irrite facilement, il
+ne faut donc pas négliger l’hydratation.
+{% endcapture %}
+{% capture madure %}
+✨ La production naturelle de collagène de votre corps diminue et votre peau
+peut commencer à se relâcher. On conseille de commencer à traiter le vieillissement cutané
+aux alentours de 25 ans afin de prévenir l’apparition de rides et ridules.
+{% endcapture %}
+{% capture nomadure %}
+✨ Votre peau est tonique et possède encore toute son élasticité.
+{% endcapture %}
+{% capture deshydratee %}
+✨ Votre peau est déshydratée. Elle manque d’eau, ce qui altère le film
+hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer
+des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.
+{% endcapture %}
+{% capture nondeshydratee %}
+✨ Votre peau est bien hydratée. L’hydratation est primordiale et
+permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau
+en pleine santé.
+{% endcapture %}
 </script>
 {% schema %}
   {
