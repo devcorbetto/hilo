@@ -38,8 +38,10 @@ des tiraillements, des irritations, un manque de souplesse et une perte d’écl
 permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau
 en pleine santé.
 {% endcapture %}
+   
+           
                               {% assign diagnostics = customer.metafields.custom.diagnostico.value %}
-{{ diagnostics }}
+Diagnostico: {{ diagnostics }}
                                 {% if customer %}
     <div class="div-with-svg"> <h2 class="text-center" style="text-transform:uppercase;">{{ diagnostics.name }}, VOICI VOS RESULTATS :</h2>
       <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
