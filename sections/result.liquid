@@ -40,8 +40,8 @@ en pleine santé.
 {% endcapture %}
    
            
-                              {% assign diagnostics = customer.metafields.custom.diagnosticos[0].value %}
-Diagnostico: {{ diagnostics }}
+                              {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
+Diagnostico: {{ diagnostics[0] }}
                                 {% if customer %}
     <div class="div-with-svg"> <h2 class="text-center" style="text-transform:uppercase;">{{ diagnostics.name }}, VOICI VOS RESULTATS :</h2>
       <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
