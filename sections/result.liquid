@@ -41,7 +41,7 @@ en pleine santé.
    
            
                               {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
-                                {% assign diagnostics = diagnostics[0] %}
+                                {% assign diagnostics = diagnosticos[0] %}
 Diagnostico: {{ diagnostics }}
                                 {% if customer %}
     <div class="div-with-svg"> <h2 class="text-center" style="text-transform:uppercase;">{{ diagnostics.name }}, VOICI VOS RESULTATS :</h2>
