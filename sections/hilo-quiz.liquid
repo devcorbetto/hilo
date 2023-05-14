@@ -150,8 +150,10 @@
           // Procesar la respuesta del servidor
           console.log(data);
              this.step++;
-            window.location = 'https://hilo-cosmetiques.myshopify.com/pages/result-diagnostic';
-         
+              setTimeout(function() {
+  window.location.href = 'https://hilo-cosmetiques.myshopify.com/pages/result-diagnostic';
+}, 5000);
+  
         })
         .catch(error => {
           // Manejar cualquier error ocurrido durante la solicitud
