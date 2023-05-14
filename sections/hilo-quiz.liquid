@@ -71,7 +71,7 @@
 
   <div x-data="{
     customerId: '{{ customer.id }}',
-    jsonData: [{
+    jsonData: {
       name: '1',
       gender: '2',
       age: '3',
@@ -88,7 +88,7 @@
       ing1: '14',
       ing2: '15',
       ing3: '16'
-    }],
+    },
    
   }">
     <button x-on:click="fetchData()">Realizar Fetch</button>
