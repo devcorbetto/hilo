@@ -233,7 +233,7 @@ en pleine santé.
 {% endif %}
    
      {% else %}   
-        {% assign ing1_image = diagnostics_ing1 | append: '.png' %}  
+        {% assign ing1_image = diagnostics_ing1 | append: '.png' | downcase %}  
 {% endif %}
 
                                   
@@ -304,7 +304,7 @@ en pleine santé.
  
   {% endif %}
      {% else %}   
-        {% assign ing3_image = diagnostics_ing3 | append: '.png' %}  
+        {% assign ing3_image = diagnostics_ing3 | append: '.png' | downcase %}  
 {% endif %}
                                   
                                   <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
