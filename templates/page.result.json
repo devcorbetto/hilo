@@ -147,7 +147,7 @@
       }
     },
     "e910de4b-1279-474d-b99b-89d3f5776234": {
-      "type": "multicolumn",
+      "type": "multicolumn-svg",
       "blocks": {
         "template--18831072788775__e910de4b-1279-474d-b99b-89d3f5776234-1684127057b57b6d06-0": {
           "type": "column",
@@ -189,22 +189,22 @@
         "template--18831072788775__e910de4b-1279-474d-b99b-89d3f5776234-1684127057b57b6d06-2"
       ],
       "settings": {
-        "customcss": "",
-        "title": "Multicolumn",
+        "customcss": "multi-featured multi-icons paiment",
+        "title": "",
         "subtitle": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "colors_6",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 60
       }
     }
   },
