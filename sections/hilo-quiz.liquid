@@ -1009,54 +1009,7 @@ background-color:    #F8C8D3;
 </style>
 
 
-              <script>
-  {% comment %} 
-
-
-
-function customerupdate(formData2) {
-
-const storeName = 'hilo-cosmetiques.myshopify.com';
-const customerId = '6953631580455'; // replace with the ID of the customer you want to fetch
-const metafieldId = '29093746475303'; // replace with the ID of the customer you want to fetch
-var accessToken = '';
-
-// Construir la URL de la API de Shopify para actualizar el cliente
-const url = `https://${storeName}/admin/api/2023-04/customers/${customerId}/metafields/${metafieldId}.json`;
-
-// Construct the request options, including the new value of the metafield
-const options = {
-  method: 'PUT',
-  headers: {
-    'Content-Type': 'application/json',
-    'X-Shopify-Access-Token': accessToken,
-  },
-  body: JSON.stringify({
-    metafield: {
-      value: '{"data":"nacho2"}',
-    },
-  }),
-};
-
-// Send the PUT request to update the customer metafield
-fetch(url, options)
-  .then((response) => {
-    if (response.ok) {
-      return response.json();
-    }
-    throw new Error('Error updating customer metafield');
-  })
-  .then((data) => {
-    console.log('Customer metafield updated successfully:', data);
-  })
-  .catch((error) => {
-    console.error('Error updating customer metafield:', error);
-  });
-
-
-};
-{% endcomment %}
-
+    
 
                 {% capture seche %}
 ✨ Vous avez une peau à tendance sèche : Vous avez une peau à tendance sèche. Elle ne produit pas beaucoup de
@@ -1098,7 +1051,7 @@ des tiraillements, des irritations, un manque de souplesse et une perte d’écl
 permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau
 en pleine santé.
 {% endcapture %}
-</script>
+
 {% schema %}
   {
     "name": "Section name",
