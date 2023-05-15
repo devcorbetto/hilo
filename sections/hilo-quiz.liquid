@@ -68,9 +68,7 @@
                   (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')" %}
 
 {% assign steps = page.metafields.quiz.quiz.value  %}
-{% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
-{% assign diagnostics = diagnosticos | replace: '"', "'" | remove: "[" | remove: "]"%}
-Diagnostico s: {{ diagnostics }}
+
   <div x-data="{
     customerId: '{{ customer.id }}',
     jsonData: {
@@ -90,14 +88,33 @@ Diagnostico s: {{ diagnostics }}
       ing1: '14',
       ing2: '15',
       ing3: '16',
-      results: {'name':' asd','gender':'male','age':'nomadure','peau':'mixte','deshy':'deshy','madure':'nomadure','preocupa1':'Brillance','preocupa2':'undefined','preocupa3':'undefined','f51':'f51e','f52':'f52a','f53':'f53b','f54':'f54b','ing1':'Onagre','ing2':'Amande','ing3':'Noisette'}
+      results: {
+          name: 'asd',
+          gender: 'male',
+          age: 'nomadure',
+          peau: 'mixte',
+          deshy: 'deshy',
+          madure: 'nomadure',
+          preocupa1: 'Brillance',
+          preocupa2: 'undefined',
+          preocupa3: 'undefined',
+          f51: 'f51e',
+          f52: 'f52a',
+          f53: 'f53b',
+          f54: 'f54b',
+          ing1: 'Onagre',
+          ing2: 'Amande',
+          ing3: 'Noisette'
+        }
     },
    
   }">
     <button x-on:click="fetchData()">Realizar Fetch</button>
   </div>
 
-
+{% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
+{% assign diagnostics = diagnosticos | replace: '"', "'" | remove: "[" | remove: "]"%}
+Diagnostico s: {{ diagnostics }}
   
 <div class="page-width"
    x-data="{ 
