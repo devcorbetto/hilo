@@ -251,11 +251,7 @@ en pleine santé.
 
 </div>
           <div class="container-result-p">
-                                  <p>{% if diagnostics_ing1 == '' %}
-                                    {{ diagnostics.ing1 }} 
-                                    {% else %}
-                                    {{ diagnostics_ing1 }}
-                                    {% endif %} : 
+                                  <p>
                                   {% if diagnostics.ing1 == 'Amande' %}
  {{ amande }}
 {% elsif diagnostics.ing1 == 'Onagre' %}
@@ -298,11 +294,21 @@ en pleine santé.
                                   
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
              </div>
-          <div class="container-result-p"><p> {% if diagnostics_ing2 == '' %}
-                                    {{ diagnostics.ing2 }} 
-                                    {% else %}
-                                    {{ diagnostics_ing2 }}
-                                    {% endif %}: anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"> <p>
+                                  {% if diagnostics.ing2 == 'Amande' %}
+ {{ amande }}
+{% elsif diagnostics.ing2 == 'Onagre' %}
+ {{ onagre }}
+{% elsif diagnostics.ing2 == 'Argan' %}
+ {{ argan }}
+{% elsif diagnostics.ing2 == 'Abricot' %}
+  {{ abricot }}
+{% elsif diagnostics.ing2 == 'Noisette' %}
+ {{ noisette }}
+{% else %}
+  {{ carotte }}
+{% endif %}
+                                  </p>
           </div>
         </div>
         <div class="container-result flex" >
@@ -331,12 +337,21 @@ en pleine santé.
                                   
                                   <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
             </div>
-          <div class="container-result-p"><p>
-                                  {% if diagnostics_ing3 == '' %}
-                                    {{ diagnostics.ing3 }} 
-                                    {% else %}
-                                    {{ diagnostics_ing3 }}
-                                    {% endif %}: anti-imperfections, régulatrice de sébum et réparatrice</p>
+          <div class="container-result-p"> <p>
+                                  {% if diagnostics.ing3 == 'Amande' %}
+ {{ amande }}
+{% elsif diagnostics.ing3 == 'Onagre' %}
+ {{ onagre }}
+{% elsif diagnostics.ing3 == 'Argan' %}
+ {{ argan }}
+{% elsif diagnostics.ing3 == 'Abricot' %}
+  {{ abricot }}
+{% elsif diagnostics.ing3== 'Noisette' %}
+ {{ noisette }}
+{% else %}
+  {{ carotte }}
+{% endif %}
+                                  </p>
           </div>
         </div>
           
