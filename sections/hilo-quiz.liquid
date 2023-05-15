@@ -457,8 +457,10 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
     </symbol>
   </svg>
   <h1>
-    {{ 'customer.register.title' | t }}
+   DECOUVREZ VOTRE MATCH PARFAIT
   </h1>
+         <p>Dernière étape avant de découvrir la combinaison d'huiles végétales qui viendra personnaliser vos cosmétiques et sublimer votre peau.<br><br> Créez votre compte pour sauvegarder vos résultats.
+         </p>
   {%- form 'create_customer', novalidate: 'novalidate' -%}
      <input type="hidden" name="return_to" value="pages/loading-diagnostic">
     {%- if form.errors -%}
