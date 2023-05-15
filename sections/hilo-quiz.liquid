@@ -142,7 +142,8 @@ Diagnostico: {{ diagnostics  }}
    jsonData: null,
      fetchData() {
 
-  
+ const diagnostics = JSON.parse('{{ diagnosticos | json }}');
+  alert(JSON.stringify(diagnostics));
      
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
       const urlParams = new URLSearchParams({
