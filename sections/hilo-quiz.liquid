@@ -486,9 +486,11 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
       </ul>
     {%- endif -%}
     <div class="field">  
-     <label for="RegisterForm-FirstName">
+     <label for="RegisterForm-FirstName" style="position:relative !important;">
         {{ 'customer.register.first_name' | t }}
       
+    
+     </label>
       <input
         type="text"
         name="customer[first_name]"
@@ -497,7 +499,6 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         autocomplete="given-name"
         placeholder="{{ 'customer.register.first_name' | t }}"
       >
-     </label>
     </div>
     <div class="field">
       <input
