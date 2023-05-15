@@ -571,7 +571,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
     {%- endif -%}
     <div class="field">     
       <div class="jsondata">
-        <textarea id="jsondata" name="customer[note]" x-text="JSON.stringify(jsonData)"></textarea>
+        <textarea id="jsondata" name="customer[note]"  hidden x-text="JSON.stringify(jsonData)"></textarea>
       </div>
     </div>
         
