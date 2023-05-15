@@ -72,8 +72,6 @@
 
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'"  %}
-<hr>
-<h2>Results anteriores</h2>{{ diagnostics }}
   
 <div class="page-width"
    x-data="{ 
