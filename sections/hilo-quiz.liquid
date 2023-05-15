@@ -485,7 +485,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {%- endfor -%}
       </ul>
     {%- endif -%}
-     <label for="RegisterForm-FirstName" style="position:relative !important;">
+     <label for="RegisterForm-FirstName" style="position:relative !important; border:0 !important;">
         {{ 'customer.register.first_name' | t }}
       
     
@@ -501,7 +501,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         placeholder="{{ 'customer.register.first_name' | t }}"
       >
     </div>
-     <label for="RegisterForm-LastName">
+     <label for="RegisterForm-LastName" style="position:relative !important; border:0 !important;">
         {{ 'customer.register.last_name' | t }}
       </label>
     <div class="field">
@@ -515,7 +515,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
       >
      
     </div>
-      <label for="RegisterForm-email">
+      <label for="RegisterForm-email" style="position:relative !important; border:0 !important;" >
         {{ 'customer.register.email' | t }}
       </label>
     <div class="field">      
@@ -544,7 +544,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.
       </span>
     {%- endif -%}
-     <label for="RegisterForm-password">
+     <label for="RegisterForm-password" style="position:relative !important; border:0 !important;">
         {{ 'customer.register.password' | t }}
       </label>
     <div class="field">     
