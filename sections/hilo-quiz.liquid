@@ -95,7 +95,7 @@
   </div>
 
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
-{% assign diagnostics = diagnosticos | replace: '"', "'" %}
+{% assign diagnostics = diagnosticos | replace: '"', "'" | remove: "[", "]" %}
 Diagnostico s: {{ diagnostics |  json }}
   
 <div class="page-width"
