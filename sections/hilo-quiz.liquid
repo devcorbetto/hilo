@@ -123,11 +123,13 @@
      {% comment %}
      https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa 
      {% endcomment %}
+     
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/7i54koeqts';
       const urlParams = new URLSearchParams({
         customerId: this.customerId,
         ...this.jsonData
       });
+     
   console.log(urlParams);
       const url = `${baseUrl}?${urlParams.toString()}`;
 
