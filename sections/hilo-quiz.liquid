@@ -76,7 +76,7 @@
   
 <div class="page-width"
    x-data="{ 
-  date: {{ 'now' | date: '%m/%d/%Y'  }},
+  
    jsondiagnostics: {{ diagnostics }},
    customerId: '{{ customer.id }}',
    formData: {  
@@ -397,6 +397,7 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing1: ing1
              , ing2: ing2
              , ing3: ing3,
+          date: {{ 'now' | date: '%m/%d/%Y'  }},
              result: resultsJSON            }
            {% if customer %} 
                
