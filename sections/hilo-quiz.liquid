@@ -485,12 +485,13 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {%- endfor -%}
       </ul>
     {%- endif -%}
-    <div class="field">  
      <label for="RegisterForm-FirstName" style="position:relative !important;">
         {{ 'customer.register.first_name' | t }}
       
     
      </label>
+    <div class="field">  
+    
       <input
         type="text"
         name="customer[first_name]"
