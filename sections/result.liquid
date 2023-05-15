@@ -43,10 +43,10 @@ en pleine santé.
                               {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
                                 {% assign diagnostics = diagnosticos[0] %}
 Diagnostico: {{ diagnostics }}
-
 <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics.ing1 }}]={{ diagnostics.ing1 }}&properties[{{ diagnostics.ing2 }}]={{ diagnostics.ing2 }}&properties[{{ diagnostics.ing3 }}]={{ diagnostics.ing3 }}
 
 " class="btn btn-primary">Agregar al carrito</a>
+
 
 
                                 {% if customer %}
