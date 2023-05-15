@@ -1,5 +1,5 @@
 {% assign today =  'now' | date: '%m/%d/%Y'   %}
-{{ today }}
+
    
    {% assign seche2 = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
         (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
@@ -397,7 +397,7 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing1: ing1
              , ing2: ing2
              , ing3: ing3,
-          date: {{ 'now' | date: '%m/%d/%Y'  }},
+          date: {{ today }},
              result: resultsJSON            }
            {% if customer %} 
                
