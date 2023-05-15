@@ -96,7 +96,7 @@
 
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'" %}
-Diagnostico: {{ diagnostics |  json }}
+Diagnostico s: {{ diagnostics |  json }}
   
 <div class="page-width"
    x-data="{ 
@@ -410,8 +410,8 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         f51: formData.f51, f52: formData.f52, f53: formData.f53, f54: formData.f54
              , ing1: ing1
              , ing2: ing2
-             , ing3: ing3
-            }
+             , ing3: ing3,
+             result: jsondiagnostics            }
            {% if customer %} 
                
  fetchData()
