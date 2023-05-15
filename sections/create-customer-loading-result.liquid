@@ -1,4 +1,40 @@
-<h2>Please wait, loading diagnostic</h2>
+         <style>
+    
+#progressbar{
+  height: 20px;
+  position: absolute;
+  width: 250px;
+
+         border:1px solid #D0C4E2 !important;
+  border-radius: 4px;
+  margin-top: 60px;
+  margin-left:20px;
+  padding: 0px;
+  
+}
+#loading{
+  transition: all 500ms ease;
+  height: 20px;
+  width: calc(100% - 10px);
+  border-radius: 2px;
+  background: #D0C4E2;
+  position: absolute;
+  margin: 0px;
+  display: inline-block;
+  animation: load 15s ease infinite;
+}
+
+
+@keyframes load{
+  0%{ width: 0%;}
+  10%{ width: 10%;}
+}
+
+</style>
+    <div id="progressbar">
+     <span id="loading"></span>
+
+    </div>
 
 <script>
   setTimeout(function() {
