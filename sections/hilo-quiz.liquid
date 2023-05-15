@@ -100,7 +100,7 @@ Diagnostico: {{ diagnostics  }}
   
 <div class="page-width"
    x-data="{ 
-
+  diagnostics: '{{ diagnostics | json  }}',
    customerId: '{{ customer.id }}',
    formData: {  
    name: '', 
