@@ -151,12 +151,12 @@ Diagnostico: {{ diagnostics  }}
         ...this.jsonData
       });
       const url = `${baseUrl}?${urlParams.toString()}`;
-
-      fetch(url)
 {% if diagnostics %}
 diagnostics.push(jsonData);
 console.log(diagnostics);
 {% endif %}
+      fetch(url)
+
   
         .then(response => response.json())
         .then(data => {
