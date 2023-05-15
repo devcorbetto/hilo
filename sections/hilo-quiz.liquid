@@ -153,11 +153,11 @@ Diagnostico: {{ diagnostics  }}
       const url = `${baseUrl}?${urlParams.toString()}`;
 
       fetch(url)
-
+{% if diagnostics != blank %}
 diagnostics.push(jsonData);
 
 console.log(diagnostics);
-
+{% endif %}
   
         .then(response => response.json())
         .then(data => {
