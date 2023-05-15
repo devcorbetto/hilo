@@ -229,6 +229,7 @@ Diagnostico: {{ diagnostics }}
         {% assign ing1_image = diagnostics_ing1 | append: '.png' %}  
 {% endif %}
 
+                                  
 <img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
 
             
@@ -319,6 +320,10 @@ Diagnostico: {{ diagnostics }}
       <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastiques.<br>
         Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
       <a href="#" class="button btn">J'ajoute ma routine au panier</a>
+
+              <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics.ing1 }}]={{ diagnostics.ing1 }}&properties[{{ diagnostics.ing2 }}]={{ diagnostics.ing2 }}&properties[{{ diagnostics.ing3 }}]={{ diagnostics.ing3 }}
+
+" class="btn btn-primary">Agregar al carrito</a>
     </div>
         </div>
       {% endif %}
