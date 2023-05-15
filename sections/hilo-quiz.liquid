@@ -76,6 +76,7 @@
   
 <div class="page-width"
    x-data="{ 
+  date: {{ 'now' | date: '%m/%d/%Y'  }},
    jsondiagnostics: {{ diagnostics }},
    customerId: '{{ customer.id }}',
    formData: {  
