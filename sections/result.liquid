@@ -295,15 +295,15 @@ en pleine santé.
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
              </div>
           <div class="container-result-p"> <p>
-                                  {% if diagnostics.ing2 == 'Amande' %}
+                                  {% if diagnostics_ing2 == 'Amande' %}
  {{ amande }}
-{% elsif diagnostics.ing2 == 'Onagre' %}
+{% elsif diagnostics_ing2 == 'Onagre' %}
  {{ onagre }}
-{% elsif diagnostics.ing2 == 'Argan' %}
+{% elsif diagnostics_ing2 == 'Argan' %}
  {{ argan }}
-{% elsif diagnostics.ing2 == 'Abricot' %}
+{% elsif diagnostics_ing2 == 'Abricot' %}
   {{ abricot }}
-{% elsif diagnostics.ing2 == 'Noisette' %}
+{% elsif diagnostics_ing2 == 'Noisette' %}
  {{ noisette }}
 {% else %}
   {{ carotte }}
