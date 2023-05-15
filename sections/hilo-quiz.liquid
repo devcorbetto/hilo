@@ -94,8 +94,8 @@
     <button x-on:click="fetchData()">Realizar Fetch</button>
   </div>
 
-     {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
-                                {% assign diagnostics = diagnosticos | json %}
+{% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
+{% assign diagnostics = diagnosticos | json %}
 Diagnostico: {{ diagnostics  }}
   
 <div class="page-width"
