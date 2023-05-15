@@ -100,6 +100,7 @@ Diagnostico: {{ diagnostics  }}
   
 <div class="page-width"
    x-data="{ 
+  diagnostics: '{{ diagnostics  }}'
    customerId: '{{ customer.id }}',
    formData: {  
    name: '', 
@@ -140,7 +141,7 @@ Diagnostico: {{ diagnostics  }}
    selected: [],
    jsonData: null,
    fetchData() {
-      
+     
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
       const urlParams = new URLSearchParams({
         customerId: this.customerId,
