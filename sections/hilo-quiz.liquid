@@ -94,7 +94,7 @@
     <button x-on:click="fetchData()">Realizar Fetch</button>
   </div>
 
-{% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
+{% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'" %}
 Diagnostico: {{ diagnostics |  json }}
   
