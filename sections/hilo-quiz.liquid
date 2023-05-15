@@ -74,7 +74,11 @@
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'"  %}
 <hr>
-
+<div id="progressbar">
+     <span id="loading"></span>
+    <div id="load">Subiendo...</div>
+    <div id="title">Barra de carga</div>
+</div>
 <div class="page-width"
    x-data="{ 
   
@@ -430,11 +434,7 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
        {% if customer %}
 
 <h2 class="text-center pb-20">NOUS ANALYSONS VOS REPONSES</h2>
-       <div id="progressbar">
-     <span id="loading"></span>
-    <div id="load">Subiendo...</div>
-    <div id="title">Barra de carga</div>
-</div>
+         <div class="loading-bar"></div>
          <style>
     
 #progressbar{
@@ -442,7 +442,6 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
   position: absolute;
   width: 250px;
   background: #E0E0E0;
-         border:2px #D0C4E2;
   border-radius: 4px;
   margin-top: 60px;
   margin-left:20px;
@@ -454,7 +453,7 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
   height: 20px;
   width: calc(100% - 10px);
   border-radius: 2px;
-  background: ##D0C4E2;
+  background: #2196F3;
   position: absolute;
   margin: 3px;
   display: inline-block;
@@ -787,16 +786,12 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
 
 
 </div>
-   <div id="progressbar">
-     <span id="loading"></span>
-    <div id="load">Subiendo...</div>
-    <div id="title">Barra de carga</div>
-</div>
+  
    
 </div>
 
 </div>
-           
+          
   
 
 
