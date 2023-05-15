@@ -141,21 +141,18 @@ Diagnostico: {{ diagnostics |  json }}
    selected: [],
    jsonData: null,
      fetchData() {
-// Suponiendo que jsondata y jsondiagnostics sean variables que contienen datos en formato JSON
-var jsonData = JSON.parse(jsondata);
-var jsonDiagnostics = JSON.parse(jsondiagnostics);
+var diagnostics = JSON.parse(jsondiagnostics);
+var data = JSON.parse(jsondata);
 
-// Agregar jsondiagnostics a jsondata
-Object.assign(jsonData, jsonDiagnostics);
+var combinedData = [...diagnostics, data];
 
-// Convertir nuevamente a JSON
-var result = JSON.stringify(jsonData);
+var result = JSON.stringify(combinedData);
 
      
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
       const urlParams = new URLSearchParams({
         customerId: this.customerId,
-        ...this.jsonData
+        ...this.result
       });
       const url = `${baseUrl}?${urlParams.toString()}`;
 
