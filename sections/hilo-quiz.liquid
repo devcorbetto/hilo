@@ -76,8 +76,7 @@
 <hr>
 <div id="progressbar">
      <span id="loading"></span>
-    <div id="load">Subiendo...</div>
-    <div id="title">Barra de carga</div>
+
 </div>
 <div class="page-width"
    x-data="{ 
@@ -460,20 +459,7 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
   display: inline-block;
   animation: load 15s ease infinite;
 }
-#load{
-  font-family: 'Lato', sans-serif;
-  font-weight: regular;
-  text-align: center;
-  margin-top: 35px;
-}
 
-#title{
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  margin-top: -100px;
-  text-align: center;
-}
 
 @keyframes load{
   0%{ width: 0%;}
