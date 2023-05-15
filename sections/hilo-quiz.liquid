@@ -142,9 +142,7 @@ Diagnostico: {{ diagnostics |  json }}
    jsonData: null,
      fetchData() {
 
-const element = document.getElementById('myElement');
-const diagnostics = JSON.parse(element.getAttribute('data-diagnostics'));
-alert(JSON.stringify(diagnostics));
+
      
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
       const urlParams = new URLSearchParams({
