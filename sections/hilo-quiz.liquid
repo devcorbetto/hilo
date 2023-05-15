@@ -141,18 +141,13 @@ Diagnostico: {{ diagnostics |  json }}
    selected: [],
    jsonData: null,
      fetchData() {
-var diagnostics = JSON.parse(jsondiagnostics);
-var data = JSON.parse(jsondata);
 
-var combinedData = [...diagnostics, data];
-
-var result = JSON.stringify(combinedData);
 
      
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
       const urlParams = new URLSearchParams({
         customerId: this.customerId,
-        ...this.result
+        ...this.jsonData
       });
       const url = `${baseUrl}?${urlParams.toString()}`;
 
