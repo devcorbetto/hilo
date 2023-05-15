@@ -378,7 +378,7 @@
 
 let selectedOptionsJSON = JSON.stringify(selectedOptions, null, 2);
 selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
-let resultsJSON = JSON.stringify(selectedOptions, null, 2);
+let resultsJSON = JSON.stringify(jsondiagnostics, null, 2);
 
 
   // Resto del código
@@ -391,7 +391,7 @@ let resultsJSON = JSON.stringify(selectedOptions, null, 2);
              , ing1: ing1
              , ing2: ing2
              , ing3: ing3,
-             result: jsondiagnostics            }
+             result: resultsJSON            }
            {% if customer %} 
                
  fetchData()
