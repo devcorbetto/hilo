@@ -141,7 +141,15 @@ Diagnostico: {{ diagnostics |  json }}
    selected: [],
    jsonData: null,
      fetchData() {
+// Suponiendo que jsondata y jsondiagnostics sean variables que contienen datos en formato JSON
+var jsonData = JSON.parse(jsondata);
+var jsonDiagnostics = JSON.parse(jsondiagnostics);
 
+// Agregar jsondiagnostics a jsondata
+Object.assign(jsonData, jsonDiagnostics);
+
+// Convertir nuevamente a JSON
+var result = JSON.stringify(jsonData);
 
      
       const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa';
