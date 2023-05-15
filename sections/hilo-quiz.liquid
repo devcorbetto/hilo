@@ -152,7 +152,7 @@ Diagnostico: {{ diagnostics  }}
       const url = `${baseUrl}?${urlParams.toString()}`;
 
       fetch(url)
-
+const diagnostics = '{{ diagnosticos | json  }}'
   
         .then(response => response.json())
         .then(data => {
