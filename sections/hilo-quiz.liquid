@@ -69,35 +69,10 @@
 
 {% assign steps = page.metafields.quiz.quiz.value  %}
 
-  <div x-data="{
-    customerId: '{{ customer.id }}',
-    jsonData: {
-      name: '1',
-      gender: '2',
-      age: '3',
-      peau: '4',
-      deshy: '5',
-      madure: '6',
-      preocupa1: '7',
-      preocupa2: '8',
-      preocupa3: '9',
-      f51: '10',
-      f52: '11',
-      f53: '12',
-      f54: '13',
-      ing1: '14',
-      ing2: '15',
-      ing3: '16'
-     
-    },
-   
-  }">
-    <button x-on:click="fetchData()">Realizar Fetch</button>
-  </div>
 
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'" | remove: "[" | remove: "]"%}
-Diagnosticos: {{ diagnostics }}
+
   
 <div class="page-width"
    x-data="{ 
