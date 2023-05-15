@@ -149,7 +149,7 @@ Diagnostico: {{ diagnostics |  json }}
         customerId: this.customerId,
         ...this.jsonData
       });
-      const url = `${baseUrl}?${urlParams.toString()}`;
+      const url = `${baseUrl}?${urlParams.toString()}?results={{ diagnostics }}`;
 
       fetch(url)
 
