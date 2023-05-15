@@ -73,11 +73,7 @@
 
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'"  %}
-<hr>
-<div id="progressbar">
-     <span id="loading"></span>
 
-</div>
 <div class="page-width"
    x-data="{ 
   
