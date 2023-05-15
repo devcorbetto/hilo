@@ -255,7 +255,21 @@ en pleine santé.
                                     {{ diagnostics.ing1 }} 
                                     {% else %}
                                     {{ diagnostics_ing1 }}
-                                    {% endif %} : {{ diagnostics_ing1 }}</p>
+                                    {% endif %} : 
+                                  {% if diagnostics.ing1 == 'Amande' %}
+ {{ amande }}
+{% elsif diagnostics.ing1 == 'Onagre' %}
+ {{ onagre }}
+{% elsif diagnostics.ing1 == 'Argan' %}
+ {{ argan }}
+{% elsif diagnostics.ing1 == 'Abricot' %}
+  {{ abricot }}
+{% elsif diagnostics.ing1 == 'Noisette' %}
+ {{ noisette }}
+{% else %}
+  {{ carotte }}
+{% endif %}
+                                  </p>
           </div>
         </div>
         <div class="container-result flex" >
