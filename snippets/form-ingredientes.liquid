@@ -10,17 +10,17 @@
     <div class="container-ingredientes flex flex-row" >
     {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
 
-      {% if ingrediente.name == 'huile de carotte' %}
-  {% assign propertyName = 'carotte' %}
-{% elsif ingrediente.name == "huile d'argan" %}
-  {% assign propertyName = 'argan' %}
-{% elsif ingrediente.name == "huile d'abricot" %}
+      {% if ingrediente.name == 'Huile de carotte' %}
+  {% assign propertyName = 'Carotte' %}
+{% elsif ingrediente.name == "Huile d'argan" %}
+  {% assign propertyName = 'Argan' %}
+{% elsif ingrediente.name == "Huile d'abricot" %}
   {% assign propertyName = 'abricot' %}
-{% elsif ingrediente.name == 'huile de noisette' %}
+{% elsif ingrediente.name == 'Huile de noisette' %}
   {% assign propertyName = 'noisette' %}
-{% elsif ingrediente.name == "huile d'amande douce" %}
+{% elsif ingrediente.name == "Huile d'amande douce" %}
   {% assign propertyName = 'amande_douce' %}
-{% elsif ingrediente.name == "huile d'onagre" %}
+{% elsif ingrediente.name == "Huile d'onagre" %}
   {% assign propertyName = 'onagre' %}
 {% endif %}
 
