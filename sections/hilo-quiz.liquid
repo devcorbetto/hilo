@@ -396,9 +396,12 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing2: ing2
              , ing3: ing3,
              result: resultsJSON            }
-         
+           {% if customer %} 
                
  fetchData()
+             {% else %}
+     step++;
+             {% endif %}
 } else {
   alert('Por favor complete todos los campos requeridos');
 }
