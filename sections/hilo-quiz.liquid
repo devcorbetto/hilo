@@ -72,7 +72,7 @@
 
 {% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
 {% assign diagnostics = diagnosticos | replace: '"', "'" | remove: "[" | remove: "]"%}
-
+{{ diagnostics }}
   
 <div class="page-width"
    x-data="{ 
@@ -378,7 +378,7 @@
 
 let selectedOptionsJSON = JSON.stringify(selectedOptions, null, 2);
 selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
-
+let resultsJSON = JSON.stringify(selectedOptions, null, 2);
 
 
   // Resto del código
