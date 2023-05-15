@@ -501,6 +501,9 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         placeholder="{{ 'customer.register.first_name' | t }}"
       >
     </div>
+     <label for="RegisterForm-LastName">
+        {{ 'customer.register.last_name' | t }}
+      </label>
     <div class="field">
       <input
         type="text"
@@ -510,10 +513,11 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         autocomplete="family-name"
         placeholder="{{ 'customer.register.last_name' | t }}"
       >
-      <label for="RegisterForm-LastName">
-        {{ 'customer.register.last_name' | t }}
-      </label>
+     
     </div>
+      <label for="RegisterForm-email">
+        {{ 'customer.register.email' | t }}
+      </label>
     <div class="field">      
       <input
         type="email"
@@ -530,9 +534,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {% endif %}
         placeholder="{{ 'customer.register.email' | t }}"
       >
-      <label for="RegisterForm-email">
-        {{ 'customer.register.email' | t }}
-      </label>
+    
     </div>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
@@ -542,6 +544,9 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.
       </span>
     {%- endif -%}
+     <label for="RegisterForm-password">
+        {{ 'customer.register.password' | t }}
+      </label>
     <div class="field">     
       <input
         type="password"
@@ -554,9 +559,7 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
         {% endif %}
         placeholder="{{ 'customer.register.password' | t }}"
       >
-      <label for="RegisterForm-password">
-        {{ 'customer.register.password' | t }}
-      </label>
+     
     </div>
     {%- if form.errors contains 'password' -%}
       <span id="RegisterForm-password-error" class="form__message">
