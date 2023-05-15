@@ -101,7 +101,6 @@ Diagnostico: {{ diagnostics  }}
 <div class="page-width"
    x-data="{ 
   diagnostics: '{{ diagnostics  }}'
-   diagnosticsOld: @json(diagnostics),
    customerId: '{{ customer.id }}',
    formData: {  
    name: '', 
@@ -153,7 +152,6 @@ Diagnostico: {{ diagnostics  }}
       const url = `${baseUrl}?${urlParams.toString()}`;
 
       fetch(url)
-  
 
   
         .then(response => response.json())
