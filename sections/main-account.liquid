@@ -248,7 +248,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 
                             <div class="container-content w-3/4 " x-show="open2 ">
                               <h2>MON MATCH PARFAIT DU MOMENT</h2>
-                              {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
+                              {% assign diagnostic = customer.metafields.custom.diagnosticos.value %}
 
                              
                               
@@ -371,38 +371,38 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                
                                     {% assign ing1_image = '' %}
 
- {% if diagnostics_ing1 == '' %}  
+ {% if diagnostic_ing1 == '' %}  
 
-{% if diagnostics.ing1 == 'Amande' %}
+{% if diagnostic.ing1 == 'Amande' %}
   {% assign ing1_image = 'amande.png' %}
-{% elsif diagnostics.ing1 == 'Onagre' %}
+{% elsif diagnostic.ing1 == 'Onagre' %}
   {% assign ing1_image = 'onagre.png' %}
-{% elsif diagnostics.ing1 == 'Argan' %}
+{% elsif diagnostic.ing1 == 'Argan' %}
   {% assign ing1_image = 'argan.png' %}
-{% elsif diagnostics.ing1 == 'Abricot' %}
+{% elsif diagnostic.ing1 == 'Abricot' %}
   {% assign ing1_image = 'abricot.png' %}
-{% elsif diagnostics.ing1 == 'Noisette' %}
+{% elsif diagnostic.ing1 == 'Noisette' %}
   {% assign ing1_image = 'noisette.png' %}
 {% else %}
   {% assign ing1_image = 'carotte.png' %}
 {% endif %}
    
      {% else %}   
-        {% assign ing1_image = diagnostics_ing1 | append: '.png' | downcase %}  
+        {% assign ing1_image = diagnostic_ing1 | append: '.png' | downcase %}  
 {% endif %}
 
                                   
 <img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
                                 <div class="container-color"> 
-                                {% if diagnostics_ing1 == 'Amande' %}
+                                {% if diagnostic_ing1 == 'Amande' %}
  {{ amande }}
-{% elsif diagnostics_ing1 == 'Onagre' %}
+{% elsif diagnostic_ing1 == 'Onagre' %}
  {{ onagre }}
-{% elsif diagnostics_ing1 == 'Argan' %}
+{% elsif diagnostic_ing1 == 'Argan' %}
  {{ argan }}
-{% elsif diagnostics_ing1 == 'Abricot' %}
+{% elsif diagnostic_ing1 == 'Abricot' %}
   {{ abricot }}
-{% elsif diagnostics_ing1 == 'Noisette' %}
+{% elsif diagnostic_ing1 == 'Noisette' %}
  {{ noisette }}
 {% else %}
   {{ carotte }}
@@ -413,37 +413,37 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 
             {% assign ing2_image = '' %}
 
- {% if diagnostics_ing2 == '' %}                                        
-     {% if diagnostics.ing2 == 'Amande' %}
+ {% if diagnostic_ing2 == '' %}                                        
+     {% if diagnostic.ing2 == 'Amande' %}
   {% assign ing2_image = 'amande.png' %}
-{% elsif diagnostics.ing2 == 'Onagre' %}
+{% elsif diagnostic.ing2 == 'Onagre' %}
   {% assign ing2_image = 'onagre.png' %}
-{% elsif diagnostics.ing2 == 'Argan' %}
+{% elsif diagnostic.ing2 == 'Argan' %}
   {% assign ing2_image = 'argan.png' %}
-{% elsif diagnostics.ing2 == 'Abricot' %}
+{% elsif diagnostic.ing2 == 'Abricot' %}
   {% assign ing2_image = 'abricot.png' %}
-{% elsif diagnostics.ing2 == 'Noisette' %}
+{% elsif diagnostic.ing2 == 'Noisette' %}
   {% assign ing2_image = 'noisette.png' %}
 {% else %}
   {% assign ing2_image = 'carotte.png' %}
 {% endif %}
    
      {% else %}   
-        {% assign ing2_image = diagnostics_ing2 | append: '.png' | downcase %}  
+        {% assign ing2_image = diagnostic_ing2 | append: '.png' | downcase %}  
 {% endif %}
                                   
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
                                 
                                    <div class="container-color">
-                                  {% if diagnostics_ing2 == 'Amande' %}
+                                  {% if diagnostic_ing2 == 'Amande' %}
  {{ amande }}
-{% elsif diagnostics_ing2 == 'Onagre' %}
+{% elsif diagnostic_ing2 == 'Onagre' %}
  {{ onagre }}
-{% elsif diagnostics_ing2 == 'Argan' %}
+{% elsif diagnostic_ing2 == 'Argan' %}
  {{ argan }}
-{% elsif diagnostics_ing2 == 'Abricot' %}
+{% elsif diagnostic_ing2 == 'Abricot' %}
   {{ abricot }}
-{% elsif diagnostics_ing2 == 'Noisette' %}
+{% elsif diagnostic_ing2 == 'Noisette' %}
  {{ noisette }}
 {% else %}
   {{ carotte }}
@@ -452,10 +452,10 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                 </div>
                                    <div class="column1">
                                
-                                        {% if diagnostics_ing3 == '' %}                   
+                                        {% if diagnostic_ing3 == '' %}                   
 {% assign ing3_image = '' %}
 
-{% if diagnostics.ing3 == 'Amande' %}
+{% if diagnostic.ing3 == 'Amande' %}
   {% assign ing3_image = 'amande.png' %}
 {% elsif diagnostic.ing3 == 'Onagre' %}
   {% assign ing3_image = 'onagre.png' %}
@@ -470,21 +470,21 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
  
   {% endif %}
      {% else %}   
-        {% assign ing3_image = diagnostics_ing3 | append: '.png' | downcase %}  
+        {% assign ing3_image = diagnostic_ing3 | append: '.png' | downcase %}  
 {% endif %}
                                   
                                   <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
                                      
                                      <div class="container-color">
-                                  {% if diagnostics_ing3 == 'Amande' %}
+                                  {% if diagnostic_ing3 == 'Amande' %}
  {{ amande }}
-{% elsif diagnostics_ing3 == 'Onagre' %}
+{% elsif diagnostic_ing3 == 'Onagre' %}
  {{ onagre }}
-{% elsif diagnostics_ing3 == 'Argan' %}
+{% elsif diagnostic_ing3 == 'Argan' %}
  {{ argan }}
-{% elsif diagnostics_ing3== 'Abricot' %}
+{% elsif diagnostic_ing3== 'Abricot' %}
   {{ abricot }}
-{% elsif diagnostics_ing3== 'Noisette' %}
+{% elsif diagnostic_ing3== 'Noisette' %}
  {{ noisette }}
 {% else %}
   {{ carotte }}
