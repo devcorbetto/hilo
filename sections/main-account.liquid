@@ -628,7 +628,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
       
-{% if forloop.index == 1 %}
+{% if forloop.index != 1 %}
    <tr>
     <th>{{ diagnostic.name }}</th>
     <th>{{ diagnostic.date }}</th>
