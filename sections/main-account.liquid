@@ -268,7 +268,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                              
                               
                               {% for diagnostic in diagnostics %}
-
+{% if forloop.index == 1 %}
   {% assign diagnostic_ing3 = diagnostic.ing3  %}
                                   {% if diagnostic.preocupa1 == 'Brillance' %}
   {% assign diagnostic_ing3 = 'Noisette' %}
@@ -507,6 +507,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                 </div>
                                  </div>
                               </div>
+  {% endif %}
                                 {% endfor %}
 
 
