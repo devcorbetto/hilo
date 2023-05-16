@@ -129,7 +129,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
   <div class="  w-1/4">
   <div class="container-options">
        <div class="option " :class="{ 'active': open1 }"><a href="#" @click="open1 = true, open2 = false, open3 = false" >Mon profil</a></div>
-   <div class="option" :class="{ 'active': open2 }"><a href="#"  @click="open2 = true, open1 = false, open3 = false"  >Mon diagnostic</a></div>
+   <div class="option" :class="{ 'active': open2 }"><a href="#"  @click="open2 = true, open1 = false, open3 = false"  >Mon diagnostics</a></div>
    <div class="option" :class="{ 'active': open3 }"><a href="#"  @click="open3 = true, open2 = false, open1 = false" >Mes commandes</a></div>
 
    <div class="option"><a href="https://hilo-cosmetiques.myshopify.com/pages/contact">Service client</a></div>
@@ -248,7 +248,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 
                             <div class="container-content w-3/4 " x-show="open2 ">
                               <h2>MON MATCH PARFAIT DU MOMENT</h2>
-                              {% assign diagnostic = customer.metafields.custom.diagnosticos.value %}
+                              {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
 
                              
                               
