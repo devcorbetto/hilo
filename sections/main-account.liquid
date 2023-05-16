@@ -509,12 +509,12 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                               </div>
   {% endif %}
                                 {% endfor %}
-  <table class="table-auto w-full">
+  <table class="table-auto w-full" style="border:0px;">
    
  <tr>
-    <th>Diag</th>
-    <th>Date</th>
-    <th>Résultats</th>
+    <th class="px-4 py-2">Diag</th>
+    <th class="px-4 py-2" >Date</th>
+    <th class="px-4 py-2" >Résultats</th>
   </tr>
     {% for diagnostic in diagnostics %}
       {% assign diagnostic_ing3 = diagnostic.ing3  %}
