@@ -368,8 +368,30 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                  <p class="text-center pt-20">Selon mon diagnostic favori pour    {{ diagnostic.name }} réalisé le {{ diagnostic.date }}</p>
                              <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
                                 <div class="column1">
-                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                               <div class="container-color"> 
+                                    {% assign ing1_image = '' %}
+
+ {% if diagnostics_ing1 == '' %}  
+
+{% if diagnostic.ing1 == 'Amande' %}
+  {% assign ing1_image = 'amande.png' %}
+{% elsif diagnostic.ing1 == 'Onagre' %}
+  {% assign ing1_image = 'onagre.png' %}
+{% elsif diagnostic.ing1 == 'Argan' %}
+  {% assign ing1_image = 'argan.png' %}
+{% elsif diagnostic.ing1 == 'Abricot' %}
+  {% assign ing1_image = 'abricot.png' %}
+{% elsif diagnostic.ing1 == 'Noisette' %}
+  {% assign ing1_image = 'noisette.png' %}
+{% else %}
+  {% assign ing1_image = 'carotte.png' %}
+{% endif %}
+   
+     {% else %}   
+        {% assign ing1_image = diagnostics_ing1 | append: '.png' | downcase %}  
+{% endif %}
+
+                                  
+<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
                                  <h4>Huile de  {{ diagnostic.ing1 }} </h4>
                                   <p>L'huile d'amande douce est connue pour les propriété suivante :<br><br> blablablablabla<br><br>
                                     - Tonifiante<br> - Antioxydante<br> - Nourrissante <br>- Protectrice<br><br> Tendance de peau :<br><br> - Peau sensible<br> - Rougeur <br>- Sécheresse <br>
