@@ -509,15 +509,25 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                               </div>
   {% endif %}
                                 {% endfor %}
-  <div> 
-    diag  date  Résutats<br>
+  <table>
+   
+ <tr>
+    <th>Diag</th>
+    <th>Date</th>
+    <th>Résultats</th>
+  </tr>
     {% for diagnostic in diagnostics %}
 {% if forloop.index == 1 %}
-{{ diagnostic.name }} - {{ diagnostic.date }} - {{ diagnostic.ing1 }} - {{ diagnostic.ing2 }} - {{ diagnostic.ing3 }} -
+   <tr>
+    <th>{{ diagnostic.name }}</th>
+    <th>{{ diagnostic.date }}</th>
+    <th>{{ diagnostic.ing1 }} - {{ diagnostic.ing2 }} - {{ diagnostic.ing3 }}</th>
+  </tr>
+
  
   {% endif %}
  {% endfor %}
- </div>
+  </table> 
                             
 
                              
