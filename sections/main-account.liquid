@@ -406,8 +406,31 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                 </div>
                                 </div>
                                    <div class="column1">
-                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                                 <div class="container-color">
+                               
+                                        {% if diagnostics_ing3 == '' %}                   
+{% assign ing3_image = '' %}
+
+{% if diagnostics.ing3 == 'Amande' %}
+  {% assign ing3_image = 'amande.png' %}
+{% elsif diagnostic.ing3 == 'Onagre' %}
+  {% assign ing3_image = 'onagre.png' %}
+{% elsif diagnostic.ing3 == 'Argan' %}
+  {% assign ing3_image = 'argan.png' %}
+{% elsif diagnostic.ing3 == 'Abricot' %}
+  {% assign ing3_image = 'abricot.png' %}
+{% elsif diagnostic.ing3 == 'Noisette' %}
+  {% assign ing3_image = 'noisette.png' %}
+{% else %}
+  {% assign ing3_image = 'carotte.png' %}
+ 
+  {% endif %}
+     {% else %}   
+        {% assign ing3_image = diagnostics_ing3 | append: '.png' | downcase %}  
+{% endif %}
+                                  
+                                  <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
+                                     
+                                     <div class="container-color">
                                   {% if diagnostics_ing3 == 'Amande' %}
  {{ amande }}
 {% elsif diagnostics_ing3 == 'Onagre' %}
