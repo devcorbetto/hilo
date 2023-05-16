@@ -369,8 +369,30 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                              <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
                                 <div class="column1">
                                
-                                <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                             
+                                    {% assign ing1_image = '' %}
+
+ {% if diagnostics_ing1 == '' %}  
+
+{% if diagnostics.ing1 == 'Amande' %}
+  {% assign ing1_image = 'amande.png' %}
+{% elsif diagnostics.ing1 == 'Onagre' %}
+  {% assign ing1_image = 'onagre.png' %}
+{% elsif diagnostics.ing1 == 'Argan' %}
+  {% assign ing1_image = 'argan.png' %}
+{% elsif diagnostics.ing1 == 'Abricot' %}
+  {% assign ing1_image = 'abricot.png' %}
+{% elsif diagnostics.ing1 == 'Noisette' %}
+  {% assign ing1_image = 'noisette.png' %}
+{% else %}
+  {% assign ing1_image = 'carotte.png' %}
+{% endif %}
+   
+     {% else %}   
+        {% assign ing1_image = diagnostics_ing1 | append: '.png' | downcase %}  
+{% endif %}
+
+                                  
+<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
                                 <div class="container-color"> 
                                 {% if diagnostics_ing1 == 'Amande' %}
  {{ amande }}
@@ -388,8 +410,31 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                 </div>
                                </div>
                               <div class="column1">
-                                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg?v=1678245001&width=320">
-                                <div class="container-color">
+
+            {% assign ing2_image = '' %}
+
+ {% if diagnostics_ing2 == '' %}                                        
+     {% if diagnostics.ing2 == 'Amande' %}
+  {% assign ing2_image = 'amande.png' %}
+{% elsif diagnostics.ing2 == 'Onagre' %}
+  {% assign ing2_image = 'onagre.png' %}
+{% elsif diagnostics.ing2 == 'Argan' %}
+  {% assign ing2_image = 'argan.png' %}
+{% elsif diagnostics.ing2 == 'Abricot' %}
+  {% assign ing2_image = 'abricot.png' %}
+{% elsif diagnostics.ing2 == 'Noisette' %}
+  {% assign ing2_image = 'noisette.png' %}
+{% else %}
+  {% assign ing2_image = 'carotte.png' %}
+{% endif %}
+   
+     {% else %}   
+        {% assign ing2_image = diagnostics_ing2 | append: '.png' | downcase %}  
+{% endif %}
+                                  
+<img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
+                                
+                                   <div class="container-color">
                                   {% if diagnostics_ing2 == 'Amande' %}
  {{ amande }}
 {% elsif diagnostics_ing2 == 'Onagre' %}
