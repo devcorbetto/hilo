@@ -664,7 +664,7 @@ summary .icon-carret2 {
 
 .faq-tabs-tittle,
 .accordion__title{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 22px;
  
@@ -1024,6 +1024,7 @@ SemiBold - 19px, #EFD1BF
      background: #FBD1AD !important;
     color: #575756 !important;
     border-radius: 30px;
+    font-weight: 600;
   border:0px;
 }
 .btn-circle-404 a:before, .btn-circle-404 a:after {
@@ -1302,6 +1303,9 @@ footer .newsletter-form__button {  top: 5px;  }
 }
 .spr-starrating {
    font-size:10px;
+}
+.spr-summary-starrating {
+  align-items: center;
 }
 .spr-stars path {
     fill: #EFD1BF !important;
