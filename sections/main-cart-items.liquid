@@ -346,10 +346,9 @@
 
 <ul>
   {%- for property in item.properties -%}
-    {%- assign value = property | remove: ' ' | split: ',' -%}
-    {%- if value contains '1' or value contains '2' or value contains '3' -%}
-      <li>{{ property }}</li>
-    {%- endif -%}
+
+      <li>{{ property }} {{ property.value }}</li>
+
   {%- endfor -%}
 </ul>
                         {%- for property in item.properties -%}
