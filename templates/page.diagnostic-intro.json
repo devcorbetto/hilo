@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>VOTRE DIAGNOSTIC DE PEAU HILO<\/p>",
-            "customcss": "mb-10b",
+            "customcss": "",
             "heading_size": "h1"
           }
         },
