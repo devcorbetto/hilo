@@ -199,28 +199,28 @@
          <fieldset class="mb-10">
       <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? <br><small style="font-size:12px;">(sélectionnez 1 à 3 réponses)</small></legend>
       <div class="container-label">
-         <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections" x-model="selected">
+         <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections" x-model="selected" :class="{ 'inactive': selected.length === 3 && !selected.includes('Eclat') }" >
          <label for="Imperfections">Imperfections</label>
       </div>
       <div class="container-label">
-         <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes" x-model="selected">
+         <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes" x-model="selected" :class="{ 'inactive': selected.length === 3 && !selected.includes('Eclat') }" >
          <label for="Signes de lage">Signes de l'âge</label>
       </div>
       <div class="container-label">
-         <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation" x-model="selected">
+         <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation" x-model="selected" :class="{ 'inactive': selected.length === 3 && !selected.includes('Eclat') }" >
          <label for="Deshydratation">Déshydratation</label>
       </div>
       <div class="container-label">
          <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" 
-           value="Rougeurs" x-model="selected">
+           value="Rougeurs" x-model="selected" :class="{ 'inactive': selected.length === 3 && !selected.includes('Eclat') }">
          <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
       </div>
       <div class="container-label">
-         <input type="checkbox" id="Eclat" name="Eclat" value="Eclat" x-model="selected">
+         <input type="checkbox" id="Eclat" name="Eclat" value="Eclat" x-model="selected" :class="{ 'inactive': selected.length === 3 && !selected.includes('Eclat') }">
          <label for="Eclat">Éclat</label>
       </div>
       <div class="container-label">
-         <input type="checkbox" id="Brillance" name="Brillance" value="Brillance" x-model="selected">
+         <input type="checkbox" id="Brillance" name="Brillance" value="Brillance" x-model="selected" :class="{ 'inactive': selected.length === 3 && !selected.includes('Eclat') }">
          <label for="Brillance">Brillance</label>
       </div>
            <p class="text-center">
@@ -909,7 +909,9 @@ background:#F8C8D3;
 background:#F8C8D3;
 
 }
-
+.inactive {
+  opacity:0.5;
+}
 
 .container-step4::after  {
 
