@@ -39,7 +39,7 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.footer__list-social2 .list-social__item:first-child .link.list-social__link{
+.footer__list-social2 .list-social__item:nth-child(1){
   padding-left:18px;
 }
 
