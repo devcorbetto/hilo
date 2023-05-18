@@ -1441,6 +1441,13 @@ slider-component {    width: 80%;
     margin-right: 0px;
     margin-left: auto;
 }
+
+/* bg_pink */
+.bg_pink  {
+  background:#FBDAE2 !important;
+  
+}
+
   
 /*
 .product--thumbnail_slider .thumbnail-slider  img {
@@ -1602,3 +1609,5 @@ line-height:14px;
     justify-content: start !important;
 }
 }
+
+
