@@ -162,10 +162,11 @@
         
       <span class="quantity__button no-js-hidden" field="quantity"
     x-on:click="data2 !== 3 ? (ingrediente{{ forloop.index0 }}++; if(ingrediente{{ forloop.index0 }} > 3) ingrediente{{ forloop.index0 }} = 3) : null"
-    x-bind:class="{'disabled': data2 === 3}"
+    x-bind:class="{'disabled': data2 === 3, 'no-js-hidden': true}"
     x-bind:style="data2 === 3 ? 'pointer-events: none' : ''">
     {% render 'icon-plus' %}
 </span>
+
         </quantity-input>   
        </div>
       {% endfor %}
