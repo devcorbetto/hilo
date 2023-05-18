@@ -234,8 +234,8 @@
          {% for field in step.fields %}
          <div class="faq{{ forloop.index }}  mb-10">
             <fieldset>
-            <legend>{{ field.label }} {% if  field.text  %} <span class="text-label" x-on:click="show{{ forloop.index }} = !show{{ forloop.index }}"> {i}</span><br>
-              <small  x-show="show{{ forloop.index }}">{{ field.text }}</small>{% endif %}</legend>
+            <legend>{{ field.label }} {% if  field.text  %} <span class="text-label2" x-on:click="show{{ forloop.index }} = !show{{ forloop.index }}"> {i}</span><br>
+              <small  class="text-label"  x-show="show{{ forloop.index }}">{{ field.text }}</small>{% endif %}</legend>
             {% for option in field.options %}
             {% if field.type == "radio" %}
             <div class="container-label">
