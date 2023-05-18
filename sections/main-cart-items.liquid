@@ -344,9 +344,12 @@
                       
                <span class="description-cart">Huiles : </span>
 
-                       <ul>
+<ul>
   {%- for property in item.properties -%}
-    <li>{{ property }}</li>
+    {%- assign value = property | remove: ' ' | split: ',' -%}
+    {%- if value contains '1' or value contains '2' or value contains '3' -%}
+      <li>{{ property }}</li>
+    {%- endif -%}
   {%- endfor -%}
 </ul>
                         {%- for property in item.properties -%}
