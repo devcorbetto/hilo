@@ -261,7 +261,7 @@
          {% endfor %}
            {% case forloop.index %}
    {% when 1 %}
-     <button @click="if(formData.name && formData.gender && formData.age) { 
+   <p class="text-center">  <button @click="if(formData.name && formData.gender && formData.age) { 
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
@@ -270,7 +270,7 @@
         }
         " 
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
-              
+   </p>
    {% when 2 %}
   <button @click="
   if(formData.f21 && formData.f22 && formData.f23) {
