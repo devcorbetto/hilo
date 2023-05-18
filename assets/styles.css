@@ -1447,6 +1447,9 @@ slider-component {    width: 80%;
   background:#FBDAE2 !important;
   
 }
+.bg_pink .image-with-text__content {
+  background:transparent !important;
+}
 
   
 /*
