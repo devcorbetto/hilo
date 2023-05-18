@@ -620,6 +620,13 @@ overflow:hidden;
         {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.
       </span>
     {%- endif -%}
+
+          <div class="field">   
+  <input type="checkbox" id="newsletter" name="customer[accepts_marketing]">
+  <label for="newsletter">Je souhaite recevoir les news d'Hilo.</label>
+</div>
+
+            
     <div class="field">     
       <div class="jsondata">
         <textarea id="jsondata" name="customer[note]"  hidden x-text="JSON.stringify(jsonData)"></textarea>
