@@ -192,7 +192,7 @@
          {% if forloop.index != 1  %}
          <div class="back-container mb-20"  @click="step--;" >
             <span class="precedent">   < Précédent</span>
-           <span class="title-step"> Définissons l'état général de votre peau...</span>
+           <span class="title-step"> {{ step.title }}</span>
          </div>
          {% endif %}
          {% if forloop.index == 4  %}
