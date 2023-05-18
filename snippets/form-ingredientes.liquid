@@ -144,12 +144,14 @@
        <span class="ingrediente-caption ">{{ ingrediente.caption }}</span>  <br>   
         <quantity-input class="quantity ingrediente{{ forloop.index0 }} pt-8" >
         
-<span class="quantity__button no-js-hidden" field="quantity"
+<span class="quantity__button no-js-hidden disabled"
+    field="quantity"
     x-on:click="if (ingrediente{{ forloop.index0 }} > 0) { ingrediente{{ forloop.index0 }}--; }"
-    x-bind:class="{'disabled': ingrediente{{ forloop.index0 }} === 0}"
+    x-bind:class="{'disabled': ingrediente{{ forloop.index0 }} === 0, 'enable': ingrediente{{ forloop.index0 }} > 0}"
     x-bind:style="{'pointer-events': ingrediente{{ forloop.index0 }} === 0 ? 'none' : ''}">
     {% render 'icon-minus' %}
 </span>
+
 
 
         <input x-model="ingrediente{{ forloop.index0 }}"
