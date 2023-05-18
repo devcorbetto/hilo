@@ -161,8 +161,9 @@
           
         
         <span  class='quantity__button no-js-hidden' field='quantity'
-        x-on:click="ingrediente{{ forloop.index0 }}++;if(ingrediente{{ forloop.index0 }} > 3){ingrediente{{ forloop.index0 }} = 3;} ;">
-          :disabled="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;} ;"    
+        x-on:click="ingrediente{{ forloop.index0 }}++;if(ingrediente{{ forloop.index0 }} > 3){ingrediente{{ forloop.index0 }} = 3;} ;"
+            :disabled="disable;if(data2 == 3){disable = false ;} ;if(data2 != 3){disable = true;} ;"    >
+        
         {% render 'icon-plus' %}
         </span>
         </quantity-input>   
