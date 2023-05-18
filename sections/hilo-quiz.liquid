@@ -223,10 +223,12 @@
          <input type="checkbox" id="Brillance" name="Brillance" value="Brillance" x-model="selected">
          <label for="Brillance">Brillance</label>
       </div>
+           <p class="text-center;">
 <button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" class="text-white font-bold py-2 px-4 rounded">
    Valider
 </button>
 
+           </p>
 
 
  
@@ -269,7 +271,7 @@
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
    </p>
    {% when 2 %}
-  <button @click="
+ <p class="text-center;"> <button @click="
   if(formData.f21 && formData.f22 && formData.f23) {
     if({{ seche2 }}) {
       formData.peau = 'seche';
@@ -288,12 +290,13 @@
     alert('Por favor complete todos los campos requeridos');
   }
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
-<br>
+ </p>
             
 
 
    {% when 3 %}
-<button @click="
+<p class="text-center;">
+             <button @click="
   if(formData.f31 && formData.f32 && formData.f33) {
     if({{ nodeshy }}) {
       formData.deshy = 'nodeshy';
@@ -305,13 +308,14 @@
     alert('Por favor complete todos los campos requeridos');
   }
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
-
+</p>
    {% when 4 %}
-    <button @click="if(selected.length >= 1 && selected.length <= 3) step++; else alert('Veuillez sélectionner au moins une option.');" 
+ <p class="text-center;">   <button @click="if(selected.length >= 1 && selected.length <= 3) step++; else alert('Veuillez sélectionner au moins une option.');" 
                class=" text-white font-bold py-2 px-4 rounded">
                Valider</button>
-
+ </p>
    {% when 5 %}
+             <p class="text-center;">
         <button @click="
   if(formData.peau && formData.madure && formData.deshy) {
     if(formData.peau === 'seche') {
@@ -411,9 +415,9 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
 
 
 " class="text-white font-bold py-2 px-4 rounded">Valider</button>
-
+             </p>
    {% else %}
-    <button @click="step++ " class="text-white font-bold py-2 px-4 rounded">Valider</button>
+   <p class="text-center;"> <button @click="step++ " class="text-white font-bold py-2 px-4 rounded">Valider</button></p>
 
 {% endcase %}
 
