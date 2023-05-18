@@ -344,8 +344,13 @@
                       
                <span class="description-cart">Huiles : </span>
                      
-
-
+{% comment %}
+<ul>
+  {%- for key in item.properties -%}
+    <li>{{ key }}</li>
+  {%- endfor -%}
+</ul>
+<hr>
      
 {%- for property in item.properties -%}
 
@@ -357,6 +362,7 @@
   {%- endif -%}
 {%- endfor -%}
 <hr>
+                      {% endcomment %}
                  {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
