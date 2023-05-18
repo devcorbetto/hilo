@@ -229,9 +229,7 @@
                         </div>
                 
                       <div class="item-ingredientes">
-                           {%- for property in item.properties -%}    
-                             {{ property}}
-                             {% endfor %}
+                      
                       {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
@@ -255,6 +253,10 @@
                             </span>
                           {%- endif -%}
                         {%- endfor -%}
+
+                           {%- for property2 in item.properties -%}    
+                             {{ property2}}
+                             {% endfor %}
                       </div>
                     {% endif %}
                   </td>
