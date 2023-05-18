@@ -76,7 +76,8 @@
 
 <div class="page-width"
    x-data="{ 
-  show: false,
+  show1: false,
+    show2: false,
    jsondiagnostics: {{ diagnostics }},
    customerId: '{{ customer.id }}',
    formData: {  
@@ -232,8 +233,8 @@
          {% for field in step.fields %}
          <div class="faq{{ forloop.index }}  mb-10">
             <fieldset>
-            <legend>{{ field.label }} {% if  field.text  %} <span x-on:click="show = true"> {i}</span><br>
-              <small  x-show="show">{{ field.text }}</small>{% endif %}</legend>
+            <legend>{{ field.label }} {% if  field.text  %} <span x-on:click="show{{ forloop.index }} = true"> {i}</span><br>
+              <small  x-show="show{{ forloop.index }}">{{ field.text }}</small>{% endif %}</legend>
             {% for option in field.options %}
             {% if field.type == "radio" %}
             <div class="container-label">
