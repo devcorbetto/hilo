@@ -81,7 +81,7 @@
         "template--18831072788775__71e93538-2546-4cff-8f24-73b5ced6ce3b-1684126867b8f07f17-1": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "bg_subtitle",
             "text": "<p>N’oubliez pas que pour avoir une peau saine et belle, les soins que vous appliquez sur votre visage ne font pas tout. Hilo vous livre ces quelques Tips à appliquer au quotidien pour illuminer votre peau.<\/p>"
           }
         }
@@ -94,7 +94,7 @@
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
