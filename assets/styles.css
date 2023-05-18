@@ -1447,9 +1447,12 @@ slider-component {    width: 80%;
   background:#FBDAE2 !important;
   
 }
-.bg_pink .image-with-text__content {
+.bg_pink .image-with-text__content, .bg_pink .image-with-text__media  {
   background:transparent !important;
 }
+ .bg_pink .image-with-text__media  img {
+   border-radius:100%;
+ }
 
   
 /*
