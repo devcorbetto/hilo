@@ -347,15 +347,7 @@
 <ul>
   {%- for property in item.properties -%}
       <li>{{ property }} - {{ property.value }}</li>
-{% if  property contains '1' %}
-      <li>{{ property }} - {{ property.value }}</li>
-{% endif %}
-    {% if  property contains '2' %}
-      <li>{{ property }} - {{ property.value }}</li>
-{% endif %}
-    {% if  property contains '3' %}
-      <li>{{ property }} - {{ property.value }}</li>
-{% endif %}
+
   {%- endfor -%}
 </ul>
                         {%- for property in item.properties -%}
