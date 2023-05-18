@@ -17,6 +17,10 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
+    .icon_close svg {
+      height:32px;
+      width:32px;
+    }
     .overlay-container h2{
       font-size:32px
     }
@@ -334,7 +338,7 @@
      <div class="overlay">
       <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false" style="display:none;">
             
-                <div class="waves2a"><h2>CHOISISSEZ VOS HUILES VEGETALES</h2>  <div class="" style="display:none; position:absolute; right:5px; top:5px;"
+                <div class="waves2a"><h2>CHOISISSEZ VOS HUILES VEGETALES</h2>  <div class="icon_close" style="display:none; position:absolute; right:5px; top:5px;"
             @click="open= false" > {% render 'icon-close' %}</div>
       <p>Indécis ? N'hésitez pas à réaliser votre diagnostic de peau afin de trouver les<br> huiles parfaites pour personnaliser votre base de crème.</p>
       <a class="button">Je réalise mon diagnostic</a>
