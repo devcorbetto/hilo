@@ -148,6 +148,54 @@
         "padding_bottom": 36
       }
     },
+    "3ede040a-d32b-44d3-9ee5-fc364526c869": {
+      "type": "rich-text-account",
+      "blocks": {
+        "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p><a href=\"\/pages\/contact\" title=\"Contact\">*A noter v<\/a><\/p>"
+          }
+        },
+        "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-0",
+        "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-1",
+        "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "e910de4b-1279-474d-b99b-89d3f5776234": {
       "type": "multicolumn-svg",
       "blocks": {
@@ -220,6 +268,7 @@
     "8228ae76-dca8-4641-bd7b-8f7eb5ca5448",
     "71e93538-2546-4cff-8f24-73b5ced6ce3b",
     "1e473254-c1b2-405f-8ed6-a20bc3d453ec",
+    "3ede040a-d32b-44d3-9ee5-fc364526c869",
     "e910de4b-1279-474d-b99b-89d3f5776234"
   ]
 }
