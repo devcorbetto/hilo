@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.footer__list-social2 .list-social__item:first-child .link.list-social__link{
+  padding-left:18px;
+}
+
 
 .shopify-policy__title{
   margin-bottom:50px;
