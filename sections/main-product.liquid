@@ -334,7 +334,8 @@
      <div class="overlay">
       <div x-show="open" class="modal open duration-300 ease-in" @click.away="open= false" style="display:none;">
             
-                <div class="waves2a"><h2>CHOISISSEZ VOS HUILES VEGETALES</h2>  <div class="" @click.away="open= false" > {% render 'icon-close' %}</div>
+                <div class="waves2a"><h2>CHOISISSEZ VOS HUILES VEGETALES</h2>  <div class="" style="display:none; position:absolute; right:5px; top:5px;"
+            @click.away="open= false" > {% render 'icon-close' %}</div>
       <p>Indécis ? N'hésitez pas à réaliser votre diagnostic de peau afin de trouver les<br> huiles parfaites pour personnaliser votre base de crème.</p>
       <a class="button">Je réalise mon diagnostic</a>
     
