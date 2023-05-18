@@ -232,7 +232,7 @@
          {% for field in step.fields %}
          <div class="faq{{ forloop.index }}  mb-10">
             <fieldset>
-            <legend>{{ field.label }} {% if  field.text  %} {{ field.text }} {% endif %}</legend>
+            <legend>{{ field.label }} {% if  field.text  %} {i} {% endif %}</legend>
             {% for option in field.options %}
             {% if field.type == "radio" %}
             <div class="container-label">
