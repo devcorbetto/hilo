@@ -135,7 +135,9 @@
       {%- endfor -%}
     </div>
     <div class="container-right">
+    {% if section.settings.imageright %}
       <img src="{{ section.settings.imageright | image_url: width:'470px'  }}" class="imagenproduct">
+    {% endif %}
       <img src="{{ section.settings.imageicon | img_url  }}" class="imageicon">
       <p>{{ section.settings.textafter}}</p>
     </div>
