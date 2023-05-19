@@ -102,7 +102,7 @@
       }
     },
     "1e473254-c1b2-405f-8ed6-a20bc3d453ec": {
-      "type": "image-with-text",
+      "type": "image-with-text-result",
       "blocks": {
         "template--18831072788775__1e473254-c1b2-405f-8ed6-a20bc3d453ec-16841269575ded5e2a-0": {
           "type": "heading",
