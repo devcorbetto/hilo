@@ -150,6 +150,7 @@
     },
     "3ede040a-d32b-44d3-9ee5-fc364526c869": {
       "type": "rich-text-account",
+      "disabled": true,
       "blocks": {
         "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-0": {
           "type": "heading",
