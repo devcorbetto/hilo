@@ -76,7 +76,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
 </div>
                                   
     <div class="two-columns page-width mb-20 flex gap-x-40 mt-20" style="margin-bottom:40px;">
-      <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
+      <div class="one-column2  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
         <h3 class="text-center">          VOS TENDANCES DE PEAU<br> DU MOMENT        </h3>
         <p>  {% if diagnostics.peau == 'seche' %}
           {{ seche }}
@@ -109,7 +109,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
            </p>
       </div>
       <div class="one-column flex-1 "  style="align-items: center;">
-        <div class="border-2  result  rounded-sm border-teal-600 bg-teal-300 p-10 ">
+        <div class="one-column-style border-2  result  rounded-sm border-teal-600 bg-teal-300 p-10 ">
         <h3 class="text-center">VOTRE MATCH PARFAIT <br>DU MOMENT</h3>
         <p class="text-center small-font" >Ces huiles végétales sont connues pour les propriétés<br> suivantes* :</p>
 
@@ -438,12 +438,18 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
           margin-right:auto;
           margin-left:auto;
         }
-  .one-column  {
+  .one-column2  {
     background:#FEF4EC;
     border:2px solid #FBD1AD;
     border-radius:26px;
     color:#575756;
   }
+        .one-column-style {
+           background:#FEF4EC;
+    border:2px solid #FBD1AD;
+    border-radius:26px;
+    color:#575756;
+        }
    .one-column h3 {
    font-weight:700;
      font-size:24px;
