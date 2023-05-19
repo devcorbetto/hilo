@@ -40,7 +40,7 @@ section newsletter section-news
 */
 
 .field__input, .customer .field input{
-  padding:15px;
+  padding:15px!important;
 }
 
 .no-rotate{
