@@ -58,7 +58,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "codeliquid": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 46.76 69.03\"><defs><style>.cls-1,.cls-2{stroke:#f9b363;}.cls-1,.cls-2,.cls-3{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-2{stroke-width:2px;}.cls-3{stroke:#f59f3c;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m4.75,9.24c.85,1.03,1.62.73,2.43.08-.61,1.01-.51,1.76.67,2.29-1.11-.14-1.84.12-2.02,1.34-.11-1.19-.7-1.66-1.91-1.42,1.06-.48,1.43-1.15.83-2.29Z\"><\/path><path class=\"cls-3\" d=\"m10.42,3.72c.66.8,1.26.57,1.9.06-.47.78-.4,1.37.52,1.78-.87-.11-1.44.09-1.57,1.04-.08-.93-.54-1.29-1.49-1.11.83-.37,1.11-.9.64-1.78Z\"><\/path><path class=\"cls-3\" d=\"m1.63.5c1.17,1.41,2.22,1,3.34.11-.83,1.38-.7,2.41.92,3.14-1.52-.19-2.53.16-2.77,1.84-.15-1.64-.96-2.27-2.62-1.95,1.46-.65,1.96-1.58,1.13-3.14Z\"><\/path><path class=\"cls-2\" d=\"m43.17,68.03c-.97,0-1.79-.38-2.27-1.26-1.67-3.05-15.85-29.38-19.55-36.2-3.13-5.76-6.24-11.52-9.39-17.27-.44-.81-.12-1.71.5-2.03.74-.38,1.49-.14,1.98.68,2.88,4.87,5.77,9.74,8.66,14.61,2.93,4.93,5.86,9.86,8.78,14.79,1.6,2.7,11.25,18.95,13.47,22.62,1.14,1.89-.22,4.07-2.17,4.05Z\"><\/path><line class=\"cls-2\" x1=\"35.39\" y1=\"55.78\" x2=\"38.95\" y2=\"53.8\"><\/line><\/g><\/svg>",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 46.76 69.03\"><defs><style>.cls-1,.cls-2{stroke:#f9b363;}.cls-1,.cls-2,.cls-3{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-2{stroke-width:2px;}.cls-3{stroke:#f59f3c;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m4.75,9.24c.85,1.03,1.62.73,2.43.08-.61,1.01-.51,1.76.67,2.29-1.11-.14-1.84.12-2.02,1.34-.11-1.19-.7-1.66-1.91-1.42,1.06-.48,1.43-1.15.83-2.29Z\"><\/path><path class=\"cls-3\" d=\"m10.42,3.72c.66.8,1.26.57,1.9.06-.47.78-.4,1.37.52,1.78-.87-.11-1.44.09-1.57,1.04-.08-.93-.54-1.29-1.49-1.11.83-.37,1.11-.9.64-1.78Z\"><\/path><path class=\"cls-3\" d=\"m1.63.5c1.17,1.41,2.22,1,3.34.11-.83,1.38-.7,2.41.92,3.14-1.52-.19-2.53.16-2.77,1.84-.15-1.64-.96-2.27-2.62-1.95,1.46-.65,1.96-1.58,1.13-3.14Z\"><\/path><path class=\"cls-2\" d=\"m43.17,68.03c-.97,0-1.79-.38-2.27-1.26-1.67-3.05-15.85-29.38-19.55-36.2-3.13-5.76-6.24-11.52-9.39-17.27-.44-.81-.12-1.71.5-2.03.74-.38,1.49-.14,1.98.68,2.88,4.87,5.77,9.74,8.66,14.61,2.93,4.93,5.86,9.86,8.78,14.79,1.6,2.7,11.25,18.95,13.47,22.62,1.14,1.89-.22,4.07-2.17,4.05Z\"><\/path><line class=\"cls-2\" x1=\"35.39\" y1=\"55.78\" x2=\"38.95\" y2=\"53.8\"><\/line><\/g><\/svg>",
             "title": "Personnalisé",
             "subtitle": "",
             "text": "",
@@ -283,7 +283,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Actif_huile_d_argan_f7640d1c-b21c-42fd-ac0a-d60ca503bb53.svg",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-argan.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan.png",
             "title": "Huile <br>d'argan",
             "text": "<p>Anti-âge<\/p>",
@@ -295,7 +295,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Actif_huile_d_abricot_61fb0fab-8279-4d1b-8947-34856ebc9bf0.svg",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-abricot.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot.png",
             "title": "Huile <br>d'abricot",
             "text": "<p>Illuminante<\/p>",
@@ -307,7 +307,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Actif_huile_de_noisette.svg",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-noisette.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette.png",
             "title": "Huile de<br> noisette",
             "text": "<p>Anti-imperfections<\/p>",
@@ -319,7 +319,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-noisette_1.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce.png",
             "title": "Huile d'amande<br> douce",
             "text": "<p>Apaisante<\/p>",
@@ -331,7 +331,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Actif_huile_d_onagre_02bc9345-dce9-40d5-ab4f-23d240198aa5.svg",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-onagre.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre.png",
             "title": "Huile <br>d'onagre",
             "text": "<p>Hydratante<\/p>",
