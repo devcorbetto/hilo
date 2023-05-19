@@ -118,9 +118,9 @@
         "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Tous les ingrédients d'origine animal",
+            "heading": "Tous les ingrédients d'origine animale",
             "icon": "none",
-            "row_content": "<p>Chez Hilo, <strong>les animaux, c’est une histoire d’amour<\/strong>. Si vous suivez nos aventures sur les réseaux sociaux, vous savez à quel point il est important pour nous de les protéger.<\/p><p>Aussi, nous n’utilisons <strong>aucune matière première animale<\/strong> dans nos formules. Aucun produit Hilo n’est testé sur les animaux, conformément à la réglementation européenne.<\/p>",
+            "row_content": "<p>Hilo et <strong>les animaux, c’est une histoire d’amour<\/strong>. Si vous suivez nos aventures sur les réseaux sociaux, vous savez à quel point il est important pour nous de les protéger.<\/p><p>Aussi, nous n’utilisons <strong>aucune matière première animale<\/strong> dans nos formules. Aucun produit Hilo n’est testé sur les animaux, conformément à la réglementation européenne.<\/p>",
             "page": ""
           }
         },
