@@ -43,7 +43,7 @@ section newsletter section-news
   padding:15px!important;
 }
 
-.contact__fields .field__input, .customer .field input{
+.contact__fields .field__input, .customer .field input, #ContactForm .field input{
   padding:2.2rem 1.5rem 0.8rem 2rem!important;
 }
 
