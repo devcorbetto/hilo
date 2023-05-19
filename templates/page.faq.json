@@ -317,7 +317,7 @@
           "settings": {
             "heading": "Comment puis-je vous contacter ?",
             "icon": "none",
-            "row_content": "<p>Un formulaire de contact en ligne est à votre disposition pour toutes vos questions, avis,<br\/>suggestions ou petits mots d’amour. Vous pouvez également nous écrire directement à<br\/>l’adresse contact@hilocosmetiques.fr. La team vous répondra le plus vite possible !<\/p>",
+            "row_content": "<p>Un <a href=\"\/pages\/contact\" title=\"Contact\">formulaire de contact<\/a> en ligne est à votre disposition pour toutes vos questions, avis, suggestions ou petits mots d’amour. Vous pouvez également nous écrire directement à l’adresse <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a>. La team vous répondra le plus vite possible !<\/p>",
             "page": ""
           }
         },
