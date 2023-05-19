@@ -276,7 +276,7 @@
           "settings": {
             "heading": "Quels sont les moyens de paiement disponibles ?",
             "icon": "none",
-            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire, via Paypal ou Apple Pay\/Google<br\/>Pay.<\/p>",
+            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire, via Paypal ou Apple Pay.<\/p>",
             "page": ""
           }
         },
