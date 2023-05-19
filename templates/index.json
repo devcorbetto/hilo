@@ -41,7 +41,7 @@
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
