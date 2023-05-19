@@ -218,7 +218,7 @@
             "image": "shopify:\/\/shop_images\/Hilo-la-team-Elise.jpg",
             "title": "Elise 🏃‍♀",
             "subtitle": "Co-fondatrice",
-            "text": "<p>Son match du moment : Onagre, Argan et Noyaux d'abricot<\/p>",
+            "text": "<p>Son match du moment : Onagre, Onagre et Carotte<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -228,9 +228,9 @@
           "settings": {
             "customcss": "border-color2",
             "image": "shopify:\/\/shop_images\/Hilo-la-team-Margaux.jpg",
-            "title": "Margaux 🤿",
+            "title": "Margaux 🎨",
             "subtitle": "Co-Fondatrice",
-            "text": "<p>Son match du moment : Carotte, onagre et amande douce<\/p>",
+            "text": "<p>Son match du moment : Abricot, Carotte et Argan<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -240,9 +240,9 @@
           "settings": {
             "customcss": "border-color3",
             "image": "shopify:\/\/shop_images\/Hilo-la-team-Leo.jpg",
-            "title": "Léo🌻",
+            "title": "Léo ☀️",
             "subtitle": "Communication",
-            "text": "<p>Son match du moment : Amande douce, abricot et noisette<\/p>",
+            "text": "<p>Son match du moment : Noisette, Amande douce et Onagre<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -254,7 +254,7 @@
             "image": "shopify:\/\/shop_images\/Hilo-la-team-Ana.jpg",
             "title": "Anaëlle 🧘‍♀️",
             "subtitle": "Marketing",
-            "text": "<p>Son match du moment : Noisette, argan et onagre<\/p>",
+            "text": "<p>Son match du moment : Carotte, Noisette et Argan<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -271,7 +271,7 @@
       ],
       "settings": {
         "customcss": "images-team",
-        "title": "LA TEAM",
+        "title": "LA TEAM HILO",
         "subtitle": "",
         "heading_size": "h1",
         "image_width": "full",
