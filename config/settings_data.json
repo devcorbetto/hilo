@@ -114,7 +114,7 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "#",
+    "social_twitter_link": "",
     "social_facebook_link": "#",
     "social_pinterest_link": "#",
     "social_instagram_link": "#",
@@ -198,7 +198,7 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "REJOIGNEZ NOUS",
+              "heading": "REJOIGNEZ-NOUS",
               "subtext": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Contactez-nous<\/a><\/p>",
               "imagelogo": "shopify:\/\/shop_images\/Logo_blanc.svg"
             }
