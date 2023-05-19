@@ -123,7 +123,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
       margin-top:20px;
     }
   .row-ingredientes img {
-    width:32px;
+    width:64px;
     margin:30px auto;
    
   }
@@ -418,7 +418,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 {% endif %}
 
                                   
-<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:32px;">
+<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:64px;">
                                 <div class="container-color"> 
                                 {% if diagnostic_ing1 == 'Amande' %}
  {{ amande }}
@@ -458,7 +458,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
         {% assign ing2_image = diagnostic_ing2 | append: '2.svg' | downcase %}  
 {% endif %}
                                   
-<img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
+<img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:64px;">
                                 
                                    <div class="container-color">
                                   {% if diagnostic_ing2 == 'Amande' %}
@@ -499,7 +499,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
         {% assign ing3_image = diagnostic_ing3 | append: '2.svg' | downcase %}  
 {% endif %}
                                   
-                                  <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
+                                  <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:64px;">
                                      
                                      <div class="container-color">
                                   {% if diagnostic_ing3 == 'Amande' %}
