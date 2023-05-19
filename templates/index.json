@@ -272,7 +272,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_carotte_df45e5b7-7abc-4cac-87bd-f9371df5ddfe.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Capsule_Orange.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte.png",
             "title": "Huile de<br> carotte",
             "text": "<p>Bonne mine<\/p>",
             "link_label": "",
@@ -284,7 +284,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_argan_f7640d1c-b21c-42fd-ac0a-d60ca503bb53.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Capsule_Violet.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan.png",
             "title": "Huile <br>d'argan",
             "text": "<p>Anti-âge<\/p>",
             "link_label": "",
@@ -296,7 +296,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_abricot_61fb0fab-8279-4d1b-8947-34856ebc9bf0.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Capsule_Rose.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot.png",
             "title": "Huile <br>d'abricot",
             "text": "<p>Illuminante<\/p>",
             "link_label": "",
@@ -308,7 +308,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_de_noisette.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Capsule_Bleu.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette.png",
             "title": "Huile de<br> noisette",
             "text": "<p>Anti-imperfections<\/p>",
             "link_label": "",
@@ -320,7 +320,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_amande_douce_a87cce39-f21d-432e-92da-480d16bed69d.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Capsule_Vert.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce.png",
             "title": "Huile d'amande<br> douce",
             "text": "<p>Apaisante<\/p>",
             "link_label": "",
@@ -332,7 +332,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Actif_huile_d_onagre_02bc9345-dce9-40d5-ab4f-23d240198aa5.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Capsule_Jaune.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre.png",
             "title": "Huile <br>d'onagre",
             "text": "<p>Hydratante<\/p>",
             "link_label": "",
