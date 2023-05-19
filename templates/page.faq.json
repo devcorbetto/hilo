@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Comment savoir quels actifs choisir pour personnaliser mes soins ?",
             "icon": "none",
-            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un diagnostic en ligne pour vous aider à<br\/>déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
+            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un diagnostic en ligne pour vous aider à déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
             "page": ""
           }
         },
@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Les produits sont-ils adaptés aux hommes ?",
             "icon": "none",
-            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont<br\/>adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète !<\/p>",
+            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète  <\/p>",
             "page": ""
           }
         },
@@ -90,7 +90,7 @@
           "settings": {
             "heading": "Les produits sont-ils vegan ?",
             "icon": "none",
-            "row_content": "<p>Oui, nos cosmétiques sont 100% vegan et aucun de nos ingrédients ne contient de matières<br\/>d’origine animale. Nos produits ne sont également jamais testés sur les animaux comme<br\/>l’exige la réglementation européenne.<\/p>",
+            "row_content": "<p>Oui, nos cosmétiques sont 100% vegan et aucun de nos ingrédients ne contient de matières d’origine animale. Nos produits ne sont également jamais testés sur les animaux comme l’exige la réglementation européenne.<\/p>",
             "page": ""
           }
         },
@@ -99,7 +99,7 @@
           "settings": {
             "heading": "Les produits sont-ils naturels ?",
             "icon": "none",
-            "row_content": "<p>Oui nos produits sont formulés avec des ingrédients d’origine naturelle. Les bases de soins<br\/>sont neutres et naturels à plus de 99%. Les actifs étant des huiles végétales, ils sont 100%<br\/>naturels.<br\/><\/p>",
+            "row_content": "<p>Oui nos produits sont formulés avec des ingrédients d’origine naturelle. Les bases de soins sont neutres et naturels à plus de 99%. Les actifs étant des huiles végétales, ils sont 100% naturels.<br\/><\/p>",
             "page": ""
           }
         },
@@ -108,7 +108,7 @@
           "settings": {
             "heading": "Combien de temps peuvent se conserver les produits Hilo ?",
             "icon": "none",
-            "row_content": "<p>La base de crème Hilo se conserve 6 mois après ouverture de l’opercule et 3 ans avant<br\/>ouverture.<br\/>Les capsules d’actifs non ouvertes se conservent 3 ans.<\/p><p><br\/>Votre base de crème et vos capsules sont à conserver dans un endroit sec, tempéré (entre<br\/>15 et 20°C) et à l’abri de la lumière.<br\/><\/p>",
+            "row_content": "<p>La base de crème Hilo se conserve 6 mois après ouverture de l’opercule et 3 ans avant ouverture.<br\/>Les capsules d’actifs non ouvertes se conservent 3 ans.<\/p><p>Votre base de crème et vos capsules sont à conserver dans un endroit sec, tempéré (entre 15 et 20°C) et à l’abri de la lumière.<br\/><\/p>",
             "page": ""
           }
         },
@@ -117,7 +117,7 @@
           "settings": {
             "heading": "Où puis-je trouver les produits Hilo ?",
             "icon": "none",
-            "row_content": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne.<\/p><p>La Team Hilo travaille dur pour créer de nouveaux partenariats et vous proposer très bientôt<br\/>des points de ventes près de chez vous !<\/p>",
+            "row_content": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne.<\/p><p>La Team Hilo travaille dur pour créer de nouveaux partenariats et vous proposer très bientôt des points de ventes près de chez vous !<\/p>",
             "page": ""
           }
         },
@@ -126,7 +126,7 @@
           "settings": {
             "heading": "Quel est le prochain produit Hilo à sortir ?",
             "icon": "none",
-            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous<br\/>nos prochaines pépites.<\/p><p><br\/>Pour être informé de toutes nos campagnes ambassadeur, nous vous invitons à vous<br\/>abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
+            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous nos prochaines pépites.<\/p><p><br\/>Pour être informé de toutes nos campagnes ambassadeur, nous vous invitons à vous abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
             "page": ""
           }
         },
@@ -144,7 +144,7 @@
           "settings": {
             "heading": "Je souhaite offrir un soin personnalisé Hilo, comment faire ?",
             "icon": "none",
-            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une <a href=\"#\" title=\"#\">carte cadeau Hilo.<\/a><\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin<br\/>directement sur notre site internet.<br\/><\/p>",
+            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une <a href=\"#\" title=\"#\">carte cadeau Hilo.<\/a><\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin directement sur notre site internet.<br\/><\/p>",
             "page": ""
           }
         }
@@ -183,7 +183,7 @@
           "settings": {
             "heading": "Quels sont les délais de livraison ?",
             "icon": "none",
-            "row_content": "<p>Les commandes sont livrées en 5 à 7 jours ouvrés en France métropolitaine.<\/p>",
+            "row_content": "<p>Les commandes sont livrées en 5 à 7 jours ouvrés en France métropolitaine<\/p>",
             "page": ""
           }
         },
@@ -210,7 +210,7 @@
           "settings": {
             "heading": "Puis-je modifier l'adresse de livraison ?",
             "icon": "none",
-            "row_content": "<p>Si vous avez fait une erreur lors de votre commande, il est peut-être encore temps de la<br\/>modifier. Envoyez-nous un mail à <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a> afin de nous en informer au<br\/>plus vite. En revanche, si la commande a déjà été traitée, nous ne pourrons plus la modifier.<\/p>",
+            "row_content": "<p>Si vous avez fait une erreur lors de votre commande, il est peut-être encore temps de la modifier. Envoyez-nous un mail à <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a> afin de nous en informer au plus vite. En revanche, si la commande a déjà été traitée, nous ne pourrons plus la modifier.<\/p>",
             "page": ""
           }
         },
@@ -258,7 +258,7 @@
           "settings": {
             "heading": "Comment puis-je suivre mon colis ?",
             "icon": "none",
-            "row_content": "<p>Une fois la commande préparée par nos soins, vous recevrez un e-mail de confirmation<br\/>d’expédition. Vous trouverez dans cet e-mail, un numéro de suivi qui vous permettra de<br\/>suivre votre colis sur le site du transporteur.<\/p>",
+            "row_content": "<p>Une fois la commande préparée par nos soins, vous recevrez un e-mail de confirmation d’expédition. Vous trouverez dans cet e-mail, un numéro de suivi qui vous permettra de suivre votre colis sur le site du transporteur.<\/p>",
             "page": ""
           }
         },
@@ -267,7 +267,7 @@
           "settings": {
             "heading": "Le paiement est-il sécurisé ?",
             "icon": "none",
-            "row_content": "<p>Bien sûr ! Toutes vos coordonnées bancaires sont cryptées et les transactions sont donc<br\/>sécurisées.<\/p>",
+            "row_content": "<p>Bien sûr ! Toutes vos coordonnées bancaires sont cryptées et les transactions sont donc sécurisées.<\/p>",
             "page": ""
           }
         },
@@ -285,7 +285,7 @@
           "settings": {
             "heading": "Quelles sont les modalités de retour ?",
             "icon": "none",
-            "row_content": "<p>Vous avez 14 jours à compter de la réception de votre commande pour nous retourner des<br\/>produits. Contactez votre Customer Happines Manager en indiquant votre numéro de<br\/>commande pour savoir comment procéder. Vous pouvez également envoyer votre demande<br\/>à <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a>. Les produits doivent être intacts, non-ouverts et non-utilisés<br\/>pour être remboursés. Ces derniers seront remboursés sur la carte utilisée pour le paiement.<br\/>Les retours sont à la charge du client.<\/p>",
+            "row_content": "<p>Vous avez 14 jours à compter de la réception de votre commande pour nous retourner des produits. Contactez votre Customer Happines Manager en indiquant votre numéro de commande pour savoir comment procéder. Vous pouvez également envoyer votre demande à <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a>. Les produits doivent être intacts, non-ouverts et non-utilisés pour être remboursés. Ces derniers seront remboursés sur la carte utilisée pour le paiement. Les retours sont à la charge du client.<\/p>",
             "page": ""
           }
         }
@@ -336,7 +336,7 @@
           "settings": {
             "heading": "Comment puis-je suivre les actualités d’Hilo?",
             "icon": "none",
-            "row_content": "<p>Pour rejoindre l’aventure et ne rien louper des actualités d’Hilo, vous pouvez vous inscrire à<br\/>notre newsletter directement sur la page d’accueil du site. Suivez-nous également sur nos<br\/>réseaux sociaux : instagram, facebook, pinterest et linkedIn<\/p>",
+            "row_content": "<p>Pour rejoindre l’aventure et ne rien louper des actualités d’Hilo, vous pouvez vous inscrire à notre newsletter directement sur la page d’accueil du site. Suivez-nous également sur nos réseaux sociaux : <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">Instagram<\/a>, <a href=\"https:\/\/www.facebook.com\/hilo.fr\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/hilo.fr\">Facebook<\/a>, <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">TikTok<\/a> et <a href=\"https:\/\/www.linkedin.com\/company\/hilo-cosm%C3%A9tiques\/\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/company\/hilo-cosm%C3%A9tiques\/\">LinkedIn<\/a><\/p>",
             "page": ""
           }
         },
