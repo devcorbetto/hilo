@@ -77,7 +77,18 @@
           </li>
            {% else %}
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
-            {% render 'card-product',
+            {% if forloop.index == 1%}
+           1. Hydrater 
+
+
+             {% endif %}
+             {% if forloop.index == 2%}
+            2. Renforcer
+             {% endif %}
+             {% if forloop.index == 3%}
+             3. Nettoyer
+             {% endif %}
+             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
