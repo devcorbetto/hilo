@@ -155,7 +155,7 @@
             </a>
           </h3>
     <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
-    <p class="card_description">{{  card_product.metafields.custom.card_description }}</p>
+    <p class="card_description">{% if text-for-result %} {{  card_product.metafields.custom.text_for_result }} {% else %}{{  card_product.metafields.custom.card_description }}{% endif %}</p>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
