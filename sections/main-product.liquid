@@ -28,6 +28,11 @@
       padding: 5px 18px;
       letter-spacing:0  
     }
+
+    .corner-top {
+        transform: rotate(-90deg);
+            filter: brightness(0) invert(1);
+    }
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
