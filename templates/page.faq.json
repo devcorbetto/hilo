@@ -192,7 +192,7 @@
           "settings": {
             "heading": "Puis-je être livré en dehors de la France métropolitaine ?",
             "icon": "none",
-            "row_content": "<p>Nous livrons actuellement en France (métropole et DOM TOM), Belgique et Suisse. Les frais<br\/>de port varient selon votre emplacement.<br\/><\/p>",
+            "row_content": "<p>Nous livrons actuellement uniquement en France Métropolitaine.<br\/><\/p>",
             "page": ""
           }
         },
