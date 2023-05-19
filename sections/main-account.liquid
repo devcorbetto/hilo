@@ -389,21 +389,21 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
  {% if diagnostic_ing1 == '' %}  
 
 {% if diagnostic.ing1 == 'Amande' %}
-  {% assign ing1_image = 'amande.png' %}
+  {% assign ing1_image = 'amande2.png' %}
 {% elsif diagnostic.ing1 == 'Onagre' %}
-  {% assign ing1_image = 'onagre.png' %}
+  {% assign ing1_image = 'onagre2.png' %}
 {% elsif diagnostic.ing1 == 'Argan' %}
-  {% assign ing1_image = 'argan.png' %}
+  {% assign ing1_image = 'argan2.png' %}
 {% elsif diagnostic.ing1 == 'Abricot' %}
-  {% assign ing1_image = 'abricot.png' %}
+  {% assign ing1_image = 'abricot2.png' %}
 {% elsif diagnostic.ing1 == 'Noisette' %}
-  {% assign ing1_image = 'noisette.png' %}
+  {% assign ing1_image = 'noisette2.png' %}
 {% else %}
-  {% assign ing1_image = 'carotte.png' %}
+  {% assign ing1_image = 'carotte2.png' %}
 {% endif %}
    
      {% else %}   
-        {% assign ing1_image = diagnostic_ing1 | append: '.png' | downcase %}  
+        {% assign ing1_image = diagnostic_ing1 | append: '2.png' | downcase %}  
 {% endif %}
 
                                   
@@ -430,21 +430,21 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 
  {% if diagnostic_ing2 == '' %}                                        
      {% if diagnostic.ing2 == 'Amande' %}
-  {% assign ing2_image = 'amande.png' %}
+  {% assign ing2_image = 'amande2.png' %}
 {% elsif diagnostic.ing2 == 'Onagre' %}
-  {% assign ing2_image = 'onagre.png' %}
+  {% assign ing2_image = 'onagre2.png' %}
 {% elsif diagnostic.ing2 == 'Argan' %}
-  {% assign ing2_image = 'argan.png' %}
+  {% assign ing2_image = 'argan2.png' %}
 {% elsif diagnostic.ing2 == 'Abricot' %}
-  {% assign ing2_image = 'abricot.png' %}
+  {% assign ing2_image = 'abricot2.png' %}
 {% elsif diagnostic.ing2 == 'Noisette' %}
-  {% assign ing2_image = 'noisette.png' %}
+  {% assign ing2_image = 'noisette2.png' %}
 {% else %}
-  {% assign ing2_image = 'carotte.png' %}
+  {% assign ing2_image = 'carotte2.png' %}
 {% endif %}
    
      {% else %}   
-        {% assign ing2_image = diagnostic_ing2 | append: '.png' | downcase %}  
+        {% assign ing2_image = diagnostic_ing2 | append: '2.png' | downcase %}  
 {% endif %}
                                   
 <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:32px;">
@@ -471,21 +471,21 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 {% assign ing3_image = '' %}
 
 {% if diagnostic.ing3 == 'Amande' %}
-  {% assign ing3_image = 'amande.png' %}
+  {% assign ing3_image = 'amande2.png' %}
 {% elsif diagnostic.ing3 == 'Onagre' %}
-  {% assign ing3_image = 'onagre.png' %}
+  {% assign ing3_image = 'onagre2.png' %}
 {% elsif diagnostic.ing3 == 'Argan' %}
-  {% assign ing3_image = 'argan.png' %}
+  {% assign ing3_image = 'argan2.png' %}
 {% elsif diagnostic.ing3 == 'Abricot' %}
-  {% assign ing3_image = 'abricot.png' %}
+  {% assign ing3_image = 'abricot2.png' %}
 {% elsif diagnostic.ing3 == 'Noisette' %}
-  {% assign ing3_image = 'noisette.png' %}
+  {% assign ing3_image = 'noisette2.png' %}
 {% else %}
-  {% assign ing3_image = 'carotte.png' %}
+  {% assign ing3_image = 'carotte2.png' %}
  
   {% endif %}
      {% else %}   
-        {% assign ing3_image = diagnostic_ing3 | append: '.png' | downcase %}  
+        {% assign ing3_image = diagnostic_ing3 | append: '2.png' | downcase %}  
 {% endif %}
                                   
                                   <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:32px;">
