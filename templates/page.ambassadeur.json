@@ -181,7 +181,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Vous êtes passionné de cosmétiques et adorez chouchouter votre peau ? Avec Hilo, co-créez des produits de qualité qui vous ressemblent et devenez ambassadeur d'une marque innovante !<\/p>"
+            "text": "<p>Vous êtes passionné de cosmétiques et adorez prendre soin de votre peau ? Avec Hilo, co-créez des produits de qualité qui vous ressemblent et devenez ambassadeur d'une marque innovante !<\/p>"
           }
         },
         "16806ba5-054c-4e53-8395-6af42c8519aa": {
@@ -277,7 +277,7 @@
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>On a besoin de vous pour co-créer les prochains produits naturels et personnalisables d'Hilo.<\/p><p> Remplissez le formulaire d'inscription pour devenir ambassadeur Hilo et tester nos prochains soins sur-mesure en exclusivité. <\/p><p>Nous étudierons soigneusement chaque candidature. En fonction du produit, nous contacterons les profils sélectionnés dans les plus brefs délais. <\/p><p>Alors, prêt(e) à tester notre prochaine pépite ? ✨<\/p>",
+            "text": "<p>On a besoin de vous pour co-créer les prochains produits naturels et personnalisables d'Hilo.<\/p><p> Remplissez le formulaire d'inscription pour devenir ambassadeur Hilo et tester nos prochains soins sur-mesure en exclusivité. <\/p><p>Nous étudierons soigneusement chaque candidature. En fonction du produit, nous contacterons les profils sélectionnés dans les plus brefs délais. <\/p><p>Alors, prêt à tester notre prochaine pépite ? ✨<\/p>",
             "text_style": "body"
           }
         },
@@ -325,7 +325,7 @@
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>De la bonne humeur dans votre boite mail !<\/h3><p>Ne ratez aucune actualités, astuces beautés ou petits mots d'amour d'Hilo en vous abonnant à la Newsletter.<\/p>"
+            "text": "<h3>Ne manquez pas nos prochaines campagnes ambassadeurs !<\/h3><p>Abonnez-nous à la newsletter pour être averti en avant-première des campagnes de test produit et devenir ambassadeur Hilo.<\/p>"
           }
         },
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-2": {
