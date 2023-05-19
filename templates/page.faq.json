@@ -196,12 +196,21 @@
             "page": ""
           }
         },
+        "9d2e2dbd-0a71-4eda-84b6-2403dc1364bb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les modes de livraison disponibles ?",
+            "icon": "none",
+            "row_content": "<p>Les livraisons peuvent être réalisées à domicile par Colissimo ou Chronopost et en point relais par Mondial Relay.<\/p>",
+            "page": ""
+          }
+        },
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Puis-je modifier l'adresse de livraison ?",
             "icon": "none",
-            "row_content": "<p>Si vous avez fait une erreur lors de votre commande, il est peut-être encore temps de la<br\/>modifier. Envoyez-nous un mail à contact@hilocosmetiques.fr afin de nous en informer au<br\/>plus vite. En revanche, si la commande a déjà été traitée, nous ne pourrons plus la modifier.<\/p>",
+            "row_content": "<p>Si vous avez fait une erreur lors de votre commande, il est peut-être encore temps de la<br\/>modifier. Envoyez-nous un mail à <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a> afin de nous en informer au<br\/>plus vite. En revanche, si la commande a déjà été traitée, nous ne pourrons plus la modifier.<\/p>",
             "page": ""
           }
         },
@@ -284,6 +293,7 @@
       "block_order": [
         "8ef7a419-eedd-4b81-a632-f812aa6961c7",
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0",
+        "9d2e2dbd-0a71-4eda-84b6-2403dc1364bb",
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2",
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3",
         "f71421b0-7f91-4efb-b4de-41fbffe71aea",
