@@ -285,7 +285,7 @@
           "settings": {
             "heading": "Quelles sont les modalités de retour ?",
             "icon": "none",
-            "row_content": "<p>Vous avez 14 jours à compter de la réception de votre commande pour nous retourner des<br\/>produits. Contactez votre Hapiness Customer manager en indiquant votre numéro de<br\/>commande pour savoir comment procéder. Vous pouvez également envoyer votre demande<br\/>à contact@hilocosmetiques.fr. Les produits doivent être intacts, non-ouverts et non-utilisés<br\/>pour être remboursés. Ces derniers seront remboursés sur la carte utilisée pour le paiement.<br\/>Les retours sont à la charge du client.<\/p>",
+            "row_content": "<p>Vous avez 14 jours à compter de la réception de votre commande pour nous retourner des<br\/>produits. Contactez votre Hapiness Customer manager en indiquant votre numéro de<br\/>commande pour savoir comment procéder. Vous pouvez également envoyer votre demande<br\/>à <a href=\"mailto:contact@hilocosmetiques.fr\" title=\"mailto:contact@hilocosmetiques.fr\">contact@hilocosmetiques.fr<\/a>. Les produits doivent être intacts, non-ouverts et non-utilisés<br\/>pour être remboursés. Ces derniers seront remboursés sur la carte utilisée pour le paiement.<br\/>Les retours sont à la charge du client.<\/p>",
             "page": ""
           }
         }
