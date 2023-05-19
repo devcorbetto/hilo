@@ -100,12 +100,13 @@
           </li>
             {% endif %}
        {% else %}
-             <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
-           {% if forloop.index == 1%}
+            {% if forloop.index == 1%}
            1. Hydrater 
 
 
              {% endif %}
+             <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
+          
              {% if forloop.index == 2%}
             2. Renforcer
              {% endif %}
