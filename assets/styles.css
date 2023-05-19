@@ -44,7 +44,7 @@ section newsletter section-news
 }
 
 .contact__fields .field__input, .customer .field input{
-  padding:inherit;
+  padding:inherit!important;
 }
 
 .no-rotate{
