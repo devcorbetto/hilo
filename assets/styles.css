@@ -39,12 +39,12 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.contact__fields .field__input, .customer .field input{
-  padding:inherit;
-}
-
 .field__input, .customer .field input{
   padding:15px!important;
+}
+
+.contact__fields .field__input, .customer .field input{
+  padding:inherit;
 }
 
 .no-rotate{
