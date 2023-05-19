@@ -64,6 +64,7 @@
         },
         "94392006-51f7-46cf-bc97-321db9fd9605": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "text": "<p>Slogan<\/p>"
