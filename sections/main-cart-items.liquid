@@ -624,13 +624,16 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
         .cart__login-paragraph a {
           font-size:12px;
         }
-        .btn {
+         .cart__warnings .button:after,  .cart__warnings .button:before {
+           content:none !important;
+         }
+        .cart__warnings .button {
               background: #D0C4E2;
     border-radius: 30px;
     color: white;
     font-weight: bold;
     padding: 0.8rem 2rem;
-    min-width: 100%;
+
     box-sizing: border-box;
         }
       </style>
