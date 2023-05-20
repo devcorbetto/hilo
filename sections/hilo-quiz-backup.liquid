@@ -1,0 +1,1297 @@
+{% assign today =  'now' | date: '%m/%d/%Y'   %}
+
+   
+   {% assign seche2 = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d') " %}
+{% assign mixte2 =
+" (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22b' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23d')" %}
+
+  {% assign grasse2 = "    (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22a' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22b' && formData.f23 === 'f23b')" %}
+
+    {% assign normal2 = "    
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21b' && formData.f22 === 'f22c' && formData.f23 === 'f23d') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
+  (formData.f21 === 'f21c' && formData.f22 === 'f22c' && formData.f23 === 'f23d')" %}
+
+{% assign deshy = "
+    !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') &&
+                  !(formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')
+
+                " %}
+{% assign nodeshy = "
+   
+
+                  
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'N') ||
+                  (formData.f31 === 'O' && formData.f32 === 'O' && formData.f33 === 'J') ||
+                  (formData.f31 === 'O' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'O' && formData.f32 === 'J' && formData.f33 === 'O') ||
+                  (formData.f31 === 'N' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'N' && formData.f33 === 'O') ||
+                  (formData.f31 === 'J' && formData.f32 === 'O' && formData.f33 === 'O')" %}
+
+{% assign steps = page.metafields.quiz.quiz.value  %}
+
+
+{% assign diagnosticos = customer.metafields.custom.diagnosticos.value |  json  %}
+{% assign diagnostics = diagnosticos | replace: '"', "'"  %}
+
+<div class="page-width"
+   x-data="{ 
+  show1: false,
+    show2: false,
+  show3: false,
+   jsondiagnostics: {{ diagnostics }},
+   customerId: '{{ customer.id }}',
+   formData: {  
+   name: '', 
+   gender: '', 
+   age: '', 
+   f21: '', 
+   f22: '', 
+   f23: '', 
+   f31: '', 
+   f32: '', 
+   f33: '', 
+   selected: [],
+     selectedOptions: [],
+   f51: '', 
+   f52: '', 
+   f53: '',
+    f54: '',
+   peau: '',
+  madure: '',
+  deshy: ''
+   }, 
+    ing1: '',
+    selectedOptions: [],
+    ing2: '',
+    ing3: '',
+    setIngredients(ingredient1, ingredient2, ingredient3) {
+        this.ing1 = ingredient1;
+        this.ing2 = ingredient2;
+        this.ing3 = ingredient3;
+    },
+     setPreocu(preocu1, preocu2, preocu3) {
+        this.preocu1 = preocu1;
+        this.preocu2 = preocu2;
+        this.preocu13 = preocu3;
+    },
+   step: 1, 
+   activeStepColor: '#fbbf24', 
+   selected: [],
+   jsonData: null,
+     fetchData() {
+
+
+     {% comment %}
+     https://apiv2.shopflex.io/auth/trigger/6qxdtmxdfa 
+     {% endcomment %}
+     
+      const baseUrl = 'https://apiv2.shopflex.io/auth/trigger/7i54koeqts';
+      const urlParams = new URLSearchParams({
+        customerId: this.customerId,
+        ...this.jsonData
+      });
+     
+  console.log(urlParams);
+      const url = `${baseUrl}?${urlParams.toString()}`;
+
+      fetch(url)
+
+  
+        .then(response => response.json())
+        .then(data => {
+          // Procesar la respuesta del servidor
+          console.log(data);
+             this.step++;
+         setTimeout(function() {
+  window.location.href = 'https://hilo-cosmetiques.myshopify.com/pages/result-diagnostic';
+}, 10000);
+
+        })
+        .catch(error => {
+          // Manejar cualquier error ocurrido durante la solicitud
+          console.error(error);
+        });
+    }
+   }
+   "
+  
+   style="margin-bottom:100px;" >
+   <div class="etapas grid grid-cols-4 text-center justify-center" 
+      :class="{ 'active-step1': step === 1 , 'active-step2': step === 2 , 'active-step3': step === 3 ,  'active-step4': step === 4 ,    'active-step5': step === 5 , 'active-step6': step === 6 }">
+      <div class="container-step container-step1" >
+         <div class="etapa1  etapas5 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10" 
+         :class="{ 'active-step': step === 1 }">
+            1
+         </div>
+         Profil
+      </div>
+      <div class="container-step container-step2" >
+         <div class="etapa2 etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"   :class="{ 'active-step': step === 2 }">
+            2
+         </div>
+         Tendance de peau
+      </div>
+      <div class="container-step container-step3">
+         <div class="etapa3 etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10 "  :class="{ 'active-step': step === 3 }">
+            3
+         </div>
+         Etat temporaire
+      </div>
+      <div class="container-step container-step4 ">
+         <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 4"  :class="{ 'active-step': step === 4 || step === 5  }">
+            4
+         </div>
+         Préoccupations
+      </div>
+   </div>
+   
+   <div class="form-quiz mt-10">
+      {% for step in steps %}
+      <div class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius" x-show="step === {{ forloop.index }}">
+         {% if forloop.index != 1  %}
+         <div class="back-container mb-20"  @click="step--;" >
+            <span class="precedent">   < Précédent</span>
+           <span class="title-step"> {{ step.title }}</span>
+         </div>
+         {% endif %}
+         {% if forloop.index == 4  %}
+         <fieldset class="mb-10">
+      <legend>En ce moment, quelles sont les préoccupations que vous avez vis-à-vis de votre peau ? <br><small style="font-size:12px;">(sélectionnez 1 à 3 réponses)</small></legend>
+      <div class="container-label">
+         <input type="checkbox" id="Imperfections" name="Imperfections" value="Imperfections" x-model="selected" 
+           :class="{ 'inactive': selected.length > 2 && !selected.includes('Imperfections') }" 
+           x-bind:disabled="selected.length > 2 && !selected.includes('Imperfections')">
+         <label for="Imperfections">Imperfections</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Signes de lage" name="Signes de lage" value="Signes" x-model="selected" 
+           :class="{ 'inactive': selected.length > 2 && !selected.includes('Signes') }" 
+           x-bind:disabled="selected.length > 2 && !selected.includes('Signes')">
+        
+         <label for="Signes de lage">Signes de l'âge</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Deshydratation" name="Deshydratation" value="Deshydratation" x-model="selected" 
+           :class="{ 'inactive': selected.length > 2 && !selected.includes('Deshydratation') }" 
+           x-bind:disabled="selected.length > 2 && !selected.includes('Deshydratation')">
+         <label for="Deshydratation">Déshydratation</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Rougeurs, irritations cutanées" name="Rougeurs, irritations cutanées" 
+           value="Rougeurs" x-model="selected"
+           :class="{ 'inactive': selected.length  > 2 && !selected.includes('Rougeurs') }"
+           x-bind:disabled="selected.length > 2 && !selected.includes('Rougeurs')">
+         <label for="Rougeurs, irritations cutanées">Rougeurs, irritations cutanées</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Eclat" name="Eclat" value="Eclat" x-model="selected" 
+           :class="{ 'inactive': selected.length > 2 && !selected.includes('Eclat') }"
+           x-bind:disabled="selected.length > 2 && !selected.includes('Eclat')">
+         <label for="Eclat">Éclat</label>
+      </div>
+      <div class="container-label">
+         <input type="checkbox" id="Brillance" name="Brillance" value="Brillance" x-model="selected" 
+           :class="{ 'inactive': selected.length > 2 && !selected.includes('Brillance') }"
+           x-bind:disabled="selected.length > 2 && !selected.includes('Brillance')">
+         <label for="Brillance">Brillance</label>
+      </div>
+           <p class="text-center">
+<button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" class="text-white font-bold py-2 px-4 rounded">
+   Valider
+</button>
+
+           </p>
+
+
+ 
+    
+         {% else %}
+         {% for field in step.fields %}
+         <div class="faq{{ forloop.index }}  mb-10">
+            <fieldset>
+            <legend>{{ field.label }} {% if  field.text  %} <span class="text-label2" x-on:click="show{{ forloop.index }} = !show{{ forloop.index }}"> 
+              <img src="{{ 'infopng.png' | asset_url }}" style="width:16px; display: inline; margin-left:10px;"></span><br>
+              <small  class="text-label"  x-show="show{{ forloop.index }}">{{ field.text }}</small>{% endif %}</legend>
+            {% for option in field.options %}
+            {% if field.type == "radio" %}
+            <div class="container-label">
+               <input type="radio" name="{{ field.name }}" value="{{ option.value }}"
+                  x-bind:checked="formData.{{ field.name }} === '{{ option.value }}'" 
+                  x-on:click="formData.{{ field.name }} = '{{ option.value }}'"> 
+               <label>{{ option.label }} </label>
+            </div>
+            {% else %}
+            <div class="flex">
+               <legend>Je réalise ce diagnostic pour :</legend>
+               <input id="prenom" class="ml-20 px-2 py-1   w-200 pl-10" type="text" placeholder="Prénom"  x-model="formData.name" 
+                  style="border-radius:30px; max-width:300px; width:80%;     height: 40px;  required">
+            </div>
+            {% endif %}
+            {% endfor %}
+            <fieldset>
+         </div>
+         {% endfor %}
+           {% case forloop.index %}
+   {% when 1 %}
+   <p class="text-center">  <button @click="if(formData.name && formData.gender && formData.age) { 
+          formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
+         
+          step++; 
+        } else { 
+          alert('Veuillez remplir tous les champs'); 
+        }
+        " 
+        class="text-white font-bold py-2 px-4 rounded">Valider</button>
+   </p>
+   {% when 2 %}
+ <p class="text-center"> <button @click="
+  if(formData.f21 && formData.f22 && formData.f23) {
+    if({{ seche2 }}) {
+      formData.peau = 'seche';
+    } else if({{ mixte2 }}) {
+      formData.peau = 'mixte';
+    } else if({{ grasse2 }}) {
+      formData.peau = 'grasse';
+    } else if({{ normal2 }}) {
+      formData.peau = 'normale';
+    } else {
+      alert('Veuillez remplir tous les champs');
+      return;
+    }
+    step++;
+  } else {
+    alert('Veuillez remplir tous les champss');
+  }
+" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+ </p>
+            
+
+
+   {% when 3 %}
+<p class="text-center">
+             <button @click="
+  if(formData.f31 && formData.f32 && formData.f33) {
+    if({{ nodeshy }}) {
+      formData.deshy = 'nodeshy';
+    } else {
+      formData.deshy = 'deshy';
+    }
+    step++;
+  } else {
+    alert('Veuillez remplir tous les champs');
+  }
+" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+</p>
+   {% when 4 %}
+ <p class="text-center">   <button @click="if(selected.length >= 1 && selected.length <= 3) step++; else alert('Veuillez sélectionner au moins une option.');" 
+               class=" text-white font-bold py-2 px-4 rounded">
+               Valider</button>
+ </p>
+   {% when 5 %}
+             <p class="text-center">
+        <button @click="
+  if(formData.peau && formData.madure && formData.deshy) {
+    if(formData.peau === 'seche') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Argan', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Amande', 'Carotte', 'Argan');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Amande', 'Abricot', 'Abricot');
+        }
+      }
+    } else if(formData.peau === 'mixte') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Argan', 'Onagre', 'Carotte');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Abricot', 'Argan', 'Carotte');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Amande', 'Noisette');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Noisette', 'Abricot', 'Abricot');
+        }
+      }
+    } else if(formData.peau === 'normale') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Onagre', 'Abricot', 'Amande');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Carotte', 'Amande', 'Abricot');
+        }
+      }
+    } else if(formData.peau === 'grasse') {
+      if(formData.madure === 'madure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Noisette', 'Onagre', 'Argan');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Argan', 'Noisette', 'Carotte');
+        }
+      } else if(formData.madure === 'nomadure') {
+        if(formData.deshy === 'deshy') {
+          setIngredients('Noisette', 'Onagre', 'Noisette');
+        } else if(formData.deshy === 'nodeshy') {
+          setIngredients('Abricot', 'Noisette', 'Noisette');
+        }
+      }
+    }
+    
+
+
+ if(formData.f51 && formData.f52 && formData.f53  && formData.f54) { 
+  }
+
+
+let selectedOptionsJSON = JSON.stringify(selectedOptions, null, 2);
+selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
+let resultsJSON = JSON.stringify(jsondiagnostics, null, 2);
+resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
+          resultsJSON = resultsJSON.replace(/\[|\]/g, '');
+
+  // Resto del código
+      jsonData = { name: formData.name, gender: formData.gender, age: formData.age , peau: formData.peau, 
+      deshy: formData.deshy, madure: formData.madure,
+       preocupa1: selectedOptions[0],
+           preocupa2: selectedOptions[1],
+           preocupa3:selectedOptions[2],
+        f51: formData.f51, f52: formData.f52, f53: formData.f53, f54: formData.f54
+             , ing1: ing1
+             , ing2: ing2
+             , ing3: ing3,
+          date: '{{ today }}',
+             result: resultsJSON            }
+           {% if customer %} 
+               
+ fetchData()
+             {% else %}
+     step++;
+             {% endif %}
+} else {
+  alert('Veuillez remplir tous les champs');
+}
+           
+
+    
+
+
+" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+             </p>
+   {% else %}
+   <p class="text-center"> <button @click="step++ " class="text-white font-bold py-2 px-4 rounded">Valider</button></p>
+
+{% endcase %}
+
+              
+        
+         {% endif %}
+      </div>
+      {% endfor %}
+      <div class="step6 py-4 px-10 " x-show="step === 6">
+       {% if customer %}
+
+<h2 class="text-center pb-20">NOUS ANALYSONS VOS REPONSES</h2>
+        
+         <style>
+    
+#progressbar{
+  height: 20px;
+
+  width: 500px;
+
+         border:1px solid #D0C4E2 !important;
+  border-radius: 4px;
+overflow:hidden;
+  margin:40px  auto;
+           
+  padding: 0px;
+  
+}
+#loading{
+         overflow:hidden;
+  transition: all 500ms ease;
+  height: 20px;
+  width: 100%;
+  border-radius: 2px;
+  background: #D0C4E2;
+
+  margin: 0px;
+  display: inline-block;
+  animation: load 10s ease infinite;
+}
+
+
+@keyframes load{
+  0%{ width: 0%;}
+  10%{ width: 10%;}
+}
+
+</style>
+    <div id="progressbar">
+     <span id="loading"></span>
+
+    </div>
+         <div class="columns5 flex text-center justify-around">
+           <div class="column1">
+         <svg id="Calque_21" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.62 132.5"><defs><style>.cls1-1{stroke-width:3px;}.cls1-1,.cls1-2{fill:none;stroke:#D0C4E2;stroke-linecap:round;stroke-linejoin:round;}.cls1-2{stroke-width:2px;}</style></defs><g id="Calque_1-2"><g><path class="cls1-2" d="m9.18,17.82c1.64,1.98,3.11,1.41,4.68.15-1.17,1.94-.99,3.38,1.29,4.41-2.14-.27-3.55.23-3.88,2.58-.21-2.3-1.35-3.19-3.68-2.73,2.05-.92,2.75-2.22,1.59-4.4Z"></path><path class="cls1-2" d="m20.09,7.19c1.28,1.55,2.42,1.1,3.65.12-.91,1.51-.77,2.64,1,3.43-1.67-.21-2.77.18-3.03,2.01-.16-1.79-1.05-2.48-2.87-2.13,1.6-.71,2.14-1.73,1.24-3.43Z"></path><path class="cls1-2" d="m3.18,1c2.25,2.72,4.26,1.93,6.42.21-1.6,2.66-1.35,4.64,1.77,6.04-2.94-.36-4.87.31-5.33,3.54-.28-3.15-1.84-4.37-5.05-3.75,2.81-1.26,3.77-3.05,2.18-6.04Z"></path><g><path class="cls1-1" d="m83.15,131c-1.86-.01-3.44-.73-4.37-2.43-3.22-5.86-30.52-56.56-37.64-69.69-6.02-11.09-12.01-22.18-18.08-33.25-.84-1.55-.23-3.3.96-3.91,1.43-.74,2.87-.26,3.8,1.32,5.55,9.38,11.1,18.76,16.66,28.13,5.63,9.5,11.28,18.98,16.91,28.47,3.08,5.2,21.66,36.48,25.93,43.55,2.19,3.64-.43,7.83-4.18,7.8Z"></path><line class="cls1-1" x1="68.16" y1="107.43" x2="75.02" y2="103.61"></line></g></g></g></svg>
+         <h3>Personnalisé</h3>
+           </div>
+            <div class="column2">
+               <svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.4 133"><defs><style>.cls2-1,.cls2-2{fill:none;stroke:#D0C4E2;stroke-miterlimit:10;stroke-width:3px;}.cls2-2{stroke-linecap:round;}</style></defs><g id="Calque_1-2"><g><path class="cls2-1" d="m78.61,2.62c-1.61-1.68-2.56-1.44-3.72.49-1.78,2.96-3.51,6-5.65,8.68-8.64,10.84-19.73,18.65-31.78,25.22-9.36,5.1-18.01,11.07-24.83,19.4-15.41,17.07-11.92,43.77,7.4,56.27.77.54,2.49,1.99,4.43,2.91,2.07.99,3.3,1.38,5.46,2.13,23.43,8.09,51.16-3.36,61.98-25.92,16.09-29.4,9.99-65.4-13.29-89.19Z"></path><path class="cls2-2" d="m79.26,22.3c2.35,30-59.33,91.46-74.45,106.04-2.11,2.03-3.31,3.16-3.31,3.16"></path><path class="cls2-2" d="m49.52,79.49s2.68-16.16-2.1-26.38"></path><path class="cls2-2" d="m49.55,79.48s15.64-4.86,26.42-1.53"></path><path class="cls2-2" d="m63.57,61.19s3.88-11.32.13-17.54"></path><path class="cls2-2" d="m79.97,54.48s-11.95.67-16.3,6.49"></path><path class="cls2-2" d="m30.6,102.12s.75-19.76-5.42-32.5"></path><path class="cls2-2" d="m30.22,102.53s19.76.73,32,7.83"></path></g></g></svg>
+         <h3>Naturel</h3>
+           </div>
+            <div class="column3">
+              <svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.23 133"><defs><style>.cls4-1{fill:none;stroke:#D0C4E2;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs><g id="Calque_1-2"><g><path class="cls4-1" d="m50.05,124.65c-15.82,12.22-36.76,7.79-45.16-10.94-9.69-20.69,3.11-43.38,16.76-58.81,6.44-7.28,15.36-12.77,15.62-23.5.04-1.84.18-4.07-1.27-5.41-1.51-1.4-3.83-1.27-5.16-2.94-1.01-1.28-1.21-3.23-1.25-4.79-.3-10.63,9.1-16.99,19.16-16.75,1.75.05,3.62.24,5.5.59.49.09.99.19,1.48.31s.98.25,1.46.4c1.84.54,3.59,1.23,5.17,1.99,9.06,4.38,14.5,14.34,9.38,23.66-.76,1.37-1.82,3.02-3.31,3.69-1.95.87-3.95-.3-5.93.25-1.9.53-2.8,2.58-3.6,4.23-4.68,9.67.74,18.62,3.14,28.05,5.08,19.97,6.08,46-12,59.97Z"></path><path class="cls4-1" d="m11.27,104.98s-1.74,9.23,12.24,15.92"></path></g></g></svg>
+                  <h3>Anti-gaspi</h3>
+           </div>
+            <div class="column4">
+             <svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128.71 133"><defs><style>.cls3-1{fill:none;stroke:#D0C4E2;stroke-miterlimit:10;stroke-width:3px;}</style></defs><g id="Calque_1-2"><path class="cls3-1" d="m127.19,96.77c-.3,5.75-4.27,10.12-9.83,11.01-.71.11-1.72.71-1.94,1.33-5.31,14.3-16.73,19.94-30.79,21.74-8.29,1.06-16.55,1.12-24.56-1.91-1.23-.47-2.75-.23-4.14-.23-7.98-.02-15.94-.01-23.92-.03-.98,0-1.96-.08-2.94-.22-3.3-.48-5.07-2.12-5.55-5.03-.44-2.74,1.03-5.6,3.64-6.94.72-.38,1.51-.62,2.55-1.04-.61-2.11-1.15-4.31-2.04-6.35-2.22-5.17-3.94-10.55-4.96-16.09-.43-2.3-1.14-2.83-2.94-3.15-.62-.11-1.63-.83-2.86-1.87-4.09,1.07-13.24-6.75-13.24-6.75-.11-.58-.24-2.84-.2-1.48-2-3.7-2.35-7.4-1.61-11.14,2.37-11.92,10.16-19.12,21.13-23.29,2.13-.81,4.4-1.22,6.02-1.65.91-6.99,1.46-13.78,2.76-20.42,1.38-6.97,3.97-13.56,9.05-18.84.63-.64,1.33-1.23,2.08-1.72,3.5-2.23,7.05-1.36,8.38,2.57,1.09,3.2,1.33,6.7,1.83,10.08.17,1.17.03,2.38.03,3.78,2.79-2.55,5.25-5.03,7.98-7.19,1.63-1.32,3.55-2.44,5.52-3.13,4.05-1.44,6.98.6,7.39,4.9.46,4.71-.77,9.14-2.5,13.43-4.03,10.04-10.14,18.53-18.91,25.02-.38.29-.74.62-1.17.99,1.04,2.43,2.06,4.81,2.91,6.81,4.54-1.39,8.96-3.52,13.55-4.01,17-1.82,32.05,2.29,42.93,16.47,2.26,2.93,3.46,6.66,5.29,9.94.47.85,1.35,1.82,2.22,2.05,5.5,1.42,9.16,6.4,8.84,12.36Z"></path></g></svg>
+                  <h3>Vegan</h3>
+           </div>
+            <div class="column5">
+               <svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.1 146.53"><defs><style>.cls5-1{fill:none;stroke:#D0C4E2;stroke-miterlimit:10;stroke-width:3px;}</style></defs><g id="Calque_1-2"><g><path class="cls5-1" d="m119.02,73.26c-39.7,10.13-46.68,18.33-55.29,65-8.61-46.67-15.6-54.87-55.29-65,39.7-10.13,46.68-18.33,55.29-65,8.61,46.67,15.6,54.87,55.29,65Z"></path><path class="cls5-1" d="m126.03,29.15c-12.51,3.19-14.71,5.78-17.42,20.48-2.71-14.7-4.91-17.29-17.42-20.48,12.51-3.19,14.71-5.78,17.42-20.48,2.71,14.7,4.91,17.29,17.42,20.48Z"></path><path class="cls5-1" d="m27.21,106.05c-7.59,1.94-8.93,3.51-10.57,12.43-1.65-8.92-2.98-10.49-10.57-12.43,7.59-1.94,8.93-3.51,10.57-12.43,1.65,8.92,2.98,10.49,10.57,12.43Z"></path></g></g></svg>
+                  <h3>Unique</h3>
+           </div>
+         
+         </div>
+
+
+         
+       {% else %}
+     
+   <div class="customer register section-{{ section.id }}-padding">
+  <svg style="display: none">
+    <symbol id="icon-error" viewBox="0 0 13 13">
+      <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
+      <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
+      <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
+      <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7">
+    </symbol>
+  </svg>
+  <h2 class="text-center">
+   DECOUVREZ VOTRE MATCH PARFAIT
+  </h2>
+         <p  class="text-center">Dernière étape avant de découvrir la combinaison d'huiles végétales qui viendra personnaliser vos<br> cosmétiques et sublimer votre peau.<br><br> Créez votre compte pour sauvegarder vos résultats.
+         </p>
+  {%- form 'create_customer', novalidate: 'novalidate' -%}
+     <input type="hidden" name="return_to" value="pages/loading-diagnostic">
+    {%- if form.errors -%}
+      <h2 class="form__message" tabindex="-1" autofocus>
+        <svg aria-hidden="true" focusable="false" role="presentation">
+          <use href="#icon-error" />
+        </svg>
+        {{ 'templates.contact.form.error_heading' | t }}
+      </h2>
+      <ul> 
+        {%- for field in form.errors -%}
+          <li>
+            {%- if field == 'form' -%}
+              {{ form.errors.messages[field] }}
+            {%- else -%}
+              <a href="#RegisterForm-{{ field }}">
+                {{ form.errors.translated_fields[field] | capitalize }}
+                {{ form.errors.messages[field] }}
+              </a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+     <label for="RegisterForm-FirstName" style="position:relative !important; border:0 !important;">
+        {{ 'customer.register.first_name' | t }} *
+      
+    
+     </label>
+    <div class="field">  
+    
+      <input
+        type="text"
+        name="customer[first_name]"
+        id="RegisterForm-FirstName"
+        {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
+        autocomplete="given-name"
+        placeholder="{{ 'customer.register.first_name' | t }}"
+      >
+    </div>
+     <label for="RegisterForm-LastName" style="position:relative !important; border:0 !important;">
+        {{ 'customer.register.last_name' | t }}  *
+      </label>
+    <div class="field">
+      <input
+        type="text"
+        name="customer[last_name]"
+        id="RegisterForm-LastName"
+        {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
+        autocomplete="family-name"
+        placeholder="{{ 'customer.register.last_name' | t }}"
+      >
+     
+    </div>
+      <label for="RegisterForm-email" style="position:relative !important; border:0 !important;" >
+        {{ 'customer.register.email' | t }}  *
+      </label>
+    <div class="field">      
+      <input
+        type="email"
+        name="customer[email]"
+        id="RegisterForm-email"
+        {% if form.email %} value="{{ form.email }}"{% endif %}
+        spellcheck="false"
+        autocapitalize="off"
+        autocomplete="email"
+        aria-required="true"
+        {% if form.errors contains 'email' %}
+          aria-invalid="true"
+          aria-describedby="RegisterForm-email-error"
+        {% endif %}
+        placeholder="{{ 'customer.register.email' | t }}"
+      >
+    
+    </div>
+    {%- if form.errors contains 'email' -%}
+      <span id="RegisterForm-email-error" class="form__message">
+        <svg aria-hidden="true" focusable="false" role="presentation">
+          <use href="#icon-error" />
+        </svg>
+        {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.
+      </span>
+    {%- endif -%}
+     <label for="RegisterForm-password" style="position:relative !important; border:0 !important;">
+        {{ 'customer.register.password' | t }}  *
+      </label>
+    <div class="field">     
+      <input
+        type="password"
+        name="customer[password]"
+        id="RegisterForm-password"
+        aria-required="true"
+        {% if form.errors contains 'password' %}
+          aria-invalid="true"
+          aria-describedby="RegisterForm-password-error"
+        {% endif %}
+        placeholder="{{ 'customer.register.password' | t }}"
+      >
+     
+    </div>
+    {%- if form.errors contains 'password' -%}
+      <span id="RegisterForm-password-error" class="form__message">
+        <svg aria-hidden="true" focusable="false" role="presentation">
+          <use href="#icon-error" />
+        </svg>
+        {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.
+      </span>
+    {%- endif -%}
+
+          <div class="field">   
+ 
+  <label for="newsletter" class="newsletter" style=" border:0 !important;">Je souhaite recevoir les news d'Hilo.</label>
+</div>
+ <input type="checkbox" id="newsletter" class="checkbox-round " name="customer[accepts_marketing]">
+            
+    <div class="field">     
+      <div class="jsondata">
+        <textarea id="jsondata" name="customer[note]"  hidden x-text="JSON.stringify(jsonData)"></textarea>
+      </div>
+    </div>
+        
+   <p class="text-center"> <button>
+      Je découvre mes recommandations
+    </button>
+   </p>
+  {%- endform -%}
+</div>
+
+       {%endif %}
+{% comment %}
+         <div class="div-with-svg">
+            <h2 class="text-center " style="text-transform:uppercase;">{% if customer %}{{ customer.first_name }} {% else %}<span x-text="formData.name" > </span> {% endif %}, VOICI VOS RESULTATS :
+            </h2>
+            <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pourrez modifier vos huiles végétales à l'étape suivante.</p>
+         </div>
+         <div class="two-columns flex gap-x-40 mt-20">
+            <div class="one-column  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
+               <h3 class="text-center">          VOS TENDANCES DE PEAU DU MOMENT        </h3>
+
+         
+         <p x-show="
+  {{ seche2 }}     "
+  >
+  {{ seche }}
+</p>
+<p x-show=" {{ mixte2 }}
+  "
+  >
+  {{ mixte }}
+</p>
+<p x-show=" {{ grasse2 }}
+  "
+  >
+  {{ grasse }}
+</p>
+<!-- Para piel normal -->
+<p x-show="
+  {{ normal2 }}"
+  >
+  {{ normal }}
+</p>
+
+
+           
+               <p x-show="formData.age === 'nomadure'">
+
+                  {{ nomadure }}
+               </p>
+               <p x-show="formData.age !== 'nomadure'"
+            >
+                  {{ madure }}
+               </p>
+           
+           
+
+             <p x-show="{{ nodeshy }}"
+               
+                  >
+                  {{ nondeshydratee }}
+               </p>
+           
+                <p  x-show="{{ deshy }}
+                "
+                   
+                  >
+                  {{  deshydratee }}
+               </p>
+           
+             
+              
+           
+            </div>
+           
+            <div class="one-column flex-1 result border-2  rounded-sm border-teal-600 bg-teal-300 p-10">
+               <h3 class="text-center">VOTRE MATCH PARFAIT DU MOMENT</h3>
+               <p class="text-left">Ces huiles végétales sont reconnues pour les propriétés suivantes* :</p>
+ 
+ 
+        
+
+
+              
+               <div class="container-result flex" >
+                  <div class="container-image">
+                    <img x-bind:src="(ing1 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  (ing1 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
+                  (ing1 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
+                  (ing1 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
+                  (ing1 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
+                  '{{ 'carotte.png' | asset_url }}'"
+     alt="Imagen del ingrediente 1"  style="width:32px;">
+        </div>
+                  <div class="container-result-p">
+                     <p x-text="ing1"></p>
+                  </div>
+               </div>
+               <div class="container-result flex" >
+                  <div class="container-image">
+                      <img x-bind:src="(ing2 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  (ing2 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
+                  (ing2 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
+                  (ing2 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
+                  (ing2 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
+                  '{{ 'carotte.png' | asset_url }}'"
+     alt="Imagen del ingrediente 2"  style="width:32px;">
+              
+                  </div>
+                  <div class="container-result-p">
+                      <p x-text="ing2"></p>
+                  </div>
+               </div>
+               <div class="container-result flex" >
+                  <div class="container-image">
+                     <img x-bind:src="(ing3 === 'Amande') ? '{{ 'damandedouce.png' | asset_url }}' : 
+                  (ing3 === 'Onagre') ? '{{ 'donagre.png' | asset_url }}' :
+                  (ing3 === 'Argan') ? '{{ 'dargan.png' | asset_url }}' :
+                  (ing3 === 'Abricot') ? '{{ 'dabricot.png' | asset_url }}' :
+                  (ing3 === 'Noisette') ? '{{ 'noisette.png' | asset_url }}' :
+                  '{{ 'carotte.png' | asset_url }}'"
+     alt="Imagen del ingrediente 3" style="width:32px;">
+                  </div>
+                  <div class="container-result-p">
+                       <p x-text="ing3"></p>
+                  </div>
+               </div>
+            </div>
+
+            
+         </div>
+         <div class="container-routine mt-20">
+            <h2 class="text-center">VOTRE ROUTINE PERSONNALISÉE</h2>
+            <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).</p>
+            <p class="text-center">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastique.<br>
+               Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.
+            </p>
+            <a href="#" class="button btn">J'ajoute mon soin au panier</a>
+         </div>
+      </div>
+  {% endcomment %}
+        
+   </div>
+
+              
+ 
+     
+
+
+
+  
+
+
+</div>
+  
+   
+</div>
+
+</div>
+          
+  
+
+
+<style>
+
+   .checkbox-round {
+    width: 1.3em !important;
+    height: 1.3em;
+     margin-right:2em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #D0C4E2;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #D0C4E2;
+}
+
+
+  
+  label.newsletter {
+    font-weight:400 !important;
+    font-size:12px !important;
+    border: 0 !important;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 400;
+  }
+  .back-container span.precedent {
+        width: fit-content;
+    text-decoration:underline;
+    float:left;
+
+ 
+   
+    font-size: 14px;
+  }
+  .back-container .title-step {
+        text-align: center;
+    display: block;
+      font-size: 14px;
+    font-weight:600;
+    color:#575756;
+  }
+  .text-label {
+font-size: 12px;
+    margin-top: 10px;
+    line-height: 16px;
+    color: #575756;
+    font-weight: 400;
+    display: block;
+    
+  }
+.border-radius {
+  border-radius: 52px;
+}
+.etapas {
+  margin-top:50px;
+column-gap:8rem !important;
+position: relative;
+overflow:hidden;
+}
+.etapas .etapas5 {
+background:#CDCDCD;
+position: relative;
+border-radius:100%;
+font-size:30px;
+width:64px;
+height:64px;
+line-height:64px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container-step {
+font-weight:600;
+color:#575756;
+}
+.container-step::after {
+position:absolute;
+content:"";
+width:250px;
+left:50px;
+top:35px;
+height:4px;  z-index:-1;
+background:#F5DEA3;
+
+}
+.active-step1 .container-step::after {
+  
+background:#FFE695;
+
+}
+.active-step2 .container-step::after {
+
+background:#C9E1B7;
+
+}
+.active-step3 .container-step::after  {
+
+background:#AFDEF2;
+
+}
+.active-step4 .container-step::after  {
+
+background:#F8C8D3;
+
+}
+.active-step5 .container-step::after  {
+
+background:#F8C8D3;
+
+}
+.inactive {
+  opacity:0.5;
+}
+
+  .step4 input[type="checkbox"].inactive + label {
+    opacity:0.5;
+  }
+  
+    .step4 input[type="checkbox"]:checked.inactive + label {
+    opacity:1;
+  }
+.container-step4::after  {
+
+content:none;
+
+}
+  .active-step6  .container-step {
+  
+  display:none !important;
+  }
+.container-step {
+
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.step1 {
+
+background:#fff6dc; border-color:#FFE695;
+}
+.step2 {
+
+background:#f2f8f1; border-color:#cde4ca;
+}
+.step3 {
+border-color:#AFDEF2; background:#EDF8FC;
+
+}
+.step4 {
+border-color:#F8C8D3; background:#FDEDF1;
+}
+.step5 {
+border-color:#F8C8D3; background:#FDEDF1;
+}
+
+  .step6
+  {
+    background:#F4F1F8; border:solid 2px #D0C4E2;
+    border-radius:52px;
+    padding-top:30px;
+    padding-bottom:30px;
+   
+  }
+ .step6 h2 {
+   font-weight:600;
+   padding-bottom:20px;
+   color:#575756;
+ }
+  .step6 form {
+    max-width:80%;
+    margin:0 auto;
+  }
+    .step6 label {
+         font-weight:600;
+          margin-bottom: 5px !important;
+    padding-left: 5px !important;
+    }
+   .step6 .field:before,  .step6 .field:after {
+     content:none !important;
+   }
+  .step6 .field {
+      margin-bottom:15px;
+  }
+   .step6 input {
+
+     border:none;
+         border-radius: 30px !important;
+  
+   
+ 
+   }
+  .step6 button:before, .step6 button:after {
+    content:none !important;
+  }
+  .step6 button {
+    margin-top:15px;
+        border-radius: 26px;
+    padding: 5px 20px;
+    background:#D0C4E2;
+  }
+.step6 p {
+  font-size:14px;
+  margin-bottom:30px;
+}
+.step1 input[type="radio"]:checked + label {
+background-color: #F5DEA3; /* Cambiar a tu color preferido */
+}
+.form-quiz button {
+  font-weight:600;
+
+border-radius:26px;
+padding:5px 60px;
+}
+.step1 button {
+background-color: #F5DEA3;
+
+}
+.form-quiz  .step1 label {
+border: 1px solid #F5DEA3;
+}
+
+.step2 input[type="radio"]:checked + label {
+background-color: #cde4ca; /* Cambiar a tu color preferido */
+}
+.form-quiz  .step2   label {
+border: 1px solid #cde4ca;
+}
+.step2 button {
+background-color: #cde4ca;
+
+}
+.step3 input[type="radio"]:checked + label {
+background-color: #b7daf3; /* Cambiar a tu color preferido */
+}
+.form-quiz     .step3   label {
+border: 1px solid #b7daf3;
+}
+.step3 button {
+background-color: #b7daf3;
+
+}
+.step4 input[type="checkbox"]:checked + label , .step4 input[type="radio"]:checked + label {
+background-color: #F8C8D3; /* Cambiar a tu color preferido */
+}
+.step4 button,  .step5 button {
+background-color: #F8C8D3;
+
+}
+.form-quiz   .step4 label {
+border: 1px solid #F8C8D3;
+}
+
+.step5 input[type="radio"]:checked + label {
+background-color: #F8C8D3; /* Cambiar a tu color preferido */
+}
+.form-quiz  .step5  label {
+border: 1px solid #F8C8D3;
+}
+
+.container-label  {
+position:relative;
+width:fit-content;
+}
+.container-label input ,  .container-label input{
+position:absolute;
+opacity:0;
+width:100%;
+height:100%;
+}
+.form-quiz label {
+width: fit-content;
+border: 1px solid #F5DEA3;
+border-radius: 26px;
+background: transparent;
+    padding: 4px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+
+label {
+display:block;
+}
+.step1  .legend {
+color: #575756;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+legend {
+color: #575756;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+
+}
+.etapa1.active-step {
+background-color: #FFE695;
+}
+.etapa2.active-step {
+background-color:    #C9E1B7;
+}
+.etapa3.active-step {
+background-color:    #AFDEF2;
+}
+.etapa4.active-step {
+background-color:    #F8C8D3;
+}
+.etapa5.active-step {
+background-color:    #F8C8D3;
+}
+/* Result */
+  .one-column  {
+    background:#FEF4EC;
+    border:2px solid #FBD1AD;
+    border-radius:26px;
+    color:#575756;
+  }
+   .one-column h3 {
+     font-weight:600;
+     font-size:24px;
+     margin-bottom:20px;
+   }
+  .one-column p
+  {
+    font-size:14px;
+     margin-bottom:15px;
+  }
+.columns5 h3 {
+  font-weight:600;
+  margin-top:20px;
+}
+   .columns5 svg {
+      width:72px;
+      height:72px;
+      margin:0 auto;
+      margin-bottom:15px;
+    }
+
+
+  /* mobile */
+  @media (max-width:980px) {
+    .etapas {
+      column-gap: 1rem !important;
+    }
+    .etapas .etapas5,
+    .etapas .etapas1,
+    .etapas .etapas2,
+    .etapas .etapas3,
+    .etapas .etapas4 {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+}
+       
+    #prenom {
+    margin-left: 0px;
+  
+    }
+    .container-step {
+       font-size: 10px;
+    }
+    .m-20 {
+      margin:10px !important;
+    }
+    .mb-20  {
+      
+    margin-bottom:10px !important;
+    }
+    .px-20 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+    legend {
+      font-size:12px;
+    }
+    #progressbar {
+      margin-top:15px;
+    width:auto; 
+    }
+    .form-quiz label {
+      font-size:10px;
+    }
+     .text-label {
+       font-size:8px;
+       line-height:10px;
+     }
+    .back-container span.precedent {
+      font-size:8px;
+      float:none;
+    
+    }
+    .back-container .title-step {
+      font-size:10px;
+        margin-top:15px;
+    }
+    .faq1  .flex {
+    display: flex;
+    flex-direction: column;
+}
+    .columns5 h3 {
+      font-size:8px;
+    }
+    .columns5 svg {
+      width:32px;
+      height:32px;
+      margin:0 auto;
+      margin-bottom:15px;
+    }
+    .step6 h2 {
+      font-size:14px;
+    }
+  }
+</style>
+
+
+    
+
+                {% capture seche %}
+✨ Vous avez une peau à tendance sèche : Vous avez une peau à tendance sèche. Elle ne produit pas beaucoup de
+sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau
+sèche est plus sensible que les autres et manque de souplesse.
+{% endcapture %}
+{% capture normal %}
+✨ Vous avez une peau à tendance normale : Vous avez une peau à tendance normale. C’est la peau considérée comme
+parfaite. Elle est très bien équilibrée, douce, lisse et son grain est régulier.
+{% endcapture %}
+{% capture mixte %}
+✨ Vous avez une peau à tendance mixte : Vous avez une peau à tendance mixte. Ce type de peau est un mélange de
+différentes caractéristiques de peau en fonction des zones du visage. La peau est
+généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste
+du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des
+imperfections.
+{% endcapture %}
+{% capture grasse %}
+✨ Vous avez une peau à tendance grasse : Vous avez une peau à tendance grasse. Elle produit beaucoup de sébum ce
+qui peut lui donner un aspect brillant. Le grain de peau est irrégulier, les pores sont dilatés
+ce qui peut favoriser l’apparition d’imperfections. Elle se déshydrate et s’irrite facilement, il
+ne faut donc pas négliger l’hydratation.
+{% endcapture %}
+{% capture madure %}
+✨ La production naturelle de collagène de votre corps diminue et votre peau
+peut commencer à se relâcher. On conseille de commencer à traiter le vieillissement cutané
+aux alentours de 25 ans afin de prévenir l’apparition de rides et ridules.
+{% endcapture %}
+{% capture nomadure %}
+✨ Votre peau est tonique et possède encore toute son élasticité.
+{% endcapture %}
+{% capture deshydratee %}
+✨ Votre peau est déshydratée. Elle manque d’eau, ce qui altère le film
+hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer
+des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.
+{% endcapture %}
+{% capture nondeshydratee %}
+✨ Votre peau est bien hydratée. L’hydratation est primordiale et
+permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau
+en pleine santé.
+{% endcapture %}
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": [],
+   "presets": [
+    {
+      "name": "Quiz",
+      "category": "Quiz by Sections.design",
+      "blocks": [
+      ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
