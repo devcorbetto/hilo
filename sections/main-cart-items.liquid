@@ -354,6 +354,9 @@
                    {% assign last_char = myprop2 | slice: -1 %} 
 
                         {% endfor %}
+                        {% if  last_char == 1 %}
+                        {{ last_char  }}
+                          {% endif %}
 
                                                 {% endif %}
                  {%- for property in item.properties -%}
