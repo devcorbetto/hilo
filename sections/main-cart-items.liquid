@@ -363,7 +363,7 @@
 {%- endfor -%}
 <hr>
                       {% endcomment %}
-                      {% if item.properties  %}
+                      {% if item.properties != blank  %}
                           <span class="description-cart">Huiles : </span>
                         {% endif %}
                  {%- for property in item.properties -%}
