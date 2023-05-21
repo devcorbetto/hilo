@@ -338,14 +338,15 @@
  </p>
    {% when 5 %}
 
-     <template x-if="selectedOptions[0] contains 'Imperfections' || selectedOptions[1] contains 'Imperfections' selectedOptions[2] contains 'Imperfections' ">
+  <template x-if="selectedOptions[0].includes('Imperfections') || selectedOptions[1].includes('Imperfections') || selectedOptions[2].includes('Imperfections')">
   <div>Elegiste Imperfections</div>
-       <style>
-         .step5 .faq1   {
-           background:black;
-         }
-             </style>
+  <style>
+    .step5 .faq1 {
+      background: black;
+    }
+  </style>
 </template>
+
              <span x-text="selectedOptions[0]"></span>
           <span x-text="selectedOptions[1]"></span>
           <span x-text="selectedOptions[2]"></span>
