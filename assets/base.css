@@ -3083,6 +3083,9 @@ details-disclosure > details {
     display: flex;
     justify-content: flex-end;
 }
+.footer .link_list_container {
+  margin:0 auto;
+}
 
 .multi-logos .a-left {
   left:-5%;
