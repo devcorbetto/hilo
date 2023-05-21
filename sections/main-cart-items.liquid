@@ -231,6 +231,76 @@
                       <div class="item-ingredientes">
                       
                       {%- for property in item.properties -%}
+                   {% if property contains '2' %}
+                  {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%}
+                   {%endif %}  
+                     {% if property contains '3' %}
+                 {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%}
+                           {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%} 
+                   {% endif %}  
                           {%- assign property_first_char = property.first | slice: 0 -%}
                     
                           {%- if property.last != blank and property_first_char != '_' -%}
