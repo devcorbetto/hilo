@@ -35,11 +35,13 @@
   <svg id="Calque_22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" style="height:25px;">
   <defs>
   <style>.cls-122{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs>
-  <g id="Calque_1-22"><g><line class="cls-122" x1="2.09" y1="1.5" x2="40.91" y2="41.5"/><line class="cls-122" x1="1.5" y1="40.91" x2="41.5" y2="2.09"/></g></g></svg>
+  <g id="Calque_1-22"><g><line class="cls-122"f x1="2.09" y1="1.5" x2="40.91" y2="41.5"/><line class="cls-122" x1="1.5" y1="40.91" x2="41.5" y2="2.09"/></g></g></svg>
       </span>
              <div class="flex  w-full justify-center items-center mb-10">
-      <img src="{{ ingrediente.image }}"   style="    height: 90px;"
+      <img src="{{ ingrediente.image }}"    class="imghover"    style="    height: 90px;"
     class="multicolumn-card__image_modal">
+            <img src="{{ ingrediente.imagehover }}"    class="itshover"    style="    height: 90px;"
+    class="multicolumn-card__image_modal">   
       
            
 
@@ -280,6 +282,17 @@ transform: translate(-50%, -50%);
   .ingrediente-caption {
     font-size:12px;
   }
+          .item-ingredientes:hover .imghover {
+          opacity:1;
+          
+        }
+            .item-ingredientes:hover .imghover {
+          opacity:0;
+        }
+         .item-ingredientes:hover .itshover {
+          opacity:0;
+          
+        }
 </style>
 
 <script>
