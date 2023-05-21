@@ -368,7 +368,7 @@
                         {% endif %}
                  {%- for property in item.properties -%}
             {% assign myprop = property | json  %}<br>
-                    {% assign myprop2 =  myprop | remove: "["  | remove: "]" %}<br>
+                    {% assign myprop2 =  myprop | remove: "["  | remove: "]" | remove: '"' %}<br>
              
 
                    {% assign last_char = myprop2 | slice: -1 %}
