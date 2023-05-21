@@ -342,27 +342,7 @@
                         {%- endif -%}
 
                       
-             
-                     
-{% comment %}
-<ul>
-  {%- for key in item.properties -%}
-    <li>{{ key }}</li>
-  {%- endfor -%}
-</ul>
-<hr>
-     
-{%- for property in item.properties -%}
-
-  {%- assign property_first_char = property.first | slice: 0 -%}
-  {%- if property.last != blank and property_first_char != '_' -%}
-    <span class="product-option">
-      {{ property.last | remove: "Huile de" | remove: "Huile" | capitalize }},
-    </span>
-  {%- endif -%}
-{%- endfor -%}
-<hr>
-                      {% endcomment %}
+  
                       {% if item.properties != blank  %}
                           <span class="description-cart">Huiles : </span>
                         {% endif %}
@@ -372,8 +352,97 @@
              
 
                    {% assign last_char = myprop2 | slice: -1 %}
+{% if last_char == 2 %}
+                            {%- assign property_first_char = property.first | slice: 0 -%}
+  {% if forloop.last %}
+   {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }}
+                             
+                            </span>
+                          {%- endif -%}
+    {% else %}
+     {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }},
+                             
+                            </span>
+                          {%- endif -%}
+  {% endif %}
 
-The last character is: {{ last_char }}
+                                                  {%- assign property_first_char = property.first | slice: 0 -%}
+  {% if forloop.last %}
+   {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }}
+                             
+                            </span>
+                          {%- endif -%}
+    {% else %}
+     {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }},
+                             
+                            </span>
+                          {%- endif -%}
+  {% endif %}
+                      
+  {% endif %}
+
+  {% if last_char == 3 %}
+                              {%- assign property_first_char = property.first | slice: 0 -%}
+  {% if forloop.last %}
+   {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }}
+                             
+                            </span>
+                          {%- endif -%}
+    {% else %}
+     {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }},
+                             
+                            </span>
+                          {%- endif -%}
+  {% endif %}
+
+                                                  {%- assign property_first_char = property.first | slice: 0 -%}
+  {% if forloop.last %}
+   {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }}
+                             
+                            </span>
+                          {%- endif -%}
+    {% else %}
+     {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }},
+                             
+                            </span>
+                          {%- endif -%}
+  {% endif %}
+
+                                                  {%- assign property_first_char = property.first | slice: 0 -%}
+  {% if forloop.last %}
+   {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }}
+                             
+                            </span>
+                          {%- endif -%}
+    {% else %}
+     {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                             {{ property.first  | remove: "Huile de" | remove: "Huile" | capitalize }},
+                             
+                            </span>
+                          {%- endif -%}
+  {% endif %}
+                      
+    {% endif %}
+
         
 
              
