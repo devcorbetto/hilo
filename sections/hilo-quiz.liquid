@@ -342,11 +342,41 @@
   <div>Elegiste Imperfections
    <style>
     .step5 .faq1 {
-      background: black;
+     display:block;
     }
   </style></div>
  
 </template>
+      <template x-if="selectedOptions[0].includes('Rougeurs') || selectedOptions[1].includes('Rougeurs') || selectedOptions[2].includes('Rougeurs')">
+  <div>Elegiste Rougeurs
+   <style>
+    .step5 .faq2 {
+     display:block;
+    }
+  </style></div>
+ 
+</template>
+
+      <template x-if="selectedOptions[0].includes('Eclat') || selectedOptions[1].includes('Eclat') || selectedOptions[2].includes('Eclat')">
+  <div>Elegiste Eclat
+   <style>
+    .step5 .faq3 {
+     display:block;
+    }
+  </style></div>
+ 
+</template>
+
+      <template x-if="selectedOptions[0].includes('Signes') || selectedOptions[1].includes('Signes') || selectedOptions[2].includes('Signes')">
+  <div>Elegiste Signes
+   <style>
+    .step5 .faq4 {
+     display:block;
+    }
+  </style></div>
+ 
+</template>
+  
 
              <span x-text="selectedOptions[0]"></span>
           <span x-text="selectedOptions[1]"></span>
