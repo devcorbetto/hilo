@@ -17,6 +17,12 @@
        <div class="w80">{{ item.product.title | escape }} </div><div class="w20">   {{- item.original_price | money -}} </div>
       </div>
          {%- endfor -%}
+<br><br>
+         {% if cart.total_price >= 5900 %}
+  <p>Livraison à partir de: Offerte</p>
+{% else %}
+  <p>Agrega {{ 5900 | minus: cart.total_price | money }} para: Offerte</p>
+{% endif %}
           
          <br><br>
       {%- if settings.show_cart_note -%}
@@ -83,11 +89,7 @@
                 </div>
               {%- endif -%}
           {%- endcase -%}
-          {% if cart.total_price >= 5900 %}
-  <p>¡Felicidades! Tu pedido califica para envío gratuito.</p>
-{% else %}
-  <p>Agrega {{ 5900 | minus: cart.total_price | money }} más a tu carrito para obtener envío gratuito.</p>
-{% endif %}
+       
         {% endfor %}
 
         <div id="cart-errors"></div>
