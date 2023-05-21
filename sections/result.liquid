@@ -115,45 +115,45 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
         <p class="text-center small-font" >Ces huiles végétales sont reconnues pour les propriétés<br> suivantes* :</p>
 
                                   
-                                  {% assign diagnostics_ing3 = diagnostics.ing3  %}
+                                  {% assign diagnostics_ing1 = diagnostics.ing1  %}
                                   {% if diagnostics.preocupa1 == 'Brillance' %}
   {% assign diagnostics_ing3 = 'Noisette' %}
 {% endif %}
 
                                      {% if   diagnostics.preocupa1 == 'Deshydratation'  %}
                               
-                                     {% assign diagnostics_ing3 = 'Onagre' %}
+                                     {% assign diagnostics_ing1 = 'Onagre' %}
                                     {% endif %}
 
                                   
 
                                   {% if diagnostics.preocupa1 == 'Imperfections' %}
   {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign diagnostics_ing3  = 'Noisette' %}
+    {% assign diagnostics_ing1  = 'Noisette' %}
    
   {% endif %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Rougeurs' %}
   {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign diagnostics_ing3  = 'Amande' %}
+    {% assign diagnostics_ing1  = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53a' %}
-  {% assign diagnostics_ing3  = 'Carotte' %}
+  {% assign diagnostics_ing1  = 'Carotte' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53b' %}
-  {% assign diagnostics_ing3  = 'Abricot' %}
+  {% assign diagnostics_ing1  = 'Abricot' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
 {% if diagnostics.preocupa1 == 'Signes' %}
   {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign diagnostics_ing3  = 'Argan' %}
+    {% assign diagnostics_ing1  = 'Argan' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
