@@ -369,7 +369,9 @@
                  {%- for property in item.properties -%}
             {% assign myprop = property | json  %}<br>
                   {{ myprop | remove: "["  | remove: "]"}}
-               
+               {% for prop in myprop  %}
+                 {{ prop }} <br>
+                 {% endfor %}
 
 
              
