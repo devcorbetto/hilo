@@ -343,22 +343,24 @@
 
                       
    
-                      {% if item.properties != blank  %}
-                          <span class="description-cart">Huiles : </span>
-                     
-                            {%- for property in item.properties -%}
-            {% assign myprop = property | json  %}<br>
-                    {% assign myprop2 =  myprop | remove: "["  | remove: "]" | remove: '"' %}<br>
-             
+{% if item.properties != blank  %}
+<span class="description-cart">Huiles : </span>
 
-                   {% assign last_char = myprop2 | slice: -1 %} 
+{%- for property in item.properties -%}
+{% assign myprop = property | json  %}<br>
+{% assign myprop2 =  myprop | remove: "["  | remove: "]" | remove: '"' %}<br>
 
-                        {% endfor %}
-                        {% if  last_char == 1 %}
-                        {{ last_char  }}
-                          {% endif %}
 
-                                                {% endif %}
+{% assign last_char = myprop2 | slice: -1 %} 
+
+{% endfor %}
+{% if  last_char == 1 %}
+{{ last_char  }}
+{% endif %}
+
+{% endif %}
+
+                      
                  {%- for property in item.properties -%}
         
 
