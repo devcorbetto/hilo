@@ -368,7 +368,11 @@
                         {% endif %}
                  {%- for property in item.properties -%}
             {{ property  | json }} <br>
-                   
+                   {% assign json_array = property | json %}
+
+{% assign value = json_array[1] %}
+
+El valor es: {{ value }}
              
                    
                           {%- assign property_first_char = property.first | slice: 0 -%}
