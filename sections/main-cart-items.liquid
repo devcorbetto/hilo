@@ -368,7 +368,7 @@
                         {% endif %}
                  {%- for property in item.properties -%}
             {% assign myprop = property | json  %}<br>
-                   {{ myprop[1] }}
+                   {{ myprop | split: "," }}
                   
 
 
