@@ -3079,6 +3079,11 @@ details-disclosure > details {
 }
 }
 
+.footer-block grid__item:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .multi-logos .a-left {
   left:-5%;
 }
