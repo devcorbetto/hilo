@@ -428,11 +428,11 @@
       {% if forloop.last %}
           {%- if property.last != blank and property_first_char != '_' -%}
           <span class="product-option">
-          {{ property.first   | capitalize }}
+          {{ property.first   | capitalize }},
           
           </span>
              <span class="product-option">
-          {{ property.first   | capitalize }}
+          {{ property.first   | capitalize }},
           
           </span>
                          <span class="product-option">
@@ -452,7 +452,7 @@
         </span>
           </span>
             <span class="product-option">
-        {{ property.first   | capitalize }},
+        {{ property.first   | capitalize }}
         
         </span>
         {%- endif -%}
@@ -469,7 +469,7 @@
           <span class="product-option">
           {{ property.first   | capitalize }}
           
-          </span>
+          </span>,
                           <span class="product-option">
           {{ property.first   | capitalize }}
           
