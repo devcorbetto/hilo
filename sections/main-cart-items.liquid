@@ -367,8 +367,8 @@
                           <span class="description-cart">Huiles : </span>
                         {% endif %}
                  {%- for property in item.properties -%}
-            {{ property  }} <br>
-                   {{ property.key  }}<br>
+            {{ property.value  }} <br>
+             
                    
                           {%- assign property_first_char = property.first | slice: 0 -%}
   {% if forloop.last %}
