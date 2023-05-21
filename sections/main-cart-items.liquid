@@ -522,9 +522,9 @@
 {% assign last_item_index = capture_array.size | minus: 1 %}
 
 {% for item in capture_array %}
-  {% unless forloop.index0 == last_item_index %}
-    {{ item }},
-  {% endunless %}
+
+    {{ item }}
+
 {% endfor %}               
                       
                       </dl>
