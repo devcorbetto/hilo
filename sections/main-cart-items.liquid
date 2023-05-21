@@ -367,7 +367,8 @@
                           <span class="description-cart">Huiles : </span>
                         {% endif %}
                  {%- for property in item.properties -%}
-            {{ property | json }} <br>
+            {% assign myprop = property | json  %}<br>
+                   {{ myprop[1] }}
                   
 
 
