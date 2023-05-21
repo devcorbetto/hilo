@@ -337,7 +337,15 @@
                Valider</button>
  </p>
    {% when 5 %}
-      
+
+     <template x-if="selectedOptions[0] = 'Imperfections' || selectedOptions[1] = 'Imperfections' selectedOptions[2] = 'Imperfections' ">
+  <div>Elegiste Imperfections</div>
+       <style>
+         .step5 .faq1   {
+           background:black;
+         }
+             </style>
+</template>
              <span x-text="selectedOptions[0]"></span>
           <span x-text="selectedOptions[1]"></span>
           <span x-text="selectedOptions[2]"></span>
