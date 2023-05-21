@@ -137,12 +137,13 @@
         
        </div>
     </div>
+    <div class="container-images" style="relative;">
         <img src="{{ ingrediente.image }}"  class="imghover"   x-on:click="openi{{ forloop.index }} = !openi{{ forloop.index }}"   style="    height: 50px;
     /* width: 25px; */
     margin: 0 auto;">
            <img src="{{ ingrediente.imagehover }}"    class="itshover"    style="    height: 90px;"
     class="multicolumn-card__image_modal">   
-      
+    </div>
        <h5 class="pt-10"> {{ ingrediente.name }}</h5>  
        <span class="ingrediente-caption ">{{ ingrediente.caption }}</span>  <br>   
         <quantity-input class="quantity ingrediente{{ forloop.index0 }} pt-8" >
