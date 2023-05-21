@@ -367,7 +367,13 @@
                           <span class="description-cart">Huiles : </span>
                         {% endif %}
                  {%- for property in item.properties -%}
-            {{ property  | json }} <br>
+         
+                   {% assign json_string = property  | json %}
+{% assign json_array = json_string | json %}
+
+{% assign value = json_array[1] %}
+
+El valor es: {{ value }}
              
                    
                           {%- assign property_first_char = property.first | slice: 0 -%}
