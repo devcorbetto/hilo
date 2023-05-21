@@ -345,13 +345,19 @@
    
                       {% if item.properties != blank  %}
                           <span class="description-cart">Huiles : </span>
-                        {% endif %}
-                 {%- for property in item.properties -%}
+                     
+                            {%- for property in item.properties -%}
             {% assign myprop = property | json  %}<br>
                     {% assign myprop2 =  myprop | remove: "["  | remove: "]" | remove: '"' %}<br>
              
 
-                   {% assign last_char = myprop2 | slice: -1 %}
+                   {% assign last_char = myprop2 | slice: -1 %} %}
+
+                        {% endfor %}
+
+                                                {% endif %}
+                 {%- for property in item.properties -%}
+        
 
         
 
