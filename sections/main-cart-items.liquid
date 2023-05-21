@@ -522,8 +522,8 @@
 
 
 {% for item in capture_array %}
-{% if forloop.last %}
-    {{ item }} <br>
+{% if forloop.index == 3 %}
+    {{ item }} 
   {% else %}
  {{ item }}, 
   {% endif %}
