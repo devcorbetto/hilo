@@ -367,8 +367,8 @@
                           <span class="description-cart">Huiles : </span>
                         {% endif %}
                  {%- for property in item.properties -%}
-            {% assign myprop = property | json | split: ","  %}<br>
-                  {{ myprop | split: "," }}
+            {% assign myprop = property | json  %}<br>
+                  {{ myprop | remove: "["  | remove: "]"}}
                
 
 
