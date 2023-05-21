@@ -137,7 +137,7 @@
         
        </div>
     </div>
-    <div class="container-images" style="relative;">
+    <div class="container-images" style="position:relative;">
         <img src="{{ ingrediente.image }}"  class="imghover"   x-on:click="openi{{ forloop.index }} = !openi{{ forloop.index }}"   style="    height: 50px;
     /* width: 25px; */
     margin: 0 auto;">
@@ -284,14 +284,14 @@ transform: translate(-50%, -50%);
   .ingrediente-caption {
     font-size:12px;
   }
-          .item-ingredientes:hover .imghover {
+          .container-images:hover .imghover {
           opacity:1;
           
         }
-            .item-ingredientes:hover .imghover {
+            .container-images:hover .imghover {
           opacity:0;
         }
-         .item-ingredientes:hover .itshover {
+         .container-images:hover .itshover {
           opacity:0;
           
         }
