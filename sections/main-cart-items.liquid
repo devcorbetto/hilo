@@ -348,9 +348,7 @@
 
 {%- for property in item.properties -%}
 {% assign myprop = property | json  %}
-{% assign myprop2 =  myprop | remove: "["  | remove: "]" | remove: '"' %}
-
-
+{% assign myprop2 =  myprop | remove: "["  | remove: "]" | remove: '"' | remove: ',' %}
 {% assign last_char = myprop2 | slice: -1 %} 
 {{ last_char }}
 
