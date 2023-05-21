@@ -337,6 +337,11 @@
                Valider</button>
  </p>
    {% when 5 %}
+  <style>
+    .step5 .faq1, .step5 .faq2, .step5 .faq3, .step5 .faq4 {
+      display:none;
+    }
+  </style>
 
   <template x-if="selectedOptions[0].includes('Imperfections') || selectedOptions[1].includes('Imperfections') || selectedOptions[2].includes('Imperfections')">
   <div>Elegiste Imperfections
@@ -376,7 +381,6 @@
   </style></div>
  
 </template>
-  
 
              <span x-text="selectedOptions[0]"></span>
           <span x-text="selectedOptions[1]"></span>
