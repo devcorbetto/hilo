@@ -11,9 +11,9 @@
     {% for ingrediente  in product.metafields.custom.ingredientes.value   %}
 
       {% if ingrediente.name == 'Huile de carotte' %}
-  {% assign propertyName = 'Carotte' %}
+  {% assign propertyName = 'carotte' %}
 {% elsif ingrediente.name == "Huile d'argan" %}
-  {% assign propertyName = 'Argan' %}
+  {% assign propertyName = 'argan' %}
 {% elsif ingrediente.name == "Huile d'abricot" %}
   {% assign propertyName = 'abricot' %}
 {% elsif ingrediente.name == 'Huile de noisette' %}
