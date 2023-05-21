@@ -342,7 +342,7 @@
                         {%- endif -%}
 
                       
-               <span class="description-cart">Huiles : </span>
+             
                      
 {% comment %}
 <ul>
@@ -363,6 +363,9 @@
 {%- endfor -%}
 <hr>
                       {% endcomment %}
+                      {% if item.properties  %}
+                          <span class="description-cart">Huiles : </span>
+                        {% endif %}
                  {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
