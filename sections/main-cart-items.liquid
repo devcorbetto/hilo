@@ -420,7 +420,7 @@
 
 {% endif %}
 
-                      
+{% capture propertys %}                      
 {%- for property in item.properties -%}
   {% if property contains '3' %}
 
@@ -459,6 +459,8 @@
       {% endif %}
 {% endif %}
 
+
+                        
 
   
 {% if property contains '2' %}
@@ -511,6 +513,11 @@
 {% endif %}
   
 {%- endfor -%}
+  {% endcapture %}
+              {{ propertys }}        
+                      
+                      
+                      
                       </dl>
 
                       <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
