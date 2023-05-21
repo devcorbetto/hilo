@@ -369,9 +369,9 @@
                  {%- for property in item.properties -%}
          
                    {% assign json_string = property  | json %}
-{% assign json_array = json_string | json %}
+{% assign json_array = json_string %}
 
-{% assign value = json_array[2] %}
+{% assign value = json_array[1] %}
 
 El valor es: {{ value }}
              
