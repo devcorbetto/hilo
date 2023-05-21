@@ -3079,7 +3079,7 @@ details-disclosure > details {
 }
 }
 
-.footer-block grid__item:last-child{
+.footer-block.grid__item:last-child{
     display: flex;
     justify-content: flex-end;
 }
