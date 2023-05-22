@@ -39,6 +39,14 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.corner-left-top {
+    position: absolute;
+    width: 60px;
+    left: -40px;
+    top: -40px;
+    transform: rotate(90deg);
+}
+
 .product-form__submit.button:after{
   box-shadow:none!important;
 }
