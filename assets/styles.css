@@ -1478,6 +1478,9 @@ slider-component {    width: 80%;
 .product__media-toggle:after {
 content:none !important; 
 }
+.global-media-settings {
+  border:none;
+}
   
 /*
 .product--thumbnail_slider .thumbnail-slider  img {
