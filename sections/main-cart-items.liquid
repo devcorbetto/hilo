@@ -211,7 +211,13 @@
             <tbody>
               {%- for item in cart.items -%}
 
-                <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
+                <tr class="cart-item var{{ variant.id }}" id="CartItem-{{ item.index | plus: 1 }}">
+                <style> 
+                .var45094152241447 {
+                display:none;
+                }
+                </style>
+                
                   <td class="cart-item__media">
                     {% if item.image %}
                       {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
