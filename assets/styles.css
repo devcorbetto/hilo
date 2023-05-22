@@ -43,6 +43,10 @@ section newsletter section-news
   box-shadow:none!important;
 }
 
+.product-form__buttons{
+  max-width:100%;
+}
+
 .link.underlined-linkk{
   font-size:12px;
 }
