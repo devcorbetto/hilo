@@ -28,6 +28,9 @@
             widths: '165, 360, 535, 750, 1070, 1500'
           }}
         {%- else -%}
+          {% if section.settings.customcss contains "corner-left-top-pink" %}
+            <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_gauche_rose.svg?v=1684750102" class="corner-left-top-pink eclat no-rotate top-wavestop2">
+          {% endif %}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
