@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
+    border-radius: 30px;
+}
+
 .customer button{
     background: #D0C4E2;
     border-radius: 30px;
