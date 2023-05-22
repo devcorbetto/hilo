@@ -17,25 +17,11 @@
             "customcss": "bg_subtitle",
             "text": "<p>Retrouvez ici tous nos conseils, astuces beauté<\/p>"
           }
-        },
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-0",
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-1",
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-2"
+        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-1"
       ],
       "settings": {
         "customcss": "bg_contact waves5d",

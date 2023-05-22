@@ -61,20 +61,11 @@
             "customcss": "",
             "text": "<p>Si vous vous posez vraiment la question… 😄<\/p>"
           }
-        },
-        "94392006-51f7-46cf-bc97-321db9fd9605": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "text": "<p>Slogan<\/p>"
-          }
         }
       },
       "block_order": [
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0",
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1",
-        "94392006-51f7-46cf-bc97-321db9fd9605"
+        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1"
       ],
       "settings": {
         "customcss": "waves4b",
@@ -184,14 +175,6 @@
             "text": "<p>Vous êtes passionné de cosmétiques et adorez prendre soin de votre peau ? Avec Hilo, co-créez des produits de qualité qui vous ressemblent et devenez ambassadeur d'une marque innovante !<\/p>"
           }
         },
-        "16806ba5-054c-4e53-8395-6af42c8519aa": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image_picker": "shopify:\/\/shop_images\/Au_fil_de_l_Hilo.svg"
-          }
-        },
         "e184a498-6e22-413b-96d7-8fbc9da62041": {
           "type": "liquid",
           "settings": {
@@ -203,7 +186,6 @@
       "block_order": [
         "template--17779856146727__c01e3c33-97c4-4c6d-9f30-dab971e57b49-1675644880a725a637-0",
         "c8b81962-d63d-4786-acc4-0f744aae8da1",
-        "16806ba5-054c-4e53-8395-6af42c8519aa",
         "e184a498-6e22-413b-96d7-8fbc9da62041"
       ],
       "settings": {
@@ -226,33 +208,10 @@
             "customcss": "",
             "heading_size": "h1"
           }
-        },
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "text": "<p>Retrouvez toutes nos offres d'emploi par ici 😊<\/p>"
-          }
-        },
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0",
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1",
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-2"
+        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0"
       ],
       "settings": {
         "customcss": "",
@@ -353,94 +312,6 @@
     },
     "19489bf3-7aa9-4364-aa76-ca3603fe218d": {
       "type": "multicolumn",
-      "blocks": {
-        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-0": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16dd79ab-a3d7-43e1-936f-b576ddc58691": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "6c8039a6-1efa-4de8-a664-4b04dd3d3ffe": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "8bf8cf06-d164-4c80-a9cc-37516bb6877c": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-0",
-        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-1",
-        "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-2",
-        "16dd79ab-a3d7-43e1-936f-b576ddc58691",
-        "6c8039a6-1efa-4de8-a664-4b04dd3d3ffe",
-        "8bf8cf06-d164-4c80-a9cc-37516bb6877c"
-      ],
       "settings": {
         "customcss": "margin5",
         "title": "REJOIGNEZ LA HILO FAMILY",

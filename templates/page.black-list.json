@@ -25,34 +25,11 @@
             "customcss": "bg_subtitle",
             "text": "<p>Comme toujours, notre mission est de vous proposer des <strong>formules avec un taux de naturalité le plus haut possible<\/strong> pour respecter votre peau et la planète. C'est pour cela que nous avons choisi de bannir de nombreux ingrédients de nos formules.<\/p>"
           }
-        },
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "40a05bbb-2620-4b8f-bcf3-8063645ed632": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "customcss": "bg",
-            "image_picker": "shopify:\/\/shop_images\/Photo_bandeau_accueil.png"
-          }
         }
       },
       "block_order": [
         "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2",
-        "40a05bbb-2620-4b8f-bcf3-8063645ed632"
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1"
       ],
       "settings": {
         "customcss": "waves5b bg_contact",
@@ -67,40 +44,16 @@
     "8a4ec562-72b1-465c-ad55-8f9b969d4ef3": {
       "type": "rich-text",
       "blocks": {
-        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
         "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-1": {
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
             "text": "<p>Hilo montre patte blanche (ou plutôt crème blanche), et blackliste les ingrédients suivants : ☠️<\/p>"
           }
-        },
-        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-0",
-        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-1",
-        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-2"
+        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-1"
       ],
       "settings": {
         "customcss": "full-width-faqs",
