@@ -46,6 +46,13 @@ section newsletter section-news
     top: 77px;
 }
 
+.corner-left-top-purple {
+    position: absolute;
+    width: 60px;
+    margin-right: 145px;
+    top: 77px;
+}
+
 .image-with-text .corner-left-top-pink.eclat {
   position: absolute;
     z-index: 1;
