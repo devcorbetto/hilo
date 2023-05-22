@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.result-multi{
+  margin-top:auto;
+}
+
 .corner-left-top-pink .eclat {
     position: absolute;
     width: 60px;
