@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+#insta-feed{
+  margin-bottom:150px;
+}
+
 .product-option+.product-option, .product-option {
     margin-top: 0.4rem;
 }
