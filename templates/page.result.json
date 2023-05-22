@@ -84,7 +84,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>N’oubliez pas que pour avoir une peau saine et belle, les soins que vous appliquez sur votre visage ne font pas tout. Hilo vous livre ces quelques Tips à appliquer au quotidien pour illuminer votre peau.<\/p>"
+            "text": "<p>N’oubliez pas que pour avoir une peau saine et belle, les soins que vous appliquez sN’oubliez pas que pour<br\/>avoir une peau saine et belle, les soins que vous appliquez sur votre visage ne<br\/>font pas tout.Hilo vous livre ces<br\/>quelques Tips à appliquer au quotidien pour illuminer votre peau.<strong> <\/strong>ur votre visage ne font pas tout. Hilo vous livre ces quelques Tips à appliquer au quotidien pour illuminer votre peau.<\/p>"
           }
         }
       },
