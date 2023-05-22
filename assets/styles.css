@@ -46,7 +46,7 @@ section newsletter section-news
     font-weight: bold;
 }
 
-.customer button:after, .customer button:hover{
+.customer button:after, .customer button:hover::after{
   box-shadow:none;
   --border-offset: none;
 }
