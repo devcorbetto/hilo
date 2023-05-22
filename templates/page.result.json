@@ -84,7 +84,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>N’oubliez pas que pour avoir une peau saine et belle, les soins que vous appliquez sur votre visage ne font pas tout.<\/p><p>Hilo vous livre ces quelques Tips à appliquer au quotidien pour illuminer votre peau.<strong> <\/strong><\/p>"
+            "text": "<p>N’oubliez pas que pour avoir une peau saine et belle, les soins que vous appliquez sur votre visage ne font pas tout.<\/p><p><\/p><p>Hilo vous livre ces quelques Tips à appliquer au quotidien pour illuminer votre peau.<strong> <\/strong><\/p>"
           }
         }
       },
