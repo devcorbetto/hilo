@@ -15,16 +15,18 @@
        {%- for item in cart.items -%}
           <div class="items-cart" style="width:100%;">
        <div class="w80">{{ item.product.title | escape }} </div><div class="w20">   {{- item.original_price | money -}} </div>
-      </div>
-         {%- endfor -%}
-<br><br>
-         {% if cart.total_price >= 5900 %} 
+
+             {% if cart.total_price >= 5900 %} 
    <div class="w80">  <p>Livraison à partir de: Offerte</div>    <div class="w20"></div>
 {% else %}
     <div class="w80"> 
       Para llegar a Offerte  te falta</div>    <div class="w20">  {{ 5900 | minus: cart.total_price | money }}</div>
 {% endif %}
           
+      </div>
+         {%- endfor -%}
+<br><br>
+        
          <br><br>
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
