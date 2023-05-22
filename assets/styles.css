@@ -46,6 +46,14 @@ section newsletter section-news
     top: 77px;
 }
 
+.image-with-text .corner-left-top-pink .eclat {
+  position: absolute;
+    z-index: 1;
+    width: 60px;
+    margin-left: -42px;
+    top: -40px;
+}
+
 .product-form__submit.button:after{
   box-shadow:none!important;
 }
