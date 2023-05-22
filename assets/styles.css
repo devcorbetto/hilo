@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.product-form__submit.button:after{
+  box-shadow:0!important;
+}
+
 .link.underlined-linkk{
   font-size:12px;
 }
