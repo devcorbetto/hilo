@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.link.underlined-linkk{
+  font-size:12px;
+}
+
 .rte-ingredient img{
   width:24px;
 }
