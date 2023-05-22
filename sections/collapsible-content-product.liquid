@@ -163,6 +163,9 @@ summary .icon-carret2 {
                     </style>
                     <br>
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
+                
+                {% elsif block.settings.row_content == '<p>COMMENT ÇA MARCHE</p>'  %}
+                hello
                 {% elsif block.settings.row_content == '<p>CONSIGNES DE RECYCLAGE</p>'  %}
                    {% for value in product.metafields.custom.photos_recyclage.value  %}
                <div style="display:grid; grid-template-columns:1fr 2fr; width:400px; margin-bottom:20px;">  {{  value.name }}  <img src="{{ value.url }}" style="
