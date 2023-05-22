@@ -54,6 +54,10 @@ section newsletter section-news
   margin-top:30px;
 }
 
+.shopify-challenge__container .shopify-challenge__message, .shopify-challenge__container .shopify-challenge__errors{
+  margin-bottom:30px;
+}
+
 .customer .field:after{
   border-radius:30px!important;
 }
