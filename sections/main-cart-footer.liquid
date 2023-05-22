@@ -20,7 +20,7 @@
    <div class="w80">  <p>Livraison à partir de: Offerte</div>    <div class="w20"></div>
 {% else %}
     <div class="w80"> 
-      Para llegar a Offerte  te falta</div>    <div class="w20">  {{ 5900 | minus: cart.total_price | money }}</div>
+      Plus que</div>    <div class="w20">  {{ 5900 | minus: cart.total_price | money }}</div> pour bénéficier de la livraison gratuite
 {% endif %}
           
       </div>
