@@ -84,11 +84,11 @@ en pleine santé.
               <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
             {%- when 'text' -%}
               {% if page.metafields.custom.result_peau %}
-                              {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
-                                {% assign diagnostics = diagnosticos[0] %}
-               {% if diagnostics.madure == 'nomadure' %}
-                {{ nomadure }}
-               {% endif %}
+                {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
+                {% assign diagnostics = diagnosticos[0] %}
+                 {% if diagnostics.madure == 'nomadure' %}
+                  {{ nomadure }}
+                 {% endif %}
                 <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
               {% else %}
                 <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
