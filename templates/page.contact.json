@@ -49,7 +49,7 @@
 
       ],
       "settings": {
-        "customcss": "bg_contact waves5b",
+        "customcss": "bg_contact waves5d",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "colors_6",
@@ -61,7 +61,7 @@
     "form": {
       "type": "contact-form",
       "custom_css": [
-        "input {border-radius:30px;}"
+        "input {border-radius: 30px;}"
       ],
       "settings": {
         "heading": "",
