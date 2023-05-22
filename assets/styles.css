@@ -46,6 +46,10 @@ section newsletter section-news
     font-weight: bold;
 }
 
+.customer button:after{
+  box-shadow:none;
+}
+
 #insta-feed{
   margin-bottom:150px!important;
 }
