@@ -164,7 +164,7 @@ summary .icon-carret2 {
                     <br>
                       {{ product.metafields.custom.comment_ca_marche | metafield_tag }}
                 
-                {% elsif block.settings.row_content == '<p>COMMENT ÇA MARCHE</p>'  %}
+                {% elsif block.settings.row_content == '<p>COMMENT ÇA MARCHE ?</p>'  %}
                 hello
                 {% elsif block.settings.row_content == '<p>CONSIGNES DE RECYCLAGE</p>'  %}
                    {% for value in product.metafields.custom.photos_recyclage.value  %}
