@@ -105,7 +105,7 @@
         "img {border-radius: 30px;}"
       ],
       "settings": {
-        "customcss": "lamarque_text1",
+        "customcss": "lamarque_text1 corner-right-top-pink",
         "image": "shopify:\/\/shop_images\/Elise_et_Margaux.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
