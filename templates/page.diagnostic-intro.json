@@ -86,20 +86,11 @@
             "text": "<p>🧖‍♀️ Connaître vos caractéristiques et vos tendances de peau du moment <\/p><p>✨ Obtenir votre match parfait pour personnaliser vos bases de soins Hilo <\/p><p>🌱 Connaître les bienfaits des actifs de votre match parfait <\/p><p>🧴 Découvrir votre routine de soins personnalisés en fonction des besoins de votre peau <\/p><p>💆‍♀️ Obtenir des conseils personnalisés en fonction de votre type de peau pour une peau saine au quotidien<\/p>",
             "text_style": "body"
           }
-        },
-        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-0",
-        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1",
-        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-2"
+        "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1"
       ],
       "custom_css": [
         "img {border-radius: 30px;}"
