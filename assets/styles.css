@@ -53,7 +53,7 @@ section newsletter section-news
     height: 103px;
     z-index: 10;
     margin-left: 372px;
-    top: -67px;
+    top: -63px;
 }
 
 .corner-right-top-purple {
@@ -68,7 +68,7 @@ section newsletter section-news
     z-index: 1;
     width: 60px;
     margin-left: -42px;
-    top: -40px;
+    top: -67px;
 }
 
 .product-form__submit.button:after{
