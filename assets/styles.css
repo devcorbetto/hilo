@@ -49,8 +49,10 @@ section newsletter section-news
 .corner-right-top-pink .eclat {
     position: absolute;
     width: 60px;
-    margin-left: 145px;
-    top: 77px;
+    height: 103px;
+    z-index: 10;
+    margin-left: 372px;
+    top: -63px;
 }
 
 .corner-right-top-purple {
