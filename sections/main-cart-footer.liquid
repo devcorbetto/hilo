@@ -16,15 +16,17 @@
           <div class="items-cart" style="width:100%;">
        <div class="w80">{{ item.product.title | escape }} </div><div class="w20">   {{- item.original_price | money -}} </div>
 
-             {% if cart.total_price >= 5900 %} 
-   <div class="w80">  <p>Livraison à partir de : Offerte</div>    <div class="w20"></div>
-{% else %}
-    <div class="w80"> 
-      Plus que<div class="w20">  {{ 5900 | minus: cart.total_price | money }}</div>pour bénéficier de la livraison gratuite</div>
-{% endif %}
+            
           
       </div>
          {%- endfor -%}
+          {% if cart.total_price >= 5900 %} 
+   <div class="w80">  <p>Livraison à partir de : </div>    <div class="w20">Offerte</div>
+{% else %}
+    <div class="w80"> 
+      Plus quepour bénéficier de la livraison gratuite<br>
+    </div> <div class="w20"> 5.90  </div>
+{% endif %}
 <br><br>
         
          <br><br>
