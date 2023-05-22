@@ -227,19 +227,6 @@
             "text": "<p>Découvrez les premières capsules éco-conçues pour personnaliser votre base de soin. <br\/>Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau. <\/p>"
           }
         },
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "12d5c4a7-78d2-410a-8f94-4d282a2ca70c": {
           "type": "text",
           "settings": {
@@ -251,7 +238,6 @@
       "block_order": [
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0",
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1",
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-2",
         "12d5c4a7-78d2-410a-8f94-4d282a2ca70c"
       ],
       "settings": {
@@ -369,15 +355,6 @@
     "e7f127fd-cda8-46d1-b8d5-967ecedb7c20": {
       "type": "rich-text",
       "blocks": {
-        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1": {
           "type": "text",
           "settings": {
@@ -408,7 +385,6 @@
         }
       },
       "block_order": [
-        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-0",
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1",
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2",
         "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf"
@@ -634,94 +610,6 @@
     },
     "e7b02f91-67dd-43fa-88ba-f3043f64f586": {
       "type": "multicolumn",
-      "blocks": {
-        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-0": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ed1abb61-f0f1-4c56-a649-7d25b3fc7af2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "b338b4b0-2017-470c-9177-1fcab4a63fed": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1fed07f6-b4b2-40ba-953d-8773f4239662": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/cuadro.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-0",
-        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-1",
-        "template--17746292277543__e7b02f91-67dd-43fa-88ba-f3043f64f586-1675376107c48808fc-2",
-        "ed1abb61-f0f1-4c56-a649-7d25b3fc7af2",
-        "b338b4b0-2017-470c-9177-1fcab4a63fed",
-        "1fed07f6-b4b2-40ba-953d-8773f4239662"
-      ],
       "settings": {
         "customcss": "margin5 titlemb-5m",
         "title": "REJOIGNEZ LA HILO FAMILY",
@@ -966,62 +854,6 @@
         "padding_top": 40,
         "padding_bottom": 60
       }
-    },
-    "c359a7a8-436c-4cc5-9f9f-893830fc3c72": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "373ff181-a833-41df-ae95-73f7e413cf47": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1039,8 +871,6 @@
     "1684764602ce8c50eb",
     "f52db200-881a-4cc4-8cee-315cec0b2421",
     "5158f987-865b-484c-8777-3d325ff4b90f",
-    "8cf76421-6fa4-42cd-a954-23ae04a049ae",
-    "c359a7a8-436c-4cc5-9f9f-893830fc3c72",
-    "373ff181-a833-41df-ae95-73f7e413cf47"
+    "8cf76421-6fa4-42cd-a954-23ae04a049ae"
   ]
 }
