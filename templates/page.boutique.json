@@ -26,19 +26,6 @@
             "text": "<p>Hilo vous propose des soins visage naturels et sur-mesure grâce aux petites capsules d'actifs à ajouter dans votre base de soin. <\/p>"
           }
         },
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "d79e4868-7e5c-4937-883c-e698df8d27f6": {
           "type": "text",
           "settings": {
@@ -50,7 +37,6 @@
       "block_order": [
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0",
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1",
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-2",
         "d79e4868-7e5c-4937-883c-e698df8d27f6"
       ],
       "settings": {
@@ -88,34 +74,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 80
-      }
-    },
-    "0ca57f1a-6dfe-431d-80d3-6a1604191d75": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "packs",
-        "products_to_show": 2,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
       }
     },
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a": {
@@ -299,64 +257,14 @@
         "padding_top": 60,
         "padding_bottom": 80
       }
-    },
-    "2e3183b2-7294-4e95-92fb-939e95fe53c8": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-2": {
-          "type": "button",
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "91ee8c72-0953-4424-b2d9-62d3abf4503c": {
-          "type": "caption",
-          "settings": {
-            "customcss": "",
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-1",
-        "template--17779790053671__2e3183b2-7294-4e95-92fb-939e95fe53c8-1675644880a725a637-2",
-        "91ee8c72-0953-4424-b2d9-62d3abf4503c"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a",
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
-    "0ca57f1a-6dfe-431d-80d3-6a1604191d75",
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
     "0390fa47-3651-4227-ab29-9dfcfa382c60",
-    "e442e363-5752-4e61-8ee8-ad266a5f317d",
-    "2e3183b2-7294-4e95-92fb-939e95fe53c8"
+    "e442e363-5752-4e61-8ee8-ad266a5f317d"
   ]
 }
