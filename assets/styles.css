@@ -39,7 +39,7 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.product-option+.product-option {
+.product-option+.product-option, .product-option {
     margin-top: 0.4rem;
 }
 
