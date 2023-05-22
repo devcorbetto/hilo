@@ -356,6 +356,7 @@
       "blocks": {
         "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
@@ -368,6 +369,7 @@
         },
         "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
@@ -380,6 +382,7 @@
         },
         "template--18276397875495__19489bf3-7aa9-4364-aa76-ca3603fe218d-1681130087928a8f71-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
@@ -392,6 +395,7 @@
         },
         "16dd79ab-a3d7-43e1-936f-b576ddc58691": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
@@ -404,6 +408,7 @@
         },
         "6c8039a6-1efa-4de8-a664-4b04dd3d3ffe": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
@@ -416,6 +421,7 @@
         },
         "8bf8cf06-d164-4c80-a9cc-37516bb6877c": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/cuadro.png",
@@ -453,6 +459,25 @@
         "padding_top": 52,
         "padding_bottom": 100
       }
+    },
+    "1684764937cc95afcf": {
+      "type": "apps",
+      "blocks": {
+        "3421f632-f7cf-486f-80b7-628ee85726d7": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "3421f632-f7cf-486f-80b7-628ee85726d7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -464,6 +489,7 @@
     "1edd166c-9532-49eb-b7b3-cda674a02113",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
-    "19489bf3-7aa9-4364-aa76-ca3603fe218d"
+    "19489bf3-7aa9-4364-aa76-ca3603fe218d",
+    "1684764937cc95afcf"
   ]
 }
