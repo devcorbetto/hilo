@@ -39,6 +39,13 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.customer button{
+    background: #D0C4E2;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
 #insta-feed{
   margin-bottom:150px!important;
 }
