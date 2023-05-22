@@ -40,7 +40,7 @@ section newsletter section-news
 */
 
 #insta-feed{
-  margin-bottom:150px;
+  margin-bottom:150px!important;
 }
 
 .product-option+.product-option, .product-option {
