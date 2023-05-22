@@ -298,7 +298,7 @@
         "img {border-radius: 30px;}"
       ],
       "settings": {
-        "customcss": "programme_text2 btn-circle",
+        "customcss": "programme_text2 btn-circle corner-left-top-pink",
         "image": "shopify:\/\/shop_images\/Campagne_en_cours.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
