@@ -43,6 +43,13 @@ section newsletter section-news
   font-size:12px;
 }
 
+*:focus-visible {
+    outline: none;
+    outline: 0px!important;
+    outline-offset: 0!important;
+    box-shadow: none!important;
+}
+
 .rte-ingredient img{
   width:24px;
 }
