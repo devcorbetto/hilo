@@ -200,7 +200,7 @@
         "text"
       ],
       "settings": {
-        "customcss": "rich-classic comment",
+        "customcss": "rich-classic comment corner-left-top-pink",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
