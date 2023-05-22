@@ -48,6 +48,7 @@ section newsletter section-news
 
 .customer button:after, .customer button:hover{
   box-shadow:none;
+  --border-offset: none;
 }
 
 #insta-feed{
