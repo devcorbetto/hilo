@@ -1475,7 +1475,9 @@ slider-component {    width: 80%;
        height: 500px !important;
     width: 500px !important;
  }
-
+.product__media-toggle:after {
+content:none !important; 
+}
   
 /*
 .product--thumbnail_slider .thumbnail-slider  img {
