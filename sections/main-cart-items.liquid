@@ -211,7 +211,7 @@
             <tbody>
               {%- for item in cart.items -%}
 
-                <tr class="cart-item var{{ variant.id }}" id="CartItem-{{ item.index | plus: 1 }}">
+                <tr class="cart-item var{{ item.variant.id }}" id="CartItem-{{ item.index | plus: 1 }}">
                 <style> 
                 .var45094152241447 .product-option {
                 display:none;
