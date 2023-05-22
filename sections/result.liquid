@@ -1,3 +1,10 @@
+{% unless customer.tags  %}
+  <p></p>
+   <script>
+    window.location.href = 'https://hilo-cosmetiques.fr/pages/diagnostic';
+  </script>
+{% endunless %}
+
 {% capture onagre %}<b>Huile d’onagre</b> : Hydratante, revitalisante et adoucissante{% endcapture %}
 {% capture carotte %}<b>Huile de carotte</b> : Bonne mine, assouplissante et favorise le bronzage{% endcapture %}
 {% capture abricot %}<b>Huile d’abricot</b> : Illuminante, nourrissante et tonifiante{% endcapture %}
