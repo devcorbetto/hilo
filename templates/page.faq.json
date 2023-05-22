@@ -25,34 +25,11 @@
             "customcss": "bg_subtitle",
             "text": "<p>Retrouvez ici les réponses à vos questions les plus fréquentes. <\/p><p>Pour toute autre interrogation, <a href=\"\/pages\/contact\" title=\"Contact\">contactez-nous ici<\/a>.<\/p>"
           }
-        },
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "40a05bbb-2620-4b8f-bcf3-8063645ed632": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "customcss": "bg",
-            "image_picker": "shopify:\/\/shop_images\/Photo_bandeau_accueil.png"
-          }
         }
       },
       "block_order": [
         "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-2",
-        "40a05bbb-2620-4b8f-bcf3-8063645ed632"
+        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1"
       ],
       "settings": {
         "customcss": "waves5b bg_contact",
@@ -214,36 +191,6 @@
             "page": ""
           }
         },
-        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Le paiement est-il sécurisé ?",
-            "icon": "none",
-            "row_content": "<p>Bien sûr ! Toutes vos coordonnées bancaires sont cryptées et les transactions sont donc<br\/>sécurisées.<\/p>",
-            "page": ""
-          }
-        },
-        "f71421b0-7f91-4efb-b4de-41fbffe71aea": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Quels sont les moyens de paiement disponible sur le site ?",
-            "icon": "none",
-            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire, via Paypal ou Apple Pay\/Google<br\/>Pay.<\/p>",
-            "page": ""
-          }
-        },
-        "3849776c-a13f-4fa4-9e99-90a24137ee8b": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Puis-je retourner un produit qui ne me conviendrait pas ?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
         "689d6537-3437-4425-a49f-2aa802bbb35f": {
           "type": "collapsible_row",
           "settings": {
@@ -295,9 +242,6 @@
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0",
         "9d2e2dbd-0a71-4eda-84b6-2403dc1364bb",
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2",
-        "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-3",
-        "f71421b0-7f91-4efb-b4de-41fbffe71aea",
-        "3849776c-a13f-4fa4-9e99-90a24137ee8b",
         "689d6537-3437-4425-a49f-2aa802bbb35f",
         "b97fdf9d-5707-4e7e-821c-76a3f8034105",
         "814fb159-338f-4dde-a025-1e4d60e1cdb2",
@@ -339,33 +283,11 @@
             "row_content": "<p>Pour rejoindre l’aventure et ne rien louper des actualités d’Hilo, vous pouvez vous inscrire à notre newsletter directement sur la page d’accueil du site. Suivez-nous également sur nos réseaux sociaux : <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">Instagram<\/a>, <a href=\"https:\/\/www.facebook.com\/hilo.fr\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/hilo.fr\">Facebook<\/a>, <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">TikTok<\/a> et <a href=\"https:\/\/www.linkedin.com\/company\/hilo-cosm%C3%A9tiques\/\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/company\/hilo-cosm%C3%A9tiques\/\">LinkedIn<\/a><\/p>",
             "page": ""
           }
-        },
-        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0",
-        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1",
-        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-2",
-        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-3"
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1"
       ],
       "settings": {
         "caption": "",
