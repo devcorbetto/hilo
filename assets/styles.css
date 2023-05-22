@@ -43,7 +43,7 @@ section newsletter section-news
     border-radius: 30px;
 }
 
-.customer button{
+.customer button, .shopify-challenge__container .shopify-challenge__button{
     background: #D0C4E2;
     border-radius: 30px;
     color: white;
