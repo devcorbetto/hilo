@@ -1806,12 +1806,12 @@ line-height:14px;
 }
 
 .cart-item {
-    display:block;
+    display:block!important;
 }
 
 .cart-item__image {
     max-width: 100%!important;
-  width:100%;
+  width:100%!important;
 }
 
 .title-wrapper-with-link {
