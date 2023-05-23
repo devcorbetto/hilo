@@ -59,7 +59,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Îlot [n.m] : petite île sur laquelle le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
+            "text": "<p><strong>Îlot [n.m]<\/strong> : petite île sur laquelle le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
           }
         }
       },
@@ -90,7 +90,7 @@
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nous c'est Elise et Margaux, les fondatrices d'Hilo !<\/p><p> Nous avons commencé à fabriquer nos cosmétiques maison car nous ne trouvions pas de soins adaptés à notre peau et à ses besoins. Gros hic : cela constituait un énorme gaspillage de plastique et de matières premières. <\/p><p>Alors, on a créé Hilo, la marque de cosmétiques naturels et personnalisables s’adaptant à toutes les peaux, tout au long de la vie. <\/p><p>Notre innovation, ce sont les capsules Hilo dans lesquelles vos actifs sont pré-dosées. Ces gélules végétales sont biodégradables et compostables.<\/p><p> Pas de déchet ni de gaspillage, vous ne gardez que l’essentiel, votre soin !<\/p>",
+            "text": "<p>Nous c’est Elise et Margaux : les fondatrices d’Hilo !<br\/><br\/>Quelques années après notre rencontre sur les bancs de l’école, nous avons fait le même constat :  trouver un soin adapté à notre peau était complexe.<br\/><br\/>Nous nous sommes alors mises à créer nos soins personnalisés mais cela  était synonyme de déchets et de gaspillage.<br\/><br\/>C’est pour cette raison que nous avons décidé de créer Hilo : la première marque de cosmétique naturelle & personnalisable grâce à des capsules d’actifs éco-conçues. 🌱<br\/><br\/>Notre innovation, ce sont les capsules Hilo dans lesquelles nos actifs sont pré-dosées pour personnaliser facilement ses cosmétiques sans créer de déchets ni de gaspillage.  <br\/><br\/>Vous ne gardez que l’essentiel, votre soin !<\/p>",
             "text_style": "body"
           }
         }
@@ -130,7 +130,7 @@
         "6184607f-c260-4cd0-82b3-dbe5d76be10f": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>L’inclusivité<\/strong> : Selon nous, il existe autant de types de beauté qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. <\/p><p><strong>Le naturel<\/strong> : Convaincues que la nature a le meilleur à nous offrir, nous souhaitons que chacun puisse facilement créer ses soins 100% naturels et personnalisés. <\/p><p><strong>L’écoresponsabilité<\/strong> : Conscientes de notre impact environnemental, nous voulons vous offrir des cosmétiques plus responsables et durables.<\/p>",
+            "text": "<p><strong>L’inclusivité<\/strong> : Chaque peau est unique et possède ses propres caractéristiques qui peuvent évoluer dans le temps ou en fonction des saisons par exemple.  Ainsi, nous souhaitons offrir des soins qui s'adaptent parfaitement à chaque peau tout au long de la vie. <\/p><p><strong>Le naturel<\/strong> : Convaincues que la nature a le meilleur à nous offrir, nous souhaitons que chacun puisse facilement créer ses soins 100% naturels et personnalisés. <\/p><p><strong>L’écoresponsabilité<\/strong> : Conscientes de notre impact environnemental, nous voulons vous offrir des cosmétiques plus responsables et durables.<\/p>",
             "text_style": "body"
           }
         }
