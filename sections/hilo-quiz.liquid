@@ -442,15 +442,11 @@
   </style></div>
  
 </template>
-
     <template x-if="selectedOptions.length === 2 && selectedOptions.includes('Brillance') && selectedOptions.includes('Déshydratation')">
          <!-- Código si se seleccionó "Brillance" y "Déshydratation" -->
          <p>Se seleccionó "Brillance" y "Déshydratation".</p>
       </template>
-      <template x-if="selectedOptions.length === 2 && selectedOptions.includes('Déshydratation') && !selectedOptions.includes('Brillance')">
-         <!-- Código si se seleccionó "Déshydratation" y no se seleccionó "Brillance" -->
-         <p>Se seleccionó "Déshydratation" y no se seleccionó "Brillance".</p>
-      </template>
+     
         <p class="text-center"> 
          
         <button @click="
