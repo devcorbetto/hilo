@@ -1793,5 +1793,10 @@ line-height:14px;
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.container-cart {
+    display: block;
+    width: 100%;
+}
 }
 
