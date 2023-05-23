@@ -630,12 +630,12 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
   {% endif %}
 {% endif %}
 
-{% if diagnostic.preocupa1 == 'Teint' and diagnostic.f53 == 'f53a' %}
+{% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53a' %}
   {% assign diagnostic_ing3  = 'Carotte' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
-{% if diagnostic.preocupa1 == 'Teint' and diagnostic.f53 == 'f53b' %}
+{% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53b' %}
   {% assign diagnostic_ing3  = 'Abricot' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
@@ -659,7 +659,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
     {% assign diagnostic_ing2 = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa2 == 'Teint' %}
+{% elsif diagnostic.preocupa2 == 'Eclat' %}
   {% if diagnostic.f53 == 'f53a' %}
     {% assign diagnostic_ing2 = 'Carotte' %}
   {% elsif diagnostic.f53 == 'f53b' %}
@@ -691,7 +691,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
     {% assign diagnostic_ing1 = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa1 == 'Teint' %}
+{% elsif diagnostic.preocupa1 == 'Eclat' %}
   {% if diagnostic.f53 == 'f53a' %}
     {% assign diagnostic_preocupa1 = 'Carotte' %}
     {% assign diagnostic_ing1 = 'Carotte' %}
