@@ -1822,8 +1822,10 @@ line-height:14px;
     margin: 1.5rem 0;
 }
 
-.product-option .button{
+.product-option .button, .product-option .nobutton{
   display:block;
+  width:100%;
+  margin:auto;
 }
 
 .product-option{
