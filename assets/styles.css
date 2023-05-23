@@ -1784,5 +1784,9 @@ line-height:14px;
 .container-modal .container-columns{
   display:block;
 }
+
+.container-modal .column1-container, .column2 {
+    margin-top: 30px;
+}
 }
 
