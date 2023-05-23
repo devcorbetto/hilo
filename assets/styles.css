@@ -1772,5 +1772,9 @@ line-height:14px;
 .menu-drawer__account svg {
     margin-right: 17px;
 }
+
+.product slider-component{
+  width:100%;
+}
 }
 
