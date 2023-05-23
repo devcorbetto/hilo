@@ -87,6 +87,14 @@ section newsletter section-news
     top: 49px;
 }
 
+.corner-left-top-purple .eclat {
+    position: absolute;
+    width: 60px;
+  height: 103px;
+    margin-left: 145px;
+    top: 49px;
+}
+
 .corner-right-top-pink .eclat {
     position: absolute;
     width: 60px;
