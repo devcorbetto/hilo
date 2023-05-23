@@ -464,7 +464,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                 <div class="column1">
                                
                                     {% assign ing1_image = '' %}
-
+{% assign diagnostics_ing1 = diagnostic.ing1  %}
  {% if diagnostic_ing1 == '' %}  
 
 {% if diagnostic.ing1 == 'Amande' %}
@@ -488,7 +488,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                                   
 <img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="height:64px;">
                                 <div class="container-color"> 
-                                {% if diagnostic_ing1 == 'Amande' %}
+{% if diagnostic_ing1 == 'Amande' %}
  {{ amande }}
 {% elsif diagnostic_ing1 == 'Onagre' %}
  {{ onagre }}
