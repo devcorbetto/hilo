@@ -109,41 +109,41 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
 
                                   
 {% assign diagnostics_ing3 = diagnostics.ing3  %}
-{% if diagnostics.preocupa1 == 'Brillance' %}
+{% if diagnostics.preocupa3 == 'Brillance' %}
 {% assign diagnostics_ing3 = 'Noisette' %}
 {% endif %}
 
-{% if   diagnostics.preocupa1 == 'Deshydratation'  %}
+{% if   diagnostics.preocupa3 == 'Deshydratation'  %}
 {% assign diagnostics_ing3 = 'Onagre' %}
 {% endif %}
 
                                   
 
-{% if diagnostics.preocupa1 == 'Imperfections' %}
+                                  {% if diagnostics.preocupa3 == 'Imperfections' %}
   {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
     {% assign diagnostics_ing3  = 'Noisette' %}
    
   {% endif %}
 {% endif %}
 
-{% if diagnostics.preocupa1 == 'Rougeurs' %}
+{% if diagnostics.preocupa3 == 'Rougeurs' %}
   {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
     {% assign diagnostics_ing3  = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
 
-{% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53a' %}
+{% if diagnostics.preocupa3 == 'Teint' and diagnostics.f53 == 'f53a' %}
   {% assign diagnostics_ing3  = 'Carotte' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
-{% if diagnostics.preocupa1 == 'Teint' and diagnostics.f53 == 'f53b' %}
+{% if diagnostics.preocupa3 == 'Teint' and diagnostics.f53 == 'f53b' %}
   {% assign diagnostics_ing3  = 'Abricot' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
 
-{% if diagnostics.preocupa1 == 'Signes' %}
+{% if diagnostics.preocupa3 == 'Signes' %}
   {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
     {% assign diagnostics_ing3  = 'Argan' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
@@ -180,42 +180,40 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
   {% assign diagnostics_ing2 = 'Onagre' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
-
-
-          
+                                
  {% assign diagnostics_ing1 = diagnostics.ing1 %}
-{% if diagnostics.preocupa3 == 'Imperfections' %}
+{% if diagnostics.preocupa1 == 'Imperfections' %}
   {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign diagnostics_preocupa3 = 'Noisette' %}
+    {% assign diagnostics_preocupa1 = 'Noisette' %}
     {% assign diagnostics_ing1 = 'Noisette' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostics.preocupa3 == 'Rougeurs' %}
+{% elsif diagnostics.preocupa1 == 'Rougeurs' %}
   {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign diagnostics_preocupa3 = 'Amande' %}
+    {% assign diagnostics_preocupa1 = 'Amande' %}
     {% assign diagnostics_ing1 = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostics.preocupa3 == 'Teint' %}
+{% elsif diagnostics.preocupa1 == 'Teint' %}
   {% if diagnostics.f53 == 'f53a' %}
-    {% assign diagnostics_preocupa3 = 'Carotte' %}
+    {% assign diagnostics_preocupa1 = 'Carotte' %}
     {% assign diagnostics_ing1 = 'Carotte' %}
   {% elsif diagnostics.f53 == 'f53b' %}
-    {% assign diagnostics_preocupa3 = 'Abricot' %}
+    {% assign diagnostics_preocupa1 = 'Abricot' %}
     {% assign diagnostics_ing1 = 'Abricot' %}
   {% endif %}
-{% elsif diagnostics.preocupa3 == 'Age' %}
+{% elsif diagnostics.preocupa1 == 'Age' %}
   {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign diagnostics_preocupa3 = 'Argan' %}
+    {% assign diagnostics_preocupa1 = 'Argan' %}
     {% assign diagnostics_ing1 = 'Argan' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostics.preocupa3 == 'Brillance' %}
-  {% assign diagnostics_preocupa3 = 'Noisette' %}
+{% elsif diagnostics.preocupa1 == 'Brillance' %}
+  {% assign diagnostics_preocupa1 = 'Noisette' %}
   {% assign diagnostics_ing1 = 'Noisette' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostics.preocupa3 == 'Déshydratation' %}
-  {% assign diagnostics_preocupa3 = 'Onagre' %}
+{% elsif diagnostics.preocupa1 == 'Déshydratation' %}
+  {% assign diagnostics_preocupa1 = 'Onagre' %}
   {% assign diagnostics_ing1 = 'Onagre' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
