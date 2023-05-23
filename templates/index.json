@@ -38,7 +38,7 @@
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
         "imageicon": "shopify:\/\/shop_images\/Fle_Cche-svg.svg",
         "customcss": "waves2a banner-home",
-        "image": "shopify:\/\/shop_images\/Flyer_verso.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -183,7 +183,7 @@
           "type": "image",
           "settings": {
             "customcss": "mb-10m corner-left-top-pink",
-            "image_picker": "shopify:\/\/shop_images\/GIF_page_accueil.gif"
+            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-base-de-creme-et-capsules-2.gif"
           }
         },
         "text": {
@@ -258,7 +258,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-carotte_1.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
             "title": "Huile de<br> carotte",
             "text": "<p>Bonne mine<\/p>",
             "link_label": "",
@@ -270,7 +270,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-argan_1.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
             "title": "Huile <br>d'argan",
             "text": "<p>Anti-âge<\/p>",
             "link_label": "",
@@ -282,7 +282,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-abricot_1.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
             "title": "Huile <br>d'abricot",
             "text": "<p>Illuminante<\/p>",
             "link_label": "",
@@ -294,7 +294,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-noisette_2.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
             "title": "Huile de<br> noisette",
             "text": "<p>Anti-imperfections<\/p>",
             "link_label": "",
@@ -306,7 +306,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-amande-douce.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
             "title": "Huile d'amande<br> douce",
             "text": "<p>Apaisante<\/p>",
             "link_label": "",
@@ -318,7 +318,7 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-onagre_1.svg",
-            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre.png",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
             "title": "Huile <br>d'onagre",
             "text": "<p>Hydratante<\/p>",
             "link_label": "",
