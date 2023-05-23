@@ -1811,6 +1811,7 @@ line-height:14px;
 
 .cart-item__image {
     max-width: 100%!important;
+  width:100%;
 }
 
 .title-wrapper-with-link {
