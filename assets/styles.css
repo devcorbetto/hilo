@@ -1009,6 +1009,14 @@ background-position: left top;
 .multi-slider .multicolumn-card.content-container > div:first-child{
   width:100%;
 }
+
+.link_list_container, .text_container{
+  width:100%;
+}
+
+.footer__list-social.list-social{
+  justify-content:left;
+}
 }
 
 
