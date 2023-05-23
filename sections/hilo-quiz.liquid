@@ -340,14 +340,7 @@
 
      <p class="onlyone text-center">  Votre diagnostic touche à sa fin </p>
 
-      <template x-if="selectedOptions.length === 1 && selectedOptions.includes('Brillance')">
-         <!-- Código si solo se seleccionó "Brillance" -->
-         <p>Solo se seleccionó "Brillance".</p>
-      </template>
-      <template x-else>
-         <!-- Código si no se seleccionó solo "Brillance" -->
-         <p>No se seleccionó solo "Brillance".</p>
-      </template>
+ 
      
   <style>
     .onlyone {
@@ -427,7 +420,7 @@
  
 </template>
      
-     <template x-if="selectedOptions[0].includes('Brillance') && selectedOptions[1].includes('') && selectedOptions[2].includes('')">
+     <template x-if="selectedOptions.length === 1 && selectedOptions.includes('Brillance')">
   <div>
     
    <style>
@@ -438,7 +431,7 @@
   </style></div>
  
 </template>
-     <template x-if="selectedOptions[0].includes('Deshydratation') && selectedOptions[1].includes('') && selectedOptions[2].includes('')">
+     <template x-if="selectedOptions.length === 1 && selectedOptions.includes('Deshydratation')">
   <div>
     
    <style>
