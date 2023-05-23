@@ -1745,6 +1745,8 @@ line-height:14px;
     justify-content: start !important;
 }
 }
+
+
 @media (max-width:989px){
 .multi-slider .multicolumn-card.content-container > div:first-child{
   width:100%;
@@ -1756,6 +1758,10 @@ line-height:14px;
 
 .footer__list-social.list-social{
   justify-content:left;
+}
+
+.multi-slider .slick-slide .button{
+  width:100%;
 }
 }
 
