@@ -1768,5 +1768,9 @@ line-height:14px;
   .modal{
     width:100%!important;
   }
+
+.menu-drawer__account svg {
+    margin-right: 17px;
+}
 }
 
