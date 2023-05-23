@@ -134,16 +134,7 @@
              {% if forloop.index == 3%}
              <h2 class="h2-collection"> 3. Nettoyer</h2>
              {% endif %}
-             {% render 'card-product',
-              card_product: product,
-              media_aspect_ratio: section.settings.image_ratio,
-              show_secondary_image: section.settings.show_secondary_image,
-              show_vendor: section.settings.show_vendor,
-              show_rating: section.settings.show_rating,
-              show_quick_add: section.settings.enable_quick_add,
-              section_id: section.id,
-                  text-for-result: true
-            %}
+            
           </li>
             {% endif %}
        {% else %}
