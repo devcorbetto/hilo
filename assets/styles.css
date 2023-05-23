@@ -1766,7 +1766,7 @@ line-height:14px;
 }
 
   .modal{
-    width:100%;
+    width:100%!important;
   }
 }
 
