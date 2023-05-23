@@ -339,6 +339,16 @@
    {% when 5 %}
 
      <p class="onlyone text-center">  Votre diagnostic touche à sa fin </p>
+
+      <template x-if="selectedOptions.length === 1 && selectedOptions.includes('Brillance')">
+         <!-- Código si solo se seleccionó "Brillance" -->
+         <p>Solo se seleccionó "Brillance".</p>
+      </template>
+      <template x-else>
+         <!-- Código si no se seleccionó solo "Brillance" -->
+         <p>No se seleccionó solo "Brillance".</p>
+      </template>
+     
   <style>
     .onlyone {
           color: #575756;
