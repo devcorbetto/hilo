@@ -391,74 +391,74 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
 {% endif %}
 
 
-                                  
+                                          
 {% assign diagnostic_ing2 = diagnostic.ing2 %}
- {% if diagnostic.preocupa2 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_ing2 = 'Noisette' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
+{% if diagnostic.preocupa2 == 'Imperfections' %}
+ {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+   {% assign diagnostic_ing2 = 'Noisette' %}
+   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_ing2 = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
+ {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+   {% assign diagnostic_ing2 = 'Amande' %}
+   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Eclat' %}
-  {% if diagnostic.f53 == 'f53a' %}
-    {% assign diagnostic_ing2 = 'Carotte' %}
-  {% elsif diagnostic.f53 == 'f53b' %}
-    {% assign diagnostic_ing2 = 'Abricot' %}
-  {% endif %}
+ {% if diagnostic.f53 == 'f53a' %}
+   {% assign diagnostic_ing2 = 'Carotte' %}
+ {% elsif diagnostic.f53 == 'f53b' %}
+   {% assign diagnostic_ing2 = 'Abricot' %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Age' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_ing2 = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
+ {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+   {% assign diagnostic_ing2 = 'Argan' %}
+   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Brillance' %}
-  {% assign diagnostic_ing2 = 'Noisette' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% assign diagnostic_ing2 = 'Noisette' %}
+ {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% elsif diagnostic.preocupa2 == 'Deshydratation' %}
-  {% assign diagnostic_ing2 = 'Onagre' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% assign diagnostic_ing2 = 'Onagre' %}
+ {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
                                 
- {% assign diagnostic_ing3 = diagnostic.ing1 %}
-{% if diagnostic.preocupa1 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_preocupa3= 'Noisette' %}
-    {% assign diagnostic_ing1 = 'Noisette' %}
+                          
+{% assign diagnostics_ing1 = diagnostics.ing1 %}
+{% if diagnostics.preocupa3 == 'Imperfections' %}
+  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+    {% assign diagnostics_preocupa3 = 'Noisette' %}
+    {% assign diagnostics_ing1 = 'Noisette' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa3 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_preocupa1 = 'Amande' %}
-    {% assign diagnostic_ing1 = 'Amande' %}
+{% elsif diagnostics.preocupa3 == 'Rougeurs' %}
+  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
+    {% assign diagnostics_preocupa3 = 'Amande' %}
+    {% assign diagnostics_ing1 = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa3 == 'Eclat' %}
-  {% if diagnostic.f53 == 'f53a' %}
-    {% assign diagnostic_preocupa3 = 'Carotte' %}
-    {% assign diagnostic_ing1 = 'Carotte' %}
-  {% elsif diagnostic.f53 == 'f53b' %}
-    {% assign diagnostic_preocupa1 = 'Abricot' %}
-    {% assign diagnostic_ing1 = 'Abricot' %}
+{% elsif diagnostics.preocupa3 == 'Eclat' %}
+  {% if diagnostics.f53 == 'f53a' %}
+    {% assign diagnostics_preocupa3 = 'Carotte' %}
+    {% assign diagnostics_ing1 = 'Carotte' %}
+  {% elsif diagnostics.f53 == 'f53b' %}
+    {% assign diagnostics_preocupa3 = 'Abricot' %}
+    {% assign diagnostics_ing1 = 'Abricot' %}
   {% endif %}
-{% elsif diagnostic.preocupa1 == 'Age' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_preocupa3 = 'Argan' %}
-    {% assign diagnostic_ing1 = 'Argan' %}
+{% elsif diagnostics.preocupa3 == 'Age' %}
+  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
+    {% assign diagnostics_preocupa3 = 'Argan' %}
+    {% assign diagnostics_ing1 = 'Argan' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa3 == 'Brillance' %}
-  {% assign diagnostic_preocupa3 = 'Noisette' %}
-  {% assign diagnostic_ing1 = 'Noisette' %}
+{% elsif diagnostics.preocupa3 == 'Brillance' %}
+  {% assign diagnostics_preocupa3 = 'Noisette' %}
+  {% assign diagnostics_ing1 = 'Noisette' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostic.preocupa3 == 'Déshydratation' %}
-  {% assign diagnostic_preocupa3= 'Onagre' %}
-  {% assign diagnostic_ing1 = 'Onagre' %}
+{% elsif diagnostics.preocupa3 == 'Déshydratation' %}
+  {% assign diagnostics_preocupa3 = 'Onagre' %}
+  {% assign diagnostics_ing1 = 'Onagre' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-                                
+{% endif %}             
                                  <p class="text-center pt-10 mb-4">Selon mon diagnostic favori pour    {{ diagnostic.name }} réalisé le {{ diagnostic.date }}</p>
                              <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
                                 <div class="column1">
