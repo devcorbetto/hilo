@@ -442,6 +442,15 @@
   </style></div>
  
 </template>
+
+      <template x-if="hasSelectedCombination(selectedOptions, ['Brillance', 'Déshydratation'])">
+         <!-- Código si se seleccionó "Brillance" y "Déshydratation" en cualquier orden -->
+         <p>Se seleccionó "Brillance" y "Déshydratation".</p>
+      </template>
+      <template x-if="hasSelectedCombination(selectedOptions, ['Déshydratation', 'Brillance'])">
+         <!-- Código si se seleccionó "Déshydratation" y "Brillance" en cualquier orden -->
+         <p>Se seleccionó "Déshydratation" y "Brillance".</p>
+      </template>
         <p class="text-center"> 
          
         <button @click="
