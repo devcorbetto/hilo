@@ -1818,6 +1818,10 @@ line-height:14px;
     display: block!important;;
 }
 
+.title--primary {
+    margin: 1.5rem 0;
+}
+
 .container-cart > div {
     width: 100%!important;;
     padding-left: 30px!important;;
