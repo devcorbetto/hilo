@@ -397,7 +397,7 @@
  
 </template>
 
-<template x-if="selectedOptions[0].includes('Brillance') && selectedOptions[1].includes('Deshydratation') && selectedOptions[2].includes('')">
+<template  x-if="selectedOptions.length === 2 && selectedOptions.includes('Déshydratation') && selectedOptions.includes('Brillance')">
   <div>
     
    <style>
@@ -408,7 +408,7 @@
   </style></div>
  
 </template>
-<template x-if="selectedOptions[0].includes('Deshydratation') && selectedOptions[1].includes('Brillance') &&selectedOptions[2].includes('')">
+<template x-if="selectedOptions.length === 2 && selectedOptions.includes('Brillance') && selectedOptions.includes('Déshydratation')">
   <div>
     
    <style>
