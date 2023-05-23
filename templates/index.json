@@ -366,7 +366,7 @@
           "type": "button",
           "settings": {
             "customcss": "btn-circle",
-            "button_label": "Je fais mon diagnostic",
+            "button_label": "Je réalise mon diagnostic",
             "button_link": "shopify:\/\/pages\/diagnostic",
             "button_style_secondary": true,
             "button_label_2": "",
