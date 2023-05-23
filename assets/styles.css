@@ -544,9 +544,6 @@ font-size:10px;
 
 
 @media screen and (min-width: 990px) {
-.multi-slider .multicolumn-card.content-container > div:first-child{
-  width:100%;
-}
   .mb-10m {
   margin-bottom:4rem !important;
     
@@ -1006,6 +1003,12 @@ background-position: left top;
     border-radius: 30px;
   padding: 10px 20px!important;
 
+}
+
+@media (max-width:989px){
+.multi-slider .multicolumn-card.content-container > div:first-child{
+  width:100%;
+}
 }
 
 
