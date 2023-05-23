@@ -1788,5 +1788,10 @@ line-height:14px;
 .container-modal .column1-container, .column2 {
     margin-top: 30px;
 }
+
+.container-modal .container-columns.flex {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
 
