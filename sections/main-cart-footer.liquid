@@ -26,7 +26,7 @@
    <div class="w80">  <p>Livraison : </div>    <div class="w20">Offerte</div>
 {% else %}
     <div class="w80"> 
-      Plus que pour bénéficier de la livraison gratuite<br>
+      Plus que {{ 5900 | minus: cart.total_price | money }} pour bénéficier de la livraison gratuite<br>
     </div> <div class="w20"> 5,90  </div>
 {% endif %}
     </div>
