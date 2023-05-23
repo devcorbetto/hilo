@@ -347,19 +347,19 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
                               
                               {% for diagnostic in diagnostics %}
 {% if forloop.index == 1 %}
-  {% assign diagnostic_ing3 = diagnostic.ing3  %}
-                                  {% if diagnostic.preocupa1 == 'Brillance' %}
-  {% assign diagnostic_ing3 = 'Noisette' %}
+                                
+{% assign diagnostic_ing3 = diagnostic.ing3  %}
+{% if diagnostic.preocupa1 == 'Brillance' %}
+{% assign diagnostic_ing3 = 'Noisette' %}
 {% endif %}
 
-                                     {% if   diagnostic.preocupa1 == 'Deshydratation'  %}
-                              
-                                     {% assign diagnostic_ing3 = 'Onagre' %}
-                                    {% endif %}
+{% if   diagnostic.preocupa1 == 'Deshydratation'  %}
+{% assign diagnostic_ing3 = 'Onagre' %}
+{% endif %}
 
                                   
 
-                                  {% if diagnostic.preocupa1 == 'Imperfections' %}
+{% if diagnostic.preocupa1 == 'Imperfections' %}
   {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
     {% assign diagnostic_ing3  = 'Noisette' %}
    
@@ -389,6 +389,7 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
 {% endif %}
+
 
                                   
 {% assign diagnostic_ing2 = diagnostic.ing2 %}
