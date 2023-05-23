@@ -1795,8 +1795,8 @@ line-height:14px;
 }
 
 .container-cart {
-    display: block;
-    width: 100%;
+    display: block!important;
+    width: 100%!important;
 }
 }
 
