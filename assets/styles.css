@@ -1798,5 +1798,30 @@ line-height:14px;
     display: block!important;
     width: 100%!important;
 }
+
+.container-cart > cart-items {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.cart-item {
+    grid-template: repeat(2,auto) / repeat(3,1fr);
+}
+
+.cart-item__image {
+    max-width: 100%!important;
+}
+
+.title-wrapper-with-link {
+    text-align: center;
+    display: block;
+}
+
+.container-cart > div {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
 
