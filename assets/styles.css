@@ -1780,5 +1780,9 @@ line-height:14px;
 .image-faq-image{
   margin:auto;
 }
+
+.container-modal .container-columns{
+  display:block;
+}
 }
 
