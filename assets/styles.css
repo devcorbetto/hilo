@@ -1800,13 +1800,13 @@ line-height:14px;
 }
 
 .container-cart > cart-items {
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
+    padding-left: 30px!important;;
+    padding-right: 30px!important;;
+    width: 100%!important;;
 }
 
 .cart-item {
-    grid-template: repeat(2,auto) / repeat(3,1fr);
+    grid-template: repeat(2,auto) / repeat(3,1fr)!important;;
 }
 
 .cart-item__image {
@@ -1814,14 +1814,14 @@ line-height:14px;
 }
 
 .title-wrapper-with-link {
-    text-align: center;
-    display: block;
+    text-align: center!important;;
+    display: block!important;;
 }
 
 .container-cart > div {
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%!important;;
+    padding-left: 30px!important;;
+    padding-right: 30px!important;;
 }
 }
 
