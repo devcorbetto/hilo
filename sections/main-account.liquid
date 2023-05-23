@@ -606,20 +606,19 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
     <th class="px-4 py-2" >Résultats</th>
   </tr>
     {% for diagnostic in diagnostics %}
-      {% assign diagnostic_ing3 = diagnostic.ing3  %}
-      
+    {% assign diagnostic_ing3 = diagnostic.ing3  %}
+  
 {% if diagnostic.preocupa1 == 'Brillance' %}
 {% assign diagnostic_ing3 = 'Noisette' %}
 {% endif %}
 
 {% if   diagnostic.preocupa1 == 'Deshydratation'  %}
-
 {% assign diagnostic_ing3 = 'Onagre' %}
 {% endif %}
 
                                   
 
-                                  {% if diagnostic.preocupa1 == 'Imperfections' %}
+{% if diagnostic.preocupa1 == 'Imperfections' %}
   {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
     {% assign diagnostic_ing3  = 'Noisette' %}
    
@@ -650,73 +649,75 @@ Les peaux à tendance sèche ou très sèche{% endcapture %}
   {% endif %}
 {% endif %}
 
-                                  
+
+                                          
 {% assign diagnostic_ing2 = diagnostic.ing2 %}
- {% if diagnostic.preocupa2 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_ing2 = 'Noisette' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
+{% if diagnostic.preocupa2 == 'Imperfections' %}
+ {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+   {% assign diagnostic_ing2 = 'Noisette' %}
+   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_ing2 = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
+ {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+   {% assign diagnostic_ing2 = 'Amande' %}
+   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Eclat' %}
-  {% if diagnostic.f53 == 'f53a' %}
-    {% assign diagnostic_ing2 = 'Carotte' %}
-  {% elsif diagnostic.f53 == 'f53b' %}
-    {% assign diagnostic_ing2 = 'Abricot' %}
-  {% endif %}
+ {% if diagnostic.f53 == 'f53a' %}
+   {% assign diagnostic_ing2 = 'Carotte' %}
+ {% elsif diagnostic.f53 == 'f53b' %}
+   {% assign diagnostic_ing2 = 'Abricot' %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Signes' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_ing2 = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
+ {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+   {% assign diagnostic_ing2 = 'Argan' %}
+   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% endif %}
 {% elsif diagnostic.preocupa2 == 'Brillance' %}
-  {% assign diagnostic_ing2 = 'Noisette' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% assign diagnostic_ing2 = 'Noisette' %}
+ {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% elsif diagnostic.preocupa2 == 'Deshydratation' %}
-  {% assign diagnostic_ing2 = 'Onagre' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+ {% assign diagnostic_ing2 = 'Onagre' %}
+ {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
 {% endif %}
                                 
- {% assign diagnostic_ing1 = diagnostic.ing1 %}
-{% if diagnostic.preocupa1 == 'Imperfections' %}
+                          
+{% assign diagnostic_ing1 = diagnostic.ing1 %}
+{% if diagnostic.preocupa3 == 'Imperfections' %}
   {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_preocupa1 = 'Noisette' %}
+    {% assign diagnostic_preocupa3 = 'Noisette' %}
     {% assign diagnostic_ing1 = 'Noisette' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa1 == 'Rougeurs' %}
+{% elsif diagnostic.preocupa3 == 'Rougeurs' %}
   {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_preocupa1 = 'Amande' %}
+    {% assign diagnostic_preocupa3 = 'Amande' %}
     {% assign diagnostic_ing1 = 'Amande' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa1 == 'Eclat' %}
+{% elsif diagnostic.preocupa3 == 'Eclat' %}
   {% if diagnostic.f53 == 'f53a' %}
-    {% assign diagnostic_preocupa1 = 'Carotte' %}
+    {% assign diagnostic_preocupa3 = 'Carotte' %}
     {% assign diagnostic_ing1 = 'Carotte' %}
   {% elsif diagnostic.f53 == 'f53b' %}
-    {% assign diagnostic_preocupa1 = 'Abricot' %}
+    {% assign diagnostic_preocupa3 = 'Abricot' %}
     {% assign diagnostic_ing1 = 'Abricot' %}
   {% endif %}
-{% elsif diagnostic.preocupa1 == 'Signes' %}
+{% elsif diagnostic.preocupa3 == 'Signes' %}
   {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_preocupa1 = 'Argan' %}
+    {% assign diagnostic_preocupa3 = 'Argan' %}
     {% assign diagnostic_ing1 = 'Argan' %}
     {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
   {% endif %}
-{% elsif diagnostic.preocupa1 == 'Brillance' %}
-  {% assign diagnostic_preocupa1 = 'Noisette' %}
+{% elsif diagnostic.preocupa3 == 'Brillance' %}
+  {% assign diagnostic_preocupa3 = 'Noisette' %}
   {% assign diagnostic_ing1 = 'Noisette' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostic.preocupa1 == 'Déshydratation' %}
-  {% assign diagnostic_preocupa1 = 'Onagre' %}
+{% elsif diagnostic.preocupa3 == 'Déshydratation' %}
+  {% assign diagnostic_preocupa3 = 'Onagre' %}
   {% assign diagnostic_ing1 = 'Onagre' %}
   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
+{% endif %}           
       
 {% if forloop.index != 1 %}
    <tr>
