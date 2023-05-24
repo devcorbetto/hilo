@@ -61,7 +61,7 @@ section newsletter section-news
 
 .banner-home .button:hover:after{
   background-color:white;
-  color:#F2C79D;
+  color:#F2C79D!important;
 }
 
 .jdgm-widget:not(.jdgm-review-widget--small,.jdgm-review-widget--medium) .jdgm-rev-widg__title {
