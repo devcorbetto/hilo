@@ -79,6 +79,10 @@ table:not([class]){
   font-weight:500;
 }
 
+.cart__items .title-wrapper-with-link a:hover{
+  text-decoration:underline;
+}
+
 .service-client a{
   text-decoration:underline;
 }
