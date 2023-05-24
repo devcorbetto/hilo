@@ -97,7 +97,7 @@ section newsletter section-news
   border:none!important;
 }
 
-.rich-text__text .rte .bg_subtitle a{
+.rich-text__text.rte.bg_subtitle a{
   color:#575756BF;
   text-decoration:underline;
 }
