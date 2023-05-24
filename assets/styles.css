@@ -258,11 +258,11 @@ section newsletter section-news
   margin-bottom:150px!important;
 }
 
-.addresses form button[type], .addresses li>button:first-of-type{
+.addresses form button[type], .addresses li>button:first-of-type, .addresses li>button+button{
   border:none;
 }
 
-.addresses form button[type]:hover, .addresses li>button:first-of-type:hover{
+.addresses form button[type]:hover, .addresses li>button:first-of-type:hover, .addresses li>button+button:hover{
   text-decoration:underline;
   color:black;
 }
