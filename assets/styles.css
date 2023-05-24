@@ -83,7 +83,7 @@ section newsletter section-news
 }
 
 .rich-text__text .list-social__item a:hover .s0{
-  fill:#575756;
+  fill:#575756!important;
 }
 
 .footer-block__details-content a{
