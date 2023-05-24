@@ -42,7 +42,7 @@ section newsletter section-news
 .btn-diagnostic:hover{
   background: #fff;
   color:#D0C4E2;
-  text-decoration:none;
+  text-decoration:none!important;
   border:2px solid #D0C4E2;
 }
 
