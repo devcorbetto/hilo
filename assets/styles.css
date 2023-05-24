@@ -140,8 +140,9 @@ section newsletter section-news
 }
 
 #ContactForm button.button:hover {
-    background: #575756 !important;
-    color: #F8C8D3;
+    background: #fff !important;
+    border: 2px solid #F8C8D3;
+    color: #F8C8D3!importrant;
 }
 
 #ContactForm button.button{
