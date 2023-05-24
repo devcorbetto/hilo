@@ -55,6 +55,12 @@ section newsletter section-news
   color:#FFF!important;
 }
 
+.btn-circle a:hover {
+    color: #fff;
+    border-radius: 30px;
+    background-color: #575756!important;
+}
+
 /*.banner-home .button:after{
   border-radius:30px!important;
 }
