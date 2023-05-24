@@ -155,12 +155,6 @@
             </a>
           </h3>
           
-          <!-- Start of Judge.me code --> 
-      <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ card_product.id }}' data-auto-install='false'>
-        {{ card_product.metafields.judgeme.badge }}
-      </div>  
-      <!-- End of Judge.me code -->
-          
     <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
     <p class="card_description">{% if text-for-result %} {{  card_product.metafields.custom.text_for_result }} {% else %}{{  card_product.metafields.custom.card_description }}{% endif %}</p>
           <div class="card-information">
@@ -170,18 +164,12 @@
             {%- endif -%}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
-<!--
-            {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
-              {% liquid
-                assign rating_decimal = 0
-                assign decimal = card_product.metafields.reviews.rating.value.rating | modulo: 1
-                if decimal >= 0.3 and decimal <= 0.7
-                  assign rating_decimal = 0.5
-                elsif decimal > 0.7
-                  assign rating_decimal = 1
-                endif
-              %}
               <div class="rating-container">
+          <!-- Start of Judge.me code --> 
+      <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ card_product.id }}' data-auto-install='false'>
+        {{ card_product.metafields.judgeme.badge }}
+      </div>  
+      <!-- End of Judge.me code -->
                  <p class="rating-count caption">
                 <span aria-hidden="true">{{ card_product.metafields.reviews.rating_count }} avis</span>
                 <span class="visually-hidden">
@@ -208,7 +196,6 @@
               </p>
            
           </div>
-            {%- endif -%}-->
 
             {% render 'price', product: card_product, price_class: '' %}
           </div>
