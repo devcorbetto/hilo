@@ -15,8 +15,14 @@
             "text_style": "body"
           }
         },
+        "b3ed1d45-8e0d-4bb7-b78f-c9748bf6a63c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "12b4082c-27de-4d93-9afc-e871343acd4f": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
             "stars_fill_color": "#000000",
             "star_size": 15,
@@ -98,6 +104,7 @@
       "block_order": [
         "title",
         "484aed82-dbbb-4772-b1c4-06c773178bdd",
+        "b3ed1d45-8e0d-4bb7-b78f-c9748bf6a63c",
         "12b4082c-27de-4d93-9afc-e871343acd4f",
         "description",
         "price",
@@ -335,8 +342,25 @@
         "padding_bottom": 100
       }
     },
+    "1679676957f37204af": {
+      "type": "apps",
+      "blocks": {
+        "99212420-fce7-46c3-b461-366c52601b5a": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "99212420-fce7-46c3-b461-366c52601b5a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "4c2df2b8-2e8e-4d20-8923-920e5882481a": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-0": {
           "type": "column",
@@ -462,23 +486,6 @@
         "padding_top": 40,
         "padding_bottom": 60
       }
-    },
-    "1679676957f37204af": {
-      "type": "apps",
-      "disabled": true,
-      "blocks": {
-        "56cfd3dd-271d-406b-a8f2-780557c88356": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "56cfd3dd-271d-406b-a8f2-780557c88356"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -487,8 +494,8 @@
     "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "product-recommendations",
     "504b0346-3e48-4a3c-893b-713c872c3287",
+    "1679676957f37204af",
     "4c2df2b8-2e8e-4d20-8923-920e5882481a",
-    "7efb6c47-d0ff-4b39-80de-2cb3c308f015",
-    "1679676957f37204af"
+    "7efb6c47-d0ff-4b39-80de-2cb3c308f015"
   ]
 }
