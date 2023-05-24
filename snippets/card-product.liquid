@@ -154,6 +154,13 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+          
+          <!-- Start of Judge.me code --> 
+      <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ card_product.id }}' data-auto-install='false'>
+        {{ product.metafields.judgeme.badge }}
+      </div>  
+      <!-- End of Judge.me code -->
+          
     <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
     <p class="card_description">{% if text-for-result %} {{  card_product.metafields.custom.text_for_result }} {% else %}{{  card_product.metafields.custom.card_description }}{% endif %}</p>
           <div class="card-information">
