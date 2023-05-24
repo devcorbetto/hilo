@@ -90,6 +90,10 @@ section newsletter section-news
   stroke: #f2c79d!important;
 }
 
+.header__icons a:hover .cart-count-bubble{
+  background-color: #f2c79d!important;
+}
+
 .rich-text__blocks .list-social__item a:hover .s0{
   fill:#575756!important;
 }
