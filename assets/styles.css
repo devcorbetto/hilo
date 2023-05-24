@@ -81,6 +81,9 @@ table:not([class]){
 
 .cart__items .title-wrapper-with-link a:hover{
   text-decoration:underline;
+}
+
+.cart__items .title-wrapper-with-link a{
   cursor:pointer;
 }
 
