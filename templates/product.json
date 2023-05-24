@@ -212,6 +212,7 @@
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
@@ -245,12 +246,27 @@
             "link_label": "Je réalise mon diagnostic",
             "link": "shopify:\/\/products\/creme"
           }
+        },
+        "579b9904-026b-4ce0-82b8-5b5ea856360e": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-0",
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1",
-        "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2"
+        "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2",
+        "579b9904-026b-4ce0-82b8-5b5ea856360e"
       ],
       "settings": {
         "customcss": "multi-slider multi-slider-product wavestop2",
