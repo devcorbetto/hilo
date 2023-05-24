@@ -86,7 +86,7 @@ section newsletter section-news
     stroke: #575756;
 }
 
-.metafield-rich_text_field .rte li{
+.metafield-rich_text_field li{
   list-style:inside;
 }
 
