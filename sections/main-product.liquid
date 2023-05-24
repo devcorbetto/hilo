@@ -1338,12 +1338,8 @@ letter-spacing:0;
       </div>
     </modal-dialog>
   {%- endfor -%}
-<!-- Start of Judge.me code --> 
-      <div style='clear:both'></div>
-      <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-auto-install='false'>
-        {{ product.metafields.judgeme.widget }}
-      </div>
-      <!-- End of Judge.me code -->
+
+      
   {%- if product.media.size > 0 -%}
     <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
