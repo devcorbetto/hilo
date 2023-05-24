@@ -93,6 +93,10 @@ section newsletter section-news
     opacity: 0.5!important;
 }
 
+.product-form__submit:not([disabled]):hover::after{
+  border:none;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
