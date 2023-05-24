@@ -258,6 +258,14 @@ section newsletter section-news
   margin-bottom:150px!important;
 }
 
+.addresses form button[type]{
+  border:none;
+}
+
+.addresses form button[type]:hover{
+  text-decoration:underline;
+}
+
 .product-option+.product-option, .product-option {
     margin-top: 0.4rem;
 }
