@@ -101,7 +101,7 @@
     text-decoration: underline;
 }
 
-.article-template__content > ul > li {
+.article-template .rte li {
     list-style: disc;
 }
 
