@@ -344,6 +344,12 @@ section newsletter section-news
   text-decoration:underline;
 }
 
+.customer button:hover {
+    background: #fff;
+    border:2px solid #D0C4E2;
+    color: #D0C4E2;
+}
+
 .no-rotate{
   transform: none;
 }
