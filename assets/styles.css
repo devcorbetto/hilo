@@ -61,6 +61,10 @@ section newsletter section-news
     background-color: #575756!important;
 }
 
+.button:not([disabled]):hover::after{
+  --border-offset: none; 
+}
+
 /*.banner-home .button:after{
   border-radius:30px!important;
 }
