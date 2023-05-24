@@ -40,7 +40,7 @@ section newsletter section-news
 */
 
 .collection ul{
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr!important;
 }
 
 .collection ul li {
