@@ -231,6 +231,7 @@ section newsletter section-news
 
 .customer button, .shopify-challenge__container .shopify-challenge__button{
     background: #D0C4E2;
+  border:2px solid #D0C4E2;
     border-radius: 30px;
     color: white;
     font-weight: bold;
