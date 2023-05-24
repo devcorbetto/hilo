@@ -87,6 +87,11 @@ table:not([class]){
   cursor:pointer;
 }
 
+.cart__ctas button:hover {
+    background: #575756;
+    color: #F8C8D3;
+}
+
 .service-client a{
   text-decoration:underline;
 }
