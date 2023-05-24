@@ -76,6 +76,10 @@ section newsletter section-news
   left:36%;
 }
 
+.ingrediente-column .container-images img{
+  cursor:pointer;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
