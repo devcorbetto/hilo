@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.article-template .rte li {
+    list-style: disc!important;
+}
+
 .btn-diagnostic:hover{
   background: #fff;
   color:#D0C4E2;
