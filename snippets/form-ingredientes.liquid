@@ -164,9 +164,8 @@
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
-           x-bind:name="getPropertyName({{ forloop.index0 }})"
         name="properties[{{ propertyName  }}]"
-
+        value="0"
           placeholder="0"
         x-model.text="ingrediente{{ forloop.index0 }}">
         
@@ -339,10 +338,5 @@ transform: translate(-50%, -50%);
           disable:'', data2:'0' ,
           openi1: false , openi2: false ,openi3: false ,openi4: false,openi5: false ,openi6: false
         }))
-
-        function getPropertyName(index) {
-    const value = document.getElementById(`ingrediente${index}`).value;
-    return value === '0' ? '' : `properties[${propertyName}]`;
-  }
     })
 </script>
