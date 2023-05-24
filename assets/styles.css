@@ -87,7 +87,7 @@ section newsletter section-news
 }
 
 .header__icons a:hover .cls-1{
-  stroke: #f2c79d;
+  stroke: #f2c79d!important;
 }
 
 .rich-text__blocks .list-social__item a:hover .s0{
