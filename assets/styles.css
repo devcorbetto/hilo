@@ -340,6 +340,10 @@ section newsletter section-news
   padding:1.5rem!important;
 }
 
+.container-options > .option a:hover{
+  text-decoration:underline;
+}
+
 .no-rotate{
   transform: none;
 }
