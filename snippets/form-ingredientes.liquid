@@ -164,6 +164,7 @@
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
+           x-bind:name="getPropertyName(forloop.index0)"
         name="properties[{{ propertyName  }}]"
         value="0"
           placeholder="0"
@@ -195,7 +196,12 @@
    
   </div>
 </form>
-
+<script>
+  function getPropertyName(index) {
+    const value = document.getElementById(`ingrediente${index}`).value;
+    return value === '0' ? '' : `properties[${propertyName}]`;
+  }
+</script>
     
 <style>
 
