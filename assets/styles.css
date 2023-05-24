@@ -43,6 +43,10 @@ section newsletter section-news
     list-style: disc!important;
 }
 
+table:not([class]) td, table:not([class]) th{
+  border:0px;
+}
+
 .btn-diagnostic:hover{
   background: #fff;
   color:#D0C4E2;
