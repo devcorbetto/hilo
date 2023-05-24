@@ -47,6 +47,10 @@ table:not([class]) td, table:not([class]) th{
   border:0px;
 }
 
+table:not([class]){
+  box-shadow:none;
+}
+
 .btn-diagnostic:hover{
   background: #fff;
   color:#D0C4E2;
