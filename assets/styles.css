@@ -94,7 +94,7 @@ section newsletter section-news
 }
 
 .product-form__submit:not([disabled]):hover::after{
-  border:none;
+  border:none!important;
 }
 
 .button:not([disabled]):hover::after{
