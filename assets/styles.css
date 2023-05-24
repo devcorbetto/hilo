@@ -54,6 +54,14 @@ section newsletter section-news
     text-transform: uppercase;
 }
 
+.jdgm-btn--solid, input[type=submit].jdgm-btn--solid {
+    border-radius: 40px!important;
+}
+
+.jdgm-widget:not(.jdgm-review-widget--small) .jdgm-form__fieldset-actions .jdgm-cancel-rev {
+    border-radius: 40px;
+}
+
 .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
     border-radius: 30px;
 }
