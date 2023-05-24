@@ -83,6 +83,7 @@ section newsletter section-news
 .product-form__submit:hover{
     background: #fff;
     color: #D0C4E2;
+    border: 2px solid #D0C4E2;
 }
 
 .button:not([disabled]):hover::after{
