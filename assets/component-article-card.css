@@ -102,7 +102,7 @@
 }
 
 .article-template__content .rte li {
-    list-style: disc;
+    list-style: disc!important;
 }
 
 .lireplus {
