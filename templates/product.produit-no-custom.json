@@ -20,78 +20,14 @@
           "settings": {
           }
         },
-        "12b4082c-27de-4d93-9afc-e871343acd4f": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "description": {
           "type": "description",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
         "474a192d-b0de-4595-9aa2-875c55099ec6": {
           "type": "ingredientes",
           "settings": {
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": false
           }
         },
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
@@ -105,16 +41,8 @@
         "title",
         "484aed82-dbbb-4772-b1c4-06c773178bdd",
         "b3ed1d45-8e0d-4bb7-b78f-c9748bf6a63c",
-        "12b4082c-27de-4d93-9afc-e871343acd4f",
         "description",
-        "price",
-        "variant_picker",
-        "quantity_selector",
         "474a192d-b0de-4595-9aa2-875c55099ec6",
-        "collapsible-row-1",
-        "collapsible-row-3",
-        "share",
-        "buy_buttons",
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241"
       ],
       "settings": {
