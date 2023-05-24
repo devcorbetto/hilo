@@ -62,7 +62,7 @@ section newsletter section-news
   color:#FFF!important;
 }
 
-.btn-circle a:hover {
+.btn-circle a:hover, .waves2a .button:hover {
     color: #fff;
     border-radius: 30px;
     background-color: #575756!important;
