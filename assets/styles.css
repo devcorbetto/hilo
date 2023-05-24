@@ -97,6 +97,11 @@ section newsletter section-news
   border:none!important;
 }
 
+.rich-text__text .rte .bg_subtitle a{
+  color:#575756BF;
+  text-decoration:underline;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
