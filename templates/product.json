@@ -251,6 +251,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
+            "image": "shopify:\/\/shop_images\/person.png",
             "titleicon": "Column",
             "titleicon2": "Column",
             "titleicon3": "Column",
