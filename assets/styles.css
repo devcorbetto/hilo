@@ -114,6 +114,30 @@ section newsletter section-news
   cursor:pointer;
 }
 
+.step4 button:hover, .step5 button:hover{
+  background-color: #fff;
+  border:2px solid #F8C8D3;
+  color:#F8C8D3;
+}
+
+.step3 button:hover{
+  background-color: #fff;
+  border:2px solid #b7daf3;
+  color:#b7daf3;
+}
+
+.step2 button:hover {
+  background-color: #fff;
+  border:2px solid #cde4ca;
+  color:#cde4ca;
+}
+
+.step1 button:hover {
+  background-color: #fff;
+  border:2px solid #F5DEA3;
+  color:#F5DEA3;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
