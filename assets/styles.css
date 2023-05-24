@@ -39,13 +39,6 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.collection ul{
-  grid-template-columns: 1fr 1fr!important;
-}
-
-.collection ul li {
-    width: 64% !important;
-}
 
 .article-template .rte li {
     list-style: disc!important;
