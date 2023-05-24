@@ -46,6 +46,10 @@ section newsletter section-news
   border:2px solid #D0C4E2;
 }
 
+.service-client a{
+  text-decoration:unerline;
+}
+
 .header__icons .cls-1{
   stroke:#575756!important;
   stroke-linecap:round;
