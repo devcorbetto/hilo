@@ -101,8 +101,8 @@
     text-decoration: underline;
 }
 
-.article-template__content .rte li {
-    list-style: disc!important;
+.article-template__content.rte li {
+    list-style: disc;
 }
 
 .lireplus {
