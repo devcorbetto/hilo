@@ -965,10 +965,7 @@ font-size: 16px;
 .banner-home .button {
     font-weight:bold;
 }
-.banner-home .button::after {
-  border: 1px solid #FFFFFF;
-border-radius: 33px;
-}
+
 .mb-10b {
   margin-bottom:50px !important;
 }
