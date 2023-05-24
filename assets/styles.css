@@ -75,6 +75,10 @@ section newsletter section-news
   fill:#FFF;
 }
 
+.footer-block__details-content a{
+  opacity:0.75;
+}
+
 /*.banner-home .button:after{
   border-radius:30px!important;
 }
