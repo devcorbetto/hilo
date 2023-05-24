@@ -63,7 +63,7 @@ section newsletter section-news
 }
 
 .jdgm-preview-badge .jdgm-star {
-    color: #EFD1BF;
+    color: #EFD1BF!important;
 }
 .jdgm-prev-badge__text {
     font-size: 10px;
