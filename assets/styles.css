@@ -39,6 +39,21 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.jdgm-write-rev-link.jdgm-write-rev-link{
+  border-radius:40px;
+}
+
+.jdgm-widget:not(.jdgm-review-widget--small,.jdgm-review-widget--medium) .jdgm-rev-widg__title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+}
+
 .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
     border-radius: 30px;
 }
