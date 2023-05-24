@@ -39,6 +39,13 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.btn-diagnostic:hover{
+  background: #fff;
+  color:#D0C4E2;
+  text-decoration:none;
+  border:2px solid #D0C4E2;
+}
+
 .header__icons .cls-1{
   stroke:#575756!important;
   stroke-linecap:round;
