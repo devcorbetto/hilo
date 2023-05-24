@@ -68,6 +68,14 @@ section newsletter section-news
     background-color: #575756!important;
 }
 
+.ingrediente-column .container-images{
+  width:100px;
+}
+
+.container-images .itshover{
+  left:36%;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
