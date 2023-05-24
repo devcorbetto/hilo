@@ -48,9 +48,7 @@ table:not([class]) td, table:not([class]) th{
   border:0px;
 }
 
-.account-active .cls-1, .cart-active .cls-1 {
-    stroke: #F7B378!important;
-}
+
 
 @media screen and (min-width: 990px){
 .page-width--narrow {
@@ -80,6 +78,10 @@ table:not([class]){
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width:3px!important;
+}
+
+.account-active .cls-1, .cart-active .cls-1 {
+    stroke: #F7B378!important;
 }
 
 .jdgm-write-rev-link.jdgm-write-rev-link{
