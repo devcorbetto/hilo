@@ -150,27 +150,6 @@
        <span class="ingrediente-caption ">{{ ingrediente.caption }}</span>  <br>   
         <quantity-input class="quantity ingrediente{{ forloop.index0 }} pt-8" >
         
-<template x-if="ingrediente{{ forloop.index0 }} === 0">
-    <input x-model="ingrediente{{ forloop.index0 }}"
-        class="quantity__input"
-        type="number"
-        id="ingrediente{{ forloop.index0 }}"
-        :name="''"
-        value="0"
-        placeholder="0"
-        x-model.text="ingrediente{{ forloop.index0 }}">
-</template>
-<template x-if="ingrediente{{ forloop.index0 }} > 0">
-    <input x-model="ingrediente{{ forloop.index0 }}"
-        class="quantity__input"
-        type="number"
-        id="ingrediente{{ forloop.index0 }}"
-        :name="'properties[' + propertyName + ']'"
-        value="0"
-        placeholder="0"
-        x-model.text="ingrediente{{ forloop.index0 }}">
-</template>
-
 <span class="quantity__button no-js-hidden disabled2"
     field="quantity"
     x-on:click="if (ingrediente{{ forloop.index0 }} > 0) { ingrediente{{ forloop.index0 }}--; }"
@@ -178,6 +157,20 @@
     x-bind:style="{'pointer-events': ingrediente{{ forloop.index0 }} === 0 ? 'none' : ''}">
     {% render 'icon-minus' %}
 </span>
+
+
+
+    <input x-model="ingrediente{{ forloop.index0 }}"
+    class="quantity__input"
+    type="number"
+    id="ingrediente{{ forloop.index0 }}"
+    value="0"
+    placeholder="0"
+    x-model.text="ingrediente{{ forloop.index0 }}"
+    <template x-if="value !== 0">
+        name="properties[{{ propertyName  }}]"
+    </template>
+>
 
         
           
