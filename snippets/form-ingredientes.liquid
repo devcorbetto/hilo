@@ -164,8 +164,8 @@
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
-        name="properties[{{ propertyName  }}]"
-      
+      :name="value === 0 ? '[{{ propertyName }}]' : 'properties[{{ propertyName }}]'"
+        value="0"
           placeholder="0"
         x-model.text="ingrediente{{ forloop.index0 }}">
         
