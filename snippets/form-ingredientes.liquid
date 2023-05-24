@@ -152,23 +152,21 @@
         
 <span class="quantity__button no-js-hidden disabled2"
     field="quantity"
-    x-on:click="if (ingrediente{{ forloop.index0 }} > 0) { ingrediente{{ forloop.index0 }}--; }"
+    x-on:click="if (ingrediente{{ forloop.index0 }} > 0) { ingrediente{{ forloop.index0 }}--; } else { $refs.input{{ forloop.index0 + 1 }}.name = ''; }"
     x-bind:class="{'disabled': ingrediente{{ forloop.index0 }} === 0, 'enable': ingrediente{{ forloop.index0 }} > 0}"
     x-bind:style="{'pointer-events': ingrediente{{ forloop.index0 }} === 0 ? 'none' : ''}">
     {% render 'icon-minus' %}
 </span>
 
-
-
-        <input x-model="ingrediente{{ forloop.index0 }}"
-        class="quantity__input"
-        type="number"
-        id="ingrediente{{ forloop.index0 }}"
-    
-          :name="value === 0 ? '' : 'properties[{{ propertyName  }}]'"
-        value="0"
-          placeholder="0"
-        x-model.text="ingrediente{{ forloop.index0 }}">
+<input x-model="ingrediente{{ forloop.index0 }}"
+    class="quantity__input"
+    type="number"
+    id="ingrediente{{ forloop.index0 }}"
+    name="properties[{{ propertyName  }}]"
+    value="0"
+    placeholder="0"
+    x-model.text="ingrediente{{ forloop.index0 }}"
+    x-ref="input{{ forloop.index0 }}">
         
           
         
