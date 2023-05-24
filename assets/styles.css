@@ -86,6 +86,10 @@ section newsletter section-news
     stroke: #575756;
 }
 
+.header__icons:hover .cls-1{
+  stroke: #f2c79d;
+}
+
 .rich-text__blocks .list-social__item a:hover .s0{
   fill:#575756!important;
 }
