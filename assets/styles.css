@@ -48,8 +48,8 @@ table:not([class]) td, table:not([class]) th{
   border:0px;
 }
 
-.account-active, .cart-active{
-  color:#F7B378!important;
+.account-active .cls-1, .cart-active .cls-1 {
+    stroke: #F7B378!important;
 }
 
 @media screen and (min-width: 990px){
