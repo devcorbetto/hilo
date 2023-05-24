@@ -75,6 +75,10 @@ table:not([class]){
   border:2px solid #D0C4E2;
 }
 
+.link.underlined-linkk:hover{
+  font-weight:500;
+}
+
 .service-client a{
   text-decoration:underline;
 }
