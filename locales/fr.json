@@ -213,7 +213,8 @@
     },
     "contact": {
       "form": {
-        "name": "Nom",
+        "last_name": "Nom",
+        "first_name": "Prénom",
         "email": "E-mail",
         "phone": "Numéro de téléphone",
         "comment": "Commentaire",
