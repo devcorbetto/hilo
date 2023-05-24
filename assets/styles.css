@@ -82,6 +82,10 @@ section newsletter section-news
   fill:#FFF;
 }
 
+.contact-email:hover .cls-1 {
+    stroke: #575756;
+}
+
 .rich-text__blocks .list-social__item a:hover .s0{
   fill:#575756!important;
 }
