@@ -84,6 +84,10 @@ table:not([class]){
     stroke: #F7B378!important;
 }
 
+.cart-active .cart-count-bubble{
+  background-color: #f2c79d!important;
+}
+
 .jdgm-write-rev-link.jdgm-write-rev-link{
   border-radius:40px;
 }
