@@ -48,6 +48,10 @@ table:not([class]) td, table:not([class]) th{
   border:0px;
 }
 
+.account-active, .cart-active{
+  color:#F7B378!important;
+}
+
 @media screen and (min-width: 990px){
 .page-width--narrow {
     max-width: 98.6rem;
