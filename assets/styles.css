@@ -77,7 +77,7 @@ section newsletter section-news
 
 .footer-block__details-content a{
   opacity:0.75;
-  color:#575756;
+  color:#575756!important;
 }
 
 .footer-block__details-content a:hover {
