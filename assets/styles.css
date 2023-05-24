@@ -81,6 +81,7 @@ section newsletter section-news
 }
 
 .footer-block__details-content a:hover {
+  opacity:1;
     text-decoration-thickness: 0;
 }
 
