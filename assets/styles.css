@@ -69,6 +69,12 @@ table:not([class]){
   border:2px solid #D0C4E2;
 }
 
+.cart__warnings .button:hover{
+  background: #fff;
+  color:#D0C4E2;
+  border:2px solid #D0C4E2;
+}
+
 .service-client a{
   text-decoration:underline;
 }
