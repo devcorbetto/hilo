@@ -102,6 +102,10 @@ section newsletter section-news
   text-decoration:underline;
 }
 
+.faq2 .text-label2 img, .faq3 .text-label2 img{
+  cursor:pointer;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
