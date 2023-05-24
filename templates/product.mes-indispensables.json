@@ -140,37 +140,6 @@
         "padding_bottom": 76
       }
     },
-    "87cb0c62-7445-43a7-8ce2-521349a1542b": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".collection ul {grid-template-columns: 1fr;}",
-        ".collection ul li {width: 33% !important; margin: 0 auto;}"
-      ],
-      "settings": {
-        "title": "VOUS AIMEREZ AUSSI...",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "vous-aimerez-aussi",
-        "products_to_show": 2,
-        "columns_desktop": 2,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -436,7 +405,6 @@
   "order": [
     "main",
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
-    "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "product-recommendations",
     "504b0346-3e48-4a3c-893b-713c872c3287",
     "16848718877987ad7f",
