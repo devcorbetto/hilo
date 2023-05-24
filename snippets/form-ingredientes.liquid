@@ -159,8 +159,8 @@
 </span>
 
 
-   <template x-if="ingrediente[{{ forloop.index0 }}] == 0">
-      <input x-model="ingrediente[{{ forloop.index0 }}]"
+  <template x-if="ingrediente[{{ forloop.index0 }}] == 0">
+      <input x-model.number="ingrediente[{{ forloop.index0 }}]"
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
@@ -170,14 +170,13 @@
     </template>
 
     <template x-if="ingrediente[{{ forloop.index0 }}] !== 0">
-      <input x-model="ingrediente[{{ forloop.index0 }}]"
+      <input x-model.number="ingrediente[{{ forloop.index0 }}]"
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
         placeholder="0"
         name="properties[{{ propertyName  }}]">
     </template>
-
         
           
         
