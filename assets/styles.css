@@ -264,6 +264,7 @@ section newsletter section-news
 
 .addresses form button[type]:hover, .addresses li>button:first-of-type:hover{
   text-decoration:underline;
+  color:black;
 }
 
 .product-option+.product-option, .product-option {
