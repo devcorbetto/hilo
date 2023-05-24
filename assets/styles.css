@@ -106,6 +106,10 @@ section newsletter section-news
   cursor:pointer;
 }
 
+.container-label input, .container-label input{
+  cursor:pointer;
+}
+
 .button:not([disabled]):hover::after{
     border: 2px solid #575756;
   --border-offset: none; 
