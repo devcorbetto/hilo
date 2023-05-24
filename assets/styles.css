@@ -81,6 +81,7 @@ table:not([class]){
 
 .cart__items .title-wrapper-with-link a:hover{
   text-decoration:underline;
+  cursor:pointer;
 }
 
 .service-client a{
