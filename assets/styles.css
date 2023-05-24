@@ -49,6 +49,12 @@ section newsletter section-news
   color:#D0C4E2;
 }
 
+.newsletter-form__button:hover {
+  border: 2px solid #575756;
+  background: #575756;
+  color:#fff;
+}
+
 .jdgm-widget:not(.jdgm-review-widget--small,.jdgm-review-widget--medium) .jdgm-rev-widg__title {
     margin-bottom: 30px;
     margin-top: 30px;
