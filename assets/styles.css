@@ -55,7 +55,7 @@ section newsletter section-news
   color:#FFF;
 }
 
-.banner-home .button:after{
+/*.banner-home .button:after{
   border-radius:30px!important;
 }
 
@@ -65,7 +65,7 @@ section newsletter section-news
 
 .banner-home .button:hover{
   color:#F2C79D!important;
-}
+}*/
 
 .jdgm-widget:not(.jdgm-review-widget--small,.jdgm-review-widget--medium) .jdgm-rev-widg__title {
     margin-bottom: 30px;
