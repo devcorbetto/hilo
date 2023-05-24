@@ -55,6 +55,10 @@ section newsletter section-news
   color:#FFF;
 }
 
+.banner-home .button{
+  border-radius:30px;
+}
+
 .banner-home .button:hover{
   background-color:white;
   color:#F2C79D;
