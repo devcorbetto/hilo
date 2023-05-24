@@ -96,6 +96,10 @@
   margin-bottom: 20px;
 }
 
+.article-template__link {
+    color: #fccf9c;
+    text-decoration: underline;
+}
 
 .lireplus {
   color:#FCCF9C;
