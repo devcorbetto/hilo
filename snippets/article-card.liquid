@@ -121,7 +121,7 @@
                   {{ article.content | strip_html | truncatewords: 18 }}
                 {%- endif -%}
               </p>
-            <a href="{{ article.url }}" class="lireplus">lire plus </a>
+            <a href="{{ article.url }}" class="lireplus">Lire l'article </a>
             {%- endif -%}
             <div class="article-card__footer">
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
