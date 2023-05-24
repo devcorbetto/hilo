@@ -62,6 +62,13 @@ section newsletter section-news
     border-radius: 40px;
 }
 
+.jdgm-preview-badge .jdgm-star {
+    color: #EFD1BF;
+}
+.jdgm-prev-badge__text {
+    font-size: 10px;
+}
+
 .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
     border-radius: 30px;
 }
