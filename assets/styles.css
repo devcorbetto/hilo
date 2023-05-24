@@ -86,7 +86,7 @@ section newsletter section-news
     stroke: #575756;
 }
 
-.header__icons:hover .cls-1{
+.header__icons a:hover .cls-1{
   stroke: #f2c79d;
 }
 
