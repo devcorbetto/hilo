@@ -80,6 +80,10 @@ section newsletter section-news
   color:#575756;
 }
 
+.footer-block__details-content a:hover {
+    text-decoration-thickness: 0;
+}
+
 /*.banner-home .button:after{
   border-radius:30px!important;
 }
