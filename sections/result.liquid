@@ -71,7 +71,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
 </div>
                                   
     <div class="two-columns page-width mb-20 flex gap-x-40 mt-20" style="margin-bottom:40px;" x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }">
-      {% for i in (1..6) %}
+   {%- for block in section.blocks -%}
    
     <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false" style="display:none;">
        <div class="container-modal" style="position:relative;">
