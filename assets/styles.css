@@ -1634,12 +1634,12 @@ footer .text_container, footer .link_list_container{
     display:block!important;
   }
 
-  .product__info-container .ft2{
+  .product__info-wrapper .ft2{
     display:block;
     text-align:left;
   }
 
-  .product__info-container .ft2 div:last-child{
+  .product__info-wrapper .ft2 div:last-child{
     text-align:left;
   }
 
