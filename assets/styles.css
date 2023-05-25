@@ -1647,6 +1647,10 @@ footer .text_container, footer .link_list_container{
     padding: 20px 0;
 }
 
+  .description-cart{
+    padding-bottom:20px;
+  }
+
   .cart__items{
     padding-bottom:0px;
   }
