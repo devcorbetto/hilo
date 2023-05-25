@@ -1669,6 +1669,7 @@ footer .text_container, footer .link_list_container{
 
   .container-step::after{
     top:26px;
+    width:98px;
   }
 
 .cart-item__name {
