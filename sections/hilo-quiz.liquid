@@ -193,7 +193,7 @@
       </div>
    </div>
    
-   <div class="form-quiz mt-10">
+   <div class="form-quiz mt-10" id="form-quiz" x-ref="form-quiz">
       {% for step in steps %}
       <div id="step{{ forloop.index }}"  x-ref="step{{ forloop.index }}" class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius" x-show="step === {{ forloop.index }}">
          {% if forloop.index != 1  %}
