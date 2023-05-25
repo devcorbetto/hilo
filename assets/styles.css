@@ -1668,8 +1668,8 @@ footer .text_container, footer .link_list_container{
   }
 
   .container-step::after{
-    top:26px;
-    width:98px;
+    top:26px!important;
+    width:98px!important;
   }
 
 .cart-item__name {
