@@ -1678,12 +1678,12 @@ footer .text_container, footer .link_list_container{
   }
 
   #progressbar{
-    width:100%;
+    width:100%!important;
   }
   
   .step6 .columns5{
       grid-template-columns: repeat(2, 1fr);
-      display: grid; 
+      display: grid!important; 
   }
 
 .cart-item__name {
