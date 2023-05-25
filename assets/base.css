@@ -3299,4 +3299,6 @@ border-radius:30px !important;
   background:#FBDAE2 !important;
   
 }
-
+ input::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+  }
