@@ -290,6 +290,7 @@
         }        " 
       :class="{ 'disabled-class': !(formData.name && formData.gender && formData.age) }"
               :disabled="!(formData.name && formData.gender && formData.age)"
+             
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
    </p>
    {% when 2 %}
@@ -311,7 +312,9 @@
   } else {
     alert('Veuillez remplir tous les champss');
   }
-" class="text-white font-bold py-2 px-4 rounded">Valider</button>
+"      :class="{ 'disabled-class': !(formData.f21 && formData.f22 && formData.f23) }"
+              :disabled="!(formData.f21 && formData.f22 && formData.f23)"
+   class="text-white font-bold py-2 px-4 rounded">Valider</button>
  </p>
             
 
