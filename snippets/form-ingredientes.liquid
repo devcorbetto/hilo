@@ -158,15 +158,12 @@
     {% render 'icon-minus' %}
 </span>
 
-    <template x-if="checkInput('ingrediente{{ forloop.index0 }}')">
-      es cero
-    </template>
- 
+   
         <input x-model="ingrediente{{ forloop.index0 }}"
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
-        name="properties[{{ propertyName  }}]"
+       x-bind:name="ingrediente1 == '0' ? 'escero' : 'properties[{{ propertyName  }}]'" 
         value="0"
           placeholder="0"
         x-model.text="ingrediente{{ forloop.index0 }}">
@@ -326,9 +323,6 @@ transform: translate(-50%, -50%);
           ingrediente5:'' ,
           ingrediente6:'', 
           disable:'', data2:'' ,
-          checkInput: function(id) {
-      return this[id] === '0';
-    },
           openi1: false , openi2: false ,openi3: false ,openi4: false,openi5: false ,openi6: false
         }))
 
