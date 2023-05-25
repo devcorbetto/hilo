@@ -1,4 +1,9 @@
-
+{% unless customer  %}
+  <p></p>
+   <script>
+    window.location.href = 'https://hilo-cosmetiques.fr/pages/diagnostic';
+  </script>
+{% endunless %}
 
 
 {% capture onagre %}<b>Huile d’onagre</b> : Hydratante, revitalisante et adoucissante{% endcapture %}
