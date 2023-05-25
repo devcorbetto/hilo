@@ -71,11 +71,12 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
 </div>
                                   
     <div class="two-columns page-width mb-20 flex gap-x-40 mt-20" style="margin-bottom:40px;" x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }">
-      {% for i in (1..6) %}
+    
+                                  {% for i in (1..6) %}
    
-    <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false" style="display:none;">
+    <div  x-show="openAbricot " class="modal openAbricot duration-300 ease-in" @click.away="openAbricot = false" style="display:none;">
        <div class="container-modal" style="position:relative;">
-      <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="open{{ forloop.index }} = false">
+      <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="openAbricot = false">
   <svg id="Calque_22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" style="height:25px;">
   <defs>
   <style>.cls-122{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs>
