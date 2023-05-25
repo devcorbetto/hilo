@@ -163,7 +163,7 @@
         class="quantity__input"
         type="number"
         id="ingrediente{{ forloop.index0 }}"
-        name="properties[{{ propertyName  }}]"
+         x-bind:name="ingrediente1 == '0' ? 'escero' : 'properties[argan]'" 
         value="0"
           placeholder="0"
         x-model.text="ingrediente{{ forloop.index0 }}">
