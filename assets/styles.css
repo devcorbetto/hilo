@@ -439,8 +439,8 @@ table:not([class]){
 }
 
 .banner__content .button--secondary:hover{
-  background-color:#fff;
-  color:#fccf9c;
+  background-color:#fff!important;
+  color:#fccf9c!important;
 }
 
 .footer__list-social2 .list-social__item:nth-child(2){
