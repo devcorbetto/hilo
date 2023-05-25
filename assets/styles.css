@@ -1655,6 +1655,13 @@ footer .text_container, footer .link_list_container{
     padding-bottom:0px;
   }
 
+.cart-item__name {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
   .product__info-wrapper .ft2 div:last-child{
     text-align:left;
   }
