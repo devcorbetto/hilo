@@ -1240,13 +1240,6 @@ background-position: left top;
   background-size: auto 100%;
   }
 
-  .radios{
-    padding-left:0px;
-  }
-
-  .radios label{
-    line-height:1;
-  }
 }
 .bg_contact  > div {
   background: transparent !important;
@@ -1621,6 +1614,13 @@ footer .text_container, footer .link_list_container{
   margin-left: 0;
 }
 @media screen and (max-width: 749px) {
+  .radios{
+    padding-left:0px;
+  }
+
+  .radios label{
+    line-height:1;
+  }
   footer .footer__copyright, footer .imagen-footerlogo{
   position: relative;
 }
