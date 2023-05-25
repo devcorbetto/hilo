@@ -285,8 +285,8 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
-   $nextTick(() => {
-      $refs.form-quiz.scrollIntoView({ behavior: 'smooth' });
+ $nextTick(() => {
+      $refs['form-quiz'].scrollIntoView({ behavior: 'smooth' });
     });
         } else { 
           alert('Veuillez remplir tous les champs'); 
