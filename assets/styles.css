@@ -1618,6 +1618,16 @@ footer .text_container, footer .link_list_container{
     padding-left:0px;
   }
 
+  .container-content.w-3\/4{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .w-1\/4{
+    width:100%;
+  }
+
   #ContactForm .radios label{
     line-height:1;
   }
