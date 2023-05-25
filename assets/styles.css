@@ -1614,11 +1614,11 @@ footer .text_container, footer .link_list_container{
   margin-left: 0;
 }
 @media screen and (max-width: 749px) {
-  .radios{
+  #ContactForm .radios{
     padding-left:0px;
   }
 
-  .radios label{
+  #ContactForm .radios label{
     line-height:1;
   }
   footer .footer__copyright, footer .imagen-footerlogo{
