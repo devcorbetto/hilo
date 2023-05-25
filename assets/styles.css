@@ -1634,6 +1634,11 @@ footer .text_container, footer .link_list_container{
     display:block;
     text-align:left;
   }
+
+  .product__info-container .ft2 div:last-child{
+    text-align:left;
+  }
+  
   .container-content.w-3\/4{
     width: 100%;
     margin-top: 20px;
