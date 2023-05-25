@@ -444,6 +444,10 @@ table:not([class]){
   border:none!important;
 }
 
+.banner__content .button--secondary:after:hover{
+  border:none!important;
+}
+
 .footer__list-social2 .list-social__item:nth-child(2){
   padding-left:18px;
 }
