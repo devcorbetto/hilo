@@ -115,7 +115,7 @@ table:not([class]){
   background-color: #f2c79d!important;
 }
 
-.metafield-rich_text_field p a{
+.metafield-rich_text_field a{
   opacity:0.75;
 }
 
