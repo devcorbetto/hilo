@@ -52,10 +52,7 @@ table:not([class]) td, table:not([class]) th{
     border-radius: 30px!important;
 }
 
-.banner__content .button--secondary:hover{
-  background-color:#fff;
-  color:#fccf9c;
-}
+
 
 @media screen and (min-width: 990px){
 .page-width--narrow {
@@ -439,6 +436,11 @@ table:not([class]){
 
 .no-rotate{
   transform: none;
+}
+
+.banner__content .button--secondary:hover{
+  background-color:#fff;
+  color:#fccf9c;
 }
 
 .footer__list-social2 .list-social__item:nth-child(2){
