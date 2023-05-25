@@ -342,8 +342,17 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
                                   
         {% if  diagnostics_ing1 == 'Carotte'%}                       
         <div class="container-result flex"  x-on:click="open1 = !open1">
-          {% elsif diagnostics_ing1 == 'Abricot' %}
+          {% elsif diagnostics_ing1 == 'Argan' %}
                 <div class="container-result flex"  x-on:click="open2 = !open2">
+                    {% elsif diagnostics_ing1 == 'Abricot' %}
+                <div class="container-result flex"  x-on:click="open3 = !open3">
+            {% elsif diagnostics_ing1 == 'Noisette' %}
+                <div class="container-result flex"  x-on:click="open4 = !open3">
+            {% elsif diagnostics_ing1 == 'Amandee' %}
+                <div class="container-result flex"  x-on:click="open5 = !open5">
+            {% elsif diagnostics_ing1 == 'Onagre' %}
+                <div class="container-result flex"  x-on:click="open6 = !open6">
+          
           {% endif %}
           <div class="container-image">
                         
