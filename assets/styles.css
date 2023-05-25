@@ -1682,8 +1682,7 @@ footer .text_container, footer .link_list_container{
   }
   
   .step6 .columns5{
-      grid-template-columns: repeat(2, 1fr);
-      display: grid!important; 
+      display: block!important; 
   }
 
 .cart-item__name {
