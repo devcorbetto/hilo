@@ -193,9 +193,9 @@
       </div>
    </div>
    
-   <div class="form-quiz mt-10" id="form-quiz" x-ref="form-quiz">
+   <div class="form-quiz mt-10">
       {% for step in steps %}
-      <div id="step{{ forloop.index }}"  x-ref="step{{ forloop.index }}" class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius" x-show="step === {{ forloop.index }}">
+      <div class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius" x-show="step === {{ forloop.index }}">
          {% if forloop.index != 1  %}
          <div class="back-container mb-20"  @click="step--;" >
             <span class="precedent">   < Précédent</span>
@@ -285,16 +285,12 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
- $nextTick(() => {
-      $refs['form-quiz'].scrollIntoView({ behavior: 'smooth' });
-    });
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }
         " 
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
    </p>
-              
    {% when 2 %}
  <p class="text-center"> <button @click="
   if(formData.f21 && formData.f22 && formData.f23) {
