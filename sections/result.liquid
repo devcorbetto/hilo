@@ -6,6 +6,51 @@
   </script>
 {% endunless %}
 
+<style>
+  .container-modal {
+
+          margin:0 auto;
+          
+             background:white;
+             padding:20px 30px;
+       
+                 z-index: 9999;
+             text-align:center;
+    border-radius:20px;
+ 
+  }
+		   .modal  {
+       position: fixed;
+
+      width: 50%;
+          margin:0 auto;
+  
+               z-index: 9999;
+             top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+        }
+		.duration-300 {
+			transition-duration: 300ms;
+		}
+
+		.ease-in {
+			transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+		}
+
+		.ease-out {
+			transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+
+		.scale-90 {
+			transform: scale(.9);
+		}
+
+		.scale-100 {
+			transform: scale(1);
+		}
+	</style>
+
 
 {% capture onagre %}<b>Huile d’onagre</b> : Hydratante, revitalisante et adoucissante{% endcapture %}
 {% capture carotte %}<b>Huile de carotte</b> : Bonne mine, assouplissante et favorise le bronzage{% endcapture %}
