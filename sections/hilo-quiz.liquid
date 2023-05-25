@@ -341,7 +341,7 @@
    {% when 4 %}
  <p class="text-center">   
    <button @click="if(selected.length >= 1 && selected.length <= 3) step++; else alert('Veuillez sélectionner au moins une option.');" 
-      
+       :class="{ 'disabled-class': !(selected.length >= 1 && selected.length <= 3) }"
        :disabled="!(selected.length >= 1 && selected.length <= 3)"
                class=" text-white font-bold py-2 px-4 rounded">
                Valider</button>
