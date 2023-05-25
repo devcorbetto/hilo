@@ -373,7 +373,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
       <ul style="display:grid; grid-template-columns:1fr 0.2fr 1fr; column-gap:30px;">
         <li>
            {% render 'card-product',
-              card_product: 8110755447079,
+              card_product: section.settings.product,
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
@@ -408,7 +408,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
                                   <li> ou</li>
               <li>
            {% render 'card-product',
-              card_product: '8110755447079',
+              card_product: section.settings.product,
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
               show_vendor: section.settings.show_vendor,
