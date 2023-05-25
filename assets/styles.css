@@ -1619,7 +1619,7 @@ footer .text_container, footer .link_list_container{
   }
 
   .container.flex{
-    display:block;
+    display:block!important;
   }
   .container-content.w-3\/4{
     width: 100%;
