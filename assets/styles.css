@@ -1618,6 +1618,9 @@ footer .text_container, footer .link_list_container{
     padding-left:0px;
   }
 
+  .container.flex{
+    display:block;
+  }
   .container-content.w-3\/4{
     width: 100%;
     margin-top: 20px;
