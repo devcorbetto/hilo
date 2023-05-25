@@ -48,7 +48,7 @@ table:not([class]) td, table:not([class]) th{
   border:0px;
 }
 
-.banner__media .button--secondary:after{
+.banner__content .button--secondary:after{
     border-radius: 30px!important;
 }
 
