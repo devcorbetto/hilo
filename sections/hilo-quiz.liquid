@@ -285,16 +285,19 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
-      function scrollToStep(2) {
-    const stepElement = document.getElementById(2);
-    stepElement.scrollIntoView({ behavior: 'smooth' });
-  }
+      scrollToStep('step2');
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }
         " 
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
    </p>
+              <script>
+  function scrollToStep(stepId) {
+    const stepElement = document.getElementById(stepId);
+    stepElement.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
    {% when 2 %}
  <p class="text-center"> <button @click="
   if(formData.f21 && formData.f22 && formData.f23) {
