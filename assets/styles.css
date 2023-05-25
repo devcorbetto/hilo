@@ -1659,6 +1659,10 @@ footer .text_container, footer .link_list_container{
     border-radius:20px!important;
   }
 
+  .cart-item__details{
+    max-width:100%;
+  }
+
 .cart-item__name {
     padding-top: 20px;
     padding-bottom: 15px;
