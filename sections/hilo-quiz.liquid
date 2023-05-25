@@ -244,10 +244,13 @@
          <label for="Brillance">Brillance</label>
       </div>
            <p class="text-center">
-<button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" class="text-white font-bold py-2 px-4 rounded">
+<button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" 
+  :class="{'disabled-class': !(selected.length >= 1 && selected.length <= 3)}"
+  
+  class="text-white font-bold py-2 px-4 rounded">
    Valider
 </button>
-         test
+  
   
 </p>
 
