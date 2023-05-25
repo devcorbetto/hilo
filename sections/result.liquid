@@ -394,7 +394,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
        <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
  " class="button btn" >J'ajoute mon soin au panier</a>
     {% endif %}
-     </p>
+     </p><div class="">
                                   <h2>{{ section.settings.product.title }}</h2>
            {% render 'card-product',
               card_product: section.settings.product,
@@ -405,7 +405,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
               show_quick_add: false,
               section_id: section.id
             %}
-                                  
+     </div>           
         </li>
         <li style="    display: flex;    align-items: center;    font-weight: 600;    justify-content: center;"> 
         ou</li>
