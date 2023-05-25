@@ -460,7 +460,7 @@
         {{ property.first   | capitalize }},
         
         </span>
-         
+          </span>
             <span class="product-option">
         {{ property.first   | capitalize }},
         
@@ -477,7 +477,17 @@
 
       {%- assign property_first_char = property.first | slice: 0 -%}
       {% if forloop.last %}
-    
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>,
+           <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+                       
+          {%- endif -%}
         {% else %}
         {%- if property.last != blank and property_first_char != '_' -%}
         <span class="product-option">
