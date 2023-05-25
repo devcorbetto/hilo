@@ -4,7 +4,7 @@
     align-items: center;"  x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }" >
 
   {% for i in (1..6) %}
-    <button  x-on:click="open{{ forloop.index }} = !open{{ forloop.index }}" >button  {{ forloopindex }} </button><br>
+   
     <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false" style="display:none;">
        <div class="container-modal" style="position:relative;">
       <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="open{{ forloop.index }} = false">
@@ -122,7 +122,7 @@
 
     
   <h2>fin ingredienets</h2>
-</div>
+
 {% unless customer  %}
   <p></p>
    <script>
