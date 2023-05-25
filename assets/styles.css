@@ -1660,7 +1660,7 @@ footer .text_container, footer .link_list_container{
   }
 
   .cart-item__details{
-    max-width:100%;
+    max-width:100%!important;
   }
 
   .cart-items td, .cart-items th{
