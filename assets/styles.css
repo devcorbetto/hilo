@@ -48,7 +48,9 @@ table:not([class]) td, table:not([class]) th{
   border:0px;
 }
 
-
+.button--secondary:after{
+  border-radius:30px;
+}
 
 @media screen and (min-width: 990px){
 .page-width--narrow {
