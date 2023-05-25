@@ -451,7 +451,8 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
     justify-content: center;
     align-items: center;"  x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false ,open7: false ,open8: false  }" class="{{ section.settings.customcss }} multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
 
-   {%- for i in 1.6 -%}
+  {% for i in (1..6) %}
+    hola
     <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false" style="display:none;">
        <div class="container-modal" style="position:relative;">
       <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="open{{ forloop.index }} = false">
