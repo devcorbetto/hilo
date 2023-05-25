@@ -158,10 +158,10 @@
     {% render 'icon-minus' %}
 </span>
 
-    <template x-if="ingrediente{{ forloop.index0 }} == ''">
+    <template x-if="ingrediente{{ forloop.index0 }} == '0'">
       es cero
     </template>
-  <template x-if="ingrediente{{ forloop.index0 }} !== ''">
+  <template x-if="ingrediente{{ forloop.index0 }} !== '0'">
     diferente de cero
   </template>
         <input x-model="ingrediente{{ forloop.index0 }}"
