@@ -1664,7 +1664,7 @@ footer .text_container, footer .link_list_container{
   }
 
   .cart-items td, .cart-items th, .cart-item__image-container{
-    display:block;
+    display:block!important;
   }
 
 .cart-item__name {
