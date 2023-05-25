@@ -1169,6 +1169,9 @@ summary .icon-carret2 {
   width:60%;
 }
 @media screen and (max-width: 749px) {
+.container-modal > div > div > div > div:nth-child(4){
+      padding: 30px 30px 130px 30px;
+}
   .multi-slider .multicolumn-card.content-container  > div:last-child {
     width:100%;
   }
