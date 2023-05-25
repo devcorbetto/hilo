@@ -364,96 +364,103 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
 
       </div>
             </div>
-            <div class="container-routine mt-20 page-width">
+
+                                  
+<div class="container-routine mt-20 page-width">
       <h2 class="text-center  mb-20 ">VOTRE ROUTINE PERSONNALISÉE</h2>
       <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).<br> <br></p>
       <p class="text-center  mb-20 ">Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastique.<br>
         Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge<br> (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
-  {% comment %} {% endcomment %}    
-      <ul class="collection collection-result" style="display:grid; grid-template-columns:1fr 0.5fr 1fr; column-gap:30px;">
-        <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 50px;">
-                                     <p class="text-center pb-10">
-{% if diagnostics_ing1 == diagnostics_ing2 %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
+  
 
-{% if diagnostics_ing1 == diagnostics_ing3 %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
-{% if diagnostics_ing2 == diagnostics_ing3 %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
-{% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
-  {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-       <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
- " class="button btn" >J'ajoute mon soin au panier</a>
+<ul class="collection collection-result" style="display:grid; grid-template-columns:1fr 0.5fr 1fr; column-gap:30px;">
+  <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 50px;">
+    <p class="text-center pb-10">
+    {% if diagnostics_ing1 == diagnostics_ing2 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J'ajoute mon soin au panier</a>
     {% endif %}
-     </p><div class="">
-                                  <h3>{{ section.settings.product.title }}</h3>
-           {% render 'card-product',
-              card_product: section.settings.product,
-              media_aspect_ratio: true,
-              show_secondary_image: true,
-              show_vendor: section.settings.show_vendor,
-              show_rating: true,
-              show_quick_add: false,
-              section_id: section.id
-            %}
-     </div>           
-        </li>
-        <li style="    display: flex;    align-items: center;    font-weight: 600;    justify-content: center;"> 
-        ou</li>
-            <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 50px;">
-                   <p class="text-center pb-10">
-{% if diagnostics_ing1 == diagnostics_ing2 %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
+    
+    {% if diagnostics_ing1 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    </p><div class="">
+    <h3>Mon match du moment est parfait</h3>
+    {% render 'card-product',
+    card_product: section.settings.product,
+    media_aspect_ratio: true,
+    show_secondary_image: true,
+    show_vendor: section.settings.show_vendor,
+    show_rating: true,
+    show_quick_add: false,
+    section_id: section.id
+    %}
+    </div>           
+  </li>
+                                  
+  <li style="    display: flex;    align-items: center;    font-weight: 600;    justify-content: center;"> 
+  ou</li>
+                                  
+  <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 50px;">
+    <p class="text-center pb-10">
+    {% if diagnostics_ing1 == diagnostics_ing2 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    
+    {% if diagnostics_ing1 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J'ajoute mon soin au panier</a>
+    {% endif %}
+    </p>
+    <div>    
+      <h3>Mon match du moment ne me convient pas</h3>
+      {% render 'card-product',
+      card_product: section.settings.product,
+      media_aspect_ratio: true,
+      show_secondary_image: true,
+      show_vendor: false,
+      show_rating: true,
+      show_quick_add: false
+      section_id: section.id
+      %}
+    </div>             
+  </li>
 
-{% if diagnostics_ing1 == diagnostics_ing3 %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
-{% if diagnostics_ing2 == diagnostics_ing3 %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
-{% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-<a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-" class="button btn" >J'ajoute mon soin au panier</a>
-{% endif %}
-  {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-       <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
- " class="button btn" >J'ajoute mon soin au panier</a>
-    {% endif %}
-     </p>
-                      <div>    <h3>{{ section.settings.product.title }}</h3>
-           {% render 'card-product',
-              card_product: section.settings.product,
-              media_aspect_ratio: true,
-              show_secondary_image: true,
-              show_vendor: false,
-              show_rating: true,
-              show_quick_add: false
-              section_id: section.id
-            %}
-                      </div>             
-        </li>
-         
-      </ul>                            
-           
+</ul>                            
+
            
 
           
     </div>
         </div>
         </div>
+        
       {% endif %}
       <style>
 .collection-result h3 {
