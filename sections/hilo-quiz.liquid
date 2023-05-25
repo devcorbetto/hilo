@@ -285,7 +285,9 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
+    setTimeout(() => {
       scrollToStep('step2');
+    }, 500);
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }
