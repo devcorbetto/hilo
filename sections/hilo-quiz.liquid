@@ -283,10 +283,12 @@
    {% when 1 %}
    <p class="text-center">  <button @click="if(formData.name && formData.gender && formData.age) { 
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
-         const step2Element = document.getElementById('step2');
-step2Element.scrollIntoView({ behavior: 'smooth' });
+         
           step++; 
-     
+      function scrollToStep(2) {
+    const stepElement = document.getElementById(2);
+    stepElement.scrollIntoView({ behavior: 'smooth' });
+  }
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }
@@ -309,8 +311,6 @@ step2Element.scrollIntoView({ behavior: 'smooth' });
       return;
     }
     step++;
-        const step3Element = document.getElementById('step3');
-step3Element.scrollIntoView({ behavior: 'smooth' });
   } else {
     alert('Veuillez remplir tous les champss');
   }
@@ -329,8 +329,6 @@ step3Element.scrollIntoView({ behavior: 'smooth' });
       formData.deshy = 'deshy';
     }
     step++;
-                    const step4Element = document.getElementById('step4');
-step4Element.scrollIntoView({ behavior: 'smooth' });
   } else {
     alert('Veuillez remplir tous les champs');
   }
