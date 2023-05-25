@@ -1629,6 +1629,11 @@ footer .text_container, footer .link_list_container{
   .product__description ul{
     display:block!important;
   }
+
+  .product__info-container .ft2{
+    display:block;
+    text-align:left;
+  }
   .container-content.w-3\/4{
     width: 100%;
     margin-top: 20px;
