@@ -1171,6 +1171,9 @@ summary .icon-carret2 {
   .multi-slider .multicolumn-card.content-container{
     flex-wrap: wrap;
   }
+.header__icons {
+    padding-right: 15px;
+}
 }
 .multi-slider .multicolumn-card.content-container h3 {
   font-size:23px;
