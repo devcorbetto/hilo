@@ -288,6 +288,7 @@
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }        " 
+      :class="{ 'disabled-class': !(formData.name && formData.gender && formData.age) }"
               :disabled="!(formData.name && formData.gender && formData.age)"
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
    </p>
