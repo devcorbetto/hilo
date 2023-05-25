@@ -346,6 +346,7 @@
                class=" text-white font-bold py-2 px-4 rounded">
                Valider</button>
  </p>
+         test
          <button 
   x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" 
   x-bind:class="{'text-white font-bold py-2 px-4 rounded': true, 'disabled-class': !(selected.length >= 1 && selected.length <= 3)}"
