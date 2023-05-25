@@ -444,7 +444,7 @@ table:not([class]){
   border:none!important;
 }
 
-.banner__content .button--secondary:after:hover{
+.banner__content .button--secondary:hover:after{
   border:none!important;
 }
 
