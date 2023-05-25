@@ -1640,7 +1640,7 @@ footer .text_container, footer .link_list_container{
   }
 
   .cart__footer .items-cart{
-    margin-bottom:20px;
+    margin-bottom:20px!important;
   }
 
   .product__info-wrapper .ft2 div:last-child{
