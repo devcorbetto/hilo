@@ -1677,6 +1677,10 @@ footer .text_container, footer .link_list_container{
     padding-right:0px!important;
   }
 
+  #progressbar{
+    width:100%;
+  }
+
 .cart-item__name {
     padding-top: 20px;
     padding-bottom: 15px;
