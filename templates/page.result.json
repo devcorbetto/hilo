@@ -10,6 +10,52 @@
     },
     "a0cf2af5-5bb4-43cf-9672-5784ca7de0d2": {
       "type": "result",
+      "blocks": {
+        "10b7cfd1-a98f-4692-93b3-445ceed74c20": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-carotte_1.svg"
+          }
+        },
+        "50f17ff9-7c68-4b2e-aea2-6b3f6da429c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-argan_1.svg"
+          }
+        },
+        "180f6f86-0077-4ec4-8e89-de7d217611c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-abricot_1.svg"
+          }
+        },
+        "ecae481e-4833-4fb5-aede-6e51dde9dc2f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-noisette_2.svg"
+          }
+        },
+        "f4bf138b-b9ff-4284-9fde-9d40897b52ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-amande-douce.svg"
+          }
+        },
+        "bcf64a7c-5c52-48ac-88c1-0214f71048db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-onagre_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "10b7cfd1-a98f-4692-93b3-445ceed74c20",
+        "50f17ff9-7c68-4b2e-aea2-6b3f6da429c8",
+        "180f6f86-0077-4ec4-8e89-de7d217611c5",
+        "ecae481e-4833-4fb5-aede-6e51dde9dc2f",
+        "f4bf138b-b9ff-4284-9fde-9d40897b52ea",
+        "bcf64a7c-5c52-48ac-88c1-0214f71048db"
+      ],
       "settings": {
         "product": "creme"
       }
