@@ -1663,6 +1663,10 @@ footer .text_container, footer .link_list_container{
     max-width:100%;
   }
 
+  .cart-items td, .cart-items th{
+    display:block;
+  }
+
 .cart-item__name {
     padding-top: 20px;
     padding-bottom: 15px;
