@@ -156,8 +156,11 @@
           </h3>
           
     <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
-    <p class="card_description">{% if text-for-result %} {{  card_product.metafields.custom.text_for_result }} {% else %}{{  card_product.metafields.custom.card_description }}{% endif %}</p>
-          <div class="card-information">
+    <p class="card_description">
+   {% if show_text %} {{ text1  }} {% else %}
+  {% if text-for-result %} {{  card_product.metafields.custom.text_for_result }} {% else %}{{  card_product.metafields.custom.card_description }}{% endif %}</p>
+     {% endif %}  
+     <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
@@ -329,7 +332,10 @@
       <div class="card__content">
         <div class="card__information">
            <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
-                     <p class="card_description"> {% if show_text %} {{ text1  }} {% else %}{{  card_product.metafields.custom.card_description }} {% endif %}</p>
+                     <p class="card_description">
+  
+  {% if show_text %} {{ text1  }} {% else %}{{  card_product.metafields.custom.card_description }} {% endif %}
+  </p>
           <h3 class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
