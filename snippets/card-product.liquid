@@ -316,7 +316,7 @@
          
              <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
               <p class="card_description">
-  {% if text1 %} {{ text1  }} {% else %}{{  card_product.metafields.custom.card_description }} {% endif %}</p>
+  {% if show_text %} {{ text1  }} {% else %}{{  card_product.metafields.custom.card_description }} {% endif %}</p>
             
             <h3 class="card__heading">
               <a role="link" aria-disabled="true" class="full-unstyled-link">
@@ -329,7 +329,7 @@
       <div class="card__content">
         <div class="card__information">
            <p class="legend">{{  card_product.metafields.card.text_legend }}</p>
-                     <p class="card_description">{{  card_product.metafields.custom.card_description }}</p>
+                     <p class="card_description"> {% if show_text %} {{ text1  }} {% else %}{{  card_product.metafields.custom.card_description }} {% endif %}</p>
           <h3 class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
