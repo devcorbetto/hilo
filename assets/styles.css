@@ -1643,6 +1643,10 @@ footer .text_container, footer .link_list_container{
     margin-bottom:20px!important;
   }
 
+.cart__footer {
+    padding: 20px 0;
+}
+
   .product__info-wrapper .ft2 div:last-child{
     text-align:left;
   }
