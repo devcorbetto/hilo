@@ -1656,7 +1656,7 @@ footer .text_container, footer .link_list_container{
   }
 
   .cart-item__image{
-    border-radius:20px;
+    border-radius:20px!important;
   }
 
 .cart-item__name {
