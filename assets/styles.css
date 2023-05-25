@@ -52,6 +52,11 @@ table:not([class]) td, table:not([class]) th{
     border-radius: 30px!important;
 }
 
+.banner__content .button--secondary:hover{
+  background-color:#fff;
+  color:#fccf9c;
+}
+
 @media screen and (min-width: 990px){
 .page-width--narrow {
     max-width: 98.6rem;
