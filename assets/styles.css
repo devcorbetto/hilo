@@ -1673,8 +1673,8 @@ footer .text_container, footer .link_list_container{
   }
 
   .image-with-text__content{
-    padding-left:0px;
-    padding-right:0px;
+    padding-left:0px!important;
+    padding-right:0px!important;
   }
 
 .cart-item__name {
