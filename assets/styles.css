@@ -1667,6 +1667,10 @@ footer .text_container, footer .link_list_container{
     display:block!important;
   }
 
+  .container-step::after{
+    top:26px;
+  }
+
 .cart-item__name {
     padding-top: 20px;
     padding-bottom: 15px;
