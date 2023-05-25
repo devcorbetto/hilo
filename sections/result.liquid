@@ -371,7 +371,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
         Vous pourrez choisir à l'étape suivante, pour chaque produit, si vous souhaitez le format pot + recharge<br> (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
   {% comment %} {% endcomment %}    
       <ul class="collection" style="display:grid; grid-template-columns:1fr 0.2fr 1fr; column-gap:30px;">
-        <li>
+        <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 30px;">
                                      <p class="text-center pb-10">
 {% if diagnostics_ing1 == diagnostics_ing2 %}
 <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
@@ -407,7 +407,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
                                   
         </li>
                                   <li> ou</li>
-              <li>
+            <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 30px;">
                    <p class="text-center pb-10">
 {% if diagnostics_ing1 == diagnostics_ing2 %}
 <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
