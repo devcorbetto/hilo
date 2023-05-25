@@ -1237,7 +1237,7 @@ background-position: left top;
 }
 @media screen and (max-width: 649px){
   .bg_contact {
-  background-image: unset;
+  background-size: auto 100%;
   }
 }
 .bg_contact  > div {
