@@ -293,12 +293,7 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
-   this.$nextTick(() => {
-        const element = this.$el.querySelector('#step2');
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
+  this.$refs.step2.scrollIntoView({ behavior: 'smooth' });
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }        " 
