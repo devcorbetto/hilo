@@ -791,26 +791,20 @@ overflow:hidden;
       <span id="emailError" class="error-message"></span>
 <script>
   var emailInput = document.getElementById('RegisterForm-email');
-  var emailError = document.getElementById('emailError');
   var validateButton = document.getElementById('validateregister');
 
   emailInput.addEventListener('input', function() {
     var email = emailInput.value.trim();
-    if (email === '') {
-      emailInput.classList.add('invalid');
-      emailError.textContent = 'Este campo es obligatorio.';
-      validateButton.disabled = true;
-    } else if (!/\S+@\S+\.\S+/.test(email)) {
-      emailInput.classList.add('invalid');
-      emailError.textContent = 'Ingresa una dirección de correo electrónico válida.';
-      validateButton.disabled = true;
-    } else {
-      emailInput.classList.remove('invalid');
-      emailError.textContent = '';
+    var emailPattern = /\S+@\S+\.\S+/;
+
+    if (emailPattern.test(email)) {
       validateButton.disabled = false;
+    } else {
+      validateButton.disabled = true;
     }
   });
 </script>
+
 
     </div>
     {%- if form.errors contains 'email' -%}
