@@ -745,6 +745,26 @@ overflow:hidden;
       }
     }
 
+    var emailInput = document.getElementById('RegisterForm-Email');
+    var passwordInput = document.getElementById('RegisterForm-Password');
+
+    // Validar el formato del correo electrónico
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(emailInput.value)) {
+      isValid = false;
+      emailInput.classList.add('invalid');
+    } else {
+      emailInput.classList.remove('invalid');
+    }
+
+    // Validar que la contraseña tenga más de 6 caracteres
+    if (passwordInput.value.length < 6) {
+      isValid = false;
+      passwordInput.classList.add('invalid');
+    } else {
+      passwordInput.classList.remove('invalid');
+    }
+
     submitButton.disabled = !isValid;
 
     return isValid;
@@ -758,7 +778,7 @@ overflow:hidden;
   });
 </script>
 
-t
+t2
    <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
