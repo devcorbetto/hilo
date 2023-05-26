@@ -683,81 +683,7 @@ overflow:hidden;
 
          
        {% else %}
-<form method="post" action="/account" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true" novalidate="novalidate" onsubmit="return validarFormulario()">
-  <input type="hidden" name="form_type" value="create_customer">
-  <input type="hidden" name="utf8" value="✓">
-  <input type="hidden" name="return_to" value="pages/loading-diagnostic">
 
-  <label for="RegisterForm-FirstName">Prénom *</label>
-  <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name" placeholder="Prénom" required>
-
-  <label for="RegisterForm-LastName">Nom de famille *</label>
-  <input type="text" name="customer[last_name]" id="RegisterForm-LastName" autocomplete="family-name" placeholder="Nom de famille" required>
-
-  <label for="RegisterForm-Email">E-mail *</label>
-  <input type="email" name="customer[email]" id="RegisterForm-Email" spellcheck="false" autocapitalize="off" autocomplete="email" placeholder="E-mail" required>
-
-  <label for="RegisterForm-Password">Mot de passe *</label>
-  <input type="password" name="customer[password]" id="RegisterForm-Password" aria-required="true" placeholder="Mot de passe" required>
-
-  <p class="text-center">
-    <button type="submit" id="submitButton" disabled>Je découvre mes recommandations</button>
-  </p>
-</form>
-
-<script>
-  var submitButton = document.getElementById('submitButton');
-
-  function validarFormulario() {
-    var form = document.getElementById('create_customer');
-    var inputs = form.querySelectorAll('input[required]');
-    var isValid = true;
-
-    for (var i = 0; i < inputs.length; i++) {
-      var input = inputs[i];
-      if (input.value.trim() === '') {
-        isValid = false;
-        input.classList.add('invalid');
-      } else {
-        input.classList.remove('invalid');
-      }
-    }
-
-    var emailInput = document.getElementById('RegisterForm-Email');
-    var passwordInput = document.getElementById('RegisterForm-Password');
-
-    // Validar el formato del correo electrónico
-    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(emailInput.value)) {
-      isValid = false;
-      emailInput.classList.add('invalid');
-    } else {
-      emailInput.classList.remove('invalid');
-    }
-
-    // Validar que la contraseña tenga más de 6 caracteres
-    if (passwordInput.value.length < 6) {
-      isValid = false;
-      passwordInput.classList.add('invalid');
-    } else {
-      passwordInput.classList.remove('invalid');
-    }
-
-    submitButton.disabled = !isValid;
-
-    return isValid;
-  }
-
-  var formInputs = document.querySelectorAll('form#create_customer input[required]');
-  formInputs.forEach(function(input) {
-    input.addEventListener('input', function() {
-      validarFormulario();
-    });
-  });
-</script>
-
-
-t22
    <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
@@ -772,7 +698,7 @@ t22
   </h2>
          <p  class="text-center">Dernière étape avant de découvrir la combinaison d'huiles végétales qui viendra personnaliser vos<br> cosmétiques et sublimer votre peau.<br><br> Créez votre compte pour sauvegarder vos résultats.
          </p>
-  {%- form 'create_customer', novalidate: 'novalidate' -%}
+  {%- form 'create_customer' -%}
      <input type="hidden" name="return_to" value="pages/loading-diagnostic">
     {%- if form.errors -%}
       <h2 class="form__message" tabindex="-1" autofocus>
@@ -804,7 +730,7 @@ t22
     <div class="field">  
     
       <input
-   
+   required
         type="text"
         name="customer[first_name]"
         id="RegisterForm-FirstName"
@@ -818,7 +744,7 @@ t22
       </label>
     <div class="field">
       <input
-     
+     required
         type="text"
         name="customer[last_name]"
         id="RegisterForm-LastName"
@@ -834,7 +760,7 @@ t22
     <div class="field">
       <input
         type="date"
-   
+   required
         id="RegisterForm-LastName"
         value="Date de naissance *"
         placeholder="Date de naissance *"
@@ -846,7 +772,7 @@ t22
       </label>
     <div class="field">      
       <input
-  
+  required
         type="email"
         name="customer[email]"
         id="RegisterForm-email"
@@ -877,10 +803,10 @@ t22
     <div class="field">     
       <input
         type="password"
-
+required
         name="customer[password]"
         id="RegisterForm-password"
-    
+    pattern=".{6,}" title="La contraseña debe tener al menos 6 caracteres"
         aria-required="true"
         {% if form.errors contains 'password' %}
           aria-invalid="true"
