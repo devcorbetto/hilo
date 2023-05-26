@@ -14,10 +14,10 @@
         "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ambassadeur-cosmetiques-naturels-Hilo.jpg",
-            "heading": "DEVENEZ AMBASSADEUR HILO",
+            "image": "shopify:\/\/shop_images\/Rectangle_375.png",
+            "heading": "HILO C'EST FANTASTIQUE",
             "heading_size": "h1",
-            "subheading": "Ensemble, co-créons les cosmétiques naturels de demain !",
+            "subheading": "Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau… et surtout être de bonne humeur.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -36,7 +36,7 @@
       "settings": {
         "customcss": "text-black",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -50,7 +50,7 @@
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>4 BONNES RAISONS DE REJOINDRE LA COMMUNAUTÉ DES AMBASSADEURS HILO<\/p>",
+            "heading": "<p>MODE D'EMPLOI<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -59,7 +59,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Si vous vous posez vraiment la question… 😄<\/p>"
+            "text": "<p>J'assemble mon soin en 2 minutes seulement. ⏳<\/p>"
           }
         }
       },
