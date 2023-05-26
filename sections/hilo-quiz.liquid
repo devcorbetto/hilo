@@ -164,7 +164,7 @@
    "
   
    style="margin-bottom:100px;" >
-   <div class="etapas grid grid-cols-4 text-center justify-center" 
+   <div class="etapas grid grid-cols-4 text-center justify-center"  id="etapas"
       :class="{ 'active-step1': step === 1 , 'active-step2': step === 2 , 'active-step3': step === 3 ,  'active-step4': step === 4 ,    'active-step5': step === 5 , 'active-step6': step === 6 }">
       <div class="container-step container-step1" >
          <div class="etapa1  etapas5 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10" 
@@ -294,7 +294,7 @@
          
           step++; 
   setTimeout(() => {
-        const element = document.getElementById('step2');
+        const element = document.getElementById('etapas');
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
         }
