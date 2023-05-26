@@ -173,19 +173,6 @@
     },
     "1edd166c-9532-49eb-b7b3-cda674a02113": {
       "type": "rich-text",
-      "blocks": {
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>LES CAMPAGNES AMBASSADEURS EN COURS<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0"
-      ],
       "settings": {
         "customcss": "",
         "desktop_content_position": "center",
@@ -231,7 +218,7 @@
       ],
       "settings": {
         "customcss": "programme_text2 btn-circle corner-left-top-pink",
-        "image": "shopify:\/\/shop_images\/Campagne_en_cours.jpg",
+        "image": "shopify:\/\/shop_images\/coffret-Hilo-automassage-gua-sha.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -250,26 +237,20 @@
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-0": {
           "type": "heading",
           "settings": {
-            "heading": "LES NEWS D'HILO",
+            "heading": "LA PLAYLIST D'HILO",
             "heading_size": "h1"
           }
         },
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>Ne manquez pas nos prochaines campagnes ambassadeurs !<\/h3><p>Abonnez-vous à la newsletter pour être averti en avant-première des campagnes de test produit et devenir ambassadeur Hilo.<\/p>"
-          }
-        },
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-2": {
-          "type": "email_form",
-          "settings": {
+            "text": "<p>Vous vous êtes levé du pied gauche ? Des petits soucis en ce moment ? Vous souhaitez retrouvez le sourire ?<br\/>Découvrez la super playlist d'hilo pour être de bonne humeur tout au long de la journée et voir la vie en couleur !<br\/><\/p>"
           }
         }
       },
       "block_order": [
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-0",
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1",
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-2"
+        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1"
       ],
       "custom_css": [
         "svg path {fill: #e9e4f2;}",
@@ -278,6 +259,52 @@
       "settings": {
         "customcss": "waves4b",
         "color_scheme": "colors_8",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8342b0c2-d57c-4609-a728-0dcf730c6219": {
+      "type": "rich-text-account",
+      "blocks": {
+        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>VOTRE MATCH PARFAIT<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-0",
+        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-1",
+        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-2"
+      ],
+      "settings": {
+        "customcss": "waves5c",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -333,6 +360,7 @@
     "1edd166c-9532-49eb-b7b3-cda674a02113",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
+    "8342b0c2-d57c-4609-a728-0dcf730c6219",
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
     "1684764937cc95afcf"
   ]
