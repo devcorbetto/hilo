@@ -196,7 +196,11 @@
    <div class="form-quiz mt-10">
       {% for step in steps %}
       <div  x-cloak  x-ref="step{{ forloop.index }}"
-        class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius" x-show="step === {{ forloop.index }}">
+        class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius"
+         x-show.transition="step === {{ forloop.index }}" class="invisible"
+      
+        
+        >
          {% if forloop.index != 1  %}
          <div class="back-container mb-20"  @click="step--;" >
             <span class="precedent">   < Précédent</span>
