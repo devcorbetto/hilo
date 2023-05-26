@@ -683,28 +683,6 @@ overflow:hidden;
 
          
        {% else %}
-     <form method="post" action="/account" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true" novalidate="novalidate" onsubmit="return validarFormulario()">
-  <input type="hidden" name="form_type" value="create_customer">
-  <input type="hidden" name="utf8" value="✓">
-  <input type="hidden" name="return_to" value="pages/loading-diagnostic">
-
-  <label for="RegisterForm-FirstName">Prénom *</label>
-  <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name" placeholder="Prénom" required>
-
-  <label for="RegisterForm-LastName">Nom de famille *</label>
-  <input type="text" name="customer[last_name]" id="RegisterForm-LastName" autocomplete="family-name" placeholder="Nom de famille" required>
-
-  <label for="RegisterForm-Email">E-mail *</label>
-  <input type="email" name="customer[email]" id="RegisterForm-Email" spellcheck="false" autocapitalize="off" autocomplete="email" placeholder="E-mail" required>
-
-  <label for="RegisterForm-Password">Mot de passe *</label>
-  <input type="password" name="customer[password]" id="RegisterForm-Password" aria-required="true" placeholder="Mot de passe" required>
-
-  <p class="text-center">
-    <button type="submit" id="submitButton" disabled>Je découvre mes recommandations</button>
-  </p>
-</form>
-
 <form method="post" action="/account" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true" novalidate="novalidate" onsubmit="return validarFormulario()">
   <input type="hidden" name="form_type" value="create_customer">
   <input type="hidden" name="utf8" value="✓">
@@ -778,7 +756,8 @@ overflow:hidden;
   });
 </script>
 
-t2
+
+t22
    <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
