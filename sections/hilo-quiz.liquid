@@ -806,7 +806,7 @@ overflow:hidden;
 required
         name="customer[password]"
         id="RegisterForm-password"
-    pattern=".{6,}" title="La contraseña debe tener al menos 6 caracteres"
+    pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres"
         aria-required="true"
         {% if form.errors contains 'password' %}
           aria-invalid="true"
