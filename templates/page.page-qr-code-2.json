@@ -91,86 +91,6 @@
         "padding_bottom": 36
       }
     },
-    "5e1a504a-e19c-4615-9c2d-a397a47aee6b": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Ambassadeurs-cosmetiques-naturels-decouvrir-Hilo.svg",
-            "title": "Découvrir",
-            "subtitle": "",
-            "text": "<p>et tester en<\/p><p> exclusivité <\/p><p>les soins Hilo.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Ambassadeurs-cosmetiques-naturels-creation-produit.svg",
-            "title": "Contribuer",
-            "subtitle": "",
-            "text": "<p>à la création de produits qui vous ressemblent.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "414ffa1c-76df-4c14-a436-646a7cd174ab": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Ambassadeurs-cosmetiques-naturels-partage-avis.svg",
-            "title": "Partager",
-            "subtitle": "",
-            "text": "<p> votre avis et votre expérience en toute transparence.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "2e3950c0-558b-4d13-aa7e-627c7da0b782": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Ambassadeurs-cosmetiques-naturels-succes-produit.svg",
-            "title": "Booster",
-            "subtitle": "",
-            "text": "<p> le succès des produits et être garant de leur qualité.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0",
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1",
-        "414ffa1c-76df-4c14-a436-646a7cd174ab",
-        "2e3950c0-558b-4d13-aa7e-627c7da0b782"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "customcss": "programmeicons",
-        "title": "",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1edd166c-9532-49eb-b7b3-cda674a02113": {
       "type": "rich-text",
       "settings": {
@@ -231,6 +151,54 @@
         "padding_bottom": 100
       }
     },
+    "2f35775f-b21d-443b-8572-b57ce4841a2c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "VOTRE MATCH PARFAIT",
+            "heading_size": "h1"
+          }
+        },
+        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Retrouvez la liste complète des ingrédients de votre crème parfaite du moment une fois assemblée (base + actifs). <br\/><br\/>Téléchargez le document ci-dessous et chercher votre combinaison d'actifs pour retrouvez sa liste INCI. <br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je télécharge la liste INCI",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-0",
+        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-1",
+        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-2"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "programme_text2 btn-circle corner-left-top-pink",
+        "image": "shopify:\/\/shop_images\/creme-visage-naturelle-personnalisable-rechargeable-prend-capsule.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800": {
       "type": "newsletter",
       "blocks": {
@@ -244,7 +212,7 @@
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Vous vous êtes levé du pied gauche ? Des petits soucis en ce moment ? Vous souhaitez retrouvez le sourire ?<br\/>Découvrez la super playlist d'hilo pour être de bonne humeur tout au long de la journée et voir la vie en couleur !<br\/><\/p>"
+            "text": "<p>Vous vous êtes levé du pied gauche ? Des petits soucis en ce moment ? Vous souhaitez retrouvez le sourire ?<br\/>Découvrez la super playlist d'hilo pour être de bonne humeur tout au long de la journée et voir la vie en couleur !<\/p><h1><a href=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\" title=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\">🎵<\/a><\/h1><p><a href=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\" title=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\">J'accède à la playlist <\/a><br\/><\/p>"
           }
         }
       },
@@ -259,52 +227,6 @@
       "settings": {
         "customcss": "waves4b",
         "color_scheme": "colors_8",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "8342b0c2-d57c-4609-a728-0dcf730c6219": {
-      "type": "rich-text-account",
-      "blocks": {
-        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>VOTRE MATCH PARFAIT<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-2": {
-          "type": "button",
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-0",
-        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-1",
-        "template--19108853809447__8342b0c2-d57c-4609-a728-0dcf730c6219-16851092832dfee675-2"
-      ],
-      "settings": {
-        "customcss": "waves5c",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -356,11 +278,10 @@
     "0236d6ea-5ed1-4a13-a5e4-ef298af307e0",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "7cc80f0a-c186-4e9f-8779-ba33eca0a203",
-    "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
     "1edd166c-9532-49eb-b7b3-cda674a02113",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
+    "2f35775f-b21d-443b-8572-b57ce4841a2c",
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
-    "8342b0c2-d57c-4609-a728-0dcf730c6219",
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
     "1684764937cc95afcf"
   ]
