@@ -293,12 +293,7 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
-   setTimeout(() => {
-        const element = document.getElementById('step2');
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, 100); // Ajusta el valor del timeout si es necesario
+   this.$refs.step2.scrollIntoView({ behavior: 'smooth' });
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }        " 
