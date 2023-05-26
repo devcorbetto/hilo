@@ -106,8 +106,7 @@
     f54: '',
    peau: '',
   madure: '',
-  deshy: '',
- 
+  deshy: ''
    }, 
     ing1: '',
     selectedOptions: [],
@@ -124,7 +123,6 @@
         this.preocu13 = preocu3;
     },
    step: 1, 
-   birthdate: '' ,
    activeStepColor: '#fbbf24', 
    selected: [],
    jsonData: null,
@@ -188,7 +186,7 @@
          Etat temporaire
       </div>
       <div class="container-step container-step4 ">
-         <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 6"  :class="{ 'active-step': step === 4 || step === 5  }">
+         <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 4"  :class="{ 'active-step': step === 4 || step === 5  }">
             4
          </div>
          Préoccupations
@@ -586,7 +584,6 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing1: ing1
              , ing2: ing2
              , ing3: ing3,
-          birthdate:birthdate,
           date: '{{ today }}',
              result: resultsJSON            }
            {% if customer %} 
@@ -760,14 +757,12 @@ overflow:hidden;
       </label>
     <div class="field">
       <input
-    type="date"
-    x-model="formData.birthdate"
-    id="RegisterForm-LastName"
-    x-bind:value="formData.birthdate ? formData.birthdate : null"
-    x-bind:placeholder="placeholderText"
-    x-on:focus="placeholderText = ''"
-    x-on:blur="if (!formData.birthdate) placeholderText = 'Date de naissance *'"
-  >
+        type="date"
+   
+        id="RegisterForm-LastName"
+        value="Date de naissance *"
+        placeholder="Date de naissance *"
+      >
      
     </div>
       <label for="RegisterForm-email" style="position:relative !important; border:0 !important;" >
