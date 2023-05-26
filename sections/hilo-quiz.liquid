@@ -195,7 +195,7 @@
    
    <div class="form-quiz mt-10">
       {% for step in steps %}
-      <div  x-ref="step{{ forloop.index }}"
+      <div  x-cloak  x-ref="step{{ forloop.index }}"
         class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius" x-show="step === {{ forloop.index }}">
          {% if forloop.index != 1  %}
          <div class="back-container mb-20"  @click="step--;" >
@@ -289,7 +289,12 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
-           scrollToElement('step2');
+           $nextTick(() => {
+        const element = document.getElementById('step2');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
      
         } else { 
           alert('Veuillez remplir tous les champs'); 
@@ -299,14 +304,7 @@
              
         class="text-white font-bold py-2 px-4 rounded">Valider</button>
    </p>
-              <script>
-  function scrollToElement(elementId) {
-    const element = document.getElementById(elementId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-</script>
+           
    {% when 2 %}
  <p class="text-center"> <button @click="
   if(formData.f21 && formData.f22 && formData.f23) {
