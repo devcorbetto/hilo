@@ -8,40 +8,37 @@
         "padding_bottom": 28
       }
     },
-    "0236d6ea-5ed1-4a13-a5e4-ef298af307e0": {
-      "type": "slideshow",
+    "9e7c4742-a65a-412a-95c1-ece1bccb218b": {
+      "type": "rich-text",
       "blocks": {
-        "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0": {
-          "type": "slide",
+        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_375.png",
-            "heading": "HILO C'EST FANTASTIQUE",
-            "heading_size": "h1",
-            "subheading": "Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau… et surtout être de bonne humeur.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "heading": "<p>HILO C'EST FANTASTIQUE<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, <\/p><p>prendre soin de votre peau… et surtout être de bonne humeur. <\/p>"
           }
         }
       },
       "block_order": [
-        "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0"
+        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-0",
+        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-1"
       ],
       "settings": {
-        "customcss": "text-black",
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "customcss": "waves5b bg_contact",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "06985fef-f561-411b-9d86-7c633b95f399": {
@@ -275,7 +272,7 @@
   },
   "order": [
     "main",
-    "0236d6ea-5ed1-4a13-a5e4-ef298af307e0",
+    "9e7c4742-a65a-412a-95c1-ece1bccb218b",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "7cc80f0a-c186-4e9f-8779-ba33eca0a203",
     "1edd166c-9532-49eb-b7b3-cda674a02113",
