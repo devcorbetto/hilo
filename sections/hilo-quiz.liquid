@@ -789,36 +789,7 @@ overflow:hidden;
         
       ><br>
       <span id="emailError" class="error-message"></span>
-<form method="post" action="/account" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true" onsubmit="window.Shopify.recaptchaV3.addToken(this, &quot;create_customer&quot;); return false;"><input type="hidden" name="form_type" value="create_customer"><input type="hidden" name="utf8" value="✓"><input type="hidden" name="return_to" value="pages/loading-diagnostic"><label for="RegisterForm-FirstName" style="position:relative !important; border:0 !important;">
-        Prénom *
-      
-    
-     </label>
-    <div class="field">  
-    
-      <input required="" type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name" placeholder="Prénom">
-    </div>
-     <label for="RegisterForm-LastName" style="position:relative !important; border:0 !important;">
-        Nom de famille  *
-      </label>
-    <div class="field">
-      <input required="" type="text" name="customer[last_name]" id="RegisterForm-LastName" autocomplete="family-name" placeholder="Nom de famille">
-     
-    </div>
-        <label for="RegisterForm-date" style="position:relative !important; border:0 !important;">
-       Date de naissance *
-      </label>
-    <div class="field">
-      <input type="date" required="" id="RegisterForm-LastName" value="Date de naissance *" placeholder="Date de naissance *">
-     
-    </div>
-      <label for="RegisterForm-email" style="position:relative !important; border:0 !important;">
-        E-mail  *
-      </label>
-    <div class="field">      
-      <input required="" type="email" name="customer[email]" id="RegisterForm-email" spellcheck="false" autocapitalize="off" autocomplete="email" aria-required="true" placeholder="E-mail"><br>
-     <p> <span id="emailError" class="error-message"></span></p>
- <script>
+<script>
   var emailInput = document.getElementById('RegisterForm-email');
   var emailError = document.getElementById('emailError');
   var validateButton = document.getElementById('validateregister');
@@ -841,28 +812,6 @@ overflow:hidden;
   });
 </script>
 
-    </div><label for="RegisterForm-password" style="position:relative !important; border:0 !important;">
-        Mot de passe  *
-      </label>
-    <div class="field">     
-      <input type="password" required="" name="customer[password]" id="RegisterForm-password" pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres" aria-required="true" placeholder="Mot de passe">
-     
-    </div><div class="field">   
- 
-  <label for="newsletter" class="newsletter" style=" border:0 !important;">Je souhaite recevoir les news d'Hilo.</label>
-</div>
- <input type="checkbox" id="newsletter" class="checkbox-round " name="customer[accepts_marketing]">
-            
-    <div class="field">     
-      <div class="jsondata">
-        <textarea id="jsondata" name="customer[note]" hidden="" x-text="JSON.stringify(jsonData)">null</textarea>
-      </div>
-    </div>
-        
-   <p class="text-center"> <button id="validateregister">
-      Je découvre mes recommandations
-    </button>
-   </p></form>
     </div>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
