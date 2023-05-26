@@ -789,24 +789,29 @@ overflow:hidden;
         
       ><br>
       <span id="emailError" class="error-message"></span>
-  <script>
+ <script>
   var emailInput = document.getElementById('RegisterForm-email');
   var emailError = document.getElementById('emailError');
+  var validateButton = document.getElementById('validateregister');
 
   emailInput.addEventListener('input', function() {
     var email = emailInput.value.trim();
     if (email === '') {
       emailInput.classList.add('invalid');
       emailError.textContent = 'Este campo es obligatorio.';
+      validateButton.disabled = true;
     } else if (!/\S+@\S+\.\S+/.test(email)) {
       emailInput.classList.add('invalid');
       emailError.textContent = 'Ingresa una dirección de correo electrónico válida.';
+      validateButton.disabled = true;
     } else {
       emailInput.classList.remove('invalid');
       emailError.textContent = '';
+      validateButton.disabled = false;
     }
   });
 </script>
+
     </div>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
@@ -856,7 +861,7 @@ required
       </div>
     </div>
         
-   <p class="text-center"> <button>
+   <p class="text-center"> <button id="validateregister">
       Je découvre mes recommandations
     </button>
    </p>
