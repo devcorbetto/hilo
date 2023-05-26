@@ -789,21 +789,21 @@ overflow:hidden;
         
       ><br>
       <span id="emailError" class="error-message"></span>
-    <script>
+  <script>
   var emailInput = document.getElementById('RegisterForm-email');
   var emailError = document.getElementById('emailError');
 
   emailInput.addEventListener('input', function() {
-    if (emailInput.validity.valid) {
+    var email = emailInput.value.trim();
+    if (email === '') {
+      emailInput.classList.add('invalid');
+      emailError.textContent = 'Este campo es obligatorio.';
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      emailInput.classList.add('invalid');
+      emailError.textContent = 'Ingresa una dirección de correo electrónico válida.';
+    } else {
       emailInput.classList.remove('invalid');
       emailError.textContent = '';
-    } else {
-      emailInput.classList.add('invalid');
-      if (emailInput.validity.valueMissing) {
-        emailError.textContent = 'Este campo es obligatorio.';
-      } else if (emailInput.validity.typeMismatch) {
-        emailError.textContent = 'Ingresa una dirección de correo electrónico válida.';
-      }
     }
   });
 </script>
