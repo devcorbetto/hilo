@@ -706,6 +706,8 @@ overflow:hidden;
 </form>
 
 <script>
+  var submitButton = document.getElementById('submitButton');
+
   function validarFormulario() {
     var form = document.getElementById('create_customer');
     var inputs = form.querySelectorAll('input[required]');
@@ -721,7 +723,6 @@ overflow:hidden;
       }
     }
 
-    var submitButton = document.getElementById('submitButton');
     submitButton.disabled = !isValid;
 
     if (!isValid) {
@@ -733,11 +734,12 @@ overflow:hidden;
 
   var formInputs = document.querySelectorAll('form#create_customer input[required]');
   formInputs.forEach(function(input) {
-    input.addEventListener('input', validarFormulario);
+    input.addEventListener('input', function() {
+      validarFormulario();
+    });
   });
 </script>
 
-test
    <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
