@@ -711,14 +711,15 @@ overflow:hidden;
     var inputs = form.querySelectorAll('input[required]');
     var isValid = true;
 
-    inputs.forEach(function(input) {
+    for (var i = 0; i < inputs.length; i++) {
+      var input = inputs[i];
       if (input.value.trim() === '') {
         isValid = false;
         input.classList.add('invalid');
       } else {
         input.classList.remove('invalid');
       }
-    });
+    }
 
     if (!isValid) {
       alert('Por favor, complete todos los campos requeridos.');
