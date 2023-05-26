@@ -793,17 +793,20 @@ overflow:hidden;
   var emailInput = document.getElementById('RegisterForm-email');
   var validateButton = document.getElementById('validateregister');
 
+  validateButton.disabled = true; // Deshabilitar el botón inicialmente
+
   emailInput.addEventListener('input', function() {
     var email = emailInput.value.trim();
     var emailPattern = /\S+@\S+\.\S+/;
 
     if (emailPattern.test(email)) {
-      validateButton.disabled = false;
+      validateButton.disabled = false; // Habilitar el botón si el formato de correo es válido
     } else {
-      validateButton.disabled = true;
+      validateButton.disabled = true; // Deshabilitar el botón si el formato de correo no es válido
     }
   });
 </script>
+
 
 
     </div>
