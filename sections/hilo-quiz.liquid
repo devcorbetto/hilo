@@ -293,12 +293,12 @@
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
          
           step++; 
-   Alpine.defer(() => {
+   setTimeout(() => {
         const element = document.getElementById('step2');
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
         }
-      });
+      }, 100); // Ajusta el valor del timeout si es necesario
         } else { 
           alert('Veuillez remplir tous les champs'); 
         }        " 
