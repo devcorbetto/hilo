@@ -249,7 +249,14 @@
          <label for="Brillance">Brillance</label>
       </div>
            <p class="text-center">
-<button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" 
+<button x-on:click="if (selected.length >= 1 && selected.length <= 3) { step++; 
+  setTimeout(() => {
+        const element = document.getElementById('etapas');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+  selectedOptions = [...selected]; } else { alert('Veuillez sélectionner de 1 à 3 options.'); }" 
   :class="{'disabled-class': !(selected.length >= 1 && selected.length <= 3)}"
    x-bind:disabled="!(selected.length >= 1 && selected.length <= 3)"
   class="text-white font-bold py-2 px-4 rounded">
@@ -324,6 +331,13 @@
       return;
     }
     step++;
+
+   setTimeout(() => {
+        const element = document.getElementById('etapas');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
   } else {
     alert('Veuillez remplir tous les champss');
   }
@@ -344,6 +358,12 @@
       formData.deshy = 'deshy';
     }
     step++;
+               setTimeout(() => {
+        const element = document.getElementById('etapas');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
   } else {
     alert('Veuillez remplir tous les champs');
   }
