@@ -188,7 +188,7 @@
          Etat temporaire
       </div>
       <div class="container-step container-step4 ">
-         <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 4"  :class="{ 'active-step': step === 4 || step === 5  }">
+         <div class="etapa4  etapas5  border-2  rounded-sm border-teal-600 bg-teal-300 p-10 mb-10"  @click="step = 5"  :class="{ 'active-step': step === 4 || step === 5  }">
             4
          </div>
          Préoccupations
@@ -760,12 +760,14 @@ overflow:hidden;
       </label>
     <div class="field">
       <input
-        type="date"
-  x-model="formData.birthdate"
-        id="RegisterForm-LastName"
-    
-        placeholder="Date de naissance *"
-      >
+    type="date"
+    x-model="formData.birthdate"
+    id="RegisterForm-LastName"
+    x-bind:value="formData.birthdate ? formData.birthdate : null"
+    x-bind:placeholder="placeholderText"
+    x-on:focus="placeholderText = ''"
+    x-on:blur="if (!formData.birthdate) placeholderText = 'Date de naissance *'"
+  >
      
     </div>
       <label for="RegisterForm-email" style="position:relative !important; border:0 !important;" >
