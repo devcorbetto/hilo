@@ -15,14 +15,14 @@
           "type": "heading",
           "settings": {
             "heading": "<p>HILO C'EST FANTASTIQUE<\/p>",
-            "customcss": "",
+            "customcss": "mb-10b",
             "heading_size": "h1"
           }
         },
         "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-1": {
           "type": "text",
           "settings": {
-            "customcss": "",
+            "customcss": "bg_subtitle",
             "text": "<p>Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, <\/p><p>prendre soin de votre peau… et surtout être de bonne humeur. <\/p>"
           }
         },
