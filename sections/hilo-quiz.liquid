@@ -786,8 +786,27 @@ overflow:hidden;
           aria-describedby="RegisterForm-email-error"
         {% endif %}
         placeholder="{{ 'customer.register.email' | t }}"
+        
       >
-    
+      <span id="emailError" class="error-message"></span>
+    <script>
+  var emailInput = document.getElementById('RegisterForm-email');
+  var emailError = document.getElementById('emailError');
+
+  emailInput.addEventListener('input', function() {
+    if (emailInput.validity.valid) {
+      emailInput.classList.remove('invalid');
+      emailError.textContent = '';
+    } else {
+      emailInput.classList.add('invalid');
+      if (emailInput.validity.valueMissing) {
+        emailError.textContent = 'Este campo es obligatorio.';
+      } else if (emailInput.validity.typeMismatch) {
+        emailError.textContent = 'Ingresa una dirección de correo electrónico válida.';
+      }
+    }
+  });
+</script>
     </div>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
