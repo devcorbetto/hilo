@@ -701,7 +701,7 @@ overflow:hidden;
   <input type="password" name="customer[password]" id="RegisterForm-Password" aria-required="true" placeholder="Mot de passe" required>
 
   <p class="text-center">
-    <button type="submit">Je découvre mes recommandations</button>
+    <button type="submit" id="submitButton" disabled>Je découvre mes recommandations</button>
   </p>
 </form>
 
@@ -720,6 +720,9 @@ overflow:hidden;
         input.classList.remove('invalid');
       }
     }
+
+    var submitButton = document.getElementById('submitButton');
+    submitButton.disabled = !isValid;
 
     if (!isValid) {
       alert('Por favor, complete todos los campos requeridos.');
