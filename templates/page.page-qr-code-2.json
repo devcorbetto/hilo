@@ -14,7 +14,7 @@
         "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><\/p><p>HILO C'EST FANTASTIQUE<\/p><p><\/p>",
+            "heading": "<p>HILO C'EST FANTASTIQUE<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><\/p><p>Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, <\/p><p>prendre soin de votre peau… et surtout être de bonne humeur. <\/p><p><\/p>"
+            "text": "<p>Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, <\/p><p>prendre soin de votre peau… et surtout être de bonne humeur. <\/p>"
           }
         },
         "631b69d6-e9c7-4ea0-a11b-229af1309843": {
