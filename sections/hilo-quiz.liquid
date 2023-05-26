@@ -683,38 +683,7 @@ overflow:hidden;
 
          
        {% else %}
-     <script>
-  function validarFormulario() {
-    const firstName = document.getElementById('RegisterForm-FirstName').value;
-    const lastName = document.getElementById('RegisterForm-LastName').value;
-    const birthdate = document.getElementById('RegisterForm-Date').value;
-    const email = document.getElementById('RegisterForm-Email').value;
-    const password = document.getElementById('RegisterForm-Password').value;
-
-    if (!firstName || !lastName || !birthdate || !email || !password) {
-      alert('Por favor, complete todos los campos.');
-      return false;
-    }
-
-    if (!validarEmail(email)) {
-      alert('Por favor, ingrese un email válido.');
-      return false;
-    }
-
-    if (password.length < 6) {
-      alert('La contraseña debe tener al menos 6 caracteres.');
-      return false;
-    }
-
-    // Si todas las validaciones pasan, puedes enviar el formulario
-    return true;
-  }
-
-  function validarEmail(email) {
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return regex.test(email);
-  }
-</script>
+     
    <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
@@ -761,6 +730,7 @@ overflow:hidden;
     <div class="field">  
     
       <input
+        required
         type="text"
         name="customer[first_name]"
         id="RegisterForm-FirstName"
@@ -774,6 +744,7 @@ overflow:hidden;
       </label>
     <div class="field">
       <input
+        required
         type="text"
         name="customer[last_name]"
         id="RegisterForm-LastName"
@@ -801,6 +772,7 @@ overflow:hidden;
       </label>
     <div class="field">      
       <input
+        required
         type="email"
         name="customer[email]"
         id="RegisterForm-email"
@@ -831,8 +803,10 @@ overflow:hidden;
     <div class="field">     
       <input
         type="password"
+        required
         name="customer[password]"
         id="RegisterForm-password"
+     pattern=".{6,}"
         aria-required="true"
         {% if form.errors contains 'password' %}
           aria-invalid="true"
