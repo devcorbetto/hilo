@@ -14,10 +14,10 @@
         "template--17779856146727__0236d6ea-5ed1-4a13-a5e4-ef298af307e0-16756450429fcac30e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hilo-les-fondatrices.jpg",
-            "heading": "L'OBJECTIF D'HILO",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-creme-visage-banniere.jpg",
+            "heading": "HILO C'EST FANTASTIQUE",
             "heading_size": "h1",
-            "subheading": "Proposer des soins sur-mesure et naturels qui s'adaptent à toutes les peaux tout au long de la vie.",
+            "subheading": "Découvrez dans cette page un tas de petites informations pour assembler votre crème visage, prendre soin de votre peau… et surtout être de bonne humeur.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -36,45 +36,12 @@
       "settings": {
         "customcss": "text-black",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "06985fef-f561-411b-9d86-7c633b95f399": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>HILO STORY<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p><strong>Îlot [n.m]<\/strong> : petite île sur laquelle le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0",
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1"
-      ],
-      "settings": {
-        "customcss": "waves2a",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "colors_3",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 52
       }
     },
     "d3243599-dd4d-4fca-8067-0a9f9fa52b95": {
@@ -83,14 +50,14 @@
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0": {
           "type": "heading",
           "settings": {
-            "heading": "LA NAISSANCE D'HILO",
+            "heading": "MODE D'EMPLOI",
             "heading_size": "h1"
           }
         },
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nous c’est Elise et Margaux : les fondatrices d’Hilo !<br\/><br\/>Quelques années après notre rencontre sur les bancs de l’école, nous avons fait le même constat :  trouver un soin adapté à notre peau était complexe.<br\/><br\/>Nous nous sommes alors mises à créer nos soins personnalisés mais cela  était synonyme de déchets et de gaspillage.<br\/><br\/>C’est pour cette raison que nous avons décidé de créer Hilo : la première marque de cosmétique naturelle & personnalisable grâce à des capsules d’actifs éco-conçues. 🌱<br\/><br\/>Notre innovation, ce sont les capsules Hilo dans lesquelles nos actifs sont pré-dosées pour personnaliser facilement ses cosmétiques sans créer de déchets ni de gaspillage.  <br\/><br\/>Vous ne gardez que l’essentiel, votre soin !<\/p>",
+            "text": "<p>1. Je craque délicatement mes capsules d'actifs en tournant la tête vers la droite (ou je coupe la tête avec des ciseaux préalablement nettoyés et séchés),<br\/><br\/>2. Je verse l'intégralité de leur contenu dans ma base de crème (bien appuyer sur la partie bombée de la capsules afin que toute l'huile se verse dans la base de soin),<br\/><br\/>3. Je mélange le tout avec ma Gua Sha Hilo (ou avec un autre instrument nettoyé et séché), <br\/><br\/>4. J'applique quotidiennement et je pratique l'automassage pour faire plaisir à ma peau. <br\/><\/p>",
             "text_style": "body"
           }
         }
@@ -130,7 +97,7 @@
         "6184607f-c260-4cd0-82b3-dbe5d76be10f": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>L’inclusivité<\/strong> : Chaque peau est unique et possède ses propres caractéristiques qui peuvent évoluer dans le temps ou en fonction des saisons par exemple.  Ainsi, nous souhaitons offrir des soins qui s'adaptent parfaitement à chaque peau tout au long de la vie. <\/p><p><strong>Le naturel<\/strong> : Convaincues que la nature a le meilleur à nous offrir, nous souhaitons que chacun puisse facilement créer ses soins 100% naturels et personnalisés. <\/p><p><strong>L’écoresponsabilité<\/strong> : Conscientes de notre impact environnemental, nous voulons vous offrir des cosmétiques plus responsables et durables.<\/p>",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Hilo-cosmetiques-personnalises-creme-visage-banniere.jpg?v=1685090036\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Hilo-cosmetiques-personnalises-creme-visage-banniere.jpg?v=1685090036\"><strong>Téléchagez<\/strong><\/a><strong> <\/strong>: Chaque peau est unique et possède ses propres caractéristiques qui peuvent évoluer dans le temps ou en fonction des saisons par exemple.  Ainsi, nous souhaitons offrir des soins qui s'adaptent parfaitement à chaque peau tout au long de la vie. <\/p><p><strong>Le naturel<\/strong> : Convaincues que la nature a le meilleur à nous offrir, nous souhaitons que chacun puisse facilement créer ses soins 100% naturels et personnalisés. <\/p><p><strong>L’écoresponsabilité<\/strong> : Conscientes de notre impact environnemental, nous voulons vous offrir des cosmétiques plus responsables et durables.<\/p>",
             "text_style": "body"
           }
         }
@@ -302,16 +269,71 @@
         "padding_top": 100,
         "padding_bottom": 136
       }
+    },
+    "785df2b3-33c7-48eb-a15e-23b313cf0cee": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "5c7df6e7-1302-4c57-8e1d-951f2207f60e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19106651308327__5c7df6e7-1302-4c57-8e1d-951f2207f60e-1685091268f59cbc6c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19106651308327__5c7df6e7-1302-4c57-8e1d-951f2207f60e-1685091268f59cbc6c-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19106651308327__5c7df6e7-1302-4c57-8e1d-951f2207f60e-1685091268f59cbc6c-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19106651308327__5c7df6e7-1302-4c57-8e1d-951f2207f60e-1685091268f59cbc6c-0",
+        "template--19106651308327__5c7df6e7-1302-4c57-8e1d-951f2207f60e-1685091268f59cbc6c-1",
+        "template--19106651308327__5c7df6e7-1302-4c57-8e1d-951f2207f60e-1685091268f59cbc6c-2"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "0236d6ea-5ed1-4a13-a5e4-ef298af307e0",
-    "06985fef-f561-411b-9d86-7c633b95f399",
     "d3243599-dd4d-4fca-8067-0a9f9fa52b95",
     "53490372-be18-400d-8691-993c8353747c",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
-    "1edd166c-9532-49eb-b7b3-cda674a02113"
+    "1edd166c-9532-49eb-b7b3-cda674a02113",
+    "785df2b3-33c7-48eb-a15e-23b313cf0cee",
+    "5c7df6e7-1302-4c57-8e1d-951f2207f60e"
   ]
 }
