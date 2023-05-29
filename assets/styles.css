@@ -47,6 +47,13 @@ section newsletter section-news
   list-style-type:decimal!important;
 }
 
+.article-template__link {
+    color: #fccf9c;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+}
+
 .one-column .container-result{
   cursor:pointer;
 }
