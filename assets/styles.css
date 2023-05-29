@@ -45,6 +45,7 @@ section newsletter section-news
 
 ol{
   margin-top:20px;
+  margin-bottom:20px;
 }
 
 ol li{
@@ -82,10 +83,6 @@ ul li{
 
 .metafield-rich_text_field a{
   text-decoration:underline;
-}
-
-.metafield-rich_text_field ol{
-  margin-bottom:20px;
 }
 
 table:not([class]) td, table:not([class]) th{
