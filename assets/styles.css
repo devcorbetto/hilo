@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.product__description.produit-no-custom{
+  margin-bottom:0px!important;
+}
+
 .slider-button .icon{
   height: 1.6rem!important;
 }
