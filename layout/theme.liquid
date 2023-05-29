@@ -336,47 +336,33 @@
 });
     </script>
       <script>
-      $('.carrousel').slick({
+$('.carrousel').slick({
   dots: true,
   infinite: true,
   speed: 300,
-        dots: false,
-        arrow: true,
+  dots: false,
+  arrow: true,
   slidesToShow: 5,
   adaptiveHeight: true,
-        prevArrow:"<img class='a-left control-c prev slick-prev' src='https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Pictogramme_fle_Cche_gauche.svg'>",
-    nextArrow:"<img class='a-right control-c next slick-next' src='https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Pictogramme_fle_Cche_droite.svg'>"
-
-        ,responsive: [
+  prevArrow: "<img class='a-left control-c prev slick-prev' src='https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Pictogramme_fle_Cche_gauche.svg'>",
+  nextArrow: "<img class='a-right control-c next slick-next' src='https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Pictogramme_fle_Cche_droite.svg'>",
+  responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1024, // Punto de quiebre para tablet y dispositivos más pequeños
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
+        slidesToShow: 3 // Número de slides a mostrar en este punto de quiebre
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768, // Punto de quiebre para dispositivos móviles
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 1 // Número de slides a mostrar en este punto de quiebre
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
-        });
+
+        
     </script>
 
     {%- if settings.predictive_search_enabled -%}
