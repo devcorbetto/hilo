@@ -83,7 +83,7 @@ ol li{
   text-decoration:underline;
 }
 
-.metafield-rich_text_field ul li{
+.metafield-rich_text_field ul li, .article-template ul li{
   list-style-type:disc!important;
 }
 
