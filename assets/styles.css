@@ -253,9 +253,9 @@ table:not([class]){
     stroke: #575756;
 }
 
-.metafield-rich_text_field li{
+/*.metafield-rich_text_field li{
   list-style:inside!important;
-}
+}*/
 
 .header__icons a:hover .cls-1{
   stroke: #f2c79d!important;
