@@ -106,7 +106,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic",
+            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

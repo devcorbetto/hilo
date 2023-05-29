@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Je réalise mon diagnostic",
-            "button_link_1": "shopify:\/\/pages\/diagnostic",
+            "button_link_1": "shopify:\/\/pages\/diagnostic-de-peau",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -368,7 +368,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic",
+            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
