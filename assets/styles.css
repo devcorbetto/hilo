@@ -43,6 +43,10 @@ section newsletter section-news
   margin-bottom:0px!important;
 }
 
+.quantity__input{
+  height:29px;
+}
+
 .slider-button .icon{
   height: 1.6rem!important;
 }
