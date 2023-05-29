@@ -49,7 +49,7 @@ section newsletter section-news
 
 .article-template__link {
     color: #fccf9c;
-    text-decoration: underline;
+    text-decoration: underline!important;
     font-weight: 600;
     font-size: 12px;
 }
