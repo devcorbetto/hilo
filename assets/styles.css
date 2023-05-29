@@ -44,7 +44,7 @@ section newsletter section-news
 }
 
 .metafield-rich_text_field ol li{
-  list-style:decimal!important;
+  list-style-type:decimal!important;
 }
 
 .quantity__input{
