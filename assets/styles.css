@@ -43,7 +43,7 @@ section newsletter section-news
   margin-bottom:0px!important;
 }
 
-ol{
+ol, .metafield-rich_text_field ul li, .article-template ul li{
   margin-top:20px;
   margin-bottom:20px;
 }
