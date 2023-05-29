@@ -53,7 +53,8 @@ section newsletter section-news
 
 .container-routine .button:hover {
     background: transparent;
-  color: #D0C4E2;
+    color: #D0C4E2;
+    border:2px solid #D0C4E2;
 }
 
 .quantity__input{
