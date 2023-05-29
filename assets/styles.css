@@ -39,6 +39,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.slider-button .icon{
+  height: 1.6rem;
+}
+
 
 .article-template .rte li {
     list-style: disc!important;
