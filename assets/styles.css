@@ -40,7 +40,11 @@ section newsletter section-news
 */
 
 .slider-button .icon{
-  height: 1.6rem;
+  height: 1.6rem!important;
+}
+
+.metafield-rich_text_field a{
+  text-decoration:underline;
 }
 
 
