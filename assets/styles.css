@@ -52,9 +52,7 @@ ol li{
   list-style-type:decimal!important;
 }
 
-ul li{
-  list-style-type:disc!important;
-}
+
 
 .article-template__link {
     color: #fccf9c;
@@ -83,6 +81,10 @@ ul li{
 
 .metafield-rich_text_field a{
   text-decoration:underline;
+}
+
+.metafield-rich_text_field ul li{
+  list-style-type:disc!important;
 }
 
 table:not([class]) td, table:not([class]) th{
