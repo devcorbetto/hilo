@@ -47,6 +47,10 @@ section newsletter section-news
   list-style-type:decimal!important;
 }
 
+.one-column .container-result{
+  cursor:pointer;
+}
+
 .quantity__input{
   height:29px;
 }
