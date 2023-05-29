@@ -604,7 +604,7 @@ letter-spacing:0;
               </div>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div class="product__description rte quick-add-hidden">
+                <div class="product__description {{ template.suffix }} rte quick-add-hidden">
                   {{ product.description }}
                 </div>
               {%- endif -%}
