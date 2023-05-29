@@ -43,7 +43,7 @@ section newsletter section-news
   margin-bottom:0px!important;
 }
 
-.metafield-rich_text_field ol li{
+ol li{
   list-style-type:decimal!important;
 }
 
