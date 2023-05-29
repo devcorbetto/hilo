@@ -25,6 +25,11 @@
           "settings": {
           }
         },
+        "77eb58a1-9ba6-46bd-ad91-2e06ec3cd7f5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "474a192d-b0de-4595-9aa2-875c55099ec6": {
           "type": "ingredientes",
           "settings": {
@@ -42,6 +47,7 @@
         "484aed82-dbbb-4772-b1c4-06c773178bdd",
         "b3ed1d45-8e0d-4bb7-b78f-c9748bf6a63c",
         "description",
+        "77eb58a1-9ba6-46bd-ad91-2e06ec3cd7f5",
         "474a192d-b0de-4595-9aa2-875c55099ec6",
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241"
       ],
