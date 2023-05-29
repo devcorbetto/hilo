@@ -134,11 +134,6 @@ table:not([class]){
   cursor:pointer;
 }
 
-.cart__ctas button:hover {
-    background: #575756;
-    color: #F8C8D3;
-}
-
 .service-client a{
   text-decoration:underline;
 }
@@ -277,6 +272,11 @@ table:not([class]){
     stroke: #575756;
 }
 
+.cart__ctas button:hover {
+    background: #fff;
+    color: #F8C8D3;
+    border: 2px solid #F8C8D3;
+}
 
 .header__icons a:hover .cls-1{
   stroke: #f2c79d!important;
