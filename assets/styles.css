@@ -80,10 +80,6 @@ ol li{
   margin-bottom:20px;
 }
 
-.article-template .rte li {
-    list-style: disc!important;
-}
-
 table:not([class]) td, table:not([class]) th{
   border:0px;
 }
