@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>{{ article.title }}<\/p>",
-            "customcss": "",
+            "customcss": "mb-10b",
             "heading_size": "h1"
           }
         },
