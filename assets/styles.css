@@ -47,6 +47,9 @@ section newsletter section-news
   text-decoration:underline;
 }
 
+.metafield-rich_text_field ol{
+  margin-bottom:20px;
+}
 
 .article-template .rte li {
     list-style: disc!important;
