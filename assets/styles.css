@@ -47,6 +47,10 @@ ol li{
   list-style-type:decimal!important;
 }
 
+ul li{
+  list-style-type:disc!important;
+}
+
 .article-template__link {
     color: #fccf9c;
     text-decoration: underline!important;
