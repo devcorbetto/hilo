@@ -51,6 +51,11 @@ section newsletter section-news
   cursor:pointer;
 }
 
+.container-routine .button:hover {
+    background: transparent;
+  color: #D0C4E2;
+}
+
 .quantity__input{
   height:29px;
 }
