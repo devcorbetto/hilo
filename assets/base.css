@@ -3130,7 +3130,7 @@ width: 60px;
 
     height: 80px !important;
     margin-left: -30px !important;
-    top: 79px;
+    top: 79px !important;
 }
   .corner-left-top-purple .eclat {
     position: absolute;
