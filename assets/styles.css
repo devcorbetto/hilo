@@ -812,6 +812,9 @@ font-size:10px;
     flex-direction: row-reverse;
 }
 @media screen and (max-width: 649px) {
+  .metafield-rich_text_field p {
+    margin-bottom:5px;
+  }
   .collection .card-information {
   justify-content: flex-end;
     flex-direction: column;
