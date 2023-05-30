@@ -414,17 +414,8 @@
            
                             
                             {% for variant in  item.product.variants  %}
-                             {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
-                              {% endfor %}</dd> 
-                            
-                            </div>
-                          {%- endfor -%}
-                         
-                        {%- endif -%}
-
-                {% if item.id == 44623730114855 %}
-
-                         <div class="cart-item__quantity-wrapper">
+                                   {% if variant.id == 44623730114855 %}
+                                        <div class="cart-item__quantity-wrapper">
                       <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
                         {{ 'products.product.quantity.label' | t }}
                       </label>
@@ -451,6 +442,19 @@
                       
                     </div>
                   {% endif %}
+
+                              
+                             {% unless option.value == variant.title %} {{ variant.title }} {% endunless %}
+                              {% endfor %}</dd> 
+                            
+                            </div>
+                          {%- endfor -%}
+                         
+                        {%- endif -%}
+
+           
+
+                      
    
 {% if item.properties != blank  %}
 <span class="description-cart">Huiles : </span>
