@@ -378,7 +378,7 @@
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                           J'ajoute au panier {% if product.metafields.custom.product_custom %}-  {{ product.price | money | strip_html }} {% endif %}
+                            {{ 'products.product.add_to_cart' | t   }} {% if product.metafields.custom.product_custom %}-  {{ product.price | money | strip_html }} {% endif %}
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }} - {{ product.price | money | strip_html }}
                           {%- endif -%}
@@ -868,7 +868,7 @@ letter-spacing:0;
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                          J'ajoute au panier
+                            {{ 'products.product.add_to_cart' | t }}
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
