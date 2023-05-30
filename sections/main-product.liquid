@@ -378,9 +378,9 @@
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                            {{ 'products.product.add_to_cart' | t }} - {{ product.price | money | escape }}
+                            {{ 'products.product.add_to_cart' | t }} 
                           {%- else -%}
-                            {{ 'products.product.sold_out' | t }} - {{ product.price | money | escape }}
+                            {{ 'products.product.sold_out' | t }} - {{ product.price | money | strip_html }}
                           {%- endif -%}
                         </span>
                         <div class="loading-overlay__spinner hidden">
