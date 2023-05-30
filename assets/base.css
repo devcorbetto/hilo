@@ -3119,6 +3119,11 @@ width: 60px;
     transform: rotate(90deg);
 }
   }
+.corner-top.no-rotate.top-wavestop2 {
+  top:0px;
+  right:0px;
+  width:50px;
+}
 @media screen and (max-width: 649px) {
 .lamarque_text1 .eclat  {
   display:none;
