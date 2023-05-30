@@ -37,7 +37,7 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding" style="position:relative;">
+<footer class="footer {% if page.url == "/pages/diagnostic-de-peau" %}diagnosticpage{% endif %} color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding" style="position:relative;">
 
   <svg xmlns="http://www.w3.org/2000/svg" width="1925.69" height="88.164" viewBox="0 0 1925.69 88.164" 
   class="footer-svg-top"
