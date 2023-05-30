@@ -3120,7 +3120,9 @@ width: 60px;
 }
   }
 @media screen and (max-width: 649px) {
-
+.lamarque_text1 .eclat  {
+  display:none;
+}
   .multi-slider.multicolumn.color-colors_3 .corner-top {
     width: 40px;
     right: 0;
