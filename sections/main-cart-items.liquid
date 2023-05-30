@@ -227,7 +227,11 @@
 
                 <tr class="cart-item var{{ item.variant.id }}" id="CartItem-{{ item.index | plus: 1 }}">
                 <style> 
-                .var45094152241447 dl > .product-option:first-child ,     .var45094152241447  dl > .product-option:first-child , .var44623730114855 dl
+                     .var45163040276775 dl, 
+       .var45163040276775    dl > .product-option:first-child, 
+                .var45094152241447 dl > .product-option:first-child ,   
+                .var45094152241447  dl > .product-option:first-child , 
+                .var44623730114855 dl
                 {
                 display:none;
                 }
@@ -390,6 +394,7 @@
                 {% endcomment %}
 
                 {% if item.product.id == 8170976510247 or  item.product.id == 8334736884007 %}
+                  
                                         <div class="cart-item__quantity-wrapper" style="margin-top:30px;">
                       <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
                         {{ 'products.product.quantity.label' | t }}
