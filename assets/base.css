@@ -3119,6 +3119,9 @@ width: 60px;
     transform: rotate(90deg);
 }
   }
+.one-column .corner-top.no-rotate.top-wavestop2 {
+  top:0px;
+}
 .corner-top.no-rotate.top-wavestop2 {
 top: -30px;
     right: -20px;
