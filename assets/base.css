@@ -3105,7 +3105,7 @@ details-disclosure > details {
   .a-right {
     right:25px !important;
   }
-}
+
 .corner-top {
 position: absolute;
 width: 60px;
@@ -3113,6 +3113,7 @@ width: 60px;
     top: -40px;
     transform: rotate(90deg);
 }
+  }
 @media screen and (max-width: 649px) {
   .corner-top {
         right: 40px;
@@ -3124,7 +3125,7 @@ width: 60px;
 
     height: 80px !important;
     margin-left: -30px !important;
-    top: 79px !important;
+    top: 79px;
 }
 }
 @media screen and (min-width: 990px) {
