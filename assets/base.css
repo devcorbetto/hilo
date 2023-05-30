@@ -3120,6 +3120,14 @@ width: 60px;
 }
   }
 @media screen and (max-width: 649px) {
+
+  .multi-slider.multicolumn.color-colors_3 .corner-top {
+    width: 40px;
+    right: 0;
+    left: 0px;
+    top: -30px;
+}
+  
   .corner-top {
         right: 40px;
         top: -40px;
