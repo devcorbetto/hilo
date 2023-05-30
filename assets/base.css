@@ -3117,6 +3117,9 @@ width: 60px;
   .corner-top {
         right: 40px;
         top: -40px;
+    right: 0px;
+    top: -30px;
+    width: 50px;
     }
   .corner-left-top-purple .eclat {
     position: absolute;
