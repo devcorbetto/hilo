@@ -359,7 +359,8 @@
                       <p class="caption-with-letter-spacing">{{ item.product.vendor }}</p>
                     {%- endif -%}
 <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
-                        <a href="{{ item.url_to_remove }}" class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
+                        <a href="{{ item.url_to_remove }}"  onclick="removeCartItem(event)"
+                class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                           {% render 'icon-remove' %}
                         </a>
                       </cart-remove-button>
@@ -866,7 +867,29 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
 
 
       </style>
-
+<script>
+  function removeCartItem(event) {
+    event.preventDefault();
+    var removeLink = event.target.closest('a');
+    var cartUrl = removeLink.getAttribute('href');
+    
+    // Perform an AJAX request to remove the item from the cart
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', cartUrl, true);
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        // Item successfully removed from the cart
+        // You can perform additional actions here if needed
+        
+        // Refresh the page after a short delay
+        setTimeout(function() {
+          window.location.reload();
+        }, 500);
+      }
+    };
+    xhr.send();
+  }
+</script>
       
 {% schema %}
 {
