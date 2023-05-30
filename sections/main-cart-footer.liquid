@@ -14,7 +14,7 @@
       
        {%- for item in cart.items -%}
           <div class="items-cart" style="width:100%;">
-       <div class="w80">{{ item.product.title | escape }} {{ item.product.quantity | escape }}  </div><div class="w20">   {{- item.original_price | money -}} </div>
+       <div class="w80">{{ item.product.title | escape }} {{ item.quantity }}  </div><div class="w20">   {{- item.original_price | money -}} </div>
 
             
           
