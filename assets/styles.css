@@ -1,3 +1,5 @@
+
+
 /*.title-wrapper--no-top-margin>.title ,
 h2.rich-text__heading.rte,
 
@@ -52,7 +54,9 @@ ol li{
   list-style-type:decimal!important;
 }
 
-
+.ingrediente-column h5{
+  cursor:pointer;
+}
 
 .article-template__link {
     color: #fccf9c;
