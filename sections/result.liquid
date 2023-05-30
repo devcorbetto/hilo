@@ -588,8 +588,23 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
   
 
 <ul class="collection collection-result" style="">
-  <li style="    display: flex;    flex-direction: column-reverse;        row-gap: 50px;">
-    <p class="text-center pb-10">
+  <li style="   ">
+ 
+    <div class="">
+    <h3>Mon match du moment <br>est parfait</h3>
+    {% render 'card-product',
+    card_product: section.settings.product,
+    media_aspect_ratio: true,
+    show_secondary_image: true,
+    show_vendor: section.settings.show_vendor,
+    show_rating: true,
+    show_quick_add: false,
+           show_text: true,
+      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
+    section_id: section.id
+    %}
+    </div>   
+                                     <p class="text-center pb-10">
     {% if diagnostics_ing1 == diagnostics_ing2 %}
     <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
@@ -611,20 +626,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
     <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
     {% endif %}
-    </p><div class="">
-    <h3>Mon match du moment <br>est parfait</h3>
-    {% render 'card-product',
-    card_product: section.settings.product,
-    media_aspect_ratio: true,
-    show_secondary_image: true,
-    show_vendor: section.settings.show_vendor,
-    show_rating: true,
-    show_quick_add: false,
-           show_text: true,
-      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
-    section_id: section.id
-    %}
-    </div>     
+    </p>
     <a href="https://hilo-cosmetiques.fr/products/creme-visage-naturelle-personnalisable-rechargeable?open=true">Je modifie mes huiles végétales</a>
   </li>
                                   
