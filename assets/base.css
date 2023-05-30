@@ -3106,6 +3106,9 @@ details-disclosure > details {
     right:25px !important;
   }
 
+  .multi-slider.multicolumn.background-none .corner-top  {
+    
+  }
 .corner-top {
 position: absolute;
 width: 60px;
