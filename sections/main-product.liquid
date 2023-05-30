@@ -378,9 +378,9 @@
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                            {{ 'products.product.add_to_cart' | t }} - {{ product.price | money | strip_html }}
+                            {{ 'products.product.add_to_cart' | t }} - {{ product.price | money | escape }}
                           {%- else -%}
-                            {{ 'products.product.sold_out' | t }} - {{ product.price | money | strip_html }}
+                            {{ 'products.product.sold_out' | t }} - {{ product.price | money | escape }}
                           {%- endif -%}
                         </span>
                         <div class="loading-overlay__spinner hidden">
@@ -828,14 +828,9 @@ letter-spacing:0;
                   </div>
                 </div>
               </noscript>
-            {%- when 'buy_buttons' -%}
             
-
-
-
-
-      
-                     
+            {%- when 'buy_buttons' -%}
+     
             </div>
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
