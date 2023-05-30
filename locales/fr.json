@@ -106,6 +106,7 @@
   "products": {
     "product": {
       "add_to_cart": "J'ajoute au panier",
+      "add_to_cart_cadeau": "Ajouter au panier",
       "description": "Description",
       "on_sale": "Vente",
       "product_variants": "Variantes de produits",
