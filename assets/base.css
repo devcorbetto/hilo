@@ -3130,6 +3130,9 @@ top: -30px;
     position: absolute;
 }
 @media screen and (max-width: 649px) {
+  .one-column .corner-top.no-rotate.top-wavestop2  {
+    display:none;
+  }
 .lamarque_text1 .eclat  {
   display:none;
 }
