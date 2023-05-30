@@ -342,7 +342,7 @@
               {% render block %}
             {%- when 'ingredientes' %}
           
-{% if product.template_suffix contains "produit-no-custom" %}
+{% if product.template_suffix contains "produit-no-custom" or product.template_suffix contains "carte-cadeau" %}
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>
                     <svg
