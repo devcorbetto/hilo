@@ -430,7 +430,7 @@
 
 
     {% for variant in  item.product.variants  %}
-                              
+                              {{ variant.id }}
                                    {% if variant.id == 44623730114855 %}
                                         <div class="cart-item__quantity-wrapper">
                       <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
