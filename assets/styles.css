@@ -1374,8 +1374,10 @@ summary .icon-carret2 {
     margin: 0px 20px !important;
 }
 
-
-  
+/*Boutique*/
+  .h1.mb-10b {
+        margin-bottom: 20px !important;
+  }
 }
 
 .banner-home .media > img {
