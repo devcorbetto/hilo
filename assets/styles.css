@@ -1513,6 +1513,14 @@ display: block;
   .etapas {
         transform: scale(0.8);
   }
+
+  #prenom {
+    border-radius: 30px;
+    max-width: 300px;
+    width: 80%;
+    height: 30px;
+    font-size: 12px;
+  }
   
 }
 
