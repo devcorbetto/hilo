@@ -1273,15 +1273,18 @@ summary .icon-carret2 {
 .desktop-hide {
     display:none;
   }
-
+ 
 /* mobile */
 @media screen and (max-width: 649px) {
 .noslide {
   max-width:75%;
   margin:0 auto;
 }
-  .desktop-hide {
+   .small-hide {
     display:none;
+  }
+  .desktop-hide {
+    display:block;
   }
   body {
       overflow-x:hidden;
