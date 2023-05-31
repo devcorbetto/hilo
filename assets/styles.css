@@ -1259,7 +1259,7 @@ summary .icon-carret2 {
 /* mobile */
 @media screen and (max-width: 649px) {
 .section-template--17804308939047__main-padding {
-  padding-top:0px;
+  padding-top:0px !important;
 }
 .reviews-slider .slick-dots {
     bottom: -30px;
