@@ -141,7 +141,7 @@
       }
     },
     "87cb0c62-7445-43a7-8ce2-521349a1542b": {
-      "type": "featured-collection-noslide",
+      "type": "featured-collection",
       "custom_css": [
         ".collection ul {grid-template-columns: 1fr 1fr;}",
         ".collection ul li {width: 70% !important; margin: 0 auto;}"
