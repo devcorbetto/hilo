@@ -3120,8 +3120,8 @@ width: 60px;
 }
   }
 .one-column .corner-top.no-rotate.top-wavestop2 {
-  top:0px;
-      right: -35px;
+    top: -10px;
+    right: -40px;
 }
 .corner-top.no-rotate.top-wavestop2 {
 top: -30px;
