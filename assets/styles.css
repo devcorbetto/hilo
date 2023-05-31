@@ -42,7 +42,7 @@ section newsletter section-news
 */
 
 .cc-btn{
-  cursor:pointer;
+  cursor:pointer!important;
 }
 
 #Slider-template--17804308381991__featured_collection.collection-sliders, #Slider-template--17804308218151__d1729d12-e0e2-4aff-abd1-a485a8f5a0ae.collection-sliders{
