@@ -1271,7 +1271,7 @@ summary .icon-carret2 {
   display:none;
 }
 .desktop-hide {
-    display:none;
+    display:none !importants;
   }
  
 /* mobile */
