@@ -1336,6 +1336,10 @@ display: block;
   .banner-home .banner__text.body,  .banner-home .container-right  {
    display:none; 
   }
+  .banner-home . banner__content {
+    display: flex;
+    align-items: flex-start;
+  }
    
   .banner-home .h0 {
     font-size:22px;
