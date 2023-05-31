@@ -45,6 +45,10 @@ section newsletter section-news
   display:none;
 }
 
+.desktop-hide{
+  display:none;
+}
+
 .diagnosticpage{
   display:none;
 }
