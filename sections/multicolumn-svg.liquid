@@ -109,7 +109,8 @@
     <button type="button" class="slider-dot" aria-label="Diapositiva 4">4</button>
     <button type="button" class="slider-dot" aria-label="Diapositiva 5">5</button>
   </div>
-      // Obtén una referencia a los elementos del slider
+      <script>
+        // Obtén una referencia a los elementos del slider
 const slider = document.querySelector('.slider-mobile-gutter');
 const slides = slider.querySelectorAll('.slider__slide');
 const dots = slider.querySelectorAll('.slider-dot');
@@ -172,6 +173,7 @@ dots.forEach((dot, dotIndex) => {
 // Mostrar la primera diapositiva al cargar la página
 showSlide(currentSlideIndex);
 
+      </script>
       {%- if show_mobile_slider -%}
         <div class="slider-buttons no-js-hidden medium-hide">
           <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
