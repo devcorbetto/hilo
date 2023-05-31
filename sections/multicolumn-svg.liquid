@@ -102,78 +102,7 @@
           </li>
         {%- endfor -%}
       </ul>
-        <div class="slider-dots">
-    <button type="button" class="slider-dot" aria-label="Diapositiva 1">1</button>
-    <button type="button" class="slider-dot" aria-label="Diapositiva 2">2</button>
-    <button type="button" class="slider-dot" aria-label="Diapositiva 3">3</button>
-    <button type="button" class="slider-dot" aria-label="Diapositiva 4">4</button>
-    <button type="button" class="slider-dot" aria-label="Diapositiva 5">5</button>
-  </div>
-      <script>
-        // Obtén una referencia a los elementos del slider
-const slider = document.querySelector('.slider-mobile-gutter');
-const slides = slider.querySelectorAll('.slider__slide');
-const dots = slider.querySelectorAll('.slider-dot');
-
-// Configura un índice de diapositiva inicial
-let currentSlideIndex = 0;
-
-// Función para mostrar una diapositiva específica
-function showSlide(index) {
-  // Oculta todas las diapositivas
-  slides.forEach((slide) => {
-    slide.style.display = 'none';
-  });
-
-  // Muestra la diapositiva actual
-  slides[index].style.display = 'block';
-
-  // Actualiza la clase activa en los dots
-  dots.forEach((dot, dotIndex) => {
-    if (dotIndex === index) {
-      dot.classList.add('active');
-    } else {
-      dot.classList.remove('active');
-    }
-  });
-
-  // Actualiza el contador de diapositivas
-  const counterCurrent = slider.querySelector('.slider-counter--current');
-  counterCurrent.textContent = index + 1;
-}
-
-// Manejador de evento para los botones de siguiente y anterior
-const prevButton = slider.querySelector('.slider-button--prev');
-const nextButton = slider.querySelector('.slider-button--next');
-
-prevButton.addEventListener('click', () => {
-  currentSlideIndex--;
-  if (currentSlideIndex < 0) {
-    currentSlideIndex = slides.length - 1;
-  }
-  showSlide(currentSlideIndex);
-});
-
-nextButton.addEventListener('click', () => {
-  currentSlideIndex++;
-  if (currentSlideIndex >= slides.length) {
-    currentSlideIndex = 0;
-  }
-  showSlide(currentSlideIndex);
-});
-
-// Manejador de evento para los dots
-dots.forEach((dot, dotIndex) => {
-  dot.addEventListener('click', () => {
-    currentSlideIndex = dotIndex;
-    showSlide(currentSlideIndex);
-  });
-});
-
-// Mostrar la primera diapositiva al cargar la página
-showSlide(currentSlideIndex);
-
-      </script>
+       
       {%- if show_mobile_slider -%}
         <div class="slider-buttons no-js-hidden medium-hide">
           <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
