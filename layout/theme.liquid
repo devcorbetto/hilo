@@ -365,6 +365,35 @@ $('.carrousel').slick({
         
     </script>
 
+         <script>
+$('.multicolumn-list-svg').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  dots: true,
+  arrow: true,
+  slidesToShow: 6,
+  adaptiveHeight: true,
+   responsive: [
+    {
+      breakpoint: 1024, // Punto de quiebre para tablet y dispositivos más pequeños
+      settings: {
+        slidesToShow: 1 // Número de slides a mostrar en este punto de quiebre
+      }
+    },
+    {
+      breakpoint: 768, // Punto de quiebre para dispositivos móviles
+      settings: {
+        slidesToShow: 1 // Número de slides a mostrar en este punto de quiebre
+      }
+    }
+  ]
+});
+
+        
+    </script>
+    
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
