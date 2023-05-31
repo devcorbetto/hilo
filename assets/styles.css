@@ -1358,7 +1358,13 @@ display: block;
     display: flex;
     align-items: flex-start !important;
   }
-   
+
+  ..one-column h3 {
+     font-size:22px;
+     line-height: 26px;
+ 
+    
+  }
   .banner-home .h0 {
     font-size:22px;
      line-height: 26px;
