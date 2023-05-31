@@ -113,6 +113,13 @@
               {%- endfor -%}
             </div>
           </div>
+          <script>const slider = document.getElementById('Slider-template--17804308381991__multicolumn');
+slider.addEventListener('scroll', () => {
+  const slideWidth = slider.offsetWidth;
+  const currentSlide = Math.round(slider.scrollLeft / slideWidth);
+  // Realiza acciones adicionales según el índice de la diapositiva actual
+});
+</script>
       {%- endif -%}
     </slider-component>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
