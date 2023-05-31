@@ -1242,6 +1242,9 @@ summary .icon-carret2 {
 .header__icons {
     padding-right: 15px;
 }
+#Slider-template--17804308381991__featured_collection.collection-sliders{
+  display:block!important;
+}
 }
 .multi-slider .multicolumn-card.content-container h3 {
   font-size:23px;
@@ -1260,9 +1263,7 @@ summary .icon-carret2 {
 .desktop-hide {
     display:none;
   }
-#Slider-template--17804308381991__featured_collection.collection-sliders{
-  display:block!important;
-}
+
 /* mobile */
 @media screen and (max-width: 649px) {
 .noslide {
