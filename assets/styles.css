@@ -1263,6 +1263,9 @@ summary .icon-carret2 {
      line-height: 28px;
     margin-bottom:10px; 
   }
+  .container-right p {
+    margin-top:30px;
+  }
   .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title 
   {
      font-size:24px;
