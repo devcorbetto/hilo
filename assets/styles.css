@@ -1263,7 +1263,7 @@ summary .icon-carret2 {
     margin:0 auto;
   }
   .collection-sliders .slick-dots {
-    bottom: 20px;
+    bottom: -30px;
 display: block;
     left: 0px;
 }
