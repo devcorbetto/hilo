@@ -1267,7 +1267,7 @@ summary .icon-carret2 {
     left: 0px;
 }
   .multi-featured .slick-dots {
-    bottom: 0px;
+    bottom: -5px;
 
     left: 0px;
 }
