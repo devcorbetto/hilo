@@ -1250,7 +1250,12 @@ summary .icon-carret2 {
   font-weight:bold;
   margin-bottom:30px;
 }
+/* mobile */
 @media screen and (max-width: 649px) {
+
+  .banner-home .banner__text.body {
+   display:none; 
+  }
   .banner-home .h0 {
     font-size:24px;
      line-height: 28px;
