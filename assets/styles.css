@@ -74,6 +74,10 @@ ol li{
     font-size: 12px;
 }
 
+.waves5d svg{
+  bottom:-18px;
+}
+
 .one-column .container-result{
   cursor:pointer;
 }
