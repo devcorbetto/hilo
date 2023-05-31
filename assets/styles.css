@@ -1510,6 +1510,9 @@ display: block;
 }
 
 /*.etapas*/
+ .div-with-svg p{
+    font-size:10px;
+  }
   .etapas {
         transform: scale(0.8);
   }
