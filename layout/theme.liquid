@@ -459,7 +459,38 @@ $('.reviews-slider').slick({
         
     </script>
     
+     <script>
+$('.products-slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  
+  arrows: false,
+  slidesToShow: 5,
 
+   responsive: [
+    {
+      breakpoint: 1024, // Punto de quiebre para tablet y dispositivos más pequeños
+      settings: {
+          arrows: false,
+        dots: true,
+        slidesToShow: 1 // Número de slides a mostrar en este punto de quiebre
+      }
+    },
+    {
+      breakpoint: 768, // Punto de quiebre para dispositivos móviles
+      settings: {
+          arrows: false,
+          dots: true,
+        slidesToShow: 1 // Número de slides a mostrar en este punto de quiebre
+      }
+    }
+  ]
+});
+
+        
+    </script>
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
