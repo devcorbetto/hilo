@@ -2,8 +2,9 @@
 
    
    {% assign seche2 = " (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23a') ||
-        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') ||
-        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d') " %}
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23c') || 
+       (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23b') ||
+        (formData.f21 === 'f21a' && formData.f22 === 'f22c' && formData.f23 === 'f23d')  " %}
 {% assign mixte2 =
 " (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23a') ||
   (formData.f21 === 'f21a' && formData.f22 === 'f22a' && formData.f23 === 'f23b') ||
@@ -339,7 +340,7 @@
         }
       }, 100);
   } else {
-    alert('Veuillez remplir tous les champss');
+    alert('Veuillez remplir tous les champs');
   }
 "      :class="{ 'disabled-class': !(formData.f21 && formData.f22 && formData.f23) }"
               :disabled="!(formData.f21 && formData.f22 && formData.f23)"
