@@ -1264,7 +1264,8 @@ summary .icon-carret2 {
     margin-bottom:10px; 
   }
   .container-right p {
-    margin-top:30px;
+  margin-top: 30px;
+    padding-bottom: 0px;
   }
   .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title 
   {
