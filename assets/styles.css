@@ -1338,7 +1338,7 @@ display: block;
   }
   .banner-home . banner__content {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start !important;
   }
    
   .banner-home .h0 {
