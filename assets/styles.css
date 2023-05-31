@@ -1365,6 +1365,10 @@ display: block;
  
     
   }
+  .one-column p {
+        font-size: 12px !important;
+ 
+  }
 
  .waves2a.isolate .svg-waves {
     top: -15px !important;
