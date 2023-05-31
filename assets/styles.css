@@ -1250,8 +1250,14 @@ summary .icon-carret2 {
   font-weight:bold;
   margin-bottom:30px;
 }
+.slick-dots {
+  display:none;
+}
 /* mobile */
 @media screen and (max-width: 649px) {
+  .slick-dots {
+    display:block;
+  }
 .banner-home .banner__buttons {
   margin-top:0px;
 }
