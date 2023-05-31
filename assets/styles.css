@@ -1256,10 +1256,13 @@ summary .icon-carret2 {
 /* mobile */
 @media screen and (max-width: 649px) {
   .slick-dots {
-    display:block;
+
+  }
+  .carrousel .a-left,   .carrousel .a-right {
+    display:none;
   }
   .carrousel  .slick-dots {
-   
+      display:block;
     left: 0px;
     bottom: -75px;
     
