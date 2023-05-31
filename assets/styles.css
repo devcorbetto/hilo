@@ -1443,7 +1443,7 @@ display: block;
 /* Container modal */
 .container-modal {
    
-    position: relative;
+    /*position: relative;*/
     height: 60vh; 
     overflow: scroll;
     margin: 0px 20px !important;
