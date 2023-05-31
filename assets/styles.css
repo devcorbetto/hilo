@@ -46,7 +46,7 @@ section newsletter section-news
 }
 
 .desktop-hide{
-  display:none;
+  display:none!important;
 }
 
 .diagnosticpage{
