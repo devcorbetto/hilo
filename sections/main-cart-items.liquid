@@ -414,7 +414,9 @@
                           id="Quantity-{{ item.index | plus: 1 }}"
                           data-index="{{ item.index | plus: 1 }}"
                         >
-                        <button class="quantity__button no-js-hidden" name="plus" type="button" >
+                        <button class="quantity__button no-js-hidden" name="plus" type="button" 
+                  onclick="addQuantityAndRefresh()"
+                  >
                           <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: item.product.title | escape }}</span>
                           {% render 'icon-plus' %}
                         </button>
@@ -769,6 +771,17 @@
   </form>
 </cart-items>
 
+
+      <script>
+  function addQuantityAndRefresh() {
+    // Aquí agregas la lógica para aumentar la cantidad de la tarjeta de regalo
+
+    // Haces una pausa de 2 segundos antes de recargar la página
+    setTimeout(function() {
+      location.reload();
+    }, 2000); // 2000 milisegundos = 2 segundos
+  }
+</script>
 
 <script>
 function addtocart(originalProductId, newProductId, forloopindexId   ) {
