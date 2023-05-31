@@ -41,9 +41,7 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.quantity__input{
-  pointer-events: none!important;
-}
+
 
 .cc-btn{
   cursor:pointer!important;
@@ -1275,7 +1273,7 @@ summary .icon-carret2 {
   display:none;
 }
 .desktop-hide {
-    display:none;
+    display:none !important;
   }
 
 /* mobile */
