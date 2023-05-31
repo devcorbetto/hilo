@@ -1358,13 +1358,14 @@ display: block;
     display: flex;
     align-items: flex-start !important;
   }
-
+.container-routine  h2 ,
   .one-column h3 {
      font-size:18px !important;
      line-height: 20px !important;
  
     
   }
+  .container-routine p,
   .one-column p {
         font-size: 12px !important;
  
