@@ -1255,14 +1255,18 @@ summary .icon-carret2 {
     font-size:24px;
      line-height: 28px;
   }
-  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title,
-  .newsletter h2.h1{
+  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title 
+  {
      font-size:24px;
      line-height: 28px;
   }
+    .newsletter h2.h1{
+     font-size:24px !important;
+     line-height: 28px !important;
+  }
   .newsletter h3 {
-      font-size:16px;
-     line-height: 20px;
+      font-size:16px !important;
+     line-height: 20px !important;
   }
   .collection h2 {
     margin-bottom:30px;
@@ -1275,12 +1279,17 @@ summary .icon-carret2 {
   }
  .banner-home .banner__text.body span, .banner-home .container-right p,
   .rich-text__text p, .rich-text-paragraph, .multicolumn-featured-paragraph ,
-  .multicolumn-list h3, .multicolumn-list p,
-  .newsletter p
+  .multicolumn-list h3, .multicolumn-list p
   {
         font-size: 14px;
     line-height: 18px;
   }
+    .newsletter p
+  {
+        font-size: 14px;
+    line-height: 18px;
+  }
+  
   .rich-text__caption.subtitle.subtitle--small {
             font-size: 12px;
     line-height: 15px;
