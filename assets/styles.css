@@ -1319,6 +1319,7 @@ display: block;
   margin-top: 30px;
     padding-bottom: 0px;
   }
+  .product__title h1,
   .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title 
   {
      font-size:24px;
