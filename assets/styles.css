@@ -1243,7 +1243,7 @@ summary .icon-carret2 {
 }
 @media screen and (max-width: 749px) {
   .banner-home  .banner__content {
-    min-height: 59rem;
+    min-height: 59rem !important;
   }
   .multi-slider {
     overflow:hidden;
