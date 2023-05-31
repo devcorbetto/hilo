@@ -1333,12 +1333,13 @@ display: block;
 .banner-home .banner__buttons {
   margin-top:0px;
 }
-  .banner-home .banner__text.body {
+  .banner-home .banner__text.body,  .banner-home .container-right  {
    display:none; 
   }
+   
   .banner-home .h0 {
-    font-size:24px;
-     line-height: 28px;
+    font-size:22px;
+     line-height: 26px;
     margin-bottom:10px; 
   }
   
@@ -1349,16 +1350,16 @@ display: block;
   .product__title h1,
   .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title 
   {
-     font-size:24px;
-     line-height: 28px;
+     font-size:22px;
+     line-height: 26px;
   }
   .product__title h1 {
     font-size:20px !important;
      line-height: 28px  !important;
   }
     .newsletter h2.h1{
-     font-size:24px !important;
-     line-height: 28px !important;
+     font-size:22px !important;
+     line-height: 26px !important;
   }
   .newsletter h3 {
       font-size:16px !important;
