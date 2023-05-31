@@ -1252,7 +1252,9 @@ summary .icon-carret2 {
 }
 /* mobile */
 @media screen and (max-width: 649px) {
-
+.banner-home .banner__buttons {
+  margin-top:0px;
+}
   .banner-home .banner__text.body {
    display:none; 
   }
