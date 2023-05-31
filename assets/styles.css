@@ -1253,10 +1253,13 @@ summary .icon-carret2 {
 .slick-dots {
   display:none;
 }
+.desktop-hide {
+    display:none;
+  }
 /* mobile */
 @media screen and (max-width: 649px) {
   .desktop-hide {
-    display:none;
+    display:block;
   }
   .slick-dots {
 
