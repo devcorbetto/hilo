@@ -1244,6 +1244,13 @@ summary .icon-carret2 {
 @media screen and (max-width: 749px) {
   .banner-home  .banner__content {
     min-height: 59rem !important;
+    align-content: space-between;
+  }
+  .banner-home .banner__content .banner__box {
+  height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .multi-slider {
     overflow:hidden;
