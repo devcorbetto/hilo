@@ -75,7 +75,7 @@ ol li{
 }
 
 .waves5d svg{
-  bottom:-18px;
+  bottom:-18px!important;
 }
 
 .one-column .container-result{
