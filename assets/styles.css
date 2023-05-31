@@ -1266,6 +1266,11 @@ summary .icon-carret2 {
 
     left: 0px;
 }
+  .multi-featured .slick-dots {
+    bottom: -10px;
+
+    left: 0px;
+}
   
   
   .carrousel .a-left,   .carrousel .a-right {
