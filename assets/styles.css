@@ -1263,8 +1263,8 @@ summary .icon-carret2 {
     margin:0 auto;
   }
   .collection-sliders .slick-dots {
-    bottom: -10px;
-
+    bottom: 20px;
+display: block;
     left: 0px;
 }
   .desktop-hide {
