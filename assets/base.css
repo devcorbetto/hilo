@@ -3130,6 +3130,9 @@ top: -30px;
     position: absolute;
 }
 @media screen and (max-width: 649px) {
+  .waves5b-rich-text {
+    bottom:0px !important;
+  }
   .one-column .corner-top.no-rotate.top-wavestop2  {
     display:none;
   }
