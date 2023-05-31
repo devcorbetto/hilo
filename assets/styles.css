@@ -1462,8 +1462,8 @@ display: block;
   .product__info-wrapper .container-modal {
    
     position: absolute;
-    height: 100%; 
-    overflow: scroll;
+    height: 100% !important; 
+    overflow: auto;
     margin: 0px 0px !important;
 }
 /*Boutique*/
