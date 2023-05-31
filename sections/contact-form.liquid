@@ -102,6 +102,18 @@
           <button type="submit" class="button">
           Envoyer
           </button>
+          document.getElementById("ContactForm").addEventListener("submit", function(event) {
+  var checkbox = document.getElementById("html");
+  var submitButton = document.querySelector("#ContactForm button[type='submit']");
+
+  if (!checkbox.checked) {
+    event.preventDefault(); // Evita que se envíe el formulario
+    submitButton.disabled = true; // Deshabilita el botón de envío
+    alert("Debe aceptar la política de privacidad."); // Muestra un mensaje de error
+    // También puedes modificar el estilo del checkbox o realizar otras acciones aquí
+  }
+});
+
         </div>
       </div>
     {%- endform -%}
