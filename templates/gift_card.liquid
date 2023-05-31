@@ -126,8 +126,9 @@
       <div class="gift-card__image-wrapper">
         <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy">
       </div>
-      <a href="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Carte_cadeau_Hilo.pdf?v=1685568469">Télécharger ma carte cadeau Hilo personnalisée en PDF</a>
-
+      <div style="width:100%;">
+        <a class="text-align:center;margin:auto;" href="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Carte_cadeau_Hilo.pdf?v=1685568469">Télécharger ma carte cadeau Hilo personnalisée en PDF</a>
+      </div>
       <div class="gift-card__qr-code" data-identifier="{{ gift_card.qr_identifier }}"></div>
       <div class="gift-card__information">
         <input
