@@ -1258,7 +1258,10 @@ summary .icon-carret2 {
   }
 /* mobile */
 @media screen and (max-width: 649px) {
-
+.noslide {
+  max-width:75%;
+  margin:0 auto;
+}
   body {
       overflow-x:hidden;
   }
