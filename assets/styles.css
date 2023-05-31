@@ -1247,7 +1247,7 @@ summary .icon-carret2 {
     align-content: space-between;
   }
   .banner-home .banner__content .banner__box {
-  height:75vh;
+  height:70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
