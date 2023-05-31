@@ -41,7 +41,9 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-
+.quantity__input{
+  pointer-events: none!important;
+}
 
 .cc-btn{
   cursor:pointer!important;
