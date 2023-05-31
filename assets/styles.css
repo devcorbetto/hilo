@@ -1359,8 +1359,8 @@ display: block;
     align-items: flex-start !important;
   }
 
-  ..one-column h3 {
-     font-size:2px;
+  .one-column h3 {
+     font-size:20px;
      line-height: 24px;
  
     
