@@ -173,6 +173,7 @@
     },
     "3aebad43-9757-4c8a-ad78-a6e2c3563876": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
