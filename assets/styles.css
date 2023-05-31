@@ -1298,8 +1298,8 @@ summary .icon-carret2 {
   }
     .newsletter p
   {
-        font-size: 14px;
-    line-height: 18px;
+        font-size: 14px !important;
+    line-height: 18px !important;
   }
   
   .rich-text__caption.subtitle.subtitle--small {
