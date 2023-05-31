@@ -1347,6 +1347,9 @@ summary .icon-carret2 {
   width:70% !important;
   
 }
+  .collection .quick-add__submit {
+        font-size: 12px;
+  }
 
 
   
