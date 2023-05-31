@@ -1283,6 +1283,10 @@ summary .icon-carret2 {
      font-size:22px;
      line-height: 25px;
   }
+  .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
