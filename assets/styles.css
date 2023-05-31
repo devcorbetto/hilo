@@ -1281,7 +1281,7 @@ summary .icon-carret2 {
   margin:0 auto;
 }
    .small-hide {
-    display:none;
+    display:none !important;
   }
   .desktop-hide {
     display:block;
