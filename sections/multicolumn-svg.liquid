@@ -113,6 +113,20 @@
               {%- endfor -%}
             </div>
           </div>
+          <style>
+            .slider {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider__slide {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+          </style>
           <script>const slider = document.getElementById('Slider-template--17804308381991__multicolumn');
 slider.addEventListener('scroll', () => {
   const slideWidth = slider.offsetWidth;
