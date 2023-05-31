@@ -41,6 +41,10 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+#Slider-template--17804308381991__featured_collection.collection-sliders{
+  display:none;
+}
+
 .diagnosticpage{
   display:none;
 }
