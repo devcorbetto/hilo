@@ -24,7 +24,7 @@
     <title>{{ 'gift_cards.issued.title' | t: value: formatted_initial_value, shop: shop.name }}</title>
 
     <meta name="description" content="{{ 'gift_cards.issued.subtext' | t }}">
-hello
+
     {{ content_for_header }}
 
     {%- liquid
@@ -125,6 +125,7 @@ hello
     <main class="gift-card">
       <div class="gift-card__image-wrapper">
         <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy">
+      <a href="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Carte_cadeau_Hilo.pdf?v=1685568469">Télécharger ma carte cadeau Hilo personnalisée en PDF</a>
       </div>
       <div class="gift-card__qr-code" data-identifier="{{ gift_card.qr_identifier }}"></div>
       <div class="gift-card__information">
