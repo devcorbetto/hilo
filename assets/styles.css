@@ -1275,7 +1275,8 @@ summary .icon-carret2 {
   }
  .banner-home .banner__text.body span, .banner-home .container-right p,
   .rich-text__text p, .rich-text-paragraph, .multicolumn-featured-paragraph ,
-  .multicolumn-list h3, .multicolumn-list p
+  .multicolumn-list h3, .multicolumn-list p,
+  .newsletter p
   {
         font-size: 14px;
     line-height: 18px;
