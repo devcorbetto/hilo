@@ -1461,7 +1461,7 @@ display: block;
 /* product container modal */
   .product__info-wrapper .container-modal {
    
-    position: relative;
+    position: absolute;
     height: 100%; 
     overflow: scroll;
     margin: 0px 0px !important;
