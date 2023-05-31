@@ -1370,6 +1370,9 @@ display: block;
         font-size: 12px !important;
  
   }
+  .collection-result {
+    margin-top:40px;
+  }
 
  .waves2a.isolate .svg-waves {
     top: -15px !important;
