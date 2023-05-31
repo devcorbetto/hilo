@@ -1243,11 +1243,11 @@ summary .icon-carret2 {
 }
 @media screen and (max-width: 749px) {
   .banner-home  .banner__content {
-    min-height: 55rem !important;
+    min-height: 50rem !important;
     align-content: space-between;
   }
   .banner-home .banner__content .banner__box {
-  height: 80vh;
+  height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
