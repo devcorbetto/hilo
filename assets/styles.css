@@ -1310,8 +1310,8 @@ display: block;
 display: block;
     left: 0px;
 }
-  .desktop-hide {
-    display:block;
+  ul.desktop-hide {
+    display:block !important;
   }
   .multicolumn-list-svg .slick-dots {
     bottom: -10px;
