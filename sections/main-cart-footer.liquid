@@ -13,7 +13,7 @@
     <div class="cart__footer">
       
        {%- for item in cart.items -%}
-         <div class="items-cart" style="width:100%;">
+         <div class="items-cart" style="width:100%; ">
           <div class="w80">{{ item.product.title | escape }} {% if item.quantity > 1  %}x{{ item.quantity }}  {% endif %}<br>
   {% if item.properties != blank  %}
 <span class="">Huiles : </span>
