@@ -1280,6 +1280,9 @@ summary .icon-carret2 {
   max-width:75%;
   margin:0 auto;
 }
+  .desktop-hide {
+    display:none;
+  }
   body {
       overflow-x:hidden;
   }
