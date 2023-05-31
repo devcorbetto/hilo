@@ -1349,8 +1349,8 @@ display: block;
   .accordion p,
   .ft, .product__description p
   {
-        font-size: 14px;
-    line-height: 18px;
+        font-size: 14px !important;
+    line-height: 18px!important;
   }
 
   .newsletter .newsletter__subheading {
