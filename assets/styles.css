@@ -1259,6 +1259,10 @@ summary .icon-carret2 {
      font-size:24px;
      line-height: 28px;
   }
+  .collection h2 {
+    margin-bottom:30px;
+    margin-top:20px;
+  }
   .multi-icons .slider-buttons {
     margin-top:15px;
   }
