@@ -1315,7 +1315,7 @@ summary .icon-carret2 {
   }
 
   footer .footer-block__heading {
-    font-size:20px;
+    font-size:20px !important;
       line-height:25px;
   }
 }
