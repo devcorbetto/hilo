@@ -1259,6 +1259,9 @@ summary .icon-carret2 {
      font-size:24px;
      line-height: 28px;
   }
+  .multi-icons .slider-buttons {
+    margin-top:15px;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
