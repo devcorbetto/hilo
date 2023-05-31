@@ -1278,6 +1278,10 @@ summary .icon-carret2 {
             font-size: 12px;
     line-height: 15px;
   }
+  .multi-slider .multicolumn-card.content-container h3 {
+     font-size:22px;
+     line-height: 25px;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
