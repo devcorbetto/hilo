@@ -103,7 +103,7 @@
           "settings": {
             "heading": "Quel est le prochain produit Hilo à sortir ?",
             "icon": "none",
-            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous nos prochaines pépites.<\/p><p><br\/>Pour être informé de toutes nos campagnes ambassadeur, nous vous invitons à vous abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
+            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous nos prochaines pépites.<br\/>Pour être informé de toutes nos <a href=\"\/pages\/ambassadeur-cosmetiques-naturels\" title=\"Programme ambassadeur\">campagnes ambassadeur<\/a>, nous vous invitons à vous abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
             "page": ""
           }
         },
