@@ -1371,7 +1371,7 @@ summary .icon-carret2 {
     position: relative;
     height: 60vh; 
     overflow: scroll;
-    margin: 0px 20px;
+    margin: 0px 20px !important;
 }
 
 
