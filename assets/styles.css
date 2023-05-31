@@ -1356,6 +1356,8 @@ summary .icon-carret2 {
   .comment .rich-text__image {
     width: 60%;
     margin: 0 auto;
+    margin-top: 40px !important;
+    margin-bottom:30px;
 }
   
 
