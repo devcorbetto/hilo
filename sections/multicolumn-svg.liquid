@@ -104,60 +104,16 @@
       </ul>
        
       {%- if show_mobile_slider -%}
-       <div class="slider-counter caption">
-            <div class="slideshow__control-wrapper">
-              {%- for block in section.blocks -%}
-              <button class="slider-counter__link slider-counter__link--dots link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ section.id }}">
-                <span class="dot"></span>
-              </button>
-              {%- endfor -%}
-            </div>
+        <div class="slider-buttons no-js-hidden medium-hide">
+          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+          <div class="slider-counter caption">
+            <span class="slider-counter--current">1</span>
+            <span aria-hidden="true"> / </span>
+            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+            <span class="slider-counter--total">{{ section.blocks.size }}</span>
           </div>
-          <div class="slideshow__control-wrapper">
-  <div class="slider-counter__link slider-counter__link--dots link" aria-label="Charger la diapositive 1 de 5" aria-controls="Slider-template--17804308381991__multicolumn">
-    <span class="dot"></span>
-  </div>
-  <div class="slider-counter__link slider-counter__link--dots link" aria-label="Charger la diapositive 2 de 5" aria-controls="Slider-template--17804308381991__multicolumn">
-    <span class="dot"></span>
-  </div>
-  <div class="slider-counter__link slider-counter__link--dots link" aria-label="Charger la diapositive 3 de 5" aria-controls="Slider-template--17804308381991__multicolumn">
-    <span class="dot"></span>
-  </div>
-  <div class="slider-counter__link slider-counter__link--dots link" aria-label="Charger la diapositive 4 de 5" aria-controls="Slider-template--17804308381991__multicolumn">
-    <span class="dot"></span>
-  </div>
-  <div class="slider-counter__link slider-counter__link--dots link" aria-label="Charger la diapositive 5 de 5" aria-controls="Slider-template--17804308381991__multicolumn">
-    <span class="dot"></span>
-  </div>
-</div>
-
-          <style>
-            .slideshow__control-wrapper {
-  display: flex;
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
-}
-
-.slider-counter__link {
-  scroll-snap-align: center;
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: gray;
-  margin: 5px;
-}
-
-          </style>
-          <script>const slider = document.getElementById('Slider-template--17804308381991__multicolumn');
-slider.addEventListener('scroll', () => {
-  const slideWidth = slider.offsetWidth;
-  const currentSlide = Math.round(slider.scrollLeft / slideWidth);
-  // Realiza acciones adicionales según el índice de la diapositiva actual
-});
-</script>
+          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+        </div>
       {%- endif -%}
     </slider-component>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
