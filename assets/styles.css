@@ -1255,6 +1255,9 @@ summary .icon-carret2 {
 }
 /* mobile */
 @media screen and (max-width: 649px) {
+  .desktop-hide {
+    display:none;
+  }
   .slick-dots {
 
   }
