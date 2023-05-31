@@ -1365,6 +1365,14 @@ summary .icon-carret2 {
     margin-bottom:30px;
 }
   
+/*Container modal*/
+.container-modal {
+   {
+    position: relative;
+    height: 60vh;
+    overflow: scroll;
+    margin: 0px 20px;
+}
 
 
   
