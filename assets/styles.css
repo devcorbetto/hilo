@@ -45,6 +45,7 @@ section newsletter section-news
   display:none!important;
 }
 
+
 .diagnosticpage{
   display:none;
 }
@@ -1259,6 +1260,9 @@ summary .icon-carret2 {
 .desktop-hide {
     display:none;
   }
+#Slider-template--17804308381991__featured_collection.collection-sliders{
+  display:block!important;
+}
 /* mobile */
 @media screen and (max-width: 649px) {
 .noslide {
