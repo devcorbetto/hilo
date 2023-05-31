@@ -17,6 +17,7 @@
         },
         "judgeme_preview_badge_product_page_61e5a6d5": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         },
