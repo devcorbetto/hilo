@@ -13,8 +13,8 @@
     <div class="cart__footer">
       
        {%- for item in cart.items -%}
-         <div class="items-cart" style="width:100%; ">
-          <div class="w80">{{ item.product.title | escape }} {% if item.quantity > 1  %}x{{ item.quantity }}  {% endif %}<br>
+         <div class="items-cart var{{ item.variant.id }}" style="width:100%; ">
+          <div class="w80 ">{{ item.product.title | escape }} {% if item.quantity > 1  %}x{{ item.quantity }}  {% endif %}<br>
  <div class="optionsfooter">
             {% if item.properties != blank  %}
 <span class="">Huiles : </span>
@@ -140,7 +140,7 @@
          {%- endfor -%}
     <div class="items-cart mr-0" style="margin-right:0px !important; width:100%;">
           {% if cart.total_price >= 5900 %} 
-   <div class="w80">  <p>Livraison : </div>    <div class="w20">Offerte</div>
+   <div class="w80 ">  <p>Livraison : </div>    <div class="w20">Offerte</div>
 {% else %}
     <div class="w80"> 
       Plus que <strong>{{ 5900 | minus: cart.total_price | money }}</strong> pour bénéficier de la livraison gratuite<br>
