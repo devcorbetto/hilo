@@ -1325,6 +1325,10 @@ summary .icon-carret2 {
     margin-bottom: 3rem;
     
   }
+  .multi-slider.multicolumn  h2.title {
+    margin-bottom: 3rem;
+    
+  }
 
   footer .footer-block__heading {
     font-size:20px !important;
