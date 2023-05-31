@@ -1458,7 +1458,14 @@ display: block;
     overflow: scroll;
     margin: 0px 20px !important;
 }
-
+/* product container modal */
+  .product__info-wrapper .container-modal {
+   
+    position: relative;
+    height: 100%; 
+    overflow: scroll;
+    margin: 0px 0px !important;
+}
 /*Boutique*/
   .h1.mb-10b {
         margin-bottom: 20px !important;
