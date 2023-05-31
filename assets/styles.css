@@ -41,13 +41,6 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-#Slider-template--17804308381991__featured_collection.collection-sliders{
-  display:none;
-}
-
-.desktop-hide{
-  display:none!important;
-}
 
 .diagnosticpage{
   display:none;
@@ -790,7 +783,9 @@ font-size:10px;
   display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+.desktop-hide{
+  display:none!important;
+}
 
 .collection li {
   width: 100% !important; max-width: 100% !important;
