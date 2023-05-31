@@ -1261,6 +1261,8 @@ summary .icon-carret2 {
   }
   .collection h2 {
     margin-bottom:30px;
+        padding: 0px 2rem;
+
     margin-top:30px;
   }
   .multi-icons .slider-buttons {
