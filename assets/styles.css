@@ -1287,6 +1287,9 @@ summary .icon-carret2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+  .multi-slider .slick-slide .button {
+    padding: 0px;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
