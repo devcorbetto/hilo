@@ -51,6 +51,21 @@ section newsletter section-news
     width: 100%;
 }
 
+.giftcardbutton a{
+    background: #D0C4E2;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.giftcardbutton{
+    width:100%;
+    text-align:center;
+    margin-top:20px;
+}
+
 .cc-btn{
   cursor:pointer!important;
 }
