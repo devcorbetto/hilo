@@ -1344,7 +1344,7 @@ summary .icon-carret2 {
   
 }
   .collection .slider--tablet.product-grid li  {
-  width:70%;
+  width:70% !important;
   
 }
 
