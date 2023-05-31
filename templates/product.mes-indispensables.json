@@ -202,33 +202,36 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/person.png",
-            "imageicon": "shopify:\/\/shop_images\/Capsule_Vert.png",
-            "titleicon": "Huile d'amande douce",
-            "imageicon2": "shopify:\/\/shop_images\/Capsule_Orange.webp",
-            "titleicon2": "Macérat huileux de carottes",
-            "imageicon3": "shopify:\/\/shop_images\/Capsule_Bleu.png",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-ana.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
+            "titleicon": "Huile d'argan",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
+            "titleicon2": "Huile de carotte",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
             "titleicon3": "Huile de noisette",
-            "title": "Les actifs du moment de Zoé",
-            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "title": "Les actifs du moment d'Ana",
+            "text": "<p>Peau à tendance mixte, en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau"
           }
         },
-        "579b9904-026b-4ce0-82b8-5b5ea856360e": {
+        "458cdb78-3ebd-46c2-ac9e-6df7657d803b": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/person.png",
-            "titleicon": "Column",
-            "titleicon2": "Column",
-            "titleicon3": "Column",
-            "title": "Les actifs du moment de Zoé",
-            "text": "<p>text<\/p>",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-leo.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon": "Huile d'amande douce",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
+            "titleicon2": "Huile de carotte",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
+            "titleicon3": "Huile de noisette",
+            "title": "Les actifs du moment de Léo",
+            "text": "<p>Peau  déshydratée avec quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "",
-            "link": ""
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau"
           }
         }
       },
@@ -236,7 +239,7 @@
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-0",
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1",
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2",
-        "579b9904-026b-4ce0-82b8-5b5ea856360e"
+        "458cdb78-3ebd-46c2-ac9e-6df7657d803b"
       ],
       "settings": {
         "customcss": "multi-slider multi-slider-product wavestop2",
