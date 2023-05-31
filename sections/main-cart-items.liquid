@@ -401,7 +401,9 @@
                         {{ 'products.product.quantity.label' | t }}
                       </label>
                       <quantity-input class="quantity" >
-                        <button class="quantity__button no-js-hidden" name="minus" type="button" >
+                        <button class="quantity__button no-js-hidden" name="minus" type="button" 
+                   onclick="addQuantityAndRefresh()"
+                  >
                           <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}</span>
                           {% render 'icon-minus' %}
                         </button>
@@ -779,7 +781,7 @@
     // Haces una pausa de 2 segundos antes de recargar la página
     setTimeout(function() {
       location.reload();
-    }, 2000); // 2000 milisegundos = 2 segundos
+    }, 1500); // 1500 milisegundos = 2 segundos
   }
 </script>
 
