@@ -489,7 +489,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-ana.jpg",
             "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
             "titleicon": "Huile d'argan",
             "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
@@ -502,11 +502,30 @@
             "link_label": "Je réalise mon diagnostic",
             "link": "shopify:\/\/pages\/diagnostic-de-peau"
           }
+        },
+        "720d528c-dc53-4ffa-9be9-feed591fafcd": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-leo.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon": "Huile d'amande douce",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
+            "titleicon2": "Huile de noisette",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon3": "Huile d'onagre",
+            "title": "Les actifs du moment d'Ana",
+            "text": "<p>Peau déshydratée avec quelques rougeurs et imperfections<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+          }
         }
       },
       "block_order": [
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1",
-        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2"
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2",
+        "720d528c-dc53-4ffa-9be9-feed591fafcd"
       ],
       "settings": {
         "customcss": "multi-slider",
