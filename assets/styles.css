@@ -1451,7 +1451,7 @@ display: block;
 }
   
 /* Container modal */
-.container-modal {
+.multi-capsules .container-modal {
    
     position: relative;
     height: 60vh; 
@@ -1461,10 +1461,7 @@ display: block;
 /* product container modal */
   .product__info-wrapper .container-modal {
    
-    position: absolute;
-    height: 100% !important; 
-    overflow: auto;
-    margin: 0px 0px !important;
+
 }
 /*Boutique*/
   .h1.mb-10b {
