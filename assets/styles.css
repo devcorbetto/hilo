@@ -1294,6 +1294,10 @@ summary .icon-carret2 {
   .multi-slider .slick-slide .button {
     padding: 0px;
   }
+  .titlemb-5m h2.title {
+    margin-bottom: 3rem;
+    
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
