@@ -490,17 +490,17 @@
           "settings": {
             "customcss": "",
             "image": "shopify:\/\/shop_images\/person.png",
-            "imageicon": "shopify:\/\/shop_images\/Capsule_Vert.png",
-            "titleicon": "Huile d'amande douce",
-            "imageicon2": "shopify:\/\/shop_images\/Capsule_Orange.webp",
-            "titleicon2": "Macérat huileux de carottes",
-            "imageicon3": "shopify:\/\/shop_images\/Capsule_Bleu.png",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
+            "titleicon": "Huile d'argan",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
+            "titleicon2": "Huile de carotte",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
             "titleicon3": "Huile de noisette",
-            "title": "Les actifs du moment de Zoé",
-            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "title": "Les actifs du moment d'Ana",
+            "text": "<p>Peau à tendance mixte en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau"
           }
         }
       },
