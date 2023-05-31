@@ -41,16 +41,6 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.gift-card__heading {
-    font-weight: 400;
-    margin: 2.5rem 0 1rem;
-    font-size: 32px;
-    text-align: center;
-    line-height: 36px;
-    font-weight: 700;
-    width: 100%;
-}
-
 .giftcardbutton a{
     background: #D0C4E2;
     border-radius: 30px;
