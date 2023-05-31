@@ -1366,7 +1366,7 @@ display: block;
     
   }
 
- .waves2a .svg-waves {
+ .waves2a.isolate .svg-waves {
     top: -10px !important;
 }
   .banner-home .h0 {
