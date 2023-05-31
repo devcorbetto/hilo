@@ -165,18 +165,18 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/person.png",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce.png",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-saida.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
             "titleicon": "Huile d'amande douce",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte.png",
-            "titleicon2": "Huile de carotte",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette.png",
-            "titleicon3": "Huile de noisette",
-            "title": "Les actifs du moment de Zoé",
-            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon2": "Huile d'onagre",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon3": "Huile d'onagre",
+            "title": "Les actifs du moment de Saïda",
+            "text": "<p>Peau sensible et très déshydratée<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau"
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1": {
