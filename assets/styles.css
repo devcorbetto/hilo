@@ -1285,8 +1285,8 @@ summary .icon-carret2 {
    .small-hide {
     display:none !important;
   }
-  .desktop-hide {
-    display:block;
+  .collection ul.desktop-hide {
+    display:block !important;
   }
   body {
       overflow-x:hidden;
