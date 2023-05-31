@@ -41,7 +41,7 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-#Slider-template--17804308381991__featured_collection.collection-sliders{
+#Slider-template--17804308381991__featured_collection.collection-sliders, #Slider-template--17804308218151__d1729d12-e0e2-4aff-abd1-a485a8f5a0ae.collection-sliders{
   display:none!important;
 }
 
@@ -1242,7 +1242,7 @@ summary .icon-carret2 {
 .header__icons {
     padding-right: 15px;
 }
-#Slider-template--17804308381991__featured_collection.collection-sliders{
+#Slider-template--17804308381991__featured_collection.collection-sliders, #Slider-template--17804308218151__d1729d12-e0e2-4aff-abd1-a485a8f5a0ae.collection-sliders{
   display:block!important;
 }
 }
