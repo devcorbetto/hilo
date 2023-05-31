@@ -1261,7 +1261,7 @@ summary .icon-carret2 {
   .desktop-hide {
     display:block;
   }
-  .slick-dots {
+  .multicolumn-list-svg .slick-dots {
     bottom: -10px;
 
     left: 0px;
