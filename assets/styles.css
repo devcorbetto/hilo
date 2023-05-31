@@ -1313,6 +1313,11 @@ summary .icon-carret2 {
     margin-bottom: 3rem;
     
   }
+
+  footer .footer-block__heading {
+    font-size:20px;
+      line-height:25px;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
