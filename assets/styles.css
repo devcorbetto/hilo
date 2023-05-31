@@ -1274,6 +1274,10 @@ summary .icon-carret2 {
         font-size: 14px;
     line-height: 18px;
   }
+  .rich-text__caption.subtitle.subtitle--small {
+            font-size: 12px;
+    line-height: 15px;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
