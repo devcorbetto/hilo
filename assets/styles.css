@@ -1269,7 +1269,8 @@ summary .icon-carret2 {
     margin-top:15px;
   }
  .banner-home .banner__text.body span, .banner-home .container-right p,
-  .rich-text__text p, .rich-text-paragraph, .multicolumn-featured-paragraph 
+  .rich-text__text p, .rich-text-paragraph, .multicolumn-featured-paragraph ,
+  .multicolumn-list h3, .multicolumn-list p
   {
         font-size: 14px;
     line-height: 18px;
