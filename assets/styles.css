@@ -1255,7 +1255,8 @@ summary .icon-carret2 {
     font-size:24px;
      line-height: 28px;
   }
-  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title {
+  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title,
+  .newsletter h2.h1{
      font-size:24px;
      line-height: 28px;
   }
