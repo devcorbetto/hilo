@@ -1259,7 +1259,7 @@ summary .icon-carret2 {
 
   }
   .carrousel .a-left,   .carrousel .a-right {
-    display:none;
+    display:none !important;
   }
   .carrousel  .slick-dots {
       display:block;
