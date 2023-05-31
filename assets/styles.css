@@ -41,6 +41,16 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
+.gift-card__heading {
+    font-weight: 400;
+    margin: 2.5rem 0 1rem;
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+    width: 100%;
+}
+
 .cc-btn{
   cursor:pointer!important;
 }
@@ -797,9 +807,7 @@ font-size:10px;
   display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.collection ul.desktop-hide {
-  display:none !important;
-}
+
 .collection li {
   width: 100% !important; max-width: 100% !important;
 } 
@@ -1273,24 +1281,15 @@ summary .icon-carret2 {
   display:none;
 }
 .desktop-hide {
-    display:none !important;
+    display:none;
   }
- 
+
 /* mobile */
 @media screen and (max-width: 649px) {
 .noslide {
   max-width:75%;
   margin:0 auto;
 }
-   .small-hide {
-    display:none !important;
-  }
-  .collection ul.desktop-hide {
-    display:block !important;
-  }
-  .desktop-hide {
-      display:block !important;
-  }
   body {
       overflow-x:hidden;
   }
@@ -1461,7 +1460,7 @@ display: block;
         font-size: 12px;
   }
   .comment .rich-text__image {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 40px !important;
     margin-bottom:30px;
