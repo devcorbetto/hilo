@@ -60,6 +60,12 @@ section newsletter section-news
     text-decoration: none;
 }
 
+.giftcardbutton a:hover{
+    background: #fff;
+    color: #D0C4E2;
+    border: 2px solid #D0C4E2;
+}
+
 .giftcardbutton{
     width:100%;
     text-align:center;
