@@ -471,18 +471,18 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-saida.jpg",
             "imageicon": "shopify:\/\/shop_images\/Capsule_Vert.png",
             "titleicon": "Huile d'amande douce",
             "imageicon2": "shopify:\/\/shop_images\/Capsule_Orange.webp",
-            "titleicon2": "Macérat huileux de carottes",
+            "titleicon2": "Huile de carotte",
             "imageicon3": "shopify:\/\/shop_images\/Capsule_Bleu.png",
             "titleicon3": "Huile de noisette",
-            "title": "Les actifs du moment de Zoé",
-            "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
+            "title": "Les actifs du moment de Saïda",
+            "text": "<p>Peau sensible avec quelques imperfections et en manque d'éclat<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau"
           }
         },
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2": {
