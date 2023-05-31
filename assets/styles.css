@@ -1275,7 +1275,9 @@ summary .icon-carret2 {
 .desktop-hide {
     display:none !important;
   }
-
+ul.desktop-hide {
+    display:none !important;
+  }
 /* mobile */
 @media screen and (max-width: 649px) {
 .noslide {
