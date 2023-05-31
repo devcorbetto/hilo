@@ -3163,6 +3163,9 @@ top: -30px;
     margin-left: -30px !important;
     top: 79px;
 }
+  #insta-feed {
+    margin-bottom: 20px !important;
+  }
 }
 @media screen and (min-width: 990px) {
 .svg-fullwidth .rich-text__blocks {
