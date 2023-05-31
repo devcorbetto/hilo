@@ -1268,6 +1268,12 @@ summary .icon-carret2 {
   .multi-icons .slider-buttons {
     margin-top:15px;
   }
+ .banner-home .banner__text.body span, .banner-home .container-right p,
+  .rich-text__text p, .rich-text-paragraph, .multicolumn-featured-paragraph 
+  {
+        font-size: 14px;
+    line-height: 18px;
+  }
 }
 .banner-home .media > img {
    object-position:bottom; }
