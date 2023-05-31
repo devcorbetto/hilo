@@ -41,26 +41,7 @@ Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
 
-.giftcardbutton a{
-    background: #D0C4E2;
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
-    padding: 12px 24px;
-    text-decoration: none;
-}
 
-.giftcardbutton a:hover{
-    background: #fff;
-    color: #D0C4E2;
-    border: 2px solid #D0C4E2;
-}
-
-.giftcardbutton{
-    width:100%;
-    text-align:center;
-    margin-top:20px;
-}
 
 .cc-btn{
   cursor:pointer!important;
