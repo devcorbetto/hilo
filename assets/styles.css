@@ -1258,7 +1258,7 @@ summary .icon-carret2 {
   }
 /* mobile */
 @media screen and (max-width: 649px) {
-}
+
 .reviews-slider .slick-dots {
     bottom: -30px;
 display: block;
