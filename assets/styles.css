@@ -1548,9 +1548,11 @@ display: block;
   cart-remove-button {
     position: absolute;
     right: 0px;
-    margin-top:-20px;
+    margin-top: -30px !important;
   }
-  
+  .cart-item__details {
+    text-align:center;
+  }
   .description-cart  {
     font-size:10px;
     padding-bottom:0px !important;
