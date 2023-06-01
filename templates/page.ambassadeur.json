@@ -81,7 +81,7 @@
       }
     },
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b": {
-      "type": "multicolumn",
+      "type": "multicolumns-image-slider",
       "blocks": {
         "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0": {
           "type": "column",
