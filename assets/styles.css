@@ -1409,6 +1409,10 @@ display: block;
   margin-top: 30px;
     padding-bottom: 0px;
   }
+  .lamarque_text1  p, .lamarque_text2 p {
+    font-size:14px;
+    line-height:18px;
+  }
 
   .lamarque_text1 h2, .lamarque_text2 h2 {
     font-size:22px;
