@@ -463,7 +463,21 @@
                             </span>
                           {%- endif -%}
                         {%- endfor -%}
+{% if item.properties != blank  %}
+<span class="description-cart">Huiles : </span>
 
+
+{% endif %}
+
+
+
+{% for item in capture_array  limit:3%}
+{% if forloop.index == 3 %}
+    {{ item }}  
+  {% else %}
+ {{ item }}, 
+  {% endif %}
+{% endfor %} 
                         
                       </div>
                     {% endif %}
