@@ -1734,6 +1734,9 @@ display: block;
     font-size:16px  !important;
     line-height:20px !important;
   }
+  .programme_text2 {
+    padding-bottom:0px;
+  }
   
 }
 
