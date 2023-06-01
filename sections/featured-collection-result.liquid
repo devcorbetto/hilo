@@ -60,6 +60,9 @@
     .card__inner .card__content {
       display:none;
     }
+    .collection-result-item  card__content { display: flex;
+    flex-direction: column; 
+                   }
   }
 {%- endstyle -%}
 
@@ -101,7 +104,7 @@
            {% if forloop.index == 2 %}
         <li class="nomobile"></li>
       
-           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
+           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="collection-result-item grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
              <h2 class="h3-collection" style="margin-top:40px; text-align:center;">VOUS AIMEREZ AUSSI...</h2>
              {% render 'card-product',
               card_product: product,
