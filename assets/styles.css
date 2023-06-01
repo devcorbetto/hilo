@@ -1542,11 +1542,11 @@ display: block;
     grid-gap: 5px !important;
     text-align: center;
     font-size: 16px;
-    max-width: 600px;
+    max-width: 100%;
 } 
   .container-comment img {
-    height:auto;
-    width:50px;
+    height:auto !important;
+   
   }
   .container-comment b {
     font-size:12px;
