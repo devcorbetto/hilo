@@ -1553,11 +1553,9 @@ display: block;
     right: 0px;
     margin-top: -30px !important;
   }
-  .title-wrapper-with-link {
-    display:none;
-  }
-  .onlydesktop {
-    display:none;
+  
+  .title-wrapper-with-link.onlydesktop {
+    display:none !important;
   }
     .title-wrapper-with-link.onlymobile {
     display:block !important;
