@@ -1556,6 +1556,9 @@ display: block;
     padding-bottom:0px !important;
     
   }
+  .product-option2 span {
+        font-size:12px;
+  }
   .product-option2 {
         display: grid;
     grid-template-columns: 1fr 0.2fr 1fr;
