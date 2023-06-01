@@ -1538,7 +1538,7 @@ display: block;
 
   /* cart*/ 
   .container-title h1 {
-    font-size:12px;
+    font-size:12px !important; 
     margin:0.5rem;
   }
   
