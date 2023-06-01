@@ -1387,6 +1387,9 @@ display: block;
  
     
   }
+  .text-black h2.banner__heading {
+    margin-bottom:15px;
+  }
   .container-routine p,
   .one-column p {
         font-size: 12px !important;
