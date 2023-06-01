@@ -1539,7 +1539,7 @@ display: block;
   .container-comment {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 5px !important;
     text-align: center;
     font-size: 16px;
     max-width: 600px;
