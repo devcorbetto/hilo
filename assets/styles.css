@@ -1558,7 +1558,7 @@ display: block;
     border: 2px solid #F8C8D3;
     border-radius: 30px;
   }
-  .w80  {
+  .w80 , .w20 {
     font-weight:600;
   }
   .w80 .optionsfooter {
