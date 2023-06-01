@@ -1574,7 +1574,11 @@ display: block;
     height: 30px;
     font-size: 12px;
   }
-
+/**loading*/
+  .step6 .columns5 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
   /* cart*/ 
   .container-title h1 {
     font-size:12px !important; 
