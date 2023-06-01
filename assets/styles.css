@@ -1246,6 +1246,9 @@ summary .icon-carret2 {
   
 }
 @media screen and (max-width: 749px) {
+  .boutique-crezz .waves5c-rich-text-account {
+        top: -15px!important;
+  }
   .banner-home  .banner__content {
     min-height: 45rem !important;
     align-content: space-between;
