@@ -1549,6 +1549,7 @@ display: block;
 } 
   .accordion  .container-comment img {
     width: 70px;
+        border-radius: 5px !important;
     height: auto !important;
    
   }
