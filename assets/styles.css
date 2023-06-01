@@ -1566,6 +1566,9 @@ display: block;
     font-size:12px;
     align-items: center;
   }
+  .product-option .nobutton {
+    padding: 10px 15px!important;
+  }
 }
 
 .banner-home .media > img {
