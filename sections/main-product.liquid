@@ -44,6 +44,11 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+    @media (max-width:980px) {
+      .modal {   max-width: 100%;
+    overflow: hidden;
+              } 
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
