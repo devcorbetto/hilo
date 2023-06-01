@@ -1560,6 +1560,7 @@ display: block;
         display: grid;
     grid-template-columns: 1fr 0.2fr 1fr;
     justify-items: center;
+    font-size:12px;
     align-items: center;
   }
 }
