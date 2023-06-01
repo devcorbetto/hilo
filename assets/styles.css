@@ -1556,6 +1556,12 @@ display: block;
     padding-bottom:0px !important;
     
   }
+  .product-option2 {
+        display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
 }
 
 .banner-home .media > img {
