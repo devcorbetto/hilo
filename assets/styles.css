@@ -1558,6 +1558,9 @@ display: block;
     border: 2px solid #F8C8D3;
     border-radius: 30px;
   }
+  .w80  br {
+    display:block;
+  }
   .cart__footer br {
     display:none;
   }
