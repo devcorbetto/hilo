@@ -1541,7 +1541,10 @@ display: block;
     font-size:12px !important; 
     margin:0.5rem;
   }
-  
+  .cart-item__image-container {
+    max-width:75%; 
+    margin:0 auto !important;
+  }
 }
 
 .banner-home .media > img {
