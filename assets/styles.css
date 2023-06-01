@@ -1558,6 +1558,12 @@ display: block;
     border: 2px solid #F8C8D3;
     border-radius: 30px;
   }
+  .w80  {
+    font-weight:600;
+  }
+  .w80 .optionsfooter {
+    font-weight:400;
+  } 
   .w80  br {
     display:block;
   }
