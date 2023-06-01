@@ -1579,6 +1579,17 @@ display: block;
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  .step6 svg {
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+  .step6 h3 {
+    font-weight: 600;
+    font-size: 10px;
+    padding-bottom: 20px;
+    color: #575756;
+}
   /* cart*/ 
   .container-title h1 {
     font-size:12px !important; 
