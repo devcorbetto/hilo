@@ -1292,6 +1292,9 @@ summary .icon-carret2 {
 ul.desktop-hide {
     display:none !important;
   }
+  .onlydesktop {
+    display:none;
+  }
 /* mobile */
 @media screen and (max-width: 649px) {
 .noslide {
@@ -1552,6 +1555,12 @@ display: block;
   }
   .title-wrapper-with-link {
     display:none;
+  }
+  .onlydesktop {
+    display:none;
+  }
+    .onlymobile {
+    display:block;
   }
   .quantity {
     margin:0 auto;
