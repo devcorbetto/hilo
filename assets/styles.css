@@ -1726,7 +1726,10 @@ display: block;
   #shopify-section-template--18276397875495__06985fef-f561-411b-9d86-7c633b95f399 .waves4b  {
     margin-top:0px !important;
   }
-
+.text-black h2.banner__heading  {
+  font-size:22px!important;
+  line-height:28px !important;
+}
   
 }
 
