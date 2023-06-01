@@ -1584,6 +1584,9 @@ display: block;
     margin: 0 auto;
     margin-bottom: 20px;
 }
+  .step6 h2 {
+    font-size:18px;
+  }
    body .step6 .columns5 .column2 {
     margin-top: 0px;
 }
