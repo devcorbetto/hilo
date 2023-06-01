@@ -40,7 +40,10 @@ Multi Column Slider multi-slider
 Multi Column testimonials  multi-testimonials
 section newsletter section-news
 */
-
+/*ol  */
+ol li {
+  margin-left:20px;
+}
 
 
 .cc-btn{
