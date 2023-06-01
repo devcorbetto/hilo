@@ -463,7 +463,12 @@
                             </span>
                           {%- endif -%}
                         {%- endfor -%}
-  <div class="huiles-mobile">
+ 
+                        
+                      </div>
+                    {% endif %}
+                  </td>
+                 <div class="huiles-mobile">
 {% if item.properties != blank  %}
 <span class="description-cart">Huiles : </span>
 
@@ -480,10 +485,6 @@
   {% endif %}
 {% endfor %} 
   </div>
-                        
-                      </div>
-                    {% endif %}
-                  </td>
 
                   <td class="cart-item__details">
                     {%- if settings.show_vendor -%}
