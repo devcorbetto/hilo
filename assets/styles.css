@@ -1316,6 +1316,10 @@ ul.desktop-hide {
   }
 /* mobile */
 @media screen and (max-width: 649px) {
+
+  .container-options > .option a:hover, .container-content a:hover {
+    text-decoration:none;
+  }
 .noslide {
   max-width:75%;
   margin:0 auto;
