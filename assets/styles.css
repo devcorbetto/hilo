@@ -1389,7 +1389,7 @@ display: block;
   }
   .lamarque_text1 h2, .lamarque_text2 h2,
   .text-black h2.banner__heading {
-    margin-bottom:15px;
+    margin-bottom:15px !important;
   }
   .container-routine p,
   .one-column p {
