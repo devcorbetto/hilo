@@ -1410,13 +1410,13 @@ display: block;
     padding-bottom: 0px;
   }
   .lamarque_text1  p, .lamarque_text2 p {
-    font-size:14px;
-    line-height:18px;
+    font-size:14px  !important;
+    line-height:18px  !important;
   }
 
   .lamarque_text1 h2, .lamarque_text2 h2 {
-    font-size:22px;
-     line-height: 26px;
+    font-size:22px !important;
+     line-height: 26px  !important;
   }
   .product__title h1,
   .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title 
