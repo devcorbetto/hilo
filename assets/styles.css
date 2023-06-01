@@ -1567,7 +1567,7 @@ display: block;
     align-items: center;
   }
   .product-option .nobutton {
-    padding: 10px 15px!important;
+    padding: 10px 15px!important !important;
   }
 }
 
