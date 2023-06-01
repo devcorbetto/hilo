@@ -1246,6 +1246,9 @@ summary .icon-carret2 {
   
 }
 @media screen and (max-width: 749px) {
+  .section-template--17804308218151__d1729d12-e0e2-4aff-abd1-a485a8f5a0ae-padding {
+    padding-bottom:20px !important;
+  }
   .boutique-creez .waves5c-rich-text-account {
         top: -15px!important;
   }
