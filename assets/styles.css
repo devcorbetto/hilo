@@ -1672,6 +1672,11 @@ display: block;
   .product-option.product-option2 .nobutton {
     padding: 10px 15px !important;
   }
+
+  /**/
+  .philosophie .waves4a-rich-text-account {
+    bottom:-15px !important;
+  }
 }
 
 .banner-home .media > img {
