@@ -1550,6 +1550,9 @@ display: block;
     right: 0px;
     margin-top: -30px !important;
   }
+  .quantity {
+    margin:0 auto;
+  }
   .cart-item__details {
     text-align:center;
   }
