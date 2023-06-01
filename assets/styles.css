@@ -1553,7 +1553,7 @@ display: block;
   
   .description-cart  {
     font-size:10px;
-    padding-bottom:0px;
+    padding-bottom:0px !important;
     
   }
 }
