@@ -1536,6 +1536,9 @@ display: block;
   margin:0 auto !important;
 }
 /** product */
+  .accordion .rte img {
+    max-width: 150px;
+  }
   .container-comment {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
