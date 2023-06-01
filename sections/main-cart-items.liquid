@@ -468,7 +468,19 @@
                       </div>
                     {% endif %}
                   </td>
-                 <div class="huiles-mobile">
+               
+
+                  <td class="cart-item__details">
+                    {%- if settings.show_vendor -%}
+                      <p class="caption-with-letter-spacing">{{ item.product.vendor }}</p>
+                    {%- endif -%}
+<cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+                        <a href="{{ item.url_to_remove }}"  onclick="removeCartItem(event)"
+                class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
+                          {% render 'icon-remove' %}
+                        </a>
+                      </cart-remove-button>
+                  <div class="huiles-mobile">
 {% if item.properties != blank  %}
 <span class="description-cart">Huiles : </span>
 
@@ -485,17 +497,7 @@
   {% endif %}
 {% endfor %} 
   </div>
-
-                  <td class="cart-item__details">
-                    {%- if settings.show_vendor -%}
-                      <p class="caption-with-letter-spacing">{{ item.product.vendor }}</p>
-                    {%- endif -%}
-<cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
-                        <a href="{{ item.url_to_remove }}"  onclick="removeCartItem(event)"
-                class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
-                          {% render 'icon-remove' %}
-                        </a>
-                      </cart-remove-button>
+                
                     <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
                 <p class="description-cart">{{ item.product.metafields.custom.description_cart | escape }}</p>
 {% comment %}
