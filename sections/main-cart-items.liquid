@@ -265,6 +265,109 @@
                         </div>
                 
                       <div class="item-ingredientes">
+
+                      
+{% capture propertys %}                      
+{%- for property in item.properties -%}
+  {% if property contains '3' %}
+
+      {%- assign property_first_char = property.first | slice: 0 -%}
+      {% if forloop.last %}
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+             <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+                         <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+          {%- endif -%}
+        {% else %}
+        {%- if property.last != blank and property_first_char != '_' -%}
+        <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+            <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+          
+            <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+        {%- endif -%}
+      {% endif %}
+{% endif %}
+
+
+                        
+
+  
+{% if property contains '2' %}
+
+      {%- assign property_first_char = property.first | slice: 0 -%}
+      {% if forloop.last %}
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }}
+          </span>,
+                        
+           <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+                       
+          {%- endif -%}
+        {% else %}
+        {%- if property.last != blank and property_first_char != '_' -%}
+        <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+            <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+          
+        {%- endif -%}
+      {% endif %}
+{% endif %}
+
+  
+{% if property contains '1' %}
+
+      {%- assign property_first_char = property.first | slice: 0 -%}
+      {% if forloop.last %}
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+          {%- endif -%}
+        {% else %}
+        {%- if property.last != blank and property_first_char != '_' -%}
+        <span class="product-option">
+        {{ property.first   | capitalize }},
+           </span>
+      
+        {%- endif -%}
+      {% endif %}
+{% endif %}
+  
+{%- endfor -%}
+  {% endcapture %}
+                   
+                      
+       {% assign capture_string = propertys %}
+{% assign capture_array = capture_string | split: ',' %}
+
                       
                       {%- for property in item.properties -%}
                    {% if property contains '2' %}
@@ -501,107 +604,6 @@
 
 
 {% endif %}
-
-{% capture propertys %}                      
-{%- for property in item.properties -%}
-  {% if property contains '3' %}
-
-      {%- assign property_first_char = property.first | slice: 0 -%}
-      {% if forloop.last %}
-          {%- if property.last != blank and property_first_char != '_' -%}
-          <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-             <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-                         <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-          {%- endif -%}
-        {% else %}
-        {%- if property.last != blank and property_first_char != '_' -%}
-        <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-            <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-          
-            <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-        {%- endif -%}
-      {% endif %}
-{% endif %}
-
-
-                        
-
-  
-{% if property contains '2' %}
-
-      {%- assign property_first_char = property.first | slice: 0 -%}
-      {% if forloop.last %}
-          {%- if property.last != blank and property_first_char != '_' -%}
-          <span class="product-option">
-          {{ property.first   | capitalize }}
-          </span>,
-                        
-           <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-                       
-          {%- endif -%}
-        {% else %}
-        {%- if property.last != blank and property_first_char != '_' -%}
-        <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-            <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-          
-        {%- endif -%}
-      {% endif %}
-{% endif %}
-
-  
-{% if property contains '1' %}
-
-      {%- assign property_first_char = property.first | slice: 0 -%}
-      {% if forloop.last %}
-          {%- if property.last != blank and property_first_char != '_' -%}
-          <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-          {%- endif -%}
-        {% else %}
-        {%- if property.last != blank and property_first_char != '_' -%}
-        <span class="product-option">
-        {{ property.first   | capitalize }},
-           </span>
-      
-        {%- endif -%}
-      {% endif %}
-{% endif %}
-  
-{%- endfor -%}
-  {% endcapture %}
-                   
-                      
-       {% assign capture_string = propertys %}
-{% assign capture_array = capture_string | split: ',' %}
 
 
 
