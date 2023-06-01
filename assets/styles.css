@@ -1316,6 +1316,9 @@ ul.desktop-hide {
   }
 /* mobile */
 @media screen and (max-width: 649px) {
+  .collapsible-content__wrapper {
+    padding-bottom:0px;
+  }
   .section-template--19164477554983__main-padding {
     padding:0px !important;
   }
