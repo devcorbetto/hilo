@@ -1548,7 +1548,11 @@ display: block;
   cart-remove-button {
     position: absolute;
     right: 0px;
-    margin-top
+    margin-top:-20px;
+  
+  .description-cart  {
+    font-size:10px;
+    
   }
 }
 
