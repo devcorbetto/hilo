@@ -1577,10 +1577,10 @@ display: block;
     
   }
   .product-option {
-        font-size: 12px !important;
+        font-size: 10px !important;
   }
   .product-option2 span {
-        font-size:12px;
+        font-size:10px;
   }
   .product-option2 {
         display: grid;
