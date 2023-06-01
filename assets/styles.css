@@ -1535,6 +1535,12 @@ display: block;
     height: 30px;
     font-size: 12px;
   }
+
+  /* cart*/ 
+  .container-title h1 {
+    font-size:12px;
+    margin:0.5rem;
+  }
   
 }
 
