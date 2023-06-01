@@ -1316,7 +1316,10 @@ ul.desktop-hide {
   }
 /* mobile */
 @media screen and (max-width: 649px) {
-
+#shopify-section-template--17804308218151__0390fa47-3651-4227-ab29-9dfcfa382c60 .mb-10b {
+  margin-bottom:15px !important;
+  
+}
   .container-options > .option a:hover, .container-content a:hover {
     text-decoration:none;
   }
