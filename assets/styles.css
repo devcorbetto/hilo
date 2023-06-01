@@ -1556,6 +1556,9 @@ display: block;
     padding-bottom:0px !important;
     
   }
+  .product-option {
+        font-size: 12px !important;
+  }
   .product-option2 span {
         font-size:12px;
   }
