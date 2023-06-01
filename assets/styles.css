@@ -1559,8 +1559,8 @@ display: block;
   .onlydesktop {
     display:none;
   }
-    .onlymobile {
-    display:block;
+    .title-wrapper-with-link.onlymobile {
+    display:block !important;
   }
   .quantity {
     margin:0 auto;
