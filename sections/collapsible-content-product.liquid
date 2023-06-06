@@ -166,7 +166,7 @@ summary .icon-carret2 {
                 
                 {% elsif block.settings.row_content == '<p>CONSIGNES DE RECYCLAGE</p>'  %}
                    {% for value in product.metafields.custom.photos_recyclage.value  %}
-               <div style="display:grid; grid-template-columns:1fr 2fr; width:400px; margin-bottom:20px;">  {{  value.name }}  <img src="{{ value.url }}" style="
+               <div style="display:grid; grid-template-columns:1fr 2fr; width:400px; max-width:100%; margin-bottom:20px;">  {{  value.name }}  <img src="{{ value.url }}" style="
     border: 0px;">  </div>
                     
                    {% endfor %}
