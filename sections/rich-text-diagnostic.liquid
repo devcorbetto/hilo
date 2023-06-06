@@ -1,12 +1,596 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class=" {{ section.settings.customcss }} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+      <div class="rich-text__blocks {{ section.settings.content_alignment }}">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <h2 class="rich-text__heading rte {{ block.settings.heading_size }} {{ block.settings.customcss }}" {{ block.shopify_attributes }}>
+                {{ block.settings.heading | replace: 'p>', 'span>' }}
+              </h2>
+            {%- when 'caption' -%}
+              <p class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
+                {{ block.settings.caption | escape }}
+              </p>
+            {%- when 'text' -%}
+              <div class="rich-text__text rte {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
+                {{ block.settings.text }}
+              </div>
+               {%- when 'liquid' -%}
+              <div class=" {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
+                {{ block.settings.codeliquid }}
+              </div>
+              {%- when 'image' -%}
+              <div class="rich-text__image {{ block.settings.customcss}} ">
+                {% if block.settings.customcss contains "corner-left-top-purple" %}
+                  <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_gauche_violet.svg?v=1684750102" class="corner-left-top-purple eclat no-rotate top-wavestop2">
+                {% endif %}
+              <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">
+              </div>
+            {%- when 'button' -%}
+              <div class="rich-text__buttons {{ block.settings.customcss}} {% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+                {%- if block.settings.button_label != blank -%}
+                  <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+                {%- endif -%}
+                {%- if block.settings.button_label_2 != blank -%}
+                  <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
+                {%- endif -%}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+   {% if section.settings.customcss contains "waves5b" %}
+    <svg xmlns="http://www.w3.org/2000/svg"  height="auto" viewBox="0 0 1925.69 88.164"  class="waves5b waves5b-rich-text" 
+     style=    "position: absolute;
+    bottom: 0px;
+    width: 100%;
+          height: auto;
+    z-index:1;">
+  <g transform="translate(5120.845 -4803.674)">
+    <path id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+    <path id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+  </g>
+</svg>
+      <style>
+        .waves5b path , .waves5b strokes {
+         
+    fill: white;
+          
+        }
+        </style>
+
+  
+
+    {% endif %}
+   {% if section.settings.customcss contains "waves5d" %}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.69 88.164"  class="waves5b waves5b-rich-text" style=    "position: absolute;
+    bottom: 0px;
+    height:auto;
+          height: auto;
+    width: 100%;
+    z-index:1;">
+  <g transform="translate(5120.845 -4803.674)">
+    <path id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+    <path id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+  </g>
+</svg>
+      <style>
+        .waves5b path , .waves5b strokes {
+         
+    fill: white;
+          
+        }
+        </style>
+
+  
+
+    {% endif %}
+   {% if section.settings.customcss contains "waves5o" %}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.69 88.164"  class="waves5b waves5b-rich-text" 
+    style="position: absolute;
+    bottom: 26px;
+    width: 100%;
+        height: auto;
+    z-index:1;">
+  <g transform="translate(5120.845 -4803.674)">
+    <path id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+    <path id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+  </g>
+</svg>
+      <style>
+        .waves5b path , .waves5b strokes {
+         
+    fill: white;
+          
+        }
+        </style>
+
+  
+
+    {% endif %}
+   {% if section.settings.customcss contains "waves4b" %}
+      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="svg-waves" style="    height: auto;" >
+  <g transform="translate(5120.845 -4803.674)">
+    <path id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+    <path id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+  </g>
+</svg>
+      <style>
+   .waves2a {
+     position:relative;
+   }
+             .svg-waves,   .svg-waves path {
+                     fill: #FFF;}
+        .svg-waves {
+          fill: #FFF;
+     width:100%;
+          position:absolute;
+          top:-135px;
+          z-index:9;
+        }
+        </style>
+    {% endif %}
+    {% if section.settings.customcss contains "waves4a" %}
+  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 104.902"  style="position: absolute;
+    height: auto;
+    width: 100%; 
+      z-index:1;
+      transform: rotate(180deg);     bottom: -75px;"
+      class="waves4a-rich-text-account"
+       >
+  <g id="Groupe_475" data-name="Groupe 475" transform="translate(2 2)">
+    <path id="Tracé_950" data-name="Tracé 950" d="M0,32.583s381.557-73.312,953.739,0,967.951,0,967.951,0V84.164H0Z" transform="translate(0 16.738)" fill="#fbdae2"/>
+    <path id="Tracé_950_-_Contour" data-name="Tracé 950 - Contour" d="M452.17-2c164.158,0,333,10.968,501.823,32.6a3988.712,3988.712,0,0,0,505,32.567c65.37,0,130.352-1.711,193.143-5.086,50.234-2.7,99.184-6.464,145.493-11.189,41.2-4.2,72.64-8.4,91.759-11.189,20.715-3.017,31.829-5.066,31.938-5.086l2.364-.438V86.164H-2V30.931l1.623-.312c.106-.02,10.873-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212C165.076,9.569,212.949,5.8,262.2,3.094,323.77-.286,387.684-2,452.17-2ZM1458.993,67.166a3992.751,3992.751,0,0,1-505.508-32.6C784.826,12.957,616.159,2,452.17,2,387.756,2,323.916,3.712,262.424,7.088c-49.19,2.7-97,6.467-142.09,11.193-40.112,4.2-70.6,8.4-89.12,11.189C15.622,31.814,5.692,33.571,2,34.246V82.164H1919.69V34.971c-4.3.751-14.381,2.455-29.675,4.682-19.153,2.79-50.646,7-91.915,11.211-46.377,4.733-95.4,8.5-145.7,11.208C1589.521,65.452,1524.45,67.166,1458.993,67.166Z" transform="translate(0 16.738)" fill="#fbdae2"/>
+    <path id="Tracé_951" data-name="Tracé 951" d="M452.17-2c164.158,0,333,10.968,501.823,32.6a3988.712,3988.712,0,0,0,505,32.567c65.37,0,130.352-1.711,193.143-5.086,50.234-2.7,99.184-6.464,145.493-11.189,41.2-4.2,72.64-8.4,91.759-11.189,20.715-3.017,31.829-5.066,31.938-5.086l2.364-.438V86.164H-2V30.931l1.623-.312c.106-.02,10.873-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212C165.076,9.569,212.949,5.8,262.2,3.094,323.77-.286,387.684-2,452.17-2ZM1458.993,67.166a3992.751,3992.751,0,0,1-505.508-32.6C784.826,12.957,616.159,2,452.17,2,387.756,2,323.916,3.712,262.424,7.088c-49.19,2.7-97,6.467-142.09,11.193-40.112,4.2-70.6,8.4-89.12,11.189C15.622,31.814,5.692,33.571,2,34.246V82.164H1919.69V34.971c-4.3.751-14.381,2.455-29.675,4.682-19.153,2.79-50.646,7-91.915,11.211-46.377,4.733-95.4,8.5-145.7,11.208C1589.521,65.452,1524.45,67.166,1458.993,67.166Z" transform="translate(0 0)" fill="#fbdae2"/>
+  </g>
+</svg>
+
+    {% endif %}
+       {% if section.settings.customcss contains "waves5c" %}
+  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 104.902"  style="position: absolute;
+    height: auto;
+    width: 100%; 
+      z-index:1;
+          top: -75px;" 
+          class="waves5c-rich-text-account">
+  <g id="Groupe_475" data-name="Groupe 475" transform="translate(2 2)">
+    <path id="Tracé_950" data-name="Tracé 950" d="M0,32.583s381.557-73.312,953.739,0,967.951,0,967.951,0V84.164H0Z" transform="translate(0 16.738)" fill="#fbdae2"/>
+    <path id="Tracé_950_-_Contour" data-name="Tracé 950 - Contour" d="M452.17-2c164.158,0,333,10.968,501.823,32.6a3988.712,3988.712,0,0,0,505,32.567c65.37,0,130.352-1.711,193.143-5.086,50.234-2.7,99.184-6.464,145.493-11.189,41.2-4.2,72.64-8.4,91.759-11.189,20.715-3.017,31.829-5.066,31.938-5.086l2.364-.438V86.164H-2V30.931l1.623-.312c.106-.02,10.873-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212C165.076,9.569,212.949,5.8,262.2,3.094,323.77-.286,387.684-2,452.17-2ZM1458.993,67.166a3992.751,3992.751,0,0,1-505.508-32.6C784.826,12.957,616.159,2,452.17,2,387.756,2,323.916,3.712,262.424,7.088c-49.19,2.7-97,6.467-142.09,11.193-40.112,4.2-70.6,8.4-89.12,11.189C15.622,31.814,5.692,33.571,2,34.246V82.164H1919.69V34.971c-4.3.751-14.381,2.455-29.675,4.682-19.153,2.79-50.646,7-91.915,11.211-46.377,4.733-95.4,8.5-145.7,11.208C1589.521,65.452,1524.45,67.166,1458.993,67.166Z" transform="translate(0 16.738)" fill="#fbdae2"/>
+    <path id="Tracé_951" data-name="Tracé 951" d="M452.17-2c164.158,0,333,10.968,501.823,32.6a3988.712,3988.712,0,0,0,505,32.567c65.37,0,130.352-1.711,193.143-5.086,50.234-2.7,99.184-6.464,145.493-11.189,41.2-4.2,72.64-8.4,91.759-11.189,20.715-3.017,31.829-5.066,31.938-5.086l2.364-.438V86.164H-2V30.931l1.623-.312c.106-.02,10.873-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212C165.076,9.569,212.949,5.8,262.2,3.094,323.77-.286,387.684-2,452.17-2ZM1458.993,67.166a3992.751,3992.751,0,0,1-505.508-32.6C784.826,12.957,616.159,2,452.17,2,387.756,2,323.916,3.712,262.424,7.088c-49.19,2.7-97,6.467-142.09,11.193-40.112,4.2-70.6,8.4-89.12,11.189C15.622,31.814,5.692,33.571,2,34.246V82.164H1919.69V34.971c-4.3.751-14.381,2.455-29.675,4.682-19.153,2.79-50.646,7-91.915,11.211-46.377,4.733-95.4,8.5-145.7,11.208C1589.521,65.452,1524.45,67.166,1458.993,67.166Z" transform="translate(0 0)" fill="#fbdae2"/>
+  </g>
+</svg>
+<style>
+  .waves5c {
+    position:relative;
+    margin-top:80px;
+  }
+</style>
+    {% endif %}
+ {% if section.settings.customcss contains "waves2a" %}
+      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="svg-waves" >
+  <g transform="translate(5120.845 -4803.674)">
+    <path id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+    <path id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+  </g>
+</svg>
+      <style>
+   .waves2a {
+     position:relative;
+   }
+             .svg-waves,   .svg-waves path {
+                     fill: #FBDAE2;}
+        .svg-waves {
+          fill: ##FBDAE2;
+     width:100%;
+          position:absolute;
+          top:-60px;
+          z-index:2;
+        }
+        </style>
+  {% endif %}
+{% if section.settings.customcss contains "corner-left-top" %}
+<?xml version="1.0" encoding="UTF-8"?>
+      <svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.59 52.67">
+        <defs><style>.cls-1{fill:#f8c8d3;}</style></defs><g id="Calque_1-2"><path class="cls-1" d="m1.07,45.69c5.36-2.56,17.05-6.48,29.49-.07,1.35.69,1.37,2.62.04,3.33-5.01,2.64-16.27,6.79-29.56.12-1.4-.7-1.38-2.7.03-3.38Z"/><path class="cls-1" d="m20.13,12.23c5.36,2.56,15.75,9.19,18.58,22.9.31,1.48-1.17,2.72-2.57,2.12-5.21-2.23-15.51-8.39-18.67-22.92-.33-1.53,1.24-2.77,2.65-2.1Z"/><path class="cls-1" d="m52.23.87c-3.19,5.01-8.52,16.12-3.68,29.26.52,1.42,2.43,1.69,3.3.44,3.24-4.65,8.73-15.31,3.75-29.32-.53-1.48-2.51-1.7-3.36-.38Z"/></g></svg>
+{% endif %}
+
+</div>
+<style>
+.waves4a {
+  margin-bottom:80px;
+}
+  .image_rich-text {
+    width:350px;
+    margin:0 auto;
+  }
+
+  @media (max-width:980px) {
+    .waves2a {
+      z-index:2;
+    }
+    .waves2a  .svg-waves {
+   top: -50px !important;
+  }
+    .waves5d.bg_contact  .waves5b {
+    bottom: -40px!important;
+}
+  }
+</style>
+
+
+      
+{% schema %}
+{
+  "name": "rich text diagnostic",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+     {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.desktop_content_position.label",
+      "info": "t:sections.rich-text.settings.desktop_content_position.info"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+          {
+          "value": "colors_1",
+          "label": "colors_1"
+        },
+            {
+          "value": "colors_2",
+          "label": "colors_2"
+        },
+            {
+          "value": "colors_3",
+          "label": "colors_3"
+        },
+            {
+          "value": "colors_4",
+          "label": "colors_4"
+        },
+            {
+          "value": "colors_5",
+          "label": "colors_5"
+        },
+               {
+          "value": "colors_6",
+          "label": "colors_6"
+        },
+               {
+          "value": "colors_7",
+          "label": "colors_7"
+        },
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.rich-text.blocks.heading.name",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "<p>Talk about your brand</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+          {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "caption",
+      "name": "t:sections.rich-text.blocks.caption.name",
+      "limit": 3,
+      "settings": [
+         {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "Add a tagline",
+          "label": "t:sections.rich-text.blocks.caption.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "subtitle",
+              "label": "t:sections.rich-text.blocks.caption.settings.text_style.options__1.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.rich-text.blocks.caption.settings.text_style.options__2.label"
+            }
+          ],
+          "default": "caption-with-letter-spacing",
+          "label": "t:sections.rich-text.blocks.caption.settings.text_style.label"
+        },
+        {
+          "type": "select",
+          "id": "text_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "t:sections.rich-text.blocks.caption.settings.caption_size.options__1.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.rich-text.blocks.caption.settings.caption_size.options__2.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.rich-text.blocks.caption.settings.caption_size.options__3.label"
+            }
+          ],
+          "default": "medium",
+          "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label"
+        }
+      ]
+    },
+    {
+      "type": "liquid",
+      "name": "HTML or svg",
+      "settings": [
+            {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+         {
+          "type": "html",
+          "id": "codeliquid",
+            "label": "HTML"
+        }
+      ]
+      
+    },
+    {
+      "type": "text",
+      "name": "t:sections.rich-text.blocks.text.name",
+      "limit": 3,
+      "settings": [
+         {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+          "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.rich-text.blocks.buttons.name",
+      "limit": 2,
+      "settings": [
+         {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+       "settings": [
+          {
+          "type": "text",
+          "id": "customcss",
+            "label": "Custom Css"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_picker",
+          "label": "Image"
+        }
+       ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "rich text diagnostic",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
