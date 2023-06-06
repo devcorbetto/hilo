@@ -15,7 +15,8 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Si vous avez déjà un compte, connectez-vous <a href=\"https:\/\/hilo-cosmetiques.myshopify.com\/account\" title=\"https:\/\/hilo-cosmetiques.myshopify.com\/account\">ici<\/a><br\/><br\/><a href=\"\/pages\/diagnostic\" title=\"Diagnostic\"><strong>&lt; Quitter<\/strong><\/a><\/p>"
+            "text": "<p>Si vous avez déjà un compte, connectez-vous <a href=\"https:\/\/hilo-cosmetiques.myshopify.com\/account\" title=\"https:\/\/hilo-cosmetiques.myshopify.com\/account\">ici<\/a><br\/><br\/><a href=\"\/pages\/diagnostic\" title=\"Diagnostic\"><strong>&lt; Quitter<\/strong><\/a><\/p>",
+            "textlogin": "<p><\/p><p><\/p><p><\/p>"
           }
         },
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2": {
