@@ -2801,6 +2801,9 @@ line-height:14px;
   .collapsible-content-wrapper-narrow {
     padding-right:0px;
   }
+  quantity-input {
+    margin:0 auto;
+  }
 }
   @media (max-width:330px) {
     .accordion .rte img {
