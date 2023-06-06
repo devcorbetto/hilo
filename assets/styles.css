@@ -2807,7 +2807,13 @@ Titulos:    font-size:24px;     line-height: 28px;
 
 */
 /* media query 1050 max*/
-@media (max-width:1050px) and (min-width:600px) {
+@media (max-width:1050px) {
+ /* .header--middle-left {
+    grid-template-areas: "heading navigation icons";
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 2rem;
+} 
+*/
   .menu-drawer__account {
     min-width:100%;
   }
