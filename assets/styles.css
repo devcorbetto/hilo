@@ -2808,5 +2808,8 @@ Titulos:    font-size:24px;     line-height: 28px;
   .menu-drawer__account {
     min-width:100%;
   }
+  .menu-drawer__account svg {
+    max-width:50px;
+  }
 }
 
