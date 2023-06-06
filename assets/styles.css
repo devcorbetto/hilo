@@ -2804,7 +2804,7 @@ Titulos:    font-size:24px;     line-height: 28px;
 
 */
 /* media query 1050 min*/
-@media (min-width:1050px) {
+@media (max-width:1050px) {
   .menu-drawer__account {
     min-width:100%;
   }
