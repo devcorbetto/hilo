@@ -2806,6 +2806,9 @@ line-height:14px;
     .accordion .rte img {
       max-width: 100px;
     }
+    .accordion__content.rte > div {
+      max-width:100%;
+    }
   }
 
 /* mobile estandar */
