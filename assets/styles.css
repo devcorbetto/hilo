@@ -2802,6 +2802,11 @@ line-height:14px;
     padding-right:0px;
   }
 }
+  @media (max-width:330px) {
+    .accordion .rte img {
+      max-width: 100px;
+    }
+  }
 
 /* mobile estandar */
 /*
