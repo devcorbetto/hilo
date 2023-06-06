@@ -34,7 +34,7 @@
               </p>
             {%- when 'text' -%}
               <div class="rich-text__text rte {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
-                {{ block.settings.text }}
+              {% if customer %} {{ block.settings.textlogin }} {% else %} {{ block.settings.text }}  {% endif %}
               </div>
                {%- when 'liquid' -%}
               <div class=" {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
