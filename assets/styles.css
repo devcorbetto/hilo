@@ -59,7 +59,7 @@ section newsletter section-news
   width:100%;
 }
 
-.banner_media_wave.media > img {
+.banner_media_wave .media > img {
     object-position: left center;
 }
 
