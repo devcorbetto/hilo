@@ -46,6 +46,9 @@ section newsletter section-news
   color:#575756BF;
 }
 
+.banner_media_wave .banner__box {
+    padding: 0rem 3.5rem 4rem 3.5rem;
+
 .custom_wave{
   position: absolute;
   bottom: 0px;
