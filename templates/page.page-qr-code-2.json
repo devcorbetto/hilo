@@ -138,6 +138,7 @@
       ],
       "settings": {
         "customcss": "programme_text2 btn-circle corner-left-top-pink",
+        "eclat": "eclat-rose",
         "image": "shopify:\/\/shop_images\/coffret-Hilo-automassage-gua-sha.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -187,6 +188,7 @@
       ],
       "settings": {
         "customcss": "programme_text2 btn-circle corner-left-top-pink",
+        "eclat": "none",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
