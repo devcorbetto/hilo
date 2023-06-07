@@ -8,17 +8,17 @@
         "padding_bottom": 28
       }
     },
-    "3c13633d-71dd-4043-9c2f-d5c43d10d1e3": {
-      "type": "image-banner",
+    "7eb12068-930e-4864-b7ca-b52af999cf7e": {
+      "type": "image-banner-wave",
       "blocks": {
-        "template--19108853809447__3c13633d-71dd-4043-9c2f-d5c43d10d1e3-168613365800cc4cb3-0": {
+        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-0": {
           "type": "heading",
           "settings": {
             "heading": "HILO C'EST FANTASTIQUE",
             "heading_size": "h1"
           }
         },
-        "template--19108853809447__3c13633d-71dd-4043-9c2f-d5c43d10d1e3-168613365800cc4cb3-1": {
+        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-1": {
           "type": "text",
           "settings": {
             "text": "Vous trouverez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau ainsi qu'une dose de bonne humeur.",
@@ -27,15 +27,13 @@
         }
       },
       "block_order": [
-        "template--19108853809447__3c13633d-71dd-4043-9c2f-d5c43d10d1e3-168613365800cc4cb3-0",
-        "template--19108853809447__3c13633d-71dd-4043-9c2f-d5c43d10d1e3-168613365800cc4cb3-1"
+        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-0",
+        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-1"
       ],
       "settings": {
-        "textafter": "",
-        "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
-        "customcss": "",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -362,7 +360,7 @@
   },
   "order": [
     "main",
-    "3c13633d-71dd-4043-9c2f-d5c43d10d1e3",
+    "7eb12068-930e-4864-b7ca-b52af999cf7e",
     "9e7c4742-a65a-412a-95c1-ece1bccb218b",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "7cc80f0a-c186-4e9f-8779-ba33eca0a203",
