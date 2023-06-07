@@ -323,55 +323,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "cfe23a5e-20b8-4da9-93b2-a4f3eadd841f": {
-      "type": "image-banner",
-      "blocks": {
-        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-0",
-        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-1",
-        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-2"
-      ],
-      "settings": {
-        "textafter": "",
-        "customcss": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -385,7 +336,6 @@
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
     "1684764937cc95afcf",
     "850641d8-50ee-4ad8-a16a-c25d38057892",
-    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73",
-    "cfe23a5e-20b8-4da9-93b2-a4f3eadd841f"
+    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73"
   ]
 }
