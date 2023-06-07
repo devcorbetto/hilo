@@ -45,53 +45,6 @@
         "show_text_below": false
       }
     },
-    "9e7c4742-a65a-412a-95c1-ece1bccb218b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>HILO C'EST FANTASTIQUE<\/p>",
-            "customcss": "mb-10b",
-            "heading_size": "h1"
-          }
-        },
-        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Vous trouverez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau ainsi qu'une dose de bonne humeur. <\/p>"
-          }
-        },
-        "631b69d6-e9c7-4ea0-a11b-229af1309843": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-0",
-        "template--19108853809447__9e7c4742-a65a-412a-95c1-ece1bccb218b-16851122629ef13423-1",
-        "631b69d6-e9c7-4ea0-a11b-229af1309843"
-      ],
-      "settings": {
-        "customcss": "waves5b bg_contact",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 72
-      }
-    },
     "06985fef-f561-411b-9d86-7c633b95f399": {
       "type": "rich-text",
       "blocks": {
@@ -424,7 +377,6 @@
   "order": [
     "main",
     "e0371858-bac0-413e-8d79-d69217a3561d",
-    "9e7c4742-a65a-412a-95c1-ece1bccb218b",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "b2fdc77d-d384-456b-b06d-06b7b853cecc",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
