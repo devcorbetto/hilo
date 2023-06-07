@@ -8,37 +8,41 @@
         "padding_bottom": 28
       }
     },
-    "53851c50-8ecd-4bc1-9e9b-0b329981925b": {
-      "type": "rich-text",
+    "45c4102a-c455-45fc-8f7a-8adf8af9764b": {
+      "type": "image-banner-wave",
       "blocks": {
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0": {
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>LA CHARTE DES RECALÉS DE L'ILOT<\/p>",
-            "customcss": "mb-10b",
+            "heading": "LA CHARTE DES RECALÉS DE L'ILOT",
             "heading_size": "h1"
           }
         },
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1": {
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-1": {
           "type": "text",
           "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Comme toujours, notre mission est de vous proposer des <strong>formules avec un taux de naturalité le plus haut possible<\/strong> pour respecter votre peau et la planète. C'est pour cela que nous avons choisi de bannir de nombreux ingrédients de nos formules.<\/p>"
+            "text": "<p>Comme toujours, notre mission est de vous proposer des <strong>formules avec un taux de naturalité le plus haut possible<\/strong> pour respecter votre peau et la planète. C'est pour cela que nous avons choisi de bannir de nombreux ingrédients de nos formules.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1"
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-0",
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-1"
       ],
       "settings": {
-        "customcss": "waves5b bg_contact",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "colors_2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 120
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "white-vage",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "8a4ec562-72b1-465c-ad55-8f9b969d4ef3": {
@@ -179,7 +183,7 @@
   },
   "order": [
     "main",
-    "53851c50-8ecd-4bc1-9e9b-0b329981925b",
+    "45c4102a-c455-45fc-8f7a-8adf8af9764b",
     "8a4ec562-72b1-465c-ad55-8f9b969d4ef3",
     "14c0a971-70b2-442f-ac7b-f2be54d60278"
   ]
