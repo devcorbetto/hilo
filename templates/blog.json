@@ -13,7 +13,7 @@
         "template--17804308513063__c6e1a329-f5b3-4599-a04d-27719bf2c04f-168614097408677c14-1": {
           "type": "text",
           "settings": {
-            "text": "Retrouvez ici tous nos conseils, astuces beauté",
+            "text": "<p>Retrouvez ici tous nos conseils, astuces beauté<\/p>",
             "text_style": "body"
           }
         }
@@ -24,7 +24,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
-        "svg-wave": "white-vage",
+        "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
