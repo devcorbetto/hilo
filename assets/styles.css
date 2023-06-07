@@ -652,6 +652,10 @@ body{
 .banner_media_wave_heading{
 color:#575756;
 }
+
+.banner_media_wave_heading.account_heading{
+  text-transform:uppercase;
+}
 .rich-text__heading.h2 {
   font-size:20px;
   line-height:26px;
