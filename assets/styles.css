@@ -1018,7 +1018,7 @@ font-size:10px;
   margin-bottom:50px;
 }
 
-.text-black .banner__text  {
+.text-black .banner__text, .banner__text.subtitle  {
   color:#575756;
   font-size:22px;
  line-height:28px;
