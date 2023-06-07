@@ -635,7 +635,7 @@ body{
 }
 
 .banner_media_wave_heading{
-color:rgb(var(--color-foreground));
+color:var(--color-base-text);
 }
 .rich-text__heading.h2 {
   font-size:20px;
