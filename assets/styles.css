@@ -484,6 +484,12 @@ table:not([class]){
     top: -63px;
 }
 
+@media screen and (max-width: 749px) {
+  .eclat-right {
+      margin-left: 628px;
+  }
+}
+
 .corner-right-top-purple {
     position: absolute;
     width: 60px;
