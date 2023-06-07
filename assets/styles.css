@@ -64,14 +64,14 @@ section newsletter section-news
 }
 
 @media screen and (max-width: 749px){
-  .banner_media_wave .image-with-text{
+  .page-qr-code-2-template .image-with-text{
     padding-left:5rem;
     padding-right:5rem;
   }
 }
 
 @media screen and (min-width: 750px){
-.banner_media_wave .banner--small:not(.banner--adapt) {
+.banner_media_wave.banner--small {
     min-height: 26rem!important;
 }
 }
