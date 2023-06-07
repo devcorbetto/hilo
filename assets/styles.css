@@ -1831,7 +1831,7 @@ background-position: left top;
 .bg_contact  > div {
   background: transparent !important;
 }
-.bg_contact  .bg_subtitle p, .bg_contact  .bg_subtitle span {
+.bg_contact  .bg_subtitle p, .bg_subtitle span {
   font-size:14px;
   
 }
