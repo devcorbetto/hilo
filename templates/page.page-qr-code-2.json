@@ -8,42 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "7eb12068-930e-4864-b7ca-b52af999cf7e": {
-      "type": "image-banner-wave",
-      "blocks": {
-        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "HILO C'EST FANTASTIQUE",
-            "heading_size": "h1"
-          }
-        },
-        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Vous trouverez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau ainsi qu'une dose de bonne humeur.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-0",
-        "template--19108853809447__7eb12068-930e-4864-b7ca-b52af999cf7e-168613418143b777e4-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "9e7c4742-a65a-412a-95c1-ece1bccb218b": {
       "type": "rich-text",
       "blocks": {
@@ -338,7 +302,7 @@
         "template--19108853809447__850641d8-50ee-4ad8-a16a-c25d38057892-16860396665c6e8004-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques \">Je découvre Hilo<\/a><\/p>",
+            "heading": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques \">Je découvre le site<\/a><\/p>",
             "customcss": "",
             "heading_size": "h2"
           }
@@ -354,13 +318,39 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73": {
+      "type": "rich-text",
+      "blocks": {
+        "ec0b042b-2bee-42af-9d53-0da7afce14d4": {
+          "type": "image",
+          "settings": {
+            "customcss": "",
+            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-logo.svg"
+          }
+        }
+      },
+      "block_order": [
+        "ec0b042b-2bee-42af-9d53-0da7afce14d4"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
         "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "7eb12068-930e-4864-b7ca-b52af999cf7e",
     "9e7c4742-a65a-412a-95c1-ece1bccb218b",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "7cc80f0a-c186-4e9f-8779-ba33eca0a203",
@@ -370,6 +360,7 @@
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
     "1684764937cc95afcf",
-    "850641d8-50ee-4ad8-a16a-c25d38057892"
+    "850641d8-50ee-4ad8-a16a-c25d38057892",
+    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73"
   ]
 }
