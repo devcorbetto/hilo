@@ -61,7 +61,11 @@
     </div>
   {%- endif -%}
   <div class="custom_wave">
+    {% if section.settings.svg-wave == "vague-blanche" %}
      {{ 'vague_blanche.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-rose" %}
+      {{ 'vague_rose.svg' | asset_url | img_tag }}
+    {% endif %}
   </div>
   {%- if section.settings.image_2 != blank -%}
     <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
@@ -144,12 +148,16 @@
       "id": "svg-wave",
       "options": [
         {
-          "value": "white-vage",
-          "label": "Vague Blanche"
+          "value": "vague-blanche",
+          "label": "Vague blanche"
+        },
+        {
+          "value": "vague-rose",
+          "label": "Vague rose"
         }
       ],
-      "default": "white-vage",
-      "label": "Vague Blanche"
+      "default": "vague-blanche",
+      "label": "Vague"
     },
     {
       "type": "range",
