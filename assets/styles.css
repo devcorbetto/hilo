@@ -631,7 +631,11 @@ body{
   text-align: center;
   line-height: 36px;
   font-weight: 700;
-      width: 100%;
+  width: 100%;
+}
+
+.banner_media_wave_heading{
+color:rgba(var(--color-foreground), 0.75)
 }
 .rich-text__heading.h2 {
   font-size:20px;
