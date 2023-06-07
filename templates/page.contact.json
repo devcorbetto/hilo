@@ -8,17 +8,17 @@
         "padding_bottom": 36
       }
     },
-    "706ab4b7-4c4f-4041-b556-74bd3872a4f4": {
+    "e55aa6f0-5dce-4bb5-bdad-f2d6d558eeb0": {
       "type": "image-banner-wave",
       "blocks": {
-        "template--17804309463335__706ab4b7-4c4f-4041-b556-74bd3872a4f4-168614051019665eab-0": {
+        "template--17804309463335__e55aa6f0-5dce-4bb5-bdad-f2d6d558eeb0-1686144866da141983-0": {
           "type": "heading",
           "settings": {
             "heading": "CONTACT",
             "heading_size": "h1"
           }
         },
-        "template--17804309463335__706ab4b7-4c4f-4041-b556-74bd3872a4f4-168614051019665eab-1": {
+        "template--17804309463335__e55aa6f0-5dce-4bb5-bdad-f2d6d558eeb0-1686144866da141983-1": {
           "type": "text",
           "settings": {
             "text": "<p>Vous avez une question, un avis à nous partager ? L’envie de nous envoyer une dose d'amour ?<\/p>",
@@ -27,12 +27,12 @@
         }
       },
       "block_order": [
-        "template--17804309463335__706ab4b7-4c4f-4041-b556-74bd3872a4f4-168614051019665eab-0",
-        "template--17804309463335__706ab4b7-4c4f-4041-b556-74bd3872a4f4-168614051019665eab-1"
+        "template--17804309463335__e55aa6f0-5dce-4bb5-bdad-f2d6d558eeb0-1686144866da141983-0",
+        "template--17804309463335__e55aa6f0-5dce-4bb5-bdad-f2d6d558eeb0-1686144866da141983-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
-        "svg-wave": "white-vage",
+        "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -98,7 +98,7 @@
   },
   "order": [
     "main",
-    "706ab4b7-4c4f-4041-b556-74bd3872a4f4",
+    "e55aa6f0-5dce-4bb5-bdad-f2d6d558eeb0",
     "8f4ee6d8-3bca-4323-af47-292cba7a998a",
     "form"
   ]
