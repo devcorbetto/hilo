@@ -8,6 +8,42 @@
         "padding_bottom": 28
       }
     },
+    "c5701f00-42e5-4d77-90c8-018a12b5820b": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--17804308742439__c5701f00-42e5-4d77-90c8-018a12b5820b-168614097408677c14-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ",
+            "heading_size": "h1"
+          }
+        },
+        "template--17804308742439__c5701f00-42e5-4d77-90c8-018a12b5820b-168614097408677c14-1": {
+          "type": "text",
+          "settings": {
+            "text": "Retrouvez ici les réponses à vos questions les plus fréquentes. Pour toute autre interrogation, contactez-nous ici.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17804308742439__c5701f00-42e5-4d77-90c8-018a12b5820b-168614097408677c14-0",
+        "template--17804308742439__c5701f00-42e5-4d77-90c8-018a12b5820b-168614097408677c14-1"
+      ],
+      "settings": {
+        "svg-wave": "white-vage",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "53851c50-8ecd-4bc1-9e9b-0b329981925b": {
       "type": "rich-text",
       "blocks": {
@@ -307,6 +343,7 @@
   },
   "order": [
     "main",
+    "c5701f00-42e5-4d77-90c8-018a12b5820b",
     "53851c50-8ecd-4bc1-9e9b-0b329981925b",
     "14c0a971-70b2-442f-ac7b-f2be54d60278",
     "975b805c-7fb1-4c16-a406-4f8bb87bd369",
