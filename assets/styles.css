@@ -42,6 +42,10 @@ section newsletter section-news
 */
 /*ol  */
 
+.bg_subtitle span{
+  color:#575756BF;
+}
+
 .custom_wave{
   position: absolute;
   bottom: 0px;
