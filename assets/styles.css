@@ -1474,7 +1474,7 @@ display: block;
      line-height: 26px  !important;
   }
   .product__title h1,
-  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title, .banner_media_wave h2
+  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title, .banner_media_wave .h1
   {
      font-size:22px;
      line-height: 26px;
@@ -2689,7 +2689,7 @@ line-height:14px;
   .menu-drawer .list-social__link {
     padding: 1.3rem 0.25rem;
 }
- .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title, .banner_media_wave h2 {
+ .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title, .banner_media_wave .h1 {
    font-size:22px;
  }
 .collection li {
