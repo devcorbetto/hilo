@@ -44,7 +44,7 @@ section newsletter section-news
 
 @media screen and (min-width: 750px){
 .banner--small:not(.banner--adapt) {
-    min-height: 26rem;
+    min-height: 26rem!important;
 }
 }
 ol li {
