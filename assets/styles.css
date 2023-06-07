@@ -43,7 +43,7 @@ section newsletter section-news
 /*ol  */
 
 @media screen and (min-width: 750px){
-.banner--small:not(.banner--adapt) {
+.page-qr-code-2-template .banner--small:not(.banner--adapt) {
     min-height: 26rem!important;
 }
 }
