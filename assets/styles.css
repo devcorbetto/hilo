@@ -48,6 +48,10 @@ section newsletter section-news
   width: 100%;
 }
 
+.custom-wave img{
+  width:100%;
+}
+
 @media screen and (min-width: 750px){
 .page-qr-code-2-template .banner--small:not(.banner--adapt) {
     min-height: 26rem!important;
