@@ -99,7 +99,7 @@
           "type": "text",
           "settings": {
             "customcss": "text-align : left",
-            "text": "<ol><li>Je <strong>craque délicatement<\/strong> mes capsules d'actifs en tournant la partie haute de la capsule (ou je la coupe avec des ciseaux préalablement nettoyés et séchés),<\/li><li>Je <strong>verse l'intégralité<\/strong> de leur contenu dans ma base de crème (bien appuyer sur la partie bombée de la capsule afin que toute l'huile se verse dans la base de soin),<\/li><li>Je <strong>mélange le tout<\/strong> avec ma Gua Sha Hilo (ou avec un autre instrument nettoyé et séché),<\/li><li>J'<strong>applique quotidiennement<\/strong> et je pratique l'automassage du visage pour faire plaisir à ma peau. <br\/><\/li><\/ol>"
+            "text": "<ol><li>Je <strong>craque délicatement<\/strong> mes capsules d'actifs en twistant le capuchon entre 2 doigts jusqu'à ce qu'il se détache (ou je le coupe avec des ciseaux préalablement nettoyés et séchés),<\/li><li>Je <strong>verse l'intégralité<\/strong> de leur contenu dans ma base de crème (bien appuyer sur la partie bombée de la capsule afin que toute l'huile se verse dans la base de soin),<\/li><li>Je <strong>mélange le tout<\/strong> avec ma Gua Sha Hilo (ou avec un autre instrument nettoyé et séché),<\/li><li>J'<strong>applique quotidiennement<\/strong> et je pratique l'automassage du visage pour faire plaisir à ma peau. <br\/><\/li><\/ol>"
           }
         }
       },
@@ -129,7 +129,7 @@
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>L’automassage du visage est une technique de massage douce que l’on pratique soi-même pour détendre son visage et qui présente de nombreux bienfaits pour la peau.<br\/><br\/>Découvrez tout sur l'automassage et comment le pratiquer en téléchargeant notre guide.  ✨<\/p>",
+            "text": "<p>L’automassage du visage est une technique de massage douce que l’on pratique soi-même pour détendre son visage et qui présente de nombreux bienfaits pour la peau.<br\/><br\/>Découvrez l'automassage et comment le pratiquer en téléchargeant notre guide.  ✨<\/p>",
             "text_style": "body"
           }
         },
@@ -180,7 +180,7 @@
         "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Retrouvez la liste complète des ingrédients de votre crème parfaite du moment une fois assemblée (base + actifs). <br\/><br\/>Téléchargez le document ci-dessous et cherchez votre combinaison d'actifs pour retrouvez sa liste INCI. <br\/><\/p>",
+            "text": "<p>Retrouvez la liste complète des ingrédients de votre crème parfaite du moment une fois assemblée (base + actifs). <br\/><br\/>Téléchargez le document ci-dessous et cherchez votre combinaison d'actifs pour retrouver sa liste INCI. <br\/><\/p>",
             "text_style": "body"
           }
         },
@@ -297,7 +297,7 @@
         "template--19108853809447__850641d8-50ee-4ad8-a16a-c25d38057892-16860396665c6e8004-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques \">Je découvre le site<\/a><\/p>",
+            "heading": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques \">Je visite le site<\/a><\/p>",
             "customcss": "",
             "heading_size": "h2"
           }
