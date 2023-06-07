@@ -458,7 +458,7 @@ table:not([class]){
   margin-top:auto!important;
 }
 
-.eclat {
+.corner-left-top-pink .eclat, .eclat-left {
     position: absolute;
     width: 60px;
   height: 103px;
@@ -474,7 +474,7 @@ table:not([class]){
     top: 49px;
 }
 
-.eclat {
+.corner-right-top-pink .eclat, .eclat-right {
     position: absolute;
     width: 60px;
     height: 103px;
