@@ -1,36 +1,40 @@
 {
   "sections": {
-    "917f3ded-f945-435d-b30a-ec8cd2835298": {
-      "type": "rich-text",
+    "c6e1a329-f5b3-4599-a04d-27719bf2c04f": {
+      "type": "image-banner-wave",
       "blocks": {
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-0": {
+        "template--17804308513063__c6e1a329-f5b3-4599-a04d-27719bf2c04f-168614097408677c14-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>LE BLOG D'HILO<\/p>",
-            "customcss": "mb-10b",
+            "heading": "LE BLOG D'HILO",
             "heading_size": "h1"
           }
         },
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-1": {
+        "template--17804308513063__c6e1a329-f5b3-4599-a04d-27719bf2c04f-168614097408677c14-1": {
           "type": "text",
           "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Retrouvez ici tous nos conseils, astuces beauté<\/p>"
+            "text": "Retrouvez ici tous nos conseils, astuces beauté",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-0",
-        "template--17746292375847__917f3ded-f945-435d-b30a-ec8cd2835298-1675644880a725a637-1"
+        "template--17804308513063__c6e1a329-f5b3-4599-a04d-27719bf2c04f-168614097408677c14-0",
+        "template--17804308513063__c6e1a329-f5b3-4599-a04d-27719bf2c04f-168614097408677c14-1"
       ],
       "settings": {
-        "customcss": "bg_contact waves5d",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 120
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "white-vage",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "main": {
@@ -50,7 +54,7 @@
     }
   },
   "order": [
-    "917f3ded-f945-435d-b30a-ec8cd2835298",
+    "c6e1a329-f5b3-4599-a04d-27719bf2c04f",
     "main"
   ]
 }
