@@ -248,6 +248,10 @@ table:not([class]){
     background-color: #575756!important;
 }
 
+.button{
+  text-align:center;
+}
+
 .ingrediente-column .container-images{
   width:100px;
 }
