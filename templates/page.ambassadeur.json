@@ -47,6 +47,43 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "4fb9993f-8304-405e-abce-b700908bc23e": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--18276397875495__4fb9993f-8304-405e-abce-b700908bc23e-16861414272d1a36aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DEVENEZ AMBASSADEUR HILO",
+            "heading_size": "h1"
+          }
+        },
+        "template--18276397875495__4fb9993f-8304-405e-abce-b700908bc23e-16861414272d1a36aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ensemble, co-créons les cosmétiques naturels de demain !<\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276397875495__4fb9993f-8304-405e-abce-b700908bc23e-16861414272d1a36aa-0",
+        "template--18276397875495__4fb9993f-8304-405e-abce-b700908bc23e-16861414272d1a36aa-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ambassadeur-cosmetiques-naturels-Hilo.jpg",
+        "svg-wave": "white-vage",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "06985fef-f561-411b-9d86-7c633b95f399": {
       "type": "rich-text",
       "blocks": {
@@ -361,6 +398,7 @@
   "order": [
     "main",
     "0236d6ea-5ed1-4a13-a5e4-ef298af307e0",
+    "4fb9993f-8304-405e-abce-b700908bc23e",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
