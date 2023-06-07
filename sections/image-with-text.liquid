@@ -17,8 +17,11 @@
 <div class="{{ section.settings.customcss }}  image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+          
           {% if section.settings.customcss contains "corner-left-top-pink" %}
+          {% if section.settings.eclat == "eclat-pink" %}
             <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_gauche_rose.svg?v=1684750102" class="corner-left-top-pink eclat no-rotate top-wavestop2">
+          {% endif %}
           {% endif %}
           {% if section.settings.customcss contains "corner-right-top-pink" %}
             <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_rose.svg?v=1684750102" class="eclat no-rotate">
