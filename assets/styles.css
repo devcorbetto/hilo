@@ -42,6 +42,12 @@ section newsletter section-news
 */
 /*ol  */
 
+.custom-wave{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
 @media screen and (min-width: 750px){
 .page-qr-code-2-template .banner--small:not(.banner--adapt) {
     min-height: 26rem!important;
