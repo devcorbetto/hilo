@@ -93,7 +93,7 @@
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
-          {%- when 'heading' -%}tem{{ template.suffix }}
+          {%- when 'heading' -%}tem{{ request.path }}
             {% if page.url contains "account" %}
               BIENVENUE  {{ customer.first_name }} !
             {% else %}
