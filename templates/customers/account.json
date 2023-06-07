@@ -1,7 +1,37 @@
 {
   "sections": {
+    "0d4f3700-689f-4c48-858d-93d860596516": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--17804309004583__0d4f3700-689f-4c48-858d-93d860596516-16861414272d1a36aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIENVENUE ANA !",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17804309004583__0d4f3700-689f-4c48-858d-93d860596516-16861414272d1a36aa-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "white-vage",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "8ed86ba8-4294-4db1-b333-63780ee0d7b7": {
       "type": "rich-text-account",
+      "disabled": true,
       "blocks": {
         "template--17804309004583__8ed86ba8-4294-4db1-b333-63780ee0d7b7-16806584010e05065b-0": {
           "type": "heading",
@@ -34,6 +64,7 @@
     }
   },
   "order": [
+    "0d4f3700-689f-4c48-858d-93d860596516",
     "8ed86ba8-4294-4db1-b333-63780ee0d7b7",
     "main"
   ]
