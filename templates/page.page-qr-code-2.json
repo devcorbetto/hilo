@@ -137,7 +137,7 @@
         "img {border-radius: 30px;}"
       ],
       "settings": {
-        "customcss": "programme_text2 btn-circle corner-right-top-pink",
+        "customcss": "programme_text2 btn-circle corner-left-top-pink",
         "eclat": "eclat-rose",
         "image": "shopify:\/\/shop_images\/coffret-Hilo-automassage-gua-sha.jpg",
         "height": "adapt",
