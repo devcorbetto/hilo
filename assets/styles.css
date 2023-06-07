@@ -642,10 +642,16 @@ body{
 .multicolumn .title,
 .collection__title .title,
 .rich-text__heading,
-.rich-text-title,
-.banner_media_wave_heading{
+.rich-text-title{
   font-size: 32px;
   text-align: center;
+  line-height: 36px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.banner_media_wave_heading{
+  font-size: 32px;
   line-height: 36px;
   font-weight: 700;
   width: 100%;
