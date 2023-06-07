@@ -331,7 +331,7 @@
         "ec0b042b-2bee-42af-9d53-0da7afce14d4"
       ],
       "custom_css": [
-
+        "img {width : 200px;"
       ],
       "settings": {
         "customcss": "",
