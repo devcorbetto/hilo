@@ -263,7 +263,7 @@ table:not([class]){
   border:none!important;
 }
 
-.rich-text__text.rte.bg_subtitle a{
+.rich-text__text.rte.bg_subtitle a, .bg_subtitle a{
   color:#575756BF;
   text-decoration:underline;
 }
@@ -1831,11 +1831,11 @@ background-position: left top;
 .bg_contact  > div {
   background: transparent !important;
 }
-.bg_contact  .bg_subtitle p {
+.bg_contact  .bg_subtitle p, .bg_contact  .bg_subtitle span {
   font-size:14px;
   
 }
- .bg_subtitle p {
+ .bg_subtitle p, .bg_subtitle span {
   font-size:14px;
   
 }
