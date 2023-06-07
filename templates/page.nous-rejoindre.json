@@ -8,37 +8,41 @@
         "padding_bottom": 28
       }
     },
-    "53851c50-8ecd-4bc1-9e9b-0b329981925b": {
-      "type": "rich-text",
+    "c2d0a482-5ed8-4db9-8669-64adbfcf9183": {
+      "type": "image-banner-wave",
       "blocks": {
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0": {
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>HILO RECRUTE<\/p>",
-            "customcss": "mb-10b",
+            "heading": "HILO RECRUTE",
             "heading_size": "h1"
           }
         },
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1": {
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-1": {
           "type": "text",
           "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Retrouvez ici toutes nos offres d'emploi.<\/p>"
+            "text": "<p>Retrouvez ici toutes nos offres d'emploi.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-0",
-        "template--17779895730471__53851c50-8ecd-4bc1-9e9b-0b329981925b-1675644880a725a637-1"
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-0",
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-1"
       ],
       "settings": {
-        "customcss": "waves5d bg_contact",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "colors_2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 120
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "white-vage",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "e7256211-cbc3-4270-a670-df8dc8bd7910": {
@@ -76,7 +80,7 @@
   },
   "order": [
     "main",
-    "53851c50-8ecd-4bc1-9e9b-0b329981925b",
+    "c2d0a482-5ed8-4db9-8669-64adbfcf9183",
     "e7256211-cbc3-4270-a670-df8dc8bd7910"
   ]
 }
