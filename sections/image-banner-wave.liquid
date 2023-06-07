@@ -61,7 +61,6 @@
     </div>
   {%- endif -%}
   <div class="custom_wave">
-    {{ section.settings.svg-wave }}
     {% if section.settings.svg-wave == "vague-blanche" %}
      {{ 'vague_blanche.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-wave == "vague-rose" %}
@@ -157,7 +156,6 @@
           "label": "Vague rose"
         }
       ],
-      "default": "vague-blanche",
       "label": "Vague"
     },
     {
