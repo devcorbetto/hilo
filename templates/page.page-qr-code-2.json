@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Découvrez dans cette page des petites infos pratiques pour assembler votre soin Hilo, <\/p><p>prendre soin de votre peau… et surtout être de bonne humeur. <\/p>"
+            "text": "<p>Vous trouverez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau ainsi qu'une dose de bonne humeur. <\/p>"
           }
         },
         "631b69d6-e9c7-4ea0-a11b-229af1309843": {
@@ -102,16 +102,28 @@
         "padding_bottom": 36
       }
     },
-    "1edd166c-9532-49eb-b7b3-cda674a02113": {
+    "b2fdc77d-d384-456b-b06d-06b7b853cecc": {
       "type": "rich-text",
+      "blocks": {
+        "template--19108853809447__b2fdc77d-d384-456b-b06d-06b7b853cecc-168613304736a37173-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "text-align : left",
+            "text": "<ol><li>Je <strong>craque délicatement<\/strong> mes capsules d'actifs en tournant la partie haute de la capsule (ou je la coupe avec des ciseaux préalablement nettoyés et séchés),<\/li><li>Je <strong>verse l'intégralité<\/strong> de leur contenu dans ma base de crème (bien appuyer sur la partie bombée de la capsule afin que toute l'huile se verse dans la base de soin),<\/li><li>Je <strong>mélange le tout<\/strong> avec ma Gua Sha Hilo (ou avec un autre instrument nettoyé et séché),<\/li><li>J'<strong>applique quotidiennement<\/strong> et je pratique l'automassage du visage pour faire plaisir à ma peau. <br\/><\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19108853809447__b2fdc77d-d384-456b-b06d-06b7b853cecc-168613304736a37173-1"
+      ],
       "settings": {
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 48,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "00c32b12-4372-4263-9b83-5f1f40366b12": {
@@ -135,7 +147,7 @@
           "type": "button",
           "settings": {
             "button_label": "Je télécharge le guide",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Hilo-cosmetiques-personnalises-creme-visage-banniere.jpg?v=1685090036",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Guide_automassage_Hilo_cosmetiques.pdf?v=1686133591",
             "no_target": true
           }
         }
@@ -315,7 +327,7 @@
     "9e7c4742-a65a-412a-95c1-ece1bccb218b",
     "06985fef-f561-411b-9d86-7c633b95f399",
     "7cc80f0a-c186-4e9f-8779-ba33eca0a203",
-    "1edd166c-9532-49eb-b7b3-cda674a02113",
+    "b2fdc77d-d384-456b-b06d-06b7b853cecc",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
     "2f35775f-b21d-443b-8572-b57ce4841a2c",
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
