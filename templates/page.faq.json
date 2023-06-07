@@ -21,7 +21,7 @@
         "template--17804308742439__c5701f00-42e5-4d77-90c8-018a12b5820b-168614097408677c14-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>Retrouvez ici les réponses à vos questions les plus fréquentes. <\/p><p>Pour toute autre interrogation, <a href=\"\/pages\/contact\" title=\"Contact\">contactez-nous ici<\/a>.<\/p>",
             "text_style": "body"
           }
         }
@@ -31,6 +31,7 @@
         "template--17804308742439__c5701f00-42e5-4d77-90c8-018a12b5820b-168614097408677c14-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
         "svg-wave": "white-vage",
         "image_overlay_opacity": 0,
         "image_height": "small",
