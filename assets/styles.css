@@ -65,7 +65,8 @@ section newsletter section-news
 
 @media screen and (max-width: 749px){
   .page-qr-code-2-template .image-with-text{
-    padding: 0 6.5rem;
+    padding-left:6.5rem;
+    padding-right:6.5rem;
   }
 }
 
