@@ -8,6 +8,42 @@
         "padding_bottom": 28
       }
     },
+    "e0371858-bac0-413e-8d79-d69217a3561d": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-0",
+        "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "9e7c4742-a65a-412a-95c1-ece1bccb218b": {
       "type": "rich-text",
       "blocks": {
@@ -86,20 +122,6 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
-      }
-    },
-    "7cc80f0a-c186-4e9f-8779-ba33eca0a203": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-creme-visage-banniere.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=DNjy7iIXoOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "b2fdc77d-d384-456b-b06d-06b7b853cecc": {
@@ -347,13 +369,62 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "cfe23a5e-20b8-4da9-93b2-a4f3eadd841f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-0",
+        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-1",
+        "template--19108853809447__cfe23a5e-20b8-4da9-93b2-a4f3eadd841f-16861343599b210188-2"
+      ],
+      "settings": {
+        "textafter": "",
+        "customcss": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
+    "e0371858-bac0-413e-8d79-d69217a3561d",
     "9e7c4742-a65a-412a-95c1-ece1bccb218b",
     "06985fef-f561-411b-9d86-7c633b95f399",
-    "7cc80f0a-c186-4e9f-8779-ba33eca0a203",
     "b2fdc77d-d384-456b-b06d-06b7b853cecc",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
     "2f35775f-b21d-443b-8572-b57ce4841a2c",
@@ -361,6 +432,7 @@
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
     "1684764937cc95afcf",
     "850641d8-50ee-4ad8-a16a-c25d38057892",
-    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73"
+    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73",
+    "cfe23a5e-20b8-4da9-93b2-a4f3eadd841f"
   ]
 }
