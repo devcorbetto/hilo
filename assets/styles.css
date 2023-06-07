@@ -440,8 +440,14 @@ table:not([class]){
   --border-offset: none;
 }
 
-.-template #insta-feed{
+#insta-feed{
   margin-bottom:150px!important;
+}
+
+@media screen and (max-width: 649px){
+  #insta-feed {
+      margin-bottom: 50px !important;
+  } 
 }
 
 .addresses form button[type], .addresses li>button:first-of-type, .addresses li>button+button{
