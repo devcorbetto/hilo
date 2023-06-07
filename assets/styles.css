@@ -625,7 +625,8 @@ body{
 .multicolumn .title,
 .collection__title .title,
 .rich-text__heading,
-.rich-text-title {
+.rich-text-title,
+.banner_media_wave_heading{
   font-size: 32px;
   text-align: center;
   line-height: 36px;
