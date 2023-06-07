@@ -42,13 +42,13 @@ section newsletter section-news
 */
 /*ol  */
 
-.custom-wave{
+.custom_wave{
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
 
-.custom-wave img{
+.custom_wave img{
   width:100%;
 }
 
