@@ -42,7 +42,7 @@ section newsletter section-news
 */
 /*ol  */
 
-.bg_subtitle span{
+.bg_subtitle span, .bg_subtitle p{
   color:#575756BF;
 }
 
