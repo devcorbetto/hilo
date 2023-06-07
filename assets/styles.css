@@ -1521,7 +1521,7 @@ display: block;
      line-height: 26px  !important;
   }
   .product__title h1,
-  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title, .banner_media_wave_heading
+  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title, .banner_media_wave_heading, .programme_text2 h2.h1
   {
      font-size:22px;
      line-height: 26px;
