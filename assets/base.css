@@ -3067,10 +3067,13 @@ padding-left: 2rem !important;
     text-align: center;
     font-size: 18px;
 }
+.p-btn-login-quiz {
+  margin:15px auto;
+}
 .btn-login-quiz {
 background: #D0C4E2;
 color: #FFF;
-margin:15px auto;
+
   letter-spacing: 0!important;
     padding: 0px 4rem;
 
