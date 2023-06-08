@@ -84,6 +84,8 @@
 
 <div class="page-width"
    x-data="{ 
+    onlycustomer:false,
+   onlycustomer2:true,
   show1: false,
     show2: false,
   show3: false,
@@ -196,10 +198,15 @@
    
    <div class="form-quiz mt-10">
       {% for step in steps %}
+        
       <div  x-cloak  x-ref="step{{ forloop.index }}" id="step{{ forloop.index }}"
         class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius"
          x-show="step === {{ forloop.index }}" class="invisible"
-      
+        {% unless customer  %}
+        {% if forloop.index == 1  %}
+          x-show="onlycustomer"
+        {% endif %}
+        {% endunless %}
         
         >
          {% if forloop.index != 1  %}
