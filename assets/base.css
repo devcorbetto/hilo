@@ -3025,11 +3025,13 @@ details-disclosure > details {
      border:none !important;
   padding-left:0px !important;
 }
-.modal-container .customer .field input:not(:placeholder-shown) ~ label {
+.modal-container .customer .field input:not(:placeholder-shown) ~ label,
+{
    top: 2px !important;
 }
 
-.modal-container .field input:-webkit-autofill ~ label {
+.modal-container .field input:-webkit-autofill ~ label,
+.modal-container .customer .field input:not(:placeholder-shown) ~ label{
   border:none !important;
   padding-left:0px !important;
       top: 2px !important;
