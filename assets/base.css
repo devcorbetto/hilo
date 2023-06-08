@@ -3020,6 +3020,7 @@ details-disclosure > details {
 .modal-container label {
   border:none !important;
   padding-left:0px !important;
+      top: 8px;
 }
 .modal-container .field input:-webkit-autofill {
 padding-left: 2rem !important;
@@ -3027,6 +3028,7 @@ padding-left: 2rem !important;
 .modal-container .field input:-webkit-autofill ~ label {
   top:2px;
 }
+
 .modal-container {
     max-width: 60.8rem;
   text-align:center;
