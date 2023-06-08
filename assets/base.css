@@ -3194,6 +3194,10 @@ top: -30px;
     position: absolute;
 }
 @media screen and (max-width: 649px) {
+.ambassadeur-template  .svg-lamarque svg {
+  transform: scale(1.1);
+    
+  }
   .waves5b-rich-text {
 
   }
