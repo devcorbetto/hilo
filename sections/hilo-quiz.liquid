@@ -333,12 +333,15 @@
         
       <div  x-cloak  x-ref="step{{ forloop.index }}" id="step{{ forloop.index }}"
         class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius"
-         x-show="step === {{ forloop.index }}" class="invisible"
-        {% unless customer  %}
+        class="invisible"
+        
         {% if forloop.index == 1  %}
-          x-show="onlycustomer"
+          {% unless customer  %}
+          x-show="onlycustomer"        {% endunless %}
+  {% else %}
+            x-show="step === {{ forloop.index }}"
         {% endif %}
-        {% endunless %}
+ 
         
         >
          {% if forloop.index != 1  %}
