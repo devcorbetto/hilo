@@ -3031,6 +3031,8 @@ details-disclosure > details {
 .btn-login-quiz {
 background : #D0C4E2;
 color : #FFF;
+  letter-spacing: 0!important;
+    padding: 0px 4rem;
 
 }
 
