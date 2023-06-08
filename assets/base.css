@@ -3018,6 +3018,7 @@ details-disclosure > details {
 /* Quiz */
 .form-quiz .modal-container .field input  {
   padding-left:2rem !important;
+  font-size: 1.4rem;
 }
 .modal-container  label {
   top:8px !important;
@@ -3041,6 +3042,7 @@ padding-left: 2rem !important;
 .form-quiz .modal-container .field input:not(:placeholder-shown) {
    padding-left:2rem !important;
       padding-top: 2.5rem !important;
+  font-size: 1.4rem;
 }
 
 
