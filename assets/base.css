@@ -3017,7 +3017,7 @@ details-disclosure > details {
 
 /* Quiz */
 .modal-container {
-      width: 600px;
+    max-width: 47.8rem;
   text-align:center;
     margin: 0 auto;
   margin-top:60px;
