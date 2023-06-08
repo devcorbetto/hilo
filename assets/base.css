@@ -3024,6 +3024,9 @@ details-disclosure > details {
      border:none !important;
   padding-left:0px !important;
 }
+.modal-container .customer .field input:not(:placeholder-shown) ~ label {
+   top: 2px !important;
+}
 
 .modal-container .field input:-webkit-autofill ~ label {
   border:none !important;
