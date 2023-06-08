@@ -3016,6 +3016,9 @@ details-disclosure > details {
 }
 
 /* Quiz */
+.form-quiz .modal-container .field input  {
+  padding-left:2rem !important;
+}
 .modal-container .field input:-webkit-autofill ~ label,
 .modal-container label {
   border:none !important;
