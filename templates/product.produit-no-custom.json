@@ -45,7 +45,7 @@
         "0fa8d211-b8c2-4b19-ac4e-44172d9c9241": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign extras = product.metafields.custom.extra_details   | split: \", \" %}\n<div class=\"ft2\"> \n{% for extra in extras %}\n  <div >{{ extra }}<\/div>\n{% endfor %}\n<\/div>\n<style>\n.ft2 div:last-child {\ntext-align:right;\n}\n<\/style>\n{{product.id}}"
+            "custom_liquid": "{% assign extras = product.metafields.custom.extra_details   | split: \", \" %}\n<div class=\"ft2\"> \n{% for extra in extras %}\n  <div >{{ extra }}<\/div>\n{% endfor %}\n<\/div>\n<style>\n.ft2 div:last-child {\ntext-align:right;\n}\n<\/style>"
           }
         }
       },
