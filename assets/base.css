@@ -3020,14 +3020,15 @@ details-disclosure > details {
   padding-left:2rem !important;
 }
 
-.modal-container .field input:-webkit-autofill ~ label,
-.modal-container label {
+.modal-container .field input:-webkit-autofill ~ label {
   border:none !important;
   padding-left:0px !important;
       top: 8px !important;
 }
 .modal-container .field input:-webkit-autofill {
 padding-left: 2rem !important;
+   border:none !important;
+  padding-left:0px !important;
 }
 
 .modal-container  label {
