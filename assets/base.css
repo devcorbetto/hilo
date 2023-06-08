@@ -3028,10 +3028,14 @@ padding-left: 2rem !important;
   top:2px;
 }
 .modal-container {
-    max-width: 47.8rem;
+    max-width: 60.8rem;
   text-align:center;
     margin: 0 auto;
   margin-top:60px;
+}
+.modal-container  form {
+    max-width: 47.8rem;
+ 
 }
 
 .modal-container h2#login {
