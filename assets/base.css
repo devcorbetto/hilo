@@ -3421,3 +3421,15 @@ border-radius:30px !important;
  input::-webkit-calendar-picker-indicator {
     cursor: pointer;
   }
+
+
+/* media 1250px a 750px */
+@media (max-width:1250px) and (min-width:750px){
+  
+.header--middle-left {
+    grid-template-areas: "heading navigation icons";
+    grid-template-columns: 0.8fr 2fr 0.8fr;
+    column-gap: 2rem;
+}
+  
+}
