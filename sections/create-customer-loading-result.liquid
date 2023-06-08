@@ -120,6 +120,7 @@ overflow:hidden;
              }
            }
 </style>
+     {% if customer %}
     <div id="progressbar">
      <span id="loading"></span>
 
@@ -145,10 +146,20 @@ overflow:hidden;
                <svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.1 146.53"><defs><style>.cls5-1{fill:none;stroke:#D0C4E2;stroke-miterlimit:10;stroke-width:3px;}</style></defs><g id="Calque_1-2"><g><path class="cls5-1" d="m119.02,73.26c-39.7,10.13-46.68,18.33-55.29,65-8.61-46.67-15.6-54.87-55.29-65,39.7-10.13,46.68-18.33,55.29-65,8.61,46.67,15.6,54.87,55.29,65Z"></path><path class="cls5-1" d="m126.03,29.15c-12.51,3.19-14.71,5.78-17.42,20.48-2.71-14.7-4.91-17.29-17.42-20.48,12.51-3.19,14.71-5.78,17.42-20.48,2.71,14.7,4.91,17.29,17.42,20.48Z"></path><path class="cls5-1" d="m27.21,106.05c-7.59,1.94-8.93,3.51-10.57,12.43-1.65-8.92-2.98-10.49-10.57-12.43,7.59-1.94,8.93-3.51,10.57-12.43,1.65,8.92,2.98,10.49,10.57,12.43Z"></path></g></g></svg>
                   <h3>Unique</h3>
            </div>
-         
+      
          </div>
-      </div>
+         {% else  %}
+       <script>
+  setTimeout(function() {
+  window.location.href = 'https://hilo-cosmetiques.fr/pages/diagnostic-de-peau-hilo';
+}, 3000);
 
+</script>
+       
+{% endif %}
+
+      </div>
+     
          
 
 <script>
