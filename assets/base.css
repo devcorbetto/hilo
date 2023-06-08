@@ -3022,7 +3022,7 @@ details-disclosure > details {
   padding-left:0px !important;
 }
 .modal-container .field input:-webkit-autofill {
-  padding-left:10px;
+padding-left: 2rem !important;
 }
 .modal-container .field input:-webkit-autofill ~ label {
   top:2px;
