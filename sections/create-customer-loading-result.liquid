@@ -18,7 +18,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
 
 <div style="padding-bottom:250px;" class="page-width"> 
    <div class="step6 py-4 px-10 " x-show="step === 6">
- 
+   {% if customer %}
 
 <h2 class="text-center pb-20">NOUS ANALYSONS VOS RÉPONSES</h2>
         
@@ -120,7 +120,7 @@ overflow:hidden;
              }
            }
 </style>
-     {% if customer %}
+   
     <div id="progressbar">
      <span id="loading"></span>
 
