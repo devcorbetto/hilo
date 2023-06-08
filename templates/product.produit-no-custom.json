@@ -17,6 +17,7 @@
         },
         "e1d4b75f-c655-47c6-a3f5-9473a3b641e8": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
