@@ -3034,6 +3034,7 @@ details-disclosure > details {
 padding-left: 2rem !important;
 
 }
+.form-quiz .modal-container .customer .field input ,
 .form-quiz .modal-container .field input:not(:placeholder-shown) {
    padding-left:2rem !important;
 }
