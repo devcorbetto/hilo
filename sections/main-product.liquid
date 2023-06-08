@@ -938,7 +938,8 @@ letter-spacing:0;
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                       {% if product.id == '8170976510247' %}   {{ 'products.product.add_to_cart' | t }}  {{ product.price }} {% else %} {{ 'products.product.add_to_cart' | t }} {% endif %}}
+                       {% if product.id == 8170976510247 %}   {{ 'products.product.add_to_cart' | t }}  {{ product.price }} {% else %}
+                         {{ 'products.product.add_to_cart' | t }} {% endif %}}
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
