@@ -3035,11 +3035,12 @@ details-disclosure > details {
 }
 .modal-container .field input:-webkit-autofill {
 padding-left: 2rem !important;
-
+    padding-top: 2.5rem !important;
 }
 .form-quiz .modal-container .customer .field input ,
 .form-quiz .modal-container .field input:not(:placeholder-shown) {
    padding-left:2rem !important;
+      padding-top: 2.5rem !important;
 }
 
 
