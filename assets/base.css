@@ -3035,7 +3035,9 @@ padding-left: 2rem !important;
 }
 .modal-container  form {
     max-width: 47.8rem;
- 
+   text-align:center;
+    margin: 0 auto;
+  margin-top:20px;
 }
 
 .modal-container h2#login {
