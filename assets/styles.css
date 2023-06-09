@@ -2951,10 +2951,10 @@ Titulos:    font-size:24px;     line-height: 28px;
 
 @media screen and (max-width:980px) and (min-width:660px) {
   .small-hide {
-    display:block;
+    display:block !important;
   }
   .desktop-hide {
-    display:none;
+    display:none !important; 
   }
 .header__inline-menu{
   display:none;
