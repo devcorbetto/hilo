@@ -2991,5 +2991,10 @@ header-drawer {
 
     line-height: 30px;
   }
+
+  .corner-left-top-purple .eclat {
+    margin-left:-50px;
+    
+  }
 }
 
