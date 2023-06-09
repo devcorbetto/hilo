@@ -3052,6 +3052,9 @@ padding-left: 2rem !important;
   .form-quiz .modal-container .field input {
     height:40px !important;
   }
+   .modal-container label {
+    top: 6px !important; }
+   
  }
 .modal-container {
     max-width: 60.8rem;
