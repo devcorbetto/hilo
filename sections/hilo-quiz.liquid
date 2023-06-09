@@ -341,10 +341,12 @@
         class="step{{ forloop.index }} border-2  rounded-sm  p-10 px-20 m-20  md:m-2 border-radius"
         class="invisible"
         
-        {% if forloop.index == 1  %}
-          x-show="step === {{ forloop.index }}"
+      
+         
+                 x-show="step === {{ forloop.index }}"    
+       
           
-        {% endif %}
+     
  
         
         >
