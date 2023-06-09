@@ -2982,5 +2982,10 @@ Titulos:    font-size:24px;     line-height: 28px;
 .button, .button-label, .shopify-challenge__button, .customer button {
       font-size: 1.2rem;
 }
+  .multicolumn .title, .collection__title .title, .rich-text__heading, .rich-text-title{
+    font-size: 26px;
+
+    line-height: 30px;
+  }
 }
 
