@@ -338,7 +338,7 @@
         
         {% if forloop.index == 1  %}
           {% unless customer  %}
-          x-show="onlycustomer"        {% endunless %}
+         {% endunless %}
   {% else %}
             x-show="step === {{ forloop.index }}"
         {% endif %}
