@@ -3430,7 +3430,7 @@ border-radius:30px !important;
 .header--middle-left {
     grid-template-areas: "heading navigation icons";
         grid-template-columns: 0.5fr 2fr 0.2fr !important;
-    column-gap: 2rem;
+    column-gap: 1.5rem;
 }
   
 }
