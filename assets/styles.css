@@ -2943,7 +2943,7 @@ header-drawer {
    display:none !important;
 }
   .header__inline-menu{
-  display:flex;
+  display:flex !important;
   
 }
 
