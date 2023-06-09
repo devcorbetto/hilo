@@ -2975,6 +2975,10 @@ Titulos:    font-size:24px;     line-height: 28px;
   .multi-testimonials h3, .testimonial-name, .collection .card .card__heading {
     font-size:14px;
   }
+  .multi-testimonials .multicolumn-card__info {
+    padding-left:0px  !important; 
+    padding-right:0px !important;
+  }
 
 }
 
