@@ -2945,14 +2945,12 @@ Titulos:    font-size:24px;     line-height: 28px;
   display:flex;
   
 }
-  .container-right{
-    margin-left: 50px;
-    margin-top: 50px;
-}
+
   
   }
 
 @media screen and (max-width:980px) and (min-width:660px) {
+  
 .header__inline-menu{
   display:none;
   
@@ -2962,5 +2960,13 @@ Titulos:    font-size:24px;     line-height: 28px;
 
       display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* home content */
+    .container-right{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
 }
 
