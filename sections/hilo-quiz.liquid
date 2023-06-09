@@ -125,7 +125,12 @@
         this.preocu2 = preocu2;
         this.preocu13 = preocu3;
     },
+    {% unless customer %}
+      step:0,
+{% else %}
    step: 1, 
+{% endunless %}
+     
    activeStepColor: '#fbbf24', 
    selected: [],
    jsonData: null,
@@ -200,7 +205,7 @@
 
      {% unless customer %}
 
- <div x-show="onlycustomer2" >
+ <div x-show="step0" >
     <!-- Modal -->
     <div>
       <style>
