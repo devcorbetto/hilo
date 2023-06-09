@@ -2941,8 +2941,19 @@ Titulos:    font-size:24px;     line-height: 28px;
 .menu-drawer-container {
    display:none;
 }
+  .header__inline-menu{
+  display:flex;
+  
+}
   }
+
 @media screen and (max-width:980px) and (min-width:660px) {
+.header__inline-menu{
+  display:none;
+  
+}
+  .h2asd {
+    
 
       display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
