@@ -342,11 +342,8 @@
         class="invisible"
         
         {% if forloop.index == 1  %}
-          {% unless customer  %}
-                 x-show="step === {{ forloop.index }}"    
-        {% endunless %}
-  {% else %}
-            x-show="step === {{ forloop.index }}"
+          x-show="step === {{ forloop.index }}"
+          
         {% endif %}
  
         
