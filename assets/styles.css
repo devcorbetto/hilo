@@ -2946,8 +2946,8 @@ header-drawer {
   display:flex !important;
   
 }
-  .link, .customer a {
-    font-size:1em;
+  header .link, .customer a {
+    font-size:1rem;
   }
 
   
