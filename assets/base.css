@@ -3016,7 +3016,7 @@ details-disclosure > details {
 }
 
 /* Quiz */
-@media (min-width:980px){
+
 .form-quiz .modal-container .field input  {
   padding-left:2rem !important;
   font-size: 1.4rem;
@@ -3048,8 +3048,9 @@ padding-left: 2rem !important;
   font-size: 1.4rem;
 }
 
-  }
-
+ @media (max-width:980px) {
+   
+ }
 .modal-container {
     max-width: 60.8rem;
   text-align:center;
