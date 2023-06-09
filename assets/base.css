@@ -3048,7 +3048,7 @@ padding-left: 2rem !important;
   font-size: 1.4rem;
 }
 
-
+  }
 
 .modal-container {
     max-width: 60.8rem;
@@ -3079,7 +3079,7 @@ color: #FFF;
     padding: 0px 4rem;
 
 }
-   }
+ 
 
 /* outline and border styling for Windows High Contrast Mode */
 @media (forced-colors: active) {
