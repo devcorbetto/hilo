@@ -247,7 +247,9 @@
             {{ 'customer.recover_password.success' | t }}
           </h3>
         {%- endif -%}
-        {%- form 'customer_login', novalidate: 'novalidate' -%}
+       
+        {%- form 'customer_login', novalidate: 'novalidate',  return_to: 'https://hilo-cosmetiques.fr/pages/diagnostic-de-peau' %}
+   -%}
           <input type="hidden" name="return_to" value="https://hilo-cosmetiques.fr/pages/diagnostic-de-peau-hilo" />
                       
           {%- if form.errors -%}
