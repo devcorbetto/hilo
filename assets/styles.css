@@ -42,6 +42,10 @@ section newsletter section-news
 */
 /*ol  */
 
+.btn-login-quiz{
+  cursor:pointer;
+}
+
 .bg_subtitle span, .bg_subtitle p{
   color:#575756BF;
 }
