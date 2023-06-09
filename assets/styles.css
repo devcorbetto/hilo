@@ -2996,5 +2996,13 @@ header-drawer {
     margin-left:-50px;
     
   }
+.comment p {
+      font-size: 13px;
+    line-height: 20px;
+}
+  .rich-text__text p, .rich-text-paragraph, .multicolumn-featured-paragraph {
+      font-size: 13px;
+    line-height: 20px;
+  }
 }
 
