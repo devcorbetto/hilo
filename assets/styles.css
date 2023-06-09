@@ -3005,7 +3005,7 @@ header-drawer {
     line-height: 20px;
   }
   .multicolumn-card__info .link {
-     font-size: 13px;
+     font-size: 14px !important;
     line-height: 20px;
     
   }
