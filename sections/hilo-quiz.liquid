@@ -200,7 +200,7 @@
 
      {% unless customer %}
 
- <div x-show="step1" >
+ <div x-show="onlycustomer2" >
     <!-- Modal -->
     <div>
       <style>
@@ -337,7 +337,9 @@
         class="invisible"
         
         {% if forloop.index == 1  %}
-     
+          {% unless customer  %}
+          x-show="onlycustomer"        {% endunless %}
+  {% else %}
             x-show="step === {{ forloop.index }}"
         {% endif %}
  
@@ -440,8 +442,9 @@
    {% when 1 %}
    <p class="text-center">  <button @click="if(formData.name && formData.gender && formData.age) { 
           formData.madure = (formData.age === 'nomadure' ? 'nomadure' : 'madure'); 
-       onlycustomer2 = false;
-          step++; 
+         onlycustomer2 = false;
+           step2;
+        
      
   setTimeout(() => {
         const element = document.getElementById('etapas');
