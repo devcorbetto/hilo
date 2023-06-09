@@ -3049,9 +3049,9 @@ padding-left: 2rem !important;
 }
 
  @media (max-width:980px) {
-   .form-quiz  .modal-container .customer .field input {
-     height:40px;
-   }
+  .form-quiz .modal-container .field input {
+    height:40px !important;
+  }
  }
 .modal-container {
     max-width: 60.8rem;
