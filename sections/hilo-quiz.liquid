@@ -205,7 +205,7 @@
 
      {% unless customer %}
 
- <div x-show="step = 0" >
+ <div x-show="step === 0" >
     <!-- Modal -->
     <div>
       <style>
@@ -343,7 +343,8 @@
         
         {% if forloop.index == 1  %}
           {% unless customer  %}
-          x-show="onlycustomer"        {% endunless %}
+                 x-show="step === {{ forloop.index }}"    
+        {% endunless %}
   {% else %}
             x-show="step === {{ forloop.index }}"
         {% endif %}
