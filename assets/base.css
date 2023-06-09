@@ -3427,14 +3427,10 @@ border-radius:30px !important;
 @media screen and (max-width:1250px) and (min-width:880px)
  {
   
-.header--middle-left {
-    grid-template-areas: "heading navigation icons";
-    grid-template-columns: 0.8fr 2fr 0.8fr;
-    column-gap: 2rem;
-}
+
   
 }
 
-@media screen and (max-width:870px) and (min-width:660px) {
+@media screen and (max-width:980px) and (min-width:660px) {
   
 }
