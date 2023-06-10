@@ -3075,5 +3075,8 @@ header-drawer {
     max-width:100% !important;
     
   }
+  .images-team.multicolumn li {
+    width:19% !important;
+  }
 }
 
