@@ -2959,6 +2959,11 @@ header-drawer {
 
 @media screen and (max-width:980px) and (min-width:660px) {
 
+  .collection .card .card__heading {
+    font-size:20px !important;
+    line-height:24px !important;
+  }
+
 .header__inline-menu{
   display:none;
   
