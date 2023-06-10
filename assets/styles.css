@@ -3068,5 +3068,8 @@ header-drawer {
     .lamarque_text2 div + div {
     width:45% !important;
   }
+  .lamarque_text2 .image-with-text .grid {
+    padding-right:0px !important;
+  }
 }
 
