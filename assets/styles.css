@@ -3017,9 +3017,12 @@ header-drawer {
     line-height: 20px;
     
   }
+  svg.waves4b-newsletter {
+    top: -70px;
+}
 
    .multi-testimonials.multi-testimonials-reviews li {
-    width:33% !important;
+    width:31% !important;
   } 
   
 }
