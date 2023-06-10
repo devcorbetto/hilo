@@ -2960,8 +2960,8 @@ header-drawer {
 @media screen and (max-width:980px) and (min-width:660px) {
 
   .collection .card .card__heading {
-    font-size:20px !important;
-    line-height:24px !important;
+    font-size:16px !important;
+    line-height:19px !important;
   }
 
 .header__inline-menu{
