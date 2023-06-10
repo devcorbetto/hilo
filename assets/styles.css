@@ -3086,7 +3086,7 @@ header-drawer {
  /* contact*/
   .contact__fields {
     
-    grid-column-gap: 2rem;
+    grid-column-gap: 2rem !important;
 }
 }
 
