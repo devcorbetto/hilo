@@ -3112,6 +3112,11 @@ header-drawer {
     grid-template-columns: 1fr 1fr 1fr !important;
 
 }
-  }
+  .container-ingredientes {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    display: grid;
+}
+  
+  
 }
 
