@@ -3104,6 +3104,8 @@ header-drawer {
     margin-left: 200px !important;
   
 }
-  
+  .container-comment {
+    max-width:100%;
+  }
 }
 
