@@ -3071,5 +3071,9 @@ header-drawer {
  .lamarque_text2 .image-with-text__grid {
     padding-right:0px !important;
   }
+  .svg-fullwidth .rich-text__blocks {
+    max-width:100% !important;
+    
+  }
 }
 
