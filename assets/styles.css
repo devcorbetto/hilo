@@ -3088,5 +3088,10 @@ header-drawer {
     
     grid-column-gap: 2rem !important;
 }
+  /* a bassadejrs */
+  .programmeicons  li {
+    
+    width:32% !important;
+  }
 }
 
