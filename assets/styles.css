@@ -2935,17 +2935,9 @@ Titulos:    font-size:24px;     line-height: 28px;
     column-gap: 1.5rem;
 }
   
-}
-.tablet-small-hide {
-  display:block;
-}
+
 @media (max-width:990px) {
-  .tablet-small-hide {
-    display:none;
-  }
-  .tablet-desktop-hide  {
-     display:block;
-  }
+
 }
 
 
@@ -2991,6 +2983,7 @@ header-drawer {
   .multi-testimonials.multi-icons li {
     width:15% !important;
   }
+  
   .multi-testimonials h3, .testimonial-name, .collection .card .card__heading {
     font-size:14px;
   }
@@ -3024,5 +3017,10 @@ header-drawer {
     line-height: 20px;
     
   }
+
+   .multi-testimonials.multi-testimonials-reviews li {
+    width:33% !important;
+  } 
+  
 }
 
