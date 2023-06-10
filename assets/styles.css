@@ -3030,6 +3030,9 @@ header-drawer {
   .multi-featured.multi-icons.paiment li {
      width:31% !important;
   }
-  
+  footer .list-social__item svg {
+    height: 2rem;
+    width: 2rem;
+}
 }
 
