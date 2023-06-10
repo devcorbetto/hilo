@@ -2963,6 +2963,10 @@ header-drawer {
     font-size:16px !important;
     line-height:19px !important;
   }
+  .collection .price__regular {
+    font-size:14px !important;
+    line-height:16px !important;
+  }
 
 .header__inline-menu{
   display:none;
@@ -3040,5 +3044,15 @@ header-drawer {
     height: 2rem;
     width: 2rem;
 }
+
+  /* boutique */
+ svg.waves5c-rich-text-account {
+    top: -40px !important;
+}
+.section-template--17804308218151__d1729d12-e0e2-4aff-abd1-a485a8f5a0ae-padding {
+  padding-bottom:20px !important;
+}
+
+  
 }
 
