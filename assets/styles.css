@@ -3056,10 +3056,10 @@ header-drawer {
   /* la marque */
 
   .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
-    width:50% !important;
+    width:45% !important;
   }
   .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item>*, .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item>* {
-    padding:0px !important;
+        padding: 0px 20px !important;
   }
 }
 
