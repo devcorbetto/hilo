@@ -3018,7 +3018,10 @@ header-drawer {
     
   }
   svg.waves4b-newsletter {
-    top: -70px;
+    top: -70px  !important;
+}
+  svg.waves4a-rich-text-account {
+    bottom: -40px !important;
 }
 
    .multi-testimonials.multi-testimonials-reviews li {
