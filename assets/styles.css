@@ -3100,7 +3100,7 @@ header-drawer {
     padding: 0px 0px !important;
 }
 .corner-right-top-purple {
-    
+    display:none;
     margin-left: 200px !important;
   
 }
