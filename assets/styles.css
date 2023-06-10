@@ -3063,7 +3063,10 @@ header-drawer {
   }
   .lamarque_text2.image-with-text .image-with-text__media-item>*, .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item>* {
         padding: 0px 40px !important;
-    padding-right:0px !important;
+  
+  }
+    .lamarque_text2 div + div {
+    width:45% !important;
   }
 }
 
