@@ -2971,8 +2971,8 @@ header-drawer {
 /* home content */
 
   svg.waves2a-image-banner {
-        bottom: -25px;
-  }
+        bottom: -25px !important;
+  } 
     .container-right{
     margin-left: 50px !important;
     margin-top: 50px  !important; 
