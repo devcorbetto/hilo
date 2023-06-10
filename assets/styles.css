@@ -3116,6 +3116,9 @@ header-drawer {
     grid-template-columns: 1fr 1fr 1fr !important;
     display: grid;
 }
+  .etapas {
+    column-gap: 8rem !important;
+}
   
   
 }
