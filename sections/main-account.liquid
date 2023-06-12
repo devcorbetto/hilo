@@ -283,7 +283,7 @@ Elle est conseillée pour :<br><br>
                     </a>
                   </td>
                   <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
-                    {{ order.created_at |  date: "%d/%m/%y"  }}
+                    {{ order.created_at |  date: "%d/%m/%Y"  }}
                   </td>
                   <td headers="RowOrder ColumnPayment" role="cell" data-label="{{ 'customer.orders.payment_status' | t }}" style="display:none;">>
                     {{ order.financial_status_label }}
