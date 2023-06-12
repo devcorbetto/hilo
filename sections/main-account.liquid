@@ -554,24 +554,21 @@ Elle est conseillée pour :<br><br>
                         </span>
                       {%- endunless -%}</p>
                    <p>Commandé une fois</p>
-                <p>Huiles :                        <div class="properties">
-                   
-                      {%- if property_size != 0 -%}
-                        {%- for property in line_item.properties -%}
-                          {% assign property_first_char = property.first | slice: 0 %}
-                          {%- if property.last != blank and property_first_char != '_' -%}
-                            <span>
-                              {{ property.first }}:&nbsp;
-                              {%- if property.last contains '/uploads/' -%}
-                                <a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>
-                              {%- else -%}
-                                {{ property.last }}
-                              {%- endif -%}
-                            </span>
-                          {%- endif -%}
-                        {%- endfor -%}
-                      {%- endif -%}
-                    </div></p>
+                <p>Huiles :                    {% if item.properties != blank  %}
+<span class="description-cart">Huiles : </span>
+
+
+{% endif %}
+
+
+
+{% for item in capture_array  limit:3%}
+{% if forloop.index == 3 %}
+    {{ item }}  
+  {% else %}
+ {{ item }}, 
+  {% endif %}
+{% endfor %} </p>
                  </td>
                 
                     {% endfor %}
