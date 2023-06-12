@@ -334,7 +334,7 @@ Elle est conseillée pour :<br><br>
                   {%- endif -%}
                      {% endfor %}
               </div>
-              <tr style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
+              <tr style="text-align:left; padding:15px 30px;" x-show="  order{{ order.name | replace: "#",""}}"> 
                   {%- for line_item in order.line_items -%}
 
                  <td>
