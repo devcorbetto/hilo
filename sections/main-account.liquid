@@ -279,7 +279,7 @@ Elle est conseillée pour :<br><br>
                     data-label="{{ 'customer.orders.order_number' | t }}"
                   >
                     <a href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
-                      {{ order.name }}
+                      {{ order.name | replace: "#",""}}
                     </a>
                   </td>
                   <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
