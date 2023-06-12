@@ -285,7 +285,7 @@ Elle est conseillée pour :<br><br>
            
               {%- for order in customer.orders -%}
                 <div role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
-                @click.away="order{{ order.name | replace: "#","" }} = false">
+                @click.away="order{{ order.name | replace: "#","" }} = false" class="grid-4">
                   <div
                     id="RowOrder"
                     role="cell"
