@@ -329,7 +329,7 @@ Elle est conseillée pour :<br><br>
 
                       
 {% capture propertys %}                      
-{%- for property in item.properties -%}
+{%- for property in line_item.properties  -%}
   {% if property contains '3' %}
 
       {%- assign property_first_char = property.first | slice: 0 -%}
@@ -430,7 +430,7 @@ Elle est conseillée pour :<br><br>
 {% assign capture_array = capture_string | split: ',' %}
 
                       
-                      {%- for property in item.properties -%}
+                      {%- for property in line_item.properties  -%}
                    {% if property contains '2' %}
                   {%- assign property_first_char = property.first | slice: 0 -%}
                     
