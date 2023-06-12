@@ -3129,7 +3129,7 @@ header-drawer {
 
   /*footer */
   svg.footer-svg-top {
-    top: -45px;
+    top: -45px !important;
   }
   
 }
