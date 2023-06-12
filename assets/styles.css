@@ -3057,12 +3057,12 @@ header-drawer {
 }
 
   .multi-logos.multicolumn   .slick-prev,    .multi-logos.multicolumn  .slick-next {
-    display:none;
+    display:none !important;
   }
 
    .control-c {
-        width: 20px;
-    height: 20px;
+        width: 20px !important; 
+    height: 20px !important; 
    }
   /* boutique */
  svg.waves5c-rich-text-account {
