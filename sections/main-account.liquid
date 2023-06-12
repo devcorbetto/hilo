@@ -296,7 +296,7 @@ Elle est conseillée pour :<br><br>
                 
                  
                 </tr>
-              <tr>
+              <div>
               {% comment %}  <a href="">Suivre mon colis</a> {% endcomment %}
                    {%- for line_item in order.line_items -%}
                  {%- if line_item.fulfillment -%}
@@ -316,8 +316,8 @@ Elle est conseillée pour :<br><br>
                     </div>
                   {%- endif -%}
                      {% endfor %}
-              </tr>
-              <tr style="text-align:left;"> 
+              </div>
+              <div style="text-align:left;"> 
                   {%- for line_item in order.line_items -%}
 
                  <td><img style="border-radius:30px;"
@@ -377,7 +377,7 @@ Elle est conseillée pour :<br><br>
                 
                     {% endfor %}
                
-              </tr>
+              </div>
               {%- endfor -%}
             </tbody>
           </table>
