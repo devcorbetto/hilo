@@ -289,7 +289,7 @@ Elle est conseillée pour :<br><br>
                     {{ order.financial_status_label }}
                   </td>
                  <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
-                    {{ order.total_price | money_with_currency | remove_first: "€"  | replace: 'EUR',"€" }}</td>
+                    {{ order.total_price | money_with_currency}}</td>
                   <td headers="RowOrder ColumnFulfillment" role="cell" data-label="{{ 'customer.orders.fulfillment_status' | t }}">
                     {{ order.fulfillment_status_label }}
                   </td>
