@@ -284,7 +284,7 @@ Elle est conseillée pour :<br><br>
             </thead>
             <tbody role="rowgroup">
               {%- for order in customer.orders -%}
-                <tr role="row" @click="order{{ order.name | replace: "#","" }} = true">
+                <tr role="row" @click="order{{ order.name | replace: "#","" }} != order{{ order.name | replace: "#","" }}">
                   <td
                     id="RowOrder"
                     role="cell"
