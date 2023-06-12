@@ -272,16 +272,16 @@ Elle est conseillée pour :<br><br>
         {%- if customer.orders.size > 0 -%}
           <div role="table" class="order-history">
        
-            <thead role="rowgroup">
-              <tr role="row">
-                <th id="ColumnOrder" scope="col" role="columnheader">N°</th>
-                <th id="ColumnDate" scope="col" role="columnheader">{{ 'customer.orders.date' | t }}</th>
-                <th id="ColumnPayment" scope="col" role="columnheader" style="display:none;">{{ 'customer.orders.payment_status' | t }}</th>
-                <th id="ColumnTotal" scope="col" role="columnheader">Prix</th>
-                <th id="ColumnFulfillment" scope="col" role="columnheader">Status</th>
+            <div role="rowgroup">
+              <div role="row">
+                <div id="ColumnOrder" scope="col" role="columnheader">N°</div>
+                <div id="ColumnDate" scope="col" role="columnheader">{{ 'customer.orders.date' | t }}</div>
+                <div id="ColumnPayment" scope="col" role="columnheader" style="display:none;">{{ 'customer.orders.payment_status' | t }}</div>
+                <div id="ColumnTotal" scope="col" role="columnheader">Prix</div>
+                <div id="ColumnFulfillment" scope="col" role="columnheader">Status</div>
                 
-              </tr>
-            </thead>
+              </div>
+            </div>
            
               {%- for order in customer.orders -%}
                 <div role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
