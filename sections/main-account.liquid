@@ -163,16 +163,7 @@ Elle est conseillée pour :<br><br>
 <div class="container row  mx-auto my-40 flex-1 flex page-width gap-x-10" style="padding-top:50px;
   padding-bottom:150px;"
   x-data="{ open1: true , open2: false ,open3: false,open4: false
-     {%- if customer.orders.size > 0 -%}
-    ,
-       {% for order in customer.orders %}
-         {% if forloop.last %}
-         order{{ order.name }}: false
-  {% else %}
-      order{{ order.name }}: false,
-    {% endif %}
-           {% endfor %}
-   {% endif %}
+  
   }"
   
   >
