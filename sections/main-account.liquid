@@ -320,7 +320,7 @@ Elle est conseillée pour :<br><br>
               <div style="text-align:left;"> 
                   {%- for line_item in order.line_items -%}
 
-                 <td><img style="border-radius:30px;"
+                 <div><img style="border-radius:30px;"
                 src="//cdn.shopify.com/s/files/1/0716/5509/6615/files/recharge-creme-visage-naturelle-personnalisable.jpg?v=1684497743&amp;width=300" class="cart-item__image" alt="recharge-creme-visage-naturelle-personnalisable" loading="lazy" width="150" height="150">
                        <div class="properties">
                    
@@ -340,9 +340,9 @@ Elle est conseillée pour :<br><br>
                         {%- endfor -%}
                       {%- endif -%}
                     </div>
-                    </td>
+                    </div>
                
-                    <td style="padding-left:20px;">
+                    <div style="padding-left:20px;">
                    <h3>{{ line_item.title }}</h3>
                    <p>   {%- unless line_item.product.has_only_default_variant -%}
                         <span>
@@ -373,11 +373,13 @@ Elle est conseillée pour :<br><br>
                         {%- endfor -%}
                       {%- endif -%}
                     </div></p>
-                 </td>
+                 </div>
                 
                     {% endfor %}
                
               </div>
+
+            
               {%- endfor -%}
             </tbody>
           </table>
