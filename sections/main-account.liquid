@@ -162,7 +162,12 @@ Elle est conseillée pour :<br><br>
 
 <div class="container row  mx-auto my-40 flex-1 flex page-width gap-x-10" style="padding-top:50px;
   padding-bottom:150px;"
-  x-data="{ open1: true , open2: false ,open3: false,open4: false }">
+  x-data="{ open1: true , open2: false ,open3: false,open4: false
+   
+  
+  }"
+  
+  >
   <div class="  w-1/4">
   <div class="container-options">
     <div class="option " :class="{ 'active': open1 }" style="position:relative;">
@@ -298,7 +303,9 @@ Elle est conseillée pour :<br><br>
                 </tr>
               <div>
               {% comment %}  <a href="">Suivre mon colis</a> {% endcomment %}
-                   {%- for line_item in order.line_items -%}
+              
+                
+                {%- for line_item in order.line_items -%}
                  {%- if line_item.fulfillment -%}
                     <div class="fulfillment">
                       {%- assign created_at = line_item.fulfillment.created_at | time_tag: format: 'date' -%}
@@ -317,7 +324,7 @@ Elle est conseillée pour :<br><br>
                   {%- endif -%}
                      {% endfor %}
               </div>
-              <tr style="text-align:left;"> 
+              <tr style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
                   {%- for line_item in order.line_items -%}
 
                  <td>
