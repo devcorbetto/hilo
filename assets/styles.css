@@ -3126,7 +3126,11 @@ header-drawer {
   .etapas {
     column-gap: 8rem !important;
 }
-  
+
+  /*footer */
+  svg.footer-svg-top {
+    top: -45px;
+  }
   
 }
 
