@@ -3052,6 +3052,10 @@ header-drawer {
     width: 2rem;
 }
 
+  .multi-slider .multicolumn-card.content-container > div:first-child {
+    width: 80%;
+}
+
   /* boutique */
  svg.waves5c-rich-text-account {
     top: -40px !important;
