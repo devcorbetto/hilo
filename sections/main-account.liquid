@@ -284,16 +284,17 @@ Elle est conseillée pour :<br><br>
             </thead>
             <tbody role="rowgroup">
               {%- for order in customer.orders -%}
-                <tr role="row">
+                <tr role="row" @click="order{{ order.name }} = true">
                   <td
                     id="RowOrder"
                     role="cell"
                     headers="ColumnOrder"
                     data-label="{{ 'customer.orders.order_number' | t }}"
                   >
-                    <a href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
-                      {{ order.name | replace: "#",""}}
-                    </a>
+                   {% comment %} <a href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
+                      {% endcomment %}}
+                {{ order.name | replace: "#",""}}
+                  
                   </td>
                   <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
                     {{ order.created_at |  date: "%d/%m/%Y"  }}
