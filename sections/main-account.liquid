@@ -334,10 +334,10 @@ Elle est conseillée pour :<br><br>
                   {%- endif -%}
                      {% endfor %}
               </div>
-              <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
+              <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}" class="grid-2"> 
                   {%- for line_item in order.line_items -%}
 
-                 <div class="grid-2">
+                 <div >
 
                      <img src="{{ line_item.image | image_url: width: 300 }}" style="border-radius:30px;"
                             class="cart-item__image"
