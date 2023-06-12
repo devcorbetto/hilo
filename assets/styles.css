@@ -3063,6 +3063,11 @@ header-drawer {
   #shopify-section-template--17804308381991__e7b02f91-67dd-43fa-88ba-f3043f64f586 .title.h1 {
     margin-bottom:15px !important;
   }
+
+  .collection-sliders {
+    max-width: 80%;
+    margin: 0 auto;
+}
    .control-c {
         width: 20px !important; 
     height: 20px !important; 
