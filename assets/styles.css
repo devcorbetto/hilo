@@ -3056,6 +3056,10 @@ header-drawer {
     width: 80%;
 }
 
+  .multi-logos.multicolumn   .slick-prev,    .multi-logos.multicolumn  .slick-next {
+    display:none;
+  }
+
   /* boutique */
  svg.waves5c-rich-text-account {
     top: -40px !important;
@@ -3139,6 +3143,8 @@ header-drawer {
   svg.footer-svg-top {
     top: -45px !important;
   }
+
+  
   
 }
 
