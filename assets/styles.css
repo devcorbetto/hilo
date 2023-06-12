@@ -3127,6 +3127,10 @@ header-drawer {
     column-gap: 8rem !important;
 }
 
+  /* sliders dots */
+  .slick-dots {
+    justify-content: center;
+  }
   /*footer */
   svg.footer-svg-top {
     top: -45px !important;
