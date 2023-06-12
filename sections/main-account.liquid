@@ -323,6 +323,211 @@ Elle est conseillée pour :<br><br>
                  <td><img style="border-radius:30px;"
                 src="//cdn.shopify.com/s/files/1/0716/5509/6615/files/recharge-creme-visage-naturelle-personnalisable.jpg?v=1684497743&amp;width=300" class="cart-item__image" alt="recharge-creme-visage-naturelle-personnalisable" loading="lazy" width="150" height="150">
                        <div class="properties">
+
+
+  <div class="item-ingredientes">
+
+                      
+{% capture propertys %}                      
+{%- for property in item.properties -%}
+  {% if property contains '3' %}
+
+      {%- assign property_first_char = property.first | slice: 0 -%}
+      {% if forloop.last %}
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+             <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+                         <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+          {%- endif -%}
+        {% else %}
+        {%- if property.last != blank and property_first_char != '_' -%}
+        <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+            <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+          
+            <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+        {%- endif -%}
+      {% endif %}
+{% endif %}
+
+
+                        
+
+  
+{% if property contains '2' %}
+
+      {%- assign property_first_char = property.first | slice: 0 -%}
+      {% if forloop.last %}
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }}
+          </span>,
+                        
+           <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+                       
+          {%- endif -%}
+        {% else %}
+        {%- if property.last != blank and property_first_char != '_' -%}
+        <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+            <span class="product-option">
+        {{ property.first   | capitalize }},
+        
+        </span>
+          
+        {%- endif -%}
+      {% endif %}
+{% endif %}
+
+  
+{% if property contains '1' %}
+
+      {%- assign property_first_char = property.first | slice: 0 -%}
+      {% if forloop.last %}
+          {%- if property.last != blank and property_first_char != '_' -%}
+          <span class="product-option">
+          {{ property.first   | capitalize }},
+          
+          </span>
+          {%- endif -%}
+        {% else %}
+        {%- if property.last != blank and property_first_char != '_' -%}
+        <span class="product-option">
+        {{ property.first   | capitalize }},
+           </span>
+      
+        {%- endif -%}
+      {% endif %}
+{% endif %}
+  
+{%- endfor -%}
+  {% endcapture %}
+                   
+                      
+       {% assign capture_string = propertys %}
+{% assign capture_array = capture_string | split: ',' %}
+
+                      
+                      {%- for property in item.properties -%}
+                   {% if property contains '2' %}
+                  {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%}
+                   {%endif %}  
+                {% if property contains '3' %}
+                 {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%}
+                           {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%} 
+                   {% endif %}  
+                          {%- assign property_first_char = property.first | slice: 0 -%}
+                    
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span class="product-option">
+                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
+                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
+                            
+                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+                       
+                            
+               
+                             {% comment %} <dd>
+                                {%- if property.last contains '/uploads/' -%}
+                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                    {{ property.last | split: '/' | last }}
+                                  </a>
+                                {%- else -%}
+                                  {{ property.last }}
+                                {%- endif -%}
+                              </dd> {% endcomment %}
+                            </span>
+                          {%- endif -%}
+                        {%- endfor -%}
+ 
+                        
+                      </div>
+                         
                    
                       {%- if property_size != 0 -%}
                         {%- for property in line_item.properties -%}
