@@ -2783,6 +2783,10 @@ line-height:14px;
 
 
 @media (max-width:989px){
+ .menu-drawer__utility-links  .list-social  svg {
+    height:20px;
+   width:20px;
+  }
 .multi-slider .multicolumn-card.content-container > div:first-child{
   width:100%;
 }
