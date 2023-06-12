@@ -334,7 +334,7 @@ Elle est conseillée pour :<br><br>
                   {%- endif -%}
                      {% endfor %}
               </div>
-              <tr style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
+              <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
                   {%- for line_item in order.line_items -%}
 
                  <div>
@@ -590,9 +590,9 @@ Elle est conseillée pour :<br><br>
                 
                     {% endfor %}
                
-              </tr>
+              </div>
                 
-                </tr>
+                </div>
              
               {%- endfor -%}
            
@@ -906,11 +906,11 @@ Elle est conseillée pour :<br><br>
   
   <table class="table-auto w-full" style="border:0px;">
    
- <tr>
+ <div>
     <th class="px-4 py-2">Diag</th>
     <th class="px-4 py-2" >Date</th>
     <th class="px-4 py-2" >Résultats</th>
-  </tr>
+  </div>
     {% for diagnostic in diagnostics %}
     {% assign diagnostic_ing3 = diagnostic.ing3  %}
   
@@ -1026,11 +1026,11 @@ Elle est conseillée pour :<br><br>
 {% endif %}           
       
 {% if forloop.index != 1 %}
-   <tr>
+   <div>
     <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.name }}</th>
     <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.date }}</th>
     <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic_ing1 }} - {{ diagnostic_ing2 }} - {{ diagnostic_ing3 }}</th>
-  </tr>
+  </div>
 
  
   {% endif %}
