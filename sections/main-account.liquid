@@ -285,7 +285,7 @@ Elle est conseillée pour :<br><br>
             <tbody role="rowgroup">
               {%- for order in customer.orders -%}
                 <tr role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
-              >
+                @click.away="order{{ order.name | replace: "#","" }} = false">
                   <td
                     id="RowOrder"
                     role="cell"
