@@ -3060,6 +3060,10 @@ header-drawer {
     display:none;
   }
 
+   .control-c {
+        width: 20px;
+    height: 20px;
+   }
   /* boutique */
  svg.waves5c-rich-text-account {
     top: -40px !important;
