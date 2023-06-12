@@ -320,9 +320,17 @@ Elle est conseillée pour :<br><br>
               <tr style="text-align:left;"> 
                   {%- for line_item in order.line_items -%}
 
-                 <td><img style="border-radius:30px;"
-                src="//cdn.shopify.com/s/files/1/0716/5509/6615/files/recharge-creme-visage-naturelle-personnalisable.jpg?v=1684497743&amp;width=300" class="cart-item__image" alt="recharge-creme-visage-naturelle-personnalisable" loading="lazy" width="150" height="150">
-                       <div class="properties">
+                 <td>
+
+                     <img src="{{ line_item.image | image_url: width: 300 }}" style="border-radius:30px;"
+                            class="cart-item__image"
+                            alt="{{ item.image.alt | escape }}"
+                            loading="lazy"
+                            width="150"
+                            height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
+                          >
+                    
+                     <div class="properties">
 
 
   <div class="item-ingredientes">
