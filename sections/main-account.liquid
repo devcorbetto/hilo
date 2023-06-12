@@ -270,7 +270,7 @@ Elle est conseillée pour :<br><br>
               <h2> MES COMMANDES</h2>
      {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
-          <table role="table" class="order-history">
+          <div role="table" class="order-history">
             <caption class="visually-hidden">{{ 'customer.orders.title' | t }}</caption>
             <thead role="rowgroup">
               <tr role="row">
@@ -282,11 +282,11 @@ Elle est conseillée pour :<br><br>
                 
               </tr>
             </thead>
-            <tbody role="rowgroup">
+           
               {%- for order in customer.orders -%}
-                <tr role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
-               >
-                  <td
+                <div role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
+                @click.away="order{{ order.name | replace: "#","" }} = false">
+                  <div
                     id="RowOrder"
                     role="cell"
                     headers="ColumnOrder"
@@ -296,18 +296,18 @@ Elle est conseillée pour :<br><br>
                       {% endcomment %}
                 {{ order.name | replace: "#",""}}
                   
-                  </td>
-                  <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
+                  </div>
+                  <div headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
                     {{ order.created_at |  date: "%d/%m/%Y"  }}
-                  </td>
-                  <td headers="RowOrder ColumnPayment" role="cell" data-label="{{ 'customer.orders.payment_status' | t }}" style="display:none;">>
+                  </div>
+                  <div headers="RowOrder ColumnPayment" role="cell" data-label="{{ 'customer.orders.payment_status' | t }}" style="display:none;">>
                     {{ order.financial_status_label }}
-                  </td>
-                 <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
-                    {{ order.total_price | money_with_currency | replace: " ", ""}}</td>
-                  <td headers="RowOrder ColumnFulfillment" role="cell" data-label="{{ 'customer.orders.fulfillment_status' | t }}">
+                  </div>
+                 <div headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
+                    {{ order.total_price | money_with_currency | replace: " ", ""}}</div>
+                  <div headers="RowOrder ColumnFulfillment" role="cell" data-label="{{ 'customer.orders.fulfillment_status' | t }}">
                     {{ order.fulfillment_status_label }}
-                  </td>
+                  </div>
                 
 
 
@@ -334,10 +334,10 @@ Elle est conseillée pour :<br><br>
                   {%- endif -%}
                      {% endfor %}
               </div>
-              <tr style="text-align:left; padding:15px 30px;" x-show="  order{{ order.name | replace: "#",""}}"> 
+              <tr style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
                   {%- for line_item in order.line_items -%}
 
-                 <td>
+                 <div>
 
                      <img src="{{ line_item.image | image_url: width: 300 }}" style="border-radius:30px;"
                             class="cart-item__image"
@@ -556,9 +556,9 @@ Elle est conseillée pour :<br><br>
                    
                      
                     </div>
-                    </td>
+                    </div>
                
-                    <td style="padding-left:20px;">
+                    <div style="padding-left:20px;">
                    <h3>{{ line_item.title }}</h3>
                    <p>   {%- unless line_item.product.has_only_default_variant -%}
                         <span>
@@ -586,7 +586,7 @@ Elle est conseillée pour :<br><br>
  {{ item }}, 
   {% endif %}
 {% endfor %} </p>
-                 </td>
+                 </div>
                 
                     {% endfor %}
                
@@ -595,8 +595,8 @@ Elle est conseillée pour :<br><br>
                 </tr>
              
               {%- endfor -%}
-            </tbody>
-          </table>
+           
+          </div>
         {%- else -%}
           <p>{{ 'customer.orders.none' | t }}</p>
         {%- endif -%}
