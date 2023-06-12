@@ -297,7 +297,25 @@ Elle est conseillée pour :<br><br>
                  
                 </tr>
               <tr>
-                <a href="">Suivre mon colis</a>
+              {% comment %}  <a href="">Suivre mon colis</a> {% endcomment %}
+                   {%- for line_item in order.line_items -%}
+                 {%- if line_item.fulfillment -%}
+                    <div class="fulfillment">
+                      {%- assign created_at = line_item.fulfillment.created_at | time_tag: format: 'date' -%}
+                      <span>{{ 'customer.order.fulfilled_at_html' | t: date: created_at }}</span>
+
+                        {%- if line_item.fulfillment.tracking_url -%}
+                          <a href="{{ line_item.fulfillment.tracking_url }}">
+                            {{ 'customer.order.track_shipment' | t }}
+                          </a>
+                        {%- endif -%}
+                        <span>
+                          {{ line_item.fulfillment.tracking_company }}
+                          {%- if line_item.fulfillment.tracking_number -%} #{{ line_item.fulfillment.tracking_number }} {%- endif -%}
+                        </span>
+                    </div>
+                  {%- endif -%}
+                     {% endfor %}
               </tr>
               <tr> 
                   {%- for line_item in order.line_items -%}
@@ -306,7 +324,7 @@ Elle est conseillée pour :<br><br>
                 src="//cdn.shopify.com/s/files/1/0716/5509/6615/files/recharge-creme-visage-naturelle-personnalisable.jpg?v=1684497743&amp;width=300" class="cart-item__image" alt="recharge-creme-visage-naturelle-personnalisable" loading="lazy" width="150" height="150"></td>
                  <td style="padding-left:20px;">
                    <h3>{{ line_item.title }}</h3>
-                   <p>Pot & recharge</p>
+                   <p>{{ line_item.title }}</p>
                    <p>Commandé une fois</p>
                 <p>Huiles : Abricot, Carotte, Amande douce</p>
                  </td>
