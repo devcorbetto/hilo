@@ -337,14 +337,13 @@ Elle est conseillée pour :<br><br>
               <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}"> 
                   {%- for line_item in order.line_items -%}
 
-                 <div>
+                 <div class="grid-2">
 
                      <img src="{{ line_item.image | image_url: width: 300 }}" style="border-radius:30px;"
                             class="cart-item__image"
                             alt="{{ line_item.image.alt | escape }}"
                             loading="lazy"
                             width="150"
-                  
                           >
                     
                      <div class="properties">
