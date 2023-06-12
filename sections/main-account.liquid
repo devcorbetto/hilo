@@ -321,8 +321,37 @@ Elle est conseillée pour :<br><br>
                   {%- for line_item in order.line_items -%}
 
                  <td><img style="border-radius:30px;"
-                src="//cdn.shopify.com/s/files/1/0716/5509/6615/files/recharge-creme-visage-naturelle-personnalisable.jpg?v=1684497743&amp;width=300" class="cart-item__image" alt="recharge-creme-visage-naturelle-personnalisable" loading="lazy" width="150" height="150"></td>
-                 <td style="padding-left:20px;">
+                src="//cdn.shopify.com/s/files/1/0716/5509/6615/files/recharge-creme-visage-naturelle-personnalisable.jpg?v=1684497743&amp;width=300" class="cart-item__image" alt="recharge-creme-visage-naturelle-personnalisable" loading="lazy" width="150" height="150">
+                       <div class="properties">
+                      {%- unless line_item.product.has_only_default_variant -%}
+                        <span>
+                          {{ line_item.variant.title }}
+                        </span>
+                      {%- endunless -%}
+                      {%- unless line_item.selling_plan_allocation == nil -%}
+                        <span>
+                          {{ line_item.selling_plan_allocation.selling_plan.name }}
+                        </span>
+                      {%- endunless -%}
+                      {%- if property_size != 0 -%}
+                        {%- for property in line_item.properties -%}
+                          {% assign property_first_char = property.first | slice: 0 %}
+                          {%- if property.last != blank and property_first_char != '_' -%}
+                            <span>
+                              {{ property.first }}:&nbsp;
+                              {%- if property.last contains '/uploads/' -%}
+                                <a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>
+                              {%- else -%}
+                                {{ property.last }}
+                              {%- endif -%}
+                            </span>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      {%- endif -%}
+                    </div>
+                    </td>
+               
+                    <td style="padding-left:20px;">
                    <h3>{{ line_item.title }}</h3>
                    <p>{{ line_item.title }}</p>
                    <p>Commandé une fois</p>
