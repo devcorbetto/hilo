@@ -167,9 +167,9 @@ Elle est conseillée pour :<br><br>
     ,
        {% for order in customer.orders %}
          {% if forloop.last %}
-         order{{ order.name }}: false
+         order{{ order.name | replace: "#","" }}: false
   {% else %}
-      order{{ order.name }}: false,
+      order{{ order.name  | replace: "#","" }}: false,
     {% endif %}
            {% endfor %}
    {% endif %}
@@ -292,7 +292,7 @@ Elle est conseillée pour :<br><br>
                     data-label="{{ 'customer.orders.order_number' | t }}"
                   >
                    {% comment %} <a href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
-                      {% endcomment %}}
+                      {% endcomment %}
                 {{ order.name | replace: "#",""}}
                   
                   </td>
