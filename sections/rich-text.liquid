@@ -45,7 +45,7 @@
                 {% if block.settings.customcss contains "corner-left-top-purple" %}
                   <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_gauche_violet.svg?v=1684750102" class="corner-left-top-purple eclat no-rotate top-wavestop2">
                 {% endif %}
-            {% if block.settings.link_image %}<a href="/contact">{% endif %}
+            {% if block.settings.link_image %}<a href="{{ block.settings.link_image }}">{% endif %}
               <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">
             {% if block.settings.link_image %}</a>{% endif %}
               </div>
