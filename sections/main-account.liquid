@@ -288,7 +288,7 @@ Elle est conseillée pour :<br><br>
                 @click.away="order{{ order.name | replace: "#","" }} = false" 
                 :class="{ 'active': order{{ order.name | replace: "#","" }} }"
                 >
-                <div class="grid-4">
+                <div class="grid-4 border-pink2">
                   <div
                     id="RowOrder"
                     role="cell"
@@ -1074,6 +1074,11 @@ Elle est conseillée pour :<br><br>
 
 </script>
                           <style>
+                            .border-pink2 {
+                              padding-top:5px;
+                               border-bottom:2px solid #F8C8D3;
+                                 padding-bottom: 5px;
+                            }
                             .border-pink {
                               border-bottom:2px solid #F8C8D3;
                               padding-bottom: 5px;
