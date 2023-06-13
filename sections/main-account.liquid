@@ -349,7 +349,25 @@ Elle est conseillée pour :<br><br>
                             width="150"
                           >
                     
-                     <div class="properties">
+                   
+                    </div>
+               
+                    <div style="padding-left:20px;">
+                   <h3>{{ line_item.title }}</h3>
+                   <p>   {%- unless line_item.product.has_only_default_variant -%}
+                        <span>
+                          {{ line_item.variant.title }}
+                        </span>
+                      {%- endunless -%}
+                      {%- unless line_item.selling_plan_allocation == nil -%}
+                        <span>
+                          {{ line_item.selling_plan_allocation.selling_plan.name }}
+                        </span>
+                      {%- endunless -%}</p>
+                   <p>Commandé une fois</p>
+
+                      <div class="grid-2">
+                          <div class="properties">
 
 
   <div class="item-ingredientes">
@@ -558,21 +576,7 @@ Elle est conseillée pour :<br><br>
                    
                      
                     </div>
-                    </div>
-               
-                    <div style="padding-left:20px;">
-                   <h3>{{ line_item.title }}</h3>
-                   <p>   {%- unless line_item.product.has_only_default_variant -%}
-                        <span>
-                          {{ line_item.variant.title }}
-                        </span>
-                      {%- endunless -%}
-                      {%- unless line_item.selling_plan_allocation == nil -%}
-                        <span>
-                          {{ line_item.selling_plan_allocation.selling_plan.name }}
-                        </span>
-                      {%- endunless -%}</p>
-                   <p>Commandé une fois</p>
+                    <div>
                 <p>Huiles :                    {% if item.properties != blank  %}
 <span class="description-cart">Huiles : </span>
 
@@ -593,7 +597,8 @@ Elle est conseillée pour :<br><br>
                     {% endfor %}
                
               </div>
-                
+                   <div>
+                   <div>
                 </div>
              
               {%- endfor -%}
