@@ -286,6 +286,7 @@ Elle est conseillée pour :<br><br>
               {%- for order in customer.orders -%}
                 <div role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
                 @click.away="order{{ order.name | replace: "#","" }} = false" class="grid-4">
+                <div class="grid-4">
                   <div
                     id="RowOrder"
                     role="cell"
@@ -308,7 +309,7 @@ Elle est conseillée pour :<br><br>
                   <div headers="RowOrder ColumnFulfillment" role="cell" data-label="{{ 'customer.orders.fulfillment_status' | t }}">
                     {{ order.fulfillment_status_label }}
                   </div>
-                
+                </div>
 
 
                  <div>
