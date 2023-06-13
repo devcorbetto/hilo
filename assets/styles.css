@@ -361,6 +361,7 @@ table:not([class]){
 
 .multicolumn-list__item.center .media--adapt img{
   cursor:pointer;
+  left:50%!important;
 }
 
 .rich-text__blocks .list-social__item a:hover .s0{
