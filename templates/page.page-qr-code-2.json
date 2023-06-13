@@ -323,7 +323,8 @@
           "type": "image",
           "settings": {
             "customcss": "",
-            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-logo.svg"
+            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-logo.svg",
+            "link_image": "https:\/\/hilo-cosmetiques.fr"
           }
         }
       },
