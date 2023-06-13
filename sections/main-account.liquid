@@ -54,161 +54,163 @@ L’huile végétale d’amande douce est reconnue pour les propriétés suivant
 Elle est conseillée pour :<br><br>
 <li>Les peaux sensibles, irritées</li>
 <li>Les peaux à tendance normale</li>
-<li>Les peaux à tendance sèche ou très sèche</li>{% endcapture %} 
+<li>Les peaux à tendance sèche ou très sèche</li>{% endcapture %}
 
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
+.section-{{ section.id }}-padding {
+padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+}
 
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
+@media screen and (min-width: 750px) {
+.section-{{ section.id }}-padding {
+padding-top: {{ section.settings.padding_top }}px;
+padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+}
 
-  .btn-diagnostic {
-  background: #D0C4E2;
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
-    padding: 0.8rem 2rem;
-    
-    min-width: 100%;
-    box-sizing: border-box;
-  }
-    .container-options > .option a {
-    z-index:2;
-          display: block;
-      position:relative;
-  }
-  .container-options, .container-content {
-    border-radius:20px;
-    border:2px solid #FBDAE2;
-    position:Relative;
-    overflow:hidden;
-  }
-  .container-content h3 {
-    font-weight:bold;
-    margin-bottom:20px;
-  }
-    .container-content h2 {
-    font-weight:bold;
-      text-align:center;
-    margin-bottom:10px;
-  }
-   .container-options > div.active {
-     background:#FBDAE2;
-     color:#575756;
-   } 
-   .container-options > div {
-     padding:10px 14px;
-     padding-bottom:20px;
-     border-bottom:1px solid #FBDAE2;
-   }
-  .container-options > div:last-child {
-    border:none;
-  }
-  thead, tbody tr {
-    border-bottom:1px solid #FBDAE2;
-  }
- tbody tr:last-child {
-    border-bottom:0px;
-  }
-  table {
-    width: 100%;
-  }
-  thead th, tbody th,  tbody {
-    text-align:center;
-  }
-    .row-ingredientes {
-      margin-top:20px;
-    }
-  .row-ingredientes img {
-    width:64px;
-    margin:30px auto;
-   
-  }
-   .row-ingredientes .container-color {
-      border:2px solid #FBDAE2;
-     border-radius:30px;
-     padding:15px;
-   }
- .diagnostics  
-  {
-    font-size:12px;
-  }
-  
- .diagnostics  p
-  {
-    font-size:14px;
-  }
+.btn-diagnostic {
+background: #D0C4E2;
+border-radius: 30px;
+color: white;
+font-weight: bold;
+padding: 0.8rem 2rem;
+
+min-width: 100%;
+box-sizing: border-box;
+}
+.container-options > .option a {
+z-index:2;
+display: block;
+position:relative;
+}
+.container-options, .container-content {
+border-radius:20px;
+border:2px solid #FBDAE2;
+position:Relative;
+overflow:hidden;
+}
+.container-content h3 {
+font-weight:bold;
+margin-bottom:20px;
+}
+.container-content h2 {
+font-weight:bold;
+text-align:center;
+margin-bottom:10px;
+}
+.container-options > div.active {
+background:#FBDAE2;
+color:#575756;
+}
+.container-options > div {
+padding:10px 14px;
+padding-bottom:20px;
+border-bottom:1px solid #FBDAE2;
+}
+.container-options > div:last-child {
+border:none;
+}
+thead, tbody tr {
+border-bottom:1px solid #FBDAE2;
+}
+tbody tr:last-child {
+border-bottom:0px;
+}
+table {
+width: 100%;
+}
+thead th, tbody th, tbody {
+text-align:center;
+}
+.row-ingredientes {
+margin-top:20px;
+}
+.row-ingredientes img {
+width:64px;
+margin:30px auto;
+
+}
+.row-ingredientes .container-color {
+border:2px solid #FBDAE2;
+border-radius:30px;
+padding:15px;
+}
+.diagnostics
+{
+font-size:12px;
+}
+
+.diagnostics p
+{
+font-size:14px;
+}
 .option.active svg {
-  display:block;
+display:block;
 }
-  .option svg {
-  display:none;
+.option svg {
+display:none;
 }
-  .diagnostics h4 {
-    text-align:center;
-    font-weight:600;
-    margin-bottom:20px;
-  }
+.diagnostics h4 {
+text-align:center;
+font-weight:600;
+margin-bottom:20px;
+}
 {%- endstyle -%}
 
 <div class="container row  mx-auto my-40 flex-1 flex page-width gap-x-10" style="padding-top:50px;
-  padding-bottom:150px;"
-  x-data="{ open1: true , open2: false ,open3: false,open4: false
+  padding-bottom:150px;" x-data="{ open1: true , open2: false ,open3: false,open4: false
      {%- if customer.orders.size > 0 -%}
     ,
        {% for order in customer.orders %}
          {% if forloop.last %}
-         order{{ order.name | replace: "#","" }}: false
-  {% else %}
-      order{{ order.name  | replace: "#","" }}: false,
-    {% endif %}
-           {% endfor %}
-   {% endif %}
-  }"
-  
-  >
+         order{{ order.name | replace: " #","" }}: false {% else %} order{{ order.name | replace: "#" ,"" }}: false, {%
+  endif %} {% endfor %} {% endif %} }">
   <div class="  w-1/4">
-  <div class="container-options">
-    <div class="option " :class="{ 'active': open1 }" style="position:relative;">
-      <a href="#" @click="open1 = true, open2 = false, open3 = false, open4= false" >Mon profil</a>
-    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="waves-account " style="position: absolute;
+    <div class="container-options">
+      <div class="option " :class="{ 'active': open1 }" style="position:relative;">
+        <a href="#" @click="open1 = true, open2 = false, open3 = false, open4= false">Mon profil</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.69 88.164" class="waves-account " style="position: absolute;
   bottom: -2px;
     width: 100%;
       height:auto;
         left:0px;
        
    z-index: 1;">
-  <g transform="translate(5120.845 -4803.674)">
-    <path style="fill:white;" id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-    <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-  </g>
-</svg></div>
-    
-    <div class="option" :class="{ 'active': open2 }"  style="position:relative;">
-      <a href="#"  @click="open2 = true, open1 = false, open3 = false, open4= false"  >Mes diagnostics</a>
-    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="waves-account" style="position: absolute;
+          <g transform="translate(5120.845 -4803.674)">
+            <path style="fill:white;" id="Tracé_952" data-name="Tracé 952"
+              d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+            <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour"
+              d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="option" :class="{ 'active': open2 }" style="position:relative;">
+        <a href="#" @click="open2 = true, open1 = false, open3 = false, open4= false">Mes diagnostics</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.69 88.164" class="waves-account" style="position: absolute;
   bottom: -2px;
     width: 100%;
       height:auto;
         left:0px;
    z-index:1;">
-  <g transform="translate(5120.845 -4803.674)">
-    <path style="fill:white;" id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-    <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-  </g>
-</svg></div>
-    <div class="option" :class="{ 'active': open3 }"  style="position:relative;">
-      <a href="#"  @click="open3 = true, open2 = false, open1 = false, open4= false" >Mes commandes</a>
-    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="waves-account" style="position: absolute;
+          <g transform="translate(5120.845 -4803.674)">
+            <path style="fill:white;" id="Tracé_952" data-name="Tracé 952"
+              d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+            <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour"
+              d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="option" :class="{ 'active': open3 }" style="position:relative;">
+        <a href="#" @click="open3 = true, open2 = false, open1 = false, open4= false">Mes commandes</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.69 88.164" class="waves-account" style="position: absolute;
 
     width: 100%;
     bottom: -2px;
@@ -217,849 +219,868 @@ Elle est conseillée pour :<br><br>
         left:0px;
       left:0px;
       z-index: 1;">
-  <g transform="translate(5120.845 -4803.674)">
-    <path style="fill:white;" id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-    <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-  </g>
-</svg></div>
-   <div class="option" :class="{ 'active': open4 }"   style="position:relative;">
-     <a href="#" @click="open4 = true, open2 = false, open3 = false, open1= false">Service client</a>
-   <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="waves-account" style="position: absolute;
+          <g transform="translate(5120.845 -4803.674)">
+            <path style="fill:white;" id="Tracé_952" data-name="Tracé 952"
+              d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+            <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour"
+              d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="option" :class="{ 'active': open4 }" style="position:relative;">
+        <a href="#" @click="open4 = true, open2 = false, open3 = false, open1= false">Service client</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1925.69 88.164" class="waves-account" style="position: absolute;
     bottom: -2px;
     width: 100%;
       height:auto;
         left:0px;
        z-index: 1;">
-  <g transform="translate(5120.845 -4803.674)">
-    <path style="fill:white;" id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-    <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-  </g>
-</svg></div>
-   <div class="option"><a href="{{ routes.account_logout_url }}">  {{ 'customer.log_out' | t }}   
-                       </a></div>
-  </div>
+          <g transform="translate(5120.845 -4803.674)">
+            <path style="fill:white;" id="Tracé_952" data-name="Tracé 952"
+              d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+            <path style="fill:white;" id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour"
+              d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
+              transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="option"><a href="{{ routes.account_logout_url }}"> {{ 'customer.log_out' | t }}
+        </a></div>
     </div>
-   <div class="container-content service-client w-3/4 p-20"  x-show="open4">
-           <h2 class="mb-10"> BESOIN D'AIDE ?</h2>
-           <p class="text-center mb-8">Consultez notre <a href="/pages/faq/">FAQ</a>, vous y trouverez les réponses à vos questions les plus fréquentes.</p>
-    <p class="text-center mb-8">  Vous avez besoin d'une aide personnalisée ?</p>
-      <p class="text-center mb-8 ">Léa, <b>votre Customer Happiness Manager</b> est à votre écoute et vous répondra le plus rapidement possible.</p>
-      <p class="text-center mb-4"><a href="https://hilo-cosmetiques.myshopify.com/pages/contact">Contactez-là par <a href="/pages/contact">ici</a> !</a></p>
-  
-          </div>
+  </div>
+  <div class="container-content service-client w-3/4 p-20" x-show="open4">
+    <h2 class="mb-10"> BESOIN D'AIDE ?</h2>
+    <p class="text-center mb-8">Consultez notre <a href="/pages/faq/">FAQ</a>, vous y trouverez les réponses à vos
+      questions les plus fréquentes.</p>
+    <p class="text-center mb-8"> Vous avez besoin d'une aide personnalisée ?</p>
+    <p class="text-center mb-8 ">Léa, <b>votre Customer Happiness Manager</b> est à votre écoute et vous répondra le
+      plus rapidement possible.</p>
+    <p class="text-center mb-4"><a href="https://hilo-cosmetiques.myshopify.com/pages/contact">Contactez-là par <a
+          href="/pages/contact">ici</a> !</a></p>
 
-  
-          <div class="container-content w-3/4 p-20"  x-show="open1 ">
-           <h3> MES INFORMATIONS</h3>
-            Prénom :  {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br>  E-mail : {{ customer.email }}<br><br>
+  </div>
 
-            <h3>MON ADRESSE DE LIVRAISON</h3>
-                <a href="{{ routes.account_addresses_url }}" style="float:right;">
-       Modifier
-      </a>
-             Nom: {{ customer.name }}             <br> 
-            Adresse :  {{ customer.default_address.address1 }}<br>            {{ customer.default_address.city }}<br> {{ customer.default_address.country }}     <br> 
 
-  
-          </div>
+  <div class="container-content w-3/4 p-20" x-show="open1 ">
+    <h3> MES INFORMATIONS</h3>
+    Prénom : {{ customer.first_name }}<br> Nom : {{ customer.last_name }} <br> E-mail : {{ customer.email }}<br><br>
 
- 
+    <h3>MON ADRESSE DE LIVRAISON</h3>
+    <a href="{{ routes.account_addresses_url }}" style="float:right;">
+      Modifier
+    </a>
+    Nom: {{ customer.name }} <br>
+    Adresse : {{ customer.default_address.address1 }}<br> {{ customer.default_address.city }}<br> {{
+    customer.default_address.country }} <br>
+
+
+  </div>
+
+
 
   <div class="container-content w-3/4 p-20" x-show="open3 ">
 
-              <h2> MES COMMANDES</h2>
-     {% paginate customer.orders by 20 %}
-        {%- if customer.orders.size > 0 -%}
-          <div role="table" class="order-history">
-       
-            <div role="rowgroup">
-              <div role="row" class="grid-4 border-pink text-center font-semibold">
-                <div id="ColumnOrder" scope="col" role="columnheader">N°</div>
-                <div id="ColumnDate" scope="col" role="columnheader">{{ 'customer.orders.date' | t }}</div>
-                <div id="ColumnPayment" scope="col" role="columnheader" style="display:none;">{{ 'customer.orders.payment_status' | t }}</div>
-                <div id="ColumnTotal" scope="col" role="columnheader">Prix</div>
-                <div id="ColumnFulfillment" scope="col" role="columnheader">Status</div>
-                
-              </div>
-            </div>
-           
-              {%- for order in customer.orders -%}
-                <div role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
-                @click.away="order{{ order.name | replace: "#","" }} = false" 
-                :class="{ 'active': order{{ order.name | replace: "#","" }} }"
-                >
-                <div class="grid-4 border-pink2">
-                  <div
-                    id="RowOrder"
-                    role="cell"
-                    headers="ColumnOrder"
-                    data-label="{{ 'customer.orders.order_number' | t }}"
-                  >
-                   {% comment %} <a href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
-                      {% endcomment %}
-                {{ order.name | replace: "#",""}}
-                  
-                  </div>
-                  <div headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
-                    {{ order.created_at |  date: "%d/%m/%Y"  }}
-                  </div>
-                  <div headers="RowOrder ColumnPayment" role="cell" data-label="{{ 'customer.orders.payment_status' | t }}" style="display:none;">>
-                    {{ order.financial_status_label }}
-                  </div>
-                 <div headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
-                    {{ order.total_price | money_with_currency | replace: " ", ""}}</div>
-                  <div headers="RowOrder ColumnFulfillment" role="cell" data-label="{{ 'customer.orders.fulfillment_status' | t }}">
-                    {{ order.fulfillment_status_label }}
-                  </div>
-                </div>
+    <h2> MES COMMANDES</h2>
+    {% paginate customer.orders by 20 %}
+    {%- if customer.orders.size > 0 -%}
+    <div role="table" class="order-history">
 
+      <div role="rowgroup">
+        <div role="row" class="grid-4 border-pink text-center font-semibold">
+          <div id="ColumnOrder" scope="col" role="columnheader">N°</div>
+          <div id="ColumnDate" scope="col" role="columnheader">{{ 'customer.orders.date' | t }}</div>
+          <div id="ColumnPayment" scope="col" role="columnheader" style="display:none;">{{
+            'customer.orders.payment_status' | t }}</div>
+          <div id="ColumnTotal" scope="col" role="columnheader">Prix</div>
+          <div id="ColumnFulfillment" scope="col" role="columnheader">Status</div>
 
-                 <div>
-              {% comment %}  <a href="">Suivre mon colis</a> {% endcomment %}
-              
-                
-                {%- for line_item in order.line_items -%}
-                 {%- if line_item.fulfillment -%}
-                    <div class="fulfillment">
-                      {%- assign created_at = line_item.fulfillment.created_at | time_tag: format: 'date' -%}
-                      <span>{{ 'customer.order.fulfilled_at_html' | t: date: created_at }}</span>
+        </div>
+      </div>
 
-                        {%- if line_item.fulfillment.tracking_url -%}
-                          <a href="{{ line_item.fulfillment.tracking_url }}">
-                            {{ 'customer.order.track_shipment' | t }}
-                          </a>
-                        {%- endif -%}
-                        <span>
-                          {{ line_item.fulfillment.tracking_company }}
-                          {%- if line_item.fulfillment.tracking_number -%} #{{ line_item.fulfillment.tracking_number }} {%- endif -%}
-                        </span>
-                    </div>
-                  {%- endif -%}
-                     {% endfor %}
-              </div>
-              <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}" class="grid-2"> 
-                  {%- for line_item in order.line_items -%}
+      {%- for order in customer.orders -%}
+      <div role="row" @click="order{{ order.name | replace: " #","" }}=! order{{ order.name | replace: "#" ,"" }}"
+        @click.away="order{{ order.name | replace: " #","" }}=false" :class="{ 'active': order{{ order.name | replace: "
+        #","" }} }">
+        <div class="grid-4 border-pink2">
+          <div id="RowOrder" role="cell" headers="ColumnOrder" data-label="{{ 'customer.orders.order_number' | t }}">
+            {% comment %} <a href="{{ order.customer_url }}"
+              aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
+              {% endcomment %}
+              {{ order.name | replace: "#",""}}
 
-                 <div >
-
-                     <img src="{{ line_item.image | image_url: width: 300 }}" style="border-radius:30px;"
-                            class="cart-item__image"
-                            alt="{{ line_item.image.alt | escape }}"
-                            loading="lazy"
-                            width="150"
-                          >
-                    
-                   
-                    </div>
-               
-                    <div style="padding-left:20px;">
-                   <h3>{{ line_item.title }}</h3>
-                   <p>   {%- unless line_item.product.has_only_default_variant -%}
-                        <span>
-                          {{ line_item.variant.title }}
-                        </span>
-                      {%- endunless -%}
-                      {%- unless line_item.selling_plan_allocation == nil -%}
-                        <span>
-                          {{ line_item.selling_plan_allocation.selling_plan.name }}
-                        </span>
-                      {%- endunless -%}</p>
-                   <p>Commandé une fois</p>
-
-                    </div>  
-                </div>
-                <div class="grid-2" style="align-items: center;">
-                    <div class="properties">
-
-
-  <div class="item-ingredientes">
-
-                      
-{% capture propertys %}                      
-{%- for property in line_item.properties  -%}
-  {% if property contains '3' %}
-
-      {%- assign property_first_char = property.first | slice: 0 -%}
-      {% if forloop.last %}
-          {%- if property.last != blank and property_first_char != '_' -%}
-          <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-             <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-                         <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-          {%- endif -%}
-        {% else %}
-        {%- if property.last != blank and property_first_char != '_' -%}
-        <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-            <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-          
-            <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-        {%- endif -%}
-      {% endif %}
-{% endif %}
-
-
-                        
-
-  
-{% if property contains '2' %}
-
-      {%- assign property_first_char = property.first | slice: 0 -%}
-      {% if forloop.last %}
-          {%- if property.last != blank and property_first_char != '_' -%}
-          <span class="product-option">
-          {{ property.first   | capitalize }}
-          </span>,
-                        
-           <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-                       
-          {%- endif -%}
-        {% else %}
-        {%- if property.last != blank and property_first_char != '_' -%}
-        <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-            <span class="product-option">
-        {{ property.first   | capitalize }},
-        
-        </span>
-          
-        {%- endif -%}
-      {% endif %}
-{% endif %}
-
-  
-{% if property contains '1' %}
-
-      {%- assign property_first_char = property.first | slice: 0 -%}
-      {% if forloop.last %}
-          {%- if property.last != blank and property_first_char != '_' -%}
-          <span class="product-option">
-          {{ property.first   | capitalize }},
-          
-          </span>
-          {%- endif -%}
-        {% else %}
-        {%- if property.last != blank and property_first_char != '_' -%}
-        <span class="product-option">
-        {{ property.first   | capitalize }},
-           </span>
-      
-        {%- endif -%}
-      {% endif %}
-{% endif %}
-  
-{%- endfor -%}
-  {% endcapture %}
-                   
-                      
-       {% assign capture_string = propertys %}
-{% assign capture_array = capture_string | split: ',' %}
-
-                      
-                      {%- for property in line_item.properties  -%}
-                   {% if property contains '2' %}
-                  {%- assign property_first_char = property.first | slice: 0 -%}
-                    
-                          {%- if property.last != blank and property_first_char != '_' -%}
-                            <span class="product-option">
-                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
-                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
-                            
-                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
-                       
-                            
-               
-                             {% comment %} <dd>
-                                {%- if property.last contains '/uploads/' -%}
-                                  <a href="{{ property.last }}" class="link" target="_blank">
-                                    {{ property.last | split: '/' | last }}
-                                  </a>
-                                {%- else -%}
-                                  {{ property.last }}
-                                {%- endif -%}
-                              </dd> {% endcomment %}
-                            </span>
-                          {%- endif -%}
-                   {%endif %}  
-                {% if property contains '3' %}
-                 {%- assign property_first_char = property.first | slice: 0 -%}
-                    
-                          {%- if property.last != blank and property_first_char != '_' -%}
-                            <span class="product-option">
-                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
-                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
-                            
-                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
-                       
-                            
-               
-                             {% comment %} <dd>
-                                {%- if property.last contains '/uploads/' -%}
-                                  <a href="{{ property.last }}" class="link" target="_blank">
-                                    {{ property.last | split: '/' | last }}
-                                  </a>
-                                {%- else -%}
-                                  {{ property.last }}
-                                {%- endif -%}
-                              </dd> {% endcomment %}
-                            </span>
-                          {%- endif -%}
-                           {%- assign property_first_char = property.first | slice: 0 -%}
-                    
-                          {%- if property.last != blank and property_first_char != '_' -%}
-                            <span class="product-option">
-                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
-                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
-                            
-                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
-                       
-                            
-               
-                             {% comment %} <dd>
-                                {%- if property.last contains '/uploads/' -%}
-                                  <a href="{{ property.last }}" class="link" target="_blank">
-                                    {{ property.last | split: '/' | last }}
-                                  </a>
-                                {%- else -%}
-                                  {{ property.last }}
-                                {%- endif -%}
-                              </dd> {% endcomment %}
-                            </span>
-                          {%- endif -%} 
-                   {% endif %}  
-                          {%- assign property_first_char = property.first | slice: 0 -%}
-                    
-                          {%- if property.last != blank and property_first_char != '_' -%}
-                            <span class="product-option">
-                            {% assign item1 =  property.first  | remove: "Huile de" | remove: "Huile"   |  downcase  %}
-                               {% assign item2 =  item1 | escape | remove: "&amp;#39;" | remove: " "  %}
-                            
-                             <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
-                       
-                            
-               
-                             {% comment %} <dd>
-                                {%- if property.last contains '/uploads/' -%}
-                                  <a href="{{ property.last }}" class="link" target="_blank">
-                                    {{ property.last | split: '/' | last }}
-                                  </a>
-                                {%- else -%}
-                                  {{ property.last }}
-                                {%- endif -%}
-                              </dd> {% endcomment %}
-                            </span>
-                          {%- endif -%}
-                        {%- endfor -%}
- 
-                        
-                      </div>
-                         
-                   
-                     
-                    </div>
-
-             
-                <p>Huiles :                    {% if item.properties != blank  %}
-<span class="description-cart">Huiles : </span>
-
-
-{% endif %}
-
-
-
-{% for item in capture_array  limit:3%}
-{% if forloop.index == 3 %}
-    {{ item }}  
-  {% else %}
- {{ item }}, 
-  {% endif %}
-{% endfor %} </p>
-                 </div>
-                
-                    {% endfor %}
-               
-              </div>
-                
-                </div>
-             
-              {%- endfor -%}
-           
           </div>
-        {%- else -%}
-          <p>{{ 'customer.orders.none' | t }}</p>
-        {%- endif -%}
+          <div headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
+            {{ order.created_at | date: "%d/%m/%Y" }}
+          </div>
+          <div headers="RowOrder ColumnPayment" role="cell" data-label="{{ 'customer.orders.payment_status' | t }}"
+            style="display:none;">>
+            {{ order.financial_status_label }}
+          </div>
+          <div headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
+            {{ order.total_price | money_with_currency | replace: " ", ""}}</div>
+          <div headers="RowOrder ColumnFulfillment" role="cell"
+            data-label="{{ 'customer.orders.fulfillment_status' | t }}">
+            {{ order.fulfillment_status_label }}
+          </div>
+        </div>
 
-        {%- if paginate.pages > 1 -%}
-          {%- if paginate.parts.size > 0 -%}
-              <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
-                <ul role="list">
-                {%- if paginate.previous -%}
-                  <li>
-                    <a href="{{ paginate.previous.url }}" aria-label="{{ 'general.pagination.previous' | t }}">
-                      <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-                      </svg>
-                    </a>
-                  </li>
-                {%- endif -%}
 
-                {%- for part in paginate.parts -%}
-                  <li>
-                    {%- if part.is_link -%}
-                      <a href="{{ part.url }}" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>
-                    {%- else -%}
-                      {%- if part.title == paginate.current_page -%}
-                        <span aria-current="page" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</span>
-                      {%- else -%}
-                        <span>{{ part.title }}</span>
-                      {%- endif -%}
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
+        <div>
+          {% comment %} <a href="">Suivre mon colis</a> {% endcomment %}
 
-                {%- if paginate.next -%}
-                  <li>
-                    <a href="{{ paginate.next.url }}" aria-label="{{ 'general.pagination.next' | t }}" >
-                      <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-                      </svg>
-                    </a>
-                  </li>
-                {%- endif -%}
-                </ul>
-              </nav>
+
+          {%- for line_item in order.line_items -%}
+          {%- if line_item.fulfillment -%}
+          <div class="fulfillment">
+            {%- assign created_at = line_item.fulfillment.created_at | time_tag: format: 'date' -%}
+            <span>{{ 'customer.order.fulfilled_at_html' | t: date: created_at }}</span>
+
+            {%- if line_item.fulfillment.tracking_url -%}
+            <a href="{{ line_item.fulfillment.tracking_url }}">
+              {{ 'customer.order.track_shipment' | t }}
+            </a>
+            {%- endif -%}
+            <span>
+              {{ line_item.fulfillment.tracking_company }}
+              {%- if line_item.fulfillment.tracking_number -%} #{{ line_item.fulfillment.tracking_number }} {%- endif
+              -%}
+            </span>
+          </div>
           {%- endif -%}
+          {% endfor %}
+        </div>
+        <div style="text-align:left;" x-show="  order{{ order.name | replace: " #",""}}" class="grid-2">
+          {%- for line_item in order.line_items -%}
+
+          <div>
+
+            <img src="{{ line_item.image | image_url: width: 300 }}" style="border-radius:30px;"
+              class="cart-item__image" alt="{{ line_item.image.alt | escape }}" loading="lazy" width="150">
+
+
+          </div>
+
+          <div style="padding-left:20px;">
+            <h3>{{ line_item.title }}</h3>
+            <p> {%- unless line_item.product.has_only_default_variant -%}
+              <span>
+                {{ line_item.variant.title }}
+              </span>
+              {%- endunless -%}
+              {%- unless line_item.selling_plan_allocation == nil -%}
+              <span>
+                {{ line_item.selling_plan_allocation.selling_plan.name }}
+              </span>
+              {%- endunless -%}
+            </p>
+            <p>Commandé une fois</p>
+
+          </div>
+        </div>
+        <div class="grid-2" style="align-items: center;">
+          <div class="properties">
+
+
+            <div class="item-ingredientes">
+
+
+              {% capture propertys %}
+              {%- for property in line_item.properties -%}
+              {% if property contains '3' %}
+
+              {%- assign property_first_char = property.first | slice: 0 -%}
+              {% if forloop.last %}
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              {%- endif -%}
+              {% else %}
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              {%- endif -%}
+              {% endif %}
+              {% endif %}
+
+
+
+
+
+              {% if property contains '2' %}
+
+              {%- assign property_first_char = property.first | slice: 0 -%}
+              {% if forloop.last %}
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {{ property.first | capitalize }}
+              </span>,
+
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+
+              {%- endif -%}
+              {% else %}
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+
+              {%- endif -%}
+              {% endif %}
+              {% endif %}
+
+
+              {% if property contains '1' %}
+
+              {%- assign property_first_char = property.first | slice: 0 -%}
+              {% if forloop.last %}
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {{ property.first | capitalize }},
+
+              </span>
+              {%- endif -%}
+              {% else %}
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {{ property.first | capitalize }},
+              </span>
+
+              {%- endif -%}
+              {% endif %}
+              {% endif %}
+
+              {%- endfor -%}
+              {% endcapture %}
+
+
+              {% assign capture_string = propertys %}
+              {% assign capture_array = capture_string | split: ',' %}
+
+
+              {%- for property in line_item.properties -%}
+              {% if property contains '2' %}
+              {%- assign property_first_char = property.first | slice: 0 -%}
+
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {% assign item1 = property.first | remove: "Huile de" | remove: "Huile" | downcase %}
+                {% assign item2 = item1 | escape | remove: "&amp;#39;" | remove: " " %}
+
+                <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+
+
+
+                {% comment %} <dd>
+                  {%- if property.last contains '/uploads/' -%}
+                  <a href="{{ property.last }}" class="link" target="_blank">
+                    {{ property.last | split: '/' | last }}
+                  </a>
+                  {%- else -%}
+                  {{ property.last }}
+                  {%- endif -%}
+                </dd> {% endcomment %}
+              </span>
+              {%- endif -%}
+              {%endif %}
+              {% if property contains '3' %}
+              {%- assign property_first_char = property.first | slice: 0 -%}
+
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {% assign item1 = property.first | remove: "Huile de" | remove: "Huile" | downcase %}
+                {% assign item2 = item1 | escape | remove: "&amp;#39;" | remove: " " %}
+
+                <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+
+
+
+                {% comment %} <dd>
+                  {%- if property.last contains '/uploads/' -%}
+                  <a href="{{ property.last }}" class="link" target="_blank">
+                    {{ property.last | split: '/' | last }}
+                  </a>
+                  {%- else -%}
+                  {{ property.last }}
+                  {%- endif -%}
+                </dd> {% endcomment %}
+              </span>
+              {%- endif -%}
+              {%- assign property_first_char = property.first | slice: 0 -%}
+
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {% assign item1 = property.first | remove: "Huile de" | remove: "Huile" | downcase %}
+                {% assign item2 = item1 | escape | remove: "&amp;#39;" | remove: " " %}
+
+                <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+
+
+
+                {% comment %} <dd>
+                  {%- if property.last contains '/uploads/' -%}
+                  <a href="{{ property.last }}" class="link" target="_blank">
+                    {{ property.last | split: '/' | last }}
+                  </a>
+                  {%- else -%}
+                  {{ property.last }}
+                  {%- endif -%}
+                </dd> {% endcomment %}
+              </span>
+              {%- endif -%}
+              {% endif %}
+              {%- assign property_first_char = property.first | slice: 0 -%}
+
+              {%- if property.last != blank and property_first_char != '_' -%}
+              <span class="product-option">
+                {% assign item1 = property.first | remove: "Huile de" | remove: "Huile" | downcase %}
+                {% assign item2 = item1 | escape | remove: "&amp;#39;" | remove: " " %}
+
+                <img style="height:36px" src="{{ item2  | append: '-capsule.png'  | asset_url }}">
+
+
+
+                {% comment %} <dd>
+                  {%- if property.last contains '/uploads/' -%}
+                  <a href="{{ property.last }}" class="link" target="_blank">
+                    {{ property.last | split: '/' | last }}
+                  </a>
+                  {%- else -%}
+                  {{ property.last }}
+                  {%- endif -%}
+                </dd> {% endcomment %}
+              </span>
+              {%- endif -%}
+              {%- endfor -%}
+
+
+            </div>
+
+
+
+          </div>
+
+
+          <p>Huiles : {% if item.properties != blank %}
+            <span class="description-cart">Huiles : </span>
+
+
+            {% endif %}
+
+
+
+            {% for item in capture_array limit:3%}
+            {% if forloop.index == 3 %}
+            {{ item }}
+            {% else %}
+            {{ item }},
+            {% endif %}
+            {% endfor %}
+          </p>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+    {%- endfor -%}
+
+  </div>
+  {%- else -%}
+  <p>{{ 'customer.orders.none' | t }}</p>
+  {%- endif -%}
+
+  {%- if paginate.pages > 1 -%}
+  {%- if paginate.parts.size > 0 -%}
+  <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
+    <ul role="list">
+      {%- if paginate.previous -%}
+      <li>
+        <a href="{{ paginate.previous.url }}" aria-label="{{ 'general.pagination.previous' | t }}">
+          <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+              fill="currentColor">
+          </svg>
+        </a>
+      </li>
+      {%- endif -%}
+
+      {%- for part in paginate.parts -%}
+      <li>
+        {%- if part.is_link -%}
+        <a href="{{ part.url }}" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title
+          }}</a>
+        {%- else -%}
+        {%- if part.title == paginate.current_page -%}
+        <span aria-current="page" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title
+          }}</span>
+        {%- else -%}
+        <span>{{ part.title }}</span>
         {%- endif -%}
-      {% endpaginate %}
-                        </div>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
 
-                            <div class="container-content w-3/4 p-10 diagnostics" x-show="open2 ">
-                              <h2 class="pt-10">MON MATCH PARFAIT DU MOMENT</h2>
-                              {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
-
-                             
-                              
-                              {% for diagnostic in diagnostics %}
-{% if forloop.index == 1 %}
-                                
-{% assign diagnostic_ing3 = diagnostic.ing3  %}
-  
-{% if diagnostic.preocupa1 == 'Brillance' %}
-{% assign diagnostic_ing3 = 'Noisette' %}
-{% endif %}
-
-{% if   diagnostic.preocupa1 == 'Deshydratation'  %}
-{% assign diagnostic_ing3 = 'Onagre' %}
-{% endif %}
-
-                                  
-
-{% if diagnostic.preocupa1 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_ing3  = 'Noisette' %}
-   
-  {% endif %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_ing3  = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53a' %}
-  {% assign diagnostic_ing3  = 'Carotte' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53b' %}
-  {% assign diagnostic_ing3  = 'Abricot' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Signes' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_ing3  = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% endif %}
-
-
-                                          
-{% assign diagnostic_ing2 = diagnostic.ing2 %}
-{% if diagnostic.preocupa2 == 'Imperfections' %}
- {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-   {% assign diagnostic_ing2 = 'Noisette' %}
-   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Rougeurs' %}
- {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-   {% assign diagnostic_ing2 = 'Amande' %}
-   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Eclat' %}
- {% if diagnostic.f53 == 'f53a' %}
-   {% assign diagnostic_ing2 = 'Carotte' %}
- {% elsif diagnostic.f53 == 'f53b' %}
-   {% assign diagnostic_ing2 = 'Abricot' %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Signes' %}
- {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-   {% assign diagnostic_ing2 = 'Argan' %}
-   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Brillance' %}
- {% assign diagnostic_ing2 = 'Noisette' %}
- {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostic.preocupa2 == 'Deshydratation' %}
- {% assign diagnostic_ing2 = 'Onagre' %}
- {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-                                
-                          
-{% assign diagnostic_ing1 = diagnostic.ing1 %}
-{% if diagnostic.preocupa3 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_preocupa3 = 'Noisette' %}
-    {% assign diagnostic_ing1 = 'Noisette' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_preocupa3 = 'Amande' %}
-    {% assign diagnostic_ing1 = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Eclat' %}
-  {% if diagnostic.f53 == 'f53a' %}
-    {% assign diagnostic_preocupa3 = 'Carotte' %}
-    {% assign diagnostic_ing1 = 'Carotte' %}
-  {% elsif diagnostic.f53 == 'f53b' %}
-    {% assign diagnostic_preocupa3 = 'Abricot' %}
-    {% assign diagnostic_ing1 = 'Abricot' %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Signes' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_preocupa3 = 'Argan' %}
-    {% assign diagnostic_ing1 = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Brillance' %}
-  {% assign diagnostic_preocupa3 = 'Noisette' %}
-  {% assign diagnostic_ing1 = 'Noisette' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostic.preocupa3 == 'Deshydratation' %}
-  {% assign diagnostic_preocupa3 = 'Onagre' %}
-  {% assign diagnostic_ing1 = 'Onagre' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}             
-                                 <p class="text-center pt-10 mb-4">Selon mon diagnostic favori pour    {{ diagnostic.name }} réalisé le {{ diagnostic.date }}</p>
-                             <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
-                                <div class="column1">
-                               
-                                    {% assign ing1_image = '' %}
-
- {% if diagnostic_ing1 == '' %}  
-
-{% if diagnostic.ing1 == 'Amande' %}
-  {% assign ing1_image = 'amande2.svg' %}
-{% elsif diagnostic.ing1 == 'Onagre' %}
-  {% assign ing1_image = 'onagre2.svg' %}
-{% elsif diagnostic.ing1 == 'Argan' %}
-  {% assign ing1_image = 'argan2.svg' %}
-{% elsif diagnostic.ing1 == 'Abricot' %}
-  {% assign ing1_image = 'abricot2.svg' %}
-{% elsif diagnostic.ing1 == 'Noisette' %}
-  {% assign ing1_image = 'noisette2.svg' %}
-{% else %}
-  {% assign ing1_image = 'carotte2.svg' %}
-{% endif %}
-   
-     {% else %}   
-        {% assign ing1_image = diagnostic_ing1 | append: '2.svg' | downcase %}  
-{% endif %}
-
-                                  
-<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="height:64px;">
-                                <div class="container-color"> 
-{% if diagnostic_ing1 == 'Amande' %}
- {{ amande }}
-{% elsif diagnostic_ing1 == 'Onagre' %}
- {{ onagre }}
-{% elsif diagnostic_ing1 == 'Argan' %}
- {{ argan }}
-{% elsif diagnostic_ing1 == 'Abricot' %}
-  {{ abricot }}
-{% elsif diagnostic_ing1 == 'Noisette' %}
- {{ noisette }}
-{% else %}
-  {{ carotte }}
-{% endif %}
-                                </div>
-                               </div>
-                              <div class="column1">
-
-            {% assign ing2_image = '' %}
-
- {% if diagnostic_ing2 == '' %}                                        
-     {% if diagnostic.ing2 == 'Amande' %}
-  {% assign ing2_image = 'amande2.svg' %}
-{% elsif diagnostic.ing2 == 'Onagre' %}
-  {% assign ing2_image = 'onagre2.svg' %}
-{% elsif diagnostic.ing2 == 'Argan' %}
-  {% assign ing2_image = 'argan2.svg' %}
-{% elsif diagnostic.ing2 == 'Abricot' %}
-  {% assign ing2_image = 'abricot2.svg' %}
-{% elsif diagnostic.ing2 == 'Noisette' %}
-  {% assign ing2_image = 'noisette2.svg' %}
-{% else %}
-  {% assign ing2_image = 'carotte2.svg' %}
-{% endif %}
-   
-     {% else %}   
-        {% assign ing2_image = diagnostic_ing2 | append: '2.svg' | downcase %}  
-{% endif %}
-                                  
-<img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="height:64px;">
-                                
-                                   <div class="container-color">
-                                  {% if diagnostic_ing2 == 'Amande' %}
- {{ amande }}
-{% elsif diagnostic_ing2 == 'Onagre' %}
- {{ onagre }}
-{% elsif diagnostic_ing2 == 'Argan' %}
- {{ argan }}
-{% elsif diagnostic_ing2 == 'Abricot' %}
-  {{ abricot }}
-{% elsif diagnostic_ing2 == 'Noisette' %}
- {{ noisette }}
-{% else %}
-  {{ carotte }}
-{% endif %}
-                                </div>
-                                </div>
-                                   <div class="column1">
-                               
-                                        {% if diagnostic_ing3 == '' %}                   
-{% assign ing3_image = '' %}
-
-{% if diagnostic.ing3 == 'Amande' %}
-  {% assign ing3_image = 'amande2.svg' %}
-{% elsif diagnostic.ing3 == 'Onagre' %}
-  {% assign ing3_image = 'onagre2.svg' %}
-{% elsif diagnostic.ing3 == 'Argan' %}
-  {% assign ing3_image = 'argan2.svg' %}
-{% elsif diagnostic.ing3 == 'Abricot' %}
-  {% assign ing3_image = 'abricot2.svg' %}
-{% elsif diagnostic.ing3 == 'Noisette' %}
-  {% assign ing3_image = 'noisette2.svg' %}
-{% else %}
-  {% assign ing3_image = 'carotte2.svg' %}
- 
-  {% endif %}
-     {% else %}   
-        {% assign ing3_image = diagnostic_ing3 | append: '2.svg' | downcase %}  
-{% endif %}
-                                  
-                                  <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="height:64px;">
-                                     
-                                     <div class="container-color">
-                                  {% if diagnostic_ing3 == 'Amande' %}
- {{ amande }}
-{% elsif diagnostic_ing3 == 'Onagre' %}
- {{ onagre }}
-{% elsif diagnostic_ing3 == 'Argan' %}
- {{ argan }}
-{% elsif diagnostic_ing3== 'Abricot' %}
-  {{ abricot }}
-{% elsif diagnostic_ing3== 'Noisette' %}
- {{ noisette }}
-{% else %}
-  {{ carotte }}
-{% endif %}
-                                </div>
-                                 </div>
-                              </div>
-  {% endif %}
-                                {% endfor %}
-
-                 <p class="text-center mt-20 mb-20 ">           <a 
-                              href="https://hilo-cosmetiques.myshopify.com/pages/diagnostic" class="mt-20 mb-20 btn-diagnostic">Je réalise mon diagnostic</a>
-  </p> 
-                   <h2 class=" mb-20">
-    MES AUTRES DIAGNOSTICS
-  </h2>
-  
-  
-  <table class="table-auto w-full" style="border:0px;">
-   
- <div>
-    <th class="px-4 py-2">Diag</th>
-    <th class="px-4 py-2" >Date</th>
-    <th class="px-4 py-2" >Résultats</th>
-  </div>
-    {% for diagnostic in diagnostics %}
-    {% assign diagnostic_ing3 = diagnostic.ing3  %}
-  
-{% if diagnostic.preocupa1 == 'Brillance' %}
-{% assign diagnostic_ing3 = 'Noisette' %}
-{% endif %}
-
-{% if   diagnostic.preocupa1 == 'Deshydratation'  %}
-{% assign diagnostic_ing3 = 'Onagre' %}
-{% endif %}
-
-                                  
-
-{% if diagnostic.preocupa1 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_ing3  = 'Noisette' %}
-   
-  {% endif %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_ing3  = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53a' %}
-  {% assign diagnostic_ing3  = 'Carotte' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53b' %}
-  {% assign diagnostic_ing3  = 'Abricot' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-{% if diagnostic.preocupa1 == 'Signes' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_ing3  = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% endif %}
-
-
-                                          
-{% assign diagnostic_ing2 = diagnostic.ing2 %}
-{% if diagnostic.preocupa2 == 'Imperfections' %}
- {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-   {% assign diagnostic_ing2 = 'Noisette' %}
-   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Rougeurs' %}
- {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-   {% assign diagnostic_ing2 = 'Amande' %}
-   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Eclat' %}
- {% if diagnostic.f53 == 'f53a' %}
-   {% assign diagnostic_ing2 = 'Carotte' %}
- {% elsif diagnostic.f53 == 'f53b' %}
-   {% assign diagnostic_ing2 = 'Abricot' %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Signes' %}
- {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-   {% assign diagnostic_ing2 = 'Argan' %}
-   {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
- {% endif %}
-{% elsif diagnostic.preocupa2 == 'Brillance' %}
- {% assign diagnostic_ing2 = 'Noisette' %}
- {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostic.preocupa2 == 'Deshydratation' %}
- {% assign diagnostic_ing2 = 'Onagre' %}
- {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-                                
-                          
-{% assign diagnostic_ing1 = diagnostic.ing1 %}
-{% if diagnostic.preocupa3 == 'Imperfections' %}
-  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
-    {% assign diagnostic_preocupa3 = 'Noisette' %}
-    {% assign diagnostic_ing1 = 'Noisette' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Rougeurs' %}
-  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
-    {% assign diagnostic_preocupa3 = 'Amande' %}
-    {% assign diagnostic_ing1 = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Eclat' %}
-  {% if diagnostic.f53 == 'f53a' %}
-    {% assign diagnostic_preocupa3 = 'Carotte' %}
-    {% assign diagnostic_ing1 = 'Carotte' %}
-  {% elsif diagnostic.f53 == 'f53b' %}
-    {% assign diagnostic_preocupa3 = 'Abricot' %}
-    {% assign diagnostic_ing1 = 'Abricot' %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Signes' %}
-  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
-    {% assign diagnostic_preocupa3 = 'Argan' %}
-    {% assign diagnostic_ing1 = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostic.preocupa3 == 'Brillance' %}
-  {% assign diagnostic_preocupa3 = 'Noisette' %}
-  {% assign diagnostic_ing1 = 'Noisette' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostic.preocupa3 == 'Déshydratation' %}
-  {% assign diagnostic_preocupa3 = 'Onagre' %}
-  {% assign diagnostic_ing1 = 'Onagre' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}           
-      
-{% if forloop.index != 1 %}
-   <div>
-    <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.name }}</th>
-    <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.date }}</th>
-    <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic_ing1 }} - {{ diagnostic_ing2 }} - {{ diagnostic_ing3 }}</th>
-  </div>
-
- 
-  {% endif %}
- {% endfor %}
-  </table> 
-                            
-
-                             
-                            </div>
+      {%- if paginate.next -%}
+      <li>
+        <a href="{{ paginate.next.url }}" aria-label="{{ 'general.pagination.next' | t }}">
+          <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+              fill="currentColor">
+          </svg>
+        </a>
+      </li>
+      {%- endif -%}
+    </ul>
+  </nav>
+  {%- endif -%}
+  {%- endif -%}
+  {% endpaginate %}
 </div>
 
-      {% comment %}
+<div class="container-content w-3/4 p-10 diagnostics" x-show="open2 ">
+  <h2 class="pt-10">MON MATCH PARFAIT DU MOMENT</h2>
+  {% assign diagnostics = customer.metafields.custom.diagnosticos.value %}
+
+
+
+  {% for diagnostic in diagnostics %}
+  {% if forloop.index == 1 %}
+
+  {% assign diagnostic_ing3 = diagnostic.ing3 %}
+
+  {% if diagnostic.preocupa1 == 'Brillance' %}
+  {% assign diagnostic_ing3 = 'Noisette' %}
+  {% endif %}
+
+  {% if diagnostic.preocupa1 == 'Deshydratation' %}
+  {% assign diagnostic_ing3 = 'Onagre' %}
+  {% endif %}
+
+
+
+  {% if diagnostic.preocupa1 == 'Imperfections' %}
+  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+  {% assign diagnostic_ing3 = 'Noisette' %}
+
+  {% endif %}
+  {% endif %}
+
+  {% if diagnostic.preocupa1 == 'Rougeurs' %}
+  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+  {% assign diagnostic_ing3 = 'Amande' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% endif %}
+
+  {% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53a' %}
+  {% assign diagnostic_ing3 = 'Carotte' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+
+  {% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53b' %}
+  {% assign diagnostic_ing3 = 'Abricot' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+
+  {% if diagnostic.preocupa1 == 'Signes' %}
+  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+  {% assign diagnostic_ing3 = 'Argan' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% endif %}
+
+
+
+  {% assign diagnostic_ing2 = diagnostic.ing2 %}
+  {% if diagnostic.preocupa2 == 'Imperfections' %}
+  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+  {% assign diagnostic_ing2 = 'Noisette' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% elsif diagnostic.preocupa2 == 'Rougeurs' %}
+  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+  {% assign diagnostic_ing2 = 'Amande' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% elsif diagnostic.preocupa2 == 'Eclat' %}
+  {% if diagnostic.f53 == 'f53a' %}
+  {% assign diagnostic_ing2 = 'Carotte' %}
+  {% elsif diagnostic.f53 == 'f53b' %}
+  {% assign diagnostic_ing2 = 'Abricot' %}
+  {% endif %}
+  {% elsif diagnostic.preocupa2 == 'Signes' %}
+  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+  {% assign diagnostic_ing2 = 'Argan' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% elsif diagnostic.preocupa2 == 'Brillance' %}
+  {% assign diagnostic_ing2 = 'Noisette' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% elsif diagnostic.preocupa2 == 'Deshydratation' %}
+  {% assign diagnostic_ing2 = 'Onagre' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+
+
+  {% assign diagnostic_ing1 = diagnostic.ing1 %}
+  {% if diagnostic.preocupa3 == 'Imperfections' %}
+  {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+  {% assign diagnostic_preocupa3 = 'Noisette' %}
+  {% assign diagnostic_ing1 = 'Noisette' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% elsif diagnostic.preocupa3 == 'Rougeurs' %}
+  {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+  {% assign diagnostic_preocupa3 = 'Amande' %}
+  {% assign diagnostic_ing1 = 'Amande' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% elsif diagnostic.preocupa3 == 'Eclat' %}
+  {% if diagnostic.f53 == 'f53a' %}
+  {% assign diagnostic_preocupa3 = 'Carotte' %}
+  {% assign diagnostic_ing1 = 'Carotte' %}
+  {% elsif diagnostic.f53 == 'f53b' %}
+  {% assign diagnostic_preocupa3 = 'Abricot' %}
+  {% assign diagnostic_ing1 = 'Abricot' %}
+  {% endif %}
+  {% elsif diagnostic.preocupa3 == 'Signes' %}
+  {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+  {% assign diagnostic_preocupa3 = 'Argan' %}
+  {% assign diagnostic_ing1 = 'Argan' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  {% elsif diagnostic.preocupa3 == 'Brillance' %}
+  {% assign diagnostic_preocupa3 = 'Noisette' %}
+  {% assign diagnostic_ing1 = 'Noisette' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% elsif diagnostic.preocupa3 == 'Deshydratation' %}
+  {% assign diagnostic_preocupa3 = 'Onagre' %}
+  {% assign diagnostic_ing1 = 'Onagre' %}
+  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+  {% endif %}
+  <p class="text-center pt-10 mb-4">Selon mon diagnostic favori pour {{ diagnostic.name }} réalisé le {{ diagnostic.date
+    }}</p>
+  <div class="row row-ingredientes" style="display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px;">
+    <div class="column1">
+
+      {% assign ing1_image = '' %}
+
+      {% if diagnostic_ing1 == '' %}
+
+      {% if diagnostic.ing1 == 'Amande' %}
+      {% assign ing1_image = 'amande2.svg' %}
+      {% elsif diagnostic.ing1 == 'Onagre' %}
+      {% assign ing1_image = 'onagre2.svg' %}
+      {% elsif diagnostic.ing1 == 'Argan' %}
+      {% assign ing1_image = 'argan2.svg' %}
+      {% elsif diagnostic.ing1 == 'Abricot' %}
+      {% assign ing1_image = 'abricot2.svg' %}
+      {% elsif diagnostic.ing1 == 'Noisette' %}
+      {% assign ing1_image = 'noisette2.svg' %}
+      {% else %}
+      {% assign ing1_image = 'carotte2.svg' %}
+      {% endif %}
+
+      {% else %}
+      {% assign ing1_image = diagnostic_ing1 | append: '2.svg' | downcase %}
+      {% endif %}
+
+
+      <img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="height:64px;">
+      <div class="container-color">
+        {% if diagnostic_ing1 == 'Amande' %}
+        {{ amande }}
+        {% elsif diagnostic_ing1 == 'Onagre' %}
+        {{ onagre }}
+        {% elsif diagnostic_ing1 == 'Argan' %}
+        {{ argan }}
+        {% elsif diagnostic_ing1 == 'Abricot' %}
+        {{ abricot }}
+        {% elsif diagnostic_ing1 == 'Noisette' %}
+        {{ noisette }}
+        {% else %}
+        {{ carotte }}
+        {% endif %}
+      </div>
+    </div>
+    <div class="column1">
+
+      {% assign ing2_image = '' %}
+
+      {% if diagnostic_ing2 == '' %}
+      {% if diagnostic.ing2 == 'Amande' %}
+      {% assign ing2_image = 'amande2.svg' %}
+      {% elsif diagnostic.ing2 == 'Onagre' %}
+      {% assign ing2_image = 'onagre2.svg' %}
+      {% elsif diagnostic.ing2 == 'Argan' %}
+      {% assign ing2_image = 'argan2.svg' %}
+      {% elsif diagnostic.ing2 == 'Abricot' %}
+      {% assign ing2_image = 'abricot2.svg' %}
+      {% elsif diagnostic.ing2 == 'Noisette' %}
+      {% assign ing2_image = 'noisette2.svg' %}
+      {% else %}
+      {% assign ing2_image = 'carotte2.svg' %}
+      {% endif %}
+
+      {% else %}
+      {% assign ing2_image = diagnostic_ing2 | append: '2.svg' | downcase %}
+      {% endif %}
+
+      <img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="height:64px;">
+
+      <div class="container-color">
+        {% if diagnostic_ing2 == 'Amande' %}
+        {{ amande }}
+        {% elsif diagnostic_ing2 == 'Onagre' %}
+        {{ onagre }}
+        {% elsif diagnostic_ing2 == 'Argan' %}
+        {{ argan }}
+        {% elsif diagnostic_ing2 == 'Abricot' %}
+        {{ abricot }}
+        {% elsif diagnostic_ing2 == 'Noisette' %}
+        {{ noisette }}
+        {% else %}
+        {{ carotte }}
+        {% endif %}
+      </div>
+    </div>
+    <div class="column1">
+
+      {% if diagnostic_ing3 == '' %}
+      {% assign ing3_image = '' %}
+
+      {% if diagnostic.ing3 == 'Amande' %}
+      {% assign ing3_image = 'amande2.svg' %}
+      {% elsif diagnostic.ing3 == 'Onagre' %}
+      {% assign ing3_image = 'onagre2.svg' %}
+      {% elsif diagnostic.ing3 == 'Argan' %}
+      {% assign ing3_image = 'argan2.svg' %}
+      {% elsif diagnostic.ing3 == 'Abricot' %}
+      {% assign ing3_image = 'abricot2.svg' %}
+      {% elsif diagnostic.ing3 == 'Noisette' %}
+      {% assign ing3_image = 'noisette2.svg' %}
+      {% else %}
+      {% assign ing3_image = 'carotte2.svg' %}
+
+      {% endif %}
+      {% else %}
+      {% assign ing3_image = diagnostic_ing3 | append: '2.svg' | downcase %}
+      {% endif %}
+
+      <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="height:64px;">
+
+      <div class="container-color">
+        {% if diagnostic_ing3 == 'Amande' %}
+        {{ amande }}
+        {% elsif diagnostic_ing3 == 'Onagre' %}
+        {{ onagre }}
+        {% elsif diagnostic_ing3 == 'Argan' %}
+        {{ argan }}
+        {% elsif diagnostic_ing3== 'Abricot' %}
+        {{ abricot }}
+        {% elsif diagnostic_ing3== 'Noisette' %}
+        {{ noisette }}
+        {% else %}
+        {{ carotte }}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+
+  <p class="text-center mt-20 mb-20 "> <a href="https://hilo-cosmetiques.myshopify.com/pages/diagnostic"
+      class="mt-20 mb-20 btn-diagnostic">Je réalise mon diagnostic</a>
+  </p>
+  <h2 class=" mb-20">
+    MES AUTRES DIAGNOSTICS
+  </h2>
+
+
+  <table class="table-auto w-full" style="border:0px;">
+
+    <div>
+      <th class="px-4 py-2">Diag</th>
+      <th class="px-4 py-2">Date</th>
+      <th class="px-4 py-2">Résultats</th>
+    </div>
+    {% for diagnostic in diagnostics %}
+    {% assign diagnostic_ing3 = diagnostic.ing3 %}
+
+    {% if diagnostic.preocupa1 == 'Brillance' %}
+    {% assign diagnostic_ing3 = 'Noisette' %}
+    {% endif %}
+
+    {% if diagnostic.preocupa1 == 'Deshydratation' %}
+    {% assign diagnostic_ing3 = 'Onagre' %}
+    {% endif %}
+
+
+
+    {% if diagnostic.preocupa1 == 'Imperfections' %}
+    {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+    {% assign diagnostic_ing3 = 'Noisette' %}
+
+    {% endif %}
+    {% endif %}
+
+    {% if diagnostic.preocupa1 == 'Rougeurs' %}
+    {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+    {% assign diagnostic_ing3 = 'Amande' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% endif %}
+
+    {% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53a' %}
+    {% assign diagnostic_ing3 = 'Carotte' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+
+    {% if diagnostic.preocupa1 == 'Eclat' and diagnostic.f53 == 'f53b' %}
+    {% assign diagnostic_ing3 = 'Abricot' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+
+    {% if diagnostic.preocupa1 == 'Signes' %}
+    {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+    {% assign diagnostic_ing3 = 'Argan' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% endif %}
+
+
+
+    {% assign diagnostic_ing2 = diagnostic.ing2 %}
+    {% if diagnostic.preocupa2 == 'Imperfections' %}
+    {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+    {% assign diagnostic_ing2 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% elsif diagnostic.preocupa2 == 'Rougeurs' %}
+    {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+    {% assign diagnostic_ing2 = 'Amande' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% elsif diagnostic.preocupa2 == 'Eclat' %}
+    {% if diagnostic.f53 == 'f53a' %}
+    {% assign diagnostic_ing2 = 'Carotte' %}
+    {% elsif diagnostic.f53 == 'f53b' %}
+    {% assign diagnostic_ing2 = 'Abricot' %}
+    {% endif %}
+    {% elsif diagnostic.preocupa2 == 'Signes' %}
+    {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+    {% assign diagnostic_ing2 = 'Argan' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% elsif diagnostic.preocupa2 == 'Brillance' %}
+    {% assign diagnostic_ing2 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% elsif diagnostic.preocupa2 == 'Deshydratation' %}
+    {% assign diagnostic_ing2 = 'Onagre' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+
+
+    {% assign diagnostic_ing1 = diagnostic.ing1 %}
+    {% if diagnostic.preocupa3 == 'Imperfections' %}
+    {% if diagnostic.f51 == 'f51a' or diagnostic.f51 == 'f51b' %}
+    {% assign diagnostic_preocupa3 = 'Noisette' %}
+    {% assign diagnostic_ing1 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% elsif diagnostic.preocupa3 == 'Rougeurs' %}
+    {% if diagnostic.f52 == 'f52a' or diagnostic.f52 == 'f52b' %}
+    {% assign diagnostic_preocupa3 = 'Amande' %}
+    {% assign diagnostic_ing1 = 'Amande' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% elsif diagnostic.preocupa3 == 'Eclat' %}
+    {% if diagnostic.f53 == 'f53a' %}
+    {% assign diagnostic_preocupa3 = 'Carotte' %}
+    {% assign diagnostic_ing1 = 'Carotte' %}
+    {% elsif diagnostic.f53 == 'f53b' %}
+    {% assign diagnostic_preocupa3 = 'Abricot' %}
+    {% assign diagnostic_ing1 = 'Abricot' %}
+    {% endif %}
+    {% elsif diagnostic.preocupa3 == 'Signes' %}
+    {% if diagnostic.f54 == 'f54a' or diagnostic.f54 == 'f54b' %}
+    {% assign diagnostic_preocupa3 = 'Argan' %}
+    {% assign diagnostic_ing1 = 'Argan' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+    {% elsif diagnostic.preocupa3 == 'Brillance' %}
+    {% assign diagnostic_preocupa3 = 'Noisette' %}
+    {% assign diagnostic_ing1 = 'Noisette' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% elsif diagnostic.preocupa3 == 'Déshydratation' %}
+    {% assign diagnostic_preocupa3 = 'Onagre' %}
+    {% assign diagnostic_ing1 = 'Onagre' %}
+    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
+    {% endif %}
+
+    {% if forloop.index != 1 %}
+    <div>
+      <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.name }}</th>
+      <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.date }}</th>
+      <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic_ing1 }} - {{ diagnostic_ing2 }} - {{ diagnostic_ing3
+        }}</th>
+    </div>
+
+
+    {% endif %}
+    {% endfor %}
+  </table>
+
+
+
+</div>
+</div>
+
+{% comment %}
 <div class="customer account section-{{ section.id }}-padding">
- 
+
 
   <div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
-     
+
     </div>
 
     <div>
@@ -1076,92 +1097,98 @@ Elle est conseillée pour :<br><br>
 </div>
 {% endcomment %}
 
-<script> 
-  
+<script>
+
 
 </script>
-                          <style>
-                          .order-history  .active {
-                                        border:2px solid #F8C8D3;
-                             border-top:1.5px solid #F8C8D3;
-                            border-radius:20px;
-                            padding-top:10px;
-                              padding-bottom:20px;
-                            }
-                            .active  .border-pink2 {
-                              border-bottom:0px solid #F8C8D3;
-                            } 
-                            .border-pink2 {
-                              padding-top:5px;
-                               border-bottom:2px solid #F8C8D3;
-                                 padding-bottom: 5px;
-                            }
-                            .border-pink {
-                              border-bottom:2px solid #F8C8D3;
-                              padding-bottom: 5px;
-                              margin-top: 40px;
-                              color:black;
+<style>
+  .order-history .active {
+    border: 2px solid #F8C8D3;
+    border-top: 1.5px solid #F8C8D3;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 
-                            }
-                            .grid-4{
-                                  text-align: center;
-                              display: grid;
+  .active .border-pink2 {
+    border-bottom: 0px solid #F8C8D3;
+  }
+
+  .border-pink2 {
+    padding-top: 5px;
+    border-bottom: 2px solid #F8C8D3;
+    padding-bottom: 5px;
+  }
+
+  .border-pink {
+    border-bottom: 2px solid #F8C8D3;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    color: black;
+
+  }
+
+  .grid-4 {
+    text-align: center;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-                            column-gap:6rem;
-}
-                             .grid-2 p
-                            {
-                              font-size:15px;
-                            }
-                           .grid-2{
-                             padding:20px 20px;
-                             max-width:100%;
-                              display: grid;
-   
-                                 grid-template-columns: 0.5fr 2fr;
+    column-gap: 6rem;
+  }
+
+  .grid-2 p {
+    font-size: 15px;
+  }
+
+  .grid-2 {
+    padding: 20px 20px;
+    max-width: 100%;
+    display: grid;
+
+    grid-template-columns: 0.5fr 2fr;
     column-gap: 1rem;
     padding-right: 2rem;
-}  
-.cart-item__image {
-  margin-right:0px;
-  width: 100%;
+  }
 
-}
-                            .item-ingredientes {
+  .cart-item__image {
+    margin-right: 0px;
+    width: 100%;
+
+  }
+
+  .item-ingredientes {
     text-align: center;
     padding-top: 10px;
-} 
-                            
-                          </style>
+  }
+</style>
 
 {% schema %}
 {
-  "name": "t:sections.main-account.name",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
-  ]
+"name": "t:sections.main-account.name",
+"settings": [
+{
+"type": "header",
+"content": "t:sections.all.padding.section_padding_heading"
+},
+{
+"type": "range",
+"id": "padding_top",
+"min": 0,
+"max": 100,
+"step": 4,
+"unit": "px",
+"label": "t:sections.all.padding.padding_top",
+"default": 36
+},
+{
+"type": "range",
+"id": "padding_bottom",
+"min": 0,
+"max": 100,
+"step": 4,
+"unit": "px",
+"label": "t:sections.all.padding.padding_bottom",
+"default": 36
+}
+]
 }
 {% endschema %}
