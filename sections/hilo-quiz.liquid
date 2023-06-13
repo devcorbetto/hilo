@@ -270,7 +270,7 @@
               type="email"
               name="customer[email]"
               id="CustomerEmail"
-              autocomplete="email"
+              autocomplete="false"
               autocorrect="off"
               autocapitalize="off"
               {% if form.errors contains 'form' %}
@@ -290,7 +290,7 @@
                 value=""
                 name="customer[password]"
                 id="CustomerPassword"
-                autocomplete="current-password"
+                autocomplete="false"
                 {% if form.errors contains 'form' %}
                   aria-invalid="true"
                 {% endif %}
@@ -887,7 +887,7 @@ overflow:hidden;
         name="customer[first_name]"
         id="RegisterForm-FirstName"
         {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
-        autocomplete="given-name"
+        autocomplete="false"
         placeholder="{{ 'customer.register.first_name' | t }}"
       >
     </div>
@@ -901,7 +901,7 @@ overflow:hidden;
         name="customer[last_name]"
         id="RegisterForm-LastName"
         {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
-        autocomplete="family-name"
+        autocomplete="false"
         placeholder="{{ 'customer.register.last_name' | t }}"
       >
      
@@ -919,7 +919,7 @@ overflow:hidden;
         {% if form.email %} value="{{ form.email }}"{% endif %}
         spellcheck="false"
         autocapitalize="off"
-        autocomplete="email"
+        autocomplete="false"
         aria-required="true"
 
         pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
