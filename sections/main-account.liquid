@@ -328,9 +328,10 @@ Elle est conseillée pour :<br><br>
                     
 
                         {%- if line_item.fulfillment.tracking_url -%}
-                          <a href="{{ line_item.fulfillment.tracking_url }}">
+                       <p class="text-center">   <a href="{{ line_item.fulfillment.tracking_url }}">
                            Suivre mon colis
                           </a>
+                       </p>
                         {%- endif -%}
                       {% comment %}  <span>
                           {{ line_item.fulfillment.tracking_company }}
