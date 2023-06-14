@@ -3044,6 +3044,12 @@ header-drawer {
   .multicolumn-card__info>:nth-child(2) {
     font-size:14px;
   }
+  .multi-slider .slick-slide .rte-ingredient p {
+     font-size:12px;
+  }
+  .multi-slider .slick-slide .rte-ingredient img {
+    width: 15px;
+  }
   svg.waves4b-newsletter {
     top: -70px  !important;
 }
