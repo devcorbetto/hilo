@@ -599,7 +599,15 @@ Elle est conseillée pour :<br><br>
 
                      <p class="text-center pb-10 mt-10">
 {%- for property in line_item.properties  -%}
-  {{ property }}
+ {% if property contains '1'%} 
+   {{ property }}
+   {% endif %}
+   {% if property contains '2'%} 
+   {{ property }}
+   {% endif %}
+   {% if property contains '3'%} 
+   {{ property }}
+   {% endif %}
   {% endfor %}
       <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
