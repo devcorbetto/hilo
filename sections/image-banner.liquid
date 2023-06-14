@@ -128,6 +128,16 @@
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
+  {% if section.settings.svg-wave == "none" %}
+  {% else %}
+  <div class="custom_wave">
+    {% if section.settings.svg-wave == "vague-blanche" %}
+     {{ 'vague_blanche.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-rose" %}
+      {{ 'vague_rose.svg' | asset_url | img_tag }}
+    {% endif %}
+  </div>
+  {% endif %}
   {%- if section.settings.image_2 != blank -%}
     <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
       {%-liquid
@@ -241,6 +251,26 @@
       "type": "image_picker",
       "id": "mobile_image",
       "label": "Mobile image"
+    },
+    {
+      "type": "select",
+      "id": "svg-wave",
+      "options": [
+        {
+          "value": "none",
+          "label": "Aucune"
+        },
+        {
+          "value": "vague-blanche",
+          "label": "Vague blanche"
+        },
+        {
+          "value": "vague-rose",
+          "label": "Vague rose"
+        }
+      ],
+      "default": "none",
+      "label": "Vague"
     },
     {
       "type": "range",
