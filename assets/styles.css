@@ -71,7 +71,6 @@ section newsletter section-news
 .custom_wave, .custom_wave_top{
   position: absolute;
   width: 100%;
-  z-index: 10;
 }
 
 .custom_wave{
