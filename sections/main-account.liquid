@@ -597,7 +597,7 @@ Elle est conseillée pour :<br><br>
   {% endif %}
 {% endfor %} 
      
-  <form action="/cart/add" method="post" style="margin-top:20px;"> 
+  <form action="/cart/add" method="post" > 
       <input type="hidden" name="id" value="{{ line_item.variant_id }}">
       {% for property in line_item.properties %}
         {% assign property_key = property.first %}
@@ -609,7 +609,9 @@ Elle est conseillée pour :<br><br>
     font-weight: 600;
     border-radius: 26px;
     padding: 5px 10px;
-   color:white;">
+   color:white;
+        display: block;
+    margin-top: 20px;">
     </form>    
                 
                 </div>
