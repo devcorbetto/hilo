@@ -19,7 +19,21 @@
 {%- endstyle -%}
 
 <div class=" {{ section.settings.customcss }} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-
+  {% if section.settings.svg-wave == "none" %}
+  {% else %}
+  <div class="custom_wave_top">
+    {% if section.settings.svg-wave == "vague-blanche" %}
+     {{ 'vague_blanche.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-rose" %}
+      {{ 'vague_rose.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-orange-clair" %}
+      {{ 'vague_orange_clair.svg' | asset_url | img_tag }}
+    {% endif %}
+  </div>
+  {% endif %}
+  <div class="custom_wave_top">
+  {{ 'vague_orange.svg' | asset_url | img_tag }}
+  </div> 
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
@@ -295,6 +309,30 @@
       ],
       "default": "center",
       "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "svg-wave",
+      "options": [
+        {
+          "value": "none",
+          "label": "Aucune"
+        },
+        {
+          "value": "vague-blanche",
+          "label": "Vague blanche"
+        },
+        {
+          "value": "vague-rose",
+          "label": "Vague rose"
+        },
+        {
+          "value": "vague-orange-clair",
+          "label": "Vague orange clair"
+        }
+      ],
+      "default": "none",
+      "label": "Vague"
     },
     {
       "type": "select",
