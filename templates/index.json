@@ -689,6 +689,7 @@
       "settings": {
         "customcss": "newsletter-page",
         "color_scheme": "colors_3",
+        "svg-wave": "vague-rose-trait",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
