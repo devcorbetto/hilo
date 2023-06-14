@@ -2971,6 +2971,10 @@ header-drawer {
     
   }
 
+  .waves2a .svg-waves {
+    top: -30px !important;
+}
+
  .collection2-result .collection ul {
     display: grid !important;
     grid-template-columns: 1fr;
