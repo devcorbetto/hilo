@@ -2970,10 +2970,10 @@ header-drawer {
     width:40px !important;
     
   }
-.image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
+#shopify-section-template--18831072788775__1e473254-c1b2-405f-8ed6-a20bc3d453ec .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
   display:none;
 }
-  .mt-40 .waves2a .svg-waves {
+  .mt-40.waves2a .svg-waves {
     top: -30px !important;
 }
 
