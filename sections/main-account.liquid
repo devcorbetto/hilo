@@ -600,16 +600,16 @@ Elle est conseillée pour :<br><br>
                      <p class="text-center pb-10 mt-10">
 {%- for property in line_item.properties  -%}
  {% if property contains '1'%} 
- properties[{{ property }}]=1
+ properties[{{ property  | remove: 1 }}]=1
 
    {% endif %}
    {% if property contains '2'%} 
 
-    properties[{{ property }}]=2
+    properties[{{ property | remove: 2 }}]=2
    {% endif %}
    {% if property contains '3'%} 
 
-     properties[{{ property }}]=3
+     properties[{{ property | remove: 3 }}]=3
    {% endif %}
   {% endfor %}
       <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
