@@ -604,11 +604,11 @@ Elle est conseillée pour :<br><br>
 
    {% endif %}
    {% if property contains '2'%} 
-
+{{ property | remove: 2 }} <br>
     properties[{{ property | remove: 2 }}]=2
    {% endif %}
    {% if property contains '3'%} 
-
+{{ property | remove: 3 }}<br>
      properties[{{ property | remove: 3 }}]=3
    {% endif %}
   {% endfor %}
