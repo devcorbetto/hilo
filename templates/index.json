@@ -37,10 +37,10 @@
       "settings": {
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
         "imageicon": "shopify:\/\/shop_images\/Fle_Cche-svg.svg",
-        "customcss": "waves2a banner-home",
+        "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_1.jpg",
-        "svg-wave": "vague-blanche",
+        "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
