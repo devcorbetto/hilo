@@ -72,6 +72,8 @@
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 48,
@@ -193,6 +195,8 @@
         "customcss": "svg-fullwidth",
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 40,
@@ -218,6 +222,8 @@
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 48,
@@ -308,8 +314,9 @@
         "div {background: #e9e4f2;}"
       ],
       "settings": {
-        "customcss": "waves4b",
+        "customcss": "",
         "color_scheme": "colors_8",
+        "svg-wave": "vague-violet-trait",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
