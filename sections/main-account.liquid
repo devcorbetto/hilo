@@ -598,26 +598,25 @@ Elle est conseillée pour :<br><br>
 {% endfor %} </p>
 
                      <p class="text-center pb-10 mt-10">
-  {{ line_item.variant_id   }}
-                        {{ line_item.product_id }}
-      <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}
+{{ capture_string  }}
+      <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
  
     
     {% if diagnostics_ing1 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
     " class="button btn" >Commander de nouveau</a>
     {% endif %}
     {% if diagnostics_ing2 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
     " class="button btn" >Commander de nouveau</a>
     {% endif %}
     {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=3
     " class="button btn" >Commander de nouveau</a>
     {% endif %}
     {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
     {% endif %}
     </p>
