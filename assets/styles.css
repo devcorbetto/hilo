@@ -2970,7 +2970,9 @@ header-drawer {
     width:40px !important;
     
   }
-
+.image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
+  display:none;
+}
   .waves2a .svg-waves {
     top: -30px !important;
 }
