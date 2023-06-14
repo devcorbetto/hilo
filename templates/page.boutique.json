@@ -40,10 +40,10 @@
         "d79e4868-7e5c-4937-883c-e698df8d27f6"
       ],
       "settings": {
-        "customcss": "waves5d",
+        "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "vague-rose",
+        "svg-wave": "vague-blanche",
         "svg-wave-position": "bottom",
         "color_scheme": "colors_6",
         "full_width": true,
