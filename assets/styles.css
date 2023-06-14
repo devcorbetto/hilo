@@ -63,7 +63,7 @@ section newsletter section-news
 }
 
 .custom_wave_top{
-  bottom: 0px;
+  bottom: 100%;
 }
 
 .custom_wave img, .custom_wave_top img{
