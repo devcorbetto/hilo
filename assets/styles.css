@@ -3044,6 +3044,9 @@ header-drawer {
   .multicolumn-card__info>:nth-child(2) {
     font-size:14px;
   }
+  .rating-container {
+    margin-top:0px;
+  }
   .jdgm-prev-badge__stars, 
   .multi-slider .slick-slide .rte-ingredient p {
      font-size:10px;
