@@ -2966,7 +2966,9 @@ header-drawer {
   }
 
 @media screen and (max-width:980px) and (min-width:660px) {
-
+.step6  .column2 {
+  margin-top:0px !important;
+}
   .collection .card .card__heading {
     font-size:16px !important;
     line-height:19px !important;
