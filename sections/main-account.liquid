@@ -598,7 +598,8 @@ Elle est conseillée pour :<br><br>
 {% endfor %} </p>
 
                      <p class="text-center pb-10 mt-10">
-  
+  {{ line_item.variant_id   }}
+                        {{ line_item.product_id }}
       <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
  
