@@ -36,11 +36,11 @@
     }
   }
 {%- endstyle -%}
+
+<footer class="footer {% if page.url =="/pages/diagnostic-de-peau-hilo" or page.url == "/pages/supercalifragilistic" %}diagnosticpage{% endif %} color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding" style="position:relative;">
 <div class="custom_wave_top">
 {{ 'vague_orange.svg' | asset_url | img_tag }}
 </div>
-<footer class="footer {% if page.url =="/pages/diagnostic-de-peau-hilo" or page.url == "/pages/supercalifragilistic" %}diagnosticpage{% endif %} color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding" style="position:relative;">
-
   <!--<svg xmlns="http://www.w3.org/2000/svg" width="1925.69" height="88.164" viewBox="0 0 1925.69 88.164" 
   class="footer-svg-top"
   style="position: absolute; z-index:2; top:-65px;width:100%;">
