@@ -3045,7 +3045,7 @@ header-drawer {
     font-size:14px;
   }
   .rating-container {
-    margin-top:0px;
+    margin-top:0px !important;
   }
   .jdgm-prev-badge__stars, 
   .multi-slider .slick-slide .rte-ingredient p {
