@@ -467,7 +467,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "svg-wave": "vague-rose-trait",
-        "svg-wave-position": "top",
+        "svg-wave-position": "bottom",
         "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 40,
