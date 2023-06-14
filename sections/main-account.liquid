@@ -581,7 +581,7 @@ Elle est conseillée pour :<br><br>
                     </div>
 
              
-                <p style="padding-left:20px;">Huiles :                    {% if item.properties != blank  %}
+                <div style="padding-left:20px;">Huiles :                    {% if item.properties != blank  %}
 <span class="description-cart">Huiles : </span>
 
 
@@ -606,12 +606,8 @@ Elle est conseillée pour :<br><br>
       {% endfor %}
       <input type="submit" value="Commander de nouveau">
     </form>    
-                  <a href="/cart/add?id={{ line_item.variant_id }}&quantity=1{% for property in line_item.properties %}&properties[]={{ property | urlencode }}{% endfor %}">Commander de nouveau</a>
-                     
                 
- 
-    
-  
+                </div>
 
 
                  </div>
