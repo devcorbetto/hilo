@@ -604,18 +604,15 @@ Elle est conseillée pour :<br><br>
 
    {% endif %}
    {% if property contains '2'%} 
-{{ property | remove: 2 }} <br>
+
     properties[{{ property | remove: 2 }}]=2
    {% endif %}
    {% if property contains '3'%} 
-{{ property | remove: 3 }}<br>
+
      properties[{{ property | remove: 3 }}]=3
    {% endif %}
   {% endfor %}
-
- https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[Abricot]=1&properties[Argan]=1&properties[Noisette]=1       
-
-                    
+                    https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[Abricot]=1&properties[Argan]=1&properties[Noisette]=1
       <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
  
