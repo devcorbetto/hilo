@@ -123,10 +123,10 @@
         "64975ab8-962a-48ff-bbec-1129a17db732"
       ],
       "settings": {
-        "customcss": "waves5c boutique-creez",
+        "customcss": "boutique-creez",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "none",
+        "svg-wave": "vague-rose-trait",
         "svg-wave-position": "top",
         "color_scheme": "colors_3",
         "full_width": true,
