@@ -596,20 +596,15 @@ Elle est conseillée pour :<br><br>
  {{ item }}, 
   {% endif %}
 {% endfor %} 
-   {%- for property in line_item.properties  -%}
- {% if property contains '1'%} 
- properties[{{ property   }}]=1
-
-   {% endif %}
-   {% if property contains '2'%} 
-
-    properties[{{ property  }}]=2
-   {% endif %}
-   {% if property contains '3'%} 
-
-     properties[{{ property  }}]=3
-   {% endif %}
-  {% endfor %}               
+  <form action="/cart/add" method="post">
+      <input type="hidden" name="id" value="{{ line_item.variant_id }}">
+      {% for property in line_item.properties %}
+        {% assign property_key = property.first %}
+        {% assign property_value = property.last %}
+        <input type="hidden" name="properties[{{ property_key }}]" value="{{ property_value }}">
+      {% endfor %}
+      <input type="submit" value="Agregar al carrito">
+    </form>         
 
                      <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
@@ -617,23 +612,6 @@ Elle est conseillée pour :<br><br>
     
   
 
-                    <form class="add-to-cart-form">
-      <input type="hidden" class="variant-id" value="{{ line_item.variant_id }}">
-      <button type="button" class="add-to-cart-button">Agregar al carrito</button>
-    </form>    </p>
-                  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var addToCartButtons = document.querySelectorAll('.add-to-cart-button');
-    addToCartButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        var variantId = this.parentNode.querySelector('.variant-id').value;
-        var properties = JSON.parse('{{ line_item.properties | json }}');
-
-        Shopify.addItem(variantId, 1, properties);
-      });
-    });
-  });
-</script>
 
                  </div>
                 
