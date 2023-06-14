@@ -606,8 +606,9 @@ Elle est conseillée pour :<br><br>
       {% endfor %}
       <input type="submit" value="Commander de nouveau">
     </form>    
-                     <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >Commander de nouveau</a>
+                  <a href="/cart/add?id={{ line_item.variant_id }}&quantity=1{% for property in line_item.properties %}&properties[]={{ property | urlencode }}{% endfor %}">Commander de nouveau</a>
+                     
+                
  
     
   
