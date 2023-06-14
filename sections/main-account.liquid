@@ -596,6 +596,7 @@ Elle est conseillée pour :<br><br>
  {{ item }}, 
   {% endif %}
 {% endfor %} 
+     
   <form action="/cart/add" method="post">
       <input type="hidden" name="id" value="{{ line_item.variant_id }}">
       {% for property in line_item.properties %}
@@ -603,9 +604,8 @@ Elle est conseillée pour :<br><br>
         {% assign property_value = property.last %}
         <input type="hidden" name="properties[{{ property_key }}]" value="{{ property_value }}">
       {% endfor %}
-      <input type="submit" value="Agregar al carrito">
-    </form>         
-
+      <input type="submit" value="Commander de nouveau">
+    </form>    
                      <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id={{ line_item.variant_id  }}&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
     " class="button btn" >Commander de nouveau</a>
  
