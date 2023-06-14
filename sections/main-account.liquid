@@ -319,6 +319,9 @@ Elle est conseillée pour :<br><br>
                {% endcomment %}
               
                 
+                
+              </div>
+              <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}" > 
                 {%- for line_item in order.line_items -%}
                  {%- if line_item.fulfillment -%}
                    
@@ -336,8 +339,8 @@ Elle est conseillée pour :<br><br>
                
                   {%- endif -%}
                      {% endfor %}
-              </div>
-              <div style="text-align:left;" x-show="  order{{ order.name | replace: "#",""}}" > 
+
+                
                 <div class="grid-2">
                   {%- for line_item in order.line_items -%}
 

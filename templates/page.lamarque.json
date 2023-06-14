@@ -72,7 +72,7 @@
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "vague-rose",
+        "svg-wave": "none",
         "svg-wave-position": "top",
         "color_scheme": "colors_3",
         "full_width": true,
