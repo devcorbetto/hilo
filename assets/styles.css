@@ -43,6 +43,10 @@ section newsletter section-news
 */
 /*ol  */
 
+.mb-50{
+  margin-bottom:50px;
+}
+
 .newsletter__wrapper{
   padding-left:0px!important;
   padding-right:0px!important;
