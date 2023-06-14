@@ -40,6 +40,7 @@
         "customcss": "waves2a banner-home",
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_1.jpg",
+        "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -184,7 +185,8 @@
           "type": "image",
           "settings": {
             "customcss": "mb-10m corner-left-top-purple",
-            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-base-de-creme-et-capsules-2.gif"
+            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-base-de-creme-et-capsules-2.gif",
+            "link_image": ""
           }
         },
         "text": {
