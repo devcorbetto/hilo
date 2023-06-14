@@ -2970,6 +2970,11 @@ header-drawer {
     width:40px !important;
     
   }
+
+ .collection2-result .collection ul {
+    display: grid !important;
+    grid-template-columns: 1fr;
+}
 .step6  .column2 {
   margin-top:0px !important;
 }
