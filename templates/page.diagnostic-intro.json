@@ -53,9 +53,11 @@
         "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2"
       ],
       "settings": {
-        "customcss": "waves5d",
+        "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "svg-wave": "vague-blanche",
+        "svg-wave-position": "bottom",
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 60,
