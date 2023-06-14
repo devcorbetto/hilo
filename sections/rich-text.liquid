@@ -21,7 +21,7 @@
 <div class=" {{ section.settings.customcss }} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   {% if section.settings.svg-wave == "none" %}
   {% else %}
-  <div class="custom_wave_top">
+  <div class="custom_wave{% if section.settings.svg-wave-position == "top" %}_top{% endif %}">
     {% if section.settings.svg-wave == "vague-blanche" %}
      {{ 'vague_blanche.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-wave == "vague-rose" %}
@@ -330,6 +330,22 @@
       ],
       "default": "none",
       "label": "Vague"
+    },
+    {
+      "type": "select",
+      "id": "svg-wave-position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top",
+      "label": "Position wave"
     },
     {
       "type": "select",
