@@ -3041,6 +3041,9 @@ header-drawer {
     line-height:20px;
    
   }
+  .multicolumn-card__info>:nth-child(2) {
+    font-size:14px;
+  }
   svg.waves4b-newsletter {
     top: -70px  !important;
 }
