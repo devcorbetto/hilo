@@ -3219,7 +3219,9 @@ header-drawer {
     justify-content: center;
   }
 
-
+ .rich-text__blocks {
+    max-width: 80rem;
+}
   
   
 }
@@ -3239,9 +3241,7 @@ header-drawer {
     top: 30px;
 }
 
-  .rich-text__blocks {
-    max-width: 80rem;
-}
+ 
   .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
     margin-bottom:30px;
   }
