@@ -3231,6 +3231,9 @@ header-drawer {
     width:30% !important;
     
   }
+.reviews-slider  .media {
+        transform: scale(0.5);
+  }
 .corner-left-top-purple .eclat {
     margin-left: -60px;
     top: 30px;
