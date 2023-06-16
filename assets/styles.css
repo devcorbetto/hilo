@@ -3223,10 +3223,13 @@ header-drawer {
   
   
 }
-@media (max-width:800px) and (min-width:650px) {
+@media (max-width:800px) and (min-width:651px) {
 .index-templates  .small-hide {
     display:none !important;
   }
+ .multi-testimonials.multi-icons .slick-dots li {
+   
+ }
 .index-templates  .desktop-hide  {
     display:block !important;
   }
