@@ -3237,6 +3237,20 @@ header-drawer {
   .reviews-slider  {
     
   }
+  .footer .grid {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+   .footer .grid > div {
+    margin-top:0px !important;
+}
+
+
+  
+
+}
+  
   
 }
 
