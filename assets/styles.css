@@ -3234,6 +3234,10 @@ transform: scale(0.5);
     display: block;
     left: 0px;
 }
+  .container-cart {
+    max-width:80% ;
+    margin:0 auto;
+  }
   
 }
 @media (max-width:800px) and (min-width:651px) {
