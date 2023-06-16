@@ -602,7 +602,7 @@ Elle est conseillée pour :<br><br>
   {% endif %}
 {% endfor %} 
      
-  <form action="/cart/add" method="post" > 
+  <form action="/cart/add" class="commanderagain" method="post" > 
       <input type="hidden" name="id" value="{{ line_item.variant_id }}">
       {% for property in line_item.properties %}
         {% assign property_key = property.first %}
