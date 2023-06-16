@@ -3227,7 +3227,9 @@ header-drawer {
     width: 40px !important;
     height: 40px;
 }
-  
+  .multicolumn-list__item.center .media--adapt img {
+    max-width:100px !important;
+  }
   
 }
 @media (max-width:800px) and (min-width:651px) {
