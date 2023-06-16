@@ -3104,7 +3104,7 @@ header-drawer {
     bottom: -40px !important;
 }
 
-   .multi-testimonials.multi-testimonials-reviews li {
+   .multi-testimonials.multi-testimonials-reviews .small-hide li {
     width:31% !important;
   } 
   .multi-featured.multi-icons.paiment li {
@@ -3233,6 +3233,9 @@ header-drawer {
 
 .index-templates  .desktop-hide  {
     display:block !important;
+  }
+  .reviews-slider  {
+    
   }
   
 }
