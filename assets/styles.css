@@ -3223,4 +3223,13 @@ header-drawer {
   
   
 }
+@media (max-width:800px) and (min-width:650px) {
+  .small-hide {
+    display:none !important;
+  }
+  .desktop-hide  {
+    display:block !important;
+  }
+  
+}
 
