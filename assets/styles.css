@@ -3227,8 +3227,8 @@ header-drawer {
     width: 40px !important;
     height: 40px;
 }
-  .multicolumn-list__item.center .media--adapt img {
-    max-width:100px !important;
+ .programmeicons .media--adapt {
+transform: scale(0.5);
   }
   
 }
