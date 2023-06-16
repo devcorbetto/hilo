@@ -3234,6 +3234,7 @@ transform: scale(0.5);
     display: block;
     left: 0px;
 }
+  .title-wrapper-with-link.onlydesktop { display:none; }
   .container-cart {
     max-width:80% ;
     margin:0 auto;
