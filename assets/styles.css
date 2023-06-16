@@ -3228,7 +3228,7 @@ header-drawer {
     display:none !important;
   }
  .multi-testimonials.multi-icons .slick-dots li {
-   
+       width: auto!important;
  }
 .index-templates  .desktop-hide  {
     display:block !important;
