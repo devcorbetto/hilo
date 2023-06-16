@@ -47,6 +47,12 @@ section newsletter section-news
   cursor:pointer;
 }
 
+.buttonOrder:hover{
+  border: 2px solid #D0C4E2;
+  background: white;
+  color:#D0C4E2;
+}
+
 .mb-50{
   margin-bottom:50px!important;
 }
