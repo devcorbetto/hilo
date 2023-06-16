@@ -3183,7 +3183,7 @@ header-drawer {
     grid-column-gap: 2rem !important;
 }
   /* a bassadejrs */
-  .programmeicons  li {
+  .programmeicons  .small-hide li {
     
     width:20% !important;
   }
