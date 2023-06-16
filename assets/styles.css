@@ -54,12 +54,13 @@ section newsletter section-news
   border:2px solid #D0C4E2;
   padding: 5px 10px;
   color:white;
-  display: block;
+  display: block!important;
   margin-top: 20px;
 }
 
 .buttonOrder:hover{
   background: white;
+  cursor:pointer;
   color:#D0C4E2;
 }
 
