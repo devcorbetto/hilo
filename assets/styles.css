@@ -3306,7 +3306,13 @@ header-drawer {
 .paiment {
   padding-bottom:30px;
 }
-  
+
+  .programmeicons   .desktop-hide {
+    display:block;
+  }
+  .programmeicons .small-hide  {
+    display:none;
+  }
 
 
   
