@@ -3234,6 +3234,9 @@ header-drawer {
 .index-templates  .desktop-hide  {
     display:block !important;
   }
+  .index-templates .banner-home .media > img {
+    object-position: bottom right;
+}
   .reviews-slider  {
     
   }
