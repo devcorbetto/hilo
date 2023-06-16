@@ -3222,6 +3222,11 @@ header-drawer {
  .rich-text__blocks {
     max-width: 80rem !important;
 }
+
+  .container-image img {
+    width: 40px !important;
+    height: 40px;
+}
   
   
 }
