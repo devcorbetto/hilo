@@ -3308,8 +3308,17 @@ header-drawer {
 }
   
 
-}
+
   
   
 }
+
+@media (max-widht:750px) and (min-width:650px) {
+  .section-template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-padding
+  {
+    max-width: 80%;
+    margin-top: 40px;
+  }
+}
+
 
