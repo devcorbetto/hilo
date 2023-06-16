@@ -3220,12 +3220,15 @@ header-drawer {
   }
 
  .rich-text__blocks {
-    max-width: 80rem;
+    max-width: 80rem !important;
 }
   
   
 }
 @media (max-width:800px) and (min-width:651px) {
+   .rich-text__blocks {
+    max-width: 80rem !important;
+}
 .index-templates  .small-hide {
     display:none !important;
   }
