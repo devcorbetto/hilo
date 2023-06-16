@@ -3227,6 +3227,9 @@ header-drawer {
 .index-templates  .small-hide {
     display:none !important;
   }
+  .index-templates .small-hide.product-grid {
+        display:block !important;
+  }
  .multi-testimonials.multi-icons .slick-dots li {
        width: auto!important;
  }
