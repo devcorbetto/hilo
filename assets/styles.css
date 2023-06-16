@@ -3041,7 +3041,7 @@ header-drawer {
     margin-left: 50px !important;
     margin-top: 50px  !important; 
 }
-  .multi-testimonials.multi-icons li {
+  .multi-testimonials.multi-icons .small-hide li {
     width:15% !important;
   }
   
