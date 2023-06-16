@@ -3218,7 +3218,7 @@ header-drawer {
   .slick-dots {
     justify-content: center;
   }
-
+.rich-text__blocks,
  .rich-text__blocks {
     max-width: 80rem !important;
 }
@@ -3226,7 +3226,7 @@ header-drawer {
   
 }
 @media (max-width:800px) and (min-width:651px) {
-   .rich-text__blocks {
+  .rich-text__blocks,  .rich-text__blocks {
     max-width: 80rem !important;
 }
 .index-templates  .small-hide {
