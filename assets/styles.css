@@ -3238,6 +3238,10 @@ header-drawer {
     margin-left: -60px;
     top: 30px;
 }
+
+  .rich-text__blocks {
+    max-width: 80rem;
+}
   .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
     margin-bottom:30px;
   }
