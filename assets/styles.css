@@ -3224,10 +3224,10 @@ header-drawer {
   
 }
 @media (max-width:800px) and (min-width:650px) {
-  .small-hide {
+.index-templates  .small-hide {
     display:none !important;
   }
-  .desktop-hide  {
+.index-templates  .desktop-hide  {
     display:block !important;
   }
   
