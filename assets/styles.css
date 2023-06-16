@@ -3238,8 +3238,8 @@ header-drawer {
     
   }
   .footer .grid {
-    display: block;
-    display: grid;
+
+    display: grid !important;
     grid-template-columns: 1fr 1fr;
 }
    .footer .grid > div {
