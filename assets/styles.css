@@ -3107,7 +3107,7 @@ header-drawer {
    .multi-testimonials.multi-testimonials-reviews .small-hide li {
     width:31% !important;
   } 
-  .multi-featured.multi-icons.paiment li {
+  .multi-featured.multi-icons.paiment .small-hide li {
      width:31% !important;
   }
   footer .list-social__item svg {
