@@ -287,6 +287,7 @@ Elle est conseillée pour :<br><br>
                 <div role="row" @click="order{{ order.name | replace: "#","" }} = ! order{{ order.name | replace: "#","" }}"
                 @click.away="order{{ order.name | replace: "#","" }} = false" 
                 :class="{ 'active': order{{ order.name | replace: "#","" }} }"
+                id="ordercustom"
                 >
                 <div class="grid-4 border-pink2">
                   <div
