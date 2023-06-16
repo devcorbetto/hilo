@@ -3237,6 +3237,9 @@ header-drawer {
   .index-templates .banner-home .media > img {
     object-position: bottom right;
 }
+  .container-right {
+    margin-left: -170px !important;
+  }
   .reviews-slider  {
     
   }
