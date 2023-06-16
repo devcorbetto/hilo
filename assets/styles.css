@@ -3238,6 +3238,10 @@ transform: scale(0.5);
     max-width:80% ;
     margin:0 auto;
   }
+  .product-option.product-option2 {
+    display:grid;
+      grid-template-columns:1fr 0.2fr 1fr;
+  }
   
 }
 @media (max-width:800px) and (min-width:651px) {
