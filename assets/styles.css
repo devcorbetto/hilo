@@ -3308,10 +3308,10 @@ header-drawer {
 }
 
   .programmeicons   .desktop-hide {
-    display:block;
+    display:block  !important;
   }
   .programmeicons .small-hide  {
-    display:none;
+    display:none !important;
   }
 
 
