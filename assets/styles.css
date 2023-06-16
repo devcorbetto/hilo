@@ -3232,6 +3232,14 @@ header-drawer {
 .index-templates  .small-hide {
     display:none !important;
   }
+
+  .one-column-style {
+    background: #FEF4EC;
+    border: 2px solid #FBD1AD;
+    border-radius: 26px;
+    color: #575756;
+    width: 100%;
+}
   #Slider-template--17804308381991__373a2a2c-c9d7-41f5-811e-35c4b559b257 li {
     width:30% !important;
     
@@ -3243,7 +3251,10 @@ header-drawer {
     margin-left: -60px;
     top: 30px;
 }
-
+.one-column .corner-top.no-rotate.top-wavestop2 {
+    top: -30px;
+    right: -40px;
+}
  
   .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
     margin-bottom:30px;
