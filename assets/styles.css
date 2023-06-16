@@ -3229,6 +3229,8 @@ header-drawer {
   }
   .index-templates .small-hide.product-grid {
         display:block !important;
+    max-width: 80%;
+    margin: 0 auto;
   }
  .multi-testimonials.multi-icons .slick-dots li {
        width: auto!important;
