@@ -59,11 +59,15 @@ section newsletter section-news
     height: 60px
 }
 
-
-
 .TL {
     top: -38px;
     margin-left: -331px;
+}
+
+@media screen and (max-width: 749px){
+  .TL {
+      left: -39px;
+  }
 }
 
 #ordercustom{
