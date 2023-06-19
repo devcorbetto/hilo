@@ -45,6 +45,7 @@ section newsletter section-news
 
 .image_with_eclat {
     position: relative;
+  margin-bottom:20px;
 }
 
 .image_with_eclat img {
@@ -57,9 +58,7 @@ section newsletter section-news
     height: 60px
 }
 
-.corner > img {
-  margin:0px;
-}
+
 
 .TL {
     top: -38px;
@@ -1093,11 +1092,11 @@ font-size:10px;
     max-width: 100%;
 }
   }
-.comment img {
+/*.comment img {
   width:600px;
   margin:20px auto;
   border-radius:50px;
-}
+}*/
 .comment p {font-size: 16px;
     line-height: 23px;  }
 /* páginas boutique y lamarque*/
