@@ -57,7 +57,7 @@ section newsletter section-news
     height: 60px
 }
 
-.corner img {
+.corner > img {
   margin:0px;
 }
 
