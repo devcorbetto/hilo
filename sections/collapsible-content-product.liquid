@@ -31,6 +31,14 @@
     /*height:400px;*/
     
 }
+
+  .image-faq .eclat-faq{
+    position: absolute;
+    width: 60px;
+    right: 0px;
+    top: -44px;
+  }
+  
   .accordion:first-child {
     border-top:none;
   } 
@@ -108,7 +116,7 @@ summary .icon-carret2 {
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
                <div class="image-faq">
-                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_violet.svg?v=1684750102" class="corner-right-top-purple">
+                 <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_violet.svg?v=1684750102" class="eclat-faq">
                  <img src="{{  section.settings.image2 | image_url }}" class="image-faq-image"></div>
            {% comment %}   <div class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
                 {% if section.settings.image_ratio == 'adapt' %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
