@@ -50,6 +50,7 @@ section newsletter section-news
 
 .image_with_eclat img {
     width: 600px;
+    border-radius:50px;
 }
 
 .corner {
