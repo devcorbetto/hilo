@@ -50,7 +50,7 @@ section newsletter section-news
 }
 
 @media screen (max-width:650px){
-  .image-with-text .page-width{
+  .image-with-text.page-width{
     padding:0 5.5rem;
   } 
 }
