@@ -76,11 +76,12 @@
 {% endif %}
 {% endcomment %}
                 
-                
+               {% comment %} 
             {% if block.settings.link_image %}<a href="{{ block.settings.link_image }}">{% endif %}
               <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">
             {% if block.settings.link_image %}</a>{% endif %}
               </div>
+            {% endcomment %}
             {%- when 'button' -%}
               <div class="rich-text__buttons {% if section.settings.svg-wave != "none"%}{% if section.settings.svg-wave-position == "bottom" %}mb-50{% endif %}{% endif %} {{ block.settings.customcss}} {% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.button_label != blank -%}
