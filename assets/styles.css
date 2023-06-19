@@ -49,6 +49,12 @@ section newsletter section-news
   }
 }
 
+@media screen (max-width:650px){
+  .image-with-text .page-width{
+    padding:0 5.5rem;
+  } 
+}
+
 
 .image_with_eclat {
     position: relative;
