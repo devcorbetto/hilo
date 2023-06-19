@@ -44,7 +44,9 @@ section newsletter section-news
 /*ol  */
 
 @media (min-width:650px) and (max-width:749px){
-  padding: 0px 5.5rem;
+  .page-width{
+    padding: 0px 5.5rem; 
+  }
 }
 
 
