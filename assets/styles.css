@@ -67,6 +67,7 @@ section newsletter section-news
 @media screen and (max-width: 749px){
   .TL {
       left: -39px;
+    margin-left: auto;
   }
 }
 
