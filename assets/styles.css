@@ -176,6 +176,12 @@ section newsletter section-news
   }
 }
 
+@media only screen and (max-width: 750px){
+  .banner--content-align-left .banner__box {
+      text-align: left;
+  } 
+}
+
 @media screen and (min-width: 750px){
 .banner_media_wave.banner--small {
     min-height: 26rem!important;
