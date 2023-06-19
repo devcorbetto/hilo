@@ -68,6 +68,29 @@
     <span class="corner TL"></span>
   </div>
 {% endif %}
+            <style>
+.image_with_eclat {
+    background: #ccc;
+    position: relative
+}
+
+.image_with_eclat img {
+    width: 300px;
+    height: 200px;
+}
+
+.corner {
+    position: absolute;
+    background: #444;
+    width: 20px;
+    height: 20px
+}
+
+.TL {
+    top: -10px;
+    left: -10px
+}
+            </style>
 {% comment %}
 {% if block.settings.customcss contains "corner-left-top-purple" %}
   <span class="corner TL">
