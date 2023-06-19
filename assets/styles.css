@@ -44,11 +44,12 @@ section newsletter section-news
 /*ol  */
 
 .image_with_eclat {
-    position: relative
+    position: relative;
 }
 
 .image_with_eclat img {
     width: 600px;
+  margin-bottom:20px;
 }
 
 .corner {
