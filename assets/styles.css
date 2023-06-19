@@ -43,6 +43,10 @@ section newsletter section-news
 */
 /*ol  */
 
+.page-width {
+    padding: 0 5.5rem;
+}
+
 .image_with_eclat {
     position: relative;
   margin-bottom:20px;
