@@ -3426,7 +3426,12 @@ transform: scale(0.5);
   }
   
 }
-
+@media (max-widht:900px) and (min-width:800px) {
+  .multi-capsules ul li {
+    width: 30% !important;
+    /* min-width: 20%; */
+}
+}
 @media (max-widht:750px) and (min-width:650px) {
   .section-template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-padding
   {
