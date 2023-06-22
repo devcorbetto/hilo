@@ -3522,12 +3522,13 @@ transform: scale(0.5);
    padding-bottom:30px !important;
  }
   
-  .section-template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-padding
+  .section-template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-padding 
   {
     max-width: 80%;
     margin-top: 40px;
  
   }
+  .cart-item cart-remove-button,
   .cart-remove-button .button {
         right: 0px;
     position: absolute;
