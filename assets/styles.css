@@ -151,6 +151,7 @@ section newsletter section-news
 .custom_wave, .custom_wave_top{
   position: absolute;
   width: 110%;
+  left:0px;
 }
 
 .custom_wave{
