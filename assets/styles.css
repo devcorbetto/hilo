@@ -3424,6 +3424,11 @@ transform: scale(0.5);
     position:relative;
     margin-top:20px;
   }
+  .accordion .metafield-rich_text_field ul li, .article-template ul li {
+    list-style-type: disc!important;
+    padding-left: 20px;
+    margin-left: 20px;
+}
   
 }
 @media (max-width:900px) and (min-width:800px) {
