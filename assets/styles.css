@@ -3434,6 +3434,10 @@ transform: scale(0.5);
     margin-top: 40px;
  
   }
+  .cart-remove-button .button {
+        right: 0px;
+    position: absolute;
+  }
 }
 
 
