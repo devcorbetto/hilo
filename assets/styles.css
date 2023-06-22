@@ -3413,6 +3413,9 @@ transform: scale(0.5);
     display:none !important;
   }
 
+  .paiment .small-hide {
+    display:none !important;
+  }
 
   .footer .grid > div {
     width:100%;
