@@ -3427,7 +3427,7 @@ transform: scale(0.5);
   
 }
 @media (max-widht:900px) and (min-width:800px) {
-  .multi-capsules ul li {
+ .index-templates  .multi-capsules ul li {
     width: 30% !important;
     /* min-width: 20%; */
 }
