@@ -3533,7 +3533,12 @@ transform: scale(0.5);
         right: 0px;
     position: absolute;
   }
-  
+  .cart-item {
+    padding: 5px;
+    padding-top: 20px;
+    border: 2px solid #F8C8D3;
+    border-radius: 30px;
+}
 }
 
 
