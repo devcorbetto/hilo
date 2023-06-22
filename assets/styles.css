@@ -3481,6 +3481,7 @@ transform: scale(0.5);
 }
 }
 @media (max-widht:750px) and (min-width:650px) {
+  .container-options > div.active, 
  .container-options > div {
    padding-bottom:30px !important;
  }
