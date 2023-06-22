@@ -3485,7 +3485,12 @@ transform: scale(0.5);
   
 }
 
-
+@media (max-width:980px) and (min-width:900px) {
+ .index-templates  .multi-capsules ul li {
+    width: 30% !important;
+ 
+}
+}
 @media (max-width:900px) and (min-width:800px) {
   
    .container-step::after {
