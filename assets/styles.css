@@ -3439,6 +3439,18 @@ transform: scale(0.5);
 
   
 }
+@media (max-width:980px) and (min-width:800px) {
+
+  .container-step::after {
+   
+    width: 50px !important;
+ 
+    top: 25px !important;
+  
+}
+}
+
+
 @media (max-width:900px) and (min-width:800px) {
    .container-step::after {
    
