@@ -150,8 +150,7 @@ section newsletter section-news
 }
 .custom_wave, .custom_wave_top{
   position: absolute;
-  width: 110%;
-  left:-10px;
+  width: 100%;
 }
 
 .custom_wave{
@@ -178,6 +177,10 @@ section newsletter section-news
   .page-qr-code-2-template .image-with-text{
     padding-left:5rem;
     padding-right:5rem;
+  }
+  .custom_wave, .custom_wave_top{
+    width: 110%;
+    left:-10px;
   }
 }
 
@@ -3529,11 +3532,6 @@ transform: scale(0.5);
     display:none;
   }
   
-}
-
-  .accordion .metafield-rich_text_field ul li, .article-template ul li {
-  
-    margin-left: 20px !important;
 }
 
 @media (max-width:750px) and (min-width:650px) {
