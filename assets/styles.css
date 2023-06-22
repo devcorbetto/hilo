@@ -3527,6 +3527,9 @@ transform: scale(0.5);
 }
 
 @media (max-width:750px) and (min-width:650px) {
+  .columns5  {
+    display:flex !important;
+  }
   .container-options > div.active, 
  .container-options > div {
    padding-bottom:30px !important;
