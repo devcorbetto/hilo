@@ -3481,6 +3481,9 @@ transform: scale(0.5);
   
     margin-left: 20px !important;
 }
+  .products-sliders.desktop-hide {
+    display:block !important;
+  }
   
 }
 
