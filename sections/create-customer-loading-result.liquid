@@ -170,7 +170,28 @@ overflow:hidden;
 
       </div>
      
-         
+    {%- if form.errors -%}
+      <h2 class="form__message" tabindex="-1" autofocus >
+        <svg aria-hidden="true" focusable="false" role="presentation">
+          <use href="#icon-error" />
+        </svg>
+       
+      </h2>
+      <ul> 
+        {%- for field in form.errors -%}
+          <li>
+            {%- if field == 'form' -%}
+              {{ form.errors.messages[field] }}
+            {%- else -%}
+              <a href="#RegisterForm-{{ field }}">
+                {{ form.errors.translated_fields[field] | capitalize }}
+                {{ form.errors.messages[field] }}
+              </a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}        
 
 <script>
   setTimeout(function() {
