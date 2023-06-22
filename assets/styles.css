@@ -3483,7 +3483,7 @@ transform: scale(0.5);
 @media (max-widht:750px) and (min-width:650px) {
   .container-options > div {
     padding: 20px 14px;
-    padding-bottom: 30px;
+    padding-bottom: 30px !important;
     border-bottom: 1px solid #FBDAE2;
 }
   .section-template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-padding
