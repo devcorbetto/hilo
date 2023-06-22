@@ -3414,7 +3414,9 @@ transform: scale(0.5);
   }
 
 
-  
+  .footer .grid > div {
+    width:100%;
+  }
   
 }
 
