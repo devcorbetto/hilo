@@ -3428,6 +3428,18 @@ transform: scale(0.5);
   
       margin-left: 20px !important;
 }
+
+  .container-step::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    left: 50px;
+    top: 25px;
+    height: 4px;
+    z-index: -1;
+    background: #F5DEA3;
+}
+
   
 }
 @media (max-width:900px) and (min-width:800px) {
