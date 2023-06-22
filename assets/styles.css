@@ -3530,6 +3530,10 @@ transform: scale(0.5);
  .step6 .columns5  {
     display:flex !important;
   }
+ .step6 h3 {
+   font-size:14px;
+ }
+  
   .container-options > div.active, 
  .container-options > div {
    padding-bottom:30px !important;
