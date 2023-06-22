@@ -169,7 +169,7 @@ overflow:hidden;
 {% endif %}
 
       </div>
-     
+       {%- form 'create_customer', novalidate: 'novalidate' -%}
     {%- if form.errors -%}
       <h2 class="form__message" tabindex="-1" autofocus >
         <svg aria-hidden="true" focusable="false" role="presentation">
@@ -191,7 +191,8 @@ overflow:hidden;
           </li>
         {%- endfor -%}
       </ul>
-    {%- endif -%}        
+    {%- endif -%}
+         {% endform %}
 
 <script>
   setTimeout(function() {
