@@ -3430,14 +3430,11 @@ transform: scale(0.5);
 }
 
   .container-step::after {
-    position: absolute;
-    content: "";
-    width: 50px;
-    left: 50px;
-    top: 25px;
-    height: 4px;
-    z-index: -1;
-    background: #F5DEA3;
+   
+    width: 50px !important;
+ 
+    top: 25px !important;
+  
 }
 
   
