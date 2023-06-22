@@ -3437,9 +3437,9 @@ transform: scale(0.5);
   
 }
   .section-template--18276397875495__5e1a504a-e19c-4615-9c2d-a397a47aee6b-padding {
-    padding-top:0px;
+    padding-top:0px !important;
     
-    margin-top: -20px;
+    margin-top: -20px !important;
 
   }
 
