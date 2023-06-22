@@ -170,6 +170,10 @@ section newsletter section-news
     object-position: left center;
 }
 
+.ambassadeur-template .banner_media_wave .media > img {
+    object-position: right center;
+}
+
 @media screen and (max-width: 749px){
   .page-qr-code-2-template .image-with-text{
     padding-left:5rem;
@@ -3525,10 +3529,6 @@ transform: scale(0.5);
     display:none;
   }
   
-}
-  .accordion .metafield-rich_text_field ul li, .article-template ul li {
-  
-    margin-left: 20px !important;
 }
 
 @media (max-width:750px) and (min-width:650px) {
