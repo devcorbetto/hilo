@@ -3425,8 +3425,7 @@ transform: scale(0.5);
     margin-top:20px;
   }
   .accordion .metafield-rich_text_field ul li, .article-template ul li {
-    list-style-type: disc!important;
-    padding-left: 20px;
+  
     margin-left: 20px;
 }
   
@@ -3435,6 +3434,10 @@ transform: scale(0.5);
  .index-templates  .multi-capsules ul li {
     width: 30% !important;
     /* min-width: 20%; */
+}
+   .accordion .metafield-rich_text_field ul li, .article-template ul li {
+  
+    margin-left: 20px;
 }
 }
 @media (max-widht:750px) and (min-width:650px) {
