@@ -43,6 +43,10 @@ section newsletter section-news
 */
 /*ol  */
 
+.card__badge{
+  display:none;
+}
+
 @media (min-width:650px) and (max-width:749px){
   .page-width{
     padding: 0px 5.5rem; 
