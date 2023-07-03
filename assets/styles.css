@@ -44,7 +44,7 @@ section newsletter section-news
 /*ol  */
 
 .card__badge{
-  display:none;
+  display:none!important;
 }
 
 @media (min-width:650px) and (max-width:749px){
