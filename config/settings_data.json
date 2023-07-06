@@ -12,7 +12,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#575756",
     "gradient_accent_1": "",
-    "colors_accent_2": "#fccf9c",
+    "colors_accent_2": "#f8b362",
     "gradient_accent_2": "",
     "colors_text": "#575756",
     "colors_outline_button_labels": "#121212",
@@ -157,11 +157,21 @@
               "color_scheme": "accent-1",
               "link": ""
             }
+          },
+          "33b0d505-ba75-485a-903f-af0cded9f718": {
+            "type": "announcement",
+            "settings": {
+              "text": "Offre exceptionnelle : -20% sur le coffret Hilo !",
+              "text_alignment": "center",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/products\/coffret-hilo"
+            }
           }
         },
         "block_order": [
           "34111425-88b3-479f-9bf1-cead122aa801",
-          "58ef773b-46b5-4d44-8112-9e2a1de04845"
+          "58ef773b-46b5-4d44-8112-9e2a1de04845",
+          "33b0d505-ba75-485a-903f-af0cded9f718"
         ],
         "settings": {
         }
