@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "45c4102a-c455-45fc-8f7a-8adf8af9764b": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA CHARTE DES RECALÉS DE L'ILOT",
+            "heading_size": "h1"
+          }
+        },
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Comme toujours, notre mission est de vous proposer des <strong>formules avec un taux de naturalité le plus haut possible<\/strong> pour respecter votre peau et la planète. C'est pour cela que nous avons choisi de bannir de nombreux ingrédients de nos formules.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-0",
+        "template--18276278370599__45c4102a-c455-45fc-8f7a-8adf8af9764b-16861414272d1a36aa-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "vague-blanche",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "8a4ec562-72b1-465c-ad55-8f9b969d4ef3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>Hilo montre patte blanche (ou plutôt crème blanche), et blackliste les ingrédients suivants : ☠️<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276278370599__8a4ec562-72b1-465c-ad55-8f9b969d4ef3-1679426536fe14ca86-1"
+      ],
+      "settings": {
+        "customcss": "full-width-faqs",
+        "desktop_content_position": "left",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 48
+      }
+    },
+    "14c0a971-70b2-442f-ac7b-f2be54d60278": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Tous les ingrédients d'origine animale",
+            "icon": "none",
+            "row_content": "<p>Hilo et <strong>les animaux, c’est une histoire d’amour<\/strong>. Si vous suivez nos aventures sur les réseaux sociaux, vous savez à quel point il est important pour nous de les protéger.<\/p><p>Aussi, nous n’utilisons <strong>aucune matière première animale<\/strong> dans nos formules. Aucun produit Hilo n’est testé sur les animaux, conformément à la réglementation européenne.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les BHA\/BHT",
+            "icon": "none",
+            "row_content": "<p>Le <strong>BHA<\/strong> est identifié comme un  <strong>« cancérogène possible  »<\/strong> par le Centre international de recherche contre le cancer. Cet ingrédient fait aussi partie des substances proposées par la France à la Commission européenne pour une <strong>évaluation précise d’urgence de ses propriétés toxiques<\/strong>. Il serait en effet à la fois toxique pour la <strong>reproduction et perturbateur endocrinien<\/strong>.  <\/p><p>Le <strong>BHT<\/strong> pour sa part, est souvent utilisé pour <strong>remplacer le BHA<\/strong>. Cependant, ce dernier semble être semble être un perturbateur endocrinien. Aussi, nous en<strong> bannissons l’usage dans nos formules<\/strong>.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les parabens",
+            "icon": "none",
+            "row_content": "<p>Il existe différents parabens. Ces derniers ont la fonction de <strong>conservateurs<\/strong> mais tous ne sont pas considérés comme dangereux. Les parabens <strong>ethylparaben et methylparaben sont considérés comme sûrs<\/strong> par les experts français et européens. À l’inverse, <strong>les plus dangereux<\/strong> (isobutyl, isopropyl, benzyl, pentyl, phenylparaben) <strong>sont interdits en cosmétiques<\/strong> depuis 2014. Cependant, le butylparaben et le propylparaben restent par exemple autorisés alors qu’ils sont considérés comme <strong>perturbateurs endocriniens<\/strong>. <\/p><p>Par précaution, et pour que vous vous y retrouviez plus facilement, <strong>nous excluons toute cette famille de molécules<\/strong> de nos formules.<\/p><p>Nous vous livrons un <strong>moyen mnémotechnique<\/strong> pour que vous puissiez repérer les parabens les plus à risque dans vos produits cosmétiques ! Ceux qui commencent par <strong>P ou B ne sont « Pas Bons »<\/strong>.<\/p>",
+            "page": ""
+          }
+        },
+        "69d6f757-265c-4d87-b248-23f38062aad6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les perturbateurs endoctriniens",
+            "icon": "none",
+            "row_content": "<p>Les perturbateurs endocriniens sont des substances qui vont <strong>interagir avec le système hormonal et provoquer des dysfonctionnements<\/strong> au sein de ce dernier. Ils peuvent avoir des <strong>effets très néfastes<\/strong> sur votre santé et votre système reproductif. <\/p><p>Aussi, <strong>sont bannis de nos formules<\/strong> : ETHYLHEXYL METHOXYCINNAMATE – TRICLOSAN OCTOCRYLÈNE BENZOPHENONE-1, BENZOPHENONE-3 HOMOSALATE CYCLOPENTASILOXANE, CYCLOTETRASILOXANE, CYCLOMETHICONE ACIDE SALICYLIQUE RÉSORCINOL.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les allergène",
+            "icon": "none",
+            "row_content": "<p>Pour respecter vos peaux sensibles, nous <strong>bannissons les allergènes<\/strong> listés ci-dessous. En effet, ces derniers sont susceptibles d’entraîner des <strong>réactions allergiques sur les peaux les plus fragiles<\/strong>. Votre sécurité est notre priorité.<\/p><p>BUTYLPHENYL METHYLPROPIONAL METHYLISOTHIAZOLINONE (MIT), METHYLCHLOROISOTHIAZOLINONE (MCIT),<\/p><p>– Alpha-Isomethyl ionone<\/p><p>– Amyl cinnamal<\/p><p>– Amylcinnamyl alcohol<\/p><p>– Anise alcohol<\/p><p>– Benzyl alcohol<\/p><p>– Benzyl benzoate<\/p><p>– Benzyl cinnamate<\/p><p>– Benzyl salicylate<\/p><p>– Cinnamal<\/p><p>– Cinnamyl alcohol<\/p><p>– Citral<\/p><p>– Citronellol<\/p><p>– Coumarin<\/p><p>– Eugenol<\/p><p>– Evernia furfuracea extract<\/p><p>– Evernia prunastri extract<\/p><p>– Farnesol<\/p><p>– Geraniol<\/p><p>– Hexyl cinnamal<\/p><p>– Hydroxycitronellal<\/p><p>– Hydroxyisohexyl 3-Cyclohexene carboxaldehyde<\/p><p>– Isoeugenol<\/p><p>– Limonene<\/p><p>– Linalool<\/p><p>– Majantol<\/p><p>– Methyl 2-Octynoate<\/p>",
+            "page": ""
+          }
+        },
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le Phenoxyethanol",
+            "icon": "none",
+            "row_content": "<p>Ce conservateur a été jugé hématotoxique et hépatotoxique (<strong>toxique pour le sang et le foie<\/strong>) par l’ASM en 2012. Il est donc <strong>banni de nos formules.<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les SODIUM LAURYL SULFATE, AMMONIUM LAURYL SULFATE",
+            "icon": "none",
+            "row_content": "<p>Nous les blacklistons car ces derniers peuvent provoquer des <strong>irritations chez certains sujets<\/strong>.<\/p>",
+            "page": ""
+          }
+        },
+        "6de2310f-edf1-4b1a-8677-b84a47505642": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le DIOXYDE DE TITANE",
+            "icon": "none",
+            "row_content": "<p>Ce dernier pourrait-être potentiellement <strong>cancérogène s’il est ingéré par voie orale<\/strong>. Même si les soins Hilo ne sont pas faits pour être ingurgités, nous<strong> bannissons cette molécule par principe de précaution<\/strong>.<\/p>",
+            "page": ""
+          }
+        },
+        "6f267826-78b5-464f-9e11-42b9c69f948a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les HUILES MINÉRALES ET HYDROCARBURES DE SYNTHÈSE",
+            "icon": "none",
+            "row_content": "<p>Prohibées dans les produits alimentaires, les huiles minérales sont <strong>autorisées dans les cosmétiques<\/strong>. Problème, ces huiles sont susceptibles d’<strong>engendrer des composés indésirables si elles sont ingurgitées<\/strong> : les Mosh et les Moah.<\/p><p>Une partie des Mosh peuvent s’accumuler dans l’organisme, notamment dans les ganglions lymphatiques et le foie. Ils peuvent y produire des <strong>réactions inflammatoires dont on ignore les conséquences<\/strong> exactes. Quant aux Moah, ils sont <strong>cancérogènes<\/strong>.<\/p><p>Aussi, <strong>à titre de précaution, nous excluons ces molécules<\/strong> de nos formules :<\/p><p>– Cera Microcristallina<\/p><p>– Ceresin<\/p><p>– Hydrogenated Microcrystalline Wax<\/p><p>– Hydrogenated Polyisobutene<\/p><p>– Microcrystalline Wax<\/p><p>– Ozokerite<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-0",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-1",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-2",
+        "69d6f757-265c-4d87-b248-23f38062aad6",
+        "template--17779895730471__14c0a971-70b2-442f-ac7b-f2be54d60278-1675645282b6d4162e-3",
+        "7ad787b5-685b-4bf4-84dd-c28fe27f7880",
+        "779f50ff-a44b-474b-bcc2-5adacaf8fe47",
+        "6de2310f-edf1-4b1a-8677-b84a47505642",
+        "6f267826-78b5-464f-9e11-42b9c69f948a"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "45c4102a-c455-45fc-8f7a-8adf8af9764b",
+    "8a4ec562-72b1-465c-ad55-8f9b969d4ef3",
+    "14c0a971-70b2-442f-ac7b-f2be54d60278"
+  ]
+}
