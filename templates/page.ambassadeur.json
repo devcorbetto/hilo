@@ -368,7 +368,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><strong>Conditions particulières du programme ambassadeur<\/strong><a href=\"\/pages\/conditions-particulieres-programme-ambassadeur-hilo\" title=\"Conditions particulières - programme ambassadeur Hilo\">\/pages\/conditions-particulieres-programme-ambassadeur-hilo<\/a><\/p>"
+            "text": "<p><a href=\"\/pages\/conditions-particulieres-programme-ambassadeur-hilo\" title=\"Conditions particulières - programme ambassadeur Hilo\"><strong>Conditions particulières du programme ambassadeur<\/strong><\/a><\/p>"
           }
         }
       },
