@@ -360,6 +360,32 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "d90fc761-8d4c-4c3a-807a-5ab665be3ffd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18276397875495__d90fc761-8d4c-4c3a-807a-5ab665be3ffd-168872820963ca61bc-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p><strong>Conditions particulières du programme ambassadeur<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276397875495__d90fc761-8d4c-4c3a-807a-5ab665be3ffd-168872820963ca61bc-1"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 120
+      }
     }
   },
   "order": [
@@ -372,6 +398,7 @@
     "00c32b12-4372-4263-9b83-5f1f40366b12",
     "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
-    "1684764937cc95afcf"
+    "1684764937cc95afcf",
+    "d90fc761-8d4c-4c3a-807a-5ab665be3ffd"
   ]
 }
