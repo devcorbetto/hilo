@@ -14,7 +14,7 @@
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>SOINS VISAGE NATURELS ET SUR-MESURE<\/p>",
+            "heading": "<h1>SOINS VISAGE NATURELS ET SUR-MESURE<\/h1>",
             "customcss": "mb-10b",
             "heading_size": "h1"
           }
@@ -47,7 +47,7 @@
         "svg-wave-position": "bottom",
         "color_scheme": "colors_6",
         "full_width": true,
-        "padding_top": 60,
+        "padding_top": 12,
         "padding_bottom": 120
       }
     },
