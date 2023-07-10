@@ -51,7 +51,7 @@
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>HILO STORY<\/strong><\/h1>",
+            "heading": "<p>HILO STORY<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
