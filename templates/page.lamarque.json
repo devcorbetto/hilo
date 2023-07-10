@@ -51,7 +51,7 @@
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>HILO STORY<\/p>",
+            "heading": "<h1><strong>HILO STORY<\/strong><\/h1>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -76,7 +76,7 @@
         "svg-wave-position": "top",
         "color_scheme": "colors_3",
         "full_width": true,
-        "padding_top": 20,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
