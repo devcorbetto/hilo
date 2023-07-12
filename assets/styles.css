@@ -8,7 +8,7 @@
 }
 
 .social-network-custom a:hover{
-  fill:#FCCF9C
+  fill:#FCCF9C!important;
 }
 
 p > a{
