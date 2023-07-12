@@ -35,6 +35,10 @@
         "text",
         "button"
       ],
+      "custom_css": [
+        ".banner__heading {color: #fff;}",
+        ".banner__text span {color: #fff;}"
+      ],
       "settings": {
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
         "imageicon": "shopify:\/\/shop_images\/Fle_Cche-svg.svg",
@@ -48,7 +52,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
