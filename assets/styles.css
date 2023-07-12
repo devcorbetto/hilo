@@ -7,7 +7,7 @@
   width:30px;
 }
 
-.social-network-custom a:hover{
+.social-network-custom a:hover svg{
   fill:#FCCF9C!important;
 }
 
