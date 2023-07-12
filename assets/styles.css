@@ -3,6 +3,14 @@
   padding-bottom:50px;
 }
 
+.social-network-custom svg{
+  width:30px;
+}
+
+.social-network-custom a:hover{
+  fill:#FCCF9C
+}
+
 p > a{
   text-decoration:underline;
 }
