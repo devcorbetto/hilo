@@ -66,12 +66,18 @@
   <div class="image_with_eclat">
     <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">      
     <span class="corner TL">
-    {% if section.settings.svg-eclat == "eclat-violet" %}
+    {% if section.settings.svg-eclat == "eclat-droit-violet" %}
      <img src="{{ 'Eclat_droit_violet.svg' | asset_url | img_tag }}" class="no-rotate">
-    {% elsif section.settings.svg-eclat == "eclat-rose" %}
+    {% elsif section.settings.svg-eclat == "eclat-droit-rose" %}
       <img src="{{ 'Eclat_droit_rose.svg' | asset_url | img_tag }}" class="no-rotate">
-    {% elsif section.settings.svg-eclat == "eclat-orange" %}
+    {% elsif section.settings.svg-eclat == "eclat-droit-orange" %}
       <img src="{{ 'Eclat_droit_orange.svg' | asset_url | img_tag }}" class="no-rotate">
+    {% elsif section.settings.svg-eclat == "eclat-gauche-violet" %}
+      <img src="{{ 'Eclat_gauche_violet.svg' | asset_url | img_tag }}" class="no-rotate">
+    {% elsif section.settings.svg-eclat == "eclat-gauche-rose" %}
+      <img src="{{ 'Eclat_gauche_rose.svg' | asset_url | img_tag }}" class="no-rotate">
+    {% elsif section.settings.svg-eclat == "eclat-gauche-orange" %}
+      <img src="{{ 'Eclat_gauche_orange.svg' | asset_url | img_tag }}" class="no-rotate">
     {% endif %}
     </span>
   </div>
@@ -230,16 +236,28 @@
           "label": "Aucune"
         },
         {
-          "value": "eclat-violet",
-          "label": "Éclat violet"
+          "value": "eclat-droit-violet",
+          "label": "Éclat droit violet"
         },
         {
-          "value": "eclat-rose",
-          "label": "Éclat rose"
+          "value": "eclat-droit-rose",
+          "label": "Éclat droit rose"
         },
         {
-          "value": "eclat-orange",
-          "label": "Éclat orange"
+          "value": "eclat-droit-orange",
+          "label": "Éclat droit orange"
+        },
+        {
+          "value": "eclat-gauche-violet",
+          "label": "Éclat gauche violet"
+        },
+        {
+          "value": "eclat-gauche-rose",
+          "label": "Éclat gauche rose"
+        },
+        {
+          "value": "eclat-gauche-orange",
+          "label": "Éclat gauche orange"
         }
       ],
       "default": "none",
