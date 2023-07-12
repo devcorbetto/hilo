@@ -39,12 +39,17 @@
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1",
         "d79e4868-7e5c-4937-883c-e698df8d27f6"
       ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
       "settings": {
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "svg-wave": "vague-blanche",
         "svg-wave-position": "bottom",
+        "svg-eclat": "none",
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 12,
@@ -109,6 +114,7 @@
             "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
             "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false,
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -122,12 +128,17 @@
         "a82a55a9-1c7b-45ef-8983-c7289128aab2",
         "64975ab8-962a-48ff-bbec-1129a17db732"
       ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
       "settings": {
         "customcss": "boutique-creez",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "svg-wave": "vague-rose-trait",
         "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 44,
@@ -174,6 +185,7 @@
             "customcss": "btn-circle btn-circle-black",
             "button_label": "Je veux tout savoir",
             "button_link": "shopify:\/\/pages\/charte-hilo",
+            "button_out": false,
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -188,12 +200,17 @@
         "477266ca-c02c-45f2-ac3f-ecd1163f0e9d",
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
       ],
+      "custom_css": [
+        ".rich-text__heading{color:;}",
+        ".rich-text__text p {color: ;}"
+      ],
       "settings": {
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
