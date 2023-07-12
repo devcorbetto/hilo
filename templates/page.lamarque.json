@@ -30,6 +30,10 @@
         "template--17804309070119__b15a86b8-82e4-40b5-8614-9303e6e4ab71-1686144866da141983-0",
         "template--17804309070119__b15a86b8-82e4-40b5-8614-9303e6e4ab71-1686144866da141983-1"
       ],
+      "custom_css": [
+        ".banner__heading span {color: ;}",
+        ".banner__text p{color:;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-les-fondatrices_febc64a6-b4c4-4b16-85cc-b437c3ea5489.jpg",
         "svg-wave": "vague-rose",
@@ -67,6 +71,10 @@
       "block_order": [
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0",
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
       ],
       "settings": {
         "customcss": "",
