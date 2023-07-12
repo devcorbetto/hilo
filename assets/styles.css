@@ -132,6 +132,10 @@ p > a{
 .banner_media_wave .banner__box {
     padding: 4rem 3.5rem 4rem 3.5rem;
 }
+
+.banner_media_wave.banner--small .banner__box{
+  padding: 0rem 3.5rem 4rem 3.5rem;
+}
 .custom_wave, .custom_wave_top{
   position: absolute;
   width: 100%;
