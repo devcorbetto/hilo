@@ -1,5 +1,4 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
@@ -27,11 +26,66 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+  .imageicon {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 40px;
+  }
+  .imagenproduct {
+    width:100%;
+    margin-bottom:50px;
+   
+  }
+  .container-right p{
+    padding-left:120px;
+  }
+  .container-right {
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: -526px;
+    margin-left: 100px;
+
+    }
+  .mobile-only{
+    display:none;
+  }
+
+  .desktop-only{
+      display:block;
+    }
+
+  @media screen and (max-width: 749px) {
+    .mobile-only{
+      display:block;
+    }  
+    .desktop-only{
+      display:none;
+    }
+
+    .container-right{
+      margin:auto;
+      display:block;
+      width:100%;
+    }
+
+    .container-right p{
+      padding:0rem 3.5rem 4rem 3.5rem;
+      text-align:center;
+    }
+
+.imageicon{
+  display:none;
+}
+  }
 {%- endstyle -%}
 
-<div id="Banner-{{ section.id }}" class="banner_media_wave banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+<div id="Banner-{{ section.id }}" class="{{ section.settings.customcss }} banner_media_wave banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %} {%- if section.settings.mobile_image != blank -%}desktop-only{% endif %}">
       {%-liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
@@ -45,7 +99,7 @@
           assign sizes = "100vw"
         endif
       -%}
-      {{ section.settings.image | image_url: width: 1500 | image_tag:
+      {{ section.settings.image | image_url: width: 3000 | image_tag:
         loading: 'lazy',
         width: section.settings.image.width,
         height: image_height,
@@ -55,18 +109,44 @@
         alt: section.settings.image.alt | escape
       }}
     </div>
+        {%- if section.settings.mobile_image != blank -%}
+        <div class="banner__media media mobile-only">
+          {{ section.settings.mobile_image | image_url: width: 3000 | image_tag:
+            loading: 'lazy',
+            width: section.settings.mobile_image.width,
+            height: image_height,
+            class: image_class,
+            sizes: sizes,
+            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+            alt: section.settings.mobile_image.alt | escape
+          }}
+        </div>
+        {% endif %}
   {%- elsif section.settings.image_2 == blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %} {%- if section.settings.mobile_image != blank -%}desktop-only{% endif %}">
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
+  {% if section.settings.svg-wave == "none" %}
+  {% else %}
   <div class="custom_wave">
     {% if section.settings.svg-wave == "vague-blanche" %}
      {{ 'vague_blanche.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-wave == "vague-rose" %}
       {{ 'vague_rose.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-orange-clair" %}
+      {{ 'vague_orange_clair.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-orange" %}
+      {{ 'vague_orange.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-rose-trait" %}
+      {{ 'vague_rose_trait.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-violet-trait" %}
+      {{ 'vague_violet_trait.svg' | asset_url | img_tag }}
+    {% elsif section.settings.svg-wave == "vague-blanche-trait" %}
+      {{ 'vague_blanche_trait.svg' | asset_url | img_tag }}
     {% endif %}
   </div>
+  {% endif %}
   {%- if section.settings.image_2 != blank -%}
     <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
       {%-liquid
@@ -98,18 +178,12 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            {% if request.path contains "account" %}
-              <h2 class="banner__heading banner_media_wave_heading account_heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                <span>BIENVENUE  {{ customer.first_name }} !</span>
-              </h2>
-            {% else %}
-              <h2 class="banner__heading banner_media_wave_heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                <span>{{ block.settings.heading | escape }}</span>
-              </h2>
-            {% endif %}
+            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.heading | escape }}</span>
+            </h2>
           {%- when 'text' -%}
-            <div class="banner__text bg_subtitle {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              {{ block.settings.text }}
+            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.text }}</span>
             </div>
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
@@ -124,9 +198,27 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
+    <div class="container-right">
+    {% if section.settings.imageright %}
+      <img src="{{ section.settings.imageright | image_url: width:'470px'  }}" class="imagenproduct">
+    {% endif %}
+      <img src="{{ section.settings.imageicon | img_url  }}" class="imageicon">
+      <p>{{ section.settings.textafter}}</p>
+    </div>
   </div>
-</div>
+  {% if section.settings.customcss contains "waves2a" %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="1925.69" height="88.164" viewBox="0 0 1925.69 88.164" style=    "position: absolute;
+    bottom: -20px;
+    width: 100%;"
+    class="waves2a-image-banner">
+  <g transform="translate(5120.845 -4803.674)">
+    <path id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+    <path id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"/>
+  </g>
+</svg>
 
+    {% endif %}
+</div>
 {% schema %}
 {
   "name": "Bannière avec vague",
