@@ -180,7 +180,7 @@
           "type": "heading",
           "settings": {
             "heading": "VOTRE MATCH PARFAIT",
-            "heading_size": "h2"
+            "heading_size": "h0"
           }
         },
         "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-1": {
@@ -231,7 +231,7 @@
           "type": "heading",
           "settings": {
             "heading": "LA PLAYLIST D'HILO",
-            "heading_size": "h2"
+            "heading_size": "h0"
           }
         },
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
