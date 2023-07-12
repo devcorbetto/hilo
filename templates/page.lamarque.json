@@ -316,6 +316,11 @@
         "padding_top": 100,
         "padding_bottom": 136
       }
+    },
+    "c1059a71-e9a1-43c5-8983-c8ba9e0466bd": {
+      "type": "social-network",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -326,6 +331,7 @@
     "53490372-be18-400d-8691-993c8353747c",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
-    "1edd166c-9532-49eb-b7b3-cda674a02113"
+    "1edd166c-9532-49eb-b7b3-cda674a02113",
+    "c1059a71-e9a1-43c5-8983-c8ba9e0466bd"
   ]
 }
