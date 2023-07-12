@@ -1,48 +1,5 @@
 
 
-/*.title-wrapper--no-top-margin>.title ,
-h2.rich-text__heading.rte,
-
-
-.multi-columns-titulo1,
-.rich-text-titulo1 {
-  text-align: center;
-  font-size:30px;
-  font-weight:700;
-letter-spacing: 0px;
-color: #575756;
-opacity: 1;
-}
-
-.multi-columns-texto,
-.rich-text-texto {
-  font-size:19px;
-  line-height:22px;
-  text-align: center;
-}
-
-
-
-.multi-columns-btn,
-.rich-text-btn {
-    font-size:19px;
-  line-height:22px;
-    text-align: center;
-}
-
-*/
-/* settings.customcss 
-Estilos: 
-Multi Column Classic  multi-classic
-Rich Text Classic   rich-classic
-  Multi Column char  multi-char
-Multi Column Featured  multi-featured
-Multi Column Slider multi-slider
-Multi Column testimonials  multi-testimonials
-section newsletter section-news
-*/
-/*ol  */
-
 .card__badge{
   display:none!important;
 }
@@ -1475,12 +1432,15 @@ summary .icon-carret2 {
     min-height: 45rem !important;
     align-content: space-between;
   }
-  .banner-home .banner__content .banner__box {
+
+  
+  .banner-home .banner__content .banner__box, .banner-home.for_mobile .banner__content .banner__box{
   height:70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+  
   .multi-slider {
     overflow:hidden;
     max-width:100%;
