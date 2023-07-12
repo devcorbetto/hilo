@@ -88,7 +88,7 @@ section newsletter section-news
 
 @media screen and (max-width: 749px){
   .text-black .banner__text, .banner__text.subtitle p{
-    font-size:18px;
+    font-size:18px!important;
   }
   .TL {
     top:-52px;
