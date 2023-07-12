@@ -126,6 +126,7 @@
       ],
       "settings": {
         "image2": "shopify:\/\/shop_images\/creme-visage-naturelle-personnalisable-texture.jpg",
+        "svg-eclat": "eclat-droit-violet",
         "caption": "",
         "heading": "",
         "heading_size": "h1",
@@ -299,6 +300,7 @@
       ],
       "settings": {
         "customcss": "multi-slider multi-slider-product wavestop2",
+        "svg-eclat": "none",
         "title": "LEUR MATCH PARFAIT",
         "heading_size": "h1",
         "image_width": "half",
