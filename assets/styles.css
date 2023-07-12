@@ -953,13 +953,13 @@ font-size:10px;
   cursor:auto!important;
 }
 
-.programme_text2 h2, .rich-text__heading.h2, .newsletter_heading.h2, .title.h2, .banner__heading.h2{
+.programme_text2 h2, .rich-text__heading.h2, .newsletter_heading.h2, .title.h2, .banner__heading.h2, .banner__heading.h2{
   font-size:20px!important;
   font-weight:500!important;
   
 }
 
-.programme_text2 h2.h0, .banner_media_wave_heading.h0, .rich-text__heading.h0, .newsletter_heading.h0, .title.h0{
+.programme_text2 h2.h0, .banner_media_wave_heading.h0, .rich-text__heading.h0, .newsletter_heading.h0, .title.h0, .banner__heading.h0{
   font-size: 40px;
   line-height: 36px;
   font-weight: 700;
