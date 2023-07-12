@@ -129,6 +129,9 @@
         "column3",
         "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae"
       ],
+      "custom_css": [
+        ".multicolumn-card__info h3 {color: ;}"
+      ],
       "settings": {
         "customcss": "multi-testimonials multi-icons",
         "title": "",
@@ -207,6 +210,10 @@
         "3ab296e4-b17c-480d-a46d-c3daf638807a",
         "text"
       ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
       "settings": {
         "customcss": "rich-classic comment",
         "desktop_content_position": "center",
@@ -250,6 +257,10 @@
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0",
         "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1",
         "12d5c4a7-78d2-410a-8f94-4d282a2ca70c"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
       ],
       "settings": {
         "customcss": "rich-classic",
@@ -404,6 +415,10 @@
         "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2",
         "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf"
       ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
       "settings": {
         "customcss": "rich-classic",
         "desktop_content_position": "center",
@@ -471,6 +486,10 @@
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
         "ac185d4f-43fb-42b1-a75e-f45c179fdd3a",
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
+      ],
+      "custom_css": [
+        ".rich-text__heading{color:;}",
+        ".rich-text__text p {color: ;}"
       ],
       "settings": {
         "customcss": "rich-classic philosophie",
