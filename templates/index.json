@@ -499,7 +499,8 @@
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": true
           }
         },
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2": {
@@ -517,7 +518,8 @@
             "text": "<p>Peau à tendance mixte en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         },
         "720d528c-dc53-4ffa-9be9-feed591fafcd": {
@@ -535,7 +537,8 @@
             "text": "<p>Peau déshydratée avec quelques rougeurs et imperfections<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         }
       },
@@ -556,7 +559,6 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "button_out": true,
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
