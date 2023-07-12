@@ -22,7 +22,7 @@
           "settings": {
             "button_label_1": "Je réalise mon diagnostic",
             "button_link_1": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": true,
+            "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",

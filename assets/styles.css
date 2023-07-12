@@ -666,6 +666,7 @@ table:not([class]){
   background-color:#fff!important;
   color:#fccf9c!important;
   border:none!important;
+  border-radius:30px;
 }
 
 .banner__content .button--secondary:hover:after{
