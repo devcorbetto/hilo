@@ -37,7 +37,7 @@
           {{ section.settings.title | escape }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
-          <a href="{{ section.settings.button_link }}" {% if section.settings.button_out %} target="_blank"{% endif %} class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
+          <a href="{{ section.settings.button_link }}" {% if block.settings.button_out %} target="_blank"{% endif %} class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
         {%- endif -%}
       </div>
     {%- endunless -%}
@@ -169,7 +169,7 @@
           role="link"
           aria-disabled="true"
           {% else %}
-          {% if section.settings.button_out %} target="_blank"{% endif %}
+          {% if block.settings.button_out %} target="_blank"{% endif %}
           href="{{ section.settings.button_link }}"
           {% endif %}>
           {{ section.settings.button_label | escape }}
@@ -387,12 +387,6 @@
         "label": "t:sections.multicolumn.settings.button_link.label"
       }, 
       {
-        "type": "checkbox",
-        "id": "button_out",
-        "default": false,
-        "label": "Cocher pour ouvrir le lien dans un nouvel onglet"
-      },
-      {
         "type": "select",
         "id": "color_scheme",
         "options": [
@@ -550,6 +544,12 @@
             "type": "url",
             "id": "link",
             "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "button_out",
+            "default": false,
+            "label": "Cocher pour ouvrir le lien dans un nouvel onglet"
           }
         ]
       }
