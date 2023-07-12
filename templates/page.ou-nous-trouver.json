@@ -30,6 +30,10 @@
         "template--18451935265063__8c53e55e-060b-41d6-b6d3-ef4deaadd1a1-16861414272d1a36aa-0",
         "template--18451935265063__8c53e55e-060b-41d6-b6d3-ef4deaadd1a1-16861414272d1a36aa-1"
       ],
+      "custom_css": [
+        ".banner__heading span {color: ;}",
+        ".banner__text p, .banner__text a {color: ;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
         "svg-wave": "vague-blanche",
@@ -96,6 +100,9 @@
         "customcss": "titlesbold",
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 64,
