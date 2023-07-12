@@ -1434,7 +1434,7 @@ summary .icon-carret2 {
   }
 
   
-  .banner-home .banner__content .banner__box, .banner-home.for_mobile .banner__content .banner__box{
+  .banner-home .banner__content .banner__box, .for_mobile.banner .banner__content .banner__box{
   height:70vh;
     display: flex;
     flex-direction: column;
