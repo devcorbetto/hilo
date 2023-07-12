@@ -1,4 +1,7 @@
 
+p > a{
+  text-decoration:underline;
+}
 
 .card__badge{
   display:none!important;

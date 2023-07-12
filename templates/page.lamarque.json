@@ -60,7 +60,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><strong>Îlot [n.m]<\/strong> : petite île sur laquelle le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
+            "text": "<p><strong>Îlot [n.m]<\/strong> : petite île sur <a href=\"https:\/\/google.com\" title=\"https:\/\/google.com\">laquelle<\/a> le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
           }
         }
       },
