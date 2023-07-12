@@ -67,17 +67,17 @@
     <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">      
     <span class="corner TL">
     {% if section.settings.svg-eclat == "eclat-droit-violet" %}
-     <img src="{{ 'Eclat_droit_violet.svg' | asset_url | img_tag }}" class="no-rotate">
+     {{ 'Eclat_droit_violet.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-eclat == "eclat-droit-rose" %}
-      <img src="{{ 'Eclat_droit_rose.svg' | asset_url | img_tag }}" class="no-rotate">
+      {{ 'Eclat_droit_rose.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-eclat == "eclat-droit-orange" %}
-      <img src="{{ 'Eclat_droit_orange.svg' | asset_url | img_tag }}" class="no-rotate">
+      {{ 'Eclat_droit_orange.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-eclat == "eclat-gauche-violet" %}
       {{ 'Eclat_gauche_violet.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-eclat == "eclat-gauche-rose" %}
-      <img src="{{ 'Eclat_gauche_rose.svg' | asset_url | img_tag }}" class="no-rotate">
+      {{ 'Eclat_gauche_rose.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-eclat == "eclat-gauche-orange" %}
-      <img src="{{ 'Eclat_gauche_orange.svg' | asset_url | img_tag }}" class="no-rotate">
+      {{ 'Eclat_gauche_orange.svg' | asset_url | img_tag }}
     {% endif %}
     </span>
   </div>
