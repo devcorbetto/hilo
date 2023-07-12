@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Vos cosmétiques personnalisés, naturels et anti-gaspi !",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text": {
@@ -488,7 +488,7 @@
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
       ],
       "custom_css": [
-        ".rich-text__heading{color:;}",
+        ".rich-text__heading {color: ;}",
         ".rich-text__text p {color: ;}"
       ],
       "settings": {
