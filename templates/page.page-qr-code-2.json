@@ -74,6 +74,7 @@
         "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 52,
@@ -114,6 +115,7 @@
         "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
@@ -229,7 +231,7 @@
           "type": "heading",
           "settings": {
             "heading": "LA PLAYLIST D'HILO",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
@@ -317,6 +319,7 @@
         "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
@@ -347,6 +350,7 @@
         "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,

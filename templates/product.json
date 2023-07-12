@@ -66,7 +66,7 @@
           "settings": {
             "heading": "DESCRIPTION",
             "icon": "none",
-            "row_content": "{{ product.metafields.custom.description | metafield_tag }}",
+            "row_content": "<p>{{ product.metafields.custom.description | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -237,7 +237,8 @@
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1": {
@@ -252,7 +253,8 @@
             "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable"
+            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2": {
@@ -270,7 +272,8 @@
             "text": "<p>Peau à tendance mixte, en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         },
         "fa3b8015-3e1c-4b15-8d7f-627989c04b4b": {
@@ -288,7 +291,8 @@
             "text": "<p>Peau déshydratée avec quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         }
       },
