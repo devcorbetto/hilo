@@ -14,7 +14,7 @@
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>SOINS VISAGE NATURELS ET SUR-MESURE<\/strong><\/h1>",
+            "heading": "<h1><strong>SOINS VISAGE NATURELS CIBLES<\/strong><\/h1>",
             "customcss": "mb-10b",
             "heading_size": "h1"
           }
@@ -201,7 +201,7 @@
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
       ],
       "custom_css": [
-        ".rich-text__heading{color:;}",
+        ".rich-text__heading {color: ;}",
         ".rich-text__text p {color: ;}"
       ],
       "settings": {
