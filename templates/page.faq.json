@@ -32,10 +32,10 @@
       ],
       "custom_css": [
         ".banner__heading span {color: ;}",
-        ".banner__text p, .banner__text a {color: ;}"
+        ".banner__text p,.banner__text a {color: ;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules-banniere_72f4d837-63a9-4588-b559-e71b0b64b4a7.jpg",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
