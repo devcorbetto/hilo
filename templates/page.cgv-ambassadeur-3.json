@@ -58,6 +58,9 @@
         "a7b91765-68c2-4571-b622-7354df5652bf",
         "c213c28c-bae7-4afa-8dc7-02e90b16cdae"
       ],
+      "custom_css": [
+        "p {texte-align : left}"
+      ],
       "settings": {
         "customcss": "full-width-faqs",
         "desktop_content_position": "center",
