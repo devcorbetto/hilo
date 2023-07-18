@@ -872,7 +872,7 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
               console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
            setTimeout(() => {
   location.reload();
-}, 4000);
+}, 500);
             })
             .catch((error) => {
               console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
