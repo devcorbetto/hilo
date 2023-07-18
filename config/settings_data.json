@@ -180,7 +180,7 @@
         "type": "header",
         "custom_css": [
           ".banner__heading span {color: ;}",
-          ".banner__text p, .banner__text a {color: ;}"
+          ".banner__text p,.banner__text a {color: ;}"
         ],
         "settings": {
           "color_scheme": "background-1",
