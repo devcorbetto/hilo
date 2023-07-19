@@ -36,6 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-les-fondatrices_febc64a6-b4c4-4b16-85cc-b437c3ea5489.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/creme-visage-naturelle-personnalisable-texture.jpg",
         "svg-wave": "vague-rose",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -157,7 +158,7 @@
       ],
       "custom_css": [
         "img {border-radius: 30px;}",
-        ".image-with-text__heading{color:;}",
+        ".image-with-text__heading {color: ;}",
         ".image-with-text__text p {color: ;}"
       ],
       "settings": {
