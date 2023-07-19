@@ -301,17 +301,16 @@
     "850641d8-50ee-4ad8-a16a-c25d38057892": {
       "type": "rich-text",
       "blocks": {
-        "template--19108853809447__850641d8-50ee-4ad8-a16a-c25d38057892-16860396665c6e8004-0": {
-          "type": "heading",
+        "b6c7d0d0-465e-4ac1-a1cc-26477daafedf": {
+          "type": "text",
           "settings": {
-            "heading": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques \">Je visite le site<\/a><\/p>",
             "customcss": "",
-            "heading_size": "h2"
+            "text": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques\"><strong>Je visite le site<\/strong><\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "template--19108853809447__850641d8-50ee-4ad8-a16a-c25d38057892-16860396665c6e8004-0"
+        "b6c7d0d0-465e-4ac1-a1cc-26477daafedf"
       ],
       "settings": {
         "customcss": "",
