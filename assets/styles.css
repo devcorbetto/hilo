@@ -752,6 +752,7 @@ body{
 /*svg */
 .header__icons svg {
       width: 24px;
+  height:30px;
 }
 .cart-count-bubble {
       bottom: 1.7rem;
