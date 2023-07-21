@@ -820,6 +820,9 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
   document.getElementById("changeitemcart").innerText = "Loading...";
 
   const productIndex = forloopindexId -1;
+
+
+  
   // Obtener la información del carrito actual
   fetch("/cart.js")
     .then((response) => response.json())
@@ -832,6 +835,29 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
         quantity: 1, // Reemplazar la cantidad del producto
       };
 
+
+// Eliminar el objeto de producto original de la lista de productos del carrito
+    fetch("/cart/change.js", {
+            method: "POST",
+            body: JSON.stringify({ 
+               line: forloopindexId,quantity:0        
+             }),
+            credentials: "same-origin",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
+         
+            })
+            .catch((error) => {
+              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
+         
+            });
+
+      
       // Agregar el nuevo objeto de producto a la lista de productos del carrito
       fetch("/cart/add.js", {
         method: "POST",
@@ -847,6 +873,9 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
         .then((response) => response.json())
         .then((updatedCart) => {
           console.log("Carrito actualizado:", updatedCart);
+            setTimeout(() => {
+  location.reload();
+}, 500);
         })
         .catch((error) => {
           console.error("Error al actualizar el carrito:", error);
@@ -856,28 +885,7 @@ function addtocart(originalProductId, newProductId, forloopindexId   ) {
       console.error("Error al obtener el carrito:", error);
     });
 
-   // Eliminar el objeto de producto original de la lista de productos del carrito
-    fetch("/cart/change.js", {
-            method: "POST",
-            body: JSON.stringify({ 
-               line: forloopindexId,quantity:0        
-             }),
-            credentials: "same-origin",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          })
-            .then((response) => response.json())
-            .then((data) => {
-              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
-           setTimeout(() => {
-  location.reload();
-}, 500);
-            })
-            .catch((error) => {
-              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
-         
-            });
+   
 }
 
 </script>
