@@ -342,7 +342,7 @@ $('.carrousel').slick({
   infinite: true,
   speed: 300,
   dots: true,
-   autoplay: true,
+{% unless template contains 'index' %}autoplay: true,{% endunless %}     
   autoplaySpeed: 2000,
   arrow: true,
   slidesToShow: 5,
@@ -436,7 +436,7 @@ $('.reviews-slider').slick({
   dots: false,
   infinite: true,
   speed: 300,
-    autoplay: true,
+{% unless template contains 'index' %}autoplay: true,{% endunless %}     
   autoplaySpeed: 2000,
   arrows: false,
   slidesToShow: 5,
