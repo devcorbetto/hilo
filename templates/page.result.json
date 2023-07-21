@@ -143,6 +143,9 @@
         "customcss": "mt-40  waves2a",
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 40,
@@ -180,6 +183,9 @@
         "template--18831072788775__1e473254-c1b2-405f-8ed6-a20bc3d453ec-16841269575ded5e2a-0",
         "template--18831072788775__1e473254-c1b2-405f-8ed6-a20bc3d453ec-16841269575ded5e2a-1",
         "template--18831072788775__1e473254-c1b2-405f-8ed6-a20bc3d453ec-16841269575ded5e2a-2"
+      ],
+      "custom_css": [
+        ".bg_pink img:nth-child(1) {border-radius: 50%; object-fit: cover; max-width: 350px; height: 350px;}"
       ],
       "settings": {
         "customcss": "bg_pink",
