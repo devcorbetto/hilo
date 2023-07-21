@@ -1055,11 +1055,11 @@ Elle est conseillée pour :<br><br>
 {% endif %}           
       
 {% if forloop.index != 1 %}
-   <div>
+   <tr>
     <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.name }}</th>
     <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic.date }}</th>
     <th class="px-4 py-2" style="font-weight:400;">{{ diagnostic_ing1 }} - {{ diagnostic_ing2 }} - {{ diagnostic_ing3 }}</th>
-  </div>
+  </tr>
 
  
   {% endif %}
