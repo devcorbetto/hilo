@@ -185,7 +185,7 @@
         "template--18831072788775__1e473254-c1b2-405f-8ed6-a20bc3d453ec-16841269575ded5e2a-2"
       ],
       "custom_css": [
-        ".bg_pink img:nth-child(1) {border-radius: 50%; object-fit: cover; max-width: 350px; height: 350px;}"
+
       ],
       "settings": {
         "customcss": "bg_pink",
