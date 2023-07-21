@@ -84,7 +84,7 @@
         {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
       >
         {%- if section.settings.image != blank -%}
-           <!--<img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/eclat_HD.svg?v=1684281565" class="corner-top no-rotate top-wavestop2 top-wavestop3">-->
+           <img src="{{ 'Eclat_gauche_blanc.svg' | asset_url }}" class="corner-top no-rotate top-wavestop2 top-wavestop3">
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
           {{ section.settings.image | image_url: width: 1500 | image_tag:
             loading: 'lazy',
