@@ -133,7 +133,8 @@
     {% if section.settings.svg-wave == "vague-blanche" %}
      {{ 'vague_blanche.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-wave == "vague-rose" %}
-      {{ 'vague_rose.svg' | asset_url | img_tag }}
+      {% comment %}{{ 'vague_rose.svg' | asset_url | img_tag }}{% endcomment %}
+      <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/vague_violet_trait.png?v=1689944490"/>
     {% elsif section.settings.svg-wave == "vague-orange-clair" %}
       {{ 'vague_orange_clair.svg' | asset_url | img_tag }}
     {% elsif section.settings.svg-wave == "vague-orange" %}
