@@ -813,75 +813,73 @@
     }, 2500); // 1500 milisegundos = 2 segundos
   }
 </script>
-
 <script>
-function addtocart(originalProductId, newProductId, forloopindexId   ) {
+function addtocart(originalProductId, newProductId, forloopindexId) {
   document.getElementById("changeitemcart").disabled = true;
   document.getElementById("changeitemcart").innerText = "Loading...";
 
   const productIndex = forloopindexId -1;
-  
-  // Obtener la información del carrito actual
+
+  // Obtain the current cart information
   fetch("/cart.js")
     .then((response) => response.json())
     .then((cart) => {
-    
-      // Crear un nuevo objeto de producto con las mismas propiedades que el producto original, pero con los cambios necesarios
+      // Create a new product object with the same properties as the original product, but with the necessary changes
       const newProduct = {
         ...cart.items[productIndex],
-        variant_id: newProductId, // Reemplazar el ID del producto
-        quantity: 1, // Reemplazar la cantidad del producto
+        variant_id: newProductId, // Replace the product ID
+        quantity: 1, // Replace the quantity of the product
       };
 
-      // Agregar el nuevo objeto de producto a la lista de productos del carrito
-      fetch("/cart/add.js", {
+      // Remove the original product object from the list of products in the cart
+      fetch("/cart/change.js", {
         method: "POST",
-        body: JSON.stringify({
-          id: newProduct.variant_id,
-          quantity: newProduct.quantity,
-          properties: newProduct.properties, // Mantener las propiedades del producto original
-        }),
+        body: JSON.stringify({ 
+           line: forloopindexId, quantity:0        
+         }),
+        credentials: "same-origin",
         headers: {
           "Content-Type": "application/json",
         },
       })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('ORIGINAL PRODUCT REMOVED', data); // You can handle the response from Shopify after removing the item here
+
+        // After successfully removing the original item, add the new product object to the list of products in the cart
+        fetch("/cart/add.js", {
+          method: "POST",
+          body: JSON.stringify({
+            id: newProduct.variant_id,
+            quantity: newProduct.quantity,
+            properties: newProduct.properties, // Keep the properties of the original product
+          }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
         .then((response) => response.json())
         .then((updatedCart) => {
-          console.log("Carrito actualizado:", updatedCart);
-        })
-        .catch((error) => {
-          console.error("Error al actualizar el carrito:", error);
-        });
-    })
-    .catch((error) => {
-      console.error("Error al obtener el carrito:", error);
-    });
-
-   // Eliminar el objeto de producto original de la lista de productos del carrito
-    fetch("/cart/change.js", {
-            method: "POST",
-            body: JSON.stringify({ 
-               line: forloopindexId,quantity:0        
-             }),
-            credentials: "same-origin",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          })
-            .then((response) => response.json())
-            .then((data) => {
-              console.log('ELIMINACION DE PRODUCTO', data); // Aquí puedes manejar la respuesta de Shopify después de eliminar el artículo
-           setTimeout(() => {
+          console.log("Cart updated:", updatedCart);
+            setTimeout(() => {
   location.reload();
 }, 500);
-            })
-            .catch((error) => {
-              console.error(error); // Maneja cualquier error que ocurra durante la eliminación del artículo
-         
-            });
-}
+        })
+        .catch((error) => {
+          console.error("Error when updating the cart:", error);
+        });
 
+      })
+      .catch((error) => {
+        console.error(error); // Handle any errors that occur during the removal of the item
+      });
+    })
+    .catch((error) => {
+      console.error("Error when obtaining the cart:", error);
+    });
+}
 </script>
+
 
 
       <style>
