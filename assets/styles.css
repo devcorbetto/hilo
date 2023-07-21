@@ -154,7 +154,8 @@ p > a{
 }
 
 .custom_wave img, .custom_wave_top img{
-  width:100%;
+  width:105%;
+  max-width:105%;
 }
 
 .banner_media_wave .media > img {
