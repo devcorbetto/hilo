@@ -156,6 +156,7 @@ p > a{
 .custom_wave img, .custom_wave_top img{
   width:105%;
   max-width:105%;
+  overflow: hidden;
 }
 
 .banner_media_wave .media > img {
