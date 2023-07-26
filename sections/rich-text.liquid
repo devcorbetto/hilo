@@ -82,7 +82,7 @@
     </span>
   </div>
 {% else %}
-  {% if block.settings.link_image %}<a href="{{ block.settings.link_image }}">{% endif %}
+  {% if block.settings.link_image %}<a {% if block.settings.image_out %} target="_blank"{% endif %} href="{{ block.settings.link_image }}">{% endif %}
     <img src="{{ block.settings.image_picker | img_url: 'master' }}" class="image_rich-text">
   {% if block.settings.link_image %}</a>{% endif %}
     </div>
@@ -553,6 +553,12 @@
           "type": "url",
           "id": "link_image",
           "label": "Link image"
+        },
+        {
+          "type": "checkbox",
+          "id": "image_out",
+          "default": false,
+          "label": "Cocher pour ouvrir le lien dans un nouvel onglet"
         }
        ]
     }
