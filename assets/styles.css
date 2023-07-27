@@ -15,6 +15,10 @@ p > a{
   text-decoration:underline;
 }
 
+p > a:hover{
+  text-decoration:none;
+}
+
 .card__badge{
   display:none!important;
 }
