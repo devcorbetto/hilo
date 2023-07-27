@@ -37,7 +37,7 @@
       ],
       "custom_css": [
         ".banner__heading {color: #fff;}",
-        ".banner__text span {color: #fff;}"
+        ".banner__text span {color: #fff; text-align:; font-size:;}"
       ],
       "settings": {
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
@@ -194,7 +194,8 @@
           "settings": {
             "customcss": "mb-10m corner-left-top-purple",
             "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-base-de-creme-et-capsules-2.gif",
-            "link_image": ""
+            "link_image": "",
+            "image_out": false
           }
         },
         "text": {
