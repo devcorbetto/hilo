@@ -10,7 +10,7 @@
     "75badb8d-a8c1-47d6-90f9-4a5bd2bede7f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign target_product_id = 8110755447079 %}\n{% assign product = all_products[target_product_id] %}\n\n{% if product %}\n  <p>ID del producto: {{ product.id }}<\/p>\n  <p>Título del producto: {{ product.title }}<\/p>\n  <p>Stock disponible: {{ product.inventory_quantity | default: 0 }}<\/p>\n{% else %}\n  <p>Producto no encontrado.<\/p>\n{% endif %}",
+        "custom_liquid": "{% assign target_product_id = 8110755447079%}\n\n{% for product in collections.all.products %}\n  {% if product.id == target_product_id %}\n    <p>ID del producto: {{ product.id }}<\/p>\n    <p>Título del producto: {{ product.title }}<\/p>\n    <p>Stock disponible: {{ product.inventory_quantity | default: 0 }}<\/p>\n  {% endif %}\n{% endfor %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
