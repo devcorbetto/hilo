@@ -37,7 +37,7 @@
       ],
       "custom_css": [
         ".banner__heading {color: #fff;}",
-        ".banner__text span {color: #fff; text-align:; font-size:;}"
+        ".banner__text span {color: #fff; text-align: ; font-size: ;}"
       ],
       "settings": {
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
@@ -679,7 +679,7 @@
       "type": "apps",
       "blocks": {
         "573ae310-00ab-4f9d-b57d-d2ad1621d728": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 80,
@@ -707,7 +707,7 @@
         "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>De la bonne humeur dans votre boite mail !<\/h3><p>Ne ratez aucune actualités, astuces beautés ou petits mots d'amour d'Hilo en vous abonnant à la newsletter.<\/p>"
+            "text": "<h3>De la bonne humeur dans votre boite mail !<\/h3><p>Ne ratez aucune de nos actualités, astuces beautés, offres exclusives ou petits mots d'amour d'Hilo en vous abonnant ci-dessous.<\/p>"
           }
         },
         "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2": {
