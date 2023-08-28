@@ -194,7 +194,7 @@
           "type": "button",
           "settings": {
             "button_label": "Je télécharge la liste INCI",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/INCI_FORMULES_HILO.pdf?v=1686133548",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Listes_INCI_formules_Hilo.pdf?v=1693223244",
             "no_target": true
           }
         }
@@ -283,7 +283,7 @@
       "type": "apps",
       "blocks": {
         "3421f632-f7cf-486f-80b7-628ee85726d7": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
@@ -334,7 +334,7 @@
             "customcss": "",
             "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-logo.svg",
             "link_image": "https:\/\/hilo-cosmetiques.fr",
-            "image_out": true
+            "image_out": false
           }
         }
       },
