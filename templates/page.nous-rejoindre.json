@@ -59,25 +59,25 @@
             "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Stage_community_manager.pdf?v=1695212720\" target=\"_blank\" title=\"Offre de stage - community manager\">Stage - Community manager<\/a><\/p>"
           }
         },
+        "0e38aea4-1bfa-4684-97af-cc2df85f44f4": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Stage_-_conseiller_de_vente.pdf?v=1695212720\" target=\"_blank\" title=\"Offre de stage - Conseiller de vente\">Stage - Conseiller de vente<\/a><\/p>"
+          }
+        },
         "f301137f-d1eb-44a4-a1c7-5a172e523868": {
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Nous vous remercions de nous transmettre votre candidature à l'adresse suivante :<\/p><p><\/p>"
-          }
-        },
-        "2cd0fff6-afaa-407b-9b41-ffc28ece3c65": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p><a href=\"mailto:candidature@hilocosmetiques.fr\" title=\"mailto:candidature@hilocosmetiques.fr\">candidature@hilocosmetiques.fr<\/a><\/p>"
+            "text": "<p>Nous vous remercions de nous transmettre votre candidature à l'adresse suivante : <\/p><p><a href=\"mailto:candidature@hilocosmetiques.fr\" title=\"mailto:candidature@hilocosmetiques.fr\">candidature@hilocosmetiques.fr<\/a><\/p><p><\/p>"
           }
         }
       },
       "block_order": [
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
-        "f301137f-d1eb-44a4-a1c7-5a172e523868",
-        "2cd0fff6-afaa-407b-9b41-ffc28ece3c65"
+        "0e38aea4-1bfa-4684-97af-cc2df85f44f4",
+        "f301137f-d1eb-44a4-a1c7-5a172e523868"
       ],
       "settings": {
         "customcss": "size-a",
