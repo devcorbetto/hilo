@@ -32,7 +32,7 @@
       ],
       "custom_css": [
         ".banner__heading span {color: ;}",
-        ".banner__text p, .banner__text a {color: ;}"
+        ".banner__text p,.banner__text a {color: ;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
@@ -55,8 +55,15 @@
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1": {
           "type": "text",
           "settings": {
+            "customcss": "",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Stage_community_manager.pdf?v=1695212720\" target=\"_blank\" title=\"Offre de stage - community manager\">Stage - Community manager<\/a><\/p>"
+          }
+        },
+        "f301137f-d1eb-44a4-a1c7-5a172e523868": {
+          "type": "text",
+          "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Il n’y a pas d’offres pour l’instant mais vous pouvez nous transmettre votre candidature spontanée à l’adresse suivante : <\/p><p><\/p>"
+            "text": "<p>Nous vous remercions de nous transmettre votre candidature à l'adresse suivante :<\/p><p><\/p>"
           }
         },
         "2cd0fff6-afaa-407b-9b41-ffc28ece3c65": {
@@ -69,6 +76,7 @@
       },
       "block_order": [
         "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
+        "f301137f-d1eb-44a4-a1c7-5a172e523868",
         "2cd0fff6-afaa-407b-9b41-ffc28ece3c65"
       ],
       "settings": {
