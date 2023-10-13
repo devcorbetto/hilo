@@ -167,12 +167,22 @@
               "color_scheme": "accent-2",
               "link": "shopify:\/\/products\/coffret-hilo"
             }
+          },
+          "79d2705d-dbd3-4495-a5e7-eab0ce496151": {
+            "type": "announcement",
+            "settings": {
+              "text": "Les avis de nos clients : 5\/5 ⭐⭐⭐⭐⭐",
+              "text_alignment": "center",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "34111425-88b3-479f-9bf1-cead122aa801",
           "58ef773b-46b5-4d44-8112-9e2a1de04845",
-          "33b0d505-ba75-485a-903f-af0cded9f718"
+          "33b0d505-ba75-485a-903f-af0cded9f718",
+          "79d2705d-dbd3-4495-a5e7-eab0ce496151"
         ],
         "settings": {
         }
