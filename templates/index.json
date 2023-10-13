@@ -13,15 +13,15 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Ajoutez 3 capsules d'actifs à votre base de soin naturelle pour obtenir des cosmétiques sur-mesure en un clin d'œil.  <br><br> Identifiez les besoins de votre peau grâce à notre diagnostic en ligne.",
+            "text": "Ajoutez 3 capsules d'actifs à votre base de soin naturelle pour obtenir des cosmétiques parfaitement adaptés à votre peau.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Je réalise mon diagnostic",
-            "button_link_1": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_label_1": "Je craque",
+            "button_link_1": "shopify:\/\/pages\/boutique-soins-sur-mesure",
             "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -37,7 +37,7 @@
       ],
       "custom_css": [
         ".banner__heading {color: #fff;}",
-        ".banner__text span {color: #fff; text-align: ; font-size: ;}"
+        ".banner__text span {color: #fff; text-align: ; font-size: 20px;}"
       ],
       "settings": {
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",
