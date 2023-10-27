@@ -105,33 +105,19 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Vous préférez un<strong> coffret cadeau cosmétique sur-mesure<\/strong> pour vous offrir un cadeau 100% personnalisé ? <\/p><p>Découvrez la boutique en ligne de <a href=\"\/pages\/boutique-soins-sur-mesure\" target=\"_blank\" title=\"Boutique\"><strong>soins sur-mesure Hilo<\/strong><\/a><strong> <\/strong>et craquez pour un coffret cosmétique 100% adapté à votre peau. <\/p>"
-          }
-        },
-        "64975ab8-962a-48ff-bbec-1129a17db732": {
-          "type": "button",
-          "settings": {
-            "customcss": "btn-circle",
-            "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": false,
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Vous préférez un<strong> coffret cadeau cosmétique sur-mesure<\/strong> pour vous offrir un cadeau 100% personnalisé ? <\/p><p>Découvrez la boutique en ligne de <a href=\"\/pages\/boutique-soins-sur-mesure\" target=\"_blank\" title=\"Boutique\"><strong>soins sur-mesure Hilo<\/strong><\/a><strong> <\/strong>et craquez pour un coffret cosmétique 100% personnalisé en fonction des besoins de votre peau. <\/p>"
           }
         }
       },
       "block_order": [
         "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0",
         "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1",
-        "a82a55a9-1c7b-45ef-8983-c7289128aab2",
-        "64975ab8-962a-48ff-bbec-1129a17db732"
+        "a82a55a9-1c7b-45ef-8983-c7289128aab2"
       ],
       "custom_css": [
         ".rich-text__heading {color: ;}",
         ".rich-text__text p {color: ;}",
-        ".rich-text__text a {color: #716F6F;}"
+        ".rich-text__text a {color: #716f6f;}"
       ],
       "settings": {
         "customcss": "boutique-creez",
