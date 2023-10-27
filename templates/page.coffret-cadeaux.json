@@ -14,7 +14,7 @@
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>SOINS VISAGE NATURELS ET SUR-MESURE<\/strong><\/h1>",
+            "heading": "<h1><strong>COFFRETS CADEAUX COSMÉTIQUES<\/strong><\/h1>",
             "customcss": "mb-10b",
             "heading_size": "h1"
           }
@@ -23,14 +23,14 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Hilo vous propose des soins visage naturels et sur-mesure grâce aux petites capsules d'actifs à ajouter dans votre base de soin. <\/p>"
+            "text": "<p>Vous cherchez le cadeau parfait pour ceux que vous aimez ? <\/p><p>Découvrez les coffrets cadeaux cosmétiques d'Hilo à offrir à Noël pour faire plaisir à vos proches.<strong>🎄<\/strong><\/p>"
           }
         },
         "d79e4868-7e5c-4937-883c-e698df8d27f6": {
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
+            "text": "<p>Craquez pour nos coffrets cadeaux cosmétiques afin de faire découvrir notre gamme de soins visages naturels et 100% personnalisables. <\/p><p>Le cadeau idéal pour toutes les peaux ! 🎁<\/p>"
           }
         }
       },
@@ -89,7 +89,7 @@
         "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>CRÉEZ VOTRE SOIN VISAGE NATUREL SUR-MESURE<\/p>",
+            "heading": "<p>VOUS SOUHAITEZ VOUS OFFRIR UN COFFRET CADEAU COSMÉTIQUE ?<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -98,14 +98,14 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin. ✨ <\/p>"
+            "text": "<p>La période de Noël n'est pas uniquement faite pour offrir des cadeaux à ses proches. Vous pouvez également vous faire plaisir en vous offrant un coffret cadeau cosmétique pour prendre soin de votre peau. <\/p>"
           }
         },
         "a82a55a9-1c7b-45ef-8983-c7289128aab2": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><\/p><p>Vous pouvez réaliser votre diagnostic à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
+            "text": "<p>Vous préférez un<strong> coffret cadeau cosmétique sur-mesure<\/strong> pour vous offrir un cadeau 100% personnalisé ? <\/p><p>Découvrez la boutique en ligne de <a href=\"\/pages\/boutique-soins-sur-mesure\" target=\"_blank\" title=\"Boutique\"><strong>soins sur-mesure Hilo<\/strong><\/a><strong> <\/strong>et craquez pour un coffret cosmétique 100% adapté à votre peau. <\/p>"
           }
         },
         "64975ab8-962a-48ff-bbec-1129a17db732": {
@@ -130,7 +130,8 @@
       ],
       "custom_css": [
         ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
+        ".rich-text__text p {color: ;}",
+        ".rich-text__text a {color: #716F6F;}"
       ],
       "settings": {
         "customcss": "boutique-creez",
@@ -201,7 +202,7 @@
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
       ],
       "custom_css": [
-        ".rich-text__heading{color:;}",
+        ".rich-text__heading {color: ;}",
         ".rich-text__text p {color: ;}"
       ],
       "settings": {
