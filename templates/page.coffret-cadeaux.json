@@ -8,6 +8,42 @@
         "padding_bottom": 28
       }
     },
+    "2e91d591-d8d0-4103-8b9f-af107014f4fb": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "COFFRETS CADEAUX COSMÉTIQUES  🎁",
+            "heading_size": "h0"
+          }
+        },
+        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous cherchez le cadeau parfait pour ceux que vous aimez ? <\/p><p>Découvrez les coffrets cadeaux cosmétiques d'Hilo à offrir à Noël pour faire plaisir à vos proches.<strong>🧑‍🎄<\/strong><\/p><p><\/p><p>Craquez pour nos coffrets cadeaux cosmétiques afin de faire découvrir notre gamme de soins visages naturels et 100% personnalisables. Le cadeau idéal pour toutes les peaux ! <strong>🎄<\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-heading-1",
+        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1"
+      ],
+      "settings": {
+        "svg-wave": "vague-blanche",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a": {
       "type": "rich-text",
       "blocks": {
@@ -271,6 +307,7 @@
   },
   "order": [
     "main",
+    "2e91d591-d8d0-4103-8b9f-af107014f4fb",
     "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a",
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
