@@ -21,7 +21,7 @@
         "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vous cherchez le cadeau parfait pour ceux que vous aimez ? <\/p><p>Découvrez les coffrets cadeaux cosmétiques d'Hilo à offrir à Noël pour faire plaisir à vos proches.<strong>🧑‍🎄<\/strong><\/p><p><\/p><p>Craquez pour nos coffrets cadeaux cosmétiques afin de faire découvrir notre gamme de soins visages naturels et 100% personnalisables. Le cadeau idéal pour toutes les peaux ! <strong>🎄<\/strong><\/p>",
+            "text": "<p>Vous cherchez le <strong>cadeau parfait <\/strong>pour ceux que vous aimez ? <\/p><p>Découvrez les <strong>coffrets cadeaux cosmétiques<\/strong> d'Hilo à offrir à Noël pour faire plaisir à vos proches.<strong>🧑‍🎄<\/strong><\/p><p><\/p><p>Craquez pour nos coffrets cadeaux cosmétiques afin de faire découvrir notre gamme de soins visages naturels et 100% personnalisables. <strong>Le cadeau idéal <\/strong>pour toutes les peaux ! <strong>🎄<\/strong><\/p>",
             "text_style": "body"
           }
         }
@@ -30,7 +30,11 @@
         "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-heading-1",
         "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banniere_de_Noel_2.jpg",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -42,54 +46,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1><strong>COFFRETS CADEAUX COSMÉTIQUES<\/strong><\/h1>",
-            "customcss": "mb-10b",
-            "heading_size": "h1"
-          }
-        },
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Vous cherchez le cadeau parfait pour ceux que vous aimez ? <\/p><p>Découvrez les coffrets cadeaux cosmétiques d'Hilo à offrir à Noël pour faire plaisir à vos proches.<strong>🎄<\/strong><\/p>"
-          }
-        },
-        "d79e4868-7e5c-4937-883c-e698df8d27f6": {
-          "type": "text",
-          "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Craquez pour nos coffrets cadeaux cosmétiques afin de faire découvrir notre gamme de soins visages naturels et 100% personnalisables. <\/p><p>Le cadeau idéal pour toutes les peaux ! 🎁<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0",
-        "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-1",
-        "d79e4868-7e5c-4937-883c-e698df8d27f6"
-      ],
-      "custom_css": [
-        ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "vague-blanche",
-        "svg-wave-position": "bottom",
-        "svg-eclat": "none",
-        "color_scheme": "colors_6",
-        "full_width": true,
-        "padding_top": 12,
-        "padding_bottom": 120
       }
     },
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae": {
@@ -308,7 +264,6 @@
   "order": [
     "main",
     "2e91d591-d8d0-4103-8b9f-af107014f4fb",
-    "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a",
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
     "0390fa47-3651-4227-ab29-9dfcfa382c60",
