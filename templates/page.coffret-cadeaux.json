@@ -81,9 +81,9 @@
         "template--21365101756711__734bc108-d1aa-43e1-bdf4-582520d2b369-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Pourquoi acheter un coffret cadeau cosmétique Hilo ?",
+            "icon": "none",
+            "row_content": "<p>Les coffrets cadeaux cosmétiques Hilo vont vous permettre d'offrir un cadeau unique à ceux que vous aimez. Ils sont le cadeau idéal pour faire découvrir la marque et son concept original. <\/p>",
             "page": ""
           }
         },
@@ -123,7 +123,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "",
+        "heading": "Les coffrets cadeaux cosmétiques : questions fréquentes",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
