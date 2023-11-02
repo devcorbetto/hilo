@@ -119,33 +119,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "850641d8-50ee-4ad8-a16a-c25d38057892": {
-      "type": "rich-text",
-      "blocks": {
-        "b6c7d0d0-465e-4ac1-a1cc-26477daafedf": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques\"><strong>Je visite le site<\/strong><\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "b6c7d0d0-465e-4ac1-a1cc-26477daafedf"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -153,7 +126,6 @@
     "06985fef-f561-411b-9d86-7c633b95f399",
     "75efe217-e571-425c-b2a4-6b983f1df90b",
     "19489bf3-7aa9-4364-aa76-ca3603fe218d",
-    "1684764937cc95afcf",
-    "850641d8-50ee-4ad8-a16a-c25d38057892"
+    "1684764937cc95afcf"
   ]
 }
