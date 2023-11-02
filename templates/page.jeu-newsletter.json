@@ -57,7 +57,7 @@
       "settings": {
         "title": "NOS PÉPITES",
         "heading_size": "h1",
-        "description": "<p>Pour patienter jusqu'à la grande annonce, (re)découvrez nos produits phares ! <\/p>",
+        "description": "<h6>Pour patienter jusqu'à la grande annonce, (re)découvrez nos produits phares ! <\/h6>",
         "show_description": false,
         "description_style": "body",
         "collection": "homepage-2",
