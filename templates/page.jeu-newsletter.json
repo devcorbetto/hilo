@@ -54,6 +54,9 @@
     },
     "75efe217-e571-425c-b2a4-6b983f1df90b": {
       "type": "featured-collection",
+      "custom_css": [
+        "h6 {text-align: center; margin: 35px;}"
+      ],
       "settings": {
         "title": "NOS PÉPITES",
         "heading_size": "h1",
