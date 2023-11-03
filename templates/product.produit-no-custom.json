@@ -22,7 +22,7 @@
           }
         },
         "b3ed1d45-8e0d-4bb7-b78f-c9748bf6a63c": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {
           }
@@ -85,7 +85,6 @@
         },
         "template--17804308939047__2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa-1679359602bf820eec-1": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
             "heading": "COMMENT ÇA MARCHE ?",
             "icon": "none",
@@ -294,7 +293,7 @@
       "type": "apps",
       "blocks": {
         "99212420-fce7-46c3-b461-366c52601b5a": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -308,7 +307,6 @@
     },
     "4c2df2b8-2e8e-4d20-8923-920e5882481a": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-0": {
           "type": "column",
@@ -352,6 +350,7 @@
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-1",
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-2"
       ],
+      "disabled": true,
       "settings": {
         "customcss": "multi-testimonials multi-testimonials-reviews",
         "title": "ILS LES ADORENT AUTANT QUE NOUS",
