@@ -31,10 +31,10 @@
         "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1"
       ],
       "custom_css": [
-        "h2 {margin-top : 30px; margin-bottom : 30px}"
+        "h2 {margin-top: 30px; margin-bottom: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Coffrets-cadeaux-Noel.jpg",
+        "image": "shopify:\/\/shop_images\/Banniere_de_Noel.png",
         "mobile_image": "shopify:\/\/shop_images\/Banniere_de_Noel_1.png",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
