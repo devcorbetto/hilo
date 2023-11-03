@@ -34,7 +34,8 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banniere_de_Noel_2.jpg",
+        "image": "shopify:\/\/shop_images\/Banniere_de_Noel.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banniere_de_Noel_1.png",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
