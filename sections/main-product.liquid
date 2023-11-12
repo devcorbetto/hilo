@@ -447,7 +447,7 @@
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                            {{ 'products.product.add_to_cart' | t   }}
+                            {% if product.metafields.custom.bouton_atc == "" %}{{ 'products.product.add_to_cart' | t   }}{% else %}{% endif %}
                             {% if product.metafields.custom.product_custom %}-  {{ product.price | money | strip_html }} {% endif %}
                                  -  {{ product.price | money | strip_html }}  
                           {%- else -%}
