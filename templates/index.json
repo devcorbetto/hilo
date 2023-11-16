@@ -39,7 +39,7 @@
         ".banner__heading {color: #fff;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
         ".button--secondary {color: ;}",
-        "@media screen and (max-width: 749px){.banner__heading{text-align:center;}}"
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; }}"
       ],
       "settings": {
         "textafter": "Les premières capsules éco-conçues qui personnalisent votre crème.",

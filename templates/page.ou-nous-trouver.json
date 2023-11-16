@@ -99,6 +99,9 @@
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-heading-1",
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-text-1"
       ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
       "settings": {
         "customcss": "",
         "eclat": "none",
