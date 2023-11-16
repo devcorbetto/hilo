@@ -54,7 +54,8 @@
               </p>
             {%- when 'text' -%}
               <div class="rich-text__text rte {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
-                {{ block.settings.text | newline_to_br }}
+                {% comment %}{{ block.settings.text | newline_to_br }}{% endcomment %}
+            {{ block.settings.text }}
               </div>
                {%- when 'liquid' -%}
               <div class=" {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
