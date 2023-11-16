@@ -204,7 +204,7 @@ summary .icon-carret2 {
                    {% endfor %}
                           {{ product.metafields.custom.consignes_de_recyclage | metafield_tag }}
                    {% else %}
-                    {{ block.settings.row_content }}
+                    {{ block.settings.row_content | newline_to_br }}
                     {{ block.settings.page.content }}
 
                    {% endif %}
