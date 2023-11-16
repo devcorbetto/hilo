@@ -188,6 +188,12 @@
               <span>{{ block.settings.text }}</span>
             </div>
           {% endif %}
+          {%- when 'paragraphe' -%}
+          {% if block.settings.paragraphe %}
+            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.paragraphe }}</span>
+            </div>
+          {% endif %}
           {% comment %}{% if block.settings.richtext %}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.richtext }}</span>
@@ -524,7 +530,7 @@
       "settings": [
         {
           "type": "richtext",
-          "id": "heading",
+          "id": "paragraphe",
           "label": "Paragraphe"
         }
       ]
