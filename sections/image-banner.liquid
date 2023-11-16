@@ -187,7 +187,8 @@
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.text }}</span>
             </div>
-          {% elsif block.settings.richtext %}
+          {% endif %}
+          {% if block.settings.richtext %}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.richtext }}</span>
             </div>
