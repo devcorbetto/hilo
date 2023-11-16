@@ -191,14 +191,9 @@
           {%- when 'paragraphe' -%}
           {% if block.settings.paragraphe %}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.paragraphe }}</span>
+              <span>{{ block.settings.paragraphe | newline_to_br }}</span>
             </div>
           {% endif %}
-          {% comment %}{% if block.settings.richtext %}
-            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.richtext }}</span>
-            </div>
-          {% endif %}{% endcomment %}
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
@@ -217,7 +212,7 @@
       <img src="{{ section.settings.imageright | image_url: width:'470px'  }}" class="imagenproduct">
     {% endif %}
       <img src="{{ section.settings.imageicon | img_url  }}" class="imageicon">
-      <p>{{ section.settings.textafter}}</p>
+      <p>{{ section.settings.textafter | newline_to_br }}</p>
     </div>
   </div>
   {% if section.settings.customcss contains "waves2a" %}
