@@ -262,7 +262,7 @@ transform: translate(-50%, -50%);
                   <h3 style="cursor:pointer;">{{ block.settings.title  }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte" style="cursor:pointer;">{{ block.settings.text }}</div>
+                  <div class="rte" style="cursor:pointer;">{{ block.settings.text | newline_to_br }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a  style="cursor:pointer;" class="link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
