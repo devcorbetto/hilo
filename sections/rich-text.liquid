@@ -46,7 +46,7 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2 class="rich-text__heading rte {{ block.settings.heading_size }} {{ block.settings.customcss }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading | replace: 'p>', 'span>' }}
+                {{ block.settings.heading | replace: 'p>', 'span>' | newline_to_br }}
               </h2>
             {%- when 'caption' -%}
               <p class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
@@ -55,7 +55,7 @@
             {%- when 'text' -%}
               <div class="rich-text__text rte {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
                 {% comment %}{{ block.settings.text | newline_to_br }}{% endcomment %}
-            {{ block.settings.text }}
+            {{ block.settings.text | newline_to_br }}
               </div>
                {%- when 'liquid' -%}
               <div class=" {{ block.settings.customcss}}" {{ block.shopify_attributes }}>
