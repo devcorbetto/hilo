@@ -194,7 +194,8 @@
           {%- when 'paragraphe' -%}
           {% if block.settings.paragraphe %}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <div>{{ block.settings.paragraphe | newline_to_br }}</div>
+              <div class="rte">{{ block.settings.paragraphe | newline_to_br }}</div>
+
             </div>
           {% endif %}
           {%- when 'buttons' -%}
