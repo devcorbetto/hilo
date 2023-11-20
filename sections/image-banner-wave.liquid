@@ -194,8 +194,7 @@
           {%- when 'paragraphe' -%}
           {% if block.settings.paragraphe %}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <div class="rte">{{ block.settings.paragraphe | newline_to_br }}</div>
-
+              <span>{{ block.settings.paragraphe | newline_to_br }}</span>
             </div>
           {% endif %}
           {%- when 'buttons' -%}
@@ -498,7 +497,6 @@
         {
           "type": "richtext",
           "id": "paragraphe",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "label": "Paragraphe"
         }
       ]
