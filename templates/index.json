@@ -38,14 +38,14 @@
       "custom_css": [
         ".banner__heading {color: #fff;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
-        ".button--secondary {color: #F8B362; background-color : #FFF ; border-radius : 30px ;}",
+        ".button--secondary {color: #f8b362; background-color: #fff; border-radius: 30px;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; }}"
       ],
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/Coffret_cadeaux_cosmetiques_Noel.png",
-        "mobile_image": "shopify:\/\/shop_images\/Coffret_cadeaux_cosmetiques_Noel_mobile.png",
+        "mobile_image": "shopify:\/\/shop_images\/Coffret_cadeaux_cosmetiques_Noel_mobile_b1e4959e-175c-40c5-9d4c-3a3cfa9199fc.png",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "large",
