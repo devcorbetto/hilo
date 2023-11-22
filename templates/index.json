@@ -6,22 +6,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Vos cosmétiques naturels et personnalisés !",
+            "heading": "Le cadeau parfait !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Ajoutez 3 capsules d'actifs à votre base de soin naturelle pour obtenir des cosmétiques parfaitement adaptés à votre peau.",
+            "text": "La boutique de Noël ouvre ses portes. Découvrez notre gamme de trousses découverte exclusive pour (vous) faire plaisir.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Je craque",
-            "button_link_1": "shopify:\/\/pages\/boutique-soins-sur-mesure",
+            "button_label_1": "Je découvre 🎄",
+            "button_link_1": "shopify:\/\/pages\/coffrets-cadeaux-cosmetiques",
             "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
