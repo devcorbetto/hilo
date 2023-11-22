@@ -211,7 +211,9 @@
     {% if section.settings.imageright %}
       <img src="{{ section.settings.imageright | image_url: width:'470px'  }}" class="imagenproduct">
     {% endif %}
+    {% if section.settings.imageicon %}
       <img src="{{ section.settings.imageicon | img_url  }}" class="imageicon">
+    {% endif %}
       <p>{{ section.settings.textafter | newline_to_br }}</p>
     </div>
   </div>
