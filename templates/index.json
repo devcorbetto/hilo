@@ -38,7 +38,7 @@
       "custom_css": [
         ".banner__heading {color: #fff;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
-        ".button--secondary {color: ;}",
+        ".button--secondary {color: #F8B362; background-color : #FFF ; border-radius : 30px ;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; }}"
       ],
       "settings": {
