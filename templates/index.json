@@ -39,6 +39,7 @@
         ".banner__heading {color: #fff;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
         ".button--secondary {color: #f8b362; background-color: #fff; border-radius: 30px;}",
+        ".button--secondary:after {color: #fff; background-color: none; border-radius: 30px;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; }}"
       ],
       "settings": {
