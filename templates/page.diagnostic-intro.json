@@ -38,6 +38,7 @@
             "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
             "button_link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false,
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -58,10 +59,11 @@
         "content_alignment": "center",
         "svg-wave": "vague-blanche",
         "svg-wave-position": "bottom",
+        "svg-eclat": "none",
         "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 24,
-        "padding_bottom": 84
+        "padding_bottom": 40
       }
     },
     "main": {
@@ -132,7 +134,8 @@
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false
           }
         },
         "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-1": {
@@ -150,7 +153,8 @@
             "text": "<p>Peau à tendance mixte, en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false
           }
         },
         "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-2": {
@@ -168,7 +172,8 @@
             "text": "<p>Peau déshydratée avec quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false
           }
         }
       },
@@ -179,6 +184,7 @@
       ],
       "settings": {
         "customcss": "multi-slider",
+        "svg-eclat": "none",
         "title": "LEUR MATCH PARFAIT",
         "heading_size": "h1",
         "image_width": "half",
