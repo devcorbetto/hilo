@@ -119,72 +119,6 @@
         "padding_bottom": 20
       }
     },
-    "15c76932-f080-4e34-b13f-764f2e99e231": {
-      "type": "rich-text",
-      "blocks": {
-        "c3ede433-d4b3-4289-a498-b10e2ce3961b": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h2><strong>Points de vente de Noël 🎄<\/strong><\/h2>",
-            "customcss": "title_small",
-            "heading_size": "h1"
-          }
-        },
-        "8b8fe48a-4de5-4c0e-8469-7018b9ad26c5": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<h3><strong>Vog coiffure<\/strong><\/h3><p>ZA, Rue Jonchain N, 38150 Salaise-sur-Sanne<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Vog+Coiffure+Salaise-sur-Sanne\/@45.3448795,4.8038491,15z\/data=!4m6!3m5!1s0x47f53d6766601cf5:0xfd27cba1d9761e34!8m2!3d45.3448795!4d4.8038491!16s%2Fg%2F11fhryzr7j?entry=ttu\" title=\"https:\/\/www.google.com\/maps\/place\/Vog+Coiffure+Salaise-sur-Sanne\/@45.3448795,4.8038491,15z\/data=!4m6!3m5!1s0x47f53d6766601cf5:0xfd27cba1d9761e34!8m2!3d45.3448795!4d4.8038491!16s%2Fg%2F11fhryzr7j?entry=ttu\">Google maps<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "c3ede433-d4b3-4289-a498-b10e2ce3961b",
-        "8b8fe48a-4de5-4c0e-8469-7018b9ad26c5"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "customcss": "titlesbold",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "4b71dd75-60d9-40e2-ac94-ce7546f95ea1": {
-      "type": "rich-text",
-      "blocks": {
-        "5b2544b7-ddb7-4471-84a7-d5baee2d3c32": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<h3><strong>Hair women concept<\/strong><\/h3><p>Route de Californie, 07100 Annonay<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Hair+Women+Concept\/@45.2443154,4.675527,15z\/data=!4m6!3m5!1s0x47f51348ffc059a9:0xe203a013dfca26f4!8m2!3d45.2443154!4d4.675527!16s%2Fg%2F11lffn266s?entry=ttu\" title=\"https:\/\/www.google.com\/maps\/place\/Hair+Women+Concept\/@45.2443154,4.675527,15z\/data=!4m6!3m5!1s0x47f51348ffc059a9:0xe203a013dfca26f4!8m2!3d45.2443154!4d4.675527!16s%2Fg%2F11lffn266s?entry=ttu\">Google maps<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "5b2544b7-ddb7-4471-84a7-d5baee2d3c32"
-      ],
-      "settings": {
-        "customcss": "titlesbold",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 40
-      }
-    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -243,8 +177,6 @@
     "8c53e55e-060b-41d6-b6d3-ef4deaadd1a1",
     "e7256211-cbc3-4270-a670-df8dc8bd7910",
     "730372ae-2be5-47aa-af0e-37e941dcd113",
-    "15c76932-f080-4e34-b13f-764f2e99e231",
-    "4b71dd75-60d9-40e2-ac94-ce7546f95ea1",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79"
   ]
 }
