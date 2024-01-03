@@ -8,10 +8,10 @@
         "padding_bottom": 28
       }
     },
-    "b5832d00-b013-4c99-83dc-f6cd8de4b4d3": {
-      "type": "rich-text-account",
+    "6f074a4c-732a-4517-b571-8caacf18bc8a": {
+      "type": "rich-text",
       "blocks": {
-        "template--21365101756711__b5832d00-b013-4c99-83dc-f6cd8de4b4d3-heading-1": {
+        "template--21365101756711__6f074a4c-732a-4517-b571-8caacf18bc8a-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<p>COFFRETS CADEAUX COSMÉTIQUES<\/p>",
@@ -19,67 +19,29 @@
             "heading_size": "h0"
           }
         },
-        "template--21365101756711__b5832d00-b013-4c99-83dc-f6cd8de4b4d3-text-1": {
+        "template--21365101756711__6f074a4c-732a-4517-b571-8caacf18bc8a-text-1": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Vous cherchez le <strong>cadeau parfait <\/strong>pour ceux que vous aimez ? 🎁 <\/p><p>Découvrez les <strong>coffrets cadeaux cosmétiques<\/strong> d'Hilo à offrir pour faire plaisir à vos proches.<br\/><br\/><\/p><p>Facile à offrir ou à s’offrir, Hilo vous propose une gamme de <strong>trousses découverte exclusive<\/strong>. Retrouvez toute l’efficacité des soins Hilo dans un <strong>coffret cadeau cosmétique<\/strong> idéal pour toutes les peaux. <strong>🧴<\/strong><\/p>"
+            "text": "<p>Vous cherchez le <strong>cadeau parfait <\/strong>pour ceux que vous aimez ? 🎁 <\/p><p>Découvrez les <strong>coffrets cadeaux cosmétiques<\/strong> d'Hilo à offrir pour faire plaisir à vos proches.<br\/><br\/><\/p><p>Facile à offrir ou à s’offrir, Hilo vous propose une gamme de <strong>trousses découverte exclusive<\/strong>. Retrouvez toute l’efficacité des soins Hilo dans un <strong>coffret cadeau cosmétique<\/strong> idéal pour toutes les peaux. <strong>✨<\/strong><\/p>"
           }
         }
       },
       "block_order": [
-        "template--21365101756711__b5832d00-b013-4c99-83dc-f6cd8de4b4d3-heading-1",
-        "template--21365101756711__b5832d00-b013-4c99-83dc-f6cd8de4b4d3-text-1"
+        "template--21365101756711__6f074a4c-732a-4517-b571-8caacf18bc8a-heading-1",
+        "template--21365101756711__6f074a4c-732a-4517-b571-8caacf18bc8a-text-1"
       ],
       "settings": {
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "svg-wave": "vague-blanche",
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_6",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "2e91d591-d8d0-4103-8b9f-af107014f4fb": {
-      "type": "image-banner-wave",
-      "blocks": {
-        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "COFFRETS CADEAUX COSMÉTIQUES",
-            "heading_size": "h0"
-          }
-        },
-        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vous cherchez le <strong>cadeau parfait <\/strong>pour ceux que vous aimez ? 🎁 <\/p><p>Découvrez les <strong>coffrets cadeaux cosmétiques<\/strong> d'Hilo à offrir pour faire plaisir à vos proches.<br\/><br\/><\/p><p>Facile à offrir ou à s’offrir, Hilo vous propose une gamme de <strong>trousses découverte exclusive<\/strong>. Retrouvez toute l’efficacité des soins Hilo dans un <strong>coffret cadeau cosmétique<\/strong> idéal pour toutes les peaux. <strong>✨<\/strong><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-heading-1",
-        "template--21365101756711__2e91d591-d8d0-4103-8b9f-af107014f4fb-text-1"
-      ],
-      "custom_css": [
-        "h2 {margin-top: 30px; margin-bottom: 30px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Coffrets-cadeaux-cosmetiques-Noel_594b120c-95dd-4998-b1d2-d708bc28a05e.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Banniere_de_Noel_1.png",
-        "svg-wave": "vague-blanche",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "padding_bottom": 100
       }
     },
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae": {
@@ -318,8 +280,7 @@
   },
   "order": [
     "main",
-    "b5832d00-b013-4c99-83dc-f6cd8de4b4d3",
-    "2e91d591-d8d0-4103-8b9f-af107014f4fb",
+    "6f074a4c-732a-4517-b571-8caacf18bc8a",
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
     "0390fa47-3651-4227-ab29-9dfcfa382c60",
