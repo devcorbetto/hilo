@@ -14,7 +14,7 @@
         "template--17779790053671__4afd5d1d-8bfa-4ef7-9662-972ba5a2303a-1675644545a9032140-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>SOINS VISAGE NATURELS CIBLÉS<\/strong><\/h1>",
+            "heading": "<h1><strong>LES IMPARFAITS D'HILO<\/strong><\/h1>",
             "customcss": "mb-10b",
             "heading_size": "h1"
           }
@@ -23,14 +23,14 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Hilo a créé pour vous des combos répondant à une préoccupation bien précise. Choisissez votre pack de soin visage naturel et personnalisé, à assembler chez vous. <\/p>"
+            "text": "<p>Pour les soldes, Hilo vous ouvre sa boutique des imparfaits. On vous propose les produits ayant des petits défauts esthétiques à -30%. <\/p>"
           }
         },
         "d79e4868-7e5c-4937-883c-e698df8d27f6": {
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
+            "text": "<p>Adoptez-les pour éviter le gaspillage. Attention les stocks sont ultra limités !<\/p>"
           }
         }
       },
@@ -81,140 +81,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 80
-      }
-    },
-    "58e3e5a0-a50f-4645-98f0-b076aa307a6a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>ENVIE DE CRÉER VOTRE SOIN VISAGE NATUREL SUR-MESURE ? <\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic de peau en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin. ✨ <\/p>"
-          }
-        },
-        "a82a55a9-1c7b-45ef-8983-c7289128aab2": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p><\/p><p>Vous pouvez réaliser votre diagnostic à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
-          }
-        },
-        "64975ab8-962a-48ff-bbec-1129a17db732": {
-          "type": "button",
-          "settings": {
-            "customcss": "btn-circle",
-            "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": false,
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-0",
-        "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1",
-        "a82a55a9-1c7b-45ef-8983-c7289128aab2",
-        "64975ab8-962a-48ff-bbec-1129a17db732"
-      ],
-      "custom_css": [
-        ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
-      ],
-      "settings": {
-        "customcss": "boutique-creez",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "vague-rose-trait",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "colors_3",
-        "full_width": true,
-        "padding_top": 44,
-        "padding_bottom": 52
-      }
-    },
-    "0390fa47-3651-4227-ab29-9dfcfa382c60": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>HILO MONTRE PATTE BLANCHE<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "15b1c2cc-9c8f-43b2-9b0f-1ff970687fca": {
-          "type": "caption",
-          "settings": {
-            "customcss": "",
-            "caption": "(Ou plutôt crème blanche )",
-            "text_style": "subtitle",
-            "text_size": "small"
-          }
-        },
-        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Les produits Hilo sont établis avec un <strong>cahier des charges strict<\/strong> afin de vous assurer des <strong>soins visages naturels et qualitatifs<\/strong>. Aussi, nous avons choisi de <strong>bannir de nombreux ingrédients de nos formules. <\/strong><\/p>"
-          }
-        },
-        "477266ca-c02c-45f2-ac3f-ecd1163f0e9d": {
-          "type": "text",
-          "settings": {
-            "customcss": "mb-10b",
-            "text": "<p>Afin de vous <strong>accompagner <\/strong>dans la compréhension de ce que <strong>vous appliquez sur votre peau<\/strong> et pour vous apporter une <strong>transparence la plus <\/strong>totale nous tenons à vous présenter la <strong>charte des recalés de l’ilot.<\/strong><\/p>"
-          }
-        },
-        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2": {
-          "type": "button",
-          "settings": {
-            "customcss": "btn-circle btn-circle-black",
-            "button_label": "Je veux tout savoir",
-            "button_link": "shopify:\/\/pages\/charte-hilo",
-            "button_out": false,
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-0",
-        "15b1c2cc-9c8f-43b2-9b0f-1ff970687fca",
-        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-1",
-        "477266ca-c02c-45f2-ac3f-ecd1163f0e9d",
-        "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
-      ],
-      "custom_css": [
-        ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "e442e363-5752-4e61-8ee8-ad266a5f317d": {
@@ -286,8 +152,6 @@
     "main",
     "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a",
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
-    "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
-    "0390fa47-3651-4227-ab29-9dfcfa382c60",
     "e442e363-5752-4e61-8ee8-ad266a5f317d"
   ]
 }
