@@ -6,21 +6,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Le cadeau parfait pour les fêtes de fin d'année !",
+            "heading": "Les cosmétiques naturels et sur-mesure !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "La boutique de Noël ouvre ses portes. Découvrez notre gamme de trousses découverte exclusive pour (vous) faire plaisir.",
+            "text": "Ajoutez 3 capsules d'actifs à votre base de soin naturelle pour obtenir des cosmétiques sur-mesure en un clin d'œil.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Je découvre 🎄",
+            "button_label_1": "Je découvre",
             "button_link_1": "shopify:\/\/pages\/coffrets-cadeaux-cosmetiques",
             "button_out": false,
             "button_style_secondary_1": true,
@@ -42,10 +42,11 @@
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; }}"
       ],
       "settings": {
-        "textafter": "",
+        "textafter": "Les premières capsules éco-conçues qui personnalisent votre soin.",
+        "imageicon": "shopify:\/\/shop_images\/Fle_Cche-svg.svg",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Coffret_cadeaux_cosmetiques_Noel.png",
-        "mobile_image": "shopify:\/\/shop_images\/Coffret_cadeaux_cosmetiques_Noel_mobile_b1e4959e-175c-40c5-9d4c-3a3cfa9199fc.png",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_0a6469e0-4d45-45a2-ad52-705490287ad5.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "large",
@@ -702,6 +703,9 @@
         "573ae310-00ab-4f9d-b57d-d2ad1621d728": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
