@@ -23,14 +23,14 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Pour les soldes, Hilo vous ouvre sa boutique des imparfaits. On vous propose les produits ayant des petits défauts esthétiques à -30%. <\/p>"
+            "text": "<p>Pour les soldes, Hilo vous ouvre sa <strong>boutique des imparfaits<\/strong>. On vous propose les produits ayant des <strong>petits défauts<\/strong> esthétiques à <strong>-30%<\/strong>. <\/p>"
           }
         },
         "d79e4868-7e5c-4937-883c-e698df8d27f6": {
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Adoptez-les pour éviter le gaspillage. Attention les stocks sont ultra limités !<\/p>"
+            "text": "<p>Adoptez-les pour éviter le gaspillage. Attention les stocks sont <strong>ultra limités<\/strong> !<\/p>"
           }
         }
       },
