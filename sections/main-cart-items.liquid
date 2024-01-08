@@ -523,7 +523,7 @@
                     {%- endif -%}
                 {% endcomment %}
 
-              
+              {{ item.product.tags }}
                      {% if  item.quantity > 1 or item.product.tags contains "quantity" %}
                <div class="cart-item__quantity-wrapper" style="margin-top:30px;">
                       <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
