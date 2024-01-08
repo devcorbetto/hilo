@@ -524,7 +524,7 @@
                 {% endcomment %}
 
               
-                     {% if  item.quantity > 1 or item.product.id == 8170976510247 or  item.product.id == 8334736884007 %}
+                     {% if  item.quantity > 1 or item.product.tags contains "quantity" %}
                <div class="cart-item__quantity-wrapper" style="margin-top:30px;">
                       <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
                         {{ 'products.product.quantity.label' | t }}
