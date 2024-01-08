@@ -522,7 +522,9 @@
                       </div>
                     {%- endif -%}
                 {% endcomment %}
-
+{% for tags in item.product.tags %}
+  {{ tags }}
+  {% endfor %}
               {{ item.product.tags }}
                      {% if  item.quantity > 1 or item.product.tags contains "quantity" %}
                <div class="cart-item__quantity-wrapper" style="margin-top:30px;">
