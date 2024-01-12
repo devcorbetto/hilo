@@ -479,7 +479,35 @@
   <button  class="button" x-on:click="open = !open; setTimeout(() => { window.scrollTo({ top: 0, behavior: 'smooth' }); }, 100);">Je personnalise ma crème - {{ product.price | money | strip_html }}
   </button>
   {%- else -%}
-    {{ 'products.product.sold_out' | t }} - {{ product.price | money | strip_html }}
+                      <button
+                        type="submit"
+                        name="add"
+                        class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+                        {% if product.selected_or_first_available_variant.available == false %}
+                          disabled
+                        {% endif %}
+                      >
+                        <span>
+                          {%- if product.selected_or_first_available_variant.available -%}
+                       {% if product.id == 8170976510247 %}   {{ 'products.product.add_to_cart' | t }}  {% else %}
+                         {{ 'products.product.add_to_cart' | t }} {% endif %}}
+                          {%- else -%}
+                            {{ 'products.product.sold_out' | t }}
+                          {%- endif -%}
+                        </span>
+                        <div class="loading-overlay__spinner hidden">
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            role="presentation"
+                            class="spinner"
+                            viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                      </button>
   {%- endif -%}
 
   {% endif %}
