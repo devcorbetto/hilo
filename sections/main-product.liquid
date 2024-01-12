@@ -488,12 +488,9 @@
                         {% endif %}
                       >
                         <span>
-                          {%- if product.selected_or_first_available_variant.available -%}
-                       {% if product.id == 8170976510247 %}   {{ 'products.product.add_to_cart' | t }}  {% else %}
-                         {{ 'products.product.add_to_cart' | t }} {% endif %}}
-                          {%- else -%}
-                            {{ 'products.product.sold_out' | t }}
-                          {%- endif -%}
+
+                            {{ 'products.product.sold_out' | t }} - {{ product.price | money | strip_html }}
+
                         </span>
                         <div class="loading-overlay__spinner hidden">
                           <svg
