@@ -186,7 +186,7 @@
           "settings": {
             "heading": "Quels sont les modes de livraison disponibles ?",
             "icon": "none",
-            "row_content": "<p>Les livraisons peuvent être réalisées à domicile par Colissimo ou en point relais par Mondial Relay ou Relais colis.<\/p>",
+            "row_content": "<p>Les livraisons peuvent être réalisées à domicile par Colissimo ou en point relais par Chronopost.<\/p>",
             "page": ""
           }
         },
