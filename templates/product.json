@@ -16,7 +16,7 @@
           }
         },
         "judgeme_preview_badge_product_page_61e5a6d5": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {
           }
@@ -56,6 +56,102 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "7efb6c47-d0ff-4b39-80de-2cb3c308f015": {
+      "type": "multicolumn-svg",
+      "blocks": {
+        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "image": "shopify:\/\/shop_images\/Fichier_3.svg",
+            "title": "adorent la texture et l'odeur",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "image": "shopify:\/\/shop_images\/Fichier_2.svg",
+            "title": "grain de peau plus lisse",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "image": "shopify:\/\/shop_images\/Fichier_2.svg",
+            "title": "peau mieux hydratée",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xqKqm8": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "image": "shopify:\/\/shop_images\/Fichier_2.svg",
+            "title": "peau plus douce et plus belle",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NGVtPX": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "image": "shopify:\/\/shop_images\/Fichier_3.svg",
+            "title": "la recommandent à un(e) ami(e)",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-0",
+        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-2",
+        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-1",
+        "column_xqKqm8",
+        "column_NGVtPX"
+      ],
+      "disabled": true,
+      "settings": {
+        "customcss": "multi-featured multi-icons paiment",
+        "title": "CE QU'ILS EN PENSENT 😍",
+        "subtitle": "Selon un questionnaire réalisé auprès de nos client(e)s.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa": {
@@ -325,7 +421,7 @@
       "type": "apps",
       "blocks": {
         "e39ad616-4e3d-43c0-977a-b9660f9ec572": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -339,7 +435,6 @@
     },
     "4c2df2b8-2e8e-4d20-8923-920e5882481a": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-0": {
           "type": "column",
@@ -383,6 +478,7 @@
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-1",
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-2"
       ],
+      "disabled": true,
       "settings": {
         "customcss": "multi-testimonials multi-testimonials-reviews",
         "title": "ILS LES ADORENT AUTANT QUE NOUS",
@@ -402,10 +498,10 @@
         "padding_bottom": 100
       }
     },
-    "7efb6c47-d0ff-4b39-80de-2cb3c308f015": {
+    "multicolumn_svg_hjmbAd": {
       "type": "multicolumn-svg",
       "blocks": {
-        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-0": {
+        "column_7LXFqJ": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -417,7 +513,7 @@
             "link": ""
           }
         },
-        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-2": {
+        "column_f8MgE7": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -429,7 +525,7 @@
             "link": ""
           }
         },
-        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-1": {
+        "column_RaHTyq": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -443,9 +539,9 @@
         }
       },
       "block_order": [
-        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-0",
-        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-2",
-        "template--17804308939047__7efb6c47-d0ff-4b39-80de-2cb3c308f015-1679359925e7f7b0b8-1"
+        "column_7LXFqJ",
+        "column_f8MgE7",
+        "column_RaHTyq"
       ],
       "settings": {
         "customcss": "multi-featured multi-icons paiment",
@@ -469,6 +565,7 @@
   },
   "order": [
     "main",
+    "7efb6c47-d0ff-4b39-80de-2cb3c308f015",
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
     "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "3aebad43-9757-4c8a-ad78-a6e2c3563876",
@@ -476,6 +573,6 @@
     "504b0346-3e48-4a3c-893b-713c872c3287",
     "16848718877987ad7f",
     "4c2df2b8-2e8e-4d20-8923-920e5882481a",
-    "7efb6c47-d0ff-4b39-80de-2cb3c308f015"
+    "multicolumn_svg_hjmbAd"
   ]
 }
