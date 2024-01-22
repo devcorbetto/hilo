@@ -30,7 +30,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p>Tous nos produits sont rechargeables à l'infini (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
+            "text": "<p>Tous nos produits sont <a href=\"\/products\/recharge-creme-visage-naturelle-personnalisable\" title=\"Recharge - Ma crème visage naturelle personnalisable\">rechargeables à l'infini<\/a> (et au delà… 🚀) pour permettre de réaliser une économie de 95,6% de plastique et ainsi limiter notre impact environnemental !<\/p>"
           }
         }
       },
@@ -201,7 +201,7 @@
         "template--17779790053671__0390fa47-3651-4227-ab29-9dfcfa382c60-1675644880a725a637-2"
       ],
       "custom_css": [
-        ".rich-text__heading{color:;}",
+        ".rich-text__heading {color: ;}",
         ".rich-text__text p {color: ;}"
       ],
       "settings": {
