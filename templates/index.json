@@ -180,6 +180,23 @@
         "padding_bottom": 36
       }
     },
+    "1697198404f4db84a3": {
+      "type": "apps",
+      "blocks": {
+        "ec91fab7-c8b2-4dc5-80a5-89e14286a789": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "ec91fab7-c8b2-4dc5-80a5-89e14286a789"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -659,23 +676,6 @@
         "padding_bottom": 0
       }
     },
-    "1697198404f4db84a3": {
-      "type": "apps",
-      "blocks": {
-        "ec91fab7-c8b2-4dc5-80a5-89e14286a789": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "ec91fab7-c8b2-4dc5-80a5-89e14286a789"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "e7b02f91-67dd-43fa-88ba-f3043f64f586": {
       "type": "multicolumn",
       "settings": {
@@ -930,6 +930,7 @@
     "image_banner",
     "multicolumn",
     "featured_collection",
+    "1697198404f4db84a3",
     "rich_text",
     "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
@@ -937,7 +938,6 @@
     "120cbd86-6225-4213-9b1a-eefbf7d37db9",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "68550990-5f0d-4268-b2b8-67d04dd382f4",
-    "1697198404f4db84a3",
     "e7b02f91-67dd-43fa-88ba-f3043f64f586",
     "1684764602ce8c50eb",
     "f52db200-881a-4cc4-8cee-315cec0b2421",
