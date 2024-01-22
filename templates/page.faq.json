@@ -190,6 +190,15 @@
             "page": ""
           }
         },
+        "collapsible_row_RqR8fc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "La livraison est-elle gratuite ?",
+            "icon": "none",
+            "row_content": "<p>La livraison est offerte en point relais dès 59,00 € d'achat. Pour les commandes d'un montant inférieur, nous vous recommandons la livraison en point relais qui est moins coûteuse (moins de 5,00 euros) que la livraison à domicile. <\/p>",
+            "page": ""
+          }
+        },
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2": {
           "type": "collapsible_row",
           "settings": {
@@ -235,15 +244,6 @@
             "page": ""
           }
         },
-        "collapsible_row_RqR8fc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "La livraison est-elle gratuite ?",
-            "icon": "none",
-            "row_content": "<p>La livraison est offerte en point relais dès 59,00 € d'achat. Pour les commandes d'un montant inférieur, nous vous recommandons la livraison en point relais qui est moins coûteuse (moins de 5,00 euros) que la livraison à domicile. <\/p>",
-            "page": ""
-          }
-        },
         "34f1fc58-b56d-42fc-a0e2-4bc2ed8b68c7": {
           "type": "collapsible_row",
           "settings": {
@@ -258,12 +258,12 @@
         "8ef7a419-eedd-4b81-a632-f812aa6961c7",
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-0",
         "9d2e2dbd-0a71-4eda-84b6-2403dc1364bb",
+        "collapsible_row_RqR8fc",
         "template--17779895730471__975b805c-7fb1-4c16-a406-4f8bb87bd369-1675645282b6d4162e-2",
         "689d6537-3437-4425-a49f-2aa802bbb35f",
         "b97fdf9d-5707-4e7e-821c-76a3f8034105",
         "814fb159-338f-4dde-a025-1e4d60e1cdb2",
         "94a640d5-ec3d-41fb-9fd7-e2255365b701",
-        "collapsible_row_RqR8fc",
         "34f1fc58-b56d-42fc-a0e2-4bc2ed8b68c7"
       ],
       "settings": {
@@ -301,11 +301,21 @@
             "row_content": "<p>Pour rejoindre l’aventure et ne rien louper des actualités d’Hilo, vous pouvez vous inscrire à notre newsletter directement sur la page d’accueil du site. Suivez-nous également sur nos réseaux sociaux : <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">Instagram<\/a>, <a href=\"https:\/\/www.facebook.com\/hilo.fr\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/hilo.fr\">Facebook<\/a>, <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">TikTok<\/a> et <a href=\"https:\/\/www.linkedin.com\/company\/hilo-cosm%C3%A9tiques\/\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/company\/hilo-cosm%C3%A9tiques\/\">LinkedIn<\/a><\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_Ln4khC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qu'est ce que le Customer Happiness Manager ?",
+            "icon": "none",
+            "row_content": "<p>C'est la personne responsable du bonheur et de la satisfaction de nos clients. <strong>😊<\/strong><\/p><p>Chez nous, il s'agit de Léa, qui sera à votre écoute et vous accompagnera durant toute la durée de votre aventure Hilo. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-0",
-        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1"
+        "template--17779895730471__faad58b8-e34c-479b-b7ba-cd01246a49bb-1675645282b6d4162e-1",
+        "collapsible_row_Ln4khC"
       ],
       "settings": {
         "caption": "",
