@@ -244,10 +244,10 @@
           "type": "column",
           "settings": {
             "customcss": "border-color3",
-            "image": "shopify:\/\/shop_images\/Hilo-la-team-Leo.jpg",
-            "title": "Léo ☀️",
+            "image": "shopify:\/\/shop_images\/Emma-Team-Hilo.jpg",
+            "title": "Emma 🏔️",
             "subtitle": "Communication",
-            "text": "<p>Son match du moment : Noisette, Amande douce et Onagre<\/p>",
+            "text": "<p>Son match du moment : Noisette, Noisette et Abricot<\/p>",
             "link_label": "",
             "link": ""
           }
