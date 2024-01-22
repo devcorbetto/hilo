@@ -768,6 +768,18 @@
             "link": ""
           }
         },
+        "column_YdrGaB": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Logo-elle-hilo.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1": {
           "type": "column",
           "settings": {
@@ -831,6 +843,7 @@
       },
       "block_order": [
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0",
+        "column_YdrGaB",
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1",
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
         "53daa4fc-e022-410b-b5db-25ba27542ff8",
