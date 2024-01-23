@@ -36,7 +36,7 @@
         "button"
       ],
       "custom_css": [
-        ".banner__heading {color: #fff; margin-top: -35px;}",
+        ".banner__heading {color: #fff; margin-top: -50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
         ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff; background-color: none; border-radius: 30px;}",
