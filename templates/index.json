@@ -39,8 +39,7 @@
         ".banner__heading {color: #fff; margin-top: -50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
         ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
-        ".button--secondary!a : {color: #fff !important; background-color: transparent !important; border: 2px solid #FFF !important;}",
-        ".button--secondary::after {color: #fff; background-color: none; border-radius: 30px; box-shadow: none; border: 2px solid #fff;}",
+        ".button--secondary:hover {color: #fff !important; background-color: transparent !important; border: 2px solid #FFF !important;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; }}"
       ],
       "settings": {
