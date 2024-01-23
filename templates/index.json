@@ -232,7 +232,7 @@
         "text"
       ],
       "custom_css": [
-        ".rich-text__heading {color: ; margin-bottom: 80px!important;}",
+        ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
         ".rich-text__text p {color: ;}"
       ],
       "settings": {
