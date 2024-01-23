@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Les cosmétiques naturels et sur-mesure !",
+            "heading": "Il y a de l'amour dans l'air !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Ajoutez 3 capsules d'actifs à votre base de soin naturelle pour obtenir des cosmétiques sur-mesure en un clin d'œil.",
+            "text": "Le coffret cosmétiques d'Hilo, l'idée cadeau parfaite pour la Saint-Valentin.",
             "text_style": "body"
           }
         },
@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Je découvre",
-            "button_link_1": "shopify:\/\/pages\/coffrets-cadeaux-cosmetiques",
+            "button_link_1": "shopify:\/\/products\/coffret-hilo-saint-valentin",
             "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -36,16 +36,15 @@
         "button"
       ],
       "custom_css": [
-        ".banner__heading {color: #fff;}",
+        ".banner__heading {color: #fff; margin-top: -25px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
-        ".button--secondary {color: #f8b362; background-color: #fff; border-radius: 30px;}",
+        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; }}"
       ],
       "settings": {
-        "textafter": "Les premières capsules éco-conçues qui personnalisent votre soin.",
-        "imageicon": "shopify:\/\/shop_images\/Fle_Cche-svg.svg",
+        "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
+        "image": "shopify:\/\/shop_images\/Coffret-st-valentin-Hilo-cosmetiques-sur-mesure.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_0a6469e0-4d45-45a2-ad52-705490287ad5.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
