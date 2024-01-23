@@ -39,7 +39,7 @@
         ".banner__heading {color: #fff; margin-top: -25px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
         ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
-        ".button--secondary:hover {color: #fff; background-color: none; border-radius: 30px;}",
+        ".button--secondary:hover {color: #fff; background-color: none; border-radius: 30px; box-shadow : none; border: 2px solid #fff;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; }}"
       ],
       "settings": {
