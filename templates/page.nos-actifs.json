@@ -14,14 +14,14 @@
         "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-0": {
           "type": "heading",
           "settings": {
-            "heading": "HILO & VOUS",
-            "heading_size": "h1"
+            "heading": "LES CAPSULES D'ACTIF",
+            "heading_size": "h0"
           }
         },
         "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vous trouverez dans cette page des petites infos pratiques pour assembler votre soin Hilo, prendre soin de votre peau ainsi qu'une dose de bonne humeur.<\/p>",
+            "text": "<p>Texte capsules \/ innovation <\/p>",
             "text_style": "body"
           }
         }
@@ -31,12 +31,12 @@
         "template--19108853809447__e0371858-bac0-413e-8d79-d69217a3561d-16861343725c909b26-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules-actifs-naturels_cfccb8e3-01c5-468f-a30f-ea1baa82f637.jpg",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -45,122 +45,37 @@
         "show_text_below": false
       }
     },
-    "06985fef-f561-411b-9d86-7c633b95f399": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>MODE D'EMPLOI<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>J'assemble mon soin en 2 minutes seulement. ⏳<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0",
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
-    "e7524101-c3aa-47b6-826f-cb997f059804": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-tuto-assembler-son-soin.jpg",
-        "video_url": "https:\/\/youtu.be\/3u1RpelDHW8",
-        "description": "Hilo-assembler-sa-crème-personnalisée",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "b2fdc77d-d384-456b-b06d-06b7b853cecc": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19108853809447__b2fdc77d-d384-456b-b06d-06b7b853cecc-168613304736a37173-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "text-align : left",
-            "text": "<ol><li>Je <strong>craque délicatement<\/strong> mes capsules d'actifs en twistant le capuchon entre 2 doigts jusqu'à ce qu'il se détache (ou je le coupe avec des ciseaux préalablement nettoyés et séchés),<\/li><li>Je <strong>verse l'intégralité<\/strong> de leur contenu dans ma base de crème (bien appuyer sur la partie bombée de la capsule afin que toute l'huile se verse dans la base de soin),<\/li><li>Je <strong>mélange le tout<\/strong> avec ma Gua Sha Hilo (ou avec un autre instrument nettoyé et séché),<\/li><li>J'<strong>applique quotidiennement<\/strong> et je pratique l'automassage du visage pour faire plaisir à ma peau. <br\/><\/li><\/ol>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19108853809447__b2fdc77d-d384-456b-b06d-06b7b853cecc-168613304736a37173-1"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
     "00c32b12-4372-4263-9b83-5f1f40366b12": {
       "type": "image-with-text",
       "blocks": {
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-0": {
           "type": "heading",
           "settings": {
-            "heading": "PRATIQUER L'AUTOMASSAGE DU VISAGE",
+            "heading": "LEURS PROPRIÉTÉS",
             "heading_size": "h1"
           }
         },
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>L’automassage du visage est une technique de massage douce que l’on pratique soi-même pour détendre son visage et qui présente de nombreux bienfaits pour la peau.<br\/><br\/>Découvrez l'automassage et comment le pratiquer en téléchargeant notre guide.  ✨<\/p>",
+            "text": "<p>Nos actifs sont des huiles végétales <strong>100% naturelles<\/strong> reconnues pour des propriétés différentes. 🌱<\/p><p>Nous vous proposons 6 capsules d'actifs qui ont chacune des<strong> bienfaits spécifiques<\/strong> pour la peau. <\/p><p>Trois actifs sont à ajouter dans votre base de soin Hilo pour la rendre <strong>sur-mesure<\/strong>. ✨<\/p><p>Il y a donc plus de 50 combinaisons possibles, ce qui vous permettra d'obtenir un soin totalement <strong>adapté aux besoins de votre peau<\/strong> !<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Je télécharge le guide",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Guide_automassage_v2.pdf?v=1695212531",
-            "no_target": true
           }
         }
       },
       "block_order": [
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-0",
-        "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1",
-        "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-2"
+        "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1"
       ],
       "custom_css": [
-        "img {border-radius: 30px;}"
+        "img {border-radius: 30px;}",
+        "h2 {font-size: 30px !important; font-weight: bold !important ;}"
       ],
       "settings": {
         "customcss": "programme_text2 btn-circle",
-        "eclat": "eclat-orange",
+        "eclat": "eclat-rose",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/coffret-Hilo-automassage-gua-sha.jpg",
+        "image": "shopify:\/\/shop_images\/capsules-actifs-creme-visage-naturelle_e5538163-1f76-48a5-901a-ff3e8273bd5d.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -170,204 +85,79 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 52,
-        "padding_bottom": 100
-      }
-    },
-    "2f35775f-b21d-443b-8572-b57ce4841a2c": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "VOTRE MATCH PARFAIT",
-            "heading_size": "h1"
-          }
-        },
-        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Retrouvez la liste complète des ingrédients de votre crème parfaite du moment une fois assemblée (base + actifs). <br\/><br\/>Téléchargez le document ci-dessous et cherchez votre combinaison d'actifs pour retrouver sa liste INCI. <br\/><\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Je télécharge la liste INCI",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Listes_INCI_formules_Hilo.pdf?v=1693223244",
-            "no_target": true
-          }
-        }
-      },
-      "block_order": [
-        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-0",
-        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-1",
-        "template--19108853809447__2f35775f-b21d-443b-8572-b57ce4841a2c-168511023010984ae1-2"
-      ],
-      "custom_css": [
-        "img {border-radius: 30px;}"
-      ],
-      "settings": {
-        "customcss": "programme_text2 btn-circle",
-        "eclat": "eclat-rose",
-        "eclat_side": "droite",
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules-6-actifs.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "e03fe02e-93a8-4450-a06d-4d3c9eb5e800": {
-      "type": "newsletter",
-      "blocks": {
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "LA PLAYLIST D'HILO",
-            "heading_size": "h1"
-          }
-        },
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Découvrez ci-dessous la playlist d'Hilo pour profiter d'une dose de bonne humeur et passer une super journée ! <\/p><h1><a href=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\" title=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\">🎵<\/a><\/h1><p><a href=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\" target=\"_blank\" title=\"https:\/\/open.spotify.com\/playlist\/37i9dQZF1DX9XIFQuFvzM4\"><strong>J'accède à la playlist <\/strong><\/a><br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-0",
-        "template--18276397875495__e03fe02e-93a8-4450-a06d-4d3c9eb5e800-1681130073d5b8c2a6-1"
-      ],
-      "custom_css": [
-        "svg path {fill: #e9e4f2;}",
-        "div {background: #e9e4f2;}"
-      ],
-      "settings": {
-        "customcss": "waves4b",
-        "color_scheme": "colors_8",
-        "svg-wave": "none",
-        "full_width": true,
-        "padding_top": 40,
         "padding_bottom": 52
       }
     },
-    "19489bf3-7aa9-4364-aa76-ca3603fe218d": {
-      "type": "multicolumn",
+    "multicolumns_reviews_CLdaeC": {
+      "type": "multicolumns-reviews",
+      "blocks": {
+        "column_UBpPaT": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "title": "L'Onagre",
+            "subtitle": "",
+            "text": "<p><br\/>L’actif onagre est reconnue pour les propriétés suivantes :<br\/><br\/><\/p><p>✨<strong>Hydratant et adoucissant <\/strong>: il maintient l’hydratation naturelle de la peau et renforce son film hydrolipidique.<\/p><p>✨<strong>Revitalisant<\/strong> : il favorise la régénération de la peau tout en maintenant sa tonicité et son élasticité.<\/p><p>✨<strong>Antioxydant<\/strong> : il lutte contre les signes de l’âge, nourrit et répare la peau.<br\/><br\/><\/p><p>Il convient à <strong>tous les types de peau<\/strong> et est fortement recommandé pour les <strong>peaux déshydratées<\/strong>.<br\/><br\/><\/p><p>Composition : OENOTHERA BIENNIS (EVENING PRIMROSE) OIL, TOCOPHEROL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9Xf7XR": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Column",
+            "subtitle": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6QCigF": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Column",
+            "subtitle": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UBpPaT",
+        "column_9Xf7XR",
+        "column_6QCigF"
+      ],
+      "custom_css": [
+        "img {align-items: center !important;}"
+      ],
       "settings": {
-        "customcss": "margin5",
-        "title": "REJOIGNEZ LA HILO FAMILY",
+        "customcss": "",
+        "title": "Multicolumn",
         "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "full",
+        "heading_size": "h0",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 6,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
+        "button_label": "Button label",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 52,
-        "padding_bottom": 12
-      }
-    },
-    "1684764937cc95afcf": {
-      "type": "apps",
-      "blocks": {
-        "3421f632-f7cf-486f-80b7-628ee85726d7": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "3421f632-f7cf-486f-80b7-628ee85726d7"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "850641d8-50ee-4ad8-a16a-c25d38057892": {
-      "type": "rich-text",
-      "blocks": {
-        "b6c7d0d0-465e-4ac1-a1cc-26477daafedf": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p><a href=\"https:\/\/hilo-cosmetiques.fr\" title=\"Hilo cosmétiques\"><strong>Je visite le site<\/strong><\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "b6c7d0d0-465e-4ac1-a1cc-26477daafedf"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73": {
-      "type": "rich-text",
-      "blocks": {
-        "ec0b042b-2bee-42af-9d53-0da7afce14d4": {
-          "type": "image",
-          "settings": {
-            "customcss": "",
-            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-logo.svg",
-            "link_image": "https:\/\/hilo-cosmetiques.fr",
-            "image_out": false
-          }
-        }
-      },
-      "block_order": [
-        "ec0b042b-2bee-42af-9d53-0da7afce14d4"
-      ],
-      "custom_css": [
-        "img {width : 200px;"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "e0371858-bac0-413e-8d79-d69217a3561d",
-    "06985fef-f561-411b-9d86-7c633b95f399",
-    "e7524101-c3aa-47b6-826f-cb997f059804",
-    "b2fdc77d-d384-456b-b06d-06b7b853cecc",
     "00c32b12-4372-4263-9b83-5f1f40366b12",
-    "2f35775f-b21d-443b-8572-b57ce4841a2c",
-    "e03fe02e-93a8-4450-a06d-4d3c9eb5e800",
-    "19489bf3-7aa9-4364-aa76-ca3603fe218d",
-    "1684764937cc95afcf",
-    "850641d8-50ee-4ad8-a16a-c25d38057892",
-    "ed0cf3a3-c8a2-405c-a5c2-3258642b3b73"
+    "multicolumns_reviews_CLdaeC"
   ]
 }
