@@ -16,7 +16,7 @@
           }
         },
         "judgeme_preview_badge_product_page_61e5a6d5": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {
           }
@@ -126,6 +126,7 @@
       ],
       "settings": {
         "image2": "shopify:\/\/shop_images\/creme-visage-naturelle-personnalisable-texture.jpg",
+        "svg-eclat": "none",
         "caption": "",
         "heading": "",
         "heading_size": "h1",
@@ -159,6 +160,22 @@
         "padding_bottom": 28
       }
     },
+    "16848718877987ad7f": {
+      "type": "apps",
+      "blocks": {
+        "e39ad616-4e3d-43c0-977a-b9660f9ec572": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e39ad616-4e3d-43c0-977a-b9660f9ec572"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "504b0346-3e48-4a3c-893b-713c872c3287": {
       "type": "multicolumn-slider",
       "blocks": {
@@ -177,7 +194,8 @@
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1": {
@@ -192,7 +210,8 @@
             "text": "<p>Peau terne, quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable"
+            "link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false
           }
         },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2": {
@@ -210,7 +229,8 @@
             "text": "<p>Peau à tendance mixte, en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         },
         "458cdb78-3ebd-46c2-ac9e-6df7657d803b": {
@@ -228,7 +248,8 @@
             "text": "<p>Peau  déshydratée avec quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau"
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
           }
         }
       },
@@ -240,6 +261,7 @@
       ],
       "settings": {
         "customcss": "multi-slider multi-slider-product wavestop2",
+        "svg-eclat": "none",
         "title": "LEUR MATCH PARFAIT",
         "heading_size": "h1",
         "image_width": "half",
@@ -256,25 +278,8 @@
         "padding_bottom": 100
       }
     },
-    "16848718877987ad7f": {
-      "type": "apps",
-      "blocks": {
-        "e39ad616-4e3d-43c0-977a-b9660f9ec572": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "e39ad616-4e3d-43c0-977a-b9660f9ec572"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "4c2df2b8-2e8e-4d20-8923-920e5882481a": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-0": {
           "type": "column",
@@ -318,6 +323,7 @@
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-1",
         "template--17804308939047__4c2df2b8-2e8e-4d20-8923-920e5882481a-16793598787a362eb2-2"
       ],
+      "disabled": true,
       "settings": {
         "customcss": "multi-testimonials multi-testimonials-reviews",
         "title": "ILS LES ADORENT AUTANT QUE NOUS",
@@ -400,15 +406,47 @@
         "padding_top": 40,
         "padding_bottom": 60
       }
+    },
+    "featured_collection_dmxMYG": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection ul.noslide {grid-template-columns: 1fr 1fr;}",
+        ".collection ul.noslide li {width: 70% !important; margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "VOUS AIMEREZ AUSSI...",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "vous-aimerez-aussi-indispensable",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
     "product-recommendations",
-    "504b0346-3e48-4a3c-893b-713c872c3287",
     "16848718877987ad7f",
+    "504b0346-3e48-4a3c-893b-713c872c3287",
     "4c2df2b8-2e8e-4d20-8923-920e5882481a",
-    "7efb6c47-d0ff-4b39-80de-2cb3c308f015"
+    "7efb6c47-d0ff-4b39-80de-2cb3c308f015",
+    "featured_collection_dmxMYG"
   ]
 }
