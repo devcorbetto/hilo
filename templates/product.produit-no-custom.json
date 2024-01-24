@@ -155,37 +155,6 @@
         "padding_bottom": 76
       }
     },
-    "87cb0c62-7445-43a7-8ce2-521349a1542b": {
-      "type": "featured-collection-noslide",
-      "custom_css": [
-        ".collection ul.noslide {grid-template-columns: 1fr 1fr;}",
-        ".collection ul.noslide li {width: 70% !important; margin: 0 auto;}"
-      ],
-      "settings": {
-        "title": "VOUS AIMEREZ AUSSI...",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "vous-aimerez-aussi-1",
-        "products_to_show": 2,
-        "columns_desktop": 1,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -202,6 +171,22 @@
         "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "1679676957f37204af": {
+      "type": "apps",
+      "blocks": {
+        "99212420-fce7-46c3-b461-366c52601b5a": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "99212420-fce7-46c3-b461-366c52601b5a"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "504b0346-3e48-4a3c-893b-713c872c3287": {
@@ -289,20 +274,35 @@
         "padding_bottom": 100
       }
     },
-    "1679676957f37204af": {
-      "type": "apps",
-      "blocks": {
-        "99212420-fce7-46c3-b461-366c52601b5a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "99212420-fce7-46c3-b461-366c52601b5a"
+    "87cb0c62-7445-43a7-8ce2-521349a1542b": {
+      "type": "featured-collection-noslide",
+      "custom_css": [
+        ".collection ul.noslide {grid-template-columns: 1fr 1fr;}",
+        ".collection ul.noslide li {width: 70% !important; margin: 0 auto;}"
       ],
       "settings": {
-        "include_margins": true
+        "title": "VOUS AIMEREZ AUSSI...",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "vous-aimerez-aussi-1",
+        "products_to_show": 2,
+        "columns_desktop": 1,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "4c2df2b8-2e8e-4d20-8923-920e5882481a": {
@@ -438,10 +438,10 @@
   "order": [
     "main",
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
-    "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "product-recommendations",
-    "504b0346-3e48-4a3c-893b-713c872c3287",
     "1679676957f37204af",
+    "504b0346-3e48-4a3c-893b-713c872c3287",
+    "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "4c2df2b8-2e8e-4d20-8923-920e5882481a",
     "7efb6c47-d0ff-4b39-80de-2cb3c308f015"
   ]
