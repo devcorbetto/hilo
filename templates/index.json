@@ -761,7 +761,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logo_france_3.jpg",
+            "image": "shopify:\/\/shop_images\/logo_france_3.png",
             "title": "",
             "subtitle": "Column",
             "text": "",
@@ -773,7 +773,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Logo-elle-hilo.png",
+            "image": "shopify:\/\/shop_images\/Logo-elle-hilo_0554297f-6093-47dd-8bae-ded898830094.png",
             "title": "",
             "subtitle": "",
             "text": "",
@@ -840,6 +840,42 @@
             "link_label": "",
             "link": "https:\/\/www.bfmtv.com\/economie\/replay-emissions\/les-pionniers-chez-fred-mazzella\/le-pitch-hilo-natural5-13-01_VN-202301130725.html"
           }
+        },
+        "column_qDf67N": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/20-single-default.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BbW8TD": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Lyon_femmes_logo.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4AmtFq": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_lyon_capitale.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -849,7 +885,10 @@
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
         "53daa4fc-e022-410b-b5db-25ba27542ff8",
         "30920895-a86e-46bb-9c51-c7d52b9572b3",
-        "9d645b64-8577-4900-8ee6-8840c4423867"
+        "9d645b64-8577-4900-8ee6-8840c4423867",
+        "column_qDf67N",
+        "column_BbW8TD",
+        "column_4AmtFq"
       ],
       "custom_css": [
 
