@@ -98,7 +98,7 @@
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
             "title": "L'Onagre",
             "subtitle": "",
-            "text": "<p><br\/>L’actif onagre est reconnue pour les propriétés suivantes :<br\/><br\/><\/p><ul><li>✨<strong>Hydratant et adoucissant <\/strong>: il maintient l’hydratation naturelle de la peau et renforce son film hydrolipidique.<br\/><br\/><\/li><li>✨<strong>Revitalisant<\/strong> : il favorise la régénération de la peau tout en maintenant sa tonicité et son élasticité.<br\/><br\/><\/li><li>✨<strong>Antioxydant<\/strong> : il lutte contre les signes de l’âge, nourrit et répare la peau.<br\/><br\/><\/li><\/ul><p>Il convient à <strong>tous les types de peau<\/strong> et est fortement recommandé pour les <strong>peaux déshydratées<\/strong>.<br\/><br\/><\/p><p>Composition : OENOTHERA BIENNIS (EVENING PRIMROSE) OIL, TOCOPHEROL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL<\/p>",
+            "text": "<p><br\/>L’actif onagre est reconnue pour les propriétés suivantes :<br\/><br\/><\/p><p>✨<strong>Hydratant et adoucissant <\/strong>: il maintient l’hydratation naturelle de la peau et renforce son film hydrolipidique.<br\/><br\/><\/p><p>✨<strong>Revitalisant<\/strong> : il favorise la régénération de la peau tout en maintenant sa tonicité et son élasticité.<br\/><br\/><\/p><p>✨<strong>Antioxydant<\/strong> : il lutte contre les signes de l’âge, nourrit et répare la peau.<br\/><br\/><\/p><p>Il convient à <strong>tous les types de peau<\/strong> et est fortement recommandé pour les <strong>peaux déshydratées<\/strong>.<br\/><br\/><\/p><p>Composition : OENOTHERA BIENNIS (EVENING PRIMROSE) OIL, TOCOPHEROL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL<br\/><br\/><a href=\"\/blogs\/conseils\/lhuile-donagre-les-bienfaits-pour-la-peau\" title=\"L'huile d'onagre : les bienfaits pour la peau\"><strong>Tout savoir sur l'onagre<\/strong><\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -132,7 +132,8 @@
         "column_6QCigF"
       ],
       "custom_css": [
-
+        "a {color: #fccf9c;}",
+        "h3 {font-size : 25px ;}"
       ],
       "settings": {
         "customcss": "",
