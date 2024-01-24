@@ -58,7 +58,7 @@
         "template--18276397875495__00c32b12-4372-4263-9b83-5f1f40366b12-1679427268d41d55f2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nos actifs sont des huiles végétales <strong>100% naturelles<\/strong> reconnues pour des propriétés différentes. 🌱<\/p><p>Nous vous proposons 6 capsules d'actifs qui ont chacune des<strong> bienfaits spécifiques<\/strong> pour la peau. <\/p><p>Trois actifs sont à ajouter dans votre base de soin Hilo pour la rendre <strong>sur-mesure<\/strong>. ✨<\/p><p>Il y a donc plus de 50 combinaisons possibles, ce qui vous permettra d'obtenir un soin totalement <strong>adapté aux besoins de votre peau<\/strong> !<\/p>",
+            "text": "<p>Nos actifs sont <strong>100% naturels<\/strong> et sont reconnus pour des propriétés différentes. 🌱<\/p><p>Nous vous proposons 6 capsules d'actifs qui ont chacune des<strong> bienfaits spécifiques<\/strong> pour la peau. <\/p><p>Trois actifs sont à ajouter dans votre base de soin Hilo pour la rendre <strong>sur-mesure<\/strong>. ✨<\/p><p>Il y a donc plus de 50 combinaisons possibles, ce qui vous permettra d'obtenir un soin totalement <strong>adapté aux besoins de votre peau<\/strong> !<\/p>",
             "text_style": "body"
           }
         }
@@ -98,7 +98,7 @@
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
             "title": "L'Onagre",
             "subtitle": "",
-            "text": "<p><br\/>L’actif onagre est reconnue pour les propriétés suivantes :<br\/><br\/><\/p><p>✨<strong>Hydratant et adoucissant <\/strong>: il maintient l’hydratation naturelle de la peau et renforce son film hydrolipidique.<\/p><p>✨<strong>Revitalisant<\/strong> : il favorise la régénération de la peau tout en maintenant sa tonicité et son élasticité.<\/p><p>✨<strong>Antioxydant<\/strong> : il lutte contre les signes de l’âge, nourrit et répare la peau.<br\/><br\/><\/p><p>Il convient à <strong>tous les types de peau<\/strong> et est fortement recommandé pour les <strong>peaux déshydratées<\/strong>.<br\/><br\/><\/p><p>Composition : OENOTHERA BIENNIS (EVENING PRIMROSE) OIL, TOCOPHEROL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL<\/p>",
+            "text": "<p><br\/>L’actif onagre est reconnue pour les propriétés suivantes :<br\/><br\/><\/p><p>✨<strong>Hydratant et adoucissant <\/strong>: il maintient l’hydratation naturelle de la peau et renforce son film hydrolipidique.<\/p><p><\/p><p>✨<strong>Revitalisant<\/strong> : il favorise la régénération de la peau tout en maintenant sa tonicité et son élasticité.<\/p><p><\/p><p>✨<strong>Antioxydant<\/strong> : il lutte contre les signes de l’âge, nourrit et répare la peau.<br\/><br\/><\/p><p>Il convient à <strong>tous les types de peau<\/strong> et est fortement recommandé pour les <strong>peaux déshydratées<\/strong>.<br\/><br\/><\/p><p>Composition : OENOTHERA BIENNIS (EVENING PRIMROSE) OIL, TOCOPHEROL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -132,7 +132,7 @@
         "column_6QCigF"
       ],
       "custom_css": [
-        "img {align-items: center !important;}"
+
       ],
       "settings": {
         "customcss": "",
@@ -142,7 +142,7 @@
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
