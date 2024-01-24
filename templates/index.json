@@ -781,52 +781,16 @@
             "link": ""
           }
         },
-        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1": {
+        "column_qDf67N": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/logo_le_re_uveil.jpg",
+            "image": "shopify:\/\/shop_images\/20-single-default.jpg",
             "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": "https:\/\/le-reveil-vivarais.fr\/annonay\/annonay-une-creme-de-soin-innovante-a-ladn-annoneen\/"
-          }
-        },
-        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": "https:\/\/www.leprogres.fr\/economie\/2022\/05\/22\/elles-proposent-une-cosmetique-personnalisable-et-anti-gaspi"
-          }
-        },
-        "53daa4fc-e022-410b-b5db-25ba27542ff8": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/logo_che_urie.jpg",
-            "title": "",
-            "subtitle": "Column",
+            "subtitle": "",
             "text": "",
             "link_label": "",
             "link": ""
-          }
-        },
-        "30920895-a86e-46bb-9c51-c7d52b9572b3": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Tribune-de-lyon-logo_5f2ea903-f7f9-4bfb-8bb1-60fa5f1a36d8.png",
-            "title": "",
-            "subtitle": "Column",
-            "text": "",
-            "link_label": "",
-            "link": "https:\/\/tribunedelyon.fr\/tendances\/hilo-les-cosmetiques-personnalisables-anti-gaspi\/"
           }
         },
         "9d645b64-8577-4900-8ee6-8840c4423867": {
@@ -841,13 +805,13 @@
             "link": "https:\/\/www.bfmtv.com\/economie\/replay-emissions\/les-pionniers-chez-fred-mazzella\/le-pitch-hilo-natural5-13-01_VN-202301130725.html"
           }
         },
-        "column_qDf67N": {
+        "53daa4fc-e022-410b-b5db-25ba27542ff8": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/20-single-default.jpg",
+            "image": "shopify:\/\/shop_images\/logo_che_urie.jpg",
             "title": "",
-            "subtitle": "",
+            "subtitle": "Column",
             "text": "",
             "link_label": "",
             "link": ""
@@ -876,19 +840,55 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.leprogres.fr\/economie\/2022\/05\/22\/elles-proposent-une-cosmetique-personnalisable-et-anti-gaspi"
+          }
+        },
+        "30920895-a86e-46bb-9c51-c7d52b9572b3": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Tribune-de-lyon-logo_5f2ea903-f7f9-4bfb-8bb1-60fa5f1a36d8.png",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/tribunedelyon.fr\/tendances\/hilo-les-cosmetiques-personnalisables-anti-gaspi\/"
+          }
+        },
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_re_uveil.jpg",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/le-reveil-vivarais.fr\/annonay\/annonay-une-creme-de-soin-innovante-a-ladn-annoneen\/"
+          }
         }
       },
       "block_order": [
         "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0",
         "column_YdrGaB",
-        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1",
-        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
-        "53daa4fc-e022-410b-b5db-25ba27542ff8",
-        "30920895-a86e-46bb-9c51-c7d52b9572b3",
-        "9d645b64-8577-4900-8ee6-8840c4423867",
         "column_qDf67N",
+        "9d645b64-8577-4900-8ee6-8840c4423867",
+        "53daa4fc-e022-410b-b5db-25ba27542ff8",
         "column_BbW8TD",
-        "column_4AmtFq"
+        "column_4AmtFq",
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
+        "30920895-a86e-46bb-9c51-c7d52b9572b3",
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1"
       ],
       "custom_css": [
 
