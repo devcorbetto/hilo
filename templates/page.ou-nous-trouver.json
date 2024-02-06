@@ -73,7 +73,7 @@
         "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 20,
+        "padding_top": 0,
         "padding_bottom": 40
       }
     },
@@ -99,6 +99,7 @@
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-heading-1",
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-text-1"
       ],
+      "disabled": true,
       "custom_css": [
         "img {border-radius: 30px;}"
       ],
@@ -168,7 +169,74 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 20,
-        "padding_bottom": 76
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_KyBp79": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6XRWy4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>Hilo chez les e-commerçants<\/strong><\/h2>",
+            "customcss": "title_small",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6XRWy4"
+      ],
+      "settings": {
+        "customcss": "titlesbold",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_kgjG8U": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A9yh4q": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Humasana<\/h2>",
+            "customcss": "title_small",
+            "heading_size": "h1"
+          }
+        },
+        "text_gefVYF": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p><a href=\"https:\/\/www.humasana.com\/fr\/hilo_b476926968\" target=\"_blank\" title=\"https:\/\/www.humasana.com\/fr\/hilo_b476926968\">La parapharmacie clean et efficace<br\/><br\/><\/a><\/p><p>Leur mission : proposer des produits de santé et de bien-être sains, responsables et éthiques. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A9yh4q",
+        "text_gefVYF"
+      ],
+      "custom_css": [
+        "p {text-align : left ;}"
+      ],
+      "settings": {
+        "customcss": "titlesbold",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 148
       }
     }
   },
@@ -177,6 +245,8 @@
     "8c53e55e-060b-41d6-b6d3-ef4deaadd1a1",
     "e7256211-cbc3-4270-a670-df8dc8bd7910",
     "730372ae-2be5-47aa-af0e-37e941dcd113",
-    "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79"
+    "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
+    "rich_text_KyBp79",
+    "rich_text_kgjG8U"
   ]
 }
