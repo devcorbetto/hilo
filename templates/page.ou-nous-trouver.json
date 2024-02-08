@@ -203,6 +203,15 @@
     "rich_text_kgjG8U": {
       "type": "rich-text",
       "blocks": {
+        "image_6zhWYG": {
+          "type": "image",
+          "settings": {
+            "customcss": "",
+            "image_picker": "shopify:\/\/shop_images\/favicon-colors_7e1f6c69-fef6-4ee6-8b12-672a212fe8c8.png",
+            "link_image": "",
+            "image_out": false
+          }
+        },
         "heading_A9yh4q": {
           "type": "heading",
           "settings": {
@@ -220,16 +229,17 @@
         }
       },
       "block_order": [
+        "image_6zhWYG",
         "heading_A9yh4q",
         "text_gefVYF"
       ],
       "custom_css": [
-        "p {text-align : left ;}"
+        "img {max-width: 100px;}"
       ],
       "settings": {
         "customcss": "titlesbold",
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
         "svg-eclat": "none",
