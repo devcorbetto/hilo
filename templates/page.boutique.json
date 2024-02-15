@@ -98,14 +98,14 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin. ✨ <\/p>"
+            "text": "<p>Trouvez la combinaison faite pour vous grâce à notre diagnostic en ligne. Celui-ci vous aidera à déterminer les tendances de votre peau et les actifs à ajouter dans votre base de soin naturelle. ✨ <\/p>"
           }
         },
         "a82a55a9-1c7b-45ef-8983-c7289128aab2": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><\/p><p>Vous pouvez réaliser votre diagnostic à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
+            "text": "<p><\/p><p>Vous pouvez réaliser votre diagnostic de peau à chaque instant pour toujours obtenir votre match parfait du moment !<\/p>"
           }
         },
         "64975ab8-962a-48ff-bbec-1129a17db732": {
@@ -217,6 +217,68 @@
         "padding_bottom": 52
       }
     },
+    "collapsible_content_RUztG3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4MUDV4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_De6yn8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ar7QN7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_YAkGea": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4MUDV4",
+        "collapsible_row_De6yn8",
+        "collapsible_row_Ar7QN7",
+        "collapsible_row_YAkGea"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e442e363-5752-4e61-8ee8-ad266a5f317d": {
       "type": "multicolumn-svg",
       "blocks": {
@@ -288,6 +350,7 @@
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
     "0390fa47-3651-4227-ab29-9dfcfa382c60",
+    "collapsible_content_RUztG3",
     "e442e363-5752-4e61-8ee8-ad266a5f317d"
   ]
 }
