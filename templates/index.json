@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "L'idée cadeau parfaite pour la Saint-Valentin !",
+            "heading": "Les cosmétiques naturels et sur-mesure !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Il y a de l'amour dans l'air chez Hilo. Offrez un moment de détente avec le coffret cosmétique idéal !",
+            "text": "Ajoutez 3 capsules d'actif à votre base de soin naturelle pour obtenir des cosmétiques sur-mesure en un clin d'œil.",
             "text_style": "body"
           }
         },
@@ -38,7 +38,7 @@
       "custom_css": [
         ".banner__heading {color: #fff; margin-top: -50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px;}",
-        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
+        ".button--secondary {color: #fccf9c; background-color: #fff; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; }}"
@@ -46,8 +46,8 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-naturels-sur-mesure-saint-valentin_1c4f78ba-64ab-4f86-94a5-b706c7c4195d.png",
-        "mobile_image": "shopify:\/\/shop_images\/Coffret-cosmetiques-st-valentin-hilo.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_1.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "large",
