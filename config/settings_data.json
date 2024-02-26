@@ -180,6 +180,7 @@
           },
           "f0f3e84c-e05e-4d85-8caa-7259dfc5aba3": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Avis clients 5\/5 ⭐️",
               "text_alignment": "center",
