@@ -1,5 +1,78 @@
 {
   "sections": {
+    "multicolumn_tWx6bV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_C48TmA": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>🏅 + de 500 clients satisfaits<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PzqR3m": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>🚚 Expédition rapide<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wn3948": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p><strong>⭐ <\/strong>Avis 5\/5<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Pi6XV7": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>🥰 100% plaisir<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_C48TmA",
+        "column_PzqR3m",
+        "column_wn3948",
+        "column_Pi6XV7"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -384,6 +457,7 @@
     }
   },
   "order": [
+    "multicolumn_tWx6bV",
     "main",
     "image_banner_GFM4nF",
     "multicolumn_8aCLXB",
