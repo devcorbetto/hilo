@@ -304,6 +304,83 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "multicolumn_4APfNM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_npVFye": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Fichier_3.svg",
+            "title": "adorent la texture et l'odeur de la crème",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wa8ieK": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Fichier_2.svg",
+            "title": "trouvent leur peau mieux hydratée",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RUCDtD": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Fichier_2.svg",
+            "title": "trouvent leur peau plus douce et plus belle",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qBp4rx": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Fichier_3.svg",
+            "title": "recommandent la crème à un(e) ami(e)",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_npVFye",
+        "column_Wa8ieK",
+        "column_RUCDtD",
+        "column_qBp4rx"
+      ],
+      "settings": {
+        "customcss": "multi-featured multi-icons paiment",
+        "title": "CE QU'ILS EN PENSENT 😍",
+        "subtitle": "Selon un test réalisé en autoévaluation auprès de nos client(e)s.",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -314,6 +391,7 @@
     "17089557526d002fb2",
     "rich_text_yBkzMe",
     "multicolumns_reviews_x3Ywd6",
-    "image_banner_NN4HPi"
+    "image_banner_NN4HPi",
+    "multicolumn_4APfNM"
   ]
 }
