@@ -451,8 +451,8 @@
         "button_ff3CH3"
       ],
       "custom_css": [
-        ".button--secondary {color: #EF819A; background-color: #fff; border-radius: 30px;}",
-        ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
+        ".button--secondary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #ef819a !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
       ],
       "settings": {
@@ -464,7 +464,7 @@
         "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 0
       }
     },
