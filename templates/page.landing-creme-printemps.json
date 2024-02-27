@@ -129,7 +129,7 @@
       "custom_css": [
         ".banner__heading {color: #fff; margin-top: ; margin-top: 50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px; font-weight: ; margin-bottom: 30px;}",
-        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px; margin-bottom: 30px;}",
+        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; }}"
@@ -148,7 +148,7 @@
         "desktop_content_alignment": "left",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
