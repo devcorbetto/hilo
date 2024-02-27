@@ -408,23 +408,6 @@
     },
     "image_banner_Yca87e": {
       "type": "image-banner",
-      "blocks": {
-        "buttons_UqRpVP": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "J'achète",
-            "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
-            "button_out": false,
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_UqRpVP"
-      ],
       "custom_css": [
         ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px; align-items: center !important;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
@@ -433,7 +416,7 @@
       "settings": {
         "textafter": "",
         "customcss": "",
-        "image": "shopify:\/\/shop_images\/2._Choisissez_3_capsules_d_actif_3.png",
+        "image": "shopify:\/\/shop_images\/Design_sans_titre.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -455,7 +438,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "J'achète",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary": true,
             "button_label_2": "",
@@ -468,7 +451,9 @@
         "button_ff3CH3"
       ],
       "custom_css": [
-
+        ".button--secondary {color: #fff; background-color: #EF819A; border-radius: 30px;}",
+        ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #EF819A !important;}"
       ],
       "settings": {
         "customcss": "",
