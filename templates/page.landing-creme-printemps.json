@@ -305,7 +305,7 @@
         "column_DyV9D7"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.slider-mobile-gutter {display: flex!important; }}"
+        "@media screen and (max-width: 749px) {.slider-mobile-gutter {display: flex !important; }}"
       ],
       "settings": {
         "customcss": "",
@@ -323,140 +323,13 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "multicolumns_reviews_x3Ywd6": {
-      "type": "multicolumns-reviews",
-      "blocks": {
-        "column_RtX7m7": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/telechargement__12_-removebg-preview.png",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VTN8pK": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Gala_logo-large-removebg-preview.png",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_MpjYjY": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/france_3.png",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_RtX7m7",
-        "column_VTN8pK",
-        "column_MpjYjY"
-      ],
-      "settings": {
-        "customcss": "",
-        "title": "",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "colors_1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 60
       }
     },
     "multicolumns_reviews_dVnCk9": {
       "type": "multicolumns-reviews",
       "blocks": {
         "column_cQP4Td": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xqFQ7t": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Gala_logo-large-removebg-preview.png",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GhmzB3": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/france_3.png",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_cQP4Td",
-        "column_xqFQ7t",
-        "column_GhmzB3"
-      ],
-      "settings": {
-        "customcss": "",
-        "title": "",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_AtdGkz": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_LtMEqr": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -467,18 +340,18 @@
             "link": ""
           }
         },
-        "column_LR68ka": {
+        "column_aEjCGY": {
           "type": "column",
           "settings": {
             "customcss": "",
             "title": "🪄",
             "subtitle": "",
-            "text": "<p><strong> DIY en 2 minutes<\/strong><\/p><p><strong>seulement<\/strong><\/p>",
+            "text": "<p><strong>DIY en 2 minutes seulement<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_rQh9CC": {
+        "column_xqFQ7t": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -489,7 +362,7 @@
             "link": ""
           }
         },
-        "column_d33LGA": {
+        "column_GhmzB3": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -500,24 +373,24 @@
             "link": ""
           }
         },
-        "column_EWQcbG": {
+        "column_VjjdKR": {
           "type": "column",
           "settings": {
             "customcss": "",
             "title": "🥕",
             "subtitle": "",
-            "text": "<p><strong>Excellent sur <\/strong><\/p><p><strong>Yuka<\/strong><\/p>",
+            "text": "<p><strong>Excellent sur Yuka<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_LtMEqr",
-        "column_LR68ka",
-        "column_rQh9CC",
-        "column_d33LGA",
-        "column_EWQcbG"
+        "column_cQP4Td",
+        "column_aEjCGY",
+        "column_xqFQ7t",
+        "column_GhmzB3",
+        "column_VjjdKR"
       ],
       "custom_css": [
         "h3 {font-size: 40px;}"
@@ -526,8 +399,8 @@
         "customcss": "",
         "title": "",
         "subtitle": "",
-        "heading_size": "h2",
-        "image_width": "third",
+        "heading_size": "h1",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "center",
@@ -535,9 +408,9 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 20,
+        "padding_top": 32,
         "padding_bottom": 20
       }
     },
@@ -754,9 +627,7 @@
     "17089557526d002fb2",
     "rich_text_yBkzMe",
     "multicolumn_cFUKir",
-    "multicolumns_reviews_x3Ywd6",
     "multicolumns_reviews_dVnCk9",
-    "multicolumn_AtdGkz",
     "image_banner_Yca87e",
     "rich_text_4f3E4r",
     "multicolumn_4APfNM",
