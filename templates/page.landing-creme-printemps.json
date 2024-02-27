@@ -317,7 +317,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "colors_1",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 64
@@ -393,7 +393,7 @@
         "h3 {font-size: 40px;}"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "multi-testimonials multi-icons",
         "title": "",
         "subtitle": "",
         "heading_size": "h2",
