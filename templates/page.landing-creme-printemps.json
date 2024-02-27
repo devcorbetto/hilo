@@ -55,10 +55,10 @@
         "column_Pi6XV7"
       ],
       "custom_css": [
-        "p {margin-bottom: px;}"
+        "p {margin-bottom: -10px;}"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "multi-testimonials multi-icons",
         "title": "",
         "subtitle": "",
         "heading_size": "h2",
@@ -71,9 +71,9 @@
         "button_link": "",
         "color_scheme": "colors_2",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 12
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 0
       }
     },
     "main": {
