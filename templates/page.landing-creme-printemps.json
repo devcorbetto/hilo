@@ -305,7 +305,7 @@
         "column_DyV9D7"
       ],
       "custom_css": [
-        "img {display: flex,}"
+        "img {display: flex;}"
       ],
       "settings": {
         "customcss": "",
@@ -320,7 +320,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "colors_1",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 20,
         "padding_bottom": 20
