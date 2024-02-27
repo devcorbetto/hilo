@@ -451,9 +451,9 @@
         "button_ff3CH3"
       ],
       "custom_css": [
-        ".button--secondary {color: #fff; background-color: #EF819A; border-radius: 30px;}",
+        ".button--secondary {color: #EF819A; background-color: #fff; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
-        ".button--secondary::after {box-shadow: none; border: 2px solid #EF819A !important;}"
+        ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
       ],
       "settings": {
         "customcss": "",
