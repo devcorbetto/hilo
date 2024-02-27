@@ -433,7 +433,7 @@
       ],
       "settings": {
         "textafter": "",
-        "customcss": "banner-home",
+        "customcss": "",
         "image": "shopify:\/\/shop_images\/2._Choisissez_3_capsules_d_actif_3.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
