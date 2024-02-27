@@ -399,7 +399,7 @@
         "h3 {font-size: 40px;}"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "multi-featured multi-icons paiment",
         "title": "",
         "subtitle": "",
         "heading_size": "h1",
