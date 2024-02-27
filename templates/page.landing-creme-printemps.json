@@ -396,7 +396,8 @@
         "column_VjjdKR"
       ],
       "custom_css": [
-        "h3 {font-size: 40px;}"
+        "h3 {font-size: 40px;}",
+        "@media screen and (max-width: 749px) {h3 {font-size: 20px; }}"
       ],
       "settings": {
         "customcss": "",
