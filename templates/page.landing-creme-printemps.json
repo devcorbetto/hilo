@@ -397,7 +397,7 @@
       ],
       "custom_css": [
         "h3 {font-size: 40px;}",
-        "@media screen and (max-width: 749px) {h3 {font-size: 30px!important; }}"
+        "@media screen and (max-width: 749px) {h3 {font-size: 20px !important; margin-bottom: 15px; }}"
       ],
       "settings": {
         "customcss": "multi-featured multi-icons paiment",
