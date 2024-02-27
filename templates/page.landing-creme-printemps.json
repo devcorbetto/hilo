@@ -55,7 +55,7 @@
         "column_Pi6XV7"
       ],
       "custom_css": [
-        "p {margin-bottom : -10px ;}"
+        "p {margin-bottom: -10px;}"
       ],
       "settings": {
         "customcss": "",
@@ -71,7 +71,7 @@
         "button_link": "",
         "color_scheme": "colors_2",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 0
       }
