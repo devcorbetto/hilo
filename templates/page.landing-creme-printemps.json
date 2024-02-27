@@ -170,7 +170,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Selon eux, la crème Hilo est...",
+            "title": "Selon eux, la crème visage Hilo est :",
             "subtitle": "",
             "text": "<p><strong><br\/>💧Hydratante<\/strong><\/p><p><br\/><\/p><p><strong>☁️  Douce pour la peau<\/strong><\/p><p><br\/><\/p><p><strong>✨ Efficace<\/strong><\/p><p><\/p><p><br\/><strong>🫧 Adaptée aux peaux sensibles<\/strong><\/p>",
             "link_label": "",
@@ -184,7 +184,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 60px; font-weight: bold; color: #d0c4e2;}",
-        "h3 {font-weight: bold; color: #716F6F;}",
+        "h3 {font-weight: bold; color: #716f6f;}",
         "@media screen and (max-width: 749px) {h2 {font-size: 40px; }}"
       ],
       "settings": {
