@@ -408,13 +408,33 @@
     },
     "image_banner_Yca87e": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_UqRpVP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "J'achète",
+            "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false,
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_UqRpVP"
+      ],
       "custom_css": [
-
+        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px; margin-bottom: 30px;}",
+        ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; }}"
       ],
       "settings": {
         "textafter": "",
-        "customcss": "",
-        "image": "shopify:\/\/shop_images\/2._Choisissez_3_capsules_d_actif_2.png",
+        "customcss": "banner-home",
+        "image": "shopify:\/\/shop_images\/2._Choisissez_3_capsules_d_actif_3.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -424,8 +444,44 @@
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_4f3E4r": {
+      "type": "rich-text",
+      "blocks": {
+        "button_ff3CH3": {
+          "type": "button",
+          "settings": {
+            "customcss": "btn-circle",
+            "button_label": "J'achète",
+            "button_link": "",
+            "button_out": false,
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_ff3CH3"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_4APfNM": {
@@ -581,6 +637,7 @@
     "multicolumns_reviews_x3Ywd6",
     "multicolumn_AtdGkz",
     "image_banner_Yca87e",
+    "rich_text_4f3E4r",
     "multicolumn_4APfNM",
     "multicolumn_svg_zG6QFy"
   ]
