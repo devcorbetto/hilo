@@ -427,7 +427,7 @@
       ],
       "settings": {
         "textafter": "",
-        "customcss": "",
+        "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/2._Ajoutez_les_3_capsules_d_actif.png",
         "mobile_image": "shopify:\/\/shop_images\/Creme-visage-naturelle-concept-mobile.png",
         "svg-wave": "none",
