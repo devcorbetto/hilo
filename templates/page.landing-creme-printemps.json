@@ -323,6 +323,69 @@
         "padding_bottom": 64
       }
     },
+    "multicolumns_reviews_dVnCk9": {
+      "type": "multicolumns-reviews",
+      "blocks": {
+        "column_cQP4Td": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xqFQ7t": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Gala_logo-large-removebg-preview.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GhmzB3": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/france_3.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cQP4Td",
+        "column_xqFQ7t",
+        "column_GhmzB3"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_AtdGkz": {
       "type": "multicolumn",
       "blocks": {
@@ -393,7 +456,7 @@
         "h3 {font-size: 40px;}"
       ],
       "settings": {
-        "customcss": "multi-testimonials multi-icons",
+        "customcss": "",
         "title": "",
         "subtitle": "",
         "heading_size": "h2",
@@ -624,6 +687,7 @@
     "17089557526d002fb2",
     "rich_text_yBkzMe",
     "multicolumns_reviews_x3Ywd6",
+    "multicolumns_reviews_dVnCk9",
     "multicolumn_AtdGkz",
     "image_banner_Yca87e",
     "rich_text_4f3E4r",
