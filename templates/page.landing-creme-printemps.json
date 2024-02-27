@@ -184,6 +184,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 60px; font-weight: bold; color: #d0c4e2;}",
+        "h3 {font-weight: bold; color: #716F6F;}",
         "@media screen and (max-width: 749px) {h2 {font-size: 40px; }}"
       ],
       "settings": {
@@ -559,7 +560,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 60,
-        "padding_bottom": 80
+        "padding_bottom": 60
       }
     },
     "multicolumn_svg_Xqpy4C": {
