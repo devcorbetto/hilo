@@ -397,7 +397,7 @@
         "title": "",
         "subtitle": "",
         "heading_size": "h2",
-        "image_width": "half",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "center",
@@ -406,7 +406,7 @@
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 20,
         "padding_bottom": 20
       }
