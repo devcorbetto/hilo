@@ -305,7 +305,7 @@
         "column_DyV9D7"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {slider-mobile-gutter {display:flex; }}"
+        "@media screen and (max-width: 749px) {.slider-mobile-gutter {display: flex; }}"
       ],
       "settings": {
         "customcss": "",
