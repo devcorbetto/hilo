@@ -305,7 +305,7 @@
         "column_DyV9D7"
       ],
       "custom_css": [
-        "img {display: flex;}"
+        "img {display: flex!important;}"
       ],
       "settings": {
         "customcss": "",
