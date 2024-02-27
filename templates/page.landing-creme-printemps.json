@@ -259,6 +259,73 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_cFUKir": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_H4mRqL": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/telechargement__12_-removebg-preview.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xNnTDw": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Gala_logo-large-removebg-preview.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DyV9D7": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/france_3.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_H4mRqL",
+        "column_xNnTDw",
+        "column_DyV9D7"
+      ],
+      "custom_css": [
+        "img {display: flex,}"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "multicolumns_reviews_x3Ywd6": {
       "type": "multicolumns-reviews",
       "blocks": {
@@ -686,6 +753,7 @@
     "1708955162aafe337b",
     "17089557526d002fb2",
     "rich_text_yBkzMe",
+    "multicolumn_cFUKir",
     "multicolumns_reviews_x3Ywd6",
     "multicolumns_reviews_dVnCk9",
     "multicolumn_AtdGkz",
