@@ -477,7 +477,7 @@
         "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 32,
+        "padding_top": 12,
         "padding_bottom": 60
       }
     },
