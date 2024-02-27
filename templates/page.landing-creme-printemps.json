@@ -305,7 +305,7 @@
         "column_DyV9D7"
       ],
       "custom_css": [
-        "img {display: flex!important;}"
+        "@media screen and (max-width: 749px) {img {margin:30px; }}"
       ],
       "settings": {
         "customcss": "",
