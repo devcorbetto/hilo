@@ -127,7 +127,7 @@
         "paragraphe_34a3pQ"
       ],
       "custom_css": [
-        ".banner__heading {color: #fff; margin-top: ; font-size: 40px; margin-top: 50px;}",
+        ".banner__heading {color: #fff; margin-top: ; margin-top: 50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px; font-weight: ; margin-bottom: 30px;}",
         ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px; margin-bottom: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
