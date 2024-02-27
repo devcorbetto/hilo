@@ -184,7 +184,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 60px; font-weight: bold; color: #d0c4e2;}",
-        "@media screen and (max-width: 749px) {h2 {font-size: 35px; }}"
+        "@media screen and (max-width: 749px) {h2 {font-size: 40px; }}"
       ],
       "settings": {
         "customcss": "",
