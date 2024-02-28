@@ -105,7 +105,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Je la veux",
-            "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_link_1": "shopify:\/\/products\/ma-creme-visage-naturelle-combo-printemps",
             "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -452,7 +452,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "J'achète",
-            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_link": "shopify:\/\/products\/ma-creme-visage-naturelle-combo-printemps",
             "button_out": false,
             "button_style_secondary": true,
             "button_label_2": "",
