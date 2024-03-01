@@ -83,14 +83,14 @@
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Les Créateurs des Jacobins",
+            "heading": "My Noé",
             "heading_size": "h2"
           }
         },
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>6 Place des Jacobins, 69002 Lyon<\/p><p>Horaires : du lundi au samedi de 11h00 à 19h00<\/p><p>Click and collect<\/p><p><a href=\"https:\/\/goo.gl\/maps\/GHGXZBKbSqHx1dtC6\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/GHGXZBKbSqHx1dtC6\">Google Map<\/a><\/p>",
+            "text": "<p>Cosmétiques naturels, fabrication française & conseils beauté <strong>🌿<\/strong><\/p><p><br\/><\/p><p>18 rue Neuve, 12000 Rodez<\/p><p>Horaires : du mardi au samedi, de 10h00 à 12h30 et de 14h00 à 19h00<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\">Google Map<\/a><\/p>",
             "text_style": "body"
           }
         }
@@ -99,7 +99,6 @@
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-heading-1",
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-text-1"
       ],
-      "disabled": true,
       "custom_css": [
         "img {border-radius: 30px;}"
       ],
@@ -107,7 +106,7 @@
         "customcss": "",
         "eclat": "none",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/createurs_des_jacobins.jpg",
+        "image": "shopify:\/\/shop_images\/2023-11-07.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
