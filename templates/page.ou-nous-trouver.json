@@ -119,6 +119,48 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_UA98FH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dRwez8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lay Beauty (dans le salon Hair Women Concept)",
+            "heading_size": "h2"
+          }
+        },
+        "text_dbXgx9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Soins du visage & conseils beauté <strong>✨<\/strong><\/p><p><br\/><\/p><p>Route de Californie, 07100 Annonay<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dRwez8",
+        "text_dbXgx9"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/Image_3.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -254,6 +296,7 @@
     "8c53e55e-060b-41d6-b6d3-ef4deaadd1a1",
     "e7256211-cbc3-4270-a670-df8dc8bd7910",
     "730372ae-2be5-47aa-af0e-37e941dcd113",
+    "image_with_text_UA98FH",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
     "rich_text_KyBp79",
     "rich_text_kgjG8U"
