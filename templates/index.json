@@ -133,7 +133,7 @@
         "mobile_image": "shopify:\/\/shop_images\/creme-visage-naturelle-combo-printemps-mobile.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
