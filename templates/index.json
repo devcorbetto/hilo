@@ -985,6 +985,70 @@
         "padding_top": 40,
         "padding_bottom": 60
       }
+    },
+    "multicolumn_svg_AerBLr": {
+      "type": "multicolumn-svg",
+      "blocks": {
+        "column_Rphiab": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "Column",
+            "subtitle": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9Yx89g": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "Column",
+            "subtitle": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tL4mWe": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "Column",
+            "subtitle": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Rphiab",
+        "column_9Yx89g",
+        "column_tL4mWe"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "Multicolumn",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1003,6 +1067,7 @@
     "1684764602ce8c50eb",
     "f52db200-881a-4cc4-8cee-315cec0b2421",
     "5158f987-865b-484c-8777-3d325ff4b90f",
-    "8cf76421-6fa4-42cd-a954-23ae04a049ae"
+    "8cf76421-6fa4-42cd-a954-23ae04a049ae",
+    "multicolumn_svg_AerBLr"
   ]
 }
