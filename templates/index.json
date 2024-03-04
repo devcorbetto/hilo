@@ -986,83 +986,10 @@
         "padding_bottom": 60
       }
     },
-    "multicolumn_slider_wXXGfC": {
-      "type": "multicolumn-slider",
+    "multicolumn_GchCGq": {
+      "type": "multicolumn",
       "blocks": {
-        "column_mN4GLW": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "titleicon": "Column",
-            "titleicon2": "Column",
-            "titleicon3": "Column",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "",
-            "link": "",
-            "button_out": false
-          }
-        },
-        "column_KCHDaw": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "titleicon": "Column",
-            "titleicon2": "Column",
-            "titleicon3": "Column",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "",
-            "link": "",
-            "button_out": false
-          }
-        },
-        "column_nB6dra": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "titleicon": "Column",
-            "titleicon2": "Column",
-            "titleicon3": "Column",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "",
-            "link": "",
-            "button_out": false
-          }
-        }
-      },
-      "block_order": [
-        "column_mN4GLW",
-        "column_KCHDaw",
-        "column_nB6dra"
-      ],
-      "settings": {
-        "customcss": "",
-        "svg-eclat": "none",
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumns_reviews_69RREW": {
-      "type": "multicolumns-reviews",
-      "blocks": {
-        "column_gHwqw4": {
+        "column_KgFQJJ": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -1073,7 +1000,7 @@
             "link": ""
           }
         },
-        "column_dz9aMQ": {
+        "column_Yaxg86": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -1084,7 +1011,7 @@
             "link": ""
           }
         },
-        "column_44EE7a": {
+        "column_bYfWmA": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -1097,9 +1024,9 @@
         }
       },
       "block_order": [
-        "column_gHwqw4",
-        "column_dz9aMQ",
-        "column_44EE7a"
+        "column_KgFQJJ",
+        "column_Yaxg86",
+        "column_bYfWmA"
       ],
       "settings": {
         "customcss": "",
@@ -1138,7 +1065,6 @@
     "f52db200-881a-4cc4-8cee-315cec0b2421",
     "5158f987-865b-484c-8777-3d325ff4b90f",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
-    "multicolumn_slider_wXXGfC",
-    "multicolumns_reviews_69RREW"
+    "multicolumn_GchCGq"
   ]
 }
