@@ -986,55 +986,64 @@
         "padding_bottom": 60
       }
     },
-    "multicolumn_svg_AerBLr": {
-      "type": "multicolumn-svg",
+    "multicolumn_slider_wXXGfC": {
+      "type": "multicolumn-slider",
       "blocks": {
-        "column_Rphiab": {
+        "column_mN4GLW": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "codeliquid": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
             "title": "Column",
-            "subtitle": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "button_out": false
           }
         },
-        "column_9Yx89g": {
+        "column_KCHDaw": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "codeliquid": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
             "title": "Column",
-            "subtitle": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "button_out": false
           }
         },
-        "column_tL4mWe": {
+        "column_nB6dra": {
           "type": "column",
           "settings": {
             "customcss": "",
-            "codeliquid": "",
+            "titleicon": "Column",
+            "titleicon2": "Column",
+            "titleicon3": "Column",
             "title": "Column",
-            "subtitle": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "button_out": false
           }
         }
       },
       "block_order": [
-        "column_Rphiab",
-        "column_9Yx89g",
-        "column_tL4mWe"
+        "column_mN4GLW",
+        "column_KCHDaw",
+        "column_nB6dra"
       ],
       "settings": {
         "customcss": "",
+        "svg-eclat": "none",
         "title": "Multicolumn",
-        "subtitle": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -1068,6 +1077,6 @@
     "f52db200-881a-4cc4-8cee-315cec0b2421",
     "5158f987-865b-484c-8777-3d325ff4b90f",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
-    "multicolumn_svg_AerBLr"
+    "multicolumn_slider_wXXGfC"
   ]
 }
