@@ -331,6 +331,49 @@
         "padding_bottom": 40
       }
     },
+    "rich_text_FzexYU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iN79YP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT ÇA  MARCHE ?<\/p>",
+            "customcss": "mb-10m",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iN79YP"
+      ],
+      "disabled": true,
+      "settings": {
+        "customcss": "rich-classic comment",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "eclat-gauche-violet",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "video_AMHPVz": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "0eef25c6-efe9-4ff6-8735-db6a49ccb31f": {
       "type": "rich-text",
       "blocks": {
@@ -1070,6 +1113,8 @@
     "featured_collection",
     "1697198404f4db84a3",
     "rich_text",
+    "rich_text_FzexYU",
+    "video_AMHPVz",
     "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
     "e7f127fd-cda8-46d1-b8d5-967ecedb7c20",
