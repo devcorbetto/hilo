@@ -160,12 +160,11 @@
           },
           "33b0d505-ba75-485a-903f-af0cded9f718": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Offre exceptionnelle : -20% sur le coffret Hilo !",
+              "text": "-30% sur la trousse découverte grand froid grâce au code BYEWINTER !",
               "text_alignment": "center",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/products\/coffret-hilo"
+              "link": "shopify:\/\/products\/ma-trousse-decouverte-grand-froid"
             }
           },
           "79d2705d-dbd3-4495-a5e7-eab0ce496151": {
