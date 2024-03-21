@@ -240,7 +240,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "VOUS ALLEZ LES ADORER",
+        "title": "NOS ICONIQUES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -296,13 +296,14 @@
           "type": "image",
           "settings": {
             "customcss": "mb-10m corner-left-top-purple",
-            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-base-de-creme-et-capsules-2.gif",
+            "image_picker": "shopify:\/\/shop_images\/2._Choisissez_3_capsules_d_actif.png",
             "link_image": "",
             "image_out": false
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "customcss": "",
             "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. <br\/>Et hop, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
@@ -324,7 +325,7 @@
         "content_alignment": "center",
         "svg-wave": "none",
         "svg-wave-position": "top",
-        "svg-eclat": "eclat-gauche-violet",
+        "svg-eclat": "eclat-gauche-rose",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
