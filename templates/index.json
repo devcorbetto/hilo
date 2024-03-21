@@ -329,7 +329,7 @@
         "img {margin-top: -40px; width: 100%;}"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "rich-classic comment",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "svg-wave": "none",
