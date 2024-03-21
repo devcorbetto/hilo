@@ -510,6 +510,9 @@
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2",
         "720d528c-dc53-4ffa-9be9-feed591fafcd"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h2 {margin-top: 50px; }}"
+      ],
       "settings": {
         "customcss": "multi-slider",
         "svg-eclat": "eclat-droit-orange",
