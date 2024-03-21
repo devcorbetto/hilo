@@ -151,6 +151,33 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_WJn3d4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "CARTE CADEAU",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "boutique-carte-cadeau",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a": {
       "type": "rich-text",
       "blocks": {
@@ -419,6 +446,7 @@
     "featured_collection_FHX7ab",
     "featured_collection_yHngek",
     "featured_collection_VFPMAE",
+    "featured_collection_WJn3d4",
     "58e3e5a0-a50f-4645-98f0-b076aa307a6a",
     "0390fa47-3651-4227-ab29-9dfcfa382c60",
     "collapsible_content_RUztG3",
