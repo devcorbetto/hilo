@@ -160,7 +160,8 @@
         "heading_eNw8Qf"
       ],
       "custom_css": [
-        "h2 {font-size: 27px; font-weight: normal;}"
+        "h2 {font-size: 27px; font-weight: normal;}",
+        "@media screen and (max-width: 749px){h2 {font-size: 20px ; }}"
       ],
       "settings": {
         "customcss": "",
@@ -224,7 +225,7 @@
         "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.slider-mobile-gutter {display:flex ; } }"
+
       ],
       "settings": {
         "customcss": "",
