@@ -332,7 +332,7 @@
         "customcss": "rich-classic comment",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "vague-rose-trait",
+        "svg-wave": "none",
         "svg-wave-position": "top",
         "svg-eclat": "none",
         "color_scheme": "colors_3",
