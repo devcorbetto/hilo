@@ -42,15 +42,18 @@
     },
     "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
-        "title": "",
+        "title": "LE BEST-SELLER ✨",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "boutique",
-        "products_to_show": 12,
-        "columns_desktop": 3,
+        "collection": "best-seller",
+        "products_to_show": 2,
+        "columns_desktop": 1,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
