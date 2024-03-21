@@ -296,7 +296,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>COMMENT ÇA  MARCHE?<\/p>",
+            "heading": "<p>COMMENT ÇA  MARCHE ?<\/p>",
             "customcss": "mb-10m",
             "heading_size": "h1"
           }
