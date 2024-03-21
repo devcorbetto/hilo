@@ -330,7 +330,7 @@
         "@media screen and (max-width: 749px) {img {width: 100% !important; }}"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "rich-classic comment",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "svg-wave": "none",
