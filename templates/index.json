@@ -332,10 +332,10 @@
         "customcss": "rich-classic comment",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "bottom",
+        "svg-wave": "vague-rose-trait",
+        "svg-wave-position": "top",
         "svg-eclat": "none",
-        "color_scheme": "background-1",
+        "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 48,
         "padding_bottom": 24
