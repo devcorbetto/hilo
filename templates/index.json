@@ -326,7 +326,7 @@
       ],
       "custom_css": [
         ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
-        "img {margin-top: -40px;}"
+        "img {margin-top: -40px; width: 80%;}"
       ],
       "settings": {
         "customcss": "rich-classic comment",
