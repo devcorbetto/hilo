@@ -305,7 +305,7 @@
           "type": "image",
           "settings": {
             "customcss": "mb-10m corner-left-top-purple",
-            "image_picker": "shopify:\/\/shop_images\/2._Choisissez_3_capsules_d_actif.png",
+            "image_picker": "shopify:\/\/shop_images\/concept-creme-hilo-capsules-actifs.png",
             "link_image": "",
             "image_out": false
           }
@@ -326,19 +326,20 @@
       ],
       "custom_css": [
         ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
-        ".rich-text__text p {color: ;}"
+        ".rich-text__text p {color: ;}",
+        "img {margin-top: -40px;}"
       ],
       "settings": {
         "customcss": "rich-classic comment",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "none",
+        "svg-wave": "vague-rose-trait",
         "svg-wave-position": "top",
-        "svg-eclat": "eclat-gauche-rose",
-        "color_scheme": "background-1",
+        "svg-eclat": "none",
+        "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 0,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     },
     "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
