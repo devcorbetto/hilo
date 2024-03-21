@@ -40,36 +40,6 @@
         "padding_bottom": 100
       }
     },
-    "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae": {
-      "type": "featured-collection",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "LE BEST-SELLER ✨",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best-seller",
-        "products_to_show": 2,
-        "columns_desktop": 1,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 80
-      }
-    },
     "featured_collection_FHX7ab": {
       "type": "featured-collection",
       "settings": {
@@ -154,7 +124,7 @@
     "featured_collection_WJn3d4": {
       "type": "featured-collection",
       "settings": {
-        "title": "CARTE CADEAU",
+        "title": "COFFRETS & CADEAUX",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -442,7 +412,6 @@
   "order": [
     "main",
     "4afd5d1d-8bfa-4ef7-9662-972ba5a2303a",
-    "d1729d12-e0e2-4aff-abd1-a485a8f5a0ae",
     "featured_collection_FHX7ab",
     "featured_collection_yHngek",
     "featured_collection_VFPMAE",
