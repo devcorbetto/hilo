@@ -326,7 +326,7 @@
       ],
       "custom_css": [
         ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
-        "img {margin-top: -40px;}",
+        "img {margin-top: -40px; width: 70%;}",
         "@media screen and (max-width: 749px) {img {width: 100% !important; }}"
       ],
       "settings": {
@@ -339,7 +339,7 @@
         "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 48,
-        "padding_bottom": 0
+        "padding_bottom": 32
       }
     },
     "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
