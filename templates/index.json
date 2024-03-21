@@ -119,7 +119,7 @@
         "paragraphe_f3Mj3B"
       ],
       "custom_css": [
-        ".banner__heading {color: #fff; margin-top: -50px;}",
+        ".banner__heading {color: #fff; margin-top: -100px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px; margin-bottom: 30px;}",
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
