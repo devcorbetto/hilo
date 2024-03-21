@@ -326,9 +326,8 @@
       ],
       "custom_css": [
         ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
-        ".rich-text__text p {color: ;}",
         "img {margin-top: -40px;}",
-        "@media screen and (max-width: 749px) {img {width: 100%; }}"
+        "@media screen and (max-width: 749px) {img {width: 100% !important; }}"
       ],
       "settings": {
         "customcss": "rich-classic comment",
