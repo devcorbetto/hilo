@@ -332,97 +332,6 @@
         "padding_bottom": 40
       }
     },
-    "rich_text_FzexYU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_iN79YP": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>COMMENT ÇA  MARCHE ?<\/p>",
-            "customcss": "mb-10m",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_iN79YP"
-      ],
-      "disabled": true,
-      "settings": {
-        "customcss": "rich-classic comment",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "eclat-gauche-violet",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "video_AMHPVz": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "0eef25c6-efe9-4ff6-8735-db6a49ccb31f": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>LES CAPSULES D'ACTIF<\/p>",
-            "customcss": "mb-10m",
-            "heading_size": "h1"
-          }
-        },
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Découvrez les premières capsules éco-conçues pour personnaliser votre base de soin. <br\/>Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau. <\/p>"
-          }
-        },
-        "12d5c4a7-78d2-410a-8f94-4d282a2ca70c": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Chaque actif est reconnu pour les propriétés suivantes :<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0",
-        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1",
-        "12d5c4a7-78d2-410a-8f94-4d282a2ca70c"
-      ],
-      "custom_css": [
-        ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
-      ],
-      "settings": {
-        "customcss": "rich-classic",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 16
-      }
-    },
     "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
       "type": "multi-column-hover",
       "blocks": {
@@ -507,6 +416,7 @@
         "2064b35d-5bc5-408e-8cbe-0ca21bd35612",
         "d5535821-7ade-401a-b1c5-5fd456264dca"
       ],
+      "disabled": true,
       "settings": {
         "customcss": "multi-classic multi-capsules",
         "title": "",
@@ -525,133 +435,6 @@
         "padding_bottom": 36
       }
     },
-    "e7f127fd-cda8-46d1-b8d5-967ecedb7c20": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Pour trouver votre match parfait, réalisez votre diagnostic de peau.<\/p>"
-          }
-        },
-        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2": {
-          "type": "button",
-          "settings": {
-            "customcss": "btn-circle",
-            "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": false,
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf": {
-          "type": "caption",
-          "settings": {
-            "customcss": "segoe",
-            "caption": "Alors caps ou pas caps ?",
-            "text_style": "subtitle",
-            "text_size": "small"
-          }
-        }
-      },
-      "block_order": [
-        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1",
-        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2",
-        "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf"
-      ],
-      "custom_css": [
-        ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
-      ],
-      "settings": {
-        "customcss": "rich-classic",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "120cbd86-6225-4213-9b1a-eefbf7d37db9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>P-HILO-SOPHIE<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "2d835b90-5ecd-45be-a0be-4fe51ad79673": {
-          "type": "caption",
-          "settings": {
-            "customcss": "segoe",
-            "caption": "[...] akuna matata",
-            "text_style": "subtitle",
-            "text_size": "small"
-          }
-        },
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Selon nous, il existe autant de <strong>types de peau<\/strong> qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. Nous avons donc créé Hilo afin de vous proposer une <strong>crème à votre image<\/strong> grâce à un <strong>principe de personnalisation innovant et anti-gaspi. <\/strong><\/p><p><\/p>"
-          }
-        },
-        "ac185d4f-43fb-42b1-a75e-f45c179fdd3a": {
-          "type": "text",
-          "settings": {
-            "customcss": "mb-5m",
-            "text": "<p>Notre objectif est de vous proposer des <strong>soins naturels et personnalisables <\/strong>que vous pourrez <strong>adapter à votre peau <\/strong>à chaque étape de votre vie.<\/p><p><\/p>"
-          }
-        },
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
-          "type": "button",
-          "settings": {
-            "customcss": "btn-circle",
-            "button_label": "Je veux tout savoir",
-            "button_link": "shopify:\/\/pages\/la-marque-hilo",
-            "button_out": false,
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0",
-        "2d835b90-5ecd-45be-a0be-4fe51ad79673",
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
-        "ac185d4f-43fb-42b1-a75e-f45c179fdd3a",
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
-      ],
-      "custom_css": [
-        ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
-      ],
-      "settings": {
-        "customcss": "rich-classic philosophie",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "vague-blanche-trait",
-        "svg-wave-position": "bottom",
-        "svg-eclat": "none",
-        "color_scheme": "colors_3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 36
-      }
-    },
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a": {
       "type": "multicolumn-slider",
       "blocks": {
@@ -661,11 +444,11 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-saida.jpg",
             "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon": "Huile d'amande douce",
+            "titleicon": "Actif apaisant",
             "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon2": "Huile d'onagre",
+            "titleicon2": "Actif hydratant",
             "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
-            "titleicon3": "Huile d'abricot",
+            "titleicon3": "Actif illuminant",
             "title": "Les actifs du moment de Saïda",
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
@@ -680,13 +463,13 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-ana.jpg",
             "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
-            "titleicon": "Huile d'argan",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
-            "titleicon2": "Huile de carotte",
+            "titleicon": "Actif anti-âge",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon2": "Actif apaisant",
             "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon3": "Huile de noisette",
+            "titleicon3": "Actif anti-imperfections",
             "title": "Les actifs du moment d'Ana",
-            "text": "<p>Peau à tendance mixte en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
+            "text": "<p>Peau à tendance mixte, quelques rougeurs et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
             "link": "shopify:\/\/pages\/diagnostic-de-peau",
@@ -699,11 +482,11 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-leo.jpg",
             "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon": "Huile d'amande douce",
+            "titleicon": "Actif apaisant",
             "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon2": "Huile de noisette",
+            "titleicon2": "Actif anti-imperfections",
             "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon3": "Huile d'onagre",
+            "titleicon3": "Actif hydratant",
             "title": "Les actifs du moment de Léo",
             "text": "<p>Peau déshydratée avec quelques rougeurs et imperfections<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
@@ -1114,12 +897,7 @@
     "featured_collection",
     "1697198404f4db84a3",
     "rich_text",
-    "rich_text_FzexYU",
-    "video_AMHPVz",
-    "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
-    "e7f127fd-cda8-46d1-b8d5-967ecedb7c20",
-    "120cbd86-6225-4213-9b1a-eefbf7d37db9",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "68550990-5f0d-4268-b2b8-67d04dd382f4",
     "e7b02f91-67dd-43fa-88ba-f3043f64f586",
