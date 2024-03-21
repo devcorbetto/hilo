@@ -511,7 +511,7 @@
         "720d528c-dc53-4ffa-9be9-feed591fafcd"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {h2 {margin-top: 50px; }}"
+        "@media screen and (max-width: 749px) {h2 {margin-top: 40px; }}"
       ],
       "settings": {
         "customcss": "multi-slider",
