@@ -96,7 +96,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Je découvre",
+            "button_label_1": "J'achète",
             "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary_1": true,
@@ -121,7 +121,7 @@
       "custom_css": [
         ".banner__heading {color: #fff; margin-top: 50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px; margin-bottom: 30px;}",
-        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
+        ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
         "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; } .button--secondary {margin-top: 225px; }}"
