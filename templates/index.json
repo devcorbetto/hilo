@@ -82,14 +82,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Vos cosmétiques naturels et sur-mesure !",
+            "heading": "Votre crème visage 100% adaptée à votre peau !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "🌱 Naturels à + de 99% <br> <br> 🪄 Sur-mesure & adaptés à votre peau <br> <br> ❤️ Fabriqués en France avec amour",
+            "text": "🌱 Naturelle <br> <br> 🪄 Sur-mesure <br> <br> ❤️ Fabriquée en France",
             "text_style": "body"
           }
         },
@@ -129,8 +129,8 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/creme-visage-naturelle-combo-printemps_f5bd4689-b45c-4968-8c63-1b4e87d35019.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/creme-visage-naturelle-combo-printemps-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_1.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "large",
