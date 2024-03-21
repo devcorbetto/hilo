@@ -124,7 +124,7 @@
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
-        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; } .button--secondary {margin-top: 225px; }}"
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; } .button--secondary {margin-top: 240px; }}"
       ],
       "settings": {
         "textafter": "",
