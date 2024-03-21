@@ -224,7 +224,7 @@
         "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae"
       ],
       "custom_css": [
-        ".multicolumn-card__info h3 {color: ;}"
+        "@media screen and (max-width: 749px) {.slider-mobile-gutter {display:flex ; } }"
       ],
       "settings": {
         "customcss": "",
