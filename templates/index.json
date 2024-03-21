@@ -240,10 +240,10 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "colors_2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 20,
-        "padding_bottom": 32
+        "padding_bottom": 44
       }
     },
     "featured_collection": {
