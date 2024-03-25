@@ -297,35 +297,16 @@
           "type": "heading",
           "settings": {
             "heading": "<p>COMMENT ÇA  MARCHE ?<\/p>",
-            "customcss": "mb-10m",
-            "heading_size": "h1"
-          }
-        },
-        "3ab296e4-b17c-480d-a46d-c3daf638807a": {
-          "type": "image",
-          "settings": {
-            "customcss": "mb-10m corner-left-top-purple",
-            "image_picker": "shopify:\/\/shop_images\/concept-creme-hilo-capsules-actifs.png",
-            "link_image": "",
-            "image_out": false
-          }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
             "customcss": "",
-            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. <br\/>Et hop, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading",
-        "3ab296e4-b17c-480d-a46d-c3daf638807a",
-        "text"
+        "heading"
       ],
       "custom_css": [
-        ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
+        ".rich-text__heading {color: ;}",
         "img {margin-top: -40px; width: 80%;}"
       ],
       "settings": {
@@ -338,7 +319,26 @@
         "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 48,
-        "padding_bottom": 24
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_QwAGqB": {
+      "type": "image-banner",
+      "settings": {
+        "textafter": "",
+        "customcss": "",
+        "image": "shopify:\/\/shop_images\/Hilo-concept-soins-naturels-sur-mesure.png",
+        "svg-wave": "none",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
@@ -689,6 +689,7 @@
     "featured_collection",
     "1697198404f4db84a3",
     "rich_text",
+    "image_banner_QwAGqB",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
