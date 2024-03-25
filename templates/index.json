@@ -306,8 +306,7 @@
         "heading"
       ],
       "custom_css": [
-        ".rich-text__heading {color: ;}",
-        "img {margin-top: -40px; width: 80%;}"
+        ".rich-text__heading {color: ;}"
       ],
       "settings": {
         "customcss": "rich-classic comment",
@@ -328,7 +327,7 @@
         "textafter": "",
         "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/Hilo-concept-creme-naturelle-sur-mesure.png",
-        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure_b5efd10b-7101-4edd-a63c-22107f4aca58.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure.png",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "medium",
