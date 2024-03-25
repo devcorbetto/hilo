@@ -326,7 +326,7 @@
       "type": "image-banner",
       "settings": {
         "textafter": "",
-        "customcss": "",
+        "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/Hilo-concept-soins-naturels-sur-mesure.png",
         "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle.png",
         "svg-wave": "none",
