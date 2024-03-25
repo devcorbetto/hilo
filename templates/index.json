@@ -306,7 +306,7 @@
         "heading"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.rich-text__heading {margin-bottom: -30px;}}"
+
       ],
       "settings": {
         "customcss": "rich-classic comment",
