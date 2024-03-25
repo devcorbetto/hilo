@@ -195,7 +195,7 @@
           "settings": {
             "heading": "La livraison est-elle gratuite ?",
             "icon": "none",
-            "row_content": "<p>La livraison est offerte en point relais dès 59,00 € d'achat. Pour les commandes d'un montant inférieur, nous vous recommandons la livraison en point relais qui est moins coûteuse (moins de 5,00 euros) que la livraison à domicile. <\/p>",
+            "row_content": "<p>La livraison est offerte dès 49,00€ d'achat.<\/p>",
             "page": ""
           }
         },
