@@ -1,0 +1,1130 @@
+{
+  "sections": {
+    "multicolumn_GchCGq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KgFQJJ": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>🏅 + de 1000 clients satisfaits<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Yaxg86": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>🚚 Expédition rapide<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bYfWmA": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p><strong>⭐ <\/strong>Avis 5\/5<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_K8kjf4": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>🥰 100% plaisir<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KgFQJJ",
+        "column_Yaxg86",
+        "column_bYfWmA",
+        "column_K8kjf4"
+      ],
+      "custom_css": [
+        "p {margin-bottom: -10px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Votre crème visage 100% adaptée à votre peau !",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "🌱 Naturelle <br> <br> 🪄 Sur-mesure <br> <br> ❤️ Fabriquée en France",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "J'achète",
+            "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false,
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "paragraphe_f3Mj3B": {
+          "type": "paragraphe",
+          "settings": {
+            "paragraphe": "<h5>⭐⭐⭐⭐⭐ Notés 5\/5 par nos clients<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button",
+        "paragraphe_f3Mj3B"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #fff; margin-top: 50px;}",
+        ".banner__text span {color: #fff; text-align: ; font-size: 20px; margin-bottom: 30px;}",
+        ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px;}",
+        ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; } .button--secondary {margin-top: 225px; }}"
+      ],
+      "settings": {
+        "textafter": "",
+        "customcss": "banner-home",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-banniere-lancement-2_1.jpg",
+        "svg-wave": "vague-orange-clair",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn-svg",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 46.76 69.03\"><defs><style>.cls-1,.cls-2{stroke:#f9b363;}.cls-1,.cls-2,.cls-3{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-2{stroke-width:2px;}.cls-3{stroke:#f59f3c;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m4.75,9.24c.85,1.03,1.62.73,2.43.08-.61,1.01-.51,1.76.67,2.29-1.11-.14-1.84.12-2.02,1.34-.11-1.19-.7-1.66-1.91-1.42,1.06-.48,1.43-1.15.83-2.29Z\"><\/path><path class=\"cls-3\" d=\"m10.42,3.72c.66.8,1.26.57,1.9.06-.47.78-.4,1.37.52,1.78-.87-.11-1.44.09-1.57,1.04-.08-.93-.54-1.29-1.49-1.11.83-.37,1.11-.9.64-1.78Z\"><\/path><path class=\"cls-3\" d=\"m1.63.5c1.17,1.41,2.22,1,3.34.11-.83,1.38-.7,2.41.92,3.14-1.52-.19-2.53.16-2.77,1.84-.15-1.64-.96-2.27-2.62-1.95,1.46-.65,1.96-1.58,1.13-3.14Z\"><\/path><path class=\"cls-2\" d=\"m43.17,68.03c-.97,0-1.79-.38-2.27-1.26-1.67-3.05-15.85-29.38-19.55-36.2-3.13-5.76-6.24-11.52-9.39-17.27-.44-.81-.12-1.71.5-2.03.74-.38,1.49-.14,1.98.68,2.88,4.87,5.77,9.74,8.66,14.61,2.93,4.93,5.86,9.86,8.78,14.79,1.6,2.7,11.25,18.95,13.47,22.62,1.14,1.89-.22,4.07-2.17,4.05Z\"><\/path><line class=\"cls-2\" x1=\"35.39\" y1=\"55.78\" x2=\"38.95\" y2=\"53.8\"><\/line><\/g><\/svg>",
+            "title": "Personnalisé",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 53.64 69.53\"><defs><style>.cls-1{fill:none;stroke:#f9b363;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m41.06,1.58c-.83-.87-1.33-.75-1.93.26-.92,1.54-1.82,3.12-2.94,4.51-4.49,5.63-10.25,9.69-16.51,13.1-4.86,2.65-9.36,5.75-12.9,10.08-8.01,8.87-6.19,22.74,3.84,29.23.4.28,1.29,1.03,2.3,1.51,1.07.51,1.71.72,2.84,1.11,12.17,4.2,26.57-1.75,32.19-13.46,8.36-15.27,5.19-33.97-6.9-46.33Z\"><\/path><path class=\"cls-1\" d=\"m41.39,11.81c1.22,15.58-30.82,47.51-38.67,55.08-1.09,1.06-1.72,1.64-1.72,1.64\"><\/path><path class=\"cls-1\" d=\"m25.94,41.51s1.39-8.4-1.09-13.71\"><\/path><path class=\"cls-1\" d=\"m25.96,41.51s8.13-2.53,13.73-.8\"><\/path><path class=\"cls-1\" d=\"m33.24,32.01s2.02-5.88.07-9.11\"><\/path><path class=\"cls-1\" d=\"m41.76,28.52s-6.21.35-8.47,3.37\"><\/path><path class=\"cls-1\" d=\"m16.12,53.27s.39-10.26-2.81-16.88\"><\/path><path class=\"cls-1\" d=\"m15.92,53.48s10.26.38,16.62,4.07\"><\/path><\/g><\/svg>",
+            "title": "Naturel",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "561448f3-c773-48e9-b2fe-a09fc3332a6f": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 39.52 69.53\"><defs><style>.cls-1{fill:none;stroke:#f9b363;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m26.22,64.97c-8.22,6.35-19.09,4.05-23.46-5.68-5.03-10.75,1.62-22.53,8.71-30.55,3.35-3.78,7.98-6.63,8.12-12.21.02-.96.1-2.11-.66-2.81-.78-.73-1.99-.66-2.68-1.53-.53-.66-.63-1.68-.65-2.49-.15-5.52,4.73-8.83,9.95-8.7.91.02,1.88.12,2.86.31.26.05.51.1.77.16s.51.13.76.21c.96.28,1.87.64,2.68,1.03,4.71,2.28,7.53,7.45,4.87,12.29-.39.71-.95,1.57-1.72,1.92-1.01.45-2.05-.16-3.08.13-.99.28-1.45,1.34-1.87,2.2-2.43,5.02.39,9.67,1.63,14.57,2.64,10.37,3.16,23.9-6.23,31.15Z\"><\/path><path class=\"cls-1\" d=\"m6.07,54.75s-.9,4.79,6.36,8.27\"><\/path><\/g><\/svg>",
+            "title": "Anti-gaspi",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 67.3 69.53\"><defs><style>.cls-1{fill:none;stroke:#f9b363;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m66.29,50.49c-.15,2.98-2.22,5.26-5.1,5.72-.37.06-.89.37-1.01.69-2.76,7.43-8.69,10.36-16,11.29-4.31.55-8.6.58-12.76-.99-.64-.25-1.43-.12-2.15-.12-4.14-.01-8.28,0-12.42-.02-.51,0-1.02-.04-1.53-.11-1.71-.25-2.63-1.1-2.88-2.61-.23-1.43.53-2.91,1.89-3.6.37-.2.78-.32,1.32-.54-.32-1.09-.6-2.24-1.06-3.3-1.15-2.69-2.04-5.48-2.58-8.36-.22-1.2-.59-1.47-1.53-1.63-.32-.06-.85-.43-1.48-.97-2.12.56-6.88-3.51-6.88-3.51-.06-.3-.12-1.47-.1-.77-1.04-1.92-1.22-3.84-.84-5.79,1.23-6.19,5.28-9.93,10.98-12.1,1.11-.42,2.29-.64,3.13-.86.48-3.63.76-7.16,1.44-10.61.72-3.62,2.06-7.04,4.7-9.79.33-.33.69-.64,1.08-.89,1.82-1.16,3.66-.7,4.35,1.33.57,1.66.69,3.48.95,5.24.09.61.02,1.24.02,1.96,1.45-1.32,2.73-2.61,4.14-3.74.85-.68,1.84-1.27,2.87-1.63,2.1-.75,3.63.31,3.84,2.55.24,2.45-.4,4.75-1.3,6.98-2.09,5.22-5.27,9.63-9.82,12.99-.2.15-.38.32-.61.51.54,1.26,1.07,2.5,1.51,3.54,2.36-.72,4.66-1.83,7.04-2.08,8.83-.95,16.65,1.19,22.3,8.55,1.17,1.52,1.8,3.46,2.75,5.16.25.44.7.95,1.15,1.06,2.86.74,4.76,3.33,4.59,6.42Z\"><\/path><\/g><\/svg>",
+            "title": "Vegan",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 64.31 69.53\"><defs><style>.cls-1{fill:none;stroke:#f9b363;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}<\/style><\/defs><g id=\"Calque_1-2\"><path class=\"cls-1\" d=\"m59.67,34.76c-20.62,5.26-24.25,9.52-28.72,33.76-4.47-24.24-8.1-28.5-28.72-33.76C22.85,29.5,26.48,25.24,30.95,1c4.47,24.24,8.1,28.5,28.72,33.76Z\"><\/path><path class=\"cls-1\" d=\"m63.31,11.85c-6.5,1.66-7.64,3-9.05,10.64-1.41-7.64-2.55-8.98-9.05-10.64,6.5-1.66,7.64-3,9.05-10.64,1.41,7.64,2.55,8.98,9.05,10.64Z\"><\/path><path class=\"cls-1\" d=\"m11.98,51.8c-3.94,1.01-4.64,1.82-5.49,6.46-.86-4.64-1.55-5.45-5.49-6.46,3.94-1.01,4.64-1.82,5.49-6.46.86,4.64,1.55,5.45,5.49,6.46Z\"><\/path><\/g><\/svg>",
+            "title": "Unique",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "561448f3-c773-48e9-b2fe-a09fc3332a6f",
+        "column3",
+        "e08cd55b-4cf9-4a5b-8b86-a61f11dc36ae"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info h3 {color: ;}"
+      ],
+      "settings": {
+        "customcss": "multi-testimonials multi-icons",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 32
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "VOUS ALLEZ LES ADORER",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "homepage-2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "1697198404f4db84a3": {
+      "type": "apps",
+      "blocks": {
+        "ec91fab7-c8b2-4dc5-80a5-89e14286a789": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "ec91fab7-c8b2-4dc5-80a5-89e14286a789"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT ÇA  MARCHE?<\/p>",
+            "customcss": "mb-10m",
+            "heading_size": "h1"
+          }
+        },
+        "3ab296e4-b17c-480d-a46d-c3daf638807a": {
+          "type": "image",
+          "settings": {
+            "customcss": "mb-10m corner-left-top-purple",
+            "image_picker": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-base-de-creme-et-capsules-2.gif",
+            "link_image": "",
+            "image_out": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Ajoutez le contenu de vos capsules dans votre base de soin naturelle puis mélangez. <br\/>Et hop, vous avez une crème naturelle, personnalisée et anti-gaspi, prête en 2 minutes seulement ! ⏳<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "3ab296e4-b17c-480d-a46d-c3daf638807a",
+        "text"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: ; margin-bottom: 60px !important;}",
+        ".rich-text__text p {color: ;}"
+      ],
+      "settings": {
+        "customcss": "rich-classic comment",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "eclat-gauche-violet",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_FzexYU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iN79YP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT ÇA  MARCHE ?<\/p>",
+            "customcss": "mb-10m",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iN79YP"
+      ],
+      "disabled": true,
+      "settings": {
+        "customcss": "rich-classic comment",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "eclat-gauche-violet",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "video_AMHPVz": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0eef25c6-efe9-4ff6-8735-db6a49ccb31f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LES CAPSULES D'ACTIF<\/p>",
+            "customcss": "mb-10m",
+            "heading_size": "h1"
+          }
+        },
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Découvrez les premières capsules éco-conçues pour personnaliser votre base de soin. <br\/>Plus de 50 combinaisons possibles pour répondre spécifiquement aux besoins de chaque peau. <\/p>"
+          }
+        },
+        "12d5c4a7-78d2-410a-8f94-4d282a2ca70c": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Chaque actif est reconnu pour les propriétés suivantes :<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-0",
+        "template--17801194963227__0eef25c6-efe9-4ff6-8735-db6a49ccb31f-167579549267a335c8-1",
+        "12d5c4a7-78d2-410a-8f94-4d282a2ca70c"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
+      "settings": {
+        "customcss": "rich-classic",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
+    "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
+      "type": "multi-column-hover",
+      "blocks": {
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-carotte_1.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
+            "title": "Huile de<br> carotte",
+            "text": "<p>Bonne mine<\/p><p>+ de détails<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-argan_1.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
+            "title": "Huile <br>d'argan",
+            "text": "<p>Anti-âge<\/p><p>+ de détails<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-abricot_1.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
+            "title": "Huile <br>d'abricot",
+            "text": "<p>Illuminante<\/p><p>+ de détails<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b5878615-e65d-412d-bc8d-a1354dbfbaff": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-noisette_2.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
+            "title": "Huile de<br> noisette",
+            "text": "<p>Anti-imperfections<\/p><p>+ de détails<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2064b35d-5bc5-408e-8cbe-0ca21bd35612": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-amande-douce.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "title": "Huile d'amande<br> douce",
+            "text": "<p>Apaisante<\/p><p>+ de détails<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d5535821-7ade-401a-b1c5-5fd456264dca": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-onagre_1.svg",
+            "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "title": "Huile <br>d'onagre",
+            "text": "<p>Hydratante<\/p><p>+ de détails<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-0",
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-1",
+        "template--17746292277543__373a2a2c-c9d7-41f5-811e-35c4b559b257-1675376107c48808fc-2",
+        "b5878615-e65d-412d-bc8d-a1354dbfbaff",
+        "2064b35d-5bc5-408e-8cbe-0ca21bd35612",
+        "d5535821-7ade-401a-b1c5-5fd456264dca"
+      ],
+      "settings": {
+        "customcss": "multi-classic multi-capsules",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e7f127fd-cda8-46d1-b8d5-967ecedb7c20": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Pour trouver votre match parfait, réalisez votre diagnostic de peau.<\/p>"
+          }
+        },
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "btn-circle",
+            "button_label": "Je réalise mon diagnostic",
+            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false,
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf": {
+          "type": "caption",
+          "settings": {
+            "customcss": "segoe",
+            "caption": "Alors caps ou pas caps ?",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-1",
+        "template--17746292277543__e7f127fd-cda8-46d1-b8d5-967ecedb7c20-167537611361f56e8b-2",
+        "603ee4e7-f3db-47d8-aad3-a29a1ef8adaf"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
+      "settings": {
+        "customcss": "rich-classic",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "120cbd86-6225-4213-9b1a-eefbf7d37db9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>P-HILO-SOPHIE<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "2d835b90-5ecd-45be-a0be-4fe51ad79673": {
+          "type": "caption",
+          "settings": {
+            "customcss": "segoe",
+            "caption": "[...] akuna matata",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Selon nous, il existe autant de <strong>types de peau<\/strong> qu’il existe de personnes. Ainsi, nous voulons offrir à chacun un soin lui correspondant totalement. Nous avons donc créé Hilo afin de vous proposer une <strong>crème à votre image<\/strong> grâce à un <strong>principe de personnalisation innovant et anti-gaspi. <\/strong><\/p><p><\/p>"
+          }
+        },
+        "ac185d4f-43fb-42b1-a75e-f45c179fdd3a": {
+          "type": "text",
+          "settings": {
+            "customcss": "mb-5m",
+            "text": "<p>Notre objectif est de vous proposer des <strong>soins naturels et personnalisables <\/strong>que vous pourrez <strong>adapter à votre peau <\/strong>à chaque étape de votre vie.<\/p><p><\/p>"
+          }
+        },
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
+          "type": "button",
+          "settings": {
+            "customcss": "btn-circle",
+            "button_label": "Je veux tout savoir",
+            "button_link": "shopify:\/\/pages\/la-marque-hilo",
+            "button_out": false,
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0",
+        "2d835b90-5ecd-45be-a0be-4fe51ad79673",
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
+        "ac185d4f-43fb-42b1-a75e-f45c179fdd3a",
+        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: ;}",
+        ".rich-text__text p {color: ;}"
+      ],
+      "settings": {
+        "customcss": "rich-classic philosophie",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "vague-blanche-trait",
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "6e118b26-48b9-4c18-8f3f-bc53dd963a4a": {
+      "type": "multicolumn-slider",
+      "blocks": {
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-saida.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon": "Huile d'amande douce",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon2": "Huile d'onagre",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
+            "titleicon3": "Huile d'abricot",
+            "title": "Les actifs du moment de Saïda",
+            "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
+          }
+        },
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-ana.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
+            "titleicon": "Huile d'argan",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
+            "titleicon2": "Huile de carotte",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
+            "titleicon3": "Huile de noisette",
+            "title": "Les actifs du moment d'Ana",
+            "text": "<p>Peau à tendance mixte en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
+          }
+        },
+        "720d528c-dc53-4ffa-9be9-feed591fafcd": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-leo.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon": "Huile d'amande douce",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
+            "titleicon2": "Huile de noisette",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon3": "Huile d'onagre",
+            "title": "Les actifs du moment de Léo",
+            "text": "<p>Peau déshydratée avec quelques rougeurs et imperfections<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1",
+        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2",
+        "720d528c-dc53-4ffa-9be9-feed591fafcd"
+      ],
+      "settings": {
+        "customcss": "multi-slider",
+        "svg-eclat": "eclat-droit-orange",
+        "title": "LEUR MATCH PARFAIT",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "68550990-5f0d-4268-b2b8-67d04dd382f4": {
+      "type": "multicolumns-reviews",
+      "blocks": {
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
+            "title": "Marine",
+            "subtitle": "",
+            "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…)<br\/> Le fait que je puisse adapter ma crème à ces moments de la vie est génial.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
+            "title": "Charlotte",
+            "subtitle": "",
+            "text": "<p>“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. <br\/>Enfin un soin qui répond réellement aux besoins de toutes les peaux.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "customcss": "stars_size",
+            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
+            "title": "Laurine",
+            "subtitle": "",
+            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0",
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1",
+        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "customcss": "multi-testimonials multi-testimonials-reviews",
+        "title": "ILS LES ADORENT AUTANT QUE NOUS",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "e7b02f91-67dd-43fa-88ba-f3043f64f586": {
+      "type": "multicolumn",
+      "settings": {
+        "customcss": "margin5 titlemb-5m",
+        "title": "REJOIGNEZ LA HILO FAMILY",
+        "subtitle": "Vous aussi <b class=\"semibold\">rejoignez la communauté<\/b> sur Instagram ! On n'attend plus que vous 😊",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1684764602ce8c50eb": {
+      "type": "apps",
+      "blocks": {
+        "573ae310-00ab-4f9d-b57d-d2ad1621d728": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "573ae310-00ab-4f9d-b57d-d2ad1621d728"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "f52db200-881a-4cc4-8cee-315cec0b2421": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LES NEWS D'HILO",
+            "heading_size": "h1"
+          }
+        },
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<h3>De la bonne humeur dans votre boite mail !<\/h3><p>Profitez d'une réduction de -10% sur votre première commande et ne ratez aucune de nos actualités, astuces beautés, offres exclusives ou petits mots d'amour en vous abonnant ci-dessous.<\/p>"
+          }
+        },
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-0",
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-1",
+        "template--17746292277543__f52db200-881a-4cc4-8cee-315cec0b2421-1675376135cdd3a80c-2"
+      ],
+      "settings": {
+        "customcss": "newsletter-page",
+        "color_scheme": "colors_3",
+        "svg-wave": "vague-rose-trait",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5158f987-865b-484c-8777-3d325ff4b90f": {
+      "type": "multicolumn-carrousel",
+      "blocks": {
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_france_3.jpg",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YdrGaB": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Logo-elle-hilo_0554297f-6093-47dd-8bae-ded898830094.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qDf67N": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/20-single-default.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9d645b64-8577-4900-8ee6-8840c4423867": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Logo_BFM_Business_261fbbe8-7ed5-4e09-a8d4-0e6dca761bcf.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.bfmtv.com\/economie\/replay-emissions\/les-pionniers-chez-fred-mazzella\/le-pitch-hilo-natural5-13-01_VN-202301130725.html"
+          }
+        },
+        "53daa4fc-e022-410b-b5db-25ba27542ff8": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_che_urie.jpg",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BbW8TD": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Lyon_femmes_logo.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4AmtFq": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_lyon_capitale.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.leprogres.fr\/economie\/2022\/05\/22\/elles-proposent-une-cosmetique-personnalisable-et-anti-gaspi"
+          }
+        },
+        "30920895-a86e-46bb-9c51-c7d52b9572b3": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Tribune-de-lyon-logo_5f2ea903-f7f9-4bfb-8bb1-60fa5f1a36d8.png",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/tribunedelyon.fr\/tendances\/hilo-les-cosmetiques-personnalisables-anti-gaspi\/"
+          }
+        },
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_re_uveil.jpg",
+            "title": "",
+            "subtitle": "Column",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/le-reveil-vivarais.fr\/annonay\/annonay-une-creme-de-soin-innovante-a-ladn-annoneen\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-0",
+        "column_YdrGaB",
+        "column_qDf67N",
+        "9d645b64-8577-4900-8ee6-8840c4423867",
+        "53daa4fc-e022-410b-b5db-25ba27542ff8",
+        "column_BbW8TD",
+        "column_4AmtFq",
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-2",
+        "30920895-a86e-46bb-9c51-c7d52b9572b3",
+        "template--17746292277543__5158f987-865b-484c-8777-3d325ff4b90f-1675376107c48808fc-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "customcss": "multi-logos",
+        "title": "ILS PARLENT D'HILO",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "8cf76421-6fa4-42cd-a954-23ae04a049ae": {
+      "type": "multicolumn-svg",
+      "blocks": {
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 211.21 133\"><defs><style>.clspa-1,.clspa-2{fill:none;stroke:#575756;stroke-miterlimit:10;stroke-width:3px;}.clspa-2{stroke-linecap:round;}<\/style><\/defs><g id=\"Calque_1-2pa\"><g><rect class=\"clspa-1\" x=\"165.89\" y=\"87.68\" width=\"43.82\" height=\"43.82\" rx=\"5\" ry=\"5\"><\/rect><path class=\"clspa-2\" d=\"m202.08,87.68h-28.9c.83-13.05,6.91-23.2,14.29-23.2.04,0,.08,0,.12,0,1.06.01,2.11.24,3.1.65v-.13c.12.04.22.08.33.13,5.86,2.45,10.36,11.44,11.06,22.54Z\"><\/path><path class=\"clspa-2\" d=\"m190.69,65.01v.13c-1-.41-2.04-.64-3.1-.65.07,0,.14,0,.21,0,.99,0,1.96.18,2.89.53Z\"><\/path><path class=\"clspa-1\" d=\"m190.69,26.36v38.78c-1-.41-2.04-.64-3.1-.65-.04,0-.08,0-.12,0-7.38,0-13.46,10.14-14.29,23.2h-2.3c-2.76,0-5,2.23-5,5v27.32H16.86c-8.48,0-15.36-6.87-15.36-15.36V26.36h189.19Z\"><\/path><path class=\"clspa-1\" d=\"m190.69,16.86v9.5H1.5v-9.5C1.5,8.37,8.37,1.5,16.86,1.5h158.48c8.48,0,15.36,6.87,15.36,15.36Z\"><\/path><line class=\"clspa-1\" x1=\"11.04\" y1=\"51.33\" x2=\"70.69\" y2=\"51.33\"><\/line><circle class=\"clspa-1\" cx=\"188\" cy=\"110.22\" r=\"4.84\"><\/circle><\/g><\/g><\/svg>",
+            "title": "Paiement sécurisé",
+            "subtitle": "",
+            "text": "<p> par carte bancaire et paypal<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/faq"
+          }
+        },
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" id=\"Calque_2\" viewbox=\"0 0 133.3 133\"><defs><style>.clspa3-1{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}<\/style><\/defs><g id=\"Calque_1-2\"><g><path class=\"clspa3-1\" d=\"m111.36,89.03c-2.34,10.48-23.45,23.79-23.45,23.79,0,0-21.15-13.26-23.46-23.79-.45-1.35-.68-2.76-.69-4.18,0-.36.01-.73.04-1.09.28-3.67,2.05-7.09,4.91-9.46,3.02-2.49,6.79-3.47,10.39-3.01,3.32.42,6.5,2.05,8.81,4.84,4.18-5.07,11.37-6.44,17.12-3.25h-.04c4.35,2.41,7.06,6.99,7.06,11.96,0,1.42-.24,2.83-.69,4.18Zm8.11,29.37c7.63-7.81,12.33-18.49,12.33-30.27,0-23.93-19.39-43.32-43.32-43.32-.11,0-.23,0-.35,0-23.77.18-42.97,19.5-42.97,43.31h0c0,23.93,19.39,43.32,43.32,43.32,7.64,0,14.83-1.98,21.06-5.45\"><\/path><path class=\"clspa3-1\" d=\"m112.05,84.85c0,1.42-.24,2.83-.69,4.18-2.34,10.48-23.45,23.79-23.45,23.79,0,0-21.15-13.26-23.46-23.79-.45-1.35-.68-2.76-.69-4.18,0-.36.01-.73.04-1.09.28-3.67,2.05-7.09,4.91-9.46,3.02-2.49,6.79-3.47,10.39-3.01,3.32.42,6.5,2.05,8.81,4.84,4.18-5.07,11.37-6.44,17.12-3.25h-.04c4.35,2.41,7.06,6.99,7.06,11.96Z\"><\/path><path class=\"clspa3-1\" d=\"m119.47,118.4c1.5,3.36,4.57,8.35,9.96,9.92.64.18.73,1.05.15,1.38-3.08,1.72-10.58,4.28-20.04-3.7\"><\/path><path class=\"clspa3-1\" d=\"m13.83,75.09C5.65,66.72.84,55.06,1.57,42.28,2.83,20.31,20.74,2.59,42.72,1.55c22.62-1.07,41.65,15.22,44.92,36.68\"><\/path><path class=\"clspa3-1\" d=\"m23.76,82.68c4.53,2.52,9.55,4.26,14.89,5.02\"><\/path><path class=\"clspa3-1\" d=\"m13.83,75.09c-1.5,3.36-4.57,8.35-9.96,9.92-.64.18-.73,1.05-.15,1.38,3.08,1.72,10.58,4.28,20.04-3.7\"><\/path><line class=\"clspa3-1\" x1=\"27.84\" y1=\"35.12\" x2=\"61.11\" y2=\"35.12\"><\/line><line class=\"clspa3-1\" x1=\"27.84\" y1=\"43.09\" x2=\"61.11\" y2=\"43.09\"><\/line><line class=\"clspa3-1\" x1=\"27.49\" y1=\"50.71\" x2=\"52.44\" y2=\"50.71\"><\/line><\/g><\/g><\/svg>",
+            "title": "Customer Happiness Manager",
+            "subtitle": "",
+            "text": "<p> toujours à votre écoute<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/faq"
+          }
+        },
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-1": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?--><svg id=\"Calque_2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 213.48 133\"><defs><style>.clspa2-1{fill:none;stroke:#575756;stroke-miterlimit:10;stroke-width:3px;}.clspa2-2{fill:#575756;}<\/style><\/defs><g id=\"Calque_1-2\"><g><path class=\"clspa2-2\" d=\"m122.82,67.23c0,.95-.16,1.89-.46,2.79-1.56,6.98-15.62,15.84-15.62,15.84,0,0-14.08-8.83-15.63-15.84-.3-.9-.45-1.84-.46-2.79,0-.24,0-.48.03-.72.19-2.45,1.37-4.72,3.27-6.3,2.01-1.66,4.52-2.31,6.92-2,2.21.28,4.33,1.37,5.86,3.23,2.78-3.37,7.57-4.29,11.4-2.16h-.03c2.9,1.6,4.7,4.65,4.7,7.97Z\"><\/path><g><path class=\"clspa2-1\" d=\"m211.63,11.97l-89.02,58.81-15.86,10.48-15.92-10.48L1.8,12.17C3.11,6.07,8.53,1.5,15.02,1.5h183.44c6.42,0,11.79,4.47,13.17,10.47Z\"><\/path><path class=\"clspa2-1\" d=\"m211.98,15.02v102.96c0,3.63-1.44,6.93-3.76,9.36-2.46,2.57-5.92,4.16-9.76,4.16H15.02c-3.9,0-7.42-1.65-9.89-4.3-2.25-2.41-3.64-5.66-3.64-9.22V15.02c0-.98.1-1.93.3-2.85l89.03,58.61,15.92,10.48,15.86-10.48L211.63,11.97c.23.98.35,2,.35,3.05Z\"><\/path><line class=\"clspa2-1\" x1=\"208.21\" y1=\"127.34\" x2=\"122.61\" y2=\"70.78\"><\/line><line class=\"clspa2-1\" x1=\"90.83\" y1=\"70.78\" x2=\"5.14\" y2=\"127.2\"><\/line><\/g><\/g><\/g><\/svg>",
+            "title": "Livraison offerte en point relais",
+            "subtitle": "",
+            "text": "<p>à partir de 59€ d'achat<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/faq"
+          }
+        }
+      },
+      "block_order": [
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-0",
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-2",
+        "template--17746292277543__8cf76421-6fa4-42cd-a954-23ae04a049ae-1675376107c48808fc-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "customcss": "multi-featured multi-icons paiment",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "colors_6",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "multicolumn_GchCGq",
+    "image_banner",
+    "multicolumn",
+    "featured_collection",
+    "1697198404f4db84a3",
+    "rich_text",
+    "rich_text_FzexYU",
+    "video_AMHPVz",
+    "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
+    "373a2a2c-c9d7-41f5-811e-35c4b559b257",
+    "e7f127fd-cda8-46d1-b8d5-967ecedb7c20",
+    "120cbd86-6225-4213-9b1a-eefbf7d37db9",
+    "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
+    "68550990-5f0d-4268-b2b8-67d04dd382f4",
+    "e7b02f91-67dd-43fa-88ba-f3043f64f586",
+    "1684764602ce8c50eb",
+    "f52db200-881a-4cc4-8cee-315cec0b2421",
+    "5158f987-865b-484c-8777-3d325ff4b90f",
+    "8cf76421-6fa4-42cd-a954-23ae04a049ae"
+  ]
+}
