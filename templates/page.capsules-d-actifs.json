@@ -298,15 +298,24 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Vous choisissez 3 capsules d'actif en fonction des besoins de  votre peau et les ajoutez à votre base de crème Hilo. <\/p><p><\/p>"
+            "text": "<p>Vous choisissez <strong>3 capsules d'actif <\/strong>en fonction des besoins de votre peau et les ajoutez à votre base de crème Hilo. <\/p><p>Vous obtenez une crème visage <strong>100% adaptée aux besoins de votre peau <\/strong>en 2 minutes seulement. <\/p><p><br\/><strong>💡 <\/strong>Réalisez votre <a href=\"\/pages\/diagnostic-de-peau\" title=\"Diagnostic\"><strong>diagnostic de peau en ligne<\/strong><\/a> pour connaître les besoins de votre peau.<\/p><p><\/p>"
+          }
+        },
+        "image_idR8KA": {
+          "type": "image",
+          "settings": {
+            "customcss": "",
+            "image_picker": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure_b5efd10b-7101-4edd-a63c-22107f4aca58.png",
+            "link_image": "",
+            "image_out": false
           }
         },
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
           "type": "button",
           "settings": {
             "customcss": "btn-circle",
-            "button_label": "Je veux tout savoir",
-            "button_link": "shopify:\/\/pages\/la-marque-hilo",
+            "button_label": "J'adopte mon soin 😍",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary": true,
             "button_label_2": "",
@@ -318,6 +327,7 @@
       "block_order": [
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0",
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
+        "image_idR8KA",
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
       ],
       "custom_css": [
