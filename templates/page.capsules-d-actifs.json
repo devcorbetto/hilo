@@ -347,89 +347,74 @@
         "padding_bottom": 36
       }
     },
-    "6e118b26-48b9-4c18-8f3f-bc53dd963a4a": {
-      "type": "multicolumn-slider",
+    "rich_text_JBDD7V": {
+      "type": "rich-text",
       "blocks": {
-        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1": {
-          "type": "column",
+        "heading_Yy86pz": {
+          "type": "heading",
           "settings": {
+            "heading": "<p>LE MOT DES FONDATRICES<\/p>",
             "customcss": "",
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-saida.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon": "Huile d'amande douce",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon2": "Huile d'onagre",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
-            "titleicon3": "Huile d'abricot",
-            "title": "Les actifs du moment de Saïda",
-            "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": false
-          }
-        },
-        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-ana.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
-            "titleicon": "Huile d'argan",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
-            "titleicon2": "Huile de carotte",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon3": "Huile de noisette",
-            "title": "Les actifs du moment d'Ana",
-            "text": "<p>Peau à tendance mixte en manque d'éclat et souhaite traiter les premiers signes de l'âge<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": false
-          }
-        },
-        "720d528c-dc53-4ffa-9be9-feed591fafcd": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-leo.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon": "Huile d'amande douce",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon2": "Huile de noisette",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon3": "Huile d'onagre",
-            "title": "Les actifs du moment de Léo",
-            "text": "<p>Peau déshydratée avec quelques rougeurs et imperfections<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
-            "button_out": false
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1",
-        "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2",
-        "720d528c-dc53-4ffa-9be9-feed591fafcd"
+        "heading_Yy86pz"
       ],
       "settings": {
-        "customcss": "multi-slider",
-        "svg-eclat": "eclat-droit-orange",
-        "title": "LEUR MATCH PARFAIT",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_3cqgi8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4p6akH": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_JUyrQe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4p6akH",
+        "text_JUyrQe"
+      ],
+      "custom_css": [
+        "img {border-radius: 35px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "eclat-orange",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/Ajouter_un_sous-titre_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 64
+        "padding_bottom": 36
       }
     },
     "68550990-5f0d-4268-b2b8-67d04dd382f4": {
@@ -577,7 +562,8 @@
     "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
     "120cbd86-6225-4213-9b1a-eefbf7d37db9",
-    "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
+    "rich_text_JBDD7V",
+    "image_with_text_3cqgi8",
     "68550990-5f0d-4268-b2b8-67d04dd382f4",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae"
   ]
