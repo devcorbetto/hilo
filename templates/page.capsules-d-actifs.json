@@ -388,7 +388,7 @@
         "text_JUyrQe": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>\"Après plusieurs années de recherche et développement, on a enfin trouver <\/em><em><strong>LA SOLUTION<\/strong><\/em><em> pour avoir un soin 100% adapté à sa peau. <\/em><\/p><p><em>On a créé les <\/em><em><strong>premières capsules végétales <\/strong><\/em><em>qui vont venir personnaliser votre base de crème visage. <\/em><\/p><p><em>C'est un nouveau concept de <\/em><em><strong>cosmétique unique au monde <\/strong><\/em><em>et on est super fière d'être les première à l'avoir développé.\" <\/em><strong>🥰<\/strong><\/p><p><strong><br\/><\/strong><\/p><p>Elise & Margaux, fondatrices d'Hilo<\/p>",
             "text_style": "body"
           }
         }
@@ -401,10 +401,10 @@
         "img {border-radius: 35px;}"
       ],
       "settings": {
-        "customcss": "",
+        "customcss": "lamarque_text1",
         "eclat": "eclat-orange",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/Ajouter_un_sous-titre_1.png",
+        "image": "shopify:\/\/shop_images\/Hilo-fondatrices.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -414,7 +414,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     },
     "68550990-5f0d-4268-b2b8-67d04dd382f4": {
