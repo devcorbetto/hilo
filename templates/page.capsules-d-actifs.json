@@ -24,11 +24,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-capsules-actifs.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hilo-capsules-actifs-naturels_c47f9585-59b9-4403-9fc4-221454f24735.jpg",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
