@@ -380,6 +380,56 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_847BcY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JJnAnA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>QUELS SONT LES ACTIFS FAITS POUR MOI ?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_nkXPWa": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Pour obtenir le <strong>combo d'actif parfait pour votre peau<\/strong>, réalisez votre diagnostic en ligne.  <br\/><br\/><\/p><p>Vous découvrirez votre match parfait du moment et des conseils personnalisés pour prendre soin de votre peau. <\/p>"
+          }
+        },
+        "button_AWcGdJ": {
+          "type": "button",
+          "settings": {
+            "customcss": "btn-circle",
+            "button_label": "Je réalise mon diagnostic",
+            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_out": false,
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JJnAnA",
+        "text_nkXPWa",
+        "button_AWcGdJ"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "68550990-5f0d-4268-b2b8-67d04dd382f4": {
       "type": "multicolumns-reviews",
       "blocks": {
@@ -527,6 +577,7 @@
     "rich_text_qcEYXM",
     "image_banner_bY398J",
     "120cbd86-6225-4213-9b1a-eefbf7d37db9",
+    "rich_text_847BcY",
     "68550990-5f0d-4268-b2b8-67d04dd382f4",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae"
   ]
