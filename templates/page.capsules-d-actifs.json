@@ -403,7 +403,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "button_link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false,
             "button_style_secondary": false,
             "button_label_2": "",
