@@ -71,26 +71,35 @@
         "padding_bottom": 0
       }
     },
-    "image_banner_qigfam": {
-      "type": "image-banner",
-      "custom_css": [
-
+    "image_with_text_TizHX4": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_RHLMLh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"Après plusieurs années de recherche et développement, on a enfin trouver <\/em><em><strong>LA SOLUTION<\/strong><\/em><em> pour avoir un soin 100% adapté à sa peau. <\/em><\/p><p><em>On a créé les <\/em><em><strong>premières capsules végétales <\/strong><\/em><em>qui vont venir personnaliser votre base de crème visage. <\/em><\/p><p><em>C'est un nouveau concept de <\/em><em><strong>cosmétique unique au monde <\/strong><\/em><em>et on est super fière d'être les première à l'avoir développé.\" <\/em><strong>🥰<\/strong><\/p><p><strong><br\/><\/strong><\/p><p>Elise & Margaux, fondatrices d'Hilo<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_RHLMLh"
       ],
       "settings": {
-        "textafter": "",
         "customcss": "",
-        "image": "shopify:\/\/shop_images\/Hilo-capsules-actifs.gif",
-        "svg-wave": "none",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/capsules-actifs-naturels.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_FzexYU": {
@@ -180,7 +189,7 @@
         "svg-eclat": "none",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 56,
+        "padding_top": 0,
         "padding_bottom": 16
       }
     },
@@ -286,33 +295,57 @@
         "padding_bottom": 36
       }
     },
-    "120cbd86-6225-4213-9b1a-eefbf7d37db9": {
+    "rich_text_qcEYXM": {
       "type": "rich-text",
       "blocks": {
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0": {
+        "heading_fFK4HC": {
           "type": "heading",
           "settings": {
             "heading": "<p>COMMENT ÇA MARCHE ? <\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
-        },
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>Vous choisissez <strong>3 capsules d'actif <\/strong>en fonction des besoins de votre peau et les ajoutez à votre base de crème Hilo. <\/p><p>Vous obtenez une crème visage <strong>100% adaptée aux besoins de votre peau <\/strong>en 2 minutes seulement. <\/p><p><br\/><strong>💡 <\/strong>Réalisez votre <a href=\"\/pages\/diagnostic-de-peau\" title=\"Diagnostic\"><strong>diagnostic de peau en ligne<\/strong><\/a> pour connaître les besoins de votre peau.<\/p><p><\/p>"
-          }
-        },
-        "image_idR8KA": {
-          "type": "image",
-          "settings": {
-            "customcss": "",
-            "image_picker": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure_b5efd10b-7101-4edd-a63c-22107f4aca58.png",
-            "link_image": "",
-            "image_out": false
-          }
-        },
+        }
+      },
+      "block_order": [
+        "heading_fFK4HC"
+      ],
+      "settings": {
+        "customcss": "rich-classic philosophie",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_bY398J": {
+      "type": "image-banner",
+      "settings": {
+        "textafter": "",
+        "customcss": "banner-home",
+        "image": "shopify:\/\/shop_images\/Hilo-concept-soins-naturels-sur-mesure.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure.png",
+        "svg-wave": "none",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "120cbd86-6225-4213-9b1a-eefbf7d37db9": {
+      "type": "rich-text",
+      "blocks": {
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2": {
           "type": "button",
           "settings": {
@@ -328,9 +361,6 @@
         }
       },
       "block_order": [
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-0",
-        "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-1",
-        "image_idR8KA",
         "template--17746292277543__120cbd86-6225-4213-9b1a-eefbf7d37db9-167537611361f56e8b-2"
       ],
       "custom_css": [
@@ -341,83 +371,13 @@
         "customcss": "rich-classic philosophie",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "vague-blanche-trait",
+        "svg-wave": "vague-blanche",
         "svg-wave-position": "bottom",
         "svg-eclat": "none",
         "color_scheme": "colors_3",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_JBDD7V": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Yy86pz": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>LE MOT DES FONDATRICES<\/p>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Yy86pz"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_with_text_3cqgi8": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_4p6akH": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_JUyrQe": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>\"Après plusieurs années de recherche et développement, on a enfin trouver <\/em><em><strong>LA SOLUTION<\/strong><\/em><em> pour avoir un soin 100% adapté à sa peau. <\/em><\/p><p><em>On a créé les <\/em><em><strong>premières capsules végétales <\/strong><\/em><em>qui vont venir personnaliser votre base de crème visage. <\/em><\/p><p><em>C'est un nouveau concept de <\/em><em><strong>cosmétique unique au monde <\/strong><\/em><em>et on est super fière d'être les première à l'avoir développé.\" <\/em><strong>🥰<\/strong><\/p><p><strong><br\/><\/strong><\/p><p>Elise & Margaux, fondatrices d'Hilo<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4p6akH",
-        "text_JUyrQe"
-      ],
-      "custom_css": [
-        "img {border-radius: 35px;}"
-      ],
-      "settings": {
-        "customcss": "lamarque_text1",
-        "eclat": "eclat-orange",
-        "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/Hilo-fondatrices.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 72
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "68550990-5f0d-4268-b2b8-67d04dd382f4": {
@@ -559,14 +519,14 @@
   "order": [
     "image_banner_wave_RXikr8",
     "rich_text_VrrVMC",
-    "image_banner_qigfam",
+    "image_with_text_TizHX4",
     "rich_text_FzexYU",
     "video_AMHPVz",
     "0eef25c6-efe9-4ff6-8735-db6a49ccb31f",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
+    "rich_text_qcEYXM",
+    "image_banner_bY398J",
     "120cbd86-6225-4213-9b1a-eefbf7d37db9",
-    "rich_text_JBDD7V",
-    "image_with_text_3cqgi8",
     "68550990-5f0d-4268-b2b8-67d04dd382f4",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae"
   ]
