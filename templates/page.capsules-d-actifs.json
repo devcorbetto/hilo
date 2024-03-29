@@ -74,7 +74,7 @@
     "image_banner_qigfam": {
       "type": "image-banner",
       "custom_css": [
-        "img {height: 80%;}"
+
       ],
       "settings": {
         "textafter": "",
