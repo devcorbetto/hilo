@@ -26,11 +26,11 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules-actifs-naturels_cfccb8e3-01c5-468f-a30f-ea1baa82f637.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules-actifs-naturels.jpg",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
