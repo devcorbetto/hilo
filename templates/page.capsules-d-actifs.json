@@ -24,6 +24,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-capsules-actifs.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules-actifs-naturels.jpg",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "small",
