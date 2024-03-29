@@ -430,72 +430,13 @@
         "padding_bottom": 52
       }
     },
-    "68550990-5f0d-4268-b2b8-67d04dd382f4": {
-      "type": "multicolumns-reviews",
-      "blocks": {
-        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "stars_size",
-            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
-            "title": "Marine",
-            "subtitle": "",
-            "text": "<p>“On est tous différents bien que nos parcours féminins puissent être similaires (grossesses, règles…)<br\/> Le fait que je puisse adapter ma crème à ces moments de la vie est génial.”<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "stars_size",
-            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
-            "title": "Charlotte",
-            "subtitle": "",
-            "text": "<p>“Le concept est top et se différencie vraiment de ce que l’on trouve dans le commerce actuellement. <br\/>Enfin un soin qui répond réellement aux besoins de toutes les peaux.”<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "customcss": "stars_size",
-            "image": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg",
-            "title": "Laurine",
-            "subtitle": "",
-            "text": "<p>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.”<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-0",
-        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-1",
-        "template--17746292277543__68550990-5f0d-4268-b2b8-67d04dd382f4-1675376107c48808fc-2"
-      ],
-      "disabled": true,
+    "custom_liquid_KAQ76y": {
+      "type": "custom-liquid",
       "settings": {
-        "customcss": "multi-testimonials multi-testimonials-reviews",
-        "title": "ILS LES ADORENT AUTANT QUE NOUS",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "custom_liquid": "<iframe width=\"540\" height=\"305\" src=\"https:\/\/382ba2d4.sibforms.com\/serve\/MUIFAG03fceSit83yNtDojqV7IirlQS2BaIllTsAU3MGPuZjh95cC4iiqswuh1HlBohuOplw8jM7-HDETk2QYW74gslkS9SFWbc-ncYQ_Tt8eC-PhllYV53MyfuHqxGrkl44f-FjVGvUgkXdz_SFmYN8vGE-sNQV_gXeLK3E8a3kQJeo3Y_t405zRidt9GIv_uJbQP-wNzEm6QSj\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen style=\"display: block;margin-left: auto;margin-right: auto;max-width: 100%;\"><\/iframe>",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "8cf76421-6fa4-42cd-a954-23ae04a049ae": {
@@ -578,7 +519,7 @@
     "image_banner_bY398J",
     "120cbd86-6225-4213-9b1a-eefbf7d37db9",
     "rich_text_847BcY",
-    "68550990-5f0d-4268-b2b8-67d04dd382f4",
+    "custom_liquid_KAQ76y",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae"
   ]
 }
