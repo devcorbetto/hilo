@@ -125,104 +125,6 @@ diagnosticos[0] %} {% if customer %}
             </p>
             <div class="container-ingredients">
               <div class="ingredients_inline">
-
-{% assign diagnostics_ing3 = diagnostics.ing3 %} {% if
-            diagnostics.preocupa1 == 'Brillance' %} {% assign diagnostics_ing3 =
-            'Noisette' %} {% endif %} {% if diagnostics.preocupa1 ==
-            'Deshydratation' %} {% assign diagnostics_ing3 = 'Onagre' %} {%
-            endif %} {% if diagnostics.preocupa1 == 'Imperfections' %} {% if
-            diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %} {% assign
-            diagnostics_ing3 = 'Noisette' %} {% endif %} {% endif %} {% if
-            diagnostics.preocupa1 == 'Rougeurs' %} {% if diagnostics.f52 ==
-            'f52a' or diagnostics.f52 == 'f52b' %} {% assign diagnostics_ing3 =
-            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
-            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
-            endif %} {% if diagnostics.preocupa1 == 'Eclat' and diagnostics.f53
-            == 'f53a' %} {% assign diagnostics_ing3 = 'Carotte' %} {% comment %}
-            Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% if diagnostics.preocupa1
-            == 'Eclat' and diagnostics.f53 == 'f53b' %} {% assign
-            diagnostics_ing3 = 'Abricot' %} {% comment %} Puedes agregar aquí
-            cualquier otra lógica o acciones adicionales necesarias {%
-            endcomment %} {% endif %} {% if diagnostics.preocupa1 == 'Signes' %}
-            {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %} {%
-            assign diagnostics_ing3 = 'Argan' %} {% comment %} Puedes agregar
-            aquí cualquier otra lógica o acciones adicionales necesarias {%
-            endcomment %} {% endif %} {% endif %} {% assign diagnostics_ing2 =
-            diagnostics.ing2 %} {% if diagnostics.preocupa2 == 'Imperfections'
-            %} {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-            {% assign diagnostics_ing2 = 'Noisette' %} {% comment %} Puedes
-            agregar aquí cualquier otra lógica o acciones adicionales necesarias
-            {% endcomment %} {% endif %} {% elsif diagnostics.preocupa2 ==
-            'Rougeurs' %} {% if diagnostics.f52 == 'f52a' or diagnostics.f52 ==
-            'f52b' %} {% assign diagnostics_ing2 = 'Amande' %} {% comment %}
-            Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% elsif
-            diagnostics.preocupa2 == 'Eclat' %} {% if diagnostics.f53 == 'f53a'
-            %} {% assign diagnostics_ing2 = 'Carotte' %} {% elsif
-            diagnostics.f53 == 'f53b' %} {% assign diagnostics_ing2 = 'Abricot'
-            %} {% endif %} {% elsif diagnostics.preocupa2 == 'Signes' %} {% if
-            diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %} {% assign
-            diagnostics_ing2 = 'Argan' %} {% comment %} Puedes agregar aquí
-            cualquier otra lógica o acciones adicionales necesarias {%
-            endcomment %} {% endif %} {% elsif diagnostics.preocupa2 ==
-            'Brillance' %} {% assign diagnostics_ing2 = 'Noisette' %} {% comment
-            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% elsif diagnostics.preocupa2 ==
-            'Deshydratation' %} {% assign diagnostics_ing2 = 'Onagre' %} {%
-            comment %} Puedes agregar aquí cualquier otra lógica o acciones
-            adicionales necesarias {% endcomment %} {% endif %} {% assign
-            diagnostics_ing1 = diagnostics.ing1 %} {% if diagnostics.preocupa3
-            == 'Imperfections' %} {% if diagnostics.f51 == 'f51a' or
-            diagnostics.f51 == 'f51b' %} {% assign diagnostics_preocupa3 =
-            'Noisette' %} {% assign diagnostics_ing1 = 'Noisette' %} {% comment
-            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% elsif
-            diagnostics.preocupa3 == 'Rougeurs' %} {% if diagnostics.f52 ==
-            'f52a' or diagnostics.f52 == 'f52b' %} {% assign
-            diagnostics_preocupa3 = 'Amande' %} {% assign diagnostics_ing1 =
-            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
-            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
-            elsif diagnostics.preocupa3 == 'Eclat' %} {% if diagnostics.f53 ==
-            'f53a' %} {% assign diagnostics_preocupa3 = 'Carotte' %} {% assign
-            diagnostics_ing1 = 'Carotte' %} {% elsif diagnostics.f53 == 'f53b'
-            %} {% assign diagnostics_preocupa3 = 'Abricot' %} {% assign
-            diagnostics_ing1 = 'Abricot' %} {% endif %} {% elsif
-            diagnostics.preocupa3 == 'Signes' %} {% if diagnostics.f54 == 'f54a'
-            or diagnostics.f54 == 'f54b' %} {% assign diagnostics_preocupa3 =
-            'Argan' %} {% assign diagnostics_ing1 = 'Argan' %} {% comment %}
-            Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% elsif
-            diagnostics.preocupa3 == 'Brillance' %} {% assign
-            diagnostics_preocupa3 = 'Noisette' %} {% assign diagnostics_ing1 =
-            'Noisette' %} {% comment %} Puedes agregar aquí cualquier otra
-            lógica o acciones adicionales necesarias {% endcomment %} {% elsif
-            diagnostics.preocupa3 == 'Deshydratation' %} {% assign
-            diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
-            'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
-            o acciones adicionales necesarias {% endcomment %} {% endif %} 
-                
-                {% assign ing1_image = '' %}
-                  {% if diagnostics.ing1 == 'Amande' %}
-                    {% assign ing1_image = 'amande-capsule.png' %}
-                    {% assign benefice = 'Apaisante' %}
-                  {% elsif diagnostics.ing1 == 'Onagre' %}
-                    {% assign ing1_image = 'onagre-capsule.png'%} 
-                    {% assign benefice = 'Hydratante' %}
-                  {% elsif diagnostics.ing1 == 'Argan' %} 
-                    {% assign ing1_image ='argan-capsule.png' %}
-                    {% assign benefice = 'Anti-âge' %}
-                  {% elsif diagnostics.ing1 == 'Abricot' %}
-                    {% assign ing1_image = 'abricot-capsule.png' %}
-                    {% assign benefice = 'Illuminante' %}
-                  {% elsif diagnostics.ing1 == 'Noisette' %}
-                    {% assign ing1_image = 'noisette-capsule.png' %}
-                    {% assign benefice = 'Anti-imperfections' %}
-                  {% else %}
-                    {% assign ing1_image ='carotte-capsule.png' %}
-                    {% assign benefice = 'Bonne mine' %}
-                  {% endif %}
-
                 <img
                     src="{{ ing1_image | asset_url }}"
                     id="imgIngrediente1"
@@ -230,30 +132,8 @@ diagnosticos[0] %} {% if customer %}
                     style="width: 44px"
                 />
                 <p id="setBen1">{{ benefice }}</p>
-
               </div>
                 <div class="ingredients_inline">
-                {% assign ing2_image = '' %}
-                  {% if diagnostics.ing2 == 'Amande' %}
-                    {% assign ing2_image = 'amande-capsule.png' %}
-                    {% assign benefice = 'Apaisante' %}
-                  {% elsif diagnostics.ing2 == 'Onagre' %}
-                    {% assign ing2_image = 'onagre-capsule.png'%} 
-                    {% assign benefice = 'Hydratante' %}
-                  {% elsif diagnostics.ing2 == 'Argan' %} 
-                    {% assign ing2_image ='argan-capsule.png' %}
-                    {% assign benefice = 'Anti-âge' %}
-                  {% elsif diagnostics.ing2 == 'Abricot' %}
-                    {% assign ing2_image = 'abricot-capsule.png' %}
-                    {% assign benefice = 'Illuminante' %}
-                  {% elsif diagnostics.ing2 == 'Noisette' %}
-                    {% assign ing2_image = 'noisette-capsule.png' %}
-                    {% assign benefice = 'Anti-imperfections' %}
-                  {% else %}
-                    {% assign ing2_image ='carotte-capsule.png' %}
-                    {% assign benefice = 'Bonne mine' %}
-                  {% endif %}
-            
                 <img
                     src="{{ ing2_image | asset_url }}"
                     id="imgIngrediente2"
@@ -263,28 +143,6 @@ diagnosticos[0] %} {% if customer %}
                   <p id="setBen2">{{ benefice }}</p>
                 </div>
                   <div class="ingredients_inline">
-                    
-                  {% assign ing3_image = '' %}
-                  {% if diagnostics.ing3 == 'Amande' %}
-                    {% assign ing3_image = 'amande-capsule.png' %}
-                    {% assign benefice = 'Apaisante' %}
-                  {% elsif diagnostics.ing3 == 'Onagre' %}
-                    {% assign ing3_image = 'onagre-capsule.png'%} 
-                    {% assign benefice = 'Hydratante' %}
-                  {% elsif diagnostics.ing3 == 'Argan' %} 
-                    {% assign ing3_image ='argan-capsule.png' %}
-                    {% assign benefice = 'Anti-âge' %}
-                  {% elsif diagnostics.ing3 == 'Abricot' %}
-                    {% assign ing3_image = 'abricot-capsule.png' %}
-                    {% assign benefice = 'Illuminante' %}
-                  {% elsif diagnostics.ing3 == 'Noisette' %}
-                    {% assign ing3_image = 'noisette-capsule.png' %}
-                    {% assign benefice = 'Anti-imperfections' %}
-                  {% else %}
-                    {% assign ing3_image ='carotte-capsule.png' %}
-                    {% assign benefice = 'Bonne mine' %}
-                  {% endif %}
-            
                 <img
                     src="{{ ing3_image | asset_url }}"
                     id="imgIngrediente3"
@@ -294,7 +152,6 @@ diagnosticos[0] %} {% if customer %}
                 <p id="setBen3">{{ benefice }}</p>
                   </div>
             </div>
-
         </div>
     </div>
     <svg
