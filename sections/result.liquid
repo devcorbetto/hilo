@@ -264,9 +264,12 @@ diagnosticos[0] %} {% if customer %}
                 </div>
                   <div class="ingredients_inline">
 <script>
+setTimeout(function(){
   var imgsrc = document.getElementById("imgSrcIngredient2").src;
   
   alert(imgsrc);
+}, 5000);
+
 </script>
                   {% assign ing3_image = '' %}
                   {% if diagnostics.ing3 == 'Amande' %}
