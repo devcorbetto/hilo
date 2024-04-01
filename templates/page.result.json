@@ -20,7 +20,7 @@
         "50f17ff9-7c68-4b2e-aea2-6b3f6da429c8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-argan_1.svg"
+            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png"
           }
         },
         "180f6f86-0077-4ec4-8e89-de7d217611c5": {
@@ -204,7 +204,6 @@
     },
     "3ede040a-d32b-44d3-9ee5-fc364526c869": {
       "type": "rich-text-account",
-      "disabled": true,
       "blocks": {
         "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-0": {
           "type": "heading",
@@ -241,6 +240,7 @@
         "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-1",
         "template--18831072788775__3ede040a-d32b-44d3-9ee5-fc364526c869-16843773756ad2ec01-2"
       ],
+      "disabled": true,
       "settings": {
         "customcss": "",
         "desktop_content_position": "left",
