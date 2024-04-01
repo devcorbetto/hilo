@@ -165,6 +165,27 @@ diagnosticos[0] %} {% if customer %}
                     alt="Imagen del ingrediente 2"
                     style="width: 64px"
                 />
+
+                {% assign ing3_image = '' %}
+                {% if diagnostics.ing3 == 'Amande' %}
+                  {% assign ing3_image = 'amande-capsule.png' %}
+                {% elsif diagnostics.ing3 == 'Onagre' %}
+                  {% assign ing3_image = 'onagre-capsule.png'%} 
+                {% elsif diagnostics.ing3 == 'Argan' %} 
+                  {% assign ing3_image ='argan-capsule.png' %}
+                {% elsif diagnostics.ing3 == 'Abricot' %}
+                  {% assign ing3_image = 'abricot-capsule.png' %}
+                {% elsif diagnostics.ing3 == 'Noisette' %}
+                  {% assign ing3_image = 'noisette-capsule.png' %}
+                {% else %}
+                  {% assign ing3_image ='carotte-capsule.png' %}
+                {% endif %}
+            
+                <img
+                    src="{{ ing3_image | asset_url }}"
+                    alt="Imagen del ingrediente 2"
+                    style="width: 64px"
+                />
             </div>
 
         </div>
