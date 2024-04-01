@@ -9,7 +9,7 @@
   margin:auto;
 }
 
-.ingredients_inline img{
+.ingredients_inline > img{
   margin:auto;
   margin-bottom:1rem;
 }
