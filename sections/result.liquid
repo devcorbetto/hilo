@@ -263,7 +263,10 @@ diagnosticos[0] %} {% if customer %}
                   <p>{{ benefice }}</p>
                 </div>
                   <div class="ingredients_inline">
-{{ diagnostics_ing3 }}
+<script>
+  var imgsrc = document.getElementById("imgIngrediente2").src;
+  alert(imgsrc);
+</script>
                   {% assign ing3_image = '' %}
                   {% if diagnostics.ing3 == 'Amande' %}
                     {% assign ing3_image = 'amande-capsule.png' %}
