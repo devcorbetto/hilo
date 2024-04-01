@@ -122,6 +122,33 @@ diagnosticos[0] %} {% if customer %}
             <p class="text-center">
                 Nous avons sélectionné pour vous les capsules d'actif suivantes, reconnues pour leur propriété :
             </p>
+            <div class="container-image">
+                {% assign ing2_image = '' %}
+                  {% if diagnostics_ing2 == '' %} 
+                    {% if diagnostics.ing2 == 'Amande' %}
+                      {% assign ing2_image = 'amande-capsule.png' %}
+                    {% elsif diagnostics.ing2 == 'Onagre' %}
+                      {% assign ing2_image = 'onagre-capsule.png'%} 
+                    {% elsif diagnostics.ing2 == 'Argan' %} 
+                      {% assign ing2_image ='argan-capsule.png' %}
+                    {% elsif diagnostics.ing2 == 'Abricot' %}
+                      {% assign ing2_image = 'abricot-capsule.png' %}
+                    {% elsif diagnostics.ing2 == 'Noisette' %}
+                      {% assign ing2_image = 'noisette-capsule.png' %}
+                    {% else %}
+                      {% assign ing2_image ='carotte-capsule.png' %}
+                    {% endif %}
+                  {% else %}
+                    {% assign ing2_image = diagnostics_ing2 | append: '2.svg' | downcase %}
+                  {% endif %}
+            
+                <img
+                    src="{{ ing2_image | asset_url }}"
+                    alt="Imagen del ingrediente 2"
+                    style="width: 64px"
+                />
+            </div>
+
         </div>
     </div>
     <svg
