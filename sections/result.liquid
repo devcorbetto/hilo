@@ -125,7 +125,6 @@ diagnosticos[0] %} {% if customer %}
             <div class="container-image">
               {{ diagnostics.ing2 }}
                 {% assign ing2_image = '' %}
-                  {% if diagnostics_ing2 == '' %} 
                     {% if diagnostics.ing2 == 'Amande' %}
                       {% assign ing2_image = 'amande-capsule.png' %}
                     {% elsif diagnostics.ing2 == 'Onagre' %}
@@ -139,9 +138,6 @@ diagnosticos[0] %} {% if customer %}
                     {% else %}
                       {% assign ing2_image ='carotte-capsule.png' %}
                     {% endif %}
-                  {% else %}
-                    {% assign ing2_image = diagnostics_ing2 | append: '2.svg' | downcase %}
-                  {% endif %}
             
                 <img
                     src="{{ ing2_image | asset_url }}"
