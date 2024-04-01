@@ -172,23 +172,30 @@ diagnosticos[0] %} {% if customer %}
                 {% assign ing3_image = '' %}
                 {% if diagnostics.ing3 == 'Amande' %}
                   {% assign ing3_image = 'amande-capsule.png' %}
+                  {% assign benefice = 'Apaisante' %}
                 {% elsif diagnostics.ing3 == 'Onagre' %}
                   {% assign ing3_image = 'onagre-capsule.png'%} 
+                  {% assign benefice = 'Hydratante' %}
                 {% elsif diagnostics.ing3 == 'Argan' %} 
                   {% assign ing3_image ='argan-capsule.png' %}
+                  {% assign benefice = 'Anti-âge' %}
                 {% elsif diagnostics.ing3 == 'Abricot' %}
                   {% assign ing3_image = 'abricot-capsule.png' %}
+                  {% assign benefice = 'Illuminante' %}
                 {% elsif diagnostics.ing3 == 'Noisette' %}
                   {% assign ing3_image = 'noisette-capsule.png' %}
+                  {% assign benefice = 'Anti-imperfections' %}
                 {% else %}
                   {% assign ing3_image ='carotte-capsule.png' %}
+                  {% assign benefice = 'Bonne mine' %}
                 {% endif %}
             
                 <img
                     src="{{ ing3_image | asset_url }}"
-                    alt="Imagen del ingrediente 2"
+                    alt="Imagen del ingrediente 3"
                     style="width: 44px"
                 />
+                <p>{{ benefice }}</p>
                   </div>
             </div>
 
