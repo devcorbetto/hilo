@@ -1,934 +1,1463 @@
-
-{% unless customer  %}
-  <p></p>
-   <script>
+{% unless customer %}
+<p></p>
+<script>
     window.location.href = 'https://hilo-cosmetiques.fr/pages/diagnostic';
-  </script>
+</script>
 {% endunless %}
 
 <style>
-  .container-modal {
+    .container-modal {
+        margin: 0 auto;
 
-          margin:0 auto;
-          
-             background:white;
-             padding:20px 30px;
-       
-                 z-index: 9999;
-             text-align:center;
-    border-radius:20px;
- 
-  }
-		   .modal  {
-       position: fixed;
+        background: white;
+        padding: 20px 30px;
 
-      width: 50%;
-          margin:0 auto;
-  
-               z-index: 9999;
-             top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+        z-index: 9999;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .modal {
+        position: fixed;
+
+        width: 50%;
+        margin: 0 auto;
+
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .duration-300 {
+        transition-duration: 300ms;
+    }
+
+    .ease-in {
+        transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    }
+
+    .ease-out {
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    .scale-90 {
+        transform: scale(0.9);
+    }
+
+    .scale-100 {
+        transform: scale(1);
+    }
+
+    .svg-waves {
+        top: -60px !important;
+    }
+    @media (max-width: 980px) {
+        .collection-result,
+        .collection {
+            grid-template-columns: 1fr !important;
         }
-		.duration-300 {
-			transition-duration: 300ms;
-		}
-
-		.ease-in {
-			transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-		}
-
-		.ease-out {
-			transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-		}
-
-		.scale-90 {
-			transform: scale(.9);
-		}
-
-		.scale-100 {
-			transform: scale(1);
-		}
-
-  .svg-waves {
- 
-    top: -60px !important;
- 
-}
-  @media (max-width:980px) {
-    .collection-result , .collection {
-      grid-template-columns:1fr !important;
+        .collection ul {
+            display: grid;
+            justify-items: center;
+        }
+        .full-width .waves5b-rich-text {
+            bottom: 0px !important;
+        }
     }
-  .collection ul  {
-    display: grid;
-    justify-items: center;
-}
-    .full-width .waves5b-rich-text {
-      bottom:0px !important;
-    }
-    
-  }
-	</style>
+</style>
 
-
-{% capture onagre %}<b>Huile d’onagre</b> : Hydratante, revitalisante et adoucissante{% endcapture %}
-{% capture carotte %}<b>Huile de carotte</b> : Bonne mine, assouplissante et favorise le bronzage{% endcapture %}
-{% capture abricot %}<b>Huile d’abricot</b> : Illuminante, nourrissante et tonifiante{% endcapture %}
-{% capture argan %}<b>Huile d’argan</b> : Anti-âge, réparatrice et assouplissante{% endcapture %}
-{% capture noisette %}<b>Huile de noisette</b> : Anti-imperfections, réparatrice et adoucissante{% endcapture %}
-{% capture amande %}<b>Huile d’amande douce</b> : Apaisante, fortifiante et protectrice{% endcapture %}
-
-{% capture seche %}
-✨ Vous avez une <b>peau à tendance sèche</b>. Elle ne produit pas beaucoup de sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau sèche est plus sensible que les autres et manque de souplesse. 
-{% endcapture %}
-{% capture normal %}
-✨ Vous avez une <b>peau à tendance normale</b>. C’est la peau considérée comme parfaite. Elle est très bien équilibrée, douce, lisse et son grain est régulier.
-{% endcapture %}
-{% capture mixte %}
-✨ Vous avez une <b>peau à tendance mixte</b>. Ce type de peau est un mélange de différentes caractéristiques de peau en fonction des zones du visage. La peau est généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des imperfections.
-{% endcapture %}
-{% capture grasse %}
-✨ Vous avez une <b>peau à tendance grasse</b>. Elle produit beaucoup de sébum ce qui peut lui donner un aspect brillant. Le grain de peau est irrégulier, les pores sont dilatés ce qui peut favoriser l’apparition d’imperfections. Elle se déshydrate et s’irrite facilement, il ne faut donc pas négliger l’hydratation.
-{% endcapture %}
-{% capture madure %}
-✨ La production naturelle de collagène de votre corps diminue et votre peau
-peut commencer à se relâcher. On conseille de commencer à traiter le vieillissement cutané
-aux alentours de 25 ans afin de <b>prévenir l’apparition de rides et ridules</b>.
-{% endcapture %}
-{% capture nomadure %}
-✨ Votre peau est <b>tonique</b> et possède encore toute son élasticité.
-{% endcapture %}
-{% capture deshydratee %}
-✨ Votre peau est <b>déshydratée</b>. Elle manque d’eau, ce qui altère le film hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.
-{% endcapture %}
-{% capture nondeshydratee %}
-✨ Votre peau est bien <b>hydratée</b>. L’hydratation est primordiale et permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau en pleine santé.
-{% endcapture %}
-   
-           
-                              {% assign diagnosticos = customer.metafields.custom.diagnosticos.value %}
-                                {% assign diagnostics = diagnosticos[0] %}
-
-
-
-
-
-                                {% if customer %}
-<div class="full-width  mb-20" style="
-background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
-  <div class="div-with-svg " >
-    <div class="container page-width">
-      <h2 class="text-center pt-5" style="text-transform:uppercase;">{{ diagnostics.name }}, VOICI VOS RESULTATS :</h2>
-      <p class="text-center">Grâce à vos réponses, nous avons pu identifier vos caractéristiques de peau afin de vous proposer les capsules d'huiles végétales les plus adaptées pour personnaliser vos cosmétiques et prendre soin de votre visage. <br><br>
-      Si cette combinaison ne vous convient pas, ou si vous avez des allergies, vous pouvez modifier votre combinaison d’huiles végétales avant d’ajouter votre soin à votre panier.</p>
+{% capture onagre %}<b>Huile d’onagre</b> : Hydratante, revitalisante et
+adoucissante{% endcapture %} {% capture carotte %}<b>Huile de carotte</b> :
+Bonne mine, assouplissante et favorise le bronzage{% endcapture %} {% capture
+abricot %}<b>Huile d’abricot</b> : Illuminante, nourrissante et tonifiante{%
+endcapture %} {% capture argan %}<b>Huile d’argan</b> : Anti-âge, réparatrice et
+assouplissante{% endcapture %} {% capture noisette %}<b>Huile de noisette</b> :
+Anti-imperfections, réparatrice et adoucissante{% endcapture %} {% capture
+amande %}<b>Huile d’amande douce</b> : Apaisante, fortifiante et protectrice{%
+endcapture %} {% capture seche %} ✨ Vous avez une <b>peau à tendance sèche</b>.
+Elle ne produit pas beaucoup de sébum ce qui peut la rendre rêche, terne et
+provoquer des tiraillements et irritations. La peau sèche est plus sensible que
+les autres et manque de souplesse. {% endcapture %} {% capture normal %} ✨ Vous
+avez une <b>peau à tendance normale</b>. C’est la peau considérée comme
+parfaite. Elle est très bien équilibrée, douce, lisse et son grain est régulier.
+{% endcapture %} {% capture mixte %} ✨ Vous avez une
+<b>peau à tendance mixte</b>. Ce type de peau est un mélange de différentes
+caractéristiques de peau en fonction des zones du visage. La peau est
+généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche
+sur le reste du visage. Des sensations de tiraillements peuvent être ressenties
+et elle peut présenter des imperfections. {% endcapture %} {% capture grasse %}
+✨ Vous avez une <b>peau à tendance grasse</b>. Elle produit beaucoup de sébum
+ce qui peut lui donner un aspect brillant. Le grain de peau est irrégulier, les
+pores sont dilatés ce qui peut favoriser l’apparition d’imperfections. Elle se
+déshydrate et s’irrite facilement, il ne faut donc pas négliger l’hydratation.
+{% endcapture %} {% capture madure %} ✨ La production naturelle de collagène de
+votre corps diminue et votre peau peut commencer à se relâcher. On conseille de
+commencer à traiter le vieillissement cutané aux alentours de 25 ans afin de
+<b>prévenir l’apparition de rides et ridules</b>. {% endcapture %} {% capture
+nomadure %} ✨ Votre peau est <b>tonique</b> et possède encore toute son
+élasticité. {% endcapture %} {% capture deshydratee %} ✨ Votre peau est
+<b>déshydratée</b>. Elle manque d’eau, ce qui altère le film hydrolipidique de
+l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer des
+tiraillements, des irritations, un manque de souplesse et une perte d’éclat. {%
+endcapture %} {% capture nondeshydratee %} ✨ Votre peau est bien
+<b>hydratée</b>. L’hydratation est primordiale et permet d’avoir une peau saine.
+Il est important de conserver cette hydratation pour une peau en pleine santé.
+{% endcapture %} {% assign diagnosticos =
+customer.metafields.custom.diagnosticos.value %} {% assign diagnostics =
+diagnosticos[0] %} {% if customer %}
+<div
+    class="full-width mb-20"
+    style="
+        background: #FDE9D8;
+        padding-bottom: 60px;
+        padding-top: 20px;
+        position: relative;
+    "
+>
+    <div class="div-with-svg">
+        <div class="container page-width">
+            <h2 class="text-center pt-5" style="text-transform: uppercase">
+                {{ diagnostics.name }}, VOICI VOS RESULTATS :
+            </h2>
+            <p class="text-center">
+                Grâce à vos réponses, nous avons pu identifier vos
+                caractéristiques de peau afin de vous proposer les capsules
+                d'huiles végétales les plus adaptées pour personnaliser vos
+                cosmétiques et prendre soin de votre visage. <br /><br />
+                Si cette combinaison ne vous convient pas, ou si vous avez des
+                allergies, vous pouvez modifier votre combinaison d’huiles
+                végétales avant d’ajouter votre soin à votre panier.
+            </p>
+        </div>
     </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1925.69 88.164" class="waves5b waves5b-rich-text" style="position: absolute;
-    bottom: 0px;
-    height:auto;
-    width: 100%;
-    z-index:1;">
-  <g transform="translate(5120.845 -4803.674)">
-    <path style="fill:white;" id="Tracé_952" data-name="Tracé 952" d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-    <path  style="fill:white;"  id="Tracé_952_-_Contour" data-name="Tracé 952 - Contour" d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z" transform="translate(2080.155 17806.064)" fill="#fef4ec"></path>
-  </g>
-</svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1925.69 88.164"
+        class="waves5b waves5b-rich-text"
+        style="
+            position: absolute;
+            bottom: 0px;
+            height: auto;
+            width: 100%;
+            z-index: 1;
+        "
+    >
+        <g transform="translate(5120.845 -4803.674)">
+            <path
+                style="fill: white"
+                id="Tracé_952"
+                data-name="Tracé 952"
+                d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
+                transform="translate(2080.155 17806.064)"
+                fill="#fef4ec"
+            ></path>
+            <path
+                style="fill: white"
+                id="Tracé_952_-_Contour"
+                data-name="Tracé 952 - Contour"
+                d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
+                transform="translate(2080.155 17806.064)"
+                fill="#fef4ec"
+            ></path>
+        </g>
+    </svg>
 </div>
-                                  
-    <div class="two-columns page-width mb-20 flex gap-x-40 mt-20" style="margin-bottom:40px;" x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }">
-   {%- for block in section.blocks -%}
-   
-    <div  x-show="open{{ forloop.index }} " class="modal open{{ forloop.index }} duration-300 ease-in" @click.away="open{{ forloop.index }} = false" style="display:none;">
-       <div class="container-modal" style="position:relative;">
-      <span style="position:absolute; top:15px; right:25px; cursor:pointer;"  @click="open{{ forloop.index }} = false">
-  <svg id="Calque_22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" style="height:25px;">
-  <defs>
-  <style>.cls-122{fill:none;stroke:#575756;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs>
-  <g id="Calque_1-22"><g><line class="cls-122" x1="2.09" y1="1.5" x2="40.91" y2="41.5"/><line class="cls-122" x1="1.5" y1="40.91" x2="41.5" y2="2.09"/></g></g></svg>
-      </span>
-             <div class="flex  w-full justify-center items-center mb-10">
-             {{ block.settings.image | image_url: height: 90 | image_tag:
-                      loading: 'lazy',
-                  
-                      class: 'multicolumn-card__image_modal' 
-                    }}
 
-         </div>
-         <div class="text-left  metafield-rich_text_field  multi-capsules ">
-       
-          {% assign colors =   collections['boutique'].metafields.custom.colors.value   %}
-      {% if forloop.index == 1 %}
-       
-{{ collections['boutique'].metafields.custom.ingredient1 |  metafield_tag  }} 
- <style>
-   .open1 .container-modal {
-     border:2px solid    {{ colors[0].color1 }};
-   }
-        .open1 h3 {
-        color: {{ colors[0].color1 }};
-        }
-      .open1    .cls-122 {
-        stroke:{{ colors[0].color1 }};
-        }
- </style>
-{% endif %}
-             {% if forloop.index == 2 %}
-{{ collections['boutique'].metafields.custom.ingredient2 |  metafield_tag  }} 
-                 
+<div
+    class="two-columns page-width mb-20 flex gap-x-40 mt-20"
+    style="margin-bottom: 40px"
+    x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }"
+>
+    {%- for block in section.blocks -%}
+
+    <div
+        x-show="open{{ forloop.index }} "
+        class="modal open{{ forloop.index }} duration-300 ease-in"
+        @click.away="open{{ forloop.index }} = false"
+        style="display: none"
+    >
+        <div class="container-modal" style="position: relative">
+            <span
+                style="
+                    position: absolute;
+                    top: 15px;
+                    right: 25px;
+                    cursor: pointer;
+                "
+                @click="open{{ forloop.index }} = false"
+            >
+                <svg
+                    id="Calque_22"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 43 43"
+                    style="height: 25px"
+                >
+                    <defs>
+                        <style>
+                            .cls-122 {
+                                fill: none;
+                                stroke: #575756;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 3px;
+                            }
+                        </style>
+                    </defs>
+                    <g id="Calque_1-22">
+                        <g>
+                            <line
+                                class="cls-122"
+                                x1="2.09"
+                                y1="1.5"
+                                x2="40.91"
+                                y2="41.5"
+                            />
+                            <line
+                                class="cls-122"
+                                x1="1.5"
+                                y1="40.91"
+                                x2="41.5"
+                                y2="2.09"
+                            />
+                        </g>
+                    </g>
+                </svg>
+            </span>
+            <div class="flex w-full justify-center items-center mb-10">
+                {{ block.settings.image | image_url: height: 90 | image_tag:
+                loading: 'lazy', class: 'multicolumn-card__image_modal' }}
+            </div>
+            <div class="text-left metafield-rich_text_field multi-capsules">
+                {% assign colors =
+                collections['boutique'].metafields.custom.colors.value %} {% if
+                forloop.index == 1 %} {{
+                collections['boutique'].metafields.custom.ingredient1 |
+                metafield_tag }}
                 <style>
-                  .open2 h3 {
-        color: {{ colors[0].color2 }};
-        }
-   .open2 .container-modal {
-     border:2px solid    {{ colors[0].color2 }};
-   }
-                     .open2    .cls-122 {
-        stroke:{{ colors[0].color2 }};
-        }
- </style>
-{% endif %}  
-             {% if forloop.index == 3 %}
-{{ collections['boutique'].metafields.custom.ingredient3 |  metafield_tag  }}  
-           {{ collections['boutique'].metafields.custom.color[3] }} 
+                    .open1 .container-modal {
+                      border:2px solid    {{ colors[0].color1 }};
+                    }
+                         .open1 h3 {
+                         color: {{ colors[0].color1 }};
+                         }
+                       .open1    .cls-122 {
+                         stroke:{{ colors[0].color1 }};
+                         }
+                </style>
+                {% endif %} {% if forloop.index == 2 %} {{
+                collections['boutique'].metafields.custom.ingredient2 |
+                metafield_tag }}
+
                 <style>
-                  .open3 h3 {
-        color: {{ colors[0].color3 }};
-        }
-   .open3 .container-modal {
-     border:2px solid    {{ colors[0].color3 }};
-   }
-                     .open3   .cls-122 {
-        stroke:{{ colors[0].color3 }};
-        }
- </style>
-{% endif %}
-               {% if forloop.index == 4 %}
-{{ collections['boutique'].metafields.custom.ingredient4 |  metafield_tag  }} 
-                    <style>
-                    .open4 h3 {
-        color: {{ colors[0].color4 }};
-        }
-   .open4 .container-modal {
-     border:2px solid    {{ colors[0].color4 }};
-   }
-                       .open4    .cls-122 {
-        stroke:{{ colors[0].color4 }};
-        }
- </style>
-{% endif %}
-                {% if forloop.index == 5 %}
-{{ collections['boutique'].metafields.custom.ingredient5 |  metafield_tag  }} 
-                     <style>
-                     .open5 h3 {
-        color: {{ colors[0].color5 }};
-        }
-   .open5 .container-modal {
-     border:2px solid    {{ colors[0].color5 }};
-   }
-                        .open5    .cls-122 {
-        stroke:{{ colors[0].color5 }};
-        }
- </style>
-{% endif %}
-             {% if forloop.index == 6 %}
-{{ collections['boutique'].metafields.custom.ingredient6 |  metafield_tag  }} 
-                  <style>
-                  .open6 h3 {
-        color: {{ colors[0].color6 }};
-        }
-   .open6 .container-modal {
-     border:2px solid    {{ colors[0].color6 }};
-   }
-                          .open6    .cls-122 {
-        stroke:{{ colors[0].color6 }};
-        }
- </style>
-{% endif %}  
-           
-         </div>
-        
-       </div>
+                                   .open2 h3 {
+                         color: {{ colors[0].color2 }};
+                         }
+                    .open2 .container-modal {
+                      border:2px solid    {{ colors[0].color2 }};
+                    }
+                                      .open2    .cls-122 {
+                         stroke:{{ colors[0].color2 }};
+                         }
+                </style>
+                {% endif %} {% if forloop.index == 3 %} {{
+                collections['boutique'].metafields.custom.ingredient3 |
+                metafield_tag }} {{
+                collections['boutique'].metafields.custom.color[3] }}
+                <style>
+                                   .open3 h3 {
+                         color: {{ colors[0].color3 }};
+                         }
+                    .open3 .container-modal {
+                      border:2px solid    {{ colors[0].color3 }};
+                    }
+                                      .open3   .cls-122 {
+                         stroke:{{ colors[0].color3 }};
+                         }
+                </style>
+                {% endif %} {% if forloop.index == 4 %} {{
+                collections['boutique'].metafields.custom.ingredient4 |
+                metafield_tag }}
+                <style>
+                                     .open4 h3 {
+                         color: {{ colors[0].color4 }};
+                         }
+                    .open4 .container-modal {
+                      border:2px solid    {{ colors[0].color4 }};
+                    }
+                                        .open4    .cls-122 {
+                         stroke:{{ colors[0].color4 }};
+                         }
+                </style>
+                {% endif %} {% if forloop.index == 5 %} {{
+                collections['boutique'].metafields.custom.ingredient5 |
+                metafield_tag }}
+                <style>
+                                      .open5 h3 {
+                         color: {{ colors[0].color5 }};
+                         }
+                    .open5 .container-modal {
+                      border:2px solid    {{ colors[0].color5 }};
+                    }
+                                         .open5    .cls-122 {
+                         stroke:{{ colors[0].color5 }};
+                         }
+                </style>
+                {% endif %} {% if forloop.index == 6 %} {{
+                collections['boutique'].metafields.custom.ingredient6 |
+                metafield_tag }}
+                <style>
+                                   .open6 h3 {
+                         color: {{ colors[0].color6 }};
+                         }
+                    .open6 .container-modal {
+                      border:2px solid    {{ colors[0].color6 }};
+                    }
+                                           .open6    .cls-122 {
+                         stroke:{{ colors[0].color6 }};
+                         }
+                </style>
+                {% endif %}
+            </div>
+        </div>
     </div>
 
-    
-        {%- endfor -%} 
-      
-      
-      <div class="one-column one-column2  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
-        <h3 class="text-center">          VOS TENDANCES DE PEAU<br> DU MOMENT        </h3>
-        <p>  {% if diagnostics.peau == 'seche' %}
-          {{ seche }}
-          {% endif %}
-                                  {% if diagnostics.peau == 'mixte' %}
-          {{ mixte }}
-          {% endif %}
-                                  {% if diagnostics.peau == 'grasse' %}
-          {{ grasse }}
-          {% endif %}
-                                  {% if diagnostics.peau == 'normale' %}
-          {{ normal }}
-          {% endif %}
-                                  </p>
+    {%- endfor -%}
+
+    <div
+        class="one-column one-column2 flex-1 border-2 rounded-sm border-teal-600 bg-teal-300 p-10"
+    >
+        <h3 class="text-center">
+            VOS TENDANCES DE PEAU<br />
+            DU MOMENT
+        </h3>
         <p>
-           {% if diagnostics.madure == 'madure' %}
-          {{ madure }}
-          {% endif %}
-            {% if diagnostics.madure == 'nomadure' %}
-          {{ nomadure }}
-          {% endif %}
+            {% if diagnostics.peau == 'seche' %} {{ seche }} {% endif %} {% if
+            diagnostics.peau == 'mixte' %} {{ mixte }} {% endif %} {% if
+            diagnostics.peau == 'grasse' %} {{ grasse }} {% endif %} {% if
+            diagnostics.peau == 'normale' %} {{ normal }} {% endif %}
         </p>
-           <p>
-                {% if diagnostics.deshy == 'deshy' %}
-          {{ deshydratee }}
-          {% endif %}
-            {% if diagnostics.deshy == 'nodeshy' %}
-          {{ nondeshydratee }}
-          {% endif %}
-           </p>
-      </div>
-      <div class="one-column flex-1 flex "  style="align-items: center; position:relative;">
-        <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_orange.svg?v=1684750102" class="corner-top no-rotate top-wavestop2">
-        <div class="one-column-style border-2  result  rounded-sm border-teal-600 bg-teal-300 p-10 ">
-        <h3 class="text-center">VOTRE MATCH PARFAIT <br>DU MOMENT</h3>
-        <p class="text-center small-font" >Ces huiles végétales sont reconnues pour les propriétés<br> suivantes* :</p>
+        <p>
+            {% if diagnostics.madure == 'madure' %} {{ madure }} {% endif %} {%
+            if diagnostics.madure == 'nomadure' %} {{ nomadure }} {% endif %}
+        </p>
+        <p>
+            {% if diagnostics.deshy == 'deshy' %} {{ deshydratee }} {% endif %}
+            {% if diagnostics.deshy == 'nodeshy' %} {{ nondeshydratee }} {%
+            endif %}
+        </p>
+    </div>
+    <div
+        class="one-column flex-1 flex"
+        style="align-items: center; position: relative"
+    >
+        <img
+            src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_orange.svg?v=1684750102"
+            class="corner-top no-rotate top-wavestop2"
+        />
+        <div
+            class="one-column-style border-2 result rounded-sm border-teal-600 bg-teal-300 p-10"
+        >
+            <h3 class="text-center">VOTRE MATCH PARFAIT <br />DU MOMENT</h3>
+            <p class="text-center small-font">
+                Ces huiles végétales sont reconnues pour les propriétés<br />
+                suivantes* :
+            </p>
 
-                                  
-{% assign diagnostics_ing3 = diagnostics.ing3  %}
-                      
-{% if diagnostics.preocupa1 == 'Brillance' %}
-{% assign diagnostics_ing3 = 'Noisette' %}
-{% endif %}
-
-{% if   diagnostics.preocupa1 == 'Deshydratation'  %}
-{% assign diagnostics_ing3 = 'Onagre' %}
-{% endif %}
-
-                                  
-
-{% if diagnostics.preocupa1 == 'Imperfections' %}
-  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign diagnostics_ing3  = 'Noisette' %}
-   
-  {% endif %}
-{% endif %}
-
-{% if diagnostics.preocupa1 == 'Rougeurs' %}
-  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign diagnostics_ing3  = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% endif %}
-
-{% if diagnostics.preocupa1 == 'Eclat' and diagnostics.f53 == 'f53a' %}
-  {% assign diagnostics_ing3  = 'Carotte' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-{% if diagnostics.preocupa1 == 'Eclat' and diagnostics.f53 == 'f53b' %}
-  {% assign diagnostics_ing3  = 'Abricot' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-{% if diagnostics.preocupa1 == 'Signes' %}
-  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign diagnostics_ing3  = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% endif %}
-
-                                  
-{% assign diagnostics_ing2 = diagnostics.ing2 %}
- {% if diagnostics.preocupa2 == 'Imperfections' %}
-  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign diagnostics_ing2 = 'Noisette' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostics.preocupa2 == 'Rougeurs' %}
-  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign diagnostics_ing2 = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostics.preocupa2 == 'Eclat' %}
-  {% if diagnostics.f53 == 'f53a' %}
-    {% assign diagnostics_ing2 = 'Carotte' %}
-  {% elsif diagnostics.f53 == 'f53b' %}
-    {% assign diagnostics_ing2 = 'Abricot' %}
-  {% endif %}
-{% elsif diagnostics.preocupa2 == 'Signes' %}
-  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign diagnostics_ing2 = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostics.preocupa2 == 'Brillance' %}
-  {% assign diagnostics_ing2 = 'Noisette' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostics.preocupa2 == 'Deshydratation' %}
-  {% assign diagnostics_ing2 = 'Onagre' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-                                  
-{% assign diagnostics_ing1 = diagnostics.ing1 %}
-{% if diagnostics.preocupa3 == 'Imperfections' %}
-  {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
-    {% assign diagnostics_preocupa3 = 'Noisette' %}
-    {% assign diagnostics_ing1 = 'Noisette' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostics.preocupa3 == 'Rougeurs' %}
-  {% if diagnostics.f52 == 'f52a' or diagnostics.f52 == 'f52b' %}
-    {% assign diagnostics_preocupa3 = 'Amande' %}
-    {% assign diagnostics_ing1 = 'Amande' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostics.preocupa3 == 'Eclat' %}
-  {% if diagnostics.f53 == 'f53a' %}
-    {% assign diagnostics_preocupa3 = 'Carotte' %}
-    {% assign diagnostics_ing1 = 'Carotte' %}
-  {% elsif diagnostics.f53 == 'f53b' %}
-    {% assign diagnostics_preocupa3 = 'Abricot' %}
-    {% assign diagnostics_ing1 = 'Abricot' %}
-  {% endif %}
-{% elsif diagnostics.preocupa3 == 'Signes' %}
-  {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %}
-    {% assign diagnostics_preocupa3 = 'Argan' %}
-    {% assign diagnostics_ing1 = 'Argan' %}
-    {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-  {% endif %}
-{% elsif diagnostics.preocupa3 == 'Brillance' %}
-  {% assign diagnostics_preocupa3 = 'Noisette' %}
-  {% assign diagnostics_ing1 = 'Noisette' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% elsif diagnostics.preocupa3 == 'Deshydratation' %}
-  {% assign diagnostics_preocupa3 = 'Onagre' %}
-  {% assign diagnostics_ing1 = 'Onagre' %}
-  {% comment %} Puedes agregar aquí cualquier otra lógica o acciones adicionales necesarias {% endcomment %}
-{% endif %}
-
-                                  
-        {% if  diagnostics_ing1 == 'Carotte'%}                       
-        <div class="container-result flex"  x-on:click="open1 = !open1">
-          {% elsif diagnostics_ing1 == 'Argan' %}
-                <div class="container-result flex"  x-on:click="open2 = !open2">
+            {% assign diagnostics_ing3 = diagnostics.ing3 %} {% if
+            diagnostics.preocupa1 == 'Brillance' %} {% assign diagnostics_ing3 =
+            'Noisette' %} {% endif %} {% if diagnostics.preocupa1 ==
+            'Deshydratation' %} {% assign diagnostics_ing3 = 'Onagre' %} {%
+            endif %} {% if diagnostics.preocupa1 == 'Imperfections' %} {% if
+            diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %} {% assign
+            diagnostics_ing3 = 'Noisette' %} {% endif %} {% endif %} {% if
+            diagnostics.preocupa1 == 'Rougeurs' %} {% if diagnostics.f52 ==
+            'f52a' or diagnostics.f52 == 'f52b' %} {% assign diagnostics_ing3 =
+            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
+            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
+            endif %} {% if diagnostics.preocupa1 == 'Eclat' and diagnostics.f53
+            == 'f53a' %} {% assign diagnostics_ing3 = 'Carotte' %} {% comment %}
+            Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% if diagnostics.preocupa1
+            == 'Eclat' and diagnostics.f53 == 'f53b' %} {% assign
+            diagnostics_ing3 = 'Abricot' %} {% comment %} Puedes agregar aquí
+            cualquier otra lógica o acciones adicionales necesarias {%
+            endcomment %} {% endif %} {% if diagnostics.preocupa1 == 'Signes' %}
+            {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %} {%
+            assign diagnostics_ing3 = 'Argan' %} {% comment %} Puedes agregar
+            aquí cualquier otra lógica o acciones adicionales necesarias {%
+            endcomment %} {% endif %} {% endif %} {% assign diagnostics_ing2 =
+            diagnostics.ing2 %} {% if diagnostics.preocupa2 == 'Imperfections'
+            %} {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+            {% assign diagnostics_ing2 = 'Noisette' %} {% comment %} Puedes
+            agregar aquí cualquier otra lógica o acciones adicionales necesarias
+            {% endcomment %} {% endif %} {% elsif diagnostics.preocupa2 ==
+            'Rougeurs' %} {% if diagnostics.f52 == 'f52a' or diagnostics.f52 ==
+            'f52b' %} {% assign diagnostics_ing2 = 'Amande' %} {% comment %}
+            Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% elsif
+            diagnostics.preocupa2 == 'Eclat' %} {% if diagnostics.f53 == 'f53a'
+            %} {% assign diagnostics_ing2 = 'Carotte' %} {% elsif
+            diagnostics.f53 == 'f53b' %} {% assign diagnostics_ing2 = 'Abricot'
+            %} {% endif %} {% elsif diagnostics.preocupa2 == 'Signes' %} {% if
+            diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %} {% assign
+            diagnostics_ing2 = 'Argan' %} {% comment %} Puedes agregar aquí
+            cualquier otra lógica o acciones adicionales necesarias {%
+            endcomment %} {% endif %} {% elsif diagnostics.preocupa2 ==
+            'Brillance' %} {% assign diagnostics_ing2 = 'Noisette' %} {% comment
+            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% elsif diagnostics.preocupa2 ==
+            'Deshydratation' %} {% assign diagnostics_ing2 = 'Onagre' %} {%
+            comment %} Puedes agregar aquí cualquier otra lógica o acciones
+            adicionales necesarias {% endcomment %} {% endif %} {% assign
+            diagnostics_ing1 = diagnostics.ing1 %} {% if diagnostics.preocupa3
+            == 'Imperfections' %} {% if diagnostics.f51 == 'f51a' or
+            diagnostics.f51 == 'f51b' %} {% assign diagnostics_preocupa3 =
+            'Noisette' %} {% assign diagnostics_ing1 = 'Noisette' %} {% comment
+            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% elsif
+            diagnostics.preocupa3 == 'Rougeurs' %} {% if diagnostics.f52 ==
+            'f52a' or diagnostics.f52 == 'f52b' %} {% assign
+            diagnostics_preocupa3 = 'Amande' %} {% assign diagnostics_ing1 =
+            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
+            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
+            elsif diagnostics.preocupa3 == 'Eclat' %} {% if diagnostics.f53 ==
+            'f53a' %} {% assign diagnostics_preocupa3 = 'Carotte' %} {% assign
+            diagnostics_ing1 = 'Carotte' %} {% elsif diagnostics.f53 == 'f53b'
+            %} {% assign diagnostics_preocupa3 = 'Abricot' %} {% assign
+            diagnostics_ing1 = 'Abricot' %} {% endif %} {% elsif
+            diagnostics.preocupa3 == 'Signes' %} {% if diagnostics.f54 == 'f54a'
+            or diagnostics.f54 == 'f54b' %} {% assign diagnostics_preocupa3 =
+            'Argan' %} {% assign diagnostics_ing1 = 'Argan' %} {% comment %}
+            Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% elsif
+            diagnostics.preocupa3 == 'Brillance' %} {% assign
+            diagnostics_preocupa3 = 'Noisette' %} {% assign diagnostics_ing1 =
+            'Noisette' %} {% comment %} Puedes agregar aquí cualquier otra
+            lógica o acciones adicionales necesarias {% endcomment %} {% elsif
+            diagnostics.preocupa3 == 'Deshydratation' %} {% assign
+            diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
+            'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
+            o acciones adicionales necesarias {% endcomment %} {% endif %} {% if
+            diagnostics_ing1 == 'Carotte'%}
+            <div class="container-result flex" x-on:click="open1 = !open1">
+                {% elsif diagnostics_ing1 == 'Argan' %}
+                <div class="container-result flex" x-on:click="open2 = !open2">
                     {% elsif diagnostics_ing1 == 'Abricot' %}
-                <div class="container-result flex"  x-on:click="open3 = !open3">
-            {% elsif diagnostics_ing1 == 'Noisette' %}
-                <div class="container-result flex"  x-on:click="open4 = !open4">
-            {% elsif diagnostics_ing1 == 'Amande' %}
-                <div class="container-result flex"  x-on:click="open5 = !open5">
-            {% elsif diagnostics_ing1 == 'Onagre' %}
-                <div class="container-result flex"  x-on:click="open6 = !open6">
-          {% endif %}
+                    <div
+                        class="container-result flex"
+                        x-on:click="open3 = !open3"
+                    >
+                        {% elsif diagnostics_ing1 == 'Noisette' %}
+                        <div
+                            class="container-result flex"
+                            x-on:click="open4 = !open4"
+                        >
+                            {% elsif diagnostics_ing1 == 'Amande' %}
+                            <div
+                                class="container-result flex"
+                                x-on:click="open5 = !open5"
+                            >
+                                {% elsif diagnostics_ing1 == 'Onagre' %}
+                                <div
+                                    class="container-result flex"
+                                    x-on:click="open6 = !open6"
+                                >
+                                    {% endif %}
 
-                  
-          <div class="container-image">
-                        
+                                    <div class="container-image">
+                                        {% assign ing1_image = '' %} {% if
+                                        diagnostics_ing1 == '' %} {% if
+                                        diagnostics.ing1 == 'Amande' %} {%
+                                        assign ing1_image = 'amande-capsule.png'
+                                        %} {% elsif diagnostics.ing1 == 'Onagre'
+                                        %} {% assign ing1_image =
+                                        'onagre-capsule.png' %} {% elsif
+                                        diagnostics.ing1 == 'Argan' %} {% assign
+                                        ing1_image = 'argan-capsule.png' %} {%
+                                        elsif diagnostics.ing1 == 'Abricot' %}
+                                        {% assign ing1_image =
+                                        'abricot-capsule.png' %} {% elsif
+                                        diagnostics.ing1 == 'Noisette' %} {%
+                                        assign ing1_image =
+                                        'noisette-capsule.png' %} {% else %} {%
+                                        assign ing1_image =
+                                        'carolle-capsule.png' %} {% endif %} {%
+                                        else %} {% assign ing1_image =
+                                        diagnostics_ing1 | append: '2.svg' |
+                                        downcase %} {% endif %}
 
-                                  
-      {% assign ing1_image = '' %}
+                                        <img
+                                            src="{{ ing1_image | asset_url }}"
+                                            alt="Imagen del ingrediente 1"
+                                            style="width: 64px"
+                                        />
+                                    </div>
+                                    <div class="container-result-p">
+                                        <p>
+                                            {% if diagnostics_ing1 == 'Amande'
+                                            %} {{ amande }} {% elsif
+                                            diagnostics_ing1 == 'Onagre' %} {{
+                                            onagre }} {% elsif diagnostics_ing1
+                                            == 'Argan' %} {{ argan }} {% elsif
+                                            diagnostics_ing1 == 'Abricot' %} {{
+                                            abricot }} {% elsif diagnostics_ing1
+                                            == 'Noisette' %} {{ noisette }} {%
+                                            else %} {{ carotte }} {% endif %}
+                                        </p>
+                                    </div>
+                                </div>
 
- {% if diagnostics_ing1 == '' %}  
+                                {% if diagnostics_ing2 == 'Carotte'%}
+                                <div
+                                    class="container-result flex"
+                                    x-on:click="open1 = !open1"
+                                >
+                                    {% elsif diagnostics_ing2 == 'Argan' %}
+                                    <div
+                                        class="container-result flex"
+                                        x-on:click="open2 = !open2"
+                                    >
+                                        {% elsif diagnostics_ing2 == 'Abricot'
+                                        %}
+                                        <div
+                                            class="container-result flex"
+                                            x-on:click="open3 = !open3"
+                                        >
+                                            {% elsif diagnostics_ing2 ==
+                                            'Noisette' %}
+                                            <div
+                                                class="container-result flex"
+                                                x-on:click="open4 = !open4"
+                                            >
+                                                {% elsif diagnostics_ing2 ==
+                                                'Amande' %}
+                                                <div
+                                                    class="container-result flex"
+                                                    x-on:click="open5 = !open5"
+                                                >
+                                                    {% elsif diagnostics_ing2 ==
+                                                    'Onagre' %}
+                                                    <div
+                                                        class="container-result flex"
+                                                        x-on:click="open6 = !open6"
+                                                    >
+                                                        {% endif %}
 
-{% if diagnostics.ing1 == 'Amande' %}
-  {% assign ing1_image = 'amande-capsule.png' %}
-{% elsif diagnostics.ing1 == 'Onagre' %}
-  {% assign ing1_image = 'onagre-capsule.png' %}
-{% elsif diagnostics.ing1 == 'Argan' %}
-  {% assign ing1_image = 'argan-capsule.png' %}
-{% elsif diagnostics.ing1 == 'Abricot' %}
-  {% assign ing1_image = 'abricot-capsule.png' %}
-{% elsif diagnostics.ing1 == 'Noisette' %}
-  {% assign ing1_image = 'noisette-capsule.png' %}
-{% else %}
-  {% assign ing1_image = 'carolle-capsule.png' %}
-{% endif %}
-   
-     {% else %}   
-        {% assign ing1_image = diagnostics_ing1 | append: '2.svg' | downcase %}  
-{% endif %}
+                                                        <div
+                                                            class="container-image"
+                                                        >
+                                                            {% assign ing2_image
+                                                            = '' %} {% if
+                                                            diagnostics_ing2 ==
+                                                            '' %} {% if
+                                                            diagnostics.ing2 ==
+                                                            'Amande' %} {%
+                                                            assign ing2_image =
+                                                            'amande2.svg' %} {%
+                                                            elsif
+                                                            diagnostics.ing2 ==
+                                                            'Onagre' %} {%
+                                                            assign ing2_image =
+                                                            'onagre2.svg' %} {%
+                                                            elsif
+                                                            diagnostics.ing2 ==
+                                                            'Argan' %} {% assign
+                                                            ing2_image =
+                                                            'argan2.svg' %} {%
+                                                            elsif
+                                                            diagnostics.ing2 ==
+                                                            'Abricot' %} {%
+                                                            assign ing2_image =
+                                                            'abricot2.svg' %} {%
+                                                            elsif
+                                                            diagnostics.ing2 ==
+                                                            'Noisette' %} {%
+                                                            assign ing2_image =
+                                                            'noisette2.svg' %}
+                                                            {% else %} {% assign
+                                                            ing2_image =
+                                                            'carotte2.svg' %} {%
+                                                            endif %} {% else %}
+                                                            {% assign ing2_image
+                                                            = diagnostics_ing2 |
+                                                            append: '2.svg' |
+                                                            downcase %} {% endif
+                                                            %}
 
-                                  
-<img src="{{ ing1_image | asset_url }}" alt="Imagen del ingrediente 1" style="width:64px;">
+                                                            <img
+                                                                src="{{ ing2_image | asset_url }}"
+                                                                alt="Imagen del ingrediente 2"
+                                                                style="
+                                                                    width: 64px;
+                                                                "
+                                                            />
+                                                        </div>
+                                                        <div
+                                                            class="container-result-p"
+                                                        >
+                                                            <p>
+                                                                {% if
+                                                                diagnostics_ing2
+                                                                == 'Amande' %}
+                                                                {{ amande }} {%
+                                                                elsif
+                                                                diagnostics_ing2
+                                                                == 'Onagre' %}
+                                                                {{ onagre }} {%
+                                                                elsif
+                                                                diagnostics_ing2
+                                                                == 'Argan' %} {{
+                                                                argan }} {%
+                                                                elsif
+                                                                diagnostics_ing2
+                                                                == 'Abricot' %}
+                                                                {{ abricot }} {%
+                                                                elsif
+                                                                diagnostics_ing2
+                                                                == 'Noisette' %}
+                                                                {{ noisette }}
+                                                                {% else %} {{
+                                                                carotte }} {%
+                                                                endif %}
+                                                            </p>
+                                                        </div>
+                                                    </div>
 
-            
+                                                    {% if diagnostics_ing3 ==
+                                                    'Carotte'%}
+                                                    <div
+                                                        class="container-result flex"
+                                                        x-on:click="open1 = !open1"
+                                                    >
+                                                        {% elsif
+                                                        diagnostics_ing3 ==
+                                                        'Argan' %}
+                                                        <div
+                                                            class="container-result flex"
+                                                            x-on:click="open2 = !open2"
+                                                        >
+                                                            {% elsif
+                                                            diagnostics_ing3 ==
+                                                            'Abricot' %}
+                                                            <div
+                                                                class="container-result flex"
+                                                                x-on:click="open3 = !open3"
+                                                            >
+                                                                {% elsif
+                                                                diagnostics_ing3
+                                                                == 'Noisette' %}
+                                                                <div
+                                                                    class="container-result flex"
+                                                                    x-on:click="open4 = !open4"
+                                                                >
+                                                                    {% elsif
+                                                                    diagnostics_ing3
+                                                                    == 'Amande'
+                                                                    %}
+                                                                    <div
+                                                                        class="container-result flex"
+                                                                        x-on:click="open5 = !open5"
+                                                                    >
+                                                                        {% elsif
+                                                                        diagnostics_ing3
+                                                                        ==
+                                                                        'Onagre'
+                                                                        %}
+                                                                        <div
+                                                                            class="container-result flex"
+                                                                            x-on:click="open6 = !open6"
+                                                                        >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            <div
+                                                                                class="container-image"
+                                                                            >
+                                                                                {%
+                                                                                if
+                                                                                diagnostics_ing3
+                                                                                ==
+                                                                                ''
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                ''
+                                                                                %}
+                                                                                {%
+                                                                                if
+                                                                                diagnostics.ing3
+                                                                                ==
+                                                                                'Amande'
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                'amande2.svg'
+                                                                                %}
+                                                                                {%
+                                                                                elsif
+                                                                                diagnostics.ing3
+                                                                                ==
+                                                                                'Onagre'
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                'onagre2.svg'
+                                                                                %}
+                                                                                {%
+                                                                                elsif
+                                                                                diagnostics.ing3
+                                                                                ==
+                                                                                'Argan'
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                'argan2.svg'
+                                                                                %}
+                                                                                {%
+                                                                                elsif
+                                                                                diagnostics.ing3
+                                                                                ==
+                                                                                'Abricot'
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                'abricot2.svg'
+                                                                                %}
+                                                                                {%
+                                                                                elsif
+                                                                                diagnostics.ing3
+                                                                                ==
+                                                                                'Noisette'
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                'noisette2.svg'
+                                                                                %}
+                                                                                {%
+                                                                                else
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                'carotte.png'
+                                                                                %}
+                                                                                {%
+                                                                                endif
+                                                                                %}
+                                                                                {%
+                                                                                else
+                                                                                %}
+                                                                                {%
+                                                                                assign
+                                                                                ing3_image
+                                                                                =
+                                                                                diagnostics_ing3
+                                                                                |
+                                                                                append:
+                                                                                '2.svg'
+                                                                                |
+                                                                                downcase
+                                                                                %}
+                                                                                {%
+                                                                                endif
+                                                                                %}
 
+                                                                                <img
+                                                                                    src="{{ ing3_image | asset_url }}"
+                                                                                    alt="Imagen del ingrediente 3"
+                                                                                    style="
+                                                                                        width: 64px;
+                                                                                    "
+                                                                                />
+                                                                            </div>
+                                                                            <div
+                                                                                class="container-result-p"
+                                                                            >
+                                                                                <p>
+                                                                                    {%
+                                                                                    if
+                                                                                    diagnostics_ing3
+                                                                                    ==
+                                                                                    'Amande'
+                                                                                    %}
+                                                                                    {{
+                                                                                    amande
+                                                                                    }}
+                                                                                    {%
+                                                                                    elsif
+                                                                                    diagnostics_ing3
+                                                                                    ==
+                                                                                    'Onagre'
+                                                                                    %}
+                                                                                    {{
+                                                                                    onagre
+                                                                                    }}
+                                                                                    {%
+                                                                                    elsif
+                                                                                    diagnostics_ing3
+                                                                                    ==
+                                                                                    'Argan'
+                                                                                    %}
+                                                                                    {{
+                                                                                    argan
+                                                                                    }}
+                                                                                    {%
+                                                                                    elsif
+                                                                                    diagnostics_ing3==
+                                                                                    'Abricot'
+                                                                                    %}
+                                                                                    {{
+                                                                                    abricot
+                                                                                    }}
+                                                                                    {%
+                                                                                    elsif
+                                                                                    diagnostics_ing3==
+                                                                                    'Noisette'
+                                                                                    %}
+                                                                                    {{
+                                                                                    noisette
+                                                                                    }}
+                                                                                    {%
+                                                                                    else
+                                                                                    %}
+                                                                                    {{
+                                                                                    carotte
+                                                                                    }}
+                                                                                    {%
+                                                                                    endif
+                                                                                    %}
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
 
-</div>
-          <div class="container-result-p">
-                                  <p>
-                                  {% if diagnostics_ing1 == 'Amande' %}
- {{ amande }}
-{% elsif diagnostics_ing1 == 'Onagre' %}
- {{ onagre }}
-{% elsif diagnostics_ing1 == 'Argan' %}
- {{ argan }}
-{% elsif diagnostics_ing1 == 'Abricot' %}
-  {{ abricot }}
-{% elsif diagnostics_ing1 == 'Noisette' %}
- {{ noisette }}
-{% else %}
-  {{ carotte }}
-{% endif %}
-                                  </p>
-          </div>
-        </div>
-                                    
-        {% if  diagnostics_ing2 == 'Carotte'%}                       
-        <div class="container-result flex"  x-on:click="open1 = !open1">
-          {% elsif diagnostics_ing2 == 'Argan' %}
-                <div class="container-result flex"  x-on:click="open2 = !open2">
-                    {% elsif diagnostics_ing2 == 'Abricot' %}
-                <div class="container-result flex"  x-on:click="open3 = !open3">
-            {% elsif diagnostics_ing2 == 'Noisette' %}
-                <div class="container-result flex"  x-on:click="open4 = !open4">
-            {% elsif diagnostics_ing2 == 'Amande' %}
-                <div class="container-result flex"  x-on:click="open5 = !open5">
-            {% elsif diagnostics_ing2 == 'Onagre' %}
-                <div class="container-result flex"  x-on:click="open6 = !open6">
-          {% endif %}
-                                  
-          <div class="container-image">
-                                  
-            {% assign ing2_image = '' %}
-
- {% if diagnostics_ing2 == '' %}                                        
-     {% if diagnostics.ing2 == 'Amande' %}
-  {% assign ing2_image = 'amande2.svg' %}
-{% elsif diagnostics.ing2 == 'Onagre' %}
-  {% assign ing2_image = 'onagre2.svg' %}
-{% elsif diagnostics.ing2 == 'Argan' %}
-  {% assign ing2_image = 'argan2.svg' %}
-{% elsif diagnostics.ing2 == 'Abricot' %}
-  {% assign ing2_image = 'abricot2.svg' %}
-{% elsif diagnostics.ing2 == 'Noisette' %}
-  {% assign ing2_image = 'noisette2.svg' %}
-{% else %}
-  {% assign ing2_image = 'carotte2.svg' %}
-{% endif %}
-   
-     {% else %}   
-        {% assign ing2_image = diagnostics_ing2 | append: '2.svg' | downcase %}  
-{% endif %}
-                                  
-<img src="{{ ing2_image | asset_url }}" alt="Imagen del ingrediente 2" style="width:64px;">
-             </div>
-          <div class="container-result-p"> <p>
-                                  {% if diagnostics_ing2 == 'Amande' %}
- {{ amande }}
-{% elsif diagnostics_ing2 == 'Onagre' %}
- {{ onagre }}
-{% elsif diagnostics_ing2 == 'Argan' %}
- {{ argan }}
-{% elsif diagnostics_ing2 == 'Abricot' %}
-  {{ abricot }}
-{% elsif diagnostics_ing2 == 'Noisette' %}
- {{ noisette }}
-{% else %}
-  {{ carotte }}
-{% endif %}
-                                  </p>
-          </div>
-        </div>
-                                  
-        {% if  diagnostics_ing3 == 'Carotte'%}                       
-        <div class="container-result flex"  x-on:click="open1 = !open1">
-          {% elsif diagnostics_ing3 == 'Argan' %}
-                <div class="container-result flex"  x-on:click="open2 = !open2">
-                    {% elsif diagnostics_ing3 == 'Abricot' %}
-                <div class="container-result flex"  x-on:click="open3 = !open3">
-            {% elsif diagnostics_ing3 == 'Noisette' %}
-                <div class="container-result flex"  x-on:click="open4 = !open4">
-            {% elsif diagnostics_ing3 == 'Amande' %}
-                <div class="container-result flex"  x-on:click="open5 = !open5">
-            {% elsif diagnostics_ing3 == 'Onagre' %}
-                <div class="container-result flex"  x-on:click="open6 = !open6">
-          {% endif %}
-          <div class="container-image">
-            
-                 {% if diagnostics_ing3 == '' %}                   
-{% assign ing3_image = '' %}
-
-{% if diagnostics.ing3 == 'Amande' %}
-  {% assign ing3_image = 'amande2.svg' %}
-{% elsif diagnostics.ing3 == 'Onagre' %}
-  {% assign ing3_image = 'onagre2.svg' %}
-{% elsif diagnostics.ing3 == 'Argan' %}
-  {% assign ing3_image = 'argan2.svg' %}
-{% elsif diagnostics.ing3 == 'Abricot' %}
-  {% assign ing3_image = 'abricot2.svg' %}
-{% elsif diagnostics.ing3 == 'Noisette' %}
-  {% assign ing3_image = 'noisette2.svg' %}
-{% else %}
-  {% assign ing3_image = 'carotte.png' %}
- 
-  {% endif %}
-     {% else %}   
-        {% assign ing3_image = diagnostics_ing3 | append: '2.svg' | downcase %}  
-{% endif %}
-                                  
-                                  <img src="{{ ing3_image | asset_url }}" alt="Imagen del ingrediente 3" style="width:64px;">
-            </div>
-          <div class="container-result-p"> <p>
-                                  {% if diagnostics_ing3 == 'Amande' %}
- {{ amande }}
-{% elsif diagnostics_ing3 == 'Onagre' %}
- {{ onagre }}
-{% elsif diagnostics_ing3 == 'Argan' %}
- {{ argan }}
-{% elsif diagnostics_ing3== 'Abricot' %}
-  {{ abricot }}
-{% elsif diagnostics_ing3== 'Noisette' %}
- {{ noisette }}
-{% else %}
-  {{ carotte }}
-{% endif %}
-                                  </p>
-          </div>
-        </div>
-         </div>   
-
-      </div>
-                                       
-            </div>
-
-                                  
-<div class="container-routine mt-20 page-width">
-      <!--<h2 class="text-center  mb-20 ">VOTRE ROUTINE PERSONNALISÉE</h2>
+                                                            <div
+                                                                class="container-routine mt-20 page-width"
+                                                            >
+                                                                <!--<h2 class="text-center  mb-20 ">VOTRE ROUTINE PERSONNALISÉE</h2>
       <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).<br> <br></p>
       <p class="text-center  mb-20 ">Les soins sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastique.<br>
         Vous pourrez choisir à l'étape suivante, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
   -->
 
-<ul class="collection collection-result" style="">
-                                    <li style="   "></li>
-  <li style="   ">
- 
-    <div class="">
-    {% render 'card-product',
-    card_product: section.settings.product,
-    media_aspect_ratio: true,
-    show_secondary_image: true,
-    show_vendor: section.settings.show_vendor,
-    show_rating: true,
-    show_quick_add: false,
-           show_text: true,
-      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
-    section_id: section.id
-    %}
-    </div>   
-                                     <p class="text-center pb-10 mt-10">
-    {% if diagnostics_ing1 == diagnostics_ing2 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    
-    {% if diagnostics_ing1 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    </p>
- <p class="text-center"> 
-    <a style="text-decoration:underline; font-weight:600;     color: #575756;"
-      href="https://hilo-cosmetiques.fr/products/creme-visage-naturelle-personnalisable-rechargeable?open=true">Je modifie mes huiles végétales</a>
- </p>
- 
-                                  </li>
-                       <li style="   "></li>             
-<li style="   ">
- 
-    <div class="">
-    {% render 'card-product',
-    card_product: section.settings.product2,
-    media_aspect_ratio: true,
-    show_secondary_image: true,
-    show_vendor: section.settings.show_vendor,
-    show_rating: true,
-    show_quick_add: false,
-           show_text: true,
-      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
-    section_id: section.id
-    %}
-    </div>   
-                                     <p class="text-center pb-10 mt-10">
-    {% if diagnostics_ing1 == diagnostics_ing2 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    
-    {% if diagnostics_ing1 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    </p>
- <p class="text-center"> 
-    <a style="text-decoration:underline; font-weight:600;     color: #575756;"
-      href="https://hilo-cosmetiques.fr/products/coffret-hilo?open=true">Je modifie mes huiles végétales</a>
- </p>
- 
-                                  </li>
-                                  
+                                                                <ul
+                                                                    class="collection collection-result"
+                                                                    style=""
+                                                                >
+                                                                    <li
+                                                                        style=""
+                                                                    ></li>
+                                                                    <li
+                                                                        style=""
+                                                                    >
+                                                                        <div
+                                                                            class=""
+                                                                        >
+                                                                            {%
+                                                                            render
+                                                                            'card-product',
+                                                                            card_product:
+                                                                            section.settings.product,
+                                                                            media_aspect_ratio:
+                                                                            true,
+                                                                            show_secondary_image:
+                                                                            true,
+                                                                            show_vendor:
+                                                                            section.settings.show_vendor,
+                                                                            show_rating:
+                                                                            true,
+                                                                            show_quick_add:
+                                                                            false,
+                                                                            show_text:
+                                                                            true,
+                                                                            text1:
+                                                                            "Je
+                                                                            choisis
+                                                                            à
+                                                                            l'étape
+                                                                            suivante
+                                                                            si
+                                                                            je
+                                                                            souhaite
+                                                                            le
+                                                                            format
+                                                                            pot
+                                                                            +
+                                                                            recharge
+                                                                            ou
+                                                                            recharge
+                                                                            seule.",
+                                                                            section_id:
+                                                                            section.id
+                                                                            %}
+                                                                        </div>
+                                                                        <p
+                                                                            class="text-center pb-10 mt-10"
+                                                                        >
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing1
+                                                                            ==
+                                                                            diagnostics_ing2
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
+    "
+                                                                                class="button btn"
+                                                                                >J'ajoute
+                                                                                ma
+                                                                                crème
+                                                                                personnalisée
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing1
+                                                                            ==
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    "
+                                                                                class="button btn"
+                                                                                >J'ajoute
+                                                                                ma
+                                                                                crème
+                                                                                personnalisée
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing2
+                                                                            ==
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    "
+                                                                                class="button btn"
+                                                                                >J'ajoute
+                                                                                ma
+                                                                                crème
+                                                                                personnalisée
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing2
+                                                                            ==
+                                                                            diagnostics_ing1
+                                                                            and
+                                                                            diagnostics_ing2
+                                                                            ==
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    "
+                                                                                class="button btn"
+                                                                                >J'ajoute
+                                                                                ma
+                                                                                crème
+                                                                                personnalisée
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing2
+                                                                            !=
+                                                                            diagnostics_ing1
+                                                                            and
+                                                                            diagnostics_ing1
+                                                                            !=
+                                                                            diagnostics_ing3
+                                                                            and
+                                                                            diagnostics_ing2
+                                                                            !=
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    "
+                                                                                class="button btn"
+                                                                                >J'ajoute
+                                                                                ma
+                                                                                crème
+                                                                                personnalisée
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                        </p>
+                                                                        <p
+                                                                            class="text-center"
+                                                                        >
+                                                                            <a
+                                                                                style="
+                                                                                    text-decoration: underline;
+                                                                                    font-weight: 600;
+                                                                                    color: #575756;
+                                                                                "
+                                                                                href="https://hilo-cosmetiques.fr/products/creme-visage-naturelle-personnalisable-rechargeable?open=true"
+                                                                                >Je
+                                                                                modifie
+                                                                                mes
+                                                                                huiles
+                                                                                végétales</a
+                                                                            >
+                                                                        </p>
+                                                                    </li>
+                                                                    <li
+                                                                        style=""
+                                                                    ></li>
+                                                                    <li
+                                                                        style=""
+                                                                    >
+                                                                        <div
+                                                                            class=""
+                                                                        >
+                                                                            {%
+                                                                            render
+                                                                            'card-product',
+                                                                            card_product:
+                                                                            section.settings.product2,
+                                                                            media_aspect_ratio:
+                                                                            true,
+                                                                            show_secondary_image:
+                                                                            true,
+                                                                            show_vendor:
+                                                                            section.settings.show_vendor,
+                                                                            show_rating:
+                                                                            true,
+                                                                            show_quick_add:
+                                                                            false,
+                                                                            show_text:
+                                                                            true,
+                                                                            text1:
+                                                                            "Je
+                                                                            choisis
+                                                                            à
+                                                                            l'étape
+                                                                            suivante
+                                                                            si
+                                                                            je
+                                                                            souhaite
+                                                                            le
+                                                                            format
+                                                                            pot
+                                                                            +
+                                                                            recharge
+                                                                            ou
+                                                                            recharge
+                                                                            seule.",
+                                                                            section_id:
+                                                                            section.id
+                                                                            %}
+                                                                        </div>
+                                                                        <p
+                                                                            class="text-center pb-10 mt-10"
+                                                                        >
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing1
+                                                                            ==
+                                                                            diagnostics_ing2
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
+    "
+                                                                                class="button btn"
+                                                                                >J’ajoute
+                                                                                mon
+                                                                                combo
+                                                                                personnalisé
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing1
+                                                                            ==
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    "
+                                                                                class="button btn"
+                                                                                >J’ajoute
+                                                                                mon
+                                                                                combo
+                                                                                personnalisé
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing2
+                                                                            ==
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    "
+                                                                                class="button btn"
+                                                                                >J’ajoute
+                                                                                mon
+                                                                                combo
+                                                                                personnalisé
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing2
+                                                                            ==
+                                                                            diagnostics_ing1
+                                                                            and
+                                                                            diagnostics_ing2
+                                                                            ==
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    "
+                                                                                class="button btn"
+                                                                                >J’ajoute
+                                                                                mon
+                                                                                combo
+                                                                                personnalisé
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                            {%
+                                                                            if
+                                                                            diagnostics_ing2
+                                                                            !=
+                                                                            diagnostics_ing1
+                                                                            and
+                                                                            diagnostics_ing1
+                                                                            !=
+                                                                            diagnostics_ing3
+                                                                            and
+                                                                            diagnostics_ing2
+                                                                            !=
+                                                                            diagnostics_ing3
+                                                                            %}
+                                                                            <a
+                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    "
+                                                                                class="button btn"
+                                                                                >J’ajoute
+                                                                                mon
+                                                                                combo
+                                                                                personnalisé
+                                                                                au
+                                                                                panier</a
+                                                                            >
+                                                                            {%
+                                                                            endif
+                                                                            %}
+                                                                        </p>
+                                                                        <p
+                                                                            class="text-center"
+                                                                        >
+                                                                            <a
+                                                                                style="
+                                                                                    text-decoration: underline;
+                                                                                    font-weight: 600;
+                                                                                    color: #575756;
+                                                                                "
+                                                                                href="https://hilo-cosmetiques.fr/products/coffret-hilo?open=true"
+                                                                                >Je
+                                                                                modifie
+                                                                                mes
+                                                                                huiles
+                                                                                végétales</a
+                                                                            >
+                                                                        </p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
+                                                    {% endif %}
+                                                    <style>
+                                                        .collection
+                                                            .card
+                                                            .card__heading {
+                                                            min-height: 5.5rem;
+                                                        }
+                                                        .collection-result {
+                                                            display: grid;
+                                                            grid-template-columns: 0.5fr 1.5fr 0.2fr 1.5fr 0.5fr;
+                                                            column-gap: 30px;
+                                                            max-width: 1100px;
+                                                            margin: 0 auto;
+                                                        }
+                                                        .collection-result h3 {
+                                                            text-align: center;
+                                                            font-weight: 600;
+                                                            color: #575756;
+                                                            margin-bottom: 15px !important;
+                                                        }
+                                                        .collection-result
+                                                            .card__heading {
+                                                        }
+                                                        .collection-result
+                                                            .legend {
+                                                            display: none;
+                                                        }
+                                                        .corner-top {
+                                                            top: -10px;
+                                                        }
+                                                        .h2-collection {
+                                                            font-weight: 600;
+                                                            margin-bottom: 15px !important;
+                                                            color: #575756;
+                                                            font-size: 20px;
+                                                        }
+                                                        .h3-collection {
+                                                            font-weight: 700;
+                                                            margin-bottom: 25px !important;
+                                                            color: #575756;
+                                                            font-size: 22px;
+                                                        }
+                                                        .container-result-p {
+                                                            padding-top: 10px;
+                                                        }
+                                                        .container-result.flex {
+                                                            margin-bottom: 0px;
+                                                            column-gap: 40px;
+                                                            align-items: center;
+                                                            padding-left: 20px;
+                                                            padding-right: 20px;
+                                                            font-size: 16px;
+                                                        }
+                                                        .container-result.flex
+                                                            b {
+                                                            text-decoration: underline;
+                                                            font-weight: 600;
+                                                            color: #575756;
+                                                        }
+                                                        .small-font {
+                                                            font-size: 12px !important;
+                                                            line-height: 14px;
+                                                            margin-bottom: 15px;
+                                                        }
+                                                        .div-with-svg {
+                                                            margin-bottom: 40px;
+                                                        }
+                                                        .container-routine {
+                                                            margin-top: 40px;
+                                                        }
+                                                        .container-routine h2 {
+                                                            font-weight: 700;
+                                                            color: #575756;
+                                                        }
+                                                        .container-routine
+                                                            .button:after,
+                                                        .container-routine
+                                                            .button:before {
+                                                            content: none !important;
+                                                        }
+                                                        .container-routine
+                                                            .button {
+                                                            background: #D0C4E2;
+                                                            font-weight: 600;
+                                                            border-radius: 26px;
+                                                            padding: 5px 40px;
+                                                            width: 100%;
+                                                        }
+                                                        .div-with-svg h2 {
+                                                            font-weight: 700;
+                                                            color: #575756;
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        .div-with-svg p {
+                                                            font-size: 14px;
+                                                            color: #575756;
+                                                        }
+                                                        /* Result */
 
-</ul>                            
+                                                        .container-routine,
+                                                        .two-columns {
+                                                            margin-right: auto;
+                                                            margin-left: auto;
+                                                        }
+                                                        .one-column2 {
+                                                            background: #FEF4EC;
+                                                            border: 2px solid
+                                                                #FBD1AD;
+                                                            border-radius: 26px;
+                                                            color: #575756;
+                                                        }
+                                                        .one-column-style {
+                                                            background: #FEF4EC;
+                                                            border: 2px solid
+                                                                #FBD1AD;
+                                                            border-radius: 26px;
+                                                            color: #575756;
+                                                        }
+                                                        .one-column h3 {
+                                                            font-weight: 700;
+                                                            font-size: 24px;
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        .one-column p {
+                                                            font-size: 16px;
+                                                            margin-bottom: 15px;
+                                                        }
+                                                        .bg_pink
+                                                            img:nth-child(2) {
+                                                            border-radius: 50%;
+                                                            object-fit: cover;
+                                                            max-width: 350px;
+                                                            height: 350px;
+                                                        }
+                                                        .bg_pink .center-flex {
+                                                            display: flex;
+                                                            align-items: center;
+                                                        }
+                                                        .bg_pink {
+                                                            padding-top: 0px;
+                                                        }
+                                                        .bg_pink
+                                                            .image-with-text__content {
+                                                            padding-right: 0px;
+                                                        }
+                                                        .bg_pink strong,
+                                                        .bg_pink b {
+                                                            color: #575756 !important;
+                                                            font-weight: 600 !important;
+                                                        }
+                                                        .bg_pink
+                                                            .top-wavestop2 {
+                                                            left: 1px;
+                                                            height: 142px;
+                                                            width: 60px;
+                                                            right: auto;
+                                                            top: -40px;
+                                                            filter: brightness(
+                                                                    0
+                                                                )
+                                                                invert(1);
+                                                        }
+                                                        @media (max-width: 980px) {
+                                                            .section-template--18831072788775__dd609f34-4526-4f2a-bc99-588c24c8b0c2-padding {
+                                                                padding-bottom: 0px !important;
+                                                            }
+                                                            #Slide-template--18831072788775__dd609f34-4526-4f2a-bc99-588c24c8b0c2-2
+                                                                .card__information {
+                                                                row-gap: 10px;
+                                                                margin-bottom: 20px;
+                                                            }
 
-
-
-  <!--<h2>
-    test ingredientes
-  </h2>-->
-
-
-  
-          
+                                                            .collection
+                                                                .card
+                                                                .card__heading {
+                                                                min-height: 1em;
+                                                            }
+                                                            .card--standard
+                                                                .card__inner
+                                                                .card__content {
+                                                                display: none !important;
+                                                            }
+                                                            .collection-result {
+                                                                row-gap: 20px;
+                                                            }
+                                                            .two-columns {
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                margin-top: 20px;
+                                                                row-gap: 30px;
+                                                            }
+                                                            .m-20 {
+                                                                margin: 10px !important;
+                                                            }
+                                                            .mb-20 {
+                                                                margin-bottom: 10px !important;
+                                                            }
+                                                            .px-20 {
+                                                                padding-left: 2rem !important;
+                                                                padding-right: 2rem !important;
+                                                            }
+                                                        }
+                                                    </style>
+                                                    {% schema %} { "name":
+                                                    "Result", "settings": [ {
+                                                    "type": "product", "id":
+                                                    "product", "label":
+                                                    "product" }, { "type":
+                                                    "product", "id": "product2",
+                                                    "label": "product2" } ],
+                                                    "blocks": [ { "type":
+                                                    "image", "name": "image",
+                                                    "settings": [ { "type":
+                                                    "image_picker", "id":
+                                                    "image", "label": "image" }
+                                                    ] } ], "presets": [ {
+                                                    "name": "Result Quiz",
+                                                    "category": "Result ",
+                                                    "blocks": [ ] } ] } {%
+                                                    endschema %} {% stylesheet
+                                                    %} {% endstylesheet %} {%
+                                                    javascript %} {%
+                                                    endjavascript %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-        </div>
-        </div>
-        
-      {% endif %}
-      <style>
-        .collection .card .card__heading {
-              min-height: 5.5rem;
-        }
-        .collection-result {
-          display:grid; grid-template-columns:0.5fr 1.5fr 0.2fr  1.5fr 0.5fr; column-gap:30px; max-width: 1100px;
-    margin: 0 auto;
-        }
-.collection-result h3 {
-  text-align:center;
-   font-weight:600;
-    color:#575756;
-       margin-bottom:15px !important; 
-}
-         .collection-result .card__heading {}
-       .collection-result .legend  {
-          display:none;
-        }
-        .corner-top {
-  
-    top: -10px; }
-        .h2-collection {
-          font-weight:600;
-          margin-bottom:15px !important; 
-          color:#575756;
-          font-size:20px;
-        }
-         .h3-collection {
-          font-weight:700;
-          margin-bottom:25px !important; 
-          color:#575756;
-          font-size:22px;
-        }
-.container-result-p {
-      padding-top: 10px;
-}
-        .container-result.flex {
-          margin-bottom:0px;
-          column-gap: 40px;
-          align-items: center;
-              padding-left: 20px;
-            padding-right: 20px;
-          font-size:16px;
-        }
-          .container-result.flex  b {
-            text-decoration:underline;
-            font-weight:600;
-            color:#575756;
-          
-          }
-        .small-font {
-          font-size:12px !important; 
-          line-height:14px;
-          margin-bottom:15px;
-        }
-.div-with-svg {
-  margin-bottom:40px;
-}
-        .container-routine {
-          margin-top:40px;
-        }
-        .container-routine h2{
-              font-weight:700;
-          color:#575756;
-        }
-        .container-routine .button:after , .container-routine .button:before {
-          content:none !important;
-        }
-        .container-routine .button {
-              background: #D0C4E2;
-    font-weight: 600;
-    border-radius: 26px;
-    padding: 5px 40px;
-          width:100%;
-        }
-        .div-with-svg h2 {
-          font-weight:700;
-          color:#575756;
-          margin-bottom:20px;
-          
-        }
-         .div-with-svg p {
-           font-size:14px;
-           color:#575756;
-         }
-        /* Result */
-
-        .container-routine , .two-columns{
-        
-          margin-right:auto;
-          margin-left:auto;
-        }
-  .one-column2  {
-    background:#FEF4EC;
-    border:2px solid #FBD1AD;
-    border-radius:26px;
-    color:#575756;
-  }
-        .one-column-style {
-           background:#FEF4EC;
-    border:2px solid #FBD1AD;
-    border-radius:26px;
-    color:#575756;
-        }
-   .one-column h3 {
-   font-weight:700;
-     font-size:24px;
-     margin-bottom:20px;
-   }
-  .one-column p
-  {
-    font-size:16px;
-     margin-bottom:15px;
-  }
-        .bg_pink img:nth-child(2) {
-          border-radius: 50%;
-          object-fit: cover;
-          max-width: 350px;
-          height: 350px;
-        }
-        .bg_pink .center-flex {
-        display: flex;
-    align-items: center;
-        }
-        .bg_pink {
-          padding-top:0px;
-        }
-        .bg_pink .image-with-text__content {
-          padding-right:0px;
-        }
-       .bg_pink strong,  .bg_pink b {
-          color:#575756 !important;
-          font-weight:600 !important;
-        }
-        .bg_pink .top-wavestop2 {
-    left: 1px;
-    height: 142px;
-    width: 60px;
-    right: auto;
-    top: -40px;
-    filter: brightness(0) invert(1);
-        }
-        @media (max-width:980px) {
-.section-template--18831072788775__dd609f34-4526-4f2a-bc99-588c24c8b0c2-padding {
-padding-bottom:0px !important; }
-   #Slide-template--18831072788775__dd609f34-4526-4f2a-bc99-588c24c8b0c2-2  .card__information   {
-    row-gap: 10px;
-    margin-bottom: 20px;
-}
-
-          .collection .card .card__heading {
-          min-height:1em ; 
-          }
-.card--standard .card__inner .card__content {
-  display:none !important;
-}
-         .collection-result {
-         row-gap:20px;
-        }
-          .two-columns {
-                display: flex;
-    flex-direction: column;
-            margin-top:20px;
-            row-gap:30px;
-          }
-           .m-20 {
-      margin:10px !important;
-    }
-    .mb-20  {
-      
-    margin-bottom:10px !important;
-    }
-    .px-20 {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-}
-        }
-  
-      </style>
-{% schema %}
-   {
-    "name": "Result",
-    "settings": [
-      {
-        "type": "product",
-      "id": "product",
-      "label": "product"
-      }, {
-        "type": "product",
-      "id": "product2",
-      "label": "product2"
-      }
-    ],
-      "blocks": [
-    {
-      "type": "image",
-      "name": "image",
-      "settings": [
-
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "image"
-        }
-      ]
-    }
-  ],
-   "presets": [
-    {
-      "name": "Result Quiz",
-      "category": "Result ",
-      "blocks": [
-      ]
-    }
-  ]
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+</div>
