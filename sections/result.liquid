@@ -161,7 +161,81 @@ diagnosticos[0] %} {% if customer %}
         </g>
     </svg>
 </div>
-
+            {% assign diagnostics_ing3 = diagnostics.ing3 %} {% if
+            diagnostics.preocupa1 == 'Brillance' %} {% assign diagnostics_ing3 =
+            'Noisette' %} {% endif %} {% if diagnostics.preocupa1 ==
+            'Deshydratation' %} {% assign diagnostics_ing3 = 'Onagre' %} {%
+            endif %} {% if diagnostics.preocupa1 == 'Imperfections' %} {% if
+            diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %} {% assign
+            diagnostics_ing3 = 'Noisette' %} {% endif %} {% endif %} {% if
+            diagnostics.preocupa1 == 'Rougeurs' %} {% if diagnostics.f52 ==
+            'f52a' or diagnostics.f52 == 'f52b' %} {% assign diagnostics_ing3 =
+            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
+            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
+            endif %} {% if diagnostics.preocupa1 == 'Eclat' and diagnostics.f53
+            == 'f53a' %} {% assign diagnostics_ing3 = 'Carotte' %} {% comment %}
+            Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% if diagnostics.preocupa1
+            == 'Eclat' and diagnostics.f53 == 'f53b' %} {% assign
+            diagnostics_ing3 = 'Abricot' %} {% comment %} Puedes agregar aquí
+            cualquier otra lógica o acciones adicionales necesarias {%
+            endcomment %} {% endif %} {% if diagnostics.preocupa1 == 'Signes' %}
+            {% if diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %} {%
+            assign diagnostics_ing3 = 'Argan' %} {% comment %} Puedes agregar
+            aquí cualquier otra lógica o acciones adicionales necesarias {%
+            endcomment %} {% endif %} {% endif %} {% assign diagnostics_ing2 =
+            diagnostics.ing2 %} {% if diagnostics.preocupa2 == 'Imperfections'
+            %} {% if diagnostics.f51 == 'f51a' or diagnostics.f51 == 'f51b' %}
+            {% assign diagnostics_ing2 = 'Noisette' %} {% comment %} Puedes
+            agregar aquí cualquier otra lógica o acciones adicionales necesarias
+            {% endcomment %} {% endif %} {% elsif diagnostics.preocupa2 ==
+            'Rougeurs' %} {% if diagnostics.f52 == 'f52a' or diagnostics.f52 ==
+            'f52b' %} {% assign diagnostics_ing2 = 'Amande' %} {% comment %}
+            Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% elsif
+            diagnostics.preocupa2 == 'Eclat' %} {% if diagnostics.f53 == 'f53a'
+            %} {% assign diagnostics_ing2 = 'Carotte' %} {% elsif
+            diagnostics.f53 == 'f53b' %} {% assign diagnostics_ing2 = 'Abricot'
+            %} {% endif %} {% elsif diagnostics.preocupa2 == 'Signes' %} {% if
+            diagnostics.f54 == 'f54a' or diagnostics.f54 == 'f54b' %} {% assign
+            diagnostics_ing2 = 'Argan' %} {% comment %} Puedes agregar aquí
+            cualquier otra lógica o acciones adicionales necesarias {%
+            endcomment %} {% endif %} {% elsif diagnostics.preocupa2 ==
+            'Brillance' %} {% assign diagnostics_ing2 = 'Noisette' %} {% comment
+            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% elsif diagnostics.preocupa2 ==
+            'Deshydratation' %} {% assign diagnostics_ing2 = 'Onagre' %} {%
+            comment %} Puedes agregar aquí cualquier otra lógica o acciones
+            adicionales necesarias {% endcomment %} {% endif %} {% assign
+            diagnostics_ing1 = diagnostics.ing1 %} {% if diagnostics.preocupa3
+            == 'Imperfections' %} {% if diagnostics.f51 == 'f51a' or
+            diagnostics.f51 == 'f51b' %} {% assign diagnostics_preocupa3 =
+            'Noisette' %} {% assign diagnostics_ing1 = 'Noisette' %} {% comment
+            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% elsif
+            diagnostics.preocupa3 == 'Rougeurs' %} {% if diagnostics.f52 ==
+            'f52a' or diagnostics.f52 == 'f52b' %} {% assign
+            diagnostics_preocupa3 = 'Amande' %} {% assign diagnostics_ing1 =
+            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
+            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
+            elsif diagnostics.preocupa3 == 'Eclat' %} {% if diagnostics.f53 ==
+            'f53a' %} {% assign diagnostics_preocupa3 = 'Carotte' %} {% assign
+            diagnostics_ing1 = 'Carotte' %} {% elsif diagnostics.f53 == 'f53b'
+            %} {% assign diagnostics_preocupa3 = 'Abricot' %} {% assign
+            diagnostics_ing1 = 'Abricot' %} {% endif %} {% elsif
+            diagnostics.preocupa3 == 'Signes' %} {% if diagnostics.f54 == 'f54a'
+            or diagnostics.f54 == 'f54b' %} {% assign diagnostics_preocupa3 =
+            'Argan' %} {% assign diagnostics_ing1 = 'Argan' %} {% comment %}
+            Puedes agregar aquí cualquier otra lógica o acciones adicionales
+            necesarias {% endcomment %} {% endif %} {% elsif
+            diagnostics.preocupa3 == 'Brillance' %} {% assign
+            diagnostics_preocupa3 = 'Noisette' %} {% assign diagnostics_ing1 =
+            'Noisette' %} {% comment %} Puedes agregar aquí cualquier otra
+            lógica o acciones adicionales necesarias {% endcomment %} {% elsif
+            diagnostics.preocupa3 == 'Deshydratation' %} {% assign
+            diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
+            'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
+            o acciones adicionales necesarias {% endcomment %} {% endif %}
                                                             <div
                                                                 class="container-routine mt-20 page-width"
                                                             >
