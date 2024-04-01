@@ -123,7 +123,7 @@ diagnosticos[0] %} {% if customer %}
                 Nous avons sélectionné pour vous les capsules d'actif suivantes, reconnues pour leur propriété :
             </p>
             <div class="container-image">
-
+              <div class="ingredients_inline">
                 {% assign ing1_image = '' %}
                 {% if diagnostics.ing1 == 'Amande' %}
                   {% assign ing1_image = 'amande-capsule.png' %}
@@ -144,7 +144,9 @@ diagnosticos[0] %} {% if customer %}
                     alt="Imagen del ingrediente 1"
                     style="width: 64px"
                 />
-              
+
+              </div>
+                <div class="ingredients_inline">
                 {% assign ing2_image = '' %}
                 {% if diagnostics.ing2 == 'Amande' %}
                   {% assign ing2_image = 'amande-capsule.png' %}
@@ -165,7 +167,8 @@ diagnosticos[0] %} {% if customer %}
                     alt="Imagen del ingrediente 2"
                     style="width: 64px"
                 />
-
+                </div>
+                  <div class="ingredients_inline">
                 {% assign ing3_image = '' %}
                 {% if diagnostics.ing3 == 'Amande' %}
                   {% assign ing3_image = 'amande-capsule.png' %}
@@ -186,6 +189,7 @@ diagnosticos[0] %} {% if customer %}
                     alt="Imagen del ingrediente 2"
                     style="width: 64px"
                 />
+                  </div>
             </div>
 
         </div>
