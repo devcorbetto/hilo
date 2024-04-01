@@ -229,7 +229,7 @@ diagnosticos[0] %} {% if customer %}
                     alt="Imagen del ingrediente 1"
                     style="width: 44px"
                 />
-                <p>{{ benefice }}</p>
+                <p id="setBen1">{{ benefice }}</p>
 
               </div>
                 <div class="ingredients_inline">
@@ -260,7 +260,7 @@ diagnosticos[0] %} {% if customer %}
                     alt="Imagen del ingrediente 2"
                     style="width: 44px"
                 />
-                  <p>{{ benefice }}</p>
+                  <p id="setBen2">{{ benefice }}</p>
                 </div>
                   <div class="ingredients_inline">
 <script>
@@ -273,8 +273,8 @@ setTimeout(function(){
   $("#imgIngrediente2").attr("src", imgsrc2);
   $("#imgIngrediente3").attr("src", imgsrc3);
 
-  var ing3_img = $("#bold").html()
-  alert(ing3_img);
+  var ing3_img = $("#bold").html();
+   $("#setBen3").html(ing3_img);
   
 }, 1);
 
@@ -306,7 +306,7 @@ setTimeout(function(){
                     alt="Imagen del ingrediente 3"
                     style="width: 44px"
                 />
-                <p>{{ benefice }}</p>
+                <p id="setBen3">{{ benefice }}</p>
                   </div>
             </div>
 
