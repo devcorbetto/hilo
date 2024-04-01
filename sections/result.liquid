@@ -265,14 +265,14 @@ diagnosticos[0] %} {% if customer %}
                   <div class="ingredients_inline">
 <script>
 setTimeout(function(){
-  var imgsrc = document.getElementById("imgSrcIngredient1").src;
-  var imgsrc = document.getElementById("imgSrcIngredient2").src;
-  var imgsrc = document.getElementById("imgSrcIngredient3").src;
+  var imgsrc1 = document.getElementById("imgSrcIngredient1").src;
+  var imgsrc2 = document.getElementById("imgSrcIngredient2").src;
+  var imgsrc3 = document.getElementById("imgSrcIngredient3").src;
 
-  $("#imgIngrediente1").attr("src", imgsrc);
-  $("#imgIngrediente2").attr("src", imgsrc);
-  $("#imgIngrediente3").attr("src", imgsrc);
-}, 10);
+  $("#imgIngrediente1").attr("src", imgsrc1);
+  $("#imgIngrediente2").attr("src", imgsrc2);
+  $("#imgIngrediente3").attr("src", imgsrc3);
+}, 1);
 
 </script>
                   {% assign ing3_image = '' %}
