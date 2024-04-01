@@ -1039,34 +1039,34 @@ diagnosticos[0] %} {% if customer %}
                                                             diagnostics.ing2 ==
                                                             'Amande' %} {%
                                                             assign ing2_image =
-                                                            'amande-capsule.svg' %} {%
+                                                            'amande-capsule.png' %} {%
                                                             elsif
                                                             diagnostics.ing2 ==
                                                             'Onagre' %} {%
                                                             assign ing2_image =
-                                                            'onagre-capsule.svg' %} {%
+                                                            'onagre-capsule.png' %} {%
                                                             elsif
                                                             diagnostics.ing2 ==
                                                             'Argan' %} {% assign
                                                             ing2_image =
-                                                            'argan-capsule.svg' %} {%
+                                                            'argan-capsule.png' %} {%
                                                             elsif
                                                             diagnostics.ing2 ==
                                                             'Abricot' %} {%
                                                             assign ing2_image =
-                                                            'abricot-capsule.svg' %} {%
+                                                            'abricot-capsule.png' %} {%
                                                             elsif
                                                             diagnostics.ing2 ==
                                                             'Noisette' %} {%
                                                             assign ing2_image =
-                                                            'noisette-capsule.svg' %}
+                                                            'noisette-capsule.png' %}
                                                             {% else %} {% assign
                                                             ing2_image =
-                                                            'carotte-capsule.svg' %} {%
+                                                            'carotte-capsule.png' %} {%
                                                             endif %} {% else %}
                                                             {% assign ing2_image
                                                             = diagnostics_ing2 |
-                                                            append: '2.svg' |
+                                                            append: '-capsule.png' |
                                                             downcase %} {% endif
                                                             %}
 
@@ -1181,7 +1181,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 assign
                                                                                 ing3_image
                                                                                 =
-                                                                                'amande2.svg'
+                                                                                'amande-capsule.png'
                                                                                 %}
                                                                                 {%
                                                                                 elsif
@@ -1193,7 +1193,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 assign
                                                                                 ing3_image
                                                                                 =
-                                                                                'onagre2.svg'
+                                                                                'onagre-capsule.png'
                                                                                 %}
                                                                                 {%
                                                                                 elsif
@@ -1205,7 +1205,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 assign
                                                                                 ing3_image
                                                                                 =
-                                                                                'argan2.svg'
+                                                                                'argan-capsule.png'
                                                                                 %}
                                                                                 {%
                                                                                 elsif
@@ -1217,7 +1217,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 assign
                                                                                 ing3_image
                                                                                 =
-                                                                                'abricot2.svg'
+                                                                                'abricot-capsule.png'
                                                                                 %}
                                                                                 {%
                                                                                 elsif
@@ -1229,7 +1229,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 assign
                                                                                 ing3_image
                                                                                 =
-                                                                                'noisette2.svg'
+                                                                                'noisette-capsule.png'
                                                                                 %}
                                                                                 {%
                                                                                 else
@@ -1238,7 +1238,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 assign
                                                                                 ing3_image
                                                                                 =
-                                                                                'carotte.png'
+                                                                                'carotte-capsule.png'
                                                                                 %}
                                                                                 {%
                                                                                 endif
@@ -1253,7 +1253,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                 diagnostics_ing3
                                                                                 |
                                                                                 append:
-                                                                                '2.svg'
+                                                                                '-capsule.png'
                                                                                 |
                                                                                 downcase
                                                                                 %}
