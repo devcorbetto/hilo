@@ -9,6 +9,15 @@
   margin:auto;
 }
 
+.ingredients_inline img{
+  margin:auto;
+  margin-bottom:1rem;
+}
+
+.ingredients_inline p{
+  font-weight:500;
+}
+
 .product__tax{
   display:none;
 }
