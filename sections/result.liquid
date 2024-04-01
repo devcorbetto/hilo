@@ -123,6 +123,28 @@ diagnosticos[0] %} {% if customer %}
                 Nous avons sélectionné pour vous les capsules d'actif suivantes, reconnues pour leur propriété :
             </p>
             <div class="container-image">
+
+                {% assign ing1_image = '' %}
+                {% if diagnostics.ing1 == 'Amande' %}
+                  {% assign ing1_image = 'amande-capsule.png' %}
+                {% elsif diagnostics.ing1 == 'Onagre' %}
+                  {% assign ing1_image = 'onagre-capsule.png'%} 
+                {% elsif diagnostics.ing1 == 'Argan' %} 
+                  {% assign ing1_image ='argan-capsule.png' %}
+                {% elsif diagnostics.ing1 == 'Abricot' %}
+                  {% assign ing1_image = 'abricot-capsule.png' %}
+                {% elsif diagnostics.ing1 == 'Noisette' %}
+                  {% assign ing1_image = 'noisette-capsule.png' %}
+                {% else %}
+                  {% assign ing1_image ='carotte-capsule.png' %}
+                {% endif %}
+
+                <img
+                    src="{{ ing1_image | asset_url }}"
+                    alt="Imagen del ingrediente 1"
+                    style="width: 64px"
+                />
+              
                 {% assign ing2_image = '' %}
                 {% if diagnostics.ing2 == 'Amande' %}
                   {% assign ing2_image = 'amande-capsule.png' %}
