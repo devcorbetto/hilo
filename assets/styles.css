@@ -1,3 +1,13 @@
+.container-image{
+  display: inline-flex;
+  margin: auto;
+  width: 100%;
+}
+
+.ingredients_inline{
+  margin:auto;
+}
+
 .product__tax{
   display:none;
 }
