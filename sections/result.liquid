@@ -265,6 +265,8 @@ diagnosticos[0] %} {% if customer %}
                   <div class="ingredients_inline">
 <script>
   var imgsrc = document.getElementById("imgIngrediente2").src;
+  
+  image.src = searchPic.src;
   alert(imgsrc);
 </script>
                   {% assign ing3_image = '' %}
@@ -1059,7 +1061,7 @@ diagnosticos[0] %} {% if customer %}
 
                                         <img
                                             src="{{ ing1_image | asset_url }}"
-                                            id="imgIngrediente1"
+                                            id="imgSrcIngredient1"
                                             alt="Imagen del ingrediente 1"
                                             style="width: 44px"
                                         />
@@ -1158,6 +1160,7 @@ diagnosticos[0] %} {% if customer %}
 
                                                             <img
                                                                 src="{{ ing2_image | asset_url }}"
+                                                                id="imgSrcIngredient2"
                                                                 alt="Imagen del ingrediente 2"
                                                                 style="
                                                                     width: 44px;
@@ -1349,6 +1352,7 @@ diagnosticos[0] %} {% if customer %}
 
                                                                                 <img
                                                                                     src="{{ ing3_image | asset_url }}"
+                                                                                    id="imgSrcIngredient3"
                                                                                     alt="Imagen del ingrediente 3"
                                                                                     style="
                                                                                         width: 44px;
