@@ -125,19 +125,25 @@ diagnosticos[0] %} {% if customer %}
             <div class="container-ingredients">
               <div class="ingredients_inline">
                 {% assign ing1_image = '' %}
-                {% if diagnostics.ing1 == 'Amande' %}
-                  {% assign ing1_image = 'amande-capsule.png' %}
-                {% elsif diagnostics.ing1 == 'Onagre' %}
-                  {% assign ing1_image = 'onagre-capsule.png'%} 
-                {% elsif diagnostics.ing1 == 'Argan' %} 
-                  {% assign ing1_image ='argan-capsule.png' %}
-                {% elsif diagnostics.ing1 == 'Abricot' %}
-                  {% assign ing1_image = 'abricot-capsule.png' %}
-                {% elsif diagnostics.ing1 == 'Noisette' %}
-                  {% assign ing1_image = 'noisette-capsule.png' %}
-                {% else %}
-                  {% assign ing1_image ='carotte-capsule.png' %}
-                {% endif %}
+                  {% if diagnostics.ing1 == 'Amande' %}
+                    {% assign ing1_image = 'amande-capsule.png' %}
+                    {% assign benefice = 'Apaisante' %}
+                  {% elsif diagnostics.ing1 == 'Onagre' %}
+                    {% assign ing1_image = 'onagre-capsule.png'%} 
+                    {% assign benefice = 'Hydratante' %}
+                  {% elsif diagnostics.ing1 == 'Argan' %} 
+                    {% assign ing1_image ='argan-capsule.png' %}
+                    {% assign benefice = 'Anti-âge' %}
+                  {% elsif diagnostics.ing1 == 'Abricot' %}
+                    {% assign ing1_image = 'abricot-capsule.png' %}
+                    {% assign benefice = 'Illuminante' %}
+                  {% elsif diagnostics.ing1 == 'Noisette' %}
+                    {% assign ing1_image = 'noisette-capsule.png' %}
+                    {% assign benefice = 'Anti-imperfections' %}
+                  {% else %}
+                    {% assign ing1_image ='carotte-capsule.png' %}
+                    {% assign benefice = 'Bonne mine' %}
+                  {% endif %}
 
                 <img
                     src="{{ ing1_image | asset_url }}"
@@ -148,19 +154,25 @@ diagnosticos[0] %} {% if customer %}
               </div>
                 <div class="ingredients_inline">
                 {% assign ing2_image = '' %}
-                {% if diagnostics.ing2 == 'Amande' %}
-                  {% assign ing2_image = 'amande-capsule.png' %}
-                {% elsif diagnostics.ing2 == 'Onagre' %}
-                  {% assign ing2_image = 'onagre-capsule.png'%} 
-                {% elsif diagnostics.ing2 == 'Argan' %} 
-                  {% assign ing2_image ='argan-capsule.png' %}
-                {% elsif diagnostics.ing2 == 'Abricot' %}
-                  {% assign ing2_image = 'abricot-capsule.png' %}
-                {% elsif diagnostics.ing2 == 'Noisette' %}
-                  {% assign ing2_image = 'noisette-capsule.png' %}
-                {% else %}
-                  {% assign ing2_image ='carotte-capsule.png' %}
-                {% endif %}
+                  {% if diagnostics.ing2 == 'Amande' %}
+                    {% assign ing2_image = 'amande-capsule.png' %}
+                    {% assign benefice = 'Apaisante' %}
+                  {% elsif diagnostics.ing2 == 'Onagre' %}
+                    {% assign ing2_image = 'onagre-capsule.png'%} 
+                    {% assign benefice = 'Hydratante' %}
+                  {% elsif diagnostics.ing2 == 'Argan' %} 
+                    {% assign ing2_image ='argan-capsule.png' %}
+                    {% assign benefice = 'Anti-âge' %}
+                  {% elsif diagnostics.ing2 == 'Abricot' %}
+                    {% assign ing2_image = 'abricot-capsule.png' %}
+                    {% assign benefice = 'Illuminante' %}
+                  {% elsif diagnostics.ing2 == 'Noisette' %}
+                    {% assign ing2_image = 'noisette-capsule.png' %}
+                    {% assign benefice = 'Anti-imperfections' %}
+                  {% else %}
+                    {% assign ing2_image ='carotte-capsule.png' %}
+                    {% assign benefice = 'Bonne mine' %}
+                  {% endif %}
             
                 <img
                     src="{{ ing2_image | asset_url }}"
@@ -169,26 +181,26 @@ diagnosticos[0] %} {% if customer %}
                 />
                 </div>
                   <div class="ingredients_inline">
-                {% assign ing3_image = '' %}
-                {% if diagnostics.ing3 == 'Amande' %}
-                  {% assign ing3_image = 'amande-capsule.png' %}
-                  {% assign benefice = 'Apaisante' %}
-                {% elsif diagnostics.ing3 == 'Onagre' %}
-                  {% assign ing3_image = 'onagre-capsule.png'%} 
-                  {% assign benefice = 'Hydratante' %}
-                {% elsif diagnostics.ing3 == 'Argan' %} 
-                  {% assign ing3_image ='argan-capsule.png' %}
-                  {% assign benefice = 'Anti-âge' %}
-                {% elsif diagnostics.ing3 == 'Abricot' %}
-                  {% assign ing3_image = 'abricot-capsule.png' %}
-                  {% assign benefice = 'Illuminante' %}
-                {% elsif diagnostics.ing3 == 'Noisette' %}
-                  {% assign ing3_image = 'noisette-capsule.png' %}
-                  {% assign benefice = 'Anti-imperfections' %}
-                {% else %}
-                  {% assign ing3_image ='carotte-capsule.png' %}
-                  {% assign benefice = 'Bonne mine' %}
-                {% endif %}
+                  {% assign ing3_image = '' %}
+                  {% if diagnostics.ing3 == 'Amande' %}
+                    {% assign ing3_image = 'amande-capsule.png' %}
+                    {% assign benefice = 'Apaisante' %}
+                  {% elsif diagnostics.ing3 == 'Onagre' %}
+                    {% assign ing3_image = 'onagre-capsule.png'%} 
+                    {% assign benefice = 'Hydratante' %}
+                  {% elsif diagnostics.ing3 == 'Argan' %} 
+                    {% assign ing3_image ='argan-capsule.png' %}
+                    {% assign benefice = 'Anti-âge' %}
+                  {% elsif diagnostics.ing3 == 'Abricot' %}
+                    {% assign ing3_image = 'abricot-capsule.png' %}
+                    {% assign benefice = 'Illuminante' %}
+                  {% elsif diagnostics.ing3 == 'Noisette' %}
+                    {% assign ing3_image = 'noisette-capsule.png' %}
+                    {% assign benefice = 'Anti-imperfections' %}
+                  {% else %}
+                    {% assign ing3_image ='carotte-capsule.png' %}
+                    {% assign benefice = 'Bonne mine' %}
+                  {% endif %}
             
                 <img
                     src="{{ ing3_image | asset_url }}"
