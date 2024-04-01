@@ -263,19 +263,19 @@ diagnosticos[0] %} {% if customer %}
                   <div class="ingredients_inline">
 
                   {% assign ing3_image = '' %}
-                  {% if diagnostics_ing3 == 'Amande' %}
+                  {% if diagnostics.ing3 == 'Amande' %}
                     {% assign ing3_image = 'amande-capsule.png' %}
                     {% assign benefice = 'Apaisante' %}
-                  {% elsif diagnostics_ing3 == 'Onagre' %}
+                  {% elsif diagnostics.ing3 == 'Onagre' %}
                     {% assign ing3_image = 'onagre-capsule.png'%} 
                     {% assign benefice = 'Hydratante' %}
-                  {% elsif diagnostics_ing3 == 'Argan' %} 
+                  {% elsif diagnostics.ing3 == 'Argan' %} 
                     {% assign ing3_image ='argan-capsule.png' %}
                     {% assign benefice = 'Anti-âge' %}
-                  {% elsif diagnostics_ing3 == 'Abricot' %}
+                  {% elsif diagnostics.ing3 == 'Abricot' %}
                     {% assign ing3_image = 'abricot-capsule.png' %}
                     {% assign benefice = 'Illuminante' %}
-                  {% elsif diagnostics_ing3 == 'Noisette' %}
+                  {% elsif diagnostics.ing3 == 'Noisette' %}
                     {% assign ing3_image = 'noisette-capsule.png' %}
                     {% assign benefice = 'Anti-imperfections' %}
                   {% else %}
