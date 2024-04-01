@@ -2558,8 +2558,11 @@ footer .newsletter-form__button {  top: 5px;  }
 .product__description  {
  margin-bottom:4rem !important;
 }
-.container-modal > button.button:before, .container-modal > button.button:after {
+.container-modal > button.button:before, .container-modal > button.button:after, a.button:after {
   content:none !important;
+}
+a.button:after{
+  box-shadow:none;
 }
 .container-modal > button.button, .container-modal > a.button {
   margin-bottom:20px;
