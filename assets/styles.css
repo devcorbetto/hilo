@@ -349,7 +349,7 @@ table:not([class]){
   border-radius:40px;
 }
 
-.container-modal > button.button:hover, .collection .quick-add__submit:hover{
+.container-modal > button.button:hover, .collection .quick-add__submit:hover, .container-modal a.button:hover{
   border: 2px solid #D0C4E2;
   background: transparent;
   color:#D0C4E2;
