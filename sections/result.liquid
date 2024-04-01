@@ -266,9 +266,8 @@ diagnosticos[0] %} {% if customer %}
 <script>
 setTimeout(function(){
   var imgsrc = document.getElementById("imgSrcIngredient2").src;
-  
-  alert(imgsrc);
-}, 2000);
+  $("#imgIngrediente2").attr("src", imgsrc);
+}, 1000);
 
 </script>
                   {% assign ing3_image = '' %}
