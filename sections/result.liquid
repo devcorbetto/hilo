@@ -124,6 +124,7 @@ diagnosticos[0] %} {% if customer %}
             </p>
             <div class="container-ingredients">
               <div class="ingredients_inline">
+                {{ diagnostics.ing1 }}
                 {% assign ing1_image = '' %}
                   {% if diagnostics.ing1 == 'Amande' %}
                     {% assign ing1_image = 'amande-capsule.png' %}
@@ -154,6 +155,7 @@ diagnosticos[0] %} {% if customer %}
 
               </div>
                 <div class="ingredients_inline">
+                  {{ diagnostics.ing2 }}
                 {% assign ing2_image = '' %}
                   {% if diagnostics.ing2 == 'Amande' %}
                     {% assign ing2_image = 'amande-capsule.png' %}
@@ -183,6 +185,7 @@ diagnosticos[0] %} {% if customer %}
                   <p>{{ benefice }}</p>
                 </div>
                   <div class="ingredients_inline">
+                    {{ diagnostics.ing3 }}
                   {% assign ing3_image = '' %}
                   {% if diagnostics.ing3 == 'Amande' %}
                     {% assign ing3_image = 'amande-capsule.png' %}
