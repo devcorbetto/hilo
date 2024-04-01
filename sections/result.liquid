@@ -162,14 +162,6 @@ diagnosticos[0] %} {% if customer %}
     </svg>
 </div>
 
-
-
-<div
-    class="two-columns page-width mb-20 flex gap-x-40 mt-20"
-    style="margin-bottom: 40px"
-    x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }"
->
-    {%- for block in section.blocks -%}
                                                             <div
                                                                 class="container-routine mt-20 page-width"
                                                             >
@@ -547,6 +539,15 @@ diagnosticos[0] %} {% if customer %}
                                                                     </li>
                                                                 </ul>
                                                             </div>
+
+<div
+    class="two-columns page-width mb-20 flex gap-x-40 mt-20"
+    style="margin-bottom: 40px"
+    x-data="{ open1: false , open2: false ,open3: false ,open4: false,open5: false ,open6: false }"
+>
+
+    {%- for block in section.blocks -%}
+
 
     <div
         x-show="open{{ forloop.index }} "
