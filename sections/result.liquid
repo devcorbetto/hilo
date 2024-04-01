@@ -152,6 +152,27 @@ diagnosticos[0] %} {% if customer %}
                 <p id="setBen3">{{ benefice }}</p>
                   </div>
             </div>
+          <script>
+            setTimeout(function(){
+            var imgsrc1 = document.getElementById("imgSrcIngredient1").src;
+            var imgsrc2 = document.getElementById("imgSrcIngredient2").src;
+            var imgsrc3 = document.getElementById("imgSrcIngredient3").src;
+            
+            $("#imgIngrediente1").attr("src", imgsrc1);
+            $("#imgIngrediente2").attr("src", imgsrc2);
+            $("#imgIngrediente3").attr("src", imgsrc3);
+            
+            var ing1_img = $("#ing1_img .bold").html();
+            $("#setBen1").html(ing1_img);
+            
+            var ing2_img = $("#ing2_img .bold").html();
+            $("#setBen2").html(ing2_img);
+            
+            var ing3_img = $("#ing3_img .bold").html();
+            $("#setBen3").html(ing3_img);
+            
+            }, 1);
+          </script>
         </div>
     </div>
     <svg
@@ -186,28 +207,7 @@ diagnosticos[0] %} {% if customer %}
         </g>
     </svg>
 </div>
-  <script>
-setTimeout(function(){
-  var imgsrc1 = document.getElementById("imgSrcIngredient1").src;
-  var imgsrc2 = document.getElementById("imgSrcIngredient2").src;
-  var imgsrc3 = document.getElementById("imgSrcIngredient3").src;
 
-  $("#imgIngrediente1").attr("src", imgsrc1);
-  $("#imgIngrediente2").attr("src", imgsrc2);
-  $("#imgIngrediente3").attr("src", imgsrc3);
-
-  var ing1_img = $("#ing1_img .bold").html();
-  $("#setBen1").html(ing1_img);
-
-  var ing2_img = $("#ing2_img .bold").html();
-  $("#setBen2").html(ing2_img);
-  
-  var ing3_img = $("#ing3_img .bold").html();
-  $("#setBen3").html(ing3_img);
-  
-}, 1);
-
-</script>
             {% assign diagnostics_ing3 = diagnostics.ing3 %} {% if
             diagnostics.preocupa1 == 'Brillance' %} {% assign diagnostics_ing3 =
             'Noisette' %} {% endif %} {% if diagnostics.preocupa1 ==
