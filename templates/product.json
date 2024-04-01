@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "price_jcM79n": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "484aed82-dbbb-4772-b1c4-06c773178bdd": {
           "type": "text",
           "settings": {
@@ -40,6 +45,7 @@
       },
       "block_order": [
         "title",
+        "price_jcM79n",
         "484aed82-dbbb-4772-b1c4-06c773178bdd",
         "judgeme_preview_badge_product_page_61e5a6d5",
         "description",
