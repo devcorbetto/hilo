@@ -253,120 +253,7 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
     
         {%- endfor -%} 
       
-<div class="container-routine mt-20 page-width">
-      <!--<h2 class="text-center  mb-20 ">VOTRE ROUTINE PERSONNALISÉE</h2>
-      <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).<br> <br></p>
-      <p class="text-center  mb-20 ">Les soins sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastique.<br>
-        Vous pourrez choisir à l'étape suivante, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
-  -->
-
-<ul class="collection collection-result" style="">
-                                    <li style="   "></li>
-  <li style="   ">
- 
-    <div class="">
-    {% render 'card-product',
-    card_product: section.settings.product,
-    media_aspect_ratio: true,
-    show_secondary_image: true,
-    show_vendor: section.settings.show_vendor,
-    show_rating: true,
-    show_quick_add: false,
-           show_text: true,
-      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
-    section_id: section.id
-    %}
-    </div>   
-                                     <p class="text-center pb-10 mt-10">
-    {% if diagnostics_ing1 == diagnostics_ing2 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    
-    {% if diagnostics_ing1 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
-    {% endif %}
-    </p>
- <p class="text-center"> 
-    <a style="text-decoration:underline; font-weight:600;     color: #575756;"
-      href="https://hilo-cosmetiques.fr/products/creme-visage-naturelle-personnalisable-rechargeable?open=true">Je modifie mes huiles végétales</a>
- </p>
- 
-                                  </li>
-                       <li style="   "></li>             
-<li style="   ">
- 
-    <div class="">
-    {% render 'card-product',
-    card_product: section.settings.product2,
-    media_aspect_ratio: true,
-    show_secondary_image: true,
-    show_vendor: section.settings.show_vendor,
-    show_rating: true,
-    show_quick_add: false,
-           show_text: true,
-      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
-    section_id: section.id
-    %}
-    </div>   
-                                     <p class="text-center pb-10 mt-10">
-    {% if diagnostics_ing1 == diagnostics_ing2 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    
-    {% if diagnostics_ing1 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing3 %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
-    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
-    {% endif %}
-    </p>
- <p class="text-center"> 
-    <a style="text-decoration:underline; font-weight:600;     color: #575756;"
-      href="https://hilo-cosmetiques.fr/products/coffret-hilo?open=true">Je modifie mes huiles végétales</a>
- </p>
- 
-                                  </li>
-                                  
-
-
-</ul>                            
-
-
-
-  <!--<h2>
-    test ingredientes
-  </h2>-->
-
-
-  
-          
-    </div>
-        </div>
+      
       <div class="one-column one-column2  flex-1 border-2  rounded-sm border-teal-600 bg-teal-300 p-10 ">
         <h3 class="text-center">          VOS TENDANCES DE PEAU<br> DU MOMENT        </h3>
         <p>  {% if diagnostics.peau == 'seche' %}
@@ -705,7 +592,120 @@ background:#FDE9D8; padding-bottom:60px; padding-top:20px; position:relative;">
             </div>
 
                                   
+<div class="container-routine mt-20 page-width">
+      <!--<h2 class="text-center  mb-20 ">VOTRE ROUTINE PERSONNALISÉE</h2>
+      <p class="text-center">Voici les soins personnalisés à l'image de votre peau avec votre match parfait du moment (indiqué ci-dessus).<br> <br></p>
+      <p class="text-center  mb-20 ">Les soins sont rechargeables à l'infini (et au delà… 🚀) pour économiser 95,6% de plastique.<br>
+        Vous pourrez choisir à l'étape suivante, si vous souhaitez le format pot + recharge (première utilisation) ou juste la recharge à clipser dans votre pot Hilo.</p>
+  -->
 
+<ul class="collection collection-result" style="">
+                                    <li style="   "></li>
+  <li style="   ">
+ 
+    <div class="">
+    {% render 'card-product',
+    card_product: section.settings.product,
+    media_aspect_ratio: true,
+    show_secondary_image: true,
+    show_vendor: section.settings.show_vendor,
+    show_rating: true,
+    show_quick_add: false,
+           show_text: true,
+      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
+    section_id: section.id
+    %}
+    </div>   
+                                     <p class="text-center pb-10 mt-10">
+    {% if diagnostics_ing1 == diagnostics_ing2 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
+    {% endif %}
+    
+    {% if diagnostics_ing1 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J'ajoute ma crème personnalisée au panier</a>
+    {% endif %}
+    </p>
+ <p class="text-center"> 
+    <a style="text-decoration:underline; font-weight:600;     color: #575756;"
+      href="https://hilo-cosmetiques.fr/products/creme-visage-naturelle-personnalisable-rechargeable?open=true">Je modifie mes huiles végétales</a>
+ </p>
+ 
+                                  </li>
+                       <li style="   "></li>             
+<li style="   ">
+ 
+    <div class="">
+    {% render 'card-product',
+    card_product: section.settings.product2,
+    media_aspect_ratio: true,
+    show_secondary_image: true,
+    show_vendor: section.settings.show_vendor,
+    show_rating: true,
+    show_quick_add: false,
+           show_text: true,
+      text1: "Je choisis à l'étape suivante si je souhaite le format pot + recharge ou recharge seule.",
+    section_id: section.id
+    %}
+    </div>   
+                                     <p class="text-center pb-10 mt-10">
+    {% if diagnostics_ing1 == diagnostics_ing2 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
+    {% endif %}
+    
+    {% if diagnostics_ing1 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
+    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing3 %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
+    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 == diagnostics_ing1 and diagnostics_ing2 == diagnostics_ing3  %}
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=3
+    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
+    {% endif %}
+    {% if diagnostics_ing2 != diagnostics_ing1 and diagnostics_ing1 != diagnostics_ing3   and diagnostics_ing2 != diagnostics_ing3  %}     
+    <a href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
+    " class="button btn" >J’ajoute mon combo personnalisé au panier</a>
+    {% endif %}
+    </p>
+ <p class="text-center"> 
+    <a style="text-decoration:underline; font-weight:600;     color: #575756;"
+      href="https://hilo-cosmetiques.fr/products/coffret-hilo?open=true">Je modifie mes huiles végétales</a>
+ </p>
+ 
+                                  </li>
+                                  
+
+
+</ul>                            
+
+
+
+  <!--<h2>
+    test ingredientes
+  </h2>-->
+
+
+  
+          
+    </div>
+        </div>
         </div>
         
       {% endif %}
