@@ -147,7 +147,7 @@
           
     </div>
        <h5 class="pt-10" x-on:click="openi{{ forloop.index }} = !openi{{ forloop.index }}"  >{{ ingrediente.caption }}</h5>  
-       <span class="ingrediente-caption " x-on:click="openi{{ forloop.index }} = !openi{{ forloop.index }}" >{{ ingrediente.name | remove:"<br>" }}</span>  <br>   
+       <span class="ingrediente-caption " x-on:click="openi{{ forloop.index }} = !openi{{ forloop.index }}" >{{ ingrediente.name | replace:"<br>", " " }}</span>  <br>   
         <quantity-input class="quantity ingrediente{{ forloop.index0 }} pt-8" >
         
 <span class="quantity__button no-js-hidden disabled2"
