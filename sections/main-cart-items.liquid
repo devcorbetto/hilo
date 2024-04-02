@@ -628,13 +628,19 @@
 
 {% for item in capture_array  limit:3%}
 {% if forloop.index == 3 %}
+  
   {% if item contains "Argan" %}
     Anti-âge
   {% else %}
     {{ item }}  
   {% endif %}
+  
   {% else %}
- {{ item }}, 
+  {% if item contains "Argan" %}
+    Anti-âge
+  {% else %}
+    {{ item }}, 
+  {% endif %} 
   {% endif %}
 {% endfor %}               
      </div>                 
