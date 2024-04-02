@@ -2589,11 +2589,11 @@ footer .newsletter-form__button {  top: 5px;  }
 .button_personnalise:hover{
   text-decoration: none;
 }
-.container-modal > button.button:before, .container-modal > button.button:after, a.button:after {
+.container-modal > button.button:before, .container-modal > button.button:after{
   content:none !important;
 }
 a.button:after{
-  /*box-shadow:none;*/
+  box-shadow:none;
 }
 .container-modal > button.button, .container-modal > a.button {
   margin-bottom:20px;
