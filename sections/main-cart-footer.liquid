@@ -133,17 +133,17 @@
         {%- if property.last != blank and property_first_char != '_' -%}
         <span class="">
             {% if property.first contains "Argan" %}
-              Anti-âge
+              Anti-âge,
             {% elsif property.first contains "Amande" %}
-              Apaisante
+              Apaisante,
             {% elsif property.first contains "Carotte" %}
-              Bonne mine
+              Bonne mine,
             {% elsif property.first contains "Onagre" %}
-              Hydratante
+              Hydratante,
             {% elsif property.first contains "Abricot" %}
-              Illuminante
+              Illuminante,
             {% elsif property.first contains "Noisette" %}
-              Anti-imperfections
+              Anti-imperfections,
             {% else %}
               {{ property.first   | capitalize }},
             {% endif %}
