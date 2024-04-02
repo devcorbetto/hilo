@@ -490,14 +490,10 @@
 
 
 {% for item in capture_array  limit:3%}
-{% if forloop.index == 2 %}
-  {% if item contains "Argan" %}
-    Anti-âge,
+{% if forloop.index == 3 %}
+    {{ item }}  
   {% else %}
-    {{ item }},  
-  {% endif %}  
-  {% else %}
- {{ item }} 
+ {{ item }}, 
   {% endif %}
 {% endfor %} 
   </div>
@@ -632,19 +628,21 @@
 
 {% for item in capture_array  limit:3%}
 {% if forloop.index == 3 %}
+
+  {% if item contains "Argan" %}
+    Anti-âge
+  {% else %}
+    {{ item }}  
+  {% endif %} 
+  
+  {% else %}
   
   {% if item contains "Argan" %}
     Anti-âge,
   {% else %}
-    {{ item }}  
-  {% endif %}
+    {{ item }},  
+  {% endif %}  
   
-  {% else %}
-  {% if item contains "Argan" %}
-    Anti-âge
-  {% else %}
-    {{ item }}, 
-  {% endif %} 
   {% endif %}
 {% endfor %}               
      </div>                 
