@@ -38,15 +38,57 @@
           {%- if property.last != blank and property_first_char != '_' -%}
           <span class="">
             
-          {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
           
           </span>
              <span class="">
-          {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
           
           </span>
                          <span class="">
-          {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
           
           </span>
           {%- endif -%}
@@ -54,16 +96,58 @@
         {%- if property.last != blank and property_first_char != '_' -%}
         <span class="">
           
-        {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
         
         </span>
             <span class="">
-        {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
         
         </span>
           
             <span class="">
-        {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
         
         </span>
         {%- endif -%}
@@ -80,11 +164,39 @@
       {% if forloop.last %}
           {%- if property.last != blank and property_first_char != '_' -%}
           <span class="">
-          {{ property.first   | capitalize }}
+            {% if property.first contains "Argan" %}
+              Anti-âge
+            {% elsif property.first contains "Amande" %}
+              Apaisante
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine
+            {% elsif property.first contains "Onagre" %}
+              Hydratante
+            {% elsif property.first contains "Abricot" %}
+              Illuminante
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
           </span>,
                         
            <span class="">
-          {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
           
           </span>
                        
@@ -92,11 +204,39 @@
         {% else %}
         {%- if property.last != blank and property_first_char != '_' -%}
         <span class="">
-        {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
         
         </span>
             <span class="">
-        {{ property.first   | capitalize }},
+            {% if property.first contains "Argan" %}
+              Anti-âge,
+            {% elsif property.first contains "Amande" %}
+              Apaisante,
+            {% elsif property.first contains "Carotte" %}
+              Bonne mine,
+            {% elsif property.first contains "Onagre" %}
+              Hydratante,
+            {% elsif property.first contains "Abricot" %}
+              Illuminante,
+            {% elsif property.first contains "Noisette" %}
+              Anti-imperfections,
+            {% else %}
+              {{ property.first   | capitalize }},
+            {% endif %}
         
         </span>
           
@@ -126,7 +266,6 @@
             {% else %}
               {{ property.first   | capitalize }},
             {% endif %}
-          
           </span>
           {%- endif -%}
         {% else %}
