@@ -2592,7 +2592,7 @@ footer .newsletter-form__button {  top: 5px;  }
 .container-modal > button.button:before, .container-modal > button.button:after{
   content:none !important;
 }
-.button.button_diag_product:after{
+.button.button_diag_product:before, .button.button_diag_product:after{
   box-shadow:none;
 }
 .container-modal > button.button, .container-modal > a.button {
