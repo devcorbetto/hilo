@@ -2595,6 +2595,11 @@ footer .newsletter-form__button {  top: 5px;  }
 .button.button_diag_product:before, .button.button_diag_product:after{
   box-shadow:none;
 }
+
+.button.button_diag_product:not([disabled]):hover::after{
+  border:none;
+}
+
 .container-modal > button.button, .container-modal > a.button {
   margin-bottom:20px;
   background:#D0C4E2;
