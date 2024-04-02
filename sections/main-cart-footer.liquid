@@ -106,12 +106,16 @@
 
   
 {% if property contains '1' %}
-hello
+
       {%- assign property_first_char = property.first | slice: 0 -%}
       {% if forloop.last %}
           {%- if property.last != blank and property_first_char != '_' -%}
           <span class="">
+            hello
+            {% if property.first contains "Argan" %}
+            {% else %}
           {{ property.first   | capitalize }},
+            {% endif %}
           
           </span>
           {%- endif -%}
