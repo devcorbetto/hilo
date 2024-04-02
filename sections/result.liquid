@@ -129,7 +129,7 @@ diagnosticos[0] %} {% if customer %}
                     src="{{ ing1_image | asset_url }}"
                     id="imgIngrediente1"
                     alt="Imagen del ingrediente 1"
-                    style="width: 44px"
+                    style="width: 100%"
                 />
                 <p id="setBen1">{{ benefice }}</p>
               </div>
@@ -138,7 +138,7 @@ diagnosticos[0] %} {% if customer %}
                     src="{{ ing2_image | asset_url }}"
                     id="imgIngrediente2"
                     alt="Imagen del ingrediente 2"
-                    style="width: 44px"
+                    style="width: 100%"
                 />
                   <p id="setBen2">{{ benefice }}</p>
                 </div>
@@ -147,7 +147,7 @@ diagnosticos[0] %} {% if customer %}
                     src="{{ ing3_image | asset_url }}"
                     id="imgIngrediente3"
                     alt="Imagen del ingrediente 3"
-                    style="width: 44px"
+                    style="width: 100%"
                 />
                 <p id="setBen3">{{ benefice }}</p>
                   </div>
@@ -937,7 +937,7 @@ diagnosticos[0] %} {% if customer %}
                                             src="{{ ing1_image | asset_url }}"
                                             id="imgSrcIngredient1"
                                             alt="Imagen del ingrediente 1"
-                                            style="width: 44px"
+                                            style="width: 100%"
                                         />
                                     </div>
                                     <div class="container-result-p">
@@ -1037,7 +1037,7 @@ diagnosticos[0] %} {% if customer %}
                                                                 id="imgSrcIngredient2"
                                                                 alt="Imagen del ingrediente 2"
                                                                 style="
-                                                                    width: 44px;
+                                                                    width: 100%;
                                                                 "
                                                             />
                                                         </div>
@@ -1229,7 +1229,7 @@ diagnosticos[0] %} {% if customer %}
                                                                                     id="imgSrcIngredient3"
                                                                                     alt="Imagen del ingrediente 3"
                                                                                     style="
-                                                                                        width: 44px;
+                                                                                        width: 100%;
                                                                                     "
                                                                                 />
                                                                             </div>
@@ -1342,7 +1342,11 @@ diagnosticos[0] %} {% if customer %}
                                                             color: #575756;
                                                             font-size: 22px;
                                                         }
+                                                        .container-image {
+                                                            width:15%;
+                                                        }
                                                         .container-result-p {
+                                                            width:75%;
                                                             padding-top: 10px;
                                                         }
                                                         .container-result.flex {
