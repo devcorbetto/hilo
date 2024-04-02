@@ -31,6 +31,7 @@
 {% capture propertys %}                      
 {%- for property in item.properties -%}
   {% if property contains '3' %}
+    hello
 
       {%- assign property_first_char = property.first | slice: 0 -%}
       {% if forloop.last %}
