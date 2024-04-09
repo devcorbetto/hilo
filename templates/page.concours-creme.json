@@ -1,77 +1,63 @@
 {
   "sections": {
-    "2469f2c2-6afc-4360-828c-eff83925cf93": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1><strong>VOTRE DIAGNOSTIC DE PEAU HILO<\/strong><\/h1>",
-            "customcss": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Réalisez votre diagnostic de peau en 2 minutes seulement, pour découvrir la combinaison d'actifs adaptée à votre peau et à ajouter dans votre base de soin Hilo.<\/p>"
-          }
-        },
-        "77ea338e-f067-4918-a440-205e32a69dc0": {
-          "type": "text",
-          "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Votre peau est unique, votre crème Hilo l'est aussi ! <\/p>"
-          }
-        },
-        "25a26645-5a5e-4fa7-8b6b-d449a60f5eb0": {
-          "type": "text",
-          "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Veillez à répondre aux questions du diagnostic en fonction de vos ressentis face à votre peau au naturel en ce moment. Vous pouvez vous fier, par exemple, à votre ressenti à la sortie de la douche ou lorsque vous n'avez pas encore appliqué de produits cosmétiques.<\/p>"
-          }
-        },
-        "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2": {
-          "type": "button",
-          "settings": {
-            "customcss": "btn-circle",
-            "button_label": "Je réalise mon diagnostic",
-            "button_link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
-            "button_out": false,
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-0",
-        "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-1",
-        "77ea338e-f067-4918-a440-205e32a69dc0",
-        "25a26645-5a5e-4fa7-8b6b-d449a60f5eb0",
-        "template--17779890553127__2469f2c2-6afc-4360-828c-eff83925cf93-1675644880a725a637-2"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "vague-blanche",
-        "svg-wave-position": "bottom",
-        "svg-eclat": "none",
-        "color_scheme": "colors_6",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 40
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "image_banner_wave_yxtc7A": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "heading_6W6LTx": {
+          "type": "heading",
+          "settings": {
+            "heading": "LE CONCOURS DE L'ANNEE",
+            "heading_size": "h1"
+          }
+        },
+        "text_YpMDei": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>200 crèmes visages à gagner ! 🎁<\/strong><\/h3>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6W6LTx",
+        "text_YpMDei"
+      ],
+      "custom_css": [
+        "h3 {color: #716f6f;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "vague-blanche",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "custom_liquid_TPY9xh": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<iframe width=\"540\" height=\"600\" src=\"https:\/\/382ba2d4.sibforms.com\/serve\/MUIFAJQHnbGzP-C6DO-dI57VgbCtum0yMr7KYEOPRkiWeHm3GJw8-itc3a0GKalHjNtXh7fuSrG4VIXYTBqMCHzLkUgkLPgEWCZ3gGfP0e6TsUHtJyBbwJJYGTX9YhkytFdc7m5bC0Gn2CU2JrSnDAU4ZJ1Z9aHt_qwivQ1GeoCXfVBC2ZLla2HRWdOUIudo9t5cLVhiXG7ysNvJ\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen style=\"display: block;margin-left: auto;margin-right: auto;max-width: 100%;\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196": {
@@ -302,8 +288,9 @@
     }
   },
   "order": [
-    "2469f2c2-6afc-4360-828c-eff83925cf93",
     "main",
+    "image_banner_wave_yxtc7A",
+    "custom_liquid_TPY9xh",
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196",
     "834a1603-2f96-4f26-8328-293d39b53636",
     "378d158d-0dbf-43d6-baea-0c5cd5e474fe",
