@@ -59,12 +59,11 @@
     "rich_text_account_Uqwcrr": {
       "type": "rich-text-account",
       "blocks": {
-        "heading_3qJ3tw": {
-          "type": "heading",
+        "text_wW93kD": {
+          "type": "text",
           "settings": {
-            "heading": "<p>Les conditions de participation au tirage au sort : <\/p>",
             "customcss": "",
-            "heading_size": "h1"
+            "text": "<h2><strong>Les conditions de participation au tirage au sort : <\/strong><\/h2>"
           }
         },
         "text_eFp8JM": {
@@ -76,7 +75,7 @@
         }
       },
       "block_order": [
-        "heading_3qJ3tw",
+        "text_wW93kD",
         "text_eFp8JM"
       ],
       "settings": {
@@ -86,7 +85,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "custom_liquid_TPY9xh": {
@@ -107,14 +106,14 @@
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-0": {
           "type": "heading",
           "settings": {
-            "heading": "Les conditions de participation au tirage au sort :",
+            "heading": "Informations sur le concours",
             "heading_size": "h2"
           }
         },
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>",
+            "text": "<p>✨ Le jeu concours est valable en France métropolitaine du 22 avril au 12 mai 2024 à 23h59,<\/p><p>✨ Les participants recevront un e-mail de confirmation immédiatement après leur inscription (vérifiez vos spams),<\/p><p>✨ Les gagnants recevront au autre e-mail contenant la marche à suivre pour bénéficier du cadeau,<\/p><p>✨ Les gagnants bénéficieront d'une crème visage naturelle Hilo offerte (<strong>seuls les frais de port seront à leur charge : 3,99€ en point relais<\/strong>),<\/p><p>✨ La crème visage naturelle remportée n'est ni échangeable ni remboursable.<\/p>",
             "text_style": "body"
           }
         }
@@ -128,7 +127,7 @@
       ],
       "settings": {
         "customcss": "lamarque_text1",
-        "eclat": "eclat-rose",
+        "eclat": "eclat-violet",
         "eclat_side": "droite",
         "image": "shopify:\/\/shop_images\/Diagnostic-de-peau-Hilo-cosmetiques_db3640b4-7006-4c0b-9a17-7db76ea14a1e.jpg",
         "height": "adapt",
@@ -143,124 +142,46 @@
         "padding_bottom": 36
       }
     },
-    "834a1603-2f96-4f26-8328-293d39b53636": {
-      "type": "multicolumn-slider",
+    "image_with_text_heJrkf": {
+      "type": "image-with-text",
       "blocks": {
-        "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-0": {
-          "type": "column",
+        "heading_aGmXyc": {
+          "type": "heading",
           "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-saida.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon": "Actif apaisant",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
-            "titleicon2": "Actif illuminant",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon3": "Actif hydratant",
-            "title": "Les actifs du moment de Saïda",
-            "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
-            "button_out": false
+            "heading": "Aidez-nous à développer Hilo",
+            "heading_size": "h1"
           }
         },
-        "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-1": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-ana.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
-            "titleicon": "Actif anti-âge",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon2": "Actif apaisant",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon3": "Actif anti-imperfection",
-            "title": "Les actifs du moment d'Ana",
-            "text": "<p>Peau à tendance mixte, quelques rougeurs et souhaite traiter les premiers signes de l'âge<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
-            "button_out": false
-          }
-        },
-        "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-2": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-match-parfait-leo.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon": "Actif apaisant",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon2": "Actif hydratant",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon3": "Actif anti-imperfection",
-            "title": "Les actifs du moment de Léo",
-            "text": "<p>Peau déshydratée avec quelques imperfections et rougeurs<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
-            "button_out": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-0",
-        "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-1",
-        "template--18888716550439__834a1603-2f96-4f26-8328-293d39b53636-1683660481d93227fe-2"
-      ],
-      "settings": {
-        "customcss": "multi-slider",
-        "svg-eclat": "none",
-        "title": "LEUR MATCH PARFAIT",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "378d158d-0dbf-43d6-baea-0c5cd5e474fe": {
-      "type": "rich-text-account",
-      "blocks": {
-        "b4b14ae2-ca55-49de-a2cd-ca5676a1752d": {
-          "type": "image",
-          "settings": {
-            "customcss": "",
-            "image_picker": "shopify:\/\/shop_images\/Pictogramme_e_utoile_avis-svg.svg"
-          }
-        },
-        "template--18888716550439__378d158d-0dbf-43d6-baea-0c5cd5e474fe-1683660489e114e828-1": {
+        "text_XzGBcK": {
           "type": "text",
           "settings": {
-            "customcss": "",
-            "text": "<p><em>“Le diagnostic de peau est très facile à remplir et m’a permis de réellement connaître mon type de peau. J’ai eu l’impression d’avoir quelqu’un à mon écoute pour personnaliser mes produits.” <\/em><\/p><p><strong>Laurine<\/strong><\/p>"
+            "text": "<p>Si vous gagnez, aidez-nous à développer la notoriété d'Hilo grâce à des petites actions super simples : <strong>🥰<br\/><br\/><\/strong><\/p><p>✨ Les participants recevront un e-mail de confirmation immédiatement après leur inscription (vérifiez vos spams),<\/p><p>✨ Les gagnants recevront au autre e-mail contenant la marche à suivre pour bénéficier du cadeau,<\/p><p>✨ Les gagnants bénéficieront d'une crème visage naturelle Hilo offerte (<strong>seuls les frais de port seront à leur charge : 3,99€ en point relais<\/strong>),<\/p><p>✨ La crème visage naturelle remportée n'est ni échangeable ni remboursable.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "b4b14ae2-ca55-49de-a2cd-ca5676a1752d",
-        "template--18888716550439__378d158d-0dbf-43d6-baea-0c5cd5e474fe-1683660489e114e828-1"
+        "heading_aGmXyc",
+        "text_XzGBcK"
       ],
       "custom_css": [
-        ".image_rich-text {width: 136px;}"
+        "img {border-radius: 30px;}"
       ],
       "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "customcss": "lamarque_text1",
+        "eclat": "eclat-orange",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/Hilo-fondatrices.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 100
       }
     },
     "1945a68f-12c2-456e-a45a-5be59ad30e27": {
@@ -308,6 +229,7 @@
         "template--18888716550439__1945a68f-12c2-456e-a45a-5be59ad30e27-1683660528f0c1ac28-2",
         "template--18888716550439__1945a68f-12c2-456e-a45a-5be59ad30e27-1683660528f0c1ac28-1"
       ],
+      "disabled": true,
       "settings": {
         "customcss": "multi-featured multi-icons paiment",
         "title": "",
@@ -334,8 +256,7 @@
     "rich_text_account_Uqwcrr",
     "custom_liquid_TPY9xh",
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196",
-    "834a1603-2f96-4f26-8328-293d39b53636",
-    "378d158d-0dbf-43d6-baea-0c5cd5e474fe",
+    "image_with_text_heJrkf",
     "1945a68f-12c2-456e-a45a-5be59ad30e27"
   ]
 }
