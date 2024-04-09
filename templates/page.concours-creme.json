@@ -71,26 +71,13 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_VdzdrJ": {
-          "type": "button",
-          "settings": {
-            "customcss": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "heading_3qJ3tw",
-        "text_eFp8JM",
-        "button_VdzdrJ"
+        "text_eFp8JM"
       ],
       "settings": {
         "customcss": "",
