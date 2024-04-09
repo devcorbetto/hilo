@@ -21,17 +21,25 @@
         "text_YpMDei": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>200 crèmes visages à gagner ! 🎁<\/strong><\/h3>",
+            "text": "<h3><strong>200 crèmes visage à gagner ! <\/strong><\/h3>",
             "text_style": "body"
+          }
+        },
+        "paragraphe_794tBL": {
+          "type": "paragraphe",
+          "settings": {
+            "paragraphe": "<p>200 gagnants seront tirés au sort et remporteront une crème visage naturelle Hilo. <strong>🧴<\/strong><\/p>"
           }
         }
       },
       "block_order": [
         "heading_6W6LTx",
-        "text_YpMDei"
+        "text_YpMDei",
+        "paragraphe_794tBL"
       ],
       "custom_css": [
-        "h3 {color: #716f6f;}"
+        "h3 {color: #716f6f;}",
+        "p {color: #716f6f;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
@@ -48,13 +56,59 @@
         "show_text_below": false
       }
     },
+    "rich_text_account_Uqwcrr": {
+      "type": "rich-text-account",
+      "blocks": {
+        "heading_3qJ3tw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Les conditions de participation au tirage au sort : <\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_eFp8JM": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_VdzdrJ": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3qJ3tw",
+        "text_eFp8JM",
+        "button_VdzdrJ"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_TPY9xh": {
       "type": "custom-liquid",
       "custom_css": [
 
       ],
       "settings": {
-        "custom_liquid": "<iframe width=\"540\" height=\"600\" src=\"https:\/\/382ba2d4.sibforms.com\/serve\/MUIFAJQHnbGzP-C6DO-dI57VgbCtum0yMr7KYEOPRkiWeHm3GJw8-itc3a0GKalHjNtXh7fuSrG4VIXYTBqMCHzLkUgkLPgEWCZ3gGfP0e6TsUHtJyBbwJJYGTX9YhkytFdc7m5bC0Gn2CU2JrSnDAU4ZJ1Z9aHt_qwivQ1GeoCXfVBC2ZLla2HRWdOUIudo9t5cLVhiXG7ysNvJ\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen style=\"display: block;margin-left: auto;margin-right: auto;max-width: 100%;\"><\/iframe>",
+        "custom_liquid": "<iframe width=\"640\" height=\"600\" src=\"https:\/\/382ba2d4.sibforms.com\/serve\/MUIFAJQHnbGzP-C6DO-dI57VgbCtum0yMr7KYEOPRkiWeHm3GJw8-itc3a0GKalHjNtXh7fuSrG4VIXYTBqMCHzLkUgkLPgEWCZ3gGfP0e6TsUHtJyBbwJJYGTX9YhkytFdc7m5bC0Gn2CU2JrSnDAU4ZJ1Z9aHt_qwivQ1GeoCXfVBC2ZLla2HRWdOUIudo9t5cLVhiXG7ysNvJ\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen style=\"display: block;margin-left: auto;margin-right: auto;max-width: 100%;\"><\/iframe>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -66,14 +120,14 @@
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-0": {
           "type": "heading",
           "settings": {
-            "heading": "POURQUOI REALISER VOTRE DIAGNOSTIC DE PEAU ?",
+            "heading": "Les conditions de participation au tirage au sort :",
             "heading_size": "h2"
           }
         },
         "template--18888716550439__da5285e2-1ad4-4cf6-9167-dfb75cdc5196-16836603124681b0ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>🧖‍♀️ Connaître vos caractéristiques et vos tendances de peau du moment <\/p><p>✨ Obtenir votre match parfait pour personnaliser vos bases de soins Hilo <\/p><p>🌱 Connaître les bienfaits des actifs de votre match parfait <\/p><p>🧴 Découvrir votre routine de soins personnalisés en fonction des besoins de votre peau <\/p><p>💆‍♀️ Obtenir des conseils personnalisés en fonction de votre type de peau pour une peau saine au quotidien<\/p>",
+            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>",
             "text_style": "body"
           }
         }
@@ -290,6 +344,7 @@
   "order": [
     "main",
     "image_banner_wave_yxtc7A",
+    "rich_text_account_Uqwcrr",
     "custom_liquid_TPY9xh",
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196",
     "834a1603-2f96-4f26-8328-293d39b53636",
