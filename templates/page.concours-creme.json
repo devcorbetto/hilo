@@ -14,8 +14,15 @@
         "heading_6W6LTx": {
           "type": "heading",
           "settings": {
-            "heading": "200 CREMES A GAGNER 🎁",
+            "heading": "LE CONCOURS DE L'ANNEE",
             "heading_size": "h0"
+          }
+        },
+        "text_YpMDei": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>200 crèmes visage à gagner ! 🎁<\/strong><\/h3>",
+            "text_style": "body"
           }
         },
         "paragraphe_794tBL": {
@@ -27,6 +34,7 @@
       },
       "block_order": [
         "heading_6W6LTx",
+        "text_YpMDei",
         "paragraphe_794tBL"
       ],
       "custom_css": [
