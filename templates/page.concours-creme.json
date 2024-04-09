@@ -38,7 +38,7 @@
         "paragraphe_794tBL"
       ],
       "custom_css": [
-        "h3 {color: #716f6f; font-size: 25px;}",
+        "h3 {color: #716f6f;}",
         "p {color: #716f6f;}"
       ],
       "settings": {
