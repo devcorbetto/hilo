@@ -70,7 +70,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>"
+            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>"
           }
         }
       },
