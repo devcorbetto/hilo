@@ -8,52 +8,48 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_wave_yxtc7A": {
-      "type": "image-banner-wave",
+    "rich_text_VxjY8p": {
+      "type": "rich-text",
       "blocks": {
-        "heading_6W6LTx": {
+        "heading_jEmYdi": {
           "type": "heading",
           "settings": {
-            "heading": "LE CONCOURS DE L'ANNEE",
+            "heading": "<p>LE CONCOURS DE L'ANNEE<\/p>",
+            "customcss": "",
             "heading_size": "h0"
           }
         },
-        "text_YpMDei": {
+        "text_qJ4Efi": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>200 crèmes visage à gagner ! 🎁<\/strong><\/h3>",
-            "text_style": "body"
+            "customcss": "",
+            "text": "<h3><strong>200 crèmes visage à gagner ! 🎁<\/strong><\/h3>"
           }
         },
-        "paragraphe_794tBL": {
-          "type": "paragraphe",
+        "text_Nftbrt": {
+          "type": "text",
           "settings": {
-            "paragraphe": "<p>200 gagnants seront tirés au sort et remporteront une crème visage naturelle Hilo.<\/p>"
+            "customcss": "",
+            "text": "<p>200 gagnants seront tirés au sort et remporteront une crème visage naturelle Hilo.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_6W6LTx",
-        "text_YpMDei",
-        "paragraphe_794tBL"
-      ],
-      "custom_css": [
-        "h3 {color: #716f6f;}",
-        "p {color: #716f6f;}"
+        "heading_jEmYdi",
+        "text_qJ4Efi",
+        "text_Nftbrt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "svg-wave": "vague-blanche",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 92
       }
     },
     "rich_text_account_Uqwcrr": {
@@ -87,7 +83,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
@@ -132,7 +128,7 @@
         "customcss": "lamarque_text1",
         "eclat": "eclat-violet",
         "eclat_side": "droite",
-        "image": "shopify:\/\/shop_images\/Diagnostic-de-peau-Hilo-cosmetiques_db3640b4-7006-4c0b-9a17-7db76ea14a1e.jpg",
+        "image": "shopify:\/\/shop_images\/concours-hilo-cremes.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -174,7 +170,7 @@
         "customcss": "lamarque_text1",
         "eclat": "eclat-orange",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/Hilo-fondatrices.png",
+        "image": "shopify:\/\/shop_images\/Concours-fondatrices-hilo.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -255,7 +251,7 @@
   },
   "order": [
     "main",
-    "image_banner_wave_yxtc7A",
+    "rich_text_VxjY8p",
     "rich_text_account_Uqwcrr",
     "custom_liquid_TPY9xh",
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196",
