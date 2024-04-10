@@ -14,29 +14,21 @@
         "heading_jEmYdi": {
           "type": "heading",
           "settings": {
-            "heading": "<p>LE CONCOURS DE L'ANNEE<\/p>",
+            "heading": "<p>200 CREMES VISAGE A GAGNER <strong>🎁<\/strong><\/p>",
             "customcss": "",
             "heading_size": "h0"
-          }
-        },
-        "text_qJ4Efi": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<h3><strong>200 crèmes visage à gagner ! 🎁<\/strong><\/h3>"
           }
         },
         "text_Nftbrt": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>200 gagnants seront tirés au sort et remporteront une crème visage naturelle Hilo.<\/p>"
+            "text": "<p>200 gagnants seront tirés au sort et remporteront une crème visage naturelle Hilo. <br\/><br\/><\/p><p><strong>Les conditions de participation : <\/strong><br\/><br\/><\/p><p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "heading_jEmYdi",
-        "text_qJ4Efi",
         "text_Nftbrt"
       ],
       "settings": {
@@ -49,42 +41,7 @@
         "color_scheme": "colors_1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 92
-      }
-    },
-    "rich_text_account_Uqwcrr": {
-      "type": "rich-text-account",
-      "blocks": {
-        "text_wW93kD": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<h2><strong>Les conditions de participation au tirage au sort : <\/strong><\/h2>"
-          }
-        },
-        "text_eFp8JM": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram @hilo.fr<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok @hilo.fr<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_wW93kD",
-        "text_eFp8JM"
-      ],
-      "custom_css": [
-        "h2 {color: #716f6f;}"
-      ],
-      "settings": {
-        "customcss": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
     "custom_liquid_TPY9xh": {
@@ -252,7 +209,6 @@
   "order": [
     "main",
     "rich_text_VxjY8p",
-    "rich_text_account_Uqwcrr",
     "custom_liquid_TPY9xh",
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196",
     "image_with_text_heJrkf",
