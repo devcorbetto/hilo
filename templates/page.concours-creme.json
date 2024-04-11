@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>200 gagnants seront tirés au sort et remporteront une crème visage naturelle Hilo. <br\/><br\/><\/p><p><strong>Les conditions de participation : <\/strong><br\/><br\/><\/p><p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok <\/a>(@hilo.fr).<\/p>"
+            "text": "<p><strong>Mais pourquoi ? <br\/><br\/><\/strong><\/p><p><em>\"Depuis quelques semaines on fait un tour de France pour référencer nos produits en magasin. Vous nous aidez beaucoup sur les réseaux depuis le début de ce Hilo on tour et vous êtes à fond avec nous. <br\/><br\/><\/em><\/p><p><em>Sur la route, on a pu rencontrer quelque uns d’entre vous qui nous ont fait pleins de retours positifs sur les produits et ça nous touche vraiment beaucoup. <\/em><\/p><p><em><br\/><\/em><\/p><p><em>C’est pour ça que nous avons décidé de vous remercier en faisant gagner une crème visage naturelle Hilo à 200 d'entre vous.\"<\/em><\/p><p><br\/>Elise & Margaux <br\/><\/p>"
           }
         }
       },
@@ -42,6 +42,42 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 80
+      }
+    },
+    "rich_text_749FqV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pXzmKB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Les conditions de participation <\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_EXkPYt": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>✨ Remplir le formulaire d'inscription ci-dessous, <br\/><br\/><\/p><p>✨ S'abonner à notre <a href=\"https:\/\/www.instagram.com\/hilo.fr\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hilo.fr\/\">compte Instagram<\/a> et\/ou à notre <a href=\"https:\/\/www.tiktok.com\/@hilo.fr\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@hilo.fr\">compte TikTok <\/a>(@hilo.fr).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pXzmKB",
+        "text_EXkPYt"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "custom_liquid_TPY9xh": {
@@ -209,6 +245,7 @@
   "order": [
     "main",
     "rich_text_VxjY8p",
+    "rich_text_749FqV",
     "custom_liquid_TPY9xh",
     "da5285e2-1ad4-4cf6-9167-dfb75cdc5196",
     "image_with_text_heJrkf",
