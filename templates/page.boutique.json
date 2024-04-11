@@ -285,53 +285,62 @@
     "collapsible_content_RUztG3": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_4MUDV4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Qu'est ce qui distingue les soins visage naturels Hilo des autres produits cosmétiques ?",
-            "icon": "none",
-            "row_content": "<p>Les soins visage naturels Hilo sont jusqu'à 100% naturels afin de vous faire profiter de tous les bienfaits de la nature et pour prendre soin de votre peau. <\/p><p>Les soins visage naturels Hilo sont également 100% sur-mesure. Il vous suffit de choisir 3 capsules d'actif à ajouter à votre base de soin naturelle pour obtenir une crème visage personnalisée en fonction des besoins de votre peau. <\/p><p>Grâce aux capsules d'actif, la marque de soins visage naturels Hilo est unique et vous propose une expérience de soin inédite.<\/p><p> La base de crème visage est naturelle à plus de 99% et les capsules d'actif sont 100% naturelles. <\/p>",
-            "page": ""
-          }
-        },
         "collapsible_row_De6yn8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Pourquoi utiliser des soins visage naturels ?",
+            "icon": "none",
+            "row_content": "<p>Utiliser des soins visage naturels au quotidien est bon pour la santé de votre peau. <br\/><\/p><ul><li><strong>Ingrédients naturels et purs<\/strong> : les soins visage naturels sont formulés avec des ingrédients issus de la nature. Ils sont riches en nutriments essentiels pour nourrir et revitaliser la peau. <\/li><li><strong>Sains pour la peau<\/strong> : contrairement aux produits conventionnels, les soins visage naturels ne contiennent pas de produits chimiques agressifs (parabènes, sulfate, allergène...). Cela réduit donc le risque d'irritation et d'effets néfastes à long terme sur la peau. <\/li><\/ul>",
             "page": ""
           }
         },
         "collapsible_row_Ar7QN7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Les soins visage naturels conviennent-ils à tous les types de peau ?",
+            "icon": "none",
+            "row_content": "<p>Absolument ! <\/p><p>Les soins visage naturels utilisent les bienfaits des ingrédients naturels pour prendre soin de la peau. Ils sont très doux et nourrissants pour la peau grâce à leur richesse en nutriment. <\/p><p>Ils sont par exemple, fortement recommandés pour les peaux sensibles parce qu'ils n'agressent pas la peau et diminuent les irritations. <\/p><p>Chez Hilo, nous vous proposons de personnaliser votre base de crème en fonction de votre type de peau. Vous choisissez donc les actifs qui correspondent à vos besoins pour obtenir un soin visage naturel 100% adapté à votre peau. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4MUDV4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qu'est ce qui distingue les soins visage naturels Hilo des autres produits cosmétiques ?",
+            "icon": "none",
+            "row_content": "<p>Les soins visage naturels Hilo sont naturels à plus de 99% afin de vous faire profiter de tous les bienfaits de la nature pour prendre soin de votre peau. <\/p><p>Les soins visage naturels Hilo sont également 100% sur-mesure. Il vous suffit de choisir 3 capsules d'actif à ajouter à votre base de soin naturelle pour obtenir une crème visage naturelle et personnalisée en fonction des besoins de votre peau. <\/p><p>Grâce aux capsules d'actif, la marque de soins visage naturels Hilo est unique et vous propose une expérience de soin inédite.<\/p><p>La base de crème visage est naturelle à plus de 99% et les capsules d'actif sont 100% naturelles. <\/p>",
             "page": ""
           }
         },
         "collapsible_row_YAkGea": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Comment choisir mes actifs pour personnaliser ma base de soin visage naturel ?",
+            "icon": "none",
+            "row_content": "<p>Pour personnaliser votre soin visage naturel, vous avez deux possibilités : <\/p><ul><li><strong>réaliser votre diagnostic de peau <\/strong>en ligne en 2 minutes. A la fin du diagnostic, vous découvrez les 3 capsules d'actif adaptée à votre peau ainsi que des conseils personnalisés pour votre routine de soin visage naturelle.<\/li><li><strong>choisir vous-même vos actifs<\/strong> : si vous connaissez parfaitement les besoins de votre peau, choisissez directement vos 3 capsules d'actif qui vont personnaliser votre base de soin visage naturelle. <\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pnDPwh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les soins visage naturels Hilo sont-ils vegan ?",
+            "icon": "none",
+            "row_content": "<p>Bien sûr ! <\/p><p>Les soins visage naturels Hilo sont 100% vegan. Nos produits sont également cruelty free (jamais testés sur les animaux) comme l'exige la réglementation européenne. <\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_4MUDV4",
         "collapsible_row_De6yn8",
         "collapsible_row_Ar7QN7",
-        "collapsible_row_YAkGea"
+        "collapsible_row_4MUDV4",
+        "collapsible_row_YAkGea",
+        "collapsible_row_pnDPwh"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Vos questions sur les soins visage naturels",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
