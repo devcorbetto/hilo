@@ -23,13 +23,21 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><strong>Mais pourquoi ? <br\/><br\/><\/strong><\/p><p><em>\"Depuis quelques semaines on fait un tour de France pour référencer nos produits en magasin. Vous nous aidez beaucoup sur les réseaux depuis le début de ce Hilo on tour et vous êtes à fond avec nous. <br\/><br\/><\/em><\/p><p><em>Sur la route, on a pu rencontrer quelque uns d’entre vous qui nous ont fait pleins de retours positifs sur les produits et ça nous touche vraiment beaucoup. <\/em><\/p><p><em><br\/><\/em><\/p><p><em>C’est pour ça que nous avons décidé de vous remercier en faisant gagner une crème visage naturelle Hilo à 200 d'entre vous.\"<\/em><\/p><p><br\/>Elise & Margaux <br\/><\/p>"
+            "text": "<h2><strong><br\/>Mais pourquoi ? <br\/><\/strong><br\/><\/h2>"
+          }
+        },
+        "text_dcepBq": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p><em>\"Depuis quelques semaines on fait un tour de France pour référencer nos produits en magasin. Vous nous aidez beaucoup sur les réseaux depuis le début de ce Hilo on tour et vous êtes à fond avec nous. <br\/><br\/><\/em><\/p><p><em>Sur la route, on a pu rencontrer quelque uns d’entre vous qui nous ont fait pleins de retours positifs sur les produits et ça nous touche vraiment beaucoup. <\/em><strong>🥰<\/strong><\/p><p><em><br\/><\/em><\/p><p><em>C’est pour ça que nous avons décidé de vous remercier en faisant gagner une crème visage naturelle Hilo à 200 d'entre vous.\"<\/em><\/p><p><br\/>Elise & Margaux <\/p>"
           }
         }
       },
       "block_order": [
         "heading_jEmYdi",
-        "text_Nftbrt"
+        "text_Nftbrt",
+        "text_dcepBq"
       ],
       "settings": {
         "customcss": "",
