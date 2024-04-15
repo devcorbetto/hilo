@@ -19,24 +19,16 @@
             "heading_size": "h0"
           }
         },
-        "text_Nftbrt": {
-          "type": "text",
-          "settings": {
-            "customcss": "",
-            "text": "<h2><strong><br\/>Mais pourquoi ? <br\/><\/strong><br\/><\/h2>"
-          }
-        },
         "text_dcepBq": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><em>\"En ce moment on est en Hilo on tour. L'objectif est de référencer Hilo dans un maximum de boutique partout en France.<br\/><br\/>Afin de vous remercier pour tous vos conseils précieux et votre accueil chaleureux dans chaque ville de France, on lance de grand concours pour faire gagner une crème Hilo à   200 d'entre vous.\"<\/em><strong>🥰<\/strong><\/p><p><\/p><p><br\/>Elise & Margaux <\/p>"
+            "text": "<p><em><br\/>\"En ce moment on est en Hilo on tour. L'objectif est de référencer Hilo dans un maximum de boutique partout en France.<br\/><br\/>Afin de vous remercier pour tous vos conseils précieux et votre accueil chaleureux dans chaque ville de France, on lance un grand concours pour faire gagner une crème Hilo à   200 d'entre vous.\"<\/em><strong>🥰<\/strong><\/p><p><\/p><p><br\/>Elise & Margaux <\/p>"
           }
         }
       },
       "block_order": [
         "heading_jEmYdi",
-        "text_Nftbrt",
         "text_dcepBq"
       ],
       "settings": {
