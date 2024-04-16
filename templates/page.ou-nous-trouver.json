@@ -90,7 +90,7 @@
         "template--18451935265063__730372ae-2be5-47aa-af0e-37e941dcd113-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Cosmétiques naturels, fabrication française & conseils beauté <strong>🌿<\/strong><\/p><p><br\/><\/p><p>18 rue Neuve, 12000 Rodez<\/p><p>Horaires : du mardi au samedi, de 10h00 à 12h30 et de 14h00 à 19h00<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\">Google Map<\/a><\/p>",
+            "text": "<p>Cosmétiques naturels, fabrication française & conseils beauté <strong>🌿<\/strong><\/p><p><br\/><\/p><p>18 rue Neuve, 12000 Rodez<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/My+No%C3%A9\/@44.3503058,2.576127,17z\/data=!3m1!4b1!4m6!3m5!1s0x12b27d4af3c11bf1:0xc2d39fad7b0eb452!8m2!3d44.3503058!4d2.576127!16s%2Fg%2F11vl0vvc2c?entry=ttu\">Google Map<\/a><\/p>",
             "text_style": "body"
           }
         }
@@ -161,6 +161,90 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_DY9pJh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PajhNk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Le Paradis des Filles",
+            "heading_size": "h2"
+          }
+        },
+        "text_hwgjMf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Institut de beauté <strong>✨<\/strong><\/p><p><br\/><\/p><p>1 Grande Rue, 69380 Chazay-d'Azergues<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Le+paradis+des+filles\/@45.8760043,4.7131958,15z\/data=!4m6!3m5!1s0x47f48d997d25dadd:0xf63917951d992e72!8m2!3d45.8760043!4d4.7131958!16s%2Fg%2F11vlhxm775?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Le+paradis+des+filles\/@45.8760043,4.7131958,15z\/data=!4m6!3m5!1s0x47f48d997d25dadd:0xf63917951d992e72!8m2!3d45.8760043!4d4.7131958!16s%2Fg%2F11vlhxm775?entry=ttu\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PajhNk",
+        "text_hwgjMf"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/paradis-des-filles-chazay.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_z9LJtF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LUNMa4": {
+          "type": "heading",
+          "settings": {
+            "heading": "New age",
+            "heading_size": "h2"
+          }
+        },
+        "text_CVpfhM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Concept store écoresponsable : cadeaux, lifestyle & cosmétiques <strong>🌿<\/strong><\/p><p><br\/><\/p><p>38 Rue du Poteau, 75018 Paris<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/New+Age+-+concept+store+%C3%A9co-responsable+-+cadeaux+%26+lifstyle+%26+cosm%C3%A9tiques\/@48.8942134,2.3416369,15z\/data=!4m6!3m5!1s0x47e66f801d26ddf1:0x151c54d9b3ae5301!8m2!3d48.8942134!4d2.3416369!16s%2Fg%2F11rtssbf6v?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/New+Age+-+concept+store+%C3%A9co-responsable+-+cadeaux+%26+lifstyle+%26+cosm%C3%A9tiques\/@48.8942134,2.3416369,15z\/data=!4m6!3m5!1s0x47e66f801d26ddf1:0x151c54d9b3ae5301!8m2!3d48.8942134!4d2.3416369!16s%2Fg%2F11rtssbf6v?entry=ttu\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LUNMa4",
+        "text_CVpfhM"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/boutique-new-age-paris.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -168,7 +252,7 @@
           "type": "text",
           "settings": {
             "customcss": "bg_subtitle",
-            "text": "<p><strong>Retrouvez d'ores et déjà vos soins Hilo en parapharmacies et boutiques de cosmétiques près de chez vous !<\/strong><\/p><p>La Team Hilo travaille activement pour créer de nouveaux partenariats et vous proposer très bientôt de nouveaux points de ventes. 😉<\/p>"
+            "text": "<p><strong><br\/><\/strong><\/p><p>La Team Hilo travaille activement pour créer de nouveaux partenariats et vous proposer très bientôt de nouveaux points de ventes. 😉<\/p>"
           }
         },
         "17b77c91-5d5d-4472-9d20-529170be2936": {
@@ -297,6 +381,8 @@
     "e7256211-cbc3-4270-a670-df8dc8bd7910",
     "730372ae-2be5-47aa-af0e-37e941dcd113",
     "image_with_text_UA98FH",
+    "image_with_text_DY9pJh",
+    "image_with_text_z9LJtF",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
     "rich_text_KyBp79",
     "rich_text_kgjG8U"
