@@ -466,8 +466,8 @@
         "column_P8xe6k"
       ],
       "settings": {
-        "customcss": "",
-        "title": "multi-logos",
+        "customcss": "multi-logos",
+        "title": "ILS PARLENT D'HILO",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
