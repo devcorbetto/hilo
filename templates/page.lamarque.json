@@ -328,6 +328,160 @@
         "padding_top": 100,
         "padding_bottom": 136
       }
+    },
+    "multicolumn_carrousel_A4xkcr": {
+      "type": "multicolumn-carrousel",
+      "blocks": {
+        "column_TyT8qX": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/france_3.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hkfg4g": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Logo-elle-hilo.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Cfd66a": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Gala_logo-large-removebg-preview.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YtENBc": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Logo_BFM_Business_261fbbe8-7ed5-4e09-a8d4-0e6dca761bcf.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hUjpti": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Lyon_femmes_logo.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PHXhyz": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_lyon_capitale.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6DrEiq": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_progre_Cs.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6jdqw7": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Tribune-de-lyon-logo_5f2ea903-f7f9-4bfb-8bb1-60fa5f1a36d8.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AUNX3D": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_le_re_uveil.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_P8xe6k": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/logo_che_urie.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TyT8qX",
+        "column_hkfg4g",
+        "column_Cfd66a",
+        "column_YtENBc",
+        "column_hUjpti",
+        "column_PHXhyz",
+        "column_6DrEiq",
+        "column_6jdqw7",
+        "column_AUNX3D",
+        "column_P8xe6k"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "multi-logos",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -338,6 +492,7 @@
     "53490372-be18-400d-8691-993c8353747c",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
-    "1edd166c-9532-49eb-b7b3-cda674a02113"
+    "1edd166c-9532-49eb-b7b3-cda674a02113",
+    "multicolumn_carrousel_A4xkcr"
   ]
 }
