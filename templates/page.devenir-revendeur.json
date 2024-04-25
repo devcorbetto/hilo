@@ -67,7 +67,7 @@
         "eclat_side": "gauche",
         "image": "shopify:\/\/shop_images\/coffret-Hilo-creme-visage-naturelle_ae628e96-024a-4078-a2c7-b5b2efddeee7.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
