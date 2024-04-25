@@ -8,86 +8,142 @@
         "padding_bottom": 28
       }
     },
-    "c2d0a482-5ed8-4db9-8669-64adbfcf9183": {
-      "type": "image-banner-wave",
+    "rich_text_qULLpw": {
+      "type": "rich-text",
       "blocks": {
-        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-0": {
+        "heading_8hkRYz": {
           "type": "heading",
           "settings": {
-            "heading": "HILO RECRUTE",
+            "heading": "<p>VOUS SOUHAITEZ DEVENIR REVENDEUR ?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8hkRYz"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "vague-blanche",
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_6",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_BbdV6d": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pbNF7R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rejoignez l'aventure Hilo",
             "heading_size": "h1"
           }
         },
-        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-1": {
+        "text_z4YHTT": {
           "type": "text",
           "settings": {
-            "text": "<p>Retrouvez ici toutes nos offres d'emploi.<\/p>",
+            "text": "<p>Vous êtes <strong>pharmacien(ne), gérant(e) d’un magasin<\/strong> ou <strong>d'un institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsable ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<\/p><p><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\"><strong><br\/><br\/>Je télécharge la plaquette Hilo<\/strong><\/a><\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-0",
-        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-1"
+        "heading_pbNF7R",
+        "text_z4YHTT"
       ],
       "custom_css": [
-        ".banner__heading span {color: ;}",
-        ".banner__text p,.banner__text a {color: ;}"
+        "img {border-radius: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
-        "svg-wave": "vague-blanche",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "customcss": "",
+        "eclat": "eclat-orange",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/coffret-Hilo-creme-visage-naturelle_ae628e96-024a-4078-a2c7-b5b2efddeee7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "e7256211-cbc3-4270-a670-df8dc8bd7910": {
-      "type": "rich-text",
+    "multicolumns_reviews_FwPdEK": {
+      "type": "multicolumns-reviews",
       "blocks": {
-        "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1": {
-          "type": "text",
+        "column_8WxFmU": {
+          "type": "column",
           "settings": {
             "customcss": "",
-            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Stage_community_manager_1.pdf?v=1705913034\" target=\"_blank\" title=\"Offre de stage - Community manager\">Stage - Community manager<\/a><\/p>"
+            "title": "Franco de port",
+            "subtitle": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "f301137f-d1eb-44a4-a1c7-5a172e523868": {
-          "type": "text",
+        "column_cLdGMY": {
+          "type": "column",
           "settings": {
-            "customcss": "bg_subtitle",
-            "text": "<p>Nous vous remercions de nous transmettre votre candidature à l'adresse suivante : <\/p><p><a href=\"mailto:candidature@hilocosmetiques.fr\" title=\"mailto:candidature@hilocosmetiques.fr\">candidature@hilocosmetiques.fr<\/a><\/p><p><\/p>"
+            "customcss": "",
+            "title": "Minimum de commande",
+            "subtitle": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3WpgM6": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Colisage",
+            "subtitle": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
-        "f301137f-d1eb-44a4-a1c7-5a172e523868"
+        "column_8WxFmU",
+        "column_cLdGMY",
+        "column_3WpgM6"
       ],
       "settings": {
-        "customcss": "size-a",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 100
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "c2d0a482-5ed8-4db9-8669-64adbfcf9183",
-    "e7256211-cbc3-4270-a670-df8dc8bd7910"
+    "rich_text_qULLpw",
+    "image_with_text_BbdV6d",
+    "multicolumns_reviews_FwPdEK"
   ]
 }
