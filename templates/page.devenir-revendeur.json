@@ -85,7 +85,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Franco de port",
+            "title": "Franco de port 🚚",
             "subtitle": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -96,18 +96,7 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Minimum de commande",
-            "subtitle": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3WpgM6": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "Colisage",
+            "title": "Minimum de commande 📦",
             "subtitle": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -117,17 +106,16 @@
       },
       "block_order": [
         "column_8WxFmU",
-        "column_cLdGMY",
-        "column_3WpgM6"
+        "column_cLdGMY"
       ],
       "settings": {
         "customcss": "",
         "title": "",
         "subtitle": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
