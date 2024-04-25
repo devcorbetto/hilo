@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c2d0a482-5ed8-4db9-8669-64adbfcf9183": {
+      "type": "image-banner-wave",
+      "blocks": {
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HILO RECRUTE",
+            "heading_size": "h1"
+          }
+        },
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Retrouvez ici toutes nos offres d'emploi.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-0",
+        "template--18276319330599__c2d0a482-5ed8-4db9-8669-64adbfcf9183-16861414272d1a36aa-1"
+      ],
+      "custom_css": [
+        ".banner__heading span {color: ;}",
+        ".banner__text p,.banner__text a {color: ;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
+        "svg-wave": "vague-blanche",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "e7256211-cbc3-4270-a670-df8dc8bd7910": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/Stage_community_manager_1.pdf?v=1705913034\" target=\"_blank\" title=\"Offre de stage - Community manager\">Stage - Community manager<\/a><\/p>"
+          }
+        },
+        "f301137f-d1eb-44a4-a1c7-5a172e523868": {
+          "type": "text",
+          "settings": {
+            "customcss": "bg_subtitle",
+            "text": "<p>Nous vous remercions de nous transmettre votre candidature à l'adresse suivante : <\/p><p><a href=\"mailto:candidature@hilocosmetiques.fr\" title=\"mailto:candidature@hilocosmetiques.fr\">candidature@hilocosmetiques.fr<\/a><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276319330599__e7256211-cbc3-4270-a670-df8dc8bd7910-1679426536fe14ca86-1",
+        "f301137f-d1eb-44a4-a1c7-5a172e523868"
+      ],
+      "settings": {
+        "customcss": "size-a",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c2d0a482-5ed8-4db9-8669-64adbfcf9183",
+    "e7256211-cbc3-4270-a670-df8dc8bd7910"
+  ]
+}
