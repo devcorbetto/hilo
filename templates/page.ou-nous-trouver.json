@@ -245,6 +245,90 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_HnUMXw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NDeHcw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maison Joleene",
+            "heading_size": "h2"
+          }
+        },
+        "text_XPNVim": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Concept store : boutique, café, guest tatoo, nail art & évènements <strong>✨<\/strong><\/p><p><br\/><\/p><p>13 Rue Bouffard, 33000 Bordeaux<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Maison+Joleene\/@44.8400763,-0.5800351,15z\/data=!4m2!3m1!1s0x0:0x306183cc9bcabcb7?sa=X&ved=1t:2428&ictx=111\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Maison+Joleene\/@44.8400763,-0.5800351,15z\/data=!4m2!3m1!1s0x0:0x306183cc9bcabcb7?sa=X&ved=1t:2428&ictx=111\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NDeHcw",
+        "text_XPNVim"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/maison-joleene-boutique.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_tLTBxK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ReHrCd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Les flamants verts",
+            "heading_size": "h2"
+          }
+        },
+        "text_e3cGHw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boutique et atelier de produits naturels <strong>🌿<\/strong><\/p><p><br\/><\/p><p>6 Rue Marengo, 13006 Marseille<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Les+flamants+verts+-+Boutique+atelier\/@43.2910183,5.383903,15z\/data=!4m2!3m1!1s0x0:0xd34a7d71ce3fb63f?sa=X&ved=1t:2428&ictx=111\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Les+flamants+verts+-+Boutique+atelier\/@43.2910183,5.383903,15z\/data=!4m2!3m1!1s0x0:0xd34a7d71ce3fb63f?sa=X&ved=1t:2428&ictx=111\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ReHrCd",
+        "text_e3cGHw"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/flamants-verts-boutique_4b32cb9d-874c-46cc-9caf-4ff985484bae.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -383,6 +467,8 @@
     "image_with_text_UA98FH",
     "image_with_text_DY9pJh",
     "image_with_text_z9LJtF",
+    "image_with_text_HnUMXw",
+    "image_with_text_tLTBxK",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
     "rich_text_KyBp79",
     "rich_text_kgjG8U"
