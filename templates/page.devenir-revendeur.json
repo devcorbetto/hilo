@@ -78,45 +78,45 @@
         "padding_bottom": 36
       }
     },
-    "multicolumns_reviews_FwPdEK": {
-      "type": "multicolumns-reviews",
+    "multicolumn_m7PNtf": {
+      "type": "multicolumn",
       "blocks": {
-        "column_8WxFmU": {
+        "column_3KfxTU": {
           "type": "column",
           "settings": {
             "customcss": "",
             "title": "",
             "subtitle": "",
-            "text": "<h4>🚚<\/h4>",
+            "text": "<h2>🚚<br\/><\/h2><h4><br\/><\/h4><h4><\/h4><h3>Franco de port<\/h3><h3><\/h3><p>300€<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_cLdGMY": {
+        "column_LcLbQJ": {
           "type": "column",
           "settings": {
             "customcss": "",
             "title": "",
             "subtitle": "",
-            "text": "<h4>📦<\/h4>",
+            "text": "<h2>📦<\/h2><h4><br\/><\/h4><h3>Minimum de commande<\/h3><h3><\/h3><p>300€<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_8WxFmU",
-        "column_cLdGMY"
+        "column_3KfxTU",
+        "column_LcLbQJ"
       ],
       "custom_css": [
-        "h4 {font-size: 80px;}"
+        "h2 {font-size: 80px;}"
       ],
       "settings": {
         "customcss": "",
         "title": "",
         "subtitle": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "center",
@@ -124,59 +124,38 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
-    "multicolumns_reviews_R3RMGG": {
-      "type": "multicolumns-reviews",
+    "rich_text_wYhngE": {
+      "type": "rich-text",
       "blocks": {
-        "column_Nfmjnt": {
-          "type": "column",
+        "heading_9FLxcX": {
+          "type": "heading",
           "settings": {
+            "heading": "<p>CONTACTEZ-NOUS<\/p>",
             "customcss": "",
-            "title": "Franco de port",
-            "subtitle": "",
-            "text": "<p>300€<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_JGnNV4": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "Minimum de commande",
-            "subtitle": "",
-            "text": "<p>300€<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "column_Nfmjnt",
-        "column_JGnNV4"
+        "heading_9FLxcX"
       ],
       "settings": {
         "customcss": "",
-        "title": "",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -184,7 +163,7 @@
     "main",
     "rich_text_qULLpw",
     "image_with_text_BbdV6d",
-    "multicolumns_reviews_FwPdEK",
-    "multicolumns_reviews_R3RMGG"
+    "multicolumn_m7PNtf",
+    "rich_text_wYhngE"
   ]
 }
