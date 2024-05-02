@@ -49,29 +49,18 @@
         "text_z4YHTT": {
           "type": "text",
           "settings": {
-            "text": "<p>Vous êtes <strong>pharmacien(ne), <\/strong>gérant(e) d’un<strong> concept store<\/strong> ou d'un <strong>institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsables ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<\/p>",
+            "text": "<p>Vous êtes <strong>pharmacien(ne), <\/strong>gérant(e) d’un<strong> concept store<\/strong> ou d'un <strong>institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsables ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<br\/><\/p><h3><br\/><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\"><strong>Je télécharge la plaquette Hilo<\/strong><\/a><\/h3>",
             "text_style": "body"
-          }
-        },
-        "button_qdYGhx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Je télécharge la plaquette Hilo",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101",
-            "no_target": true
           }
         }
       },
       "block_order": [
         "heading_pbNF7R",
-        "text_z4YHTT",
-        "button_qdYGhx"
+        "text_z4YHTT"
       ],
       "custom_css": [
         "img {border-radius: 30px;}",
-        ".button--primary {color: #fff; background-color: #f59f3C; border-radius: 30px; font-size: 20px;}",
-        ".button--primary:hover {color: #fff !important; background-color: transparent !important;}",
-        ".button--primary::after {box-shadow: none; border: 2px solid #f59f3c !important;}"
+        "a {color: #f8b362; text-decoration: underline;}"
       ],
       "settings": {
         "customcss": "",
