@@ -68,7 +68,10 @@
         "button_qdYGhx"
       ],
       "custom_css": [
-        "img {border-radius: 30px;}"
+        "img {border-radius: 30px;}",
+        ".button--primary {color: #fff; background-color: #f59f3C; border-radius: 30px; font-size: 20px;}",
+        ".button--primary:hover {color: #fff !important; background-color: transparent !important;}",
+        ".button--primary::after {box-shadow: none; border: 2px solid #f59f3c !important;}"
       ],
       "settings": {
         "customcss": "",
