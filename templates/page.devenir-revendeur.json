@@ -49,7 +49,7 @@
         "text_z4YHTT": {
           "type": "text",
           "settings": {
-            "text": "<p>Vous êtes <strong>pharmacien(ne), <\/strong>gérant(e) d’un<strong> concept store<\/strong> ou d'un <strong>institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsable ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<\/p><p><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\"><strong><br\/><br\/>Je télécharge la plaquette Hilo<\/strong><\/a><\/p>",
+            "text": "<p>Vous êtes <strong>pharmacien(ne), <\/strong>gérant(e) d’un<strong> concept store<\/strong> ou d'un <strong>institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsables ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<\/p><p><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\"><strong><br\/><br\/>Je télécharge la plaquette Hilo<\/strong><\/a><\/p>",
             "text_style": "body"
           }
         }
@@ -65,11 +65,11 @@
         "customcss": "",
         "eclat": "eclat-orange",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/creme-visage-naturelle-combo-printemps_053493b6-2c83-404b-8bc2-d4678e4698c9.jpg",
+        "image": "shopify:\/\/shop_images\/boutique-hilo-devenir-revendeur.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -85,9 +85,9 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Franco de port 🚚",
+            "title": "",
             "subtitle": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<h4>🚚<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -96,9 +96,9 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Minimum de commande 📦",
+            "title": "",
             "subtitle": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<h4>📦<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -107,6 +107,9 @@
       "block_order": [
         "column_8WxFmU",
         "column_cLdGMY"
+      ],
+      "custom_css": [
+        "h4 {font-size: 80px;}"
       ],
       "settings": {
         "customcss": "",
@@ -124,6 +127,55 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumns_reviews_R3RMGG": {
+      "type": "multicolumns-reviews",
+      "blocks": {
+        "column_Nfmjnt": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Franco de port",
+            "subtitle": "",
+            "text": "<p>300€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JGnNV4": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "title": "Minimum de commande",
+            "subtitle": "",
+            "text": "<p>300€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Nfmjnt",
+        "column_JGnNV4"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -132,6 +184,7 @@
     "main",
     "rich_text_qULLpw",
     "image_with_text_BbdV6d",
-    "multicolumns_reviews_FwPdEK"
+    "multicolumns_reviews_FwPdEK",
+    "multicolumns_reviews_R3RMGG"
   ]
 }
