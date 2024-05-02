@@ -49,14 +49,23 @@
         "text_z4YHTT": {
           "type": "text",
           "settings": {
-            "text": "<p>Vous êtes <strong>pharmacien(ne), <\/strong>gérant(e) d’un<strong> concept store<\/strong> ou d'un <strong>institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsables ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<\/p><p><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101\"><strong><br\/><br\/>Je télécharge la plaquette Hilo<\/strong><\/a><\/p>",
+            "text": "<p>Vous êtes <strong>pharmacien(ne), <\/strong>gérant(e) d’un<strong> concept store<\/strong> ou d'un <strong>institut de beauté ?<\/strong><\/p><p>Vous souhaitez proposer à vos clients des soins naturels, personnalisables et écoresponsables ? <\/p><p>Devenez revendeur des soins Hilo et rejoignez l'aventure !<\/p>",
             "text_style": "body"
+          }
+        },
+        "button_qdYGhx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je télécharge la plaquette Hilo",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0716\/5509\/6615\/files\/plaquette_Hilo.pdf?v=1714053101",
+            "no_target": true
           }
         }
       },
       "block_order": [
         "heading_pbNF7R",
-        "text_z4YHTT"
+        "text_z4YHTT",
+        "button_qdYGhx"
       ],
       "custom_css": [
         "img {border-radius: 30px;}"
