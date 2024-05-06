@@ -52,7 +52,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "coffrets-cadeaux",
+        "collection": "fetes-des-meres-page-cadeaux",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
