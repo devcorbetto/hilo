@@ -14,7 +14,7 @@
         "template--21365101756711__6f074a4c-732a-4517-b571-8caacf18bc8a-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>COFFRETS CADEAUX COSMÉTIQUES<\/p>",
+            "heading": "<p>CADEAUX COSMÉTIQUES FÊTE DES MÈRES <\/p>",
             "customcss": "",
             "heading_size": "h0"
           }
@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Vous cherchez le <strong>cadeau parfait <\/strong>pour ceux que vous aimez ? 🎁 <\/p><p>Découvrez les <strong>coffrets cadeaux cosmétiques<\/strong> d'Hilo à offrir pour faire plaisir à vos proches.<br\/><br\/><\/p><p>Facile à offrir ou à s’offrir, Hilo vous propose une gamme de <strong>trousses découverte exclusive<\/strong>. Retrouvez toute l’efficacité des soins Hilo dans un <strong>coffret cadeau cosmétique<\/strong> idéal pour toutes les peaux. <strong>✨<\/strong><\/p>"
+            "text": "<p>Vous cherchez le <strong>cadeau parfait <\/strong>pour la fête des mères ? 🎁 <\/p><p>Découvrez les <strong>coffrets cadeaux cosmétiques<\/strong> d'Hilo à offrir pour faire plaisir à coup sûr à votre maman.<br\/><br\/><\/p><p>Facile à offrir, Hilo vous propose de gâter votre maman avec une <strong>trousse découverte, <\/strong>le coffret cadeau phare de la marque. Retrouvez toute l’efficacité des soins Hilo dans un <strong>coffret cadeau cosmétique<\/strong> idéal pour toutes les peaux. <strong>✨<\/strong><\/p>"
           }
         }
       },
@@ -102,6 +102,7 @@
         "template--17779790053671__58e3e5a0-a50f-4645-98f0-b076aa307a6a-1675644545a9032140-1",
         "a82a55a9-1c7b-45ef-8983-c7289128aab2"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__heading {color: ;}",
         ".rich-text__text p {color: ;}",
@@ -178,7 +179,7 @@
           "settings": {
             "heading": "À qui offrir un coffret cadeau cosmétique ?",
             "icon": "none",
-            "row_content": "<p>Les <strong>coffrets cadeaux cosmétiques<\/strong> conviennent à toutes les peaux, même les plus sensibles. <\/p><p>Nous avons créé pour vous 3 <strong>coffrets cadeaux cosmétiques différents<\/strong> afin de pouvoir répondre aux <strong>préoccupations de peau <\/strong>de chacun. <\/p><p>Les coffrets cadeaux cosmétiques vous permettent d'offrir le <strong>cadeau idéal<\/strong> sans risquer de vous tromper. <\/p>",
+            "row_content": "<p>Les <strong>coffrets cadeaux cosmétiques<\/strong> conviennent à toutes les peaux, même les plus sensibles. <\/p><p>Nous avons créé pour vous 2 <strong>coffrets cadeaux cosmétiques différents<\/strong> en fonction de 2 grandes <strong>préoccupations de peau<\/strong>. <\/p><p>Les coffrets cadeaux cosmétiques vous permettent d'offrir le <strong>cadeau idéal<\/strong> sans risquer de vous tromper. <\/p>",
             "page": ""
           }
         },
@@ -187,7 +188,7 @@
           "settings": {
             "heading": "Quel coffret cadeau cosmétique choisir ?",
             "icon": "none",
-            "row_content": "<p>Hilo lance sa gamme de <strong>3 coffrets cadeaux cosmétiques <\/strong>afin de s'adapter à toutes les peaux, même les plus sensibles. <\/p><p>Grâce à ses 3 actifs à ajouter à sa crème Hilo, chaque coffret cadeau répond à des <strong>préoccupations de peau <\/strong>différentes : <\/p><ul><li>Le coffret cadeau <strong>Grand froid<\/strong> : c'est le coffret cadeau cosmétique parfait pour <strong>affronter l'hiver <\/strong>et préparer sa peau aux températures négatives.❄️ Il contient les <strong>actifs phares de l'hiver<\/strong> : onagre, abricot et amande douce (respectivement reconnus pour leurs propriétés : <strong>hydratant, illuminant et apaisant<\/strong>). <\/li><li>Le coffret cadeau <strong>Zéro défaut<\/strong> : c'est le coffret cadeau cosmétique parfait pour <strong>rétablir l'équilibre de la peau<\/strong> et dire bye-bye aux imperfections ! <strong>🫧 <\/strong>C'est le coffret cosmétique <strong>spécial imperfections<\/strong> grâce aux actifs noisette, onagre et amande douce (respectivement reconnus pour leurs propriétés <strong>anti-imperfections, hydratant et apaisant<\/strong>). <\/li><li>Le coffret cadeau <strong>Éclat de jeunesse<\/strong> : c'est le coffret cadeau cosmétique parfait pour <strong>prévenir l’apparition des signes de l’âge<\/strong> et avoir un teint éclatant ! <strong>✨ <\/strong>Il contient les actifs phares pour prévenir les <strong>signes de l'âge<\/strong> : argan, abricot et carotte (respectivement reconnus pour leurs propriétés <strong>anti-âge, nourrissant et bonne mine<\/strong>). <\/li><\/ul><p><\/p><p>Vous pouvez donc <strong>adapter votre choix<\/strong> en fonction de la personne à qui vous souhaitez offrir votre <strong>coffret cadeau cosmétique <\/strong>(type de peau, âge...). <\/p><p>Vous trouverez forcément <strong>votre bonheur<\/strong> parmi ces coffrets cadeaux ! <\/p><p><\/p><p><\/p>",
+            "row_content": "<p>Hilo lance sa gamme de <strong>3 coffrets cadeaux cosmétiques <\/strong>afin de s'adapter à toutes les peaux, même les plus sensibles. <\/p><p>Grâce à ses 3 actifs à ajouter à sa crème Hilo, chaque coffret cadeau répond à des <strong>préoccupations de peau <\/strong>différentes :  <\/p><ul><li>Le coffret cadeau <strong>Zéro défaut<\/strong> : c'est le coffret cadeau cosmétique parfait pour <strong>rétablir l'équilibre de la peau<\/strong> et dire bye-bye aux imperfections ! <strong>🫧 <\/strong>C'est le coffret cosmétique <strong>spécial imperfections<\/strong> grâce aux actifs noisette, onagre et amande douce (respectivement reconnus pour leurs propriétés <strong>anti-imperfections, hydratant et apaisant<\/strong>). <\/li><li>Le coffret cadeau <strong>Éclat de jeunesse<\/strong> : c'est le coffret cadeau cosmétique parfait pour <strong>prévenir l’apparition des signes de l’âge<\/strong> et avoir un teint éclatant ! <strong>✨ <\/strong>Il contient les actifs phares pour prévenir les <strong>signes de l'âge<\/strong> : argan, abricot et carotte (respectivement reconnus pour leurs propriétés <strong>anti-âge, nourrissant et bonne mine<\/strong>). <\/li><\/ul><p><\/p><p>Vous pouvez donc <strong>adapter votre choix<\/strong> en fonction de la personne à qui vous souhaitez offrir votre <strong>coffret cadeau cosmétique <\/strong>(type de peau, âge...). <\/p><p>Vous trouverez forcément <strong>votre bonheur<\/strong> parmi ces coffrets cadeaux ! <\/p>",
             "page": ""
           }
         }
