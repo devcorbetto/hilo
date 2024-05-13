@@ -160,6 +160,7 @@
           },
           "33b0d505-ba75-485a-903f-af0cded9f718": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "En ce moment : LIVRAISON GRATUITE 🚚",
               "text_alignment": "center",
