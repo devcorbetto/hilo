@@ -211,14 +211,26 @@
             "text": "<p>Après un début d'aventure semée d'embuches, le pari est réussi : on a créé <strong>le soin visage parfait <\/strong>qui s'adapte à votre peau en fonction de vos besoins. <br\/><br\/><\/p><p>Grâce aux capsules Hilo, vous ajoutez <strong>la dose d'actif idéale<\/strong> (3 capsules à choisir en fonction de vos besoins) dans votre base de soin pour obtenir une crème visage 100% personnalisée. <\/p><p><br\/><\/p><p>L'assemblage de votre soin est simple, rapide et ludique pour une <strong>dose de bonne humeur<\/strong> assurée !<\/p>",
             "text_style": "body"
           }
+        },
+        "button_wywwmQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je découvre",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "no_target": true
+          }
         }
       },
       "block_order": [
         "heading_tTb4Ri",
-        "text_XyLFgX"
+        "text_XyLFgX",
+        "button_wywwmQ"
       ],
       "custom_css": [
-        "img {border-radius: 30px;}"
+        "img {border-radius: 30px;}",
+        ".button--secondary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #ef819a !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
       ],
       "settings": {
         "customcss": "lamarque_text1",
@@ -235,6 +247,44 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 56
+      }
+    },
+    "rich_text_RUFUCg": {
+      "type": "rich-text",
+      "blocks": {
+        "button_fMkPcx": {
+          "type": "button",
+          "settings": {
+            "customcss": "btn-circle",
+            "button_label": "Je découvre 😍",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false,
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_fMkPcx"
+      ],
+      "custom_css": [
+        ".button--secondary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #ef819a !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "multicolumn_svg_fpteNY": {
@@ -409,122 +459,6 @@
         "padding_bottom": 52
       }
     },
-    "5e1a504a-e19c-4615-9c2d-a397a47aee6b": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0": {
-          "type": "column",
-          "settings": {
-            "customcss": "border-color1",
-            "image": "shopify:\/\/shop_images\/Hilo-la-team-Elise.jpg",
-            "title": "Elise 🏃‍♀",
-            "subtitle": "Co-fondatrice",
-            "text": "<p>Son match du moment : Onagre, Onagre et Carotte<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1": {
-          "type": "column",
-          "settings": {
-            "customcss": "border-color2",
-            "image": "shopify:\/\/shop_images\/Hilo-la-team-Margaux.jpg",
-            "title": "Margaux 🎨",
-            "subtitle": "Co-Fondatrice",
-            "text": "<p>Son match du moment : Abricot, Carotte et Argan<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "414ffa1c-76df-4c14-a436-646a7cd174ab": {
-          "type": "column",
-          "settings": {
-            "customcss": "border-color3",
-            "image": "shopify:\/\/shop_images\/Emma-Team-Hilo.jpg",
-            "title": "Emma 🏔️",
-            "subtitle": "Communication",
-            "text": "<p>Son match du moment : Noisette, Noisette et Abricot<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "2e3950c0-558b-4d13-aa7e-627c7da0b782": {
-          "type": "column",
-          "settings": {
-            "customcss": "border-color4",
-            "image": "shopify:\/\/shop_images\/Hilo-la-team-Ana.jpg",
-            "title": "Anaëlle 🧘‍♀️",
-            "subtitle": "Marketing",
-            "text": "<p>Son match du moment : Amande douce, Noisette et Argan<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-0",
-        "template--17779856146727__5e1a504a-e19c-4615-9c2d-a397a47aee6b-1675644894e5f0b6b6-1",
-        "414ffa1c-76df-4c14-a436-646a7cd174ab",
-        "2e3950c0-558b-4d13-aa7e-627c7da0b782"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "customcss": "images-team",
-        "title": "LA TEAM HILO",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 36
-      }
-    },
-    "1edd166c-9532-49eb-b7b3-cda674a02113": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>VOUS SOUHAITEZ REJOINDRE LA TEAM ?<\/p>",
-            "customcss": "mb-10b",
-            "heading_size": "h1"
-          }
-        },
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1": {
-          "type": "text",
-          "settings": {
-            "customcss": "aunderline",
-            "text": "<p>Retrouvez toutes nos offres d'emploi par <a href=\"\/pages\/nous-rejoindre\" title=\"Nous rejoindre\">ici<\/a>😊<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-0",
-        "template--17779856146727__1edd166c-9532-49eb-b7b3-cda674a02113-1675644880a725a637-1"
-      ],
-      "settings": {
-        "customcss": "waves6a",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
-        "svg-eclat": "none",
-        "color_scheme": "colors_2",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 136
-      }
-    },
     "multicolumn_carrousel_A4xkcr": {
       "type": "multicolumn-carrousel",
       "blocks": {
@@ -687,11 +621,10 @@
     "d3243599-dd4d-4fca-8067-0a9f9fa52b95",
     "53490372-be18-400d-8691-993c8353747c",
     "image_with_text_3tVXBw",
+    "rich_text_RUFUCg",
     "multicolumn_svg_fpteNY",
     "multicolumn_svg_CA8drf",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
-    "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
-    "1edd166c-9532-49eb-b7b3-cda674a02113",
     "multicolumn_carrousel_A4xkcr"
   ]
 }
