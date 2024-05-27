@@ -21,7 +21,7 @@
         "template--17804309070119__b15a86b8-82e4-40b5-8614-9303e6e4ab71-1686144866da141983-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Proposer des soins sur-mesure et naturels qui s'adaptent à toutes les peaux tout au long de la vie.<\/p>",
+            "text": "<p>Rendre accessible à tous les cosmétiques personnalisables !<\/p>",
             "text_style": "subtitle"
           }
         }
@@ -35,7 +35,8 @@
         ".banner__text p {color: ;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hilo-les-fondatrices_febc64a6-b4c4-4b16-85cc-b437c3ea5489.jpg",
+        "image": "shopify:\/\/shop_images\/Hilo-fondatrices-marque.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Elise-margaux-hilo.jpg",
         "svg-wave": "vague-rose",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -44,7 +45,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
@@ -64,17 +65,34 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><strong>Îlot [n.m]<\/strong> : petite île sur laquelle le naturel et le retour à l'essentiel sont les maîtres mots. Cocon pour se couper du monde un instant et se recentrer sur soi-même. 🧖‍♀️<\/p>"
+            "text": "<p>A votre avis, pourquoi Hilo s'appelle Hilo ? (petit indice en image) <\/p>"
+          }
+        },
+        "text_Vxt3My": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<h3><strong>🏝️ 🌿 💆 <\/strong><\/h3>"
+          }
+        },
+        "text_bNLK4g": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Vous pensez avoir trouvé ? Envoyez-nous vos idées sur Instagram (@hilo.fr). <\/p><p>La team adore lire vos petits mots et hypothèses parfois délirantes ! <strong>😜<\/strong><\/p>"
           }
         }
       },
       "block_order": [
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0",
-        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1"
+        "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-1",
+        "text_Vxt3My",
+        "text_bNLK4g"
       ],
       "custom_css": [
         ".rich-text__heading {color: ;}",
-        ".rich-text__text p {color: ;}"
+        ".rich-text__text p {color: ;}",
+        "h3 {font-size: 50px;}"
       ],
       "settings": {
         "customcss": "",
@@ -95,14 +113,14 @@
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-0": {
           "type": "heading",
           "settings": {
-            "heading": "LA NAISSANCE D'HILO",
+            "heading": "LES FONDATRICES",
             "heading_size": "h1"
           }
         },
         "template--17779856146727__d3243599-dd4d-4fca-8067-0a9f9fa52b95-16756450892837a965-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nous c’est Elise et Margaux : les fondatrices d’Hilo !<br\/><br\/>Quelques années après notre rencontre sur les bancs de l’école, nous avons fait le même constat :  trouver un soin adapté à notre peau était complexe.<br\/><br\/>Nous nous sommes alors mises à créer nos soins personnalisés mais cela  était synonyme de déchets et de gaspillage.<br\/><br\/>C’est pour cette raison que nous avons décidé de créer Hilo : la première marque de cosmétique naturelle & personnalisable grâce à des capsules d’actifs éco-conçues. 🌱<br\/><br\/>Notre innovation, ce sont les capsules Hilo dans lesquelles nos actifs sont pré-dosées pour personnaliser facilement ses cosmétiques sans créer de déchets ni de gaspillage.  <br\/><br\/>Vous ne gardez que l’essentiel, votre soin !<\/p>",
+            "text": "<p>Nous ? c’est <strong>Élise et Margaux<\/strong>.  <\/p><p>On s’est rencontrées en 2016 sur les bancs de l’école et ça a été le <strong>match amical<\/strong> immédiat. <\/p><p>On est créatives, audacieuses et la <strong>bonne humeur<\/strong> est clairement un leitmotiv. <strong>😊<\/strong><br\/><br\/><\/p><p>De cette alchimie est née une idée que nous avons conservée dans un coin de nos têtes  : l’envie de <strong>rendre accessible les cosmétiques personnalisables<\/strong> pour que chacun trouve enfin un soin <strong>VRAIMENT adapté à sa peau<\/strong>...<\/p>",
             "text_style": "body"
           }
         }
@@ -120,7 +138,7 @@
         "customcss": "lamarque_text1",
         "eclat": "none",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/Elise_et_Margaux.jpg",
+        "image": "shopify:\/\/shop_images\/Ajouter_un_sous-titre_1.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -139,14 +157,14 @@
         "13895490-255d-48af-b00b-bdd84f4d1c35": {
           "type": "heading",
           "settings": {
-            "heading": "LES VALEURS DE LA MARQUE",
+            "heading": "LA NAISSANCE D'HILO",
             "heading_size": "h1"
           }
         },
         "6184607f-c260-4cd0-82b3-dbe5d76be10f": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>L’inclusivité<\/strong> : Chaque peau est unique et possède ses propres caractéristiques qui peuvent évoluer dans le temps ou en fonction des saisons par exemple.  Ainsi, nous souhaitons offrir des soins qui s'adaptent parfaitement à chaque peau tout au long de la vie. <\/p><p><strong>Le naturel<\/strong> : Convaincues que la nature a le meilleur à nous offrir, nous souhaitons que chacun puisse facilement créer ses soins 100% naturels et personnalisés. <\/p><p><strong>L’écoresponsabilité<\/strong> : Conscientes de notre impact environnemental, nous voulons vous offrir des cosmétiques plus responsables et durables.<\/p>",
+            "text": "<p>Après l'école, nos chemins professionnels s’éloignent mais <strong>on se retrouve toutes les semaines<\/strong> pour ̶f̶a̶i̶r̶e̶ ̶d̶u̶ ̶s̶p̶o̶r̶t̶, papoter à la salle de sport.<br\/>(On est sûres que vous aussi vous avez déjà vécu ça avec vos copines <strong>😄<\/strong>). <\/p><p><br\/><\/p><p>On décide alors de se lancer dans  l'aventure un peu folle qu'est l'entreprenariat, pour mettre notre énergie et notre bonne humeur au service d’<strong>un projet qui nous tient à cœur<\/strong> : rendre accessible à tous les soins personnalisables.<br\/><br\/><\/p><p>C’est donc comme ça que quelques années plus tard <strong>Hilo est né,<\/strong> pour offrir la dose de bonne humeur à votre routine beauté.<\/p>",
             "text_style": "body"
           }
         }
@@ -164,7 +182,7 @@
         "customcss": "lamarque_text2",
         "eclat": "none",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/Les_valeurs.png",
+        "image": "shopify:\/\/shop_images\/Hilo-elise-et-margaux-aventure_98144628-c29a-4290-97c5-fa918f52d6a1.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -175,6 +193,184 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 56
+      }
+    },
+    "image_with_text_3tVXBw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tTb4Ri": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA CRÈME PARFAITE",
+            "heading_size": "h1"
+          }
+        },
+        "text_XyLFgX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Après un début d'aventure semée d'embuches, le pari est réussi : on a créé <strong>le soin visage parfait <\/strong>qui s'adapte à votre peau en fonction de vos besoins. <br\/><br\/><\/p><p>Grâce aux capsules Hilo, vous ajoutez <strong>la dose d'actif idéale<\/strong> (3 capsules à choisir en fonction de vos besoins) dans votre base de soin pour obtenir une crème visage 100% personnalisée. <\/p><p><br\/><\/p><p>L'assemblage de votre soin est simple, rapide et ludique pour une <strong>dose de bonne humeur<\/strong> assurée !<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tTb4Ri",
+        "text_XyLFgX"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "lamarque_text1",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure_078cad91-f17a-432c-a23f-8123ce0ede2c.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 56
+      }
+    },
+    "multicolumn_svg_fpteNY": {
+      "type": "multicolumn-svg",
+      "blocks": {
+        "column_Rkd6Fe": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "🌱",
+            "subtitle": "",
+            "text": "<h4><strong>Naturel<\/strong> <\/h4><p><br\/><\/p><p>Afin de vous offrir le meilleur de la nature, nos produits sont fabriqués avec plus de 99% d'ingrédients naturels.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_N6VXjW": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "🥕",
+            "subtitle": "",
+            "text": "<h4><strong>100\/100 sur Yuka<\/strong><\/h4><p><br\/><\/p><p>Les produits sont formulés pour respecter votre peau et la planète. De nombreux ingrédients sont <a href=\"https:\/\/hilo-cosmetiques.fr\/pages\/charte-hilo\" target=\"_blank\" title=\"https:\/\/hilo-cosmetiques.fr\/pages\/charte-hilo\">blacklistés de nos formules<\/a>.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6CqPfD": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "🇫🇷",
+            "subtitle": "",
+            "text": "<h4><strong>Made in France<\/strong><\/h4><p><\/p><p><br\/><\/p><p>Les soins Hilo sont formulés, développés et fabriqués en France avec amour dans nos laboratoires partenaires. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Rkd6Fe",
+        "column_N6VXjW",
+        "column_6CqPfD"
+      ],
+      "custom_css": [
+        "h3 {font-size: 40px;}",
+        "h4 {font-size: 25px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "LES ENGAGEMENTS D'HILO",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_svg_CA8drf": {
+      "type": "multicolumn-svg",
+      "blocks": {
+        "column_8Vyn9Q": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "🐰",
+            "subtitle": "",
+            "text": "<h4><strong>Vegan<\/strong><\/h4><p><br\/><\/p><p>Nous n’utilisons aucune matière première animale dans nos formules. Aucun produit Hilo n’est également testé sur les animaux (conformément à la réglementation européenne).<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fWGCeK": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "♻️",
+            "subtitle": "",
+            "text": "<h4><strong>Écoresponsable<\/strong><\/h4><p><br\/><\/p><p>Nos produits sont rechargeables afin d'économiser plus de 95% de plastique. Les capsules d'actifs sont, elles, en matière végétale et donc totalement biodégradable. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MRfTNd": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "codeliquid": "",
+            "title": "🪄",
+            "subtitle": "",
+            "text": "<h4><strong>DIY facile<\/strong><\/h4><p><\/p><p><br\/><\/p><p>Terminé les galères pour créer vos cosmétiques à la maison. Avec Hilo, vous choisissez vos actifs et assemblez votre soin chez vous facilement en 2 minutes seulement. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8Vyn9Q",
+        "column_fWGCeK",
+        "column_MRfTNd"
+      ],
+      "custom_css": [
+        "h3 {font-size: 40px;}",
+        "h4 {font-size: 25px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "title": "",
+        "subtitle": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49": {
@@ -490,6 +686,9 @@
     "06985fef-f561-411b-9d86-7c633b95f399",
     "d3243599-dd4d-4fca-8067-0a9f9fa52b95",
     "53490372-be18-400d-8691-993c8353747c",
+    "image_with_text_3tVXBw",
+    "multicolumn_svg_fpteNY",
+    "multicolumn_svg_CA8drf",
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
     "5e1a504a-e19c-4615-9c2d-a397a47aee6b",
     "1edd166c-9532-49eb-b7b3-cda674a02113",
