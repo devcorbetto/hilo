@@ -228,9 +228,9 @@
       ],
       "custom_css": [
         "img {border-radius: 30px;}",
-        ".button--secondary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
-        ".button--secondary:hover {color: #ef819a !important; background-color: transparent !important;}",
-        ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
+        ".button--primary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
+        ".button--primary:hover {color: #ef819a !important; background-color: transparent !important;}",
+        ".button--primary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
       ],
       "settings": {
         "customcss": "lamarque_text1",
