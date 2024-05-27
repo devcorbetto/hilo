@@ -329,6 +329,90 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_AXjwyF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JMagHg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Avantgarde Coiffure",
+            "heading_size": "h2"
+          }
+        },
+        "text_wDefQe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Salon de coiffure et produits de beauté <strong>✨<\/strong><\/p><p><br\/><\/p><p>1 Av. de la Gare (Bat le Berlioz), 07100 Annonay<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Avantgarde+Coiffure\/@45.2453572,4.6744521,15z\/data=!4m2!3m1!1s0x0:0x8d3b2c47b30772fd?sa=X&ved=1t:2428&ictx=111\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Avantgarde+Coiffure\/@45.2453572,4.6744521,15z\/data=!4m2!3m1!1s0x0:0x8d3b2c47b30772fd?sa=X&ved=1t:2428&ictx=111\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JMagHg",
+        "text_wDefQe"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/Avant-garde-salon-annonay.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_nPmcmN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xCCjHa": {
+          "type": "heading",
+          "settings": {
+            "heading": "La Manufacture",
+            "heading_size": "h2"
+          }
+        },
+        "text_6xPRXd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boutique de cadeaux (déco, bijoux, accessoires...) <strong>✨<\/strong><\/p><p><br\/><\/p><p>4 Rue Lafayette, 38000 Grenoble<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/La+manufacture\/@45.1919034,5.7294197,15z\/data=!4m2!3m1!1s0x0:0x770857ccb4352fd8?sa=X&ved=1t:2428&ictx=111\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/La+manufacture\/@45.1919034,5.7294197,15z\/data=!4m2!3m1!1s0x0:0x770857ccb4352fd8?sa=X&ved=1t:2428&ictx=111\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xCCjHa",
+        "text_6xPRXd"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/La-manufacture-boutique-grenoble.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -469,6 +553,8 @@
     "image_with_text_z9LJtF",
     "image_with_text_HnUMXw",
     "image_with_text_tLTBxK",
+    "image_with_text_AXjwyF",
+    "image_with_text_nPmcmN",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
     "rich_text_KyBp79",
     "rich_text_kgjG8U"
