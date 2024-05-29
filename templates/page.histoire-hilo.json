@@ -164,7 +164,7 @@
         "6184607f-c260-4cd0-82b3-dbe5d76be10f": {
           "type": "text",
           "settings": {
-            "text": "<p>Après l'école, nos chemins professionnels s’éloignent mais <strong>on se retrouve toutes les semaines<\/strong> pour ̶f̶a̶i̶r̶e̶ ̶d̶u̶ ̶s̶p̶o̶r̶t̶, papoter à la salle de sport.<br\/>(On est sûres que vous aussi vous avez déjà vécu ça avec vos copines <strong>😄<\/strong>). <\/p><p><br\/><\/p><p>On décide alors de se lancer dans  l'aventure un peu folle qu'est l'entreprenariat, pour mettre notre énergie et notre bonne humeur au service d’<strong>un projet qui nous tient à cœur<\/strong> : rendre accessible à tous les soins personnalisables.<br\/><br\/><\/p><p>C’est donc comme ça que quelques années plus tard <strong>Hilo est né,<\/strong> pour offrir la dose de bonne humeur à votre routine beauté.<\/p>",
+            "text": "<p>Après l'école, nos chemins professionnels s’éloignent mais <strong>on se retrouve toutes les semaines<\/strong> pour ̶f̶a̶i̶r̶e̶ ̶d̶u̶ ̶s̶p̶o̶r̶t̶, papoter à la salle de sport.<br\/>(On est sûres que vous aussi vous avez déjà vécu ça avec vos copines <strong>😄<\/strong>). <\/p><p><br\/><\/p><p>On décide alors de se lancer dans  l'aventure un peu folle qu'est l'entreprenariat, pour mettre notre énergie et notre bonne humeur au service d’<strong>un projet qui nous tient à cœur<\/strong> : rendre accessible à tous les soins personnalisables en fonction des besoins de sa peau.<br\/><br\/><\/p><p>C’est donc comme ça que quelques années plus tard <strong>Hilo est né,<\/strong> pour offrir la dose de bonne humeur à votre routine beauté.<\/p>",
             "text_style": "body"
           }
         }
@@ -182,7 +182,7 @@
         "customcss": "lamarque_text2",
         "eclat": "none",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/Hilo-elise-et-margaux-aventure_98144628-c29a-4290-97c5-fa918f52d6a1.jpg",
+        "image": "shopify:\/\/shop_images\/Elise-margaux-Hilo_32aeb0e3-4830-4380-9d7e-e10b86e41e36.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -211,14 +211,24 @@
             "text": "<p>Après un début d'aventure semée d'embuches, le pari est réussi : on a créé <strong>le soin visage parfait <\/strong>qui s'adapte à votre peau en fonction de vos besoins. <br\/><br\/><\/p><p>Grâce aux capsules Hilo, vous ajoutez <strong>la dose d'actif idéale<\/strong> (3 capsules à choisir en fonction de vos besoins) dans votre base de soin pour obtenir une <a href=\"\/products\/ma-creme-visage-naturelle-combo-eclat-jeunesse\" target=\"_blank\" title=\"Ma crème visage naturelle - Combo éclat de jeunesse\"><strong>crème visage 100% personnalisée<\/strong><\/a>. <\/p><p><br\/><\/p><p>L'assemblage de votre soin est simple, rapide et ludique pour une <strong>dose de bonne humeur<\/strong> assurée !<\/p>",
             "text_style": "body"
           }
+        },
+        "button_aMX7Qg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je découvre",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "no_target": false
+          }
         }
       },
       "block_order": [
         "heading_tTb4Ri",
-        "text_XyLFgX"
+        "text_XyLFgX",
+        "button_aMX7Qg"
       ],
       "custom_css": [
-        "img {border-radius: 30px;}"
+        "img {border-radius: 30px;}",
+        "a {color: #ef819a;}"
       ],
       "settings": {
         "customcss": "lamarque_text1",
