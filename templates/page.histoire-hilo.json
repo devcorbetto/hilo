@@ -211,20 +211,11 @@
             "text": "<p>Après un début d'aventure semée d'embuches, le pari est réussi : on a créé <strong>le soin visage parfait <\/strong>qui s'adapte à votre peau en fonction de vos besoins. <br\/><br\/><\/p><p>Grâce aux capsules Hilo, vous ajoutez <strong>la dose d'actif idéale<\/strong> (3 capsules à choisir en fonction de vos besoins) dans votre base de soin pour obtenir une <a href=\"\/products\/ma-creme-visage-naturelle-combo-eclat-jeunesse\" target=\"_blank\" title=\"Ma crème visage naturelle - Combo éclat de jeunesse\"><strong>crème visage 100% personnalisée<\/strong><\/a>. <\/p><p><br\/><\/p><p>L'assemblage de votre soin est simple, rapide et ludique pour une <strong>dose de bonne humeur<\/strong> assurée !<\/p>",
             "text_style": "body"
           }
-        },
-        "button_aMX7Qg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Je découvre",
-            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
-            "no_target": false
-          }
         }
       },
       "block_order": [
         "heading_tTb4Ri",
-        "text_XyLFgX",
-        "button_aMX7Qg"
+        "text_XyLFgX"
       ],
       "custom_css": [
         "img {border-radius: 30px;}",
