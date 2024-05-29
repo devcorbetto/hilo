@@ -616,6 +616,60 @@
         "padding_bottom": 60
       }
     },
+    "image_with_text_MQEYPh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JCmTWt": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOTRE MISSION",
+            "heading_size": "h0"
+          }
+        },
+        "text_iWpCgC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>Révolutionner votre routine beauté en créant des soins accessibles à tous qui s'adaptent vraiment aux besoins de votre peau.  <\/p><p><br\/><\/p><h6>Elise & Margaux, Fondatrices d'Hilo<\/h6>",
+            "text_style": "body"
+          }
+        },
+        "button_WG9UFN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrez notre histoire",
+            "button_link": "shopify:\/\/pages\/histoire-marque",
+            "no_target": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JCmTWt",
+        "text_iWpCgC",
+        "button_WG9UFN"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "img {border-radius: 30px;}",
+        "h2 {font-size: 40px !important; font-weight: bold !important;}",
+        "h6 {font-size: 13px;}"
+      ],
+      "settings": {
+        "customcss": "programme_text2 btn-circle",
+        "eclat": "eclat-orange",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/Hilo-fondatrices-Elise-Margaux-creme.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 80
+      }
+    },
     "multicolumn_svg_K3Q8p7": {
       "type": "multicolumn-svg",
       "blocks": {
@@ -693,6 +747,7 @@
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
+    "image_with_text_MQEYPh",
     "multicolumn_svg_K3Q8p7"
   ]
 }
