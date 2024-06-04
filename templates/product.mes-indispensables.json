@@ -200,7 +200,7 @@
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false
           }
         },
@@ -235,7 +235,7 @@
             "text": "<p>Peau à tendance mixte, quelques rougeurs et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false
           }
         },
@@ -254,7 +254,7 @@
             "text": "<p>Peau  déshydratée avec quelques imperfections et rougeurs<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false
           }
         }
