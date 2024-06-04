@@ -413,6 +413,48 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_BG6AaU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BqL38f": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'arbre à savon",
+            "heading_size": "h2"
+          }
+        },
+        "text_xUEnyG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boutique de produits cosmétiques naturels <strong>🌿<\/strong><\/p><p><br\/><\/p><p>42 Rue Sigorgne, 71000 Mâcon<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/L'Arbre+%C3%A0+Savons\/@46.3051497,4.8330404,15z\/data=!4m2!3m1!1s0x0:0x370499303b58e0ac?sa=X&ved=1t:2428&ictx=111\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/L'Arbre+%C3%A0+Savons\/@46.3051497,4.8330404,15z\/data=!4m2!3m1!1s0x0:0x370499303b58e0ac?sa=X&ved=1t:2428&ictx=111\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BqL38f",
+        "text_xUEnyG"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/ArbreSavons01.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -555,6 +597,7 @@
     "image_with_text_tLTBxK",
     "image_with_text_AXjwyF",
     "image_with_text_nPmcmN",
+    "image_with_text_BG6AaU",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
     "rich_text_KyBp79",
     "rich_text_kgjG8U"
