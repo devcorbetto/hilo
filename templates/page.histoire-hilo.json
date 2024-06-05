@@ -185,28 +185,38 @@
         "heading_tTb4Ri": {
           "type": "heading",
           "settings": {
-            "heading": "LA CRÈME 3 EN 1",
+            "heading": "LA CRÈME PARFAITE",
             "heading_size": "h1"
           }
         },
         "text_XyLFgX": {
           "type": "text",
           "settings": {
-            "text": "<p>Après un début d'aventure semée d'embuches, le pari est réussi : on a créé <strong>le soin visage parfait <\/strong>qui s'adapte à votre peau en fonction de vos besoins. <br\/><br\/><\/p><p>Grâce aux capsules Hilo, vous ajoutez <strong>la dose d'actif idéale<\/strong> (3 capsules à choisir en fonction de vos besoins) dans votre base de soin pour obtenir une <a href=\"\/products\/ma-creme-visage-naturelle-combo-eclat-jeunesse\" target=\"_blank\" title=\"Ma crème visage naturelle - Combo éclat de jeunesse\"><strong>crème visage 100% personnalisée<\/strong><\/a>. <\/p><p><br\/><\/p><p>L'assemblage de votre soin est simple, rapide et ludique pour une <strong>dose de bonne humeur<\/strong> assurée !<\/p>",
+            "text": "<p>Après un début d'aventure semée d'embuches, le pari est réussi : on a créé <strong>le soin visage parfait <\/strong>qui s'adapte parfaitement à votre peau en fonction de vos besoins. <br\/><br\/><\/p><p>Grâce aux capsules Hilo, vous ajoutez <strong>la dose d'actif idéale<\/strong> (3 capsules à choisir en fonction de vos besoins) dans votre base de soin pour obtenir une <strong>crème visage 100% adaptée à votre peau<\/strong>. <\/p><p><br\/><\/p><p>L'assemblage de votre soin est simple, rapide et ludique pour une <strong>dose de bonne humeur<\/strong> assurée !<\/p>",
             "text_style": "body"
+          }
+        },
+        "button_hyqPMa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je la veux 😍",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "no_target": false
           }
         }
       },
       "block_order": [
         "heading_tTb4Ri",
-        "text_XyLFgX"
+        "text_XyLFgX",
+        "button_hyqPMa"
       ],
       "custom_css": [
         "img {border-radius: 30px;}",
-        "a {color: #ef819a;}"
+        "h2 {font-size: 30px !important; font-weight: bold !important;}",
+        "@media screen and (max-width: 749px) {h2 {font-size: 22px !important; }}"
       ],
       "settings": {
-        "customcss": "lamarque_text1",
+        "customcss": "programme_text2 btn-circle",
         "eclat": "none",
         "eclat_side": "gauche",
         "image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure_078cad91-f17a-432c-a23f-8123ce0ede2c.png",
