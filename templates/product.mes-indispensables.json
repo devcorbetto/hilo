@@ -64,6 +64,45 @@
         "padding_bottom": 12
       }
     },
+    "171758842808c77274": {
+      "type": "apps",
+      "blocks": {
+        "smart_stories_smart_stories_aMnRfL": {
+          "type": "shopify:\/\/apps\/smart-stories\/blocks\/smart-stories\/dfb95db1-52c1-4619-9def-bc221ea020d9",
+          "settings": {
+            "story-secret": "lAOMqtvXKAA5q1ez",
+            "story-preview-secret": "N4xQ16XHW816m32v",
+            "use_default_settings": true,
+            "data_type": "default",
+            "dynamic_collection": "",
+            "primary_color": "#575756",
+            "secondary_color": "#fccf9c",
+            "corner_radius": 10,
+            "show_group_name": false,
+            "autoplay_audio": false,
+            "font": "montserrat_n4",
+            "story_name_display": "0",
+            "fill": false,
+            "skew_sync": false,
+            "skew_degree": 0,
+            "full_width": false,
+            "floaty_theme": "0",
+            "floaty_corner_position": "0",
+            "vertical_thumb_spacing": 25,
+            "horizontal_thumb_spacing": 25,
+            "border_thickness": 0,
+            "border_gradient_ratio": 50,
+            "border_gradient_degree": 50
+          }
+        }
+      },
+      "block_order": [
+        "smart_stories_smart_stories_aMnRfL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa": {
       "type": "collapsible-content-product",
       "blocks": {
@@ -447,6 +486,7 @@
   },
   "order": [
     "main",
+    "171758842808c77274",
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
     "product-recommendations",
     "16848718877987ad7f",
