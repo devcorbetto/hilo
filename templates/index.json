@@ -460,7 +460,7 @@
             "corner_radius": 10,
             "show_group_name": false,
             "autoplay_audio": false,
-            "font": "helvetica_n4",
+            "font": "montserrat_n7",
             "story_name_display": "0",
             "fill": false,
             "skew_sync": false,
