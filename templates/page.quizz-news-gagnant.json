@@ -14,7 +14,7 @@
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>MERCI POUR VOTRE PARTICIPATION 😊<\/p>",
+            "heading": "<p>Bravo ! Vous avez trouvé la bonne réponse ✨<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -23,14 +23,14 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Votre réponse a bien été enregistrée, rendez-vous très bientôt dans votre boite mail pour découvrir nos nouveautés en détail. <\/p>"
+            "text": "<p>L'huile d'argan est en effet, reconnue pour ses propriétés anti-âge, tonifiante et hydratante.<\/p>"
           }
         },
         "e7d013af-1d49-42d1-aedf-384fb62f8956": {
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>N'oubliez pas que c'est un secret, on compte sur vous. 🤐<\/p>"
+            "text": "<p>Pas de crainte concernant l'utilisation de l'huile d'argan, elle convient à tous les types de peaux !<\/p>"
           }
         }
       },
@@ -58,35 +58,28 @@
         "heading_XpHVJp": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Les bienfaits de l'huile d'argan",
             "heading_size": "h1"
-          }
-        },
-        "text_PkBpAW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
           }
         },
         "button_EVQHFk": {
           "type": "button",
           "settings": {
             "button_label": "Découvrir l'article",
-            "button_link": "https:\/\/hilo-cosmetiques.fr\/blogs\/conseils\/les-bienfaits-de-lhuile-damande-douce",
+            "button_link": "https:\/\/hilo-cosmetiques.fr\/blogs\/conseils\/lhuile-dargan-les-bienfaits-pour-la-peau",
             "no_target": false
           }
         }
       },
       "block_order": [
         "heading_XpHVJp",
-        "text_PkBpAW",
         "button_EVQHFk"
       ],
       "settings": {
         "customcss": "",
         "eclat": "none",
         "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/argan.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
