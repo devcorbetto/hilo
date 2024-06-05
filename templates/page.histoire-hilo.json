@@ -335,40 +335,8 @@
             "link_label": "",
             "link": ""
           }
-        }
-      },
-      "block_order": [
-        "column_Rkd6Fe",
-        "column_N6VXjW",
-        "column_6CqPfD"
-      ],
-      "custom_css": [
-        "h3 {font-size: 40px;}",
-        "h4 {font-size: 25px;}"
-      ],
-      "settings": {
-        "customcss": "",
-        "title": "LES ENGAGEMENTS D'HILO",
-        "subtitle": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_svg_CA8drf": {
-      "type": "multicolumn-svg",
-      "blocks": {
-        "column_8Vyn9Q": {
+        },
+        "column_aXVfjP": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -380,7 +348,7 @@
             "link": ""
           }
         },
-        "column_fWGCeK": {
+        "column_rqd6Tm": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -392,7 +360,7 @@
             "link": ""
           }
         },
-        "column_MRfTNd": {
+        "column_qNVUT7": {
           "type": "column",
           "settings": {
             "customcss": "",
@@ -406,9 +374,12 @@
         }
       },
       "block_order": [
-        "column_8Vyn9Q",
-        "column_fWGCeK",
-        "column_MRfTNd"
+        "column_Rkd6Fe",
+        "column_N6VXjW",
+        "column_6CqPfD",
+        "column_aXVfjP",
+        "column_rqd6Tm",
+        "column_qNVUT7"
       ],
       "custom_css": [
         "h3 {font-size: 40px;}",
@@ -416,7 +387,7 @@
       ],
       "settings": {
         "customcss": "",
-        "title": "",
+        "title": "LES ENGAGEMENTS D'HILO",
         "subtitle": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -637,7 +608,6 @@
     "c01e3c33-97c4-4c6d-9f30-dab971e57b49",
     "rich_text_RUFUCg",
     "multicolumn_svg_fpteNY",
-    "multicolumn_svg_CA8drf",
     "171759661834a6af25",
     "multicolumn_carrousel_A4xkcr"
   ]
