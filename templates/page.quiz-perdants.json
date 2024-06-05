@@ -14,7 +14,7 @@
         "template--17779856146727__06985fef-f561-411b-9d86-7c633b95f399-1675644880a725a637-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Bravo ! Vous avez trouvé la bonne réponse ✨<\/p>",
+            "heading": "<p>Dommage 💕 La bonne réponse était l'huile d'argan<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -30,7 +30,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p>Pas de crainte concernant l'utilisation de l'huile d'argan, elle convient à tous les types de peaux !<\/p>"
+            "text": "<p>Pour être incollable sur l'huile d'argan, vous pouvez cliquer sur notre article juste en dessus  ⬇️<\/p>"
           }
         }
       },
@@ -100,7 +100,7 @@
       "settings": {
         "title": "NOS PÉPITES",
         "heading_size": "h1",
-        "description": "<h6>Pour patienter jusqu'à la grande annonce, (re)découvrez nos produits phares ! <\/h6>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "homepage-2",
