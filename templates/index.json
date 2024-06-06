@@ -31,7 +31,7 @@
             "customcss": "",
             "title": "",
             "subtitle": "",
-            "text": "<p><strong>⭐ <\/strong>Avis 5\/5<\/p>",
+            "text": "<p><strong>⭐ <\/strong>Avis 4,9\/5<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -82,21 +82,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Votre crème visage 100% adaptée à votre peau !",
+            "heading": "La crème qui révolutionne votre routine beauté !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "🌱 Naturelle <br> <br> 🪄 Sur-mesure <br> <br> ❤️ Fabriquée en France",
+            "text": "🧴 Crème visage 3 en 1 <br> <br>  🪄 Personnalisable  <br> <br>   🤩 Concept inédit",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "J'achète",
+            "button_label_1": "Je découvre",
             "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary_1": true,
@@ -108,7 +108,7 @@
         "paragraphe_f3Mj3B": {
           "type": "paragraphe",
           "settings": {
-            "paragraphe": "<h5>⭐⭐⭐⭐⭐ Notée 5\/5 par nos clients<\/h5>"
+            "paragraphe": "<h5>⭐⭐⭐⭐⭐ Notée 4,9\/5 par nos clients<\/h5>"
           }
         }
       },
