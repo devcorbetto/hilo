@@ -843,7 +843,8 @@
       "custom_css": [
         "img {border-radius: 30px;}",
         "h2 {font-size: 40px !important; font-weight: bold !important;}",
-        "h6 {font-size: 13px;}"
+        "h6 {font-size: 13px;}",
+        "@media screen and (max-width: 749px) {h2 {font-size: 25px !important; } }"
       ],
       "settings": {
         "customcss": "programme_text2 btn-circle",
