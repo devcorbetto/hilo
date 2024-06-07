@@ -184,6 +184,54 @@
         "padding_bottom": 60
       }
     },
+    "rich_text_f3q6WL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hzWtGJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT ÇA MARCHE ?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hzWtGJ"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "colors_1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_9ydfmd": {
+      "type": "image-banner",
+      "settings": {
+        "textafter": "",
+        "customcss": "banner-home",
+        "image": "shopify:\/\/shop_images\/hilo-assembler-creme_2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-assembler-creme_c15724fc-52a5-465b-8213-e169d4205f92.png",
+        "svg-wave": "none",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa": {
       "type": "collapsible-content-product",
       "blocks": {
@@ -266,22 +314,6 @@
         "desktop_layout": "image_second",
         "padding_top": 76,
         "padding_bottom": 76
-      }
-    },
-    "16848718877987ad7f": {
-      "type": "apps",
-      "blocks": {
-        "e39ad616-4e3d-43c0-977a-b9660f9ec572": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "e39ad616-4e3d-43c0-977a-b9660f9ec572"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "504b0346-3e48-4a3c-893b-713c872c3287": {
@@ -384,6 +416,22 @@
         "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "16848718877987ad7f": {
+      "type": "apps",
+      "blocks": {
+        "e39ad616-4e3d-43c0-977a-b9660f9ec572": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e39ad616-4e3d-43c0-977a-b9660f9ec572"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "87cb0c62-7445-43a7-8ce2-521349a1542b": {
@@ -597,9 +645,11 @@
     "main",
     "1717579577eb78b5c3",
     "7efb6c47-d0ff-4b39-80de-2cb3c308f015",
+    "rich_text_f3q6WL",
+    "image_banner_9ydfmd",
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
-    "16848718877987ad7f",
     "504b0346-3e48-4a3c-893b-713c872c3287",
+    "16848718877987ad7f",
     "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "3aebad43-9757-4c8a-ad78-a6e2c3563876",
     "product-recommendations",
