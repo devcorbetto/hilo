@@ -296,7 +296,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>COMMENT ÇA  MARCHE ?<\/p>",
+            "heading": "<p>HILO C'EST QUOI ?<\/p>",
             "customcss": "",
             "heading_size": "h1"
           }
@@ -318,17 +318,20 @@
         "color_scheme": "colors_3",
         "full_width": true,
         "padding_top": 48,
-        "padding_bottom": 0
+        "padding_bottom": 28
       }
     },
     "image_banner_QwAGqB": {
       "type": "image-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Hilo-concept-creme-naturelle-sur-mesure.png",
-        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-creme-visage-naturelle-sur-mesure.png",
-        "svg-wave": "vague-blanche",
+        "image": "shopify:\/\/shop_images\/hilo-concept-creme-capsules.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-creme-actifs.png",
+        "svg-wave": "none",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
