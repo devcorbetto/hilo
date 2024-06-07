@@ -300,10 +300,18 @@
             "customcss": "",
             "heading_size": "h1"
           }
+        },
+        "text_mdMhdq": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Des capsules d'actif à ajouter dans sa base de crème Hilo pour un soin 3 en 1 parfaitement adapté à sa peau. <\/p>"
+          }
         }
       },
       "block_order": [
-        "heading_eGfiRB"
+        "heading_eGfiRB",
+        "text_mdMhdq"
       ],
       "settings": {
         "customcss": "rich-classic comment",
@@ -326,8 +334,8 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/hilo-concept-creme-capsules.png",
-        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-crem-capsules.png",
+        "image": "shopify:\/\/shop_images\/Hilo-base-soin-naturelle-capsules-actifs.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-concept-crem-capsules_a4a9fad4-e78d-455c-9c45-3630e02d4625.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -339,6 +347,44 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_FV9fgE": {
+      "type": "rich-text",
+      "blocks": {
+        "button_iikC9J": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Je découvre 😍",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false,
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_iikC9J"
+      ],
+      "custom_css": [
+        ".button--secondary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #ef819a !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
+      ],
+      "settings": {
+        "customcss": "btn-circle",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "vague-blanche",
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_3",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 52
       }
     },
     "rich_text_rbdWW9": {
@@ -523,7 +569,7 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/hilo-assembler-creme_2.png",
+        "image": "shopify:\/\/shop_images\/hilo-assembler-creme_2_210295fa-7d7f-418c-824f-c706fd7b1ef8.png",
         "mobile_image": "shopify:\/\/shop_images\/Hilo-assembler-creme_c15724fc-52a5-465b-8213-e169d4205f92.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
@@ -536,6 +582,44 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_iHwcmk": {
+      "type": "rich-text",
+      "blocks": {
+        "button_BtF7V7": {
+          "type": "button",
+          "settings": {
+            "customcss": "",
+            "button_label": "Je découvre 😍",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
+            "button_out": false,
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_BtF7V7"
+      ],
+      "custom_css": [
+        ".button--secondary {color: #fff; background-color: #a892C5 !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #a892C5 !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #a892C5 !important;}"
+      ],
+      "settings": {
+        "customcss": "btn-circle",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "vague-blanche",
+        "svg-wave-position": "bottom",
+        "svg-eclat": "none",
+        "color_scheme": "colors_1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 52
       }
     },
     "1717592437ebe90efc": {
@@ -844,7 +928,7 @@
         "img {border-radius: 30px;}",
         "h2 {font-size: 40px !important; font-weight: bold !important;}",
         "h6 {font-size: 13px;}",
-        "@media screen and (max-width: 749px) {h2 {font-size: 25px !important; } }"
+        "@media screen and (max-width: 749px) {h2 {font-size: 25px !important; }}"
       ],
       "settings": {
         "customcss": "programme_text2 btn-circle",
@@ -937,10 +1021,12 @@
     "1697198404f4db84a3",
     "rich_text_3piVGQ",
     "image_banner_QwAGqB",
+    "rich_text_FV9fgE",
     "rich_text_rbdWW9",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
     "rich_text",
     "image_banner_wqzB6b",
+    "rich_text_iHwcmk",
     "1717592437ebe90efc",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
