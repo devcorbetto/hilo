@@ -570,7 +570,7 @@
         "textafter": "",
         "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/hilo-assembler-creme_2_210295fa-7d7f-418c-824f-c706fd7b1ef8.png",
-        "mobile_image": "shopify:\/\/shop_images\/Hilo-assembler-creme_c15724fc-52a5-465b-8213-e169d4205f92.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-assembler-creme_7a21cb4e-c437-4b07-be35-d25c99014eb2.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -605,9 +605,9 @@
         "button_BtF7V7"
       ],
       "custom_css": [
-        ".button--secondary {color: #fff; background-color: #a892C5 !important; border-radius: 30px;}",
-        ".button--secondary:hover {color: #a892C5 !important; background-color: transparent !important;}",
-        ".button--secondary::after {box-shadow: none; border: 2px solid #a892C5 !important;}"
+        ".button--secondary {color: #fff; background-color: #a892c5 !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #a892c5 !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #a892c5 !important;}"
       ],
       "settings": {
         "customcss": "btn-circle",
