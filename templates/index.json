@@ -290,10 +290,10 @@
         "include_margins": true
       }
     },
-    "rich_text": {
+    "rich_text_3piVGQ": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
+        "heading_eGfiRB": {
           "type": "heading",
           "settings": {
             "heading": "<p>HILO C'EST QUOI ?<\/p>",
@@ -303,10 +303,7 @@
         }
       },
       "block_order": [
-        "heading"
-      ],
-      "custom_css": [
-
+        "heading_eGfiRB"
       ],
       "settings": {
         "customcss": "rich-classic comment",
@@ -344,6 +341,50 @@
         "show_text_below": false
       }
     },
+    "rich_text_rbdWW9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tb4MqQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LES ACTIFS HILO<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_bXgUix": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Pour chaque problématique de peau, Hilo a la solution dans une petite capsule 100% naturelle. <\/p><p><br\/><\/p><h3><strong>Mini dose, maxi efficacité ✨<\/strong><\/h3>"
+          }
+        },
+        "text_jiFmEx": {
+          "type": "text",
+          "settings": {
+            "customcss": "",
+            "text": "<p>Chaque actif est reconnu pour les propriétés suivantes (cliquez sur chaque capsule pour plus de détails) :<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tb4MqQ",
+        "text_bXgUix",
+        "text_jiFmEx"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
     "373a2a2c-c9d7-41f5-811e-35c4b559b257": {
       "type": "multi-column-hover",
       "blocks": {
@@ -353,8 +394,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-carotte_1.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-carotte_d060d4cb-6df9-478b-8281-066b7d9f8693.png",
-            "title": "Huile de<br> carotte",
-            "text": "<p>Bonne mine<\/p><p>+ de détails<\/p>",
+            "title": "Bonne mine",
+            "text": "<p>Teint terne<br\/>Signes de fatigue<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -365,8 +406,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-argan_1.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-argan_9f53105c-f772-4804-9ce8-fe98bda4060a.png",
-            "title": "Huile <br>d'argan",
-            "text": "<p>Anti-âge<\/p><p>+ de détails<\/p>",
+            "title": "Anti-âge",
+            "text": "<p>Rides, ridules<br\/>Manque de fermeté<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -377,8 +418,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-abricot_1.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-abricot_4295c1d8-37f6-4998-af5f-52decf5059fa.png",
-            "title": "Huile <br>d'abricot",
-            "text": "<p>Illuminante<\/p><p>+ de détails<\/p>",
+            "title": "Iluminante",
+            "text": "<p>Teint terne<br\/>Sécheresse<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -389,8 +430,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-de-noisette_2.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "title": "Huile de<br> noisette",
-            "text": "<p>Anti-imperfections<\/p><p>+ de détails<\/p>",
+            "title": "Anti-imperfections",
+            "text": "<p>Boutons, points noirs<br\/>Brillance<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -401,8 +442,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-amande-douce.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "title": "Huile d'amande<br> douce",
-            "text": "<p>Apaisante<\/p><p>+ de détails<\/p>",
+            "title": "Apaisante",
+            "text": "<p>Rougeurs, irritations<br\/>Cicatrices<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -413,8 +454,8 @@
             "customcss": "",
             "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-huile-d-onagre_1.svg",
             "imagenohover": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "title": "Huile <br>d'onagre",
-            "text": "<p>Hydratante<\/p><p>+ de détails<\/p>",
+            "title": "Hydratante",
+            "text": "<p>Sécheresse<br\/>Déshydratation<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -428,7 +469,6 @@
         "2064b35d-5bc5-408e-8cbe-0ca21bd35612",
         "d5535821-7ade-401a-b1c5-5fd456264dca"
       ],
-      "disabled": true,
       "settings": {
         "customcss": "multi-classic multi-capsules",
         "title": "",
@@ -445,6 +485,57 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT ÇA MARCHE ?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "customcss": "rich-classic comment",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "colors_1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_wqzB6b": {
+      "type": "image-banner",
+      "settings": {
+        "textafter": "",
+        "customcss": "banner-home",
+        "image": "shopify:\/\/shop_images\/hilo-assembler-creme_2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-assembler-creme_c15724fc-52a5-465b-8213-e169d4205f92.png",
+        "svg-wave": "none",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "1717592437ebe90efc": {
@@ -783,9 +874,12 @@
     "multicolumn",
     "featured_collection",
     "1697198404f4db84a3",
-    "rich_text",
+    "rich_text_3piVGQ",
     "image_banner_QwAGqB",
+    "rich_text_rbdWW9",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
+    "rich_text",
+    "image_banner_wqzB6b",
     "1717592437ebe90efc",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
