@@ -116,6 +116,7 @@ p > a:hover{
 
 #ordercustom{
   cursor:pointer;
+  /*display:none;*/
 }
 
 #ordercustom a:hover{
