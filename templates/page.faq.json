@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -57,7 +66,7 @@
           "settings": {
             "heading": "Comment savoir quels actifs choisir pour personnaliser mes soins ?",
             "icon": "none",
-            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés<br\/>spécifiques pour la peau. Hilo vous propose un <a href=\"\/pages\/diagnostic-de-peau\" title=\"Diagnostic\">diagnostic en ligne<\/a> pour vous aider à déterminer les besoins de votre peau et trouver votre match parfait du moment.<\/p>",
+            "row_content": "<p>Les actifs Hilo sont des huiles végétales 100% naturelles et reconnues pour des propriétés spécifiques pour la peau. Hilo vous propose un <a href=\"\/pages\/diagnostic-de-peau\" title=\"Diagnostic\">diagnostic en ligne<\/a> pour vous aider à déterminer les besoins de votre peau et trouver votre match parfait du moment. <strong>✨<\/strong><\/p>",
             "page": ""
           }
         },
@@ -66,7 +75,7 @@
           "settings": {
             "heading": "Les produits sont-ils adaptés aux hommes ?",
             "icon": "none",
-            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète  <\/p>",
+            "row_content": "<p>Bien sûr ! L’inclusivité étant une des valeurs principales d’Hilo, nos cosmétiques sont adaptés à toutes les peaux et donc à tous les êtres humains de notre belle planète. <strong>🌍<\/strong><\/p>",
             "page": ""
           }
         },
@@ -75,7 +84,7 @@
           "settings": {
             "heading": "Les produits sont-ils vegan ?",
             "icon": "none",
-            "row_content": "<p>Oui, nos cosmétiques sont 100% vegan et aucun de nos ingrédients ne contient de matières d’origine animale. Nos produits ne sont également jamais testés sur les animaux comme l’exige la réglementation européenne.<\/p>",
+            "row_content": "<p>Oui, nos cosmétiques sont 100% vegan et aucun de nos ingrédients ne contient de matières d’origine animale. Nos produits ne sont également jamais testés sur les animaux comme l’exige la réglementation européenne. <strong>🐰<\/strong><\/p>",
             "page": ""
           }
         },
@@ -84,7 +93,7 @@
           "settings": {
             "heading": "Les produits sont-ils naturels ?",
             "icon": "none",
-            "row_content": "<p>Oui nos produits sont formulés avec des ingrédients d’origine naturelle. Les bases de soins sont neutres et naturels à plus de 99%. Les actifs étant des huiles végétales, ils sont 100% naturels.<br\/><\/p>",
+            "row_content": "<p>Oui nos produits sont formulés avec des ingrédients d’origine naturelle. Les bases de soins sont neutres et naturels à plus de 99%. Les actifs étant des huiles végétales, ils sont 100% naturels.<\/p><p>La composition de nos produits est ultra clean et sont notés excellent sur Yuka. <strong>🥕<\/strong><br\/><\/p>",
             "page": ""
           }
         },
@@ -93,7 +102,7 @@
           "settings": {
             "heading": "Combien de temps peuvent se conserver les produits Hilo ?",
             "icon": "none",
-            "row_content": "<p>La base de crème Hilo se conserve 6 mois après ouverture de l’opercule et 3 ans avant ouverture.<br\/>Les capsules d’actifs non ouvertes se conservent 3 ans.<\/p><p>Votre base de crème et vos capsules sont à conserver dans un endroit sec, tempéré (entre 15 et 20°C) et à l’abri de la lumière.<br\/><\/p>",
+            "row_content": "<p>La base de crème Hilo se conserve 6 mois après ouverture de l’opercule et 3 ans avant ouverture.<br\/>Les capsules d’actifs non ouvertes se conservent 3 ans.<\/p><p>Votre base de crème et vos capsules sont à conserver dans un endroit sec, tempéré (entre 15 et 20°C) et à l’abri de la lumière. <strong>✨<\/strong><br\/><\/p>",
             "page": ""
           }
         },
@@ -102,7 +111,7 @@
           "settings": {
             "heading": "Où puis-je trouver les produits Hilo ?",
             "icon": "none",
-            "row_content": "<p>Nos produits sont actuellement disponibles uniquement sur notre boutique en ligne.<\/p><p>La Team Hilo travaille dur pour créer de nouveaux partenariats et vous proposer très bientôt des points de ventes près de chez vous !<\/p>",
+            "row_content": "<p>Nos produits sont actuellement disponibles sur notre site e-commerce ainsi que dans des boutiques, concept store et instituts de beauté. <\/p><p>Retrouvez tous les <a href=\"https:\/\/hilo-cosmetiques.fr\/pages\/ou-nous-trouver\" title=\"https:\/\/hilo-cosmetiques.fr\/pages\/ou-nous-trouver\"><strong>points de ventes près de chez vous<\/strong><\/a> sur notre page dédiée !<\/p>",
             "page": ""
           }
         },
@@ -111,7 +120,7 @@
           "settings": {
             "heading": "Quel est le prochain produit Hilo à sortir ?",
             "icon": "none",
-            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous nos prochaines pépites.<br\/>Pour être informé de toutes nos <a href=\"\/pages\/ambassadeur-cosmetiques-naturels\" title=\"Programme ambassadeur\">campagnes ambassadeur<\/a>, nous vous invitons à vous abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les<br\/>informations en avant-première.<\/p>",
+            "row_content": "<p>Pour chaque produit, nous lançons une campagne ambassadeur afin de cocréer avec vous nos prochaines pépites.<br\/>Pour être informé de toutes nos <a href=\"\/pages\/ambassadeur-cosmetiques-naturels\" title=\"Programme ambassadeur\">campagnes ambassadeur<\/a>, nous vous invitons à vous abonner à notre newsletter et à nous suivre sur Instagram ! Vous aurez ainsi les informations en avant-première.<\/p>",
             "page": ""
           }
         },
@@ -129,7 +138,7 @@
           "settings": {
             "heading": "Je souhaite offrir un soin personnalisé Hilo, comment faire ?",
             "icon": "none",
-            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous<br\/>vous conseillons d’offrir une <a href=\"#\" title=\"#\">carte cadeau Hilo.<\/a><\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin directement sur notre site internet.<br\/><\/p>",
+            "row_content": "<p>Les produits Hilo étant personnalisables afin de convenir parfaitement à chaque peau, nous vous conseillons d’offrir une <a href=\"#\" title=\"#\">carte cadeau Hilo.<\/a><\/p><p>Le bénéficiaire de la carte cadeau, n’aura plus qu’à commander et personnaliser son soin directement sur notre site internet.<\/p><p>Nous avons également sur notre <a href=\"\/pages\/boutique-soins-visage-naturels\" title=\"Boutique\">boutique en ligne<\/a> des combos ciblés par problématiques de peau : <\/p><ul><li>Imperfections<\/li><li>Bonne mine<\/li><li>Anti-âge                                                                                                                                                                                                                                                 <\/li><\/ul><p><\/p><p>Vous pouvez ainsi offrir différents types de cadeau à ceux que vous aimez !<\/p>",
             "page": ""
           }
         }
@@ -168,7 +177,7 @@
           "settings": {
             "heading": "Quels sont les délais de livraison ?",
             "icon": "none",
-            "row_content": "<p>Les commandes sont livrées en 5 à 7 jours ouvrés en France métropolitaine<\/p>",
+            "row_content": "<p>Les commandes sont expédiées en 2 jours ouvrés et donc livrés très rapidement en France métropolitaine.<\/p>",
             "page": ""
           }
         },
@@ -177,7 +186,7 @@
           "settings": {
             "heading": "Puis-je être livré en dehors de la France métropolitaine ?",
             "icon": "none",
-            "row_content": "<p>Nous livrons actuellement uniquement en France Métropolitaine.<br\/><\/p>",
+            "row_content": "<p>Nous livrons actuellement en France Métropolitaine, en Suisse et en Belgique. <br\/><\/p>",
             "page": ""
           }
         },
@@ -240,7 +249,7 @@
           "settings": {
             "heading": "Quels sont les moyens de paiement disponibles ?",
             "icon": "none",
-            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire, via Paypal ou Apple Pay.<\/p>",
+            "row_content": "<p>Vous pouvez effectuer vos transactions par carte bancaire ou via Paypal.<\/p>",
             "page": ""
           }
         },
