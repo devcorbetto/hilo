@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "multicolumn_GchCGq": {
@@ -82,27 +91,27 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "La crème qui révolutionne votre routine beauté !",
+            "heading": "Votre crème visage 3 en 1 à petit prix !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "🧴 Crème visage 3 en 1 <br> <br>  🪄 Personnalisable  <br> <br>   🤩 Concept inédit",
+            "text": "C’est les soldes chez Hilo : <br>-30% sur tous nos produits (im)parfaits !",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Je découvre",
+            "button_label_1": "J'en profite",
             "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         },
         "paragraphe_f3Mj3B": {
@@ -129,8 +138,8 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-sur-mesure-naturels-capsules-actifs_978defc4-4e19-4138-80c7-f05c776b0da8.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hilo-cosmetiques-sur-mesure-naturels-capsules_25bec738-097c-4cba-ba8c-f3321a1ef64a.jpg",
+        "image": "shopify:\/\/shop_images\/Elise-margaux-produits-hilo_07bdba35-2dba-4c38-9819-65e350309e01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Elise-margaux-produits-hilo-mobile.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "medium",
