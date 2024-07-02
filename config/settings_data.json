@@ -205,7 +205,7 @@
           "f0f3e84c-e05e-4d85-8caa-7259dfc5aba3"
         ],
         "custom_css": [
-          "p {font-weight: bold;}"
+          "p {font-weight: bold; font-size: 15px;}"
         ],
         "settings": {
         }
