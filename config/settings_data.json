@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "token": "",
@@ -160,12 +169,11 @@
           },
           "33b0d505-ba75-485a-903f-af0cded9f718": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "En ce moment : LIVRAISON GRATUITE 🚚",
+              "text": "SOLDES : -30% sur les imparfaits 😍",
               "text_alignment": "center",
               "color_scheme": "accent-2",
-              "link": ""
+              "link": "shopify:\/\/pages\/boutique-les-imparfaits"
             }
           },
           "79d2705d-dbd3-4495-a5e7-eab0ce496151": {
@@ -195,6 +203,9 @@
           "33b0d505-ba75-485a-903f-af0cded9f718",
           "79d2705d-dbd3-4495-a5e7-eab0ce496151",
           "f0f3e84c-e05e-4d85-8caa-7259dfc5aba3"
+        ],
+        "custom_css": [
+          "p {font-weight: bold;}"
         ],
         "settings": {
         }
