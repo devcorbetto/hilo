@@ -506,6 +506,48 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_xkKpR9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bMyR6d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Madame Nature",
+            "heading_size": "h2"
+          }
+        },
+        "text_ynQVpJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boutique de cosmétiques bio et naturels <strong>🌿<\/strong><\/p><p><br\/><\/p><p>23 Bd Léon Jean Grégory, 66300 Thuir<\/p><p><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Madame+Nature\/@42.6331351,2.7571223,15z\/data=!4m2!3m1!1s0x0:0xc1c5813a91000bc8?sa=X&ved=1t:2428&ictx=111\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Madame+Nature\/@42.6331351,2.7571223,15z\/data=!4m2!3m1!1s0x0:0xc1c5813a91000bc8?sa=X&ved=1t:2428&ictx=111\">Google Map<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bMyR6d",
+        "text_ynQVpJ"
+      ],
+      "custom_css": [
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "customcss": "",
+        "eclat": "none",
+        "eclat_side": "gauche",
+        "image": "shopify:\/\/shop_images\/293611870_897627827846368_3305802653220280067_n_0e5fdd07-8d51-4bc1-8383-033f0299f7b1.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79": {
       "type": "rich-text",
       "blocks": {
@@ -699,6 +741,7 @@
     "image_with_text_nPmcmN",
     "image_with_text_BG6AaU",
     "image_with_text_FM7kKC",
+    "image_with_text_xkKpR9",
     "5bd09e00-2da3-4b52-91a9-66e6ecbe0c79",
     "rich_text_KyBp79",
     "rich_text_kgjG8U",
