@@ -91,12 +91,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Votre crème visage 3 en 1 à petit prix !",
+            "heading": "La crème visage nouvelle génération !",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "C’est les soldes chez Hilo : -30% sur tous nos produits (im)parfaits !",
             "text_style": "body"
@@ -105,7 +106,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "J'en profite",
+            "button_label_1": "Je découvre",
             "button_link_1": "shopify:\/\/pages\/boutique-les-imparfaits",
             "button_out": false,
             "button_style_secondary_1": true,
@@ -117,7 +118,7 @@
         "paragraphe_f3Mj3B": {
           "type": "paragraphe",
           "settings": {
-            "paragraphe": "<h5>⭐⭐⭐⭐⭐ Notée 4,9\/5 par nos clients<\/h5>"
+            "paragraphe": "<h5><strong>❤️<\/strong> Notée 4,9\/5 par nos clients<\/h5>"
           }
         }
       },
@@ -128,7 +129,7 @@
         "paragraphe_f3Mj3B"
       ],
       "custom_css": [
-        ".banner__heading {color: ; margin-top: -50px;}",
+        ".banner__heading {margin-top: -50px;}",
         ".banner__text span {color: #fff; font-size: 18px; font-weight: bold; margin-bottom: 30px;}",
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
@@ -138,7 +139,7 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Elise-margaux-produits-hilo_07bdba35-2dba-4c38-9819-65e350309e01.jpg",
+        "image": "shopify:\/\/shop_images\/creme-visage-hilo-capsules-actifs.png",
         "mobile_image": "shopify:\/\/shop_images\/Elise-margaux-produits-hilo-mobile.jpg",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
