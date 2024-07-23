@@ -129,7 +129,7 @@
         "paragraphe_f3Mj3B"
       ],
       "custom_css": [
-        ".banner__heading {margin-top:;}",
+        ".banner__heading {font-size : 40px;}",
         ".banner__text span {color: #fff; font-size: 18px; font-weight: bold; margin-bottom: 30px;}",
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
