@@ -134,13 +134,13 @@
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
-        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; font-size: 24px; } .button--secondary {margin-top: 250px; font-size: 18px; }}"
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; font-size: 24px; } .button--secondary {margin-top: 250px; font-size: 17px; }}"
       ],
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
         "image": "shopify:\/\/shop_images\/Creme-visage-hilo-capsules-actifs_87fcaf1c-7936-428a-a769-7406a9b3bb20.png",
-        "mobile_image": "shopify:\/\/shop_images\/Creme-visage-naturelle-hilo-capsules-actifs.png",
+        "mobile_image": "shopify:\/\/shop_images\/Creme-visage-naturelle-hilo-capsules-actifs_638a7f51-e27e-445c-8bd3-c5900a17b63f.png",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "medium",
