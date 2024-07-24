@@ -632,6 +632,34 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_gcLwVK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hgctXp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HILO & VOUS <strong>🥰<\/strong><\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hgctXp"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1717592437ebe90efc": {
       "type": "apps",
       "blocks": {
@@ -1037,6 +1065,7 @@
     "rich_text",
     "image_banner_wqzB6b",
     "rich_text_iHwcmk",
+    "rich_text_gcLwVK",
     "1717592437ebe90efc",
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a",
     "8cf76421-6fa4-42cd-a954-23ae04a049ae",
