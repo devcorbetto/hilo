@@ -381,7 +381,7 @@
             "text": "<p>Peau mature avec des rides, une perte de souplesse et le teint terne<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "",
-            "link": "",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false
           }
         },
@@ -419,7 +419,7 @@
             "text": "<p>Peau déshydratée, qui tiraille et souhaite un effet bonne mine<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false
           }
         },
@@ -438,7 +438,7 @@
             "text": "<p>Peau très sèche et souhaite traiter les premiers signes de l'âge<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
             "button_out": false
           }
         }
