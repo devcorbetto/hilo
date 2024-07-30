@@ -18,7 +18,7 @@
             "customcss": "",
             "title": "",
             "subtitle": "",
-            "text": "<p>🏅 + de 500 clients satisfaits<\/p>",
+            "text": "<p>🏅 + de 1000 clients satisfaits<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -29,7 +29,7 @@
             "customcss": "",
             "title": "",
             "subtitle": "",
-            "text": "<p>🚚 Expédition rapide<\/p>",
+            "text": "<p>🚚 Expédition en 2 jours ouvrés<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -40,7 +40,7 @@
             "customcss": "",
             "title": "",
             "subtitle": "",
-            "text": "<p><strong>⭐ <\/strong>Avis 5\/5<\/p>",
+            "text": "<p><strong>⭐ <\/strong>Avis 4,9\/5<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -99,14 +99,14 @@
         "heading_brGUKm": {
           "type": "heading",
           "settings": {
-            "heading": "La crème visage idéale pour votre peau",
+            "heading": "Votre crème visage 3 en 1 !",
             "heading_size": "h0"
           }
         },
         "text_Ct4AhF": {
           "type": "text",
           "settings": {
-            "text": "🌱 Naturelle   <br> <br>     ✅ Efficace  <br> <br>   ❤️ Fabriquée en France avec amour",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -114,7 +114,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Je la veux",
-            "button_link_1": "shopify:\/\/products\/ma-creme-visage-naturelle-combo-printemps",
+            "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -125,7 +125,7 @@
         "paragraphe_34a3pQ": {
           "type": "paragraphe",
           "settings": {
-            "paragraphe": "<h5>⭐⭐⭐⭐⭐ Notée 5\/5 par nos clients<\/h5>"
+            "paragraphe": "<h5><strong>❤️<\/strong> Notée 4,9\/5 par nos clients<\/h5>"
           }
         }
       },
@@ -136,18 +136,18 @@
         "paragraphe_34a3pQ"
       ],
       "custom_css": [
-        ".banner__heading {color: #fff; margin-top: ; margin-top: 50px;}",
+        ".banner__heading {color: #fff; margin-top: 50px;}",
         ".banner__text span {color: #fff; text-align: ; font-size: 20px; margin-bottom: 30px;}",
-        ".button--secondary {color: #ef819a; background-color: #fff; border-radius: 30px;}",
+        ".button--secondary {color: #f59f3c; font-size: 20px; background-color: #fff; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
-        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 25px; } .button--secondary {margin-top: 225px; }}"
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; margin-top: 0px; } .button--secondary {margin-top: 250px; }}"
       ],
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/creme-visage-naturelle-combo-printemps_f5bd4689-b45c-4968-8c63-1b4e87d35019.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/creme-visage-naturelle-combo-printemps-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/Creme-visage-hilo-capsules-actifs_87fcaf1c-7936-428a-a769-7406a9b3bb20.png",
+        "mobile_image": "shopify:\/\/shop_images\/Creme-visage-naturelle-hilo-capsules-actifs_638a7f51-e27e-445c-8bd3-c5900a17b63f.png",
         "svg-wave": "vague-blanche",
         "image_overlay_opacity": 0,
         "image_height": "large",
@@ -179,9 +179,9 @@
           "type": "column",
           "settings": {
             "customcss": "",
-            "title": "Selon eux, elle est :",
+            "title": "",
             "subtitle": "",
-            "text": "<p><strong><br\/>💧Hydratante<\/strong><\/p><p><br\/><\/p><p><strong>☁️  Douce pour la peau<\/strong><\/p><p><br\/><\/p><p><strong>✨ Efficace<\/strong><\/p><p><\/p><p><br\/><strong>🍃 Adaptée aux peaux sensibles<\/strong><\/p>",
+            "text": "<p><strong><br\/><br\/><br\/><\/strong><\/p><p><strong>🧴 3 bénéfices en un seul soin<\/strong><\/p><p><br\/><\/p><p><strong>✨  100% adaptée aux besoins de la peau<\/strong><\/p><p><br\/><\/p><p><strong>🥰 Texture douce & légère<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -192,7 +192,7 @@
         "column_dPDfHH"
       ],
       "custom_css": [
-        "h2 {font-size: 60px; font-weight: bold; color: #d0c4e2;}",
+        "h2 {font-size: 60px; font-weight: bold; color: #f59f3c;}",
         "h3 {font-weight: bold; color: #716f6f;}",
         "@media screen and (max-width: 749px) {h2 {font-size: 40px; }}"
       ],
@@ -241,6 +241,82 @@
         "include_margins": true
       }
     },
+    "rich_text_dEgQBi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6FaQLF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HILO & VOUS <strong>😍<\/strong><\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6FaQLF"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "17223486026785c37a": {
+      "type": "apps",
+      "blocks": {
+        "smart_stories_smart_stories_hJhNHm": {
+          "type": "shopify:\/\/apps\/smart-stories\/blocks\/smart-stories\/dfb95db1-52c1-4619-9def-bc221ea020d9",
+          "settings": {
+            "story-secret": "WM3r9m3oOdB4D9vf",
+            "story-preview-secret": "AQls2v89L7Zkh76A",
+            "use_default_settings": true,
+            "data_type": "default",
+            "dynamic_collection": "",
+            "primary_color": "#000000",
+            "secondary_color": "#000000",
+            "corner_radius": 10,
+            "show_group_name": false,
+            "autoplay_audio": false,
+            "font": "helvetica_n4",
+            "story_name_display": "0",
+            "fill": false,
+            "skew_sync": false,
+            "skew_degree": 0,
+            "full_width": false,
+            "floaty_theme": "0",
+            "floaty_corner_position": "0",
+            "vertical_thumb_spacing": 25,
+            "horizontal_thumb_spacing": 25,
+            "border_thickness": 0,
+            "border_gradient_ratio": 50,
+            "border_gradient_degree": 50
+          }
+        }
+      },
+      "block_order": [
+        "smart_stories_smart_stories_hJhNHm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_liquid_dnHt4X": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_yBkzMe": {
       "type": "rich-text",
       "blocks": {
@@ -263,12 +339,12 @@
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "vague-violet-trait",
+        "svg-wave": "vague-rose-trait",
         "svg-wave-position": "top",
         "svg-eclat": "none",
-        "color_scheme": "colors_1",
+        "color_scheme": "colors_3",
         "full_width": true,
-        "padding_top": 20,
+        "padding_top": 24,
         "padding_bottom": 52
       }
     },
@@ -332,7 +408,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "colors_1",
+        "color_scheme": "colors_3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 20,
@@ -348,7 +424,7 @@
             "customcss": "",
             "title": "✨",
             "subtitle": "",
-            "text": "<p><strong>Concept <\/strong><\/p><p><strong>unique<\/strong><\/p>",
+            "text": "<p><strong>Concept unique<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -374,36 +450,12 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_GhmzB3": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "🐰",
-            "subtitle": "",
-            "text": "<p><strong>Vegan<\/strong><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VjjdKR": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "title": "🥕",
-            "subtitle": "",
-            "text": "<p><strong>Excellent sur Yuka<\/strong><\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_cQP4Td",
         "column_aEjCGY",
-        "column_xqFQ7t",
-        "column_GhmzB3",
-        "column_VjjdKR"
+        "column_xqFQ7t"
       ],
       "custom_css": [
         "h3 {font-size: 40px;}",
@@ -416,7 +468,7 @@
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -426,6 +478,34 @@
         "swipe_on_mobile": false,
         "padding_top": 32,
         "padding_bottom": 20
+      }
+    },
+    "rich_text_DwPXY7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LLAhe4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>COMMENT ÇA MARCHE ?<\/p>",
+            "customcss": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LLAhe4"
+      ],
+      "settings": {
+        "customcss": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "svg-wave": "none",
+        "svg-wave-position": "top",
+        "svg-eclat": "none",
+        "color_scheme": "colors_1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_banner_Yca87e": {
@@ -438,8 +518,8 @@
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/2._Ajoutez_les_3_capsules_d_actif.png",
-        "mobile_image": "shopify:\/\/shop_images\/Creme-visage-naturelle-concept.png",
+        "image": "shopify:\/\/shop_images\/hilo-assembler-creme_2_210295fa-7d7f-418c-824f-c706fd7b1ef8.png",
+        "mobile_image": "shopify:\/\/shop_images\/Hilo-assembler-creme_7a21cb4e-c437-4b07-be35-d25c99014eb2.png",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -461,7 +541,7 @@
           "settings": {
             "customcss": "btn-circle",
             "button_label": "J'achète",
-            "button_link": "shopify:\/\/products\/ma-creme-visage-naturelle-combo-printemps",
+            "button_link": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary": true,
             "button_label_2": "",
@@ -474,18 +554,18 @@
         "button_ff3CH3"
       ],
       "custom_css": [
-        ".button--secondary {color: #fff; background-color: #ef819a !important; border-radius: 30px;}",
-        ".button--secondary:hover {color: #ef819a !important; background-color: transparent !important;}",
-        ".button--secondary::after {box-shadow: none; border: 2px solid #ef819a !important;}"
+        ".button--secondary {color: #fff; font-size: 20px; background-color: #9e87be !important; border-radius: 30px;}",
+        ".button--secondary:hover {color: #9e87be !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #9e87be !important;}"
       ],
       "settings": {
         "customcss": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "svg-wave": "none",
-        "svg-wave-position": "top",
+        "svg-wave": "vague-blanche",
+        "svg-wave-position": "bottom",
         "svg-eclat": "none",
-        "color_scheme": "background-1",
+        "color_scheme": "colors_1",
         "full_width": true,
         "padding_top": 12,
         "padding_bottom": 60
@@ -644,9 +724,13 @@
     "multicolumn_8aCLXB",
     "1708955162aafe337b",
     "17089557526d002fb2",
+    "rich_text_dEgQBi",
+    "17223486026785c37a",
+    "custom_liquid_dnHt4X",
     "rich_text_yBkzMe",
     "multicolumn_cFUKir",
     "multicolumns_reviews_dVnCk9",
+    "rich_text_DwPXY7",
     "image_banner_Yca87e",
     "rich_text_4f3E4r",
     "multicolumn_svg_zG6QFy",
