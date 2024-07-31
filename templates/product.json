@@ -249,7 +249,7 @@
           "settings": {
             "heading": "DESCRIPTION",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.description | metafield_tag }}<\/p>",
+            "row_content": "{{ product.metafields.custom.description | metafield_tag }}",
             "page": ""
           }
         },
@@ -486,6 +486,100 @@
         "include_margins": true
       }
     },
+    "collapsible_content_GwQRWy": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_B4yz3L": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de capsules d'actif doit-on mettre dans la crème visage ?",
+            "icon": "none",
+            "row_content": "<p>La crème Hilo a été conçue pour recevoir <strong>3 capsules d'actif. <\/strong><\/p><p>Vous pouvez opter pour 3 capsules <strong>différentes ou identiques<\/strong>, en fonction de vos problématiques de peau. <\/p><p>La crème Hilo a été conçue de manière à pouvoir répondre à <strong>3 préoccupations de peau en 1 seul soin<\/strong>. Cependant, vous pouvez totalement ajouter 3 actifs identiques à votre crème si vous avez une seule problématique de peau. <\/p><p>Dans tous les cas, vous obtiendrez un soin <strong>100% adapté à votre peau <\/strong>en fonction de vos besoins. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dTa9g4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle est la composition de la crème visage Hilo ?",
+            "icon": "none",
+            "row_content": "<p>La crème Hilo est composée à <strong>plus de 99 % d'ingrédients naturels<\/strong>, garantissant ainsi une formulation respectueuse de votre peau et de l'environnement. <\/p><p>Les capsules d'actifs, quant à elles, sont <strong>100 % naturelles<\/strong>, vous offrant une solution cosmétique pure et efficace. <\/p><p>Votre crème visage Hilo est ainsi <strong>douce pour la peau<\/strong> et n'agressera pas votre visage avec des ingrédients chimiques. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BqjDnJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qu'est ce qu'une crème visage 3 en 1 chez Hilo ?",
+            "icon": "none",
+            "row_content": "<p>Une <strong>crème visage 3 en 1 <\/strong>chez Hilo est la solution cosmétique qu'il vous faut pour prendre soin de votre peau. <\/p><p>Elle permet de traiter jusqu'à <strong>3 problématiques de peau en 1 seul produit<\/strong>. <\/p><p>En ajoutant une capsule d'actif par problématique directement dans votre base de crème Hilo, vous pouvez <strong>cibler des besoins spécifiques<\/strong> comme l'hydratation, l'éclat, la réduction des rides, etc. <\/p><p>Cette personnalisation vous permet d'avoir un <strong>soin unique et 100% adapté <\/strong>à vos besoins.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cxHDxd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le rôle des capsules d'actif ?",
+            "icon": "none",
+            "row_content": "<p>Les capsules d'actif chez Hilo jouent un rôle essentiel pour <strong>booster l'efficacité<\/strong> de votre crème visage Hilo. <\/p><p>La crème visage Hilo est une <strong>base de soin naturelle hydratante<\/strong>. <\/p><p>Ensuite, chaque capsule contient des actifs naturels qui ciblent des <strong>problématiques spécifiques de la peau<\/strong>. <\/p><p>Vous allez donc sélectionner <strong>3 capsules en fonction de vos besoins<\/strong>, (éclat, imperfections, signes de l'âge...). <\/p><p>En ajoutant le contenu de ces capsules à votre crème, vous <strong>boostez ses propriétés<\/strong> et répondez précisément à vos <strong>problématiques de peau<\/strong>. <\/p><p>C'est donc les capsules d'actif qui vont vous permettre d'obtenir un <strong>soin 100% adapté <\/strong>aux différents besoins de votre peau. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rzxmfi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment choisir les capsules d'actif à ajouter dans ma crème visage Hilo ?",
+            "icon": "none",
+            "row_content": "<p>Il existe 2 manières de <strong>personnaliser votre crème visage<\/strong> Hilo : <\/p><ul><li>Soit vous pouvez <strong>choisir vous mêmes les 3 actifs <\/strong>à ajouter à votre crème parmi nos <strong>6 références d'actif<\/strong> (hydratant, apaisant, bonne mine, anti-imperfections, anti-âge, illuminant) : nous conseillons cette option <strong>si vous connaissez bien votre peau<\/strong>, ses caractéristiques et ses besoins. <\/li><li>Soit vous pouvez réaliser votre <strong>diagnostic de peau <\/strong>qui vous indiquera vos tendances de peau et <strong>les 3 actifs faits pour vous<\/strong> : nous conseillons cette option si <strong>vous ne<\/strong> <strong>connaissez pas bien votre peau<\/strong>, ou si vous souhaitez des conseils personnalisés. <\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FKqjAT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quel est le rendu de la crème visage Hilo sur la peau ?",
+            "icon": "none",
+            "row_content": "<p>La crème Hilo a une <strong>texture gel-crème légère<\/strong> et fluide. Elle s'applique facilement sur la peau et est absorbée facilement <strong>sans laisser de film gras<\/strong>. <\/p><p>Le fini est <strong>doux et soyeux<\/strong>, offrant une sensation de confort sur la peau. <\/p><p>Cette texture convient à <strong>tous les types de peau<\/strong> et une noisette suffit pour hydrater l'intégralité du visage. <\/p><p>Elle ne colle pas, et laisse la peau <strong>toute douce<\/strong>. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TTBwwc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle est l'odeur de la crème visage Hilo ?",
+            "icon": "none",
+            "row_content": "<p>La crème contient un léger <strong>parfum naturel <\/strong>afin de vous offrir la meilleure sensorialité possible. <\/p><p>Il s'agit d'une <strong>odeur fraîche et végétale<\/strong> qui fait l'unanimité chez nos clients : <\/p><p>\"odeur <strong>très fraîche<\/strong>\" ; \"odeur <strong>exceptionnelle<\/strong>\" ; \"odeur <strong>sublime<\/strong>\" ; \"odeur <strong>délicate<\/strong>\" ; \"odeur<strong> discrète<\/strong>, <strong>raffinée<\/strong>\"...<\/p><p><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_B4yz3L",
+        "collapsible_row_dTa9g4",
+        "collapsible_row_BqjDnJ",
+        "collapsible_row_cxHDxd",
+        "collapsible_row_rzxmfi",
+        "collapsible_row_FKqjAT",
+        "collapsible_row_TTBwwc"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; font-weight: bold; font-size: 30px;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "QUESTIONS FRÉQUENTES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "87cb0c62-7445-43a7-8ce2-521349a1542b": {
       "type": "featured-collection-noslide",
       "custom_css": [
@@ -702,6 +796,7 @@
     "2cd8b0d3-2c1a-4646-bb6f-08ddbbddcfaa",
     "504b0346-3e48-4a3c-893b-713c872c3287",
     "16848718877987ad7f",
+    "collapsible_content_GwQRWy",
     "87cb0c62-7445-43a7-8ce2-521349a1542b",
     "3aebad43-9757-4c8a-ad78-a6e2c3563876",
     "product-recommendations",
