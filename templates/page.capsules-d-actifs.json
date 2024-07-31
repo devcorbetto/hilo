@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_wave_RXikr8": {
@@ -89,7 +98,7 @@
         "customcss": "",
         "eclat": "none",
         "eclat_side": "gauche",
-        "image": "shopify:\/\/shop_images\/capsules-actifs-naturels.png",
+        "image": "shopify:\/\/shop_images\/capsule-actifs-hilo.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -289,7 +298,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -395,7 +404,7 @@
           "type": "text",
           "settings": {
             "customcss": "",
-            "text": "<p><br\/>Pour obtenir le <strong>combo d'actif parfait pour votre peau<\/strong>, réalisez votre diagnostic en ligne.  <br\/><br\/><\/p><p>Vous découvrirez votre match parfait du moment et des conseils personnalisés pour prendre soin de votre peau. <\/p>"
+            "text": "<p>Il existe <strong>plus de 55 combinaisons d'actif<\/strong> afin de répondre aux besoins de toutes les peaux. <\/p><p><\/p><p>Chaque combinaison d'actif a été <strong>soigneusement testée<\/strong> dans notre laboratoire partenaire (tous les actifs sont donc compatibles entre eux et avec la base de soin Hilo). <br\/><br\/><\/p><p>Vous pouvez donc choisir <strong>vos 3 actifs<\/strong> (différents ou identiques) simplement en fonction des <strong>besoins de votre peau.<br\/><\/strong><\/p><p><br\/><\/p><p>Besoin d'aide pour obtenir le <strong>combo d'actif parfait pour votre peau ?<\/strong> Réalisez votre diagnostic en ligne.  <br\/><br\/><\/p><p>Vous découvrirez votre <strong>match parfait du moment<\/strong> et des conseils personnalisés pour <strong>prendre soin de votre peau<\/strong>. <\/p>"
           }
         },
         "button_AWcGdJ": {
