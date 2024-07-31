@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -32,7 +41,7 @@
       ],
       "custom_css": [
         ".banner__heading span {color: ;}",
-        ".banner__text p, .banner__text a {color: ;}"
+        ".banner__text p,.banner__text a {color: ;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hilo-cosmetiques-capsules.jpg",
@@ -93,7 +102,7 @@
           "settings": {
             "heading": "Les BHA\/BHT",
             "icon": "none",
-            "row_content": "<p>Le <strong>BHA<\/strong> est identifié comme un  <strong>« cancérogène possible  »<\/strong> par le Centre international de recherche contre le cancer. Cet ingrédient fait aussi partie des substances proposées par la France à la Commission européenne pour une <strong>évaluation précise d’urgence de ses propriétés toxiques<\/strong>. Il serait en effet à la fois toxique pour la <strong>reproduction et perturbateur endocrinien<\/strong>.  <\/p><p>Le <strong>BHT<\/strong> pour sa part, est souvent utilisé pour <strong>remplacer le BHA<\/strong>. Cependant, ce dernier semble être semble être un perturbateur endocrinien. Aussi, nous en<strong> bannissons l’usage dans nos formules<\/strong>.<\/p>",
+            "row_content": "<p>Le <strong>BHA<\/strong> est identifié comme un  <strong>« cancérogène possible  »<\/strong> par le Centre international de recherche contre le cancer. Cet ingrédient fait aussi partie des substances proposées par la France à la Commission européenne pour une <strong>évaluation précise d’urgence de ses propriétés toxiques<\/strong>. Il serait en effet à la fois toxique pour la <strong>reproduction et perturbateur endocrinien<\/strong>.  <\/p><p>Le <strong>BHT<\/strong> pour sa part, est souvent utilisé pour <strong>remplacer le BHA<\/strong>. Cependant, ce dernier semble être un perturbateur endocrinien. Aussi, nous en<strong> bannissons l’usage dans nos formules<\/strong>.<\/p>",
             "page": ""
           }
         },
@@ -154,7 +163,7 @@
         "6f267826-78b5-464f-9e11-42b9c69f948a": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Les HUILES MINÉRALES ET HYDROCARBURES DE SYNTHÈSE",
+            "heading": "Les huile minérales et hydrocarbures de synthèse",
             "icon": "none",
             "row_content": "<p>Prohibées dans les produits alimentaires, les huiles minérales sont <strong>autorisées dans les cosmétiques<\/strong>. Problème, ces huiles sont susceptibles d’<strong>engendrer des composés indésirables si elles sont ingurgitées<\/strong> : les Mosh et les Moah.<\/p><p>Une partie des Mosh peuvent s’accumuler dans l’organisme, notamment dans les ganglions lymphatiques et le foie. Ils peuvent y produire des <strong>réactions inflammatoires dont on ignore les conséquences<\/strong> exactes. Quant aux Moah, ils sont <strong>cancérogènes<\/strong>.<\/p><p>Aussi, <strong>à titre de précaution, nous excluons ces molécules<\/strong> de nos formules :<\/p><p>– Cera Microcristallina<\/p><p>– Ceresin<\/p><p>– Hydrogenated Microcrystalline Wax<\/p><p>– Hydrogenated Polyisobutene<\/p><p>– Microcrystalline Wax<\/p><p>– Ozokerite<\/p>",
             "page": ""
