@@ -91,7 +91,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "La crème visage nouvelle génération !",
+            "heading": "Personnalisez votre soin visage en un clin d'œil !",
             "heading_size": "h0"
           }
         },
@@ -130,11 +130,11 @@
       ],
       "custom_css": [
         ".banner__heading {font-size: 40px;}",
-        ".banner__text span {color: #fff; font-weight: bold;}",
+        ".banner__text span {color: #fff;}",
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
-        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; font-size: 24px; } .button--secondary {margin-top: 280px; font-size: 17px; margin-bottom: -10px; }}"
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; font-size: 24px; margin-top: -20px; } .button--secondary {margin-top: 250px; font-size: 17px; margin-bottom: -10px; }}"
       ],
       "settings": {
         "textafter": "",
