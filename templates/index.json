@@ -702,6 +702,25 @@
     "6e118b26-48b9-4c18-8f3f-bc53dd963a4a": {
       "type": "multicolumn-slider",
       "blocks": {
+        "column_Ea7kRN": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Contenu-client-creme-visage-hilo.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon": "Actif hydratant",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette.png",
+            "titleicon2": "Actif anti-imperfections",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon3": "Actif apaisant",
+            "title": "Les actifs du moment de Solène",
+            "text": "<p>Besoin d'hydratation, quelques brillances et quelques rougeurs<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false
+          }
+        },
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1": {
           "type": "column",
           "settings": {
@@ -818,6 +837,7 @@
         }
       },
       "block_order": [
+        "column_Ea7kRN",
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-1",
         "template--17746292277543__6e118b26-48b9-4c18-8f3f-bc53dd963a4a-1675376107c48808fc-2",
         "column_RMwh6n",
