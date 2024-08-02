@@ -26,7 +26,7 @@
 {% assign ing3 = '' %}
 {% assign date = '' %}
 
-{{ "now" | date: "%Y-%m-%d %H:%M:%S" }}.
+{{ "now" | date: "%Y-%m-%d %H:%M:%S" }}. {{ canonical_url }}
 {% for param in paramsArray %}
   {% assign paramPair = param | split: '=' %}
   {% assign paramName = paramPair[0] %}
@@ -354,6 +354,8 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
             diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
             'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
             o acciones adicionales necesarias {% endcomment %} {% endif %}
+
+            
                                                             <div
                                                                 class="container-routine mt-20 page-width"
                                                             >
