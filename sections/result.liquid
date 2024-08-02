@@ -1,6 +1,6 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {%- capture contentForQuerystring -%}
-  {{ content_for_header }} 
+  {{ content_for_header }}
 {%- endcapture -%}
 {%- assign pageUrlWithHost = contentForQuerystring | split: '"pageurl":"' | last | split: '"' | first | replace: '\/', '/' | replace: '%20', ' ' | replace: '\u0026', '&' -%}
 
@@ -25,6 +25,7 @@
 {% assign ing2 = '' %}
 {% assign ing3 = '' %}
 {% assign date = '' %}
+{% assign result = '' %}
 
 {% for param in paramsArray %}
   {% assign paramPair = param | split: '=' %}
@@ -67,7 +68,8 @@
       {% assign ing3 = paramValue %}
     {% when 'date' %}
       {% assign date = paramValue %}
-
+    {% when 'result' %}
+      {% assign result = paramValue %}
   {% endcase %}
 {% endfor %}
 
@@ -353,8 +355,6 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
             diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
             'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
             o acciones adicionales necesarias {% endcomment %} {% endif %}
-
-            
                                                             <div
                                                                 class="container-routine mt-20 page-width"
                                                             >
