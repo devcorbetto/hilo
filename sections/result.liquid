@@ -1,6 +1,6 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {%- capture contentForQuerystring -%}
-  {{ content_for_header }}
+  {{ content_for_header }} 
 {%- endcapture -%}
 {%- assign pageUrlWithHost = contentForQuerystring | split: '"pageurl":"' | last | split: '"' | first | replace: '\/', '/' | replace: '%20', ' ' | replace: '\u0026', '&' -%}
 
@@ -25,8 +25,8 @@
 {% assign ing2 = '' %}
 {% assign ing3 = '' %}
 {% assign date = '' %}
-{% assign result = '' %}
 
+ {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 {% for param in paramsArray %}
   {% assign paramPair = param | split: '=' %}
   {% assign paramName = paramPair[0] %}
@@ -68,8 +68,7 @@
       {% assign ing3 = paramValue %}
     {% when 'date' %}
       {% assign date = paramValue %}
-    {% when 'result' %}
-      {% assign result = paramValue %}
+
   {% endcase %}
 {% endfor %}
 
