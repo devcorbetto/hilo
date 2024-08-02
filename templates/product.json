@@ -328,6 +328,25 @@
     "504b0346-3e48-4a3c-893b-713c872c3287": {
       "type": "multicolumn-slider",
       "blocks": {
+        "column_WtL8fG": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Contenu-client-creme-visage-hilo.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon": "Actif hydratant",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette.png",
+            "titleicon2": "Actif anti-imperfections",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon3": "Actif apaisant",
+            "title": "Les actifs du moment de Solène",
+            "text": "<p>Besoin d'hydratation, quelques brillances et quelques rougeurs<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false
+          }
+        },
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-0": {
           "type": "column",
           "settings": {
@@ -341,25 +360,6 @@
             "titleicon3": "Actif hydratant",
             "title": "Les actifs du moment de Saïda",
             "text": "<p>Peau à tendance sèche, sensible et besoin d'hydratation<\/p>",
-            "text_below": "Vous aussi, trouvez votre match parfait !",
-            "link_label": "Je réalise mon diagnostic",
-            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
-            "button_out": false
-          }
-        },
-        "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2": {
-          "type": "column",
-          "settings": {
-            "customcss": "",
-            "image": "shopify:\/\/shop_images\/Marylou.jpg",
-            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
-            "titleicon": "Actif hydratant",
-            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
-            "titleicon2": "Actif apaisant",
-            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
-            "titleicon3": "Actif anti-imperfection",
-            "title": "Les actifs du moment de Marylou",
-            "text": "<p>Peau à tendance sèche, quelques rougeurs et imperfections<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
             "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
@@ -398,6 +398,25 @@
             "titleicon3": "Actif anti-imperfections",
             "title": "Les actifs du moment de Léo",
             "text": "<p>Peau à tendance grasse avec quelques rougeurs, imperfections et cicatrices<\/p>",
+            "text_below": "Vous aussi, trouvez votre match parfait !",
+            "link_label": "Je réalise mon diagnostic",
+            "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false
+          }
+        },
+        "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2": {
+          "type": "column",
+          "settings": {
+            "customcss": "",
+            "image": "shopify:\/\/shop_images\/Marylou.jpg",
+            "imageicon": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-onagre_d4fc6b24-a0ed-4553-939f-fd40400eb638.png",
+            "titleicon": "Actif hydratant",
+            "imageicon2": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-amande_douce_38e05652-f0ae-42e7-b65d-110842182751.png",
+            "titleicon2": "Actif apaisant",
+            "imageicon3": "shopify:\/\/shop_images\/Hilo-cosmetiques-personnalises-capsule-noisette_b5344020-0a2e-4612-9b7f-304670bd6262.png",
+            "titleicon3": "Actif anti-imperfection",
+            "title": "Les actifs du moment de Marylou",
+            "text": "<p>Peau à tendance sèche, quelques rougeurs et imperfections<\/p>",
             "text_below": "Vous aussi, trouvez votre match parfait !",
             "link_label": "Je réalise mon diagnostic",
             "link": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
@@ -444,10 +463,11 @@
         }
       },
       "block_order": [
+        "column_WtL8fG",
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-0",
-        "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2",
         "column_Fhdi36",
         "fa3b8015-3e1c-4b15-8d7f-627989c04b4b",
+        "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-2",
         "template--17804308939047__504b0346-3e48-4a3c-893b-713c872c3287-1679685526f2678f35-1",
         "column_W4WE6p"
       ],
