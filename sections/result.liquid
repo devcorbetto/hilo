@@ -1,6 +1,6 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {%- capture contentForQuerystring -%}
-  {{ content_for_header }}
+  {{ content_for_header }}  {{ 'now' }}
 {%- endcapture -%}
 {%- assign pageUrlWithHost = contentForQuerystring | split: '"pageurl":"' | last | split: '"' | first | replace: '\/', '/' | replace: '%20', ' ' | replace: '\u0026', '&' -%}
 
