@@ -26,11 +26,6 @@
 {% assign ing3 = '' %}
 {% assign date = '' %}
 
-{% assign full_url = shop.url | append: request.path %}
-{% if request.query_string != blank %}
-  {% assign full_url = full_url | append: '?' | append: request.query_string %}
-{% endif %}
-{{ full_url }}
 
 {% for param in paramsArray %}
   {% assign paramPair = param | split: '=' %}
