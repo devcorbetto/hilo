@@ -25,7 +25,7 @@
 {% assign ing2 = '' %}
 {% assign ing3 = '' %}
 {% assign date = '' %}
-{% assign result = '' %}
+
 
 {% for param in paramsArray %}
   {% assign paramPair = param | split: '=' %}
@@ -68,8 +68,7 @@
       {% assign ing3 = paramValue %}
     {% when 'date' %}
       {% assign date = paramValue %}
-    {% when 'result' %}
-      {% assign result = paramValue %}
+
   {% endcase %}
 {% endfor %}
 
