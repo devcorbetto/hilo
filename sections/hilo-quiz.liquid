@@ -148,7 +148,7 @@
   // Redirigir a la nueva URL
   setTimeout(function() {
     window.location.href = url;
-  }, 01);
+  }, 00);
 }
 
    }
@@ -718,8 +718,8 @@ selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
              , ing2: ing2
              , ing3: ing3        }
            
-               
- fetchData()
+                step++;
+ fetchData();
            
 } else {
   alert('Veuillez remplir tous les champs');
