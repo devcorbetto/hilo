@@ -704,9 +704,7 @@
 
 let selectedOptionsJSON = JSON.stringify(selectedOptions, null, 2);
 selectedOptionsJSON = selectedOptionsJSON.replace(/\\/g, '').replace(/\n/g, '');
-let resultsJSON = JSON.stringify(jsondiagnostics, null, 2);
-resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
-          resultsJSON = resultsJSON.replace(/\[|\]/g, '');
+
 
   // Resto del código
       jsonData = { name: formData.name, gender: formData.gender, age: formData.age , peau: formData.peau, 
@@ -717,9 +715,7 @@ resultsJSON = resultsJSON.replace(/\\/g, '').replace(/\n/g, '');
         f51: formData.f51, f52: formData.f52, f53: formData.f53, f54: formData.f54
              , ing1: ing1
              , ing2: ing2
-             , ing3: ing3,
-     
-             result: resultsJSON            }
+             , ing3: ing3        }
            
                
  fetchData()
