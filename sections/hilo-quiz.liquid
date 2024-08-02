@@ -135,6 +135,7 @@
    selected: [],
    jsonData: null,
     fetchData() {
+  
   const baseUrl = 'https://hilo-cosmetiques.myshopify.com/pages/result-diagnostic';
   const urlParams = new URLSearchParams({
     customerId: this.customerId,
@@ -143,7 +144,7 @@
 
   console.log(urlParams);
   const url = `${baseUrl}?data=${encodeURIComponent(urlParams.toString())}`;
-step++;
+
   // Redirigir a la nueva URL
   setTimeout(function() {
     window.location.href = url;
