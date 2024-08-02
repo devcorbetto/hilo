@@ -7,7 +7,7 @@
 {% assign queryString = pageUrlWithHost | split: '?' | last %}
 {% assign decodedParams = queryString | url_decode %}
 {% assign paramsArray = decodedParams | split: '&' %}
-{% assign customerId = '' %}
+
 {% assign name = '' %}
 {% assign gender = '' %}
 {% assign age = '' %}
@@ -33,8 +33,7 @@
   {% assign paramValue = paramPair[1] | url_decode %}
   
   {% case paramName %}
-    {% when 'customerId' %}
-      {% assign customerId = paramValue %}
+    
     {% when 'name' %}
       {% assign name = paramValue %}
     {% when 'gender' %}
