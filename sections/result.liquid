@@ -26,7 +26,6 @@
 {% assign ing3 = '' %}
 {% assign date = '' %}
 
-{{ "now" | date: "%Y-%m-%d %H:%M:%S" }}. {{ canonical_url }}
 {% for param in paramsArray %}
   {% assign paramPair = param | split: '=' %}
   {% assign paramName = paramPair[0] %}
