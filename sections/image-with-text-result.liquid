@@ -1,80 +1,5 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
-{%- capture contentForQuerystring -%}
-  {{ content_for_header }}
-{%- endcapture -%}
-{%- assign pageUrlWithHost = contentForQuerystring | split: '"pageurl":"' | last | split: '"' | first | replace: '\/', '/' | replace: '%20', ' ' | replace: '\u0026', '&' -%}
-
-{% assign queryString = pageUrlWithHost | split: '?' | last %}
-{% assign decodedParams = queryString | url_decode %}
-{% assign paramsArray = decodedParams | split: '&' %}
-
-{% assign customerId = '' %}
-{% assign name = '' %}
-{% assign gender = '' %}
-{% assign age = '' %}
-{% assign peau = '' %}
-{% assign deshy = '' %}
-{% assign madure = '' %}
-{% assign preocupa1 = '' %}
-{% assign preocupa2 = '' %}
-{% assign preocupa3 = '' %}
-{% assign f51 = '' %}
-{% assign f52 = '' %}
-{% assign f53 = '' %}
-{% assign f54 = '' %}
-{% assign ing1 = '' %}
-{% assign ing2 = '' %}
-{% assign ing3 = '' %}
-{% assign date = '' %}
-{% assign result = '' %}
-
-{% for param in paramsArray %}
-  {% assign paramPair = param | split: '=' %}
-  {% assign paramName = paramPair[0] %}
-  {% assign paramValue = paramPair[1] | url_decode %}
-  
-  {% case paramName %}
-    {% when 'customerId' %}
-      {% assign customerId = paramValue %}
-    {% when 'name' %}
-      {% assign name = paramValue %}
-    {% when 'gender' %}
-      {% assign gender = paramValue %}
-    {% when 'age' %}
-      {% assign age = paramValue %}
-    {% when 'peau' %}
-      {% assign peau = paramValue %}
-    {% when 'deshy' %}
-      {% assign deshy = paramValue %}
-    {% when 'madure' %}
-      {% assign madure = paramValue %}
-    {% when 'preocupa1' %}
-      {% assign preocupa1 = paramValue %}
-    {% when 'preocupa2' %}
-      {% assign preocupa2 = paramValue %}
-    {% when 'preocupa3' %}
-      {% assign preocupa3 = paramValue %}
-    {% when 'f51' %}
-      {% assign f51 = paramValue %}
-    {% when 'f52' %}
-      {% assign f52 = paramValue %}
-    {% when 'f53' %}
-      {% assign f53 = paramValue %}
-    {% when 'f54' %}
-      {% assign f54 = paramValue %}
-    {% when 'ing1' %}
-      {% assign ing1 = paramValue %}
-    {% when 'ing2' %}
-      {% assign ing2 = paramValue %}
-    {% when 'ing3' %}
-      {% assign ing3 = paramValue %}
-    {% when 'date' %}
-      {% assign date = paramValue %}
-    {% when 'result' %}
-      {% assign result = paramValue %}
-  {% endcase %}
-{% endfor %}
 
 
 {% capture seche %}
@@ -189,16 +114,8 @@
           
         
                 <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                  <p>
-                   {% if peau == 'seche' %}
-                    {{ seche }}
-                   {% elsif peau == 'mixte' %}
-                     {{ mixte }}
-                   {% elsif peau == 'grasse' %}
-                     {{ grasse }}
-                   {% elsif peau == 'normale' %}
-                     {{ normal }}
-                   {% endif %}
+                  <p id="results-text">
+                  loading
                   </p>
                 </div>
               {% else %}
