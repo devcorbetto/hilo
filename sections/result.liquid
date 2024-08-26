@@ -1,136 +1,6 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
-{%- capture contentForQuerystring -%}
-  {{ content_for_header }} 
-{%- endcapture -%}
-{%- assign pageUrlWithHost = contentForQuerystring | split: '"pageurl":"' | last | split: '"' | first | replace: '\/', '/' | replace: '%20', ' ' | replace: '\u0026', '&' -%}
-
-{% assign queryString = pageUrlWithHost | split: '?' | last %}
-{% assign decodedParams = queryString | url_decode %}
-{% assign paramsArray = decodedParams | split: '&' %}
-
-{% assign name = '' %}
-{% assign gender = '' %}
-{% assign age = '' %}
-{% assign peau = '' %}
-{% assign deshy = '' %}
-{% assign madure = '' %}
-{% assign preocupa1 = '' %}
-{% assign preocupa2 = '' %}
-{% assign preocupa3 = '' %}
-{% assign f51 = '' %}
-{% assign f52 = '' %}
-{% assign f53 = '' %}
-{% assign f54 = '' %}
-{% assign ing1 = '' %}
-{% assign ing2 = '' %}
-{% assign ing3 = '' %}
-{% assign date = '' %}
 
 
-{% for param in paramsArray %}
-  {% assign paramPair = param | split: '=' %}
-  {% assign paramName = paramPair[0] %}
-  {% assign paramValue = paramPair[1] | url_decode %}
-  
-  {% case paramName %}
-    
-    {% when 'name' %}
-      {% assign name = paramValue %}
-    {% when 'gender' %}
-      {% assign gender = paramValue %}
-    {% when 'age' %}
-      {% assign age = paramValue %}
-    {% when 'peau' %}
-      {% assign peau = paramValue %}
-    {% when 'deshy' %}
-      {% assign deshy = paramValue %}
-    {% when 'madure' %}
-      {% assign madure = paramValue %}
-    {% when 'preocupa1' %}
-      {% assign preocupa1 = paramValue %}
-    {% when 'preocupa2' %}
-      {% assign preocupa2 = paramValue %}
-    {% when 'preocupa3' %}
-      {% assign preocupa3 = paramValue %}
-    {% when 'f51' %}
-      {% assign f51 = paramValue %}
-    {% when 'f52' %}
-      {% assign f52 = paramValue %}
-    {% when 'f53' %}
-      {% assign f53 = paramValue %}
-    {% when 'f54' %}
-      {% assign f54 = paramValue %}
-    {% when 'ing1' %}
-      {% assign ing1 = paramValue %}
-    {% when 'ing2' %}
-      {% assign ing2 = paramValue %}
-    {% when 'ing3' %}
-      {% assign ing3 = paramValue %}
-    {% when 'date' %}
-      {% assign date = paramValue %}
-
-  {% endcase %}
-{% endfor %}
-
-<style>
-    .container-modal {
-        margin: 0 auto;
-
-        background: white;
-        padding: 20px 30px;
-
-        z-index: 9999;
-        text-align: center;
-        border-radius: 20px;
-    }
-    .modal {
-        position: fixed;
-
-        width: 50%;
-        margin: 0 auto;
-
-        z-index: 9999;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .duration-300 {
-        transition-duration: 300ms;
-    }
-
-    .ease-in {
-        transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-    }
-
-    .ease-out {
-        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-    }
-
-    .scale-90 {
-        transform: scale(0.9);
-    }
-
-    .scale-100 {
-        transform: scale(1);
-    }
-
-    .svg-waves {
-        top: -60px !important;
-    }
-    @media (max-width: 980px) {
-        .collection-result,
-        .collection {
-            grid-template-columns: 1fr !important;
-        }
-        .collection ul {
-            display: grid;
-            justify-items: center;
-        }
-        .full-width .waves5b-rich-text {
-            bottom: 0px !important;
-        }
-    }
-</style>
 
 {% capture onagre %}<b class="bold">Hydratante</b> : maintien l'hydratation de la peau et renforce le film hydrolipidique{% endcapture %}
 {% capture carotte %}<b class="bold">Bonne mine</b> : permet d'obtenir un joli teint hâlé uniforme{% endcapture %}
@@ -170,116 +40,7 @@ endcapture %} {% capture nondeshydratee %} ✨ Votre peau est bien
 Il est important de conserver cette hydratation pour une peau en pleine santé.
 {% endcapture %} 
 
-
-
-
-
-
-
-<div
-    class="full-width mb-20"
-    style="
-        background: #FDE9D8;
-        padding-bottom: 60px;
-        padding-top: 20px;
-        position: relative;
-    "
->
-
-    <div class="div-with-svg">
-        <div class="container page-width">
-            <h2 class="text-center pt-5" style="text-transform: uppercase">
-                {{ name }}, VOICI VOTRE MATCH PARFAIT DU MOMENT :
-            </h2>
-            <p class="text-center">
-                Nous avons sélectionné pour vous les capsules d'actif suivantes, reconnues pour leur propriété :
-            </p>
-            <div class="container-ingredients">
-              <div class="ingredients_inline">
-                <img
-                    src="{{ ing1_image | asset_url }}"
-                    id="imgIngrediente1"
-                    alt="Imagen del ingrediente 1"
-                    style="width: 32px"
-                />
-                <p id="setBen1">{{ benefice }}</p>
-              </div>
-                <div class="ingredients_inline">
-                <img
-                    src="{{ ing2_image | asset_url }}"
-                    id="imgIngrediente2"
-                    alt="Imagen del ingrediente 2"
-                    style="width: 32px"
-                />
-                  <p id="setBen2">{{ benefice }}</p>
-                </div>
-                  <div class="ingredients_inline">
-                <img
-                    src="{{ ing3_image | asset_url }}"
-                    id="imgIngrediente3"
-                    alt="Imagen del ingrediente 3"
-                    style="width: 32px"
-                />
-                <p id="setBen3">{{ benefice }}</p>
-                  </div>
-            </div>
-          <script>
-            setTimeout(function(){
-            var imgsrc1 = document.getElementById("imgSrcIngredient1").src;
-            var imgsrc2 = document.getElementById("imgSrcIngredient2").src;
-            var imgsrc3 = document.getElementById("imgSrcIngredient3").src;
-            
-            $("#imgIngrediente1").attr("src", imgsrc1);
-            $("#imgIngrediente2").attr("src", imgsrc2);
-            $("#imgIngrediente3").attr("src", imgsrc3);
-            
-            var ing1_img = $("#ing1_img .bold").html();
-            $("#setBen1").html(ing1_img);
-            
-            var ing2_img = $("#ing2_img .bold").html();
-            $("#setBen2").html(ing2_img);
-            
-            var ing3_img = $("#ing3_img .bold").html();
-            $("#setBen3").html(ing3_img);
-            
-            }, 100);
-          </script>
-        </div>
-    </div>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1925.69 88.164"
-        class="waves5b waves5b-rich-text"
-        style="
-            position: absolute;
-            bottom: 0px;
-            height: auto;
-            width: 100%;
-            z-index: 1;
-        "
-    >
-        <g transform="translate(5120.845 -4803.674)">
-            <path
-                style="fill: white"
-                id="Tracé_952"
-                data-name="Tracé 952"
-                d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
-                transform="translate(2080.155 17806.064)"
-                fill="#fef4ec"
-            ></path>
-            <path
-                style="fill: white"
-                id="Tracé_952_-_Contour"
-                data-name="Tracé 952 - Contour"
-                d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
-                transform="translate(2080.155 17806.064)"
-                fill="#fef4ec"
-            ></path>
-        </g>
-    </svg>
-</div>
-
-            {% assign diagnostics_ing3 = ing3 %} {% if
+          {% assign diagnostics_ing3 = ing3 %} {% if
             preocupa1 == 'Brillance' %} {% assign diagnostics_ing3 =
             'Noisette' %} {% endif %} {% if preocupa1 ==
             'Deshydratation' %} {% assign diagnostics_ing3 = 'Onagre' %} {%
@@ -354,6 +115,97 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
             diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
             'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
             o acciones adicionales necesarias {% endcomment %} {% endif %}
+
+
+
+
+
+
+
+<div
+    class="full-width mb-20"
+    style="
+        background: #FDE9D8;
+        padding-bottom: 60px;
+        padding-top: 20px;
+        position: relative;
+    "
+>
+
+    <div class="div-with-svg">
+        <div class="container page-width">
+            <h2 class="text-center pt-5" style="text-transform: uppercase">
+                <span id="namehere"></span>, VOICI VOTRE MATCH PARFAIT DU MOMENT :
+            </h2>
+            <p class="text-center">
+                Nous avons sélectionné pour vous les capsules d'actif suivantes, reconnues pour leur propriété :
+            </p>
+            <div class="container-ingredients">
+              <div class="ingredients_inline">
+                <img
+                    src="{{ ing1_image | asset_url }}"
+                    id="imgIngrediente1"
+                    alt="Imagen del ingrediente 1"
+                    style="width: 32px"
+                />
+                <p id="setBen1">loading</p>
+              </div>
+                <div class="ingredients_inline">
+                <img
+                    src="{{ ing2_image | asset_url }}"
+                    id="imgIngrediente2"
+                    alt="Imagen del ingrediente 2"
+                    style="width: 32px"
+                />
+                  <p id="setBen2">loading</p>
+                </div>
+                  <div class="ingredients_inline">
+                <img
+                    src="{{ ing3_image | asset_url }}"
+                    id="imgIngrediente3"
+                    alt="Imagen del ingrediente 3"
+                    style="width: 32px"
+                />
+                <p id="setBen3">loading</p>
+                  </div>
+            </div>
+         
+        </div>
+    </div>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1925.69 88.164"
+        class="waves5b waves5b-rich-text"
+        style="
+            position: absolute;
+            bottom: 0px;
+            height: auto;
+            width: 100%;
+            z-index: 1;
+        "
+    >
+        <g transform="translate(5120.845 -4803.674)">
+            <path
+                style="fill: white"
+                id="Tracé_952"
+                data-name="Tracé 952"
+                d="M-7199-12967.808s381.557-73.312,953.739,0,967.951,0,967.951,0v51.581H-7199Z"
+                transform="translate(2080.155 17806.064)"
+                fill="#fef4ec"
+            ></path>
+            <path
+                style="fill: white"
+                id="Tracé_952_-_Contour"
+                data-name="Tracé 952 - Contour"
+                d="M-6746.83-13002.391c164.158,0,333,10.968,501.823,32.6a3988.783,3988.783,0,0,0,505,32.566c65.37,0,130.353-1.711,193.143-5.086,50.234-2.7,99.185-6.464,145.494-11.188,41.2-4.2,72.64-8.405,91.758-11.189,20.715-3.017,31.829-5.065,31.938-5.086l2.364-.437v55.985H-7201v-55.233l1.623-.312c.106-.021,10.874-2.079,31-5.1,18.556-2.79,49.112-7,89.3-11.212,45.159-4.733,93.031-8.5,142.287-11.209C-6875.23-13000.677-6811.316-13002.391-6746.83-13002.391Zm1006.822,69.166a3992.636,3992.636,0,0,1-505.508-32.6c-168.659-21.609-337.326-32.566-501.314-32.566-64.414,0-128.254,1.712-189.747,5.088-49.19,2.7-97,6.467-142.089,11.192-40.113,4.2-70.6,8.405-89.12,11.189-15.592,2.345-25.523,4.1-29.214,4.776v47.918h1917.69v-47.193c-4.3.751-14.381,2.455-29.675,4.683-19.152,2.79-50.646,7-91.915,11.211-46.377,4.732-95.4,8.5-145.7,11.208C-5609.479-12934.938-5674.55-12933.225-5740.007-12933.225Z"
+                transform="translate(2080.155 17806.064)"
+                fill="#fef4ec"
+            ></path>
+        </g>
+    </svg>
+</div>
+
+  
                                                             <div
                                                                 class="container-routine mt-20 page-width"
                                                             >
@@ -393,7 +245,22 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                             show_text:
                                                                             true,
                                                                             text1:
-                                                                            "Votre crème visage Hilo + les trois actifs adaptés à votre peau (suite à vos réponses à votre diagnostic)",
+                                                                            "Je
+                                                                            choisis
+                                                                            à
+                                                                            l'étape
+                                                                            suivante
+                                                                            si
+                                                                            je
+                                                                            souhaite
+                                                                            le
+                                                                            format
+                                                                            pot
+                                                                            +
+                                                                            recharge
+                                                                            ou
+                                                                            recharge
+                                                                            seule.",
                                                                             section_id:
                                                                             section.id
                                                                             %}
@@ -401,93 +268,7 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                         <p
                                                                             class="text-center pb-10 mt-10"
                                                                         >
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing1
-                                                                            ==
-                                                                            diagnostics_ing2
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing1
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing1
-                                                                            and
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            !=
-                                                                            diagnostics_ing1
-                                                                            and
-                                                                            diagnostics_ing1
-                                                                            !=
-                                                                            diagnostics_ing3
-                                                                            and
-                                                                            diagnostics_ing2
-                                                                            !=
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
+                                                                          <a id="purchaseLink1" class="button btn">J'achète</a>
                                                                         </p>
                                                                         <p
                                                                             class="text-center"
@@ -540,7 +321,22 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                             show_text:
                                                                             true,
                                                                             text1:
-                                                                            "Votre recharge de crème visage Hilo + les trois actifs adaptés à votre peau (suite à vos réponses à votre diagnostic)",
+                                                                            "Je
+                                                                            choisis
+                                                                            à
+                                                                            l'étape
+                                                                            suivante
+                                                                            si
+                                                                            je
+                                                                            souhaite
+                                                                            le
+                                                                            format
+                                                                            pot
+                                                                            +
+                                                                            recharge
+                                                                            ou
+                                                                            recharge
+                                                                            seule.",
                                                                             section_id:
                                                                             section.id
                                                                             %}
@@ -548,93 +344,7 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                         <p
                                                                             class="text-center pb-10 mt-10"
                                                                         >
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing1
-                                                                            ==
-                                                                            diagnostics_ing2
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing1
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing1
-                                                                            and
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            !=
-                                                                            diagnostics_ing1
-                                                                            and
-                                                                            diagnostics_ing1
-                                                                            !=
-                                                                            diagnostics_ing3
-                                                                            and
-                                                                            diagnostics_ing2
-                                                                            !=
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
+                                                                         <a id="purchaseLink2" class="button btn">J'achète</a>
                                                                         </p>
                                                                         <p
                                                                             class="text-center"
@@ -678,7 +388,22 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                             show_text:
                                                                             true,
                                                                             text1:
-                                                                            "Votre coffret essentiel Hilo contenant les trois actifs adaptés à votre peau (suite à vos réponses à votre diagnostic)",
+                                                                            "Je
+                                                                            choisis
+                                                                            à
+                                                                            l'étape
+                                                                            suivante
+                                                                            si
+                                                                            je
+                                                                            souhaite
+                                                                            le
+                                                                            format
+                                                                            pot
+                                                                            +
+                                                                            recharge
+                                                                            ou
+                                                                            recharge
+                                                                            seule.",
                                                                             section_id:
                                                                             section.id
                                                                             %}
@@ -686,93 +411,7 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                         <p
                                                                             class="text-center pb-10 mt-10"
                                                                         >
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing1
-                                                                            ==
-                                                                            diagnostics_ing2
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing3 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing1
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=2&properties[{{ diagnostics_ing2 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=2
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing1
-                                                                            and
-                                                                            diagnostics_ing2
-                                                                            ==
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=3
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            {%
-                                                                            if
-                                                                            diagnostics_ing2
-                                                                            !=
-                                                                            diagnostics_ing1
-                                                                            and
-                                                                            diagnostics_ing1
-                                                                            !=
-                                                                            diagnostics_ing3
-                                                                            and
-                                                                            diagnostics_ing2
-                                                                            !=
-                                                                            diagnostics_ing3
-                                                                            %}
-                                                                            <a
-                                                                                href="https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1&properties[{{ diagnostics_ing1 }}]=1&properties[{{ diagnostics_ing2 }}]=1&properties[{{ diagnostics_ing3 }}]=1
-    "
-                                                                                class="button btn"
-                                                                                >J'achète</a
-                                                                            >
-                                                                            {%
-                                                                            endif
-                                                                            %}
+                                                                           <a id="purchaseLink3" class="button btn">J'achète</a>
                                                                         </p>
                                                                         <p
                                                                             class="text-center"
@@ -795,6 +434,10 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                                  
                                                                 </ul>
                                                             </div>
+
+
+
+                                                            
 
 <div
     class="two-columns page-width mb-20 flex gap-x-40 mt-20"
@@ -965,530 +608,145 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
             VOS TENDANCES DE PEAU<br />
             DU MOMENT
         </h3>
-        <p>
-            {% if peau == 'seche' %} {{ seche }} {% endif %} {% if
-            peau == 'mixte' %} {{ mixte }} {% endif %} {% if
-            peau == 'grasse' %} {{ grasse }} {% endif %} {% if
-            peau == 'normale' %} {{ normal }} {% endif %}
+        <p id="peau">
+          
         </p>
-        <p>
-            {% if madure == 'madure' %} {{ madure }} {% endif %} {%
-            if madure == 'nomadure' %} {{ nomadure }} {% endif %}
+        <p id="madure">
+            
         </p>
-        <p>
-            {% if deshy == 'deshy' %} {{ deshydratee }} {% endif %}
-            {% if deshy == 'nodeshy' %} {{ nondeshydratee }} {%
-            endif %}
+        <p id="deshy">
+           
         </p>
     </div>
-    <div
-        class="one-column flex-1 flex"
-        style="align-items: center; position: relative"
-    >
-        <img
-            src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_orange.svg?v=1684750102"
-            class="corner-top no-rotate top-wavestop2"
-        />
-        <div
-            class="one-column-style border-2 result rounded-sm border-teal-600 bg-teal-300 p-10"
-        >
-            <h3 class="text-center">VOTRE MATCH PARFAIT <br />EN DÉTAIL</h3>
+  <div class="one-column flex-1 flex" style="align-items: center; position: relative">
+        <img src="https://cdn.shopify.com/s/files/1/0716/5509/6615/files/Eclat_droit_orange.svg?v=1684750102" class="corner-top no-rotate top-wavestop2">
+        <div class="one-column-style border-2 result rounded-sm border-teal-600 bg-teal-300 p-10">
+            <h3 class="text-center">VOTRE MATCH PARFAIT <br>EN DÉTAIL</h3>
             <p class="text-center small-font">
                 Ces actifs sont reconnus pour leur propriété :
             </p>
 
-            {% assign diagnostics_ing3 = ing3 %} {% if
-            preocupa1 == 'Brillance' %} {% assign diagnostics_ing3 =
-            'Noisette' %} {% endif %} {% if preocupa1 ==
-            'Deshydratation' %} {% assign diagnostics_ing3 = 'Onagre' %} {%
-            endif %} {% if preocupa1 == 'Imperfections' %} {% if
-            f51 == 'f51a' or f51 == 'f51b' %} {% assign
-            diagnostics_ing3 = 'Noisette' %} {% endif %} {% endif %} {% if
-            preocupa1 == 'Rougeurs' %} {% if f52 ==
-            'f52a' or f52 == 'f52b' %} {% assign diagnostics_ing3 =
-            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
-            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
-            endif %} {% if preocupa1 == 'Eclat' and f53
-            == 'f53a' %} {% assign diagnostics_ing3 = 'Carotte' %} {% comment %}
-            Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% if preocupa1
-            == 'Eclat' and f53 == 'f53b' %} {% assign
-            diagnostics_ing3 = 'Abricot' %} {% comment %} Puedes agregar aquí
-            cualquier otra lógica o acciones adicionales necesarias {%
-            endcomment %} {% endif %} {% if preocupa1 == 'Signes' %}
-            {% if f54 == 'f54a' or f54 == 'f54b' %} {%
-            assign diagnostics_ing3 = 'Argan' %} {% comment %} Puedes agregar
-            aquí cualquier otra lógica o acciones adicionales necesarias {%
-            endcomment %} {% endif %} {% endif %} {% assign diagnostics_ing2 =
-            ing2 %} {% if preocupa2 == 'Imperfections'
-            %} {% if f51 == 'f51a' or f51 == 'f51b' %}
-            {% assign diagnostics_ing2 = 'Noisette' %} {% comment %} Puedes
-            agregar aquí cualquier otra lógica o acciones adicionales necesarias
-            {% endcomment %} {% endif %} {% elsif preocupa2 ==
-            'Rougeurs' %} {% if f52 == 'f52a' or f52 ==
-            'f52b' %} {% assign diagnostics_ing2 = 'Amande' %} {% comment %}
-            Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% elsif
-            preocupa2 == 'Eclat' %} {% if f53 == 'f53a'
-            %} {% assign diagnostics_ing2 = 'Carotte' %} {% elsif
-            f53 == 'f53b' %} {% assign diagnostics_ing2 = 'Abricot'
-            %} {% endif %} {% elsif preocupa2 == 'Signes' %} {% if
-            f54 == 'f54a' or f54 == 'f54b' %} {% assign
-            diagnostics_ing2 = 'Argan' %} {% comment %} Puedes agregar aquí
-            cualquier otra lógica o acciones adicionales necesarias {%
-            endcomment %} {% endif %} {% elsif preocupa2 ==
-            'Brillance' %} {% assign diagnostics_ing2 = 'Noisette' %} {% comment
-            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% elsif preocupa2 ==
-            'Deshydratation' %} {% assign diagnostics_ing2 = 'Onagre' %} {%
-            comment %} Puedes agregar aquí cualquier otra lógica o acciones
-            adicionales necesarias {% endcomment %} {% endif %} {% assign
-            diagnostics_ing1 = ing1 %} {% if preocupa3
-            == 'Imperfections' %} {% if f51 == 'f51a' or
-            f51 == 'f51b' %} {% assign diagnostics_preocupa3 =
-            'Noisette' %} {% assign diagnostics_ing1 = 'Noisette' %} {% comment
-            %} Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% elsif
-            preocupa3 == 'Rougeurs' %} {% if f52 ==
-            'f52a' or f52 == 'f52b' %} {% assign
-            diagnostics_preocupa3 = 'Amande' %} {% assign diagnostics_ing1 =
-            'Amande' %} {% comment %} Puedes agregar aquí cualquier otra lógica
-            o acciones adicionales necesarias {% endcomment %} {% endif %} {%
-            elsif preocupa3 == 'Eclat' %} {% if f53 ==
-            'f53a' %} {% assign diagnostics_preocupa3 = 'Carotte' %} {% assign
-            diagnostics_ing1 = 'Carotte' %} {% elsif f53 == 'f53b'
-            %} {% assign diagnostics_preocupa3 = 'Abricot' %} {% assign
-            diagnostics_ing1 = 'Abricot' %} {% endif %} {% elsif
-            preocupa3 == 'Signes' %} {% if f54 == 'f54a'
-            or f54 == 'f54b' %} {% assign diagnostics_preocupa3 =
-            'Argan' %} {% assign diagnostics_ing1 = 'Argan' %} {% comment %}
-            Puedes agregar aquí cualquier otra lógica o acciones adicionales
-            necesarias {% endcomment %} {% endif %} {% elsif
-            preocupa3 == 'Brillance' %} {% assign
-            diagnostics_preocupa3 = 'Noisette' %} {% assign diagnostics_ing1 =
-            'Noisette' %} {% comment %} Puedes agregar aquí cualquier otra
-            lógica o acciones adicionales necesarias {% endcomment %} {% elsif
-            preocupa3 == 'Deshydratation' %} {% assign
-            diagnostics_preocupa3 = 'Onagre' %} {% assign diagnostics_ing1 =
-            'Onagre' %} {% comment %} Puedes agregar aquí cualquier otra lógica
-            o acciones adicionales necesarias {% endcomment %} {% endif %} {% if
-            diagnostics_ing1 == 'Carotte'%}
-            <div class="container-result flex" x-on:click="open1 = !open1">
-                {% elsif diagnostics_ing1 == 'Argan' %}
-                <div class="container-result flex" x-on:click="open2 = !open2">
-                    {% elsif diagnostics_ing1 == 'Abricot' %}
-                    <div
-                        class="container-result flex"
-                        x-on:click="open3 = !open3"
-                    >
-                        {% elsif diagnostics_ing1 == 'Noisette' %}
-                        <div
-                            class="container-result flex"
-                            x-on:click="open4 = !open4"
-                        >
-                            {% elsif diagnostics_ing1 == 'Amande' %}
-                            <div
-                                class="container-result flex"
-                                x-on:click="open5 = !open5"
-                            >
-                                {% elsif diagnostics_ing1 == 'Onagre' %}
-                                <div
-                                    class="container-result flex"
-                                    x-on:click="open6 = !open6"
-                                >
-                                    {% endif %}
+                        
+                <div class="container-result flex" id="result1" x-on:click="open2 = !open2">
+                    
 
                                     <div class="container-image">
-                                        {% assign ing1_image = 'amande-capsule.png' %} {% if
-                                        diagnostics_ing1 == '' %} {% if
-                                        ing1 == 'Amande' %} {%
-                                        assign ing1_image = 'amande-capsule.png'
-                                        %} {% elsif ing1 == 'Onagre'
-                                        %} {% assign ing1_image =
-                                        'onagre-capsule.png' %} {% elsif
-                                        ing1 == 'Argan' %} {% assign
-                                        ing1_image = 'argan-capsule.png' %} {%
-                                        elsif ing1 == 'Abricot' %}
-                                        {% assign ing1_image =
-                                        'abricot-capsule.png' %} {% elsif
-                                        ing1 == 'Noisette' %} {%
-                                        assign ing1_image =
-                                        'noisette-capsule.png' %} {% else %} {%
-                                        assign ing1_image =
-                                        'carolle-capsule.png' %} {% endif %} {%
-                                        else %} {% assign ing1_image =
-                                        diagnostics_ing1 | append: '-capsule.png' |
-                                        downcase %} {% endif %}
+                                         
 
-                                        <img
-                                            src="{{ ing1_image | asset_url }}"
-                                            id="imgSrcIngredient1"
-                                            alt="Imagen del ingrediente 1"
-                                            style="width: 32px"
-                                        />
+                                        <img src="//hilo-cosmetiques.fr/cdn/shop/t/4/assets/argan-capsule.png?v=12080997160789623801684758688" id="imgSrcIngredient1" alt="Imagen del ingrediente 1" style="width: 32px">
                                     </div>
                                     <div class="container-result-p">
                                         <p id="ing1_img">
-                                            {% if diagnostics_ing1 == 'Amande'
-                                            %} {{ amande }} {% elsif
-                                            diagnostics_ing1 == 'Onagre' %} {{
-                                            onagre }} {% elsif diagnostics_ing1
-                                            == 'Argan' %} {{ argan }} {% elsif
-                                            diagnostics_ing1 == 'Abricot' %} {{
-                                            abricot }} {% elsif diagnostics_ing1
-                                            == 'Noisette' %} {{ noisette }} {%
-                                            else %} {{ carotte }} {% endif %}
+                                           loading
                                         </p>
                                     </div>
                                 </div>
 
-                                {% if diagnostics_ing2 == 'Carotte'%}
-                                <div
-                                    class="container-result flex"
-                                    x-on:click="open1 = !open1"
-                                >
-                                    {% elsif diagnostics_ing2 == 'Argan' %}
-                                    <div
-                                        class="container-result flex"
-                                        x-on:click="open2 = !open2"
-                                    >
-                                        {% elsif diagnostics_ing2 == 'Abricot'
-                                        %}
-                                        <div
-                                            class="container-result flex"
-                                            x-on:click="open3 = !open3"
-                                        >
-                                            {% elsif diagnostics_ing2 ==
-                                            'Noisette' %}
-                                            <div
-                                                class="container-result flex"
-                                                x-on:click="open4 = !open4"
-                                            >
-                                                {% elsif diagnostics_ing2 ==
-                                                'Amande' %}
-                                                <div
-                                                    class="container-result flex"
-                                                    x-on:click="open5 = !open5"
-                                                >
-                                                    {% elsif diagnostics_ing2 ==
-                                                    'Onagre' %}
-                                                    <div
-                                                        class="container-result flex"
-                                                        x-on:click="open6 = !open6"
-                                                    >
-                                                        {% endif %}
+                                
+                                            <div class="container-result flex" id="result2" x-on:click="open1 = !open1">
+                                                
 
-                                                        <div
-                                                            class="container-image"
-                                                        >
-                                                            {% assign ing2_image
-                                                            = 'amande-capsule.png' %} {% if
-                                                            diagnostics_ing2 ==
-                                                            '' %} {% if
-                                                            ing2 ==
-                                                            'Amande' %} {%
-                                                            assign ing2_image =
-                                                            'amande-capsule.png' %} {%
-                                                            elsif
-                                                            ing2 ==
-                                                            'Onagre' %} {%
-                                                            assign ing2_image =
-                                                            'onagre-capsule.png' %} {%
-                                                            elsif
-                                                            ing2 ==
-                                                            'Argan' %} {% assign
-                                                            ing2_image =
-                                                            'argan-capsule.png' %} {%
-                                                            elsif
-                                                            ing2 ==
-                                                            'Abricot' %} {%
-                                                            assign ing2_image =
-                                                            'abricot-capsule.png' %} {%
-                                                            elsif
-                                                            ing2 ==
-                                                            'Noisette' %} {%
-                                                            assign ing2_image =
-                                                            'noisette-capsule.png' %}
-                                                            {% else %} {% assign
-                                                            ing2_image =
-                                                            'carotte-capsule.png' %} {%
-                                                            endif %} {% else %}
-                                                            {% assign ing2_image
-                                                            = diagnostics_ing2 |
-                                                            append: '-capsule.png' |
-                                                            downcase %} {% endif
-                                                            %}
+                                                        <div class="container-image">
+                                                             
 
-                                                            <img
-                                                                src="{{ ing2_image | asset_url }}"
-                                                                id="imgSrcIngredient2"
-                                                                alt="Imagen del ingrediente 2"
-                                                                style="
+                                                            <img src="//hilo-cosmetiques.fr/cdn/shop/t/4/assets/noisette-capsule.png?v=126760939064886163521684758706" id="imgSrcIngredient2" alt="Imagen del ingrediente 2" style="
                                                                     width: 32px;
-                                                                "
-                                                            />
+                                                                ">
                                                         </div>
-                                                        <div
-                                                            class="container-result-p"
-                                                        >
+                                                        <div class="container-result-p">
                                                             <p id="ing2_img">
-                                                                {% if
-                                                                diagnostics_ing2
-                                                                == 'Amande' %}
-                                                                {{ amande }} {%
-                                                                elsif
-                                                                diagnostics_ing2
-                                                                == 'Onagre' %}
-                                                                {{ onagre }} {%
-                                                                elsif
-                                                                diagnostics_ing2
-                                                                == 'Argan' %} {{
-                                                                argan }} {%
-                                                                elsif
-                                                                diagnostics_ing2
-                                                                == 'Abricot' %}
-                                                                {{ abricot }} {%
-                                                                elsif
-                                                                diagnostics_ing2
-                                                                == 'Noisette' %}
-                                                                {{ noisette }}
-                                                                {% else %} {{
-                                                                carotte }} {%
-                                                                endif %}
+                                                                
+                                                              loading
+                                                                
                                                             </p>
                                                         </div>
                                                     </div>
 
-                                                    {% if diagnostics_ing3 ==
-                                                    'Carotte'%}
-                                                    <div
-                                                        class="container-result flex"
-                                                        x-on:click="open1 = !open1"
-                                                    >
-                                                        {% elsif
-                                                        diagnostics_ing3 ==
-                                                        'Argan' %}
-                                                        <div
-                                                            class="container-result flex"
-                                                            x-on:click="open2 = !open2"
-                                                        >
-                                                            {% elsif
-                                                            diagnostics_ing3 ==
-                                                            'Abricot' %}
-                                                            <div
-                                                                class="container-result flex"
-                                                                x-on:click="open3 = !open3"
-                                                            >
-                                                                {% elsif
-                                                                diagnostics_ing3
-                                                                == 'Noisette' %}
-                                                                <div
-                                                                    class="container-result flex"
-                                                                    x-on:click="open4 = !open4"
-                                                                >
-                                                                    {% elsif
-                                                                    diagnostics_ing3
-                                                                    == 'Amande'
-                                                                    %}
-                                                                    <div
-                                                                        class="container-result flex"
-                                                                        x-on:click="open5 = !open5"
-                                                                    >
-                                                                        {% elsif
-                                                                        diagnostics_ing3
-                                                                        ==
-                                                                        'Onagre'
-                                                                        %}
-                                                                        <div
-                                                                            class="container-result flex"
-                                                                            x-on:click="open6 = !open6"
-                                                                        >
-                                                                            {%
-                                                                            endif
-                                                                            %}
-                                                                            <div
-                                                                                class="container-image"
-                                                                            >
-                                                                                {%
-                                                                                if
-                                                                                diagnostics_ing3
-                                                                                ==
-                                                                                ''
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'amande-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                if
-                                                                                ing3
-                                                                                ==
-                                                                                'Amande'
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'amande-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                elsif
-                                                                                ing3
-                                                                                ==
-                                                                                'Onagre'
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'onagre-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                elsif
-                                                                                ing3
-                                                                                ==
-                                                                                'Argan'
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'argan-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                elsif
-                                                                                ing3
-                                                                                ==
-                                                                                'Abricot'
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'abricot-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                elsif
-                                                                                ing3
-                                                                                ==
-                                                                                'Noisette'
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'noisette-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                else
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                'carotte-capsule.png'
-                                                                                %}
-                                                                                {%
-                                                                                endif
-                                                                                %}
-                                                                                {%
-                                                                                else
-                                                                                %}
-                                                                                {%
-                                                                                assign
-                                                                                ing3_image
-                                                                                =
-                                                                                diagnostics_ing3
-                                                                                |
-                                                                                append:
-                                                                                '-capsule.png'
-                                                                                |
-                                                                                downcase
-                                                                                %}
-                                                                                {%
-                                                                                endif
-                                                                                %}
+                                                    
+                                                            <div class="container-result flex" id="result3" x-on:click="open3 = !open3">
+                                                                
+                                                                            <div class="container-image">
+                                                                                
 
-                                                                                <img
-                                                                                    src="{{ ing3_image | asset_url }}"
-                                                                                    id="imgSrcIngredient3"
-                                                                                    alt="Imagen del ingrediente 3"
-                                                                                    style="
+                                                                                <img src="//hilo-cosmetiques.fr/cdn/shop/t/4/assets/abricot-capsule.png?v=92134891657885269541684758673" id="imgSrcIngredient3" alt="Imagen del ingrediente 3" style="
                                                                                         width: 32px;
-                                                                                    "
-                                                                                />
+                                                                                    ">
                                                                             </div>
-                                                                            <div
-                                                                                class="container-result-p"
-                                                                            >
+                                                                            <div class="container-result-p">
                                                                                 <p id="ing3_img">
-                                                                                    {%
-                                                                                    if
-                                                                                    diagnostics_ing3
-                                                                                    ==
-                                                                                    'Amande'
-                                                                                    %}
-                                                                                    {{
-                                                                                    amande
-                                                                                    }}
-                                                                                    {%
-                                                                                    elsif
-                                                                                    diagnostics_ing3
-                                                                                    ==
-                                                                                    'Onagre'
-                                                                                    %}
-                                                                                    {{
-                                                                                    onagre
-                                                                                    }}
-                                                                                    {%
-                                                                                    elsif
-                                                                                    diagnostics_ing3
-                                                                                    ==
-                                                                                    'Argan'
-                                                                                    %}
-                                                                                    {{
-                                                                                    argan
-                                                                                    }}
-                                                                                    {%
-                                                                                    elsif
-                                                                                    diagnostics_ing3==
-                                                                                    'Abricot'
-                                                                                    %}
-                                                                                    {{
-                                                                                    abricot
-                                                                                    }}
-                                                                                    {%
-                                                                                    elsif
-                                                                                    diagnostics_ing3==
-                                                                                    'Noisette'
-                                                                                    %}
-                                                                                    {{
-                                                                                    noisette
-                                                                                    }}
-                                                                                    {%
-                                                                                    else
-                                                                                    %}
-                                                                                    {{
-                                                                                    carotte
-                                                                                    }}
-                                                                                    {%
-                                                                                    endif
-                                                                                    %}
+                                                                                    
+loading
+                                                                                    
                                                                                 </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
+</div>
 
 
-                                                        </div>
-                                                    </div>
 
-                                           
-                                                    <style>
+
+<style>
+    .container-modal {
+        margin: 0 auto;
+
+        background: white;
+        padding: 20px 30px;
+
+        z-index: 9999;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .modal {
+        position: fixed;
+
+        width: 50%;
+        margin: 0 auto;
+
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .duration-300 {
+        transition-duration: 300ms;
+    }
+
+    .ease-in {
+        transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    }
+
+    .ease-out {
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    .scale-90 {
+        transform: scale(0.9);
+    }
+
+    .scale-100 {
+        transform: scale(1);
+    }
+
+    .svg-waves {
+        top: -60px !important;
+    }
+    @media (max-width: 980px) {
+        .collection-result,
+        .collection {
+            grid-template-columns: 1fr !important;
+        }
+        .collection ul {
+            display: grid;
+            justify-items: center;
+        }
+        .full-width .waves5b-rich-text {
+            bottom: 0px !important;
+        }
+    }
+</style>
+                                <style>
                                                         .collection
                                                             .card
                                                             .card__heading {
@@ -1718,16 +976,406 @@ Il est important de conserver cette hydratation pour une peau en pleine santé.
                                                     %} {% endstylesheet %} {%
                                                     javascript %} {%
                                                     endjavascript %}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
+
+                                                                    <script>
+        // Capturar la URL de la página
+        var contentForQuerystring = window.location.href;
+
+        // Obtener la parte de la URL después del '?'
+        var queryString = contentForQuerystring.split('?')[1] || '';
+
+        // Decodificar los parámetros de la URL
+        var decodedParams = decodeURIComponent(queryString);
+
+        // Separar los parámetros en un array
+        var paramsArray = decodedParams.split('&');
+
+        // Inicializar variables
+        var customerId, name, gender, age, peau, deshy, madure, preocupa1, preocupa2, preocupa3;
+        var f51, f52, f53, f54, ing1, ing2, ing3, date, result;
+
+        // Asignar valores a las variables según el nombre del parámetro
+        paramsArray.forEach(function(param) {
+            var paramPair = param.split('=');
+            var paramName = paramPair[0];
+            var paramValue = paramPair[1] || '';
+
+            switch (paramName) {
+                case 'customerId': customerId = paramValue; break;
+                case 'name': name = paramValue; break;
+                case 'gender': gender = paramValue; break;
+                case 'age': age = paramValue; break;
+                case 'peau': peau = paramValue; break;
+                case 'deshy': deshy = paramValue; break;
+                case 'madure': madure = paramValue; break;
+                case 'preocupa1': preocupa1 = paramValue; break;
+                case 'preocupa2': preocupa2 = paramValue; break;
+                case 'preocupa3': preocupa3 = paramValue; break;
+                case 'f51': f51 = paramValue; break;
+                case 'f52': f52 = paramValue; break;
+                case 'f53': f53 = paramValue; break;
+                case 'f54': f54 = paramValue; break;
+                case 'ing1': ing1 = paramValue; break;
+                case 'ing2': ing2 = paramValue; break;
+                case 'ing3': ing3 = paramValue; break;
+                case 'date': date = paramValue; break;
+                case 'result': result = paramValue; break;
+                default: break;
+            }
+        });
+
+        console.log({
+            customerId,
+            name,
+            gender,
+            age,
+            peau,
+            deshy,
+            madure,
+            preocupa1,
+            preocupa2,
+            preocupa3,
+            f51,
+            f52,
+            f53,
+            f54,
+            ing1,
+            ing2,
+            ing3,
+            date,
+            result
+        });
+
+
+const ingredientsNumbers = {
+    "Onagre": "open6",
+    "Carotte": "open1",
+    "Abricot": "open3",
+    "Argan": "open2",
+    "Noisette": "open4",
+    "Amande": "open5"
+};
+                                                                      
+                                                                      // Definir descripciones para los nuevos elementos
+const ingredientDescriptions = {
+    "Onagre": "<b class='bold'>Hydratante</b> : maintien l'hydratation de la peau et renforce le film hydrolipidique",
+    "Carotte": "<b class='bold'>Bonne mine</b> : permet d'obtenir un joli teint hâlé uniforme",
+    "Abricot": "<b class='bold'>Illuminante</b> : apporte un coup d'éclat et illumine le teint",
+    "Argan": "<b class='bold'>Anti-âge</b> : protège du vieillissement cutané et des agressions extérieures",
+    "Noisette": "<b class='bold'>Anti-imperfections</b> : régule le sébum et rééquilibre la peau",
+    "Amande": "<b class='bold'>Apaisante</b> : soulage les irritations et rougeurs"
+};
+
+                                                                      
+                                                                         // Descripciones y títulos de los ingredientes
+        const ingredientTitles = {
+            "Onagre": "Hydratante",
+            "Amande": "Apaisante",
+            "Noisette": "Anti-imperfections",
+            "Carotte": "Bonne mine",
+            "Abricot": "Illuminante",
+            "Argan": "Anti-âge"
+        };
+
+                                                                       // Imágenes de los ingredientes
+        const ingredientImages = {
+            "Onagre": "https://hilo-cosmetiques.fr/cdn/shop/t/4/assets/onagre-capsule.png",
+            "Amande": "https://hilo-cosmetiques.fr/cdn/shop/t/4/assets/amande-capsule.png",
+            "Noisette": "https://hilo-cosmetiques.fr/cdn/shop/t/4/assets/noisette-capsule.png",
+            "Carotte": "https://hilo-cosmetiques.fr/cdn/shop/t/4/assets/carotte-capsule.png",
+            "Abricot": "https://hilo-cosmetiques.fr/cdn/shop/t/4/assets/abricot-capsule.png",
+            "Argan": "https://hilo-cosmetiques.fr/cdn/shop/t/4/assets/argan-capsule.png"
+        };
+
+
+                                                                      // Definir descripciones para los tipos de piel, madurez y deshidratación
+const skinDescriptions = {
+    "seche": "✨ Vous avez une <b>peau à tendance sèche</b>. Elle ne produit pas beaucoup de sébum ce qui peut la rendre rêche, terne et provoquer des tiraillements et irritations. La peau sèche est plus sensible que les autres et manque de souplesse.",
+    "normal": "✨ Vous avez une <b>peau à tendance normale</b>. C’est la peau considérée comme parfaite. Elle est très bien équilibrée, douce, lisse et son grain est régulier.",
+    "mixte": "✨ Vous avez une <b>peau à tendance mixte</b>. Ce type de peau est un mélange de différentes caractéristiques de peau en fonction des zones du visage. La peau est généralement grasse sur la zone T du visage (front, nez, menton) et plus sèche sur le reste du visage. Des sensations de tiraillements peuvent être ressenties et elle peut présenter des imperfections.",
+    "grasse": "✨ Vous avez une <b>peau à tendance grasse</b>. Elle produit beaucoup de sébum ce qui peut lui donner un aspect brillant. Le grain de peau est irrégulier, les pores sont dilatés ce qui peut favoriser l’apparition d’imperfections. Elle se déshydrate et s’irrite facilement, il ne faut donc pas négliger l’hydratation."
+};
+
+const ageDescriptions = {
+    "madure": "✨ La production naturelle de collagène de votre corps diminue et votre peau peut commencer à se relâcher. On conseille de commencer à traiter le vieillissement cutané aux alentours de 25 ans afin de <b>prévenir l’apparition de rides et ridules</b>.",
+    "nomadure": "✨ Votre peau est <b>tonique</b> et possède encore toute son élasticité."
+};
+
+const hydrationDescriptions = {
+    "deshy": "✨ Votre peau est <b>déshydratée</b>. Elle manque d’eau, ce qui altère le film hydrolipidique de l’épiderme et affaiblit la barrière cutanée. La déshydratation peut causer des tiraillements, des irritations, un manque de souplesse et une perte d’éclat.",
+    "nodeshy": "✨ Votre peau est bien <b>hydratée</b>. L’hydratation est primordiale et permet d’avoir une peau saine. Il est important de conserver cette hydratation pour une peau en pleine santé."
+};
+
+       
+        // Lógica para determinar los ingredientes
+        let diagnostics_ing1 = ing1;
+        let diagnostics_ing2 = ing2;
+        let diagnostics_ing3 = ing3;
+        let diagnostics_preocupa3 = '';
+
+        // Lógica para diagnostics_ing3
+        if (preocupa1 === 'Brillance') {
+            diagnostics_ing3 = 'Noisette';
+        } else if (preocupa1 === 'Deshydratation') {
+            diagnostics_ing3 = 'Onagre';
+        } else if (preocupa1 === 'Imperfections' && (f51 === 'f51a' || f51 === 'f51b')) {
+            diagnostics_ing3 = 'Noisette';
+        } else if (preocupa1 === 'Rougeurs' && (f52 === 'f52a' || f52 === 'f52b')) {
+            diagnostics_ing3 = 'Amande';
+        } else if (preocupa1 === 'Eclat') {
+            diagnostics_ing3 = (f53 === 'f53a') ? 'Carotte' : (f53 === 'f53b') ? 'Abricot' : diagnostics_ing3;
+        } else if (preocupa1 === 'Signes' && (f54 === 'f54a' || f54 === 'f54b')) {
+            diagnostics_ing3 = 'Argan';
+        }
+
+        // Lógica para diagnostics_ing2
+        if (preocupa2 === 'Imperfections' && (f51 === 'f51a' || f51 === 'f51b')) {
+            diagnostics_ing2 = 'Noisette';
+        } else if (preocupa2 === 'Rougeurs' && (f52 === 'f52a' || f52 === 'f52b')) {
+            diagnostics_ing2 = 'Amande';
+        } else if (preocupa2 === 'Eclat') {
+            diagnostics_ing2 = (f53 === 'f53a') ? 'Carotte' : (f53 === 'f53b') ? 'Abricot' : diagnostics_ing2;
+        } else if (preocupa2 === 'Signes' && (f54 === 'f54a' || f54 === 'f54b')) {
+            diagnostics_ing2 = 'Argan';
+        } else if (preocupa2 === 'Brillance') {
+            diagnostics_ing2 = 'Noisette';
+        } else if (preocupa2 === 'Deshydratation') {
+            diagnostics_ing2 = 'Onagre';
+        }
+
+        // Lógica para diagnostics_ing1
+        if (preocupa3 === 'Imperfections' && (f51 === 'f51a' || f51 === 'f51b')) {
+            diagnostics_preocupa3 = 'Noisette';
+            diagnostics_ing1 = 'Noisette';
+        } else if (preocupa3 === 'Rougeurs' && (f52 === 'f52a' || f52 === 'f52b')) {
+            diagnostics_preocupa3 = 'Amande';
+            diagnostics_ing1 = 'Amande';
+        } else if (preocupa3 === 'Eclat') {
+            diagnostics_preocupa3 = (f53 === 'f53a') ? 'Carotte' : (f53 === 'f53b') ? 'Abricot' : diagnostics_preocupa3;
+            diagnostics_ing1 = (f53 === 'f53a') ? 'Carotte' : (f53 === 'f53b') ? 'Abricot' : diagnostics_ing1;
+        } else if (preocupa3 === 'Signes' && (f54 === 'f54a' || f54 === 'f54b')) {
+            diagnostics_preocupa3 = 'Argan';
+            diagnostics_ing1 = 'Argan';
+        } else if (preocupa3 === 'Brillance') {
+            diagnostics_preocupa3 = 'Noisette';
+            diagnostics_ing1 = 'Noisette';
+        } else if (preocupa3 === 'Deshydratation') {
+            diagnostics_preocupa3 = 'Onagre';
+            diagnostics_ing1 = 'Onagre';
+        }
+
+        console.log({
+            diagnostics_ing1,
+            diagnostics_ing2,
+            diagnostics_ing3
+        });
+
+                                                                      // Función para establecer el texto de los párrafos
+function setText(id, description) {
+    document.getElementById(id).innerHTML = description || 'Description non disponible';
+}
+
+// Lógica para determinar los textos
+const peauDescription = skinDescriptions[peau] || '';
+const madureDescription = ageDescriptions[madure] || '';
+const deshyDescription = hydrationDescriptions[deshy] || '';
+
+// Asignar textos a los párrafos
+setText('peau', peauDescription);
+setText('madure', madureDescription);
+setText('deshy', deshyDescription);
+
+
+                                                                         // Función para establecer el título y la imagen del ingrediente
+        function setIngredientInfo(ingredientId, titleElementId, imgElementId) {
+            const title = ingredientTitles[ingredientId] || 'Ingrédient non défini';
+            const imgSrc = ingredientImages[ingredientId] || '';
+
+            document.getElementById(titleElementId).innerHTML = title;
+            if (imgSrc) {
+                document.getElementById(imgElementId).src = imgSrc;
+            }
+        }
+
+        // Asignar títulos y imágenes a los elementos
+        setIngredientInfo(diagnostics_ing1, 'setBen1', 'imgIngrediente1');
+        setIngredientInfo(diagnostics_ing2, 'setBen2', 'imgIngrediente2');
+        setIngredientInfo(diagnostics_ing3, 'setBen3', 'imgIngrediente3');
+
+                                                    
+
+                                                                      
+        document.getElementById('namehere').textContent = name || 'Cliente';
+
+    </script>
+
+                              <script>
+
+                                
+                                 // Función para actualizar la información del ingrediente
+function updateIngredientDetails(ingredientId, resultId) {
+    // Obtener la descripción y la URL de la imagen del ingrediente
+    const description = ingredientDescriptions[ingredientId] || 'Description non disponible';
+    const imgSrc = ingredientImages[ingredientId] || '';
+
+    // Actualizar el contenido del elemento p dentro de resultId
+    const pElement = document.querySelector(`#${resultId} .container-result-p p`);
+    if (pElement) {
+        pElement.innerHTML = description;
+    }
+
+    // Actualizar la fuente de la imagen dentro de resultId
+    const imgElement = document.querySelector(`#${resultId} .container-image img`);
+    if (imgElement) {
+        imgElement.src = imgSrc;
+    }
+}
+
+// Ejemplo de uso con tus elementos HTML
+updateIngredientDetails(diagnostics_ing1, 'result1');
+updateIngredientDetails(diagnostics_ing2, 'result2');
+updateIngredientDetails(diagnostics_ing3, 'result3');
+
+
+
+                                
+                                
+
+                              </script>
+
+
+                              <script>
+                                function updateOnClickAttributes() {
+    // Obtener los elementos
+    const result1 = document.getElementById('result1');
+    const result2 = document.getElementById('result2');
+    const result3 = document.getElementById('result3');
+    
+    // Actualizar el atributo x-on:click
+    if (result1) {
+        const ing1 = ingredientsNumbers[diagnostics_ing1];
+        result1.setAttribute('x-on:click', `${ing1} = !${ing1}`);
+    }
+    
+    if (result2) {
+        const ing2 = ingredientsNumbers[diagnostics_ing2];
+        result2.setAttribute('x-on:click', `${ing2} = !${ing2}`);
+    }
+    
+    if (result3) {
+        const ing3 = ingredientsNumbers[diagnostics_ing3];
+        result3.setAttribute('x-on:click', `${ing3} = !${ing3}`);
+    }
+}
+
+// Llamar a la función para aplicar los cambios
+updateOnClickAttributes();
+
+                              </script>
+
+    <script>
+    // Función para generar la URL de compra
+    function generatePurchaseLink(diagnostic1, diagnostic2, diagnostic3) {
+        // URL base para cada producto
+        let url1 = "https://hilo-cosmetiques.myshopify.com/cart/add?id=44925681205543&quantity=1";
+        let url2 = "https://hilo-cosmetiques.myshopify.com/cart/add?id=44390995886375&quantity=1";
+        let url3 = "https://hilo-cosmetiques.myshopify.com/cart/add?id=45094152241447&quantity=1";
+
+        // Agregar todos los diagnósticos como propiedades en cada URL
+        url1 += `&properties[${diagnostic1}]=1&properties[${diagnostic2}]=1&properties[${diagnostic3}]=1`;
+        url2 += `&properties[${diagnostic1}]=1&properties[${diagnostic2}]=1&properties[${diagnostic3}]=1`;
+        url3 += `&properties[${diagnostic1}]=1&properties[${diagnostic2}]=1&properties[${diagnostic3}]=1`;
+
+        return [url1, url2, url3];
+    }
+
+
+    // Generar las URL de compra
+    const [purchaseLink1, purchaseLink2, purchaseLink3] = generatePurchaseLink(diagnostics_ing1, diagnostics_ing2, diagnostics_ing3);
+
+    // Actualizar el HTML con las URLs generadas
+    document.getElementById('purchaseLink1').href = purchaseLink1;
+    document.getElementById('purchaseLink2').href = purchaseLink2;
+    document.getElementById('purchaseLink3').href = purchaseLink3;
+</script>
+
+                              <script>
+       // Contenido para la piel seca
+var secheContent = `
+    <b>Votre peau à tendance sèche :</b>
+    <br><br>
+    🚿 <b>Douches</b> : privilégiez des douches courtes et avec une eau tempéré. L’eau détériore le film hydrolipidique qui protège la peau et l’eau très chaude accélère ce phénomène. 
+    <br><br>
+    <b>💄 Démaquillage</b> : c’est l’une des étapes les plus importante pour un visage sain et en bonne santé. Hilo vous conseille un <b>démaquillage naturel à l’huile végétale</b> pour nourrir votre peau et ne pas l’agresser. 
+    <br><br>
+    <b>💧 Hydratation</b> : buvez beaucoup d’eau (1,5 L par jour minimum), afin d’hydrater votre peau de l’intérieur. Une bonne hydratation permet de renforcer la barrière cutanée. 
+    <br><br>
+    <b>🍊 Alimentation</b> : privilégiez une alimentation équilibrée, et notamment les aliments riches en : 
+    <br>- <b>Vitamine C </b> : elle favorise la production de collagène qui aide la peau à être plus forte et plus souple (agrumes, kiwi, poivron, brocoli…)
+    <br>- <b>Vitamine A </b> : elle renforce la barrière protectrice de la peau, favorise le renouvellement cellulaire et prévient le dessèchement de la peau (carotte, melon, tomate, abricot…)
+    <br>- <b>Acide gras essentiels </b> (oméga 3, 6, 9) : ils apportent de la souplesse à l’épiderme et protègent la peau de la déshydratation (poissons gras, avocats, fruits à coques, huiles végétales…)
+    <br><br>
+    <b>⛔ À éviter</b> : l’excès d'aliments qui déshydratent le corps (alcool, café, sel, junkfood…)
+`;
+
+// Contenido para la piel normal
+var normaleContent = `
+    <b>Votre peau à tendance normale :</b>
+    <br><br>
+    <b>🌞 Soleil</b> : utilisez une protection solaire renforcée pour conserver l’équilibre de votre peau, éviter sa déshydratation et son vieillissement prématuré. 
+    <br><br>
+    <b>🏃 Sport</b> : l’exercice physique favorise la production de collagène et améliore la tonicité de la peau. Il permet également d’améliorer la circulation sanguine et de raviver l’éclat de votre teint. 
+    <br><br>
+    <b>💄 Démaquillage</b> : c’est l’une des étapes les plus importante pour un visage sain et en bonne santé. Hilo vous conseille un <b>démaquillage naturel à l’huile végétale</b> pour nourrir votre peau et ne pas l’agresser. 
+    <br><br>
+    <b>💧 Hydratation</b> : buvez beaucoup d’eau (1,5 L par jour minimum), afin d’hydrater votre peau de l’intérieur. Une bonne hydratation permet de renforcer la barrière cutanée. 
+    <br><br>
+    <b>🍊 Alimentation</b> : privilégiez une alimentation saine et équilibrée pour apporter à votre peau tous les nutriments dont elle a besoin (vitamines, protéines, acides gras, minéraux…)
+`;
+
+// Contenido para la piel mixta
+var mixteContent = `
+    <b>Votre peau à tendance mixte :</b>
+    <br><br>
+    <strong>🧘 Relaxation</strong> : évitez les sources de stress qui augmentent la production de sébum et déséquilibrent l’épiderme. Favorisez les activités relaxantes (massage, méditation, yoga…).
+    <br><br>
+    <b>💄 Démaquillage</b> : c’est l’une des étapes les plus importante pour un visage sain et en bonne santé. Hilo vous conseille un <b>démaquillage naturel à l’huile végétale</b> pour nourrir votre peau et ne pas l’agresser. 
+    <br><br>
+    <b>💧 Hydratation</b> : buvez beaucoup d’eau (1,5 L par jour minimum), afin d’hydrater votre peau de l’intérieur. Une bonne hydratation permet de renforcer la barrière cutanée. 
+    <br><br>
+    <b>🍊 Alimentation</b> : privilégiez une alimentation saine afin de rééquilibrer et assainir votre peau grâce notamment aux aliments riches en : 
+    <br>- <b>Zinc</b> : lentilles, oeufs, céréales complètes…
+    <br>- <b>Vitamine B</b> : légumineuses, noix, épinard, fruits rouges…
+    <br><br>
+    <b>⛔ À éviter</b> : les aliments transformés / industriels et trop sucrés qui favorisent la sécrétion de sébum et donc les imperfections.
+`;
+  console.log(peau);
+// Función para actualizar el contenido después de 2 segundos
+function updateContentWithDelay(peau) {
+    setTimeout(function() {
+        // Obtener el elemento de resultados
+        var resultsText = document.getElementById('results-text');
+      console.log(peau);
+
+        // Establecer el contenido basado en el valor de 'peau'
+        if (resultsText) {
+            if (peau === 'seche') {
+                resultsText.innerHTML = secheContent;
+            } else if (peau === 'normale') {
+                resultsText.innerHTML = normaleContent;
+            } else if (peau === 'mixte') {
+                resultsText.innerHTML = mixteContent;
+            } else if (peau === 'grasse') {
+                resultsText.innerHTML = grasseContent;
+            }
+        }
+    }, 500); // 2000 milisegundos = 2 segundos
+}
+
+// Llamar a la función con el valor de 'peau' deseado
+updateContentWithDelay(peau); // Cambiar 'seche' por el valor deseado
+
+
+                              </script>
