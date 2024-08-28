@@ -60,6 +60,7 @@
     },
     "custom_liquid_nYxYAU": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% render 'form-result-diag-url' %}",
         "color_scheme": "background-1",
