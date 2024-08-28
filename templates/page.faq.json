@@ -61,7 +61,7 @@
     "custom_liquid_nYxYAU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "rende",
+        "custom_liquid": "{% render 'form-result-diag-url' %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
