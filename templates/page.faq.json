@@ -58,16 +58,6 @@
         "show_text_below": false
       }
     },
-    "custom_liquid_nYxYAU": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% render 'form-result-diag-url' %}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "14c0a971-70b2-442f-ac7b-f2be54d60278": {
       "type": "collapsible-content",
       "blocks": {
@@ -355,7 +345,6 @@
   "order": [
     "main",
     "c5701f00-42e5-4d77-90c8-018a12b5820b",
-    "custom_liquid_nYxYAU",
     "14c0a971-70b2-442f-ac7b-f2be54d60278",
     "975b805c-7fb1-4c16-a406-4f8bb87bd369",
     "faad58b8-e34c-479b-b7ba-cd01246a49bb"
