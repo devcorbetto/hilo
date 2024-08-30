@@ -337,7 +337,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 35px; color: #575756; font-weight: bold;}",
-        "p {color: #575756;}",
+        "span {color: #575756;}",
         ".button--secondary {color: #85bf61; background-color: #fff !important; font-weight: bold; border-radius: 30px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}"
