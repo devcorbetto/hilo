@@ -91,7 +91,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Personnalisez votre soin visage en un clin d'œil !",
+            "heading": "Créez votre soin idéal, qui répond à toutes vos préoccupations",
             "heading_size": "h0"
           }
         },
@@ -106,7 +106,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Je découvre",
+            "button_label_1": "Je créé mon soin !",
             "button_link_1": "shopify:\/\/products\/creme-visage-naturelle-personnalisable-rechargeable",
             "button_out": false,
             "button_style_secondary_1": true,
@@ -129,18 +129,18 @@
         "paragraphe_f3Mj3B"
       ],
       "custom_css": [
-        ".banner__heading {font-size: 40px;}",
+        ".banner__heading {font-size: 35px;}",
         ".banner__text span {color: #fff;}",
         ".button--secondary {color: #f59f3c; background-color: #fff; border-radius: 30px; font-size: 20px;}",
         ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
         ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
-        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; font-size: 24px; margin-top: -20px; } .button--secondary {margin-top: 280px; font-size: 17px; }}"
+        "@media screen and (max-width: 749px) {.banner__heading {text-align: center; font-size: 24px; margin-top: -20px; } .button--secondary {margin-top: 225px; font-size: 17px; }}"
       ],
       "settings": {
         "textafter": "",
         "customcss": "banner-home",
-        "image": "shopify:\/\/shop_images\/Creme-visage-hilo-capsules-actifs_87fcaf1c-7936-428a-a769-7406a9b3bb20.png",
-        "mobile_image": "shopify:\/\/shop_images\/Creme-visage-naturelle-hilo-capsules-actifs_638a7f51-e27e-445c-8bd3-c5900a17b63f.png",
+        "image": "shopify:\/\/shop_images\/banniere-3-actifs-au-choix-sur_mesure.webp",
+        "mobile_image": "shopify:\/\/shop_images\/soin_sur_mesure_hilo_banniere.webp",
         "svg-wave": "vague-orange-clair",
         "image_overlay_opacity": 0,
         "image_height": "medium",
