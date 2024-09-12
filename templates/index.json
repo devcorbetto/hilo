@@ -442,6 +442,7 @@
       ],
       "settings": {
         "textafter": "",
+        "imageicon": "shopify:\/\/shop_images\/capsules-actifs-hilo.png",
         "customcss": "",
         "svg-wave": "none",
         "image_overlay_opacity": 0,
