@@ -300,66 +300,6 @@
         "include_margins": true
       }
     },
-    "image_banner_ppFQkB": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_NEUTRn": {
-          "type": "heading",
-          "settings": {
-            "heading": "RÉALISEZ VOTRE DIAGNOSTIC DE PEAU",
-            "heading_size": "h1"
-          }
-        },
-        "text_KUWK86": {
-          "type": "text",
-          "settings": {
-            "text": "2 minutes pour connaître votre peau et découvrir la formule Hilo qui vous correspond !",
-            "text_style": "body"
-          }
-        },
-        "buttons_Dk4fHk": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Je réalise mon diagnostic",
-            "button_link_1": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
-            "button_out": false,
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_NEUTRn",
-        "text_KUWK86",
-        "buttons_Dk4fHk"
-      ],
-      "custom_css": [
-        "h2 {font-size: 35px; color: #575756; font-weight: bold;}",
-        "span {color: #575756;}",
-        ".button--secondary {color: #85bf61; background-color: #fff !important; font-weight: bold; border-radius: 30px;}",
-        ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
-        ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
-        "@media screen and (max-width: 749px) {h2 {margin-top: 40px; font-size: 25px; }}"
-      ],
-      "settings": {
-        "textafter": "",
-        "customcss": "",
-        "image": "shopify:\/\/shop_images\/capsules-actifs-hilo.png",
-        "svg-wave": "none",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text_3piVGQ": {
       "type": "rich-text",
       "blocks": {
@@ -455,6 +395,65 @@
         "full_width": true,
         "padding_top": 36,
         "padding_bottom": 52
+      }
+    },
+    "image_banner_ppFQkB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NEUTRn": {
+          "type": "heading",
+          "settings": {
+            "heading": "RÉALISEZ VOTRE DIAGNOSTIC DE PEAU",
+            "heading_size": "h1"
+          }
+        },
+        "text_KUWK86": {
+          "type": "text",
+          "settings": {
+            "text": "2 minutes pour connaître votre peau et découvrir la formule Hilo qui vous correspond !",
+            "text_style": "body"
+          }
+        },
+        "buttons_Dk4fHk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Je réalise mon diagnostic",
+            "button_link_1": "shopify:\/\/pages\/diagnostic-de-peau-hilo",
+            "button_out": false,
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NEUTRn",
+        "text_KUWK86",
+        "buttons_Dk4fHk"
+      ],
+      "custom_css": [
+        "h2 {font-size: 35px; color: #575756; font-weight: bold;}",
+        "span {color: #575756;}",
+        ".button--secondary {color: #85bf61; background-color: #fff !important; font-weight: bold; border-radius: 30px;}",
+        ".button--secondary:hover {color: #fff !important; background-color: transparent !important;}",
+        ".button--secondary::after {box-shadow: none; border: 2px solid #fff !important;}",
+        "@media screen and (max-width: 749px) {h2 {margin-top: 40px; font-size: 25px; }}"
+      ],
+      "settings": {
+        "textafter": "",
+        "customcss": "",
+        "svg-wave": "none",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "rich_text_rbdWW9": {
@@ -1137,10 +1136,10 @@
     "multicolumn",
     "featured_collection",
     "1697198404f4db84a3",
-    "image_banner_ppFQkB",
     "rich_text_3piVGQ",
     "image_banner_QwAGqB",
     "rich_text_FV9fgE",
+    "image_banner_ppFQkB",
     "rich_text_rbdWW9",
     "373a2a2c-c9d7-41f5-811e-35c4b559b257",
     "rich_text",
